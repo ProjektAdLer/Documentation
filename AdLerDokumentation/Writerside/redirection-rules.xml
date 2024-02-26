@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="56c8e651">
+        <description>Created after removal of "This is the first topic" from Help Instance</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
+    <rule id="5538855d">
+        <description>Created after removal of "Software Design" from Help Instance</description>
+        <accepts>Software-Design.html</accepts>
+    </rule>
+    <rule id="64290f1d">
+        <description>Created after removal of "Lernwelt Create" from Help Instance</description>
+        <accepts>Lernwelt-Create.html</accepts>
+    </rule>
+    <rule id="78f65a9e">
+        <description>Created after removal of "Lernwelt Create" from Help Instance</description>
+        <accepts>ASE1.html</accepts>
+    </rule>
+</rules>
