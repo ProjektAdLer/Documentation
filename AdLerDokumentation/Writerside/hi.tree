@@ -116,8 +116,8 @@
                 <toc-element topic="Funktionale-Anforderung-Autorentool.md"/>
             </toc-element>
             <toc-element topic="Generator-Templates.md"/>
-            <toc-element topic="Backend-Templates.md"/>
             <toc-element topic="Engine-Templates.md"/>
+            <toc-element topic="Backend-Templates.md"/>
             <toc-element topic="Plugin-Templates.md"/>
         </toc-element>
         <toc-element topic="Benutzerdokumentation-Templates.md"/>
