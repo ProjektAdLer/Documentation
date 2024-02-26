@@ -89,6 +89,7 @@
             <toc-element topic="Autorentool-Glossareintrag.md"/>
         </toc-element>
         <toc-element topic="B.md">
+            <toc-element topic="Backend-Glossareintrag.md"/>
             <toc-element topic="Betrachtungsgegenstand.md"/>
         </toc-element>
         <toc-element topic="C.md"/>
