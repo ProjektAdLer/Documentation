@@ -11,3 +11,5 @@
 
 ![imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png](imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png)
 
+- Die im Glossareintrag angegebenen Synonyme sollten weder schriftlich noch sprachlich verwendet werden.
+
