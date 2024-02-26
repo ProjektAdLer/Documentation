@@ -93,7 +93,9 @@
         </toc-element>
         <toc-element topic="C.md"/>
         <toc-element topic="D.md"/>
-        <toc-element topic="E.md"/>
+        <toc-element topic="E.md">
+            <toc-element topic="Engine-Glossareintrag.md"/>
+        </toc-element>
         <toc-element topic="F.md"/>
         <toc-element topic="G.md"/>
         <toc-element topic="H.md"/>
