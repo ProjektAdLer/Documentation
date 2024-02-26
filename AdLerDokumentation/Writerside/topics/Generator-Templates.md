@@ -1,3 +1,3 @@
 # Generator
 
-Unterhalb dieses Writerside-Topics bitte die Spezifikation Templates des Generators einfügen.
+Unterhalb dieses Writerside-Topics bitte die Templates der Spezifikation des Generators einfügen.

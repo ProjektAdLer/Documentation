@@ -1,3 +1,3 @@
 # Plugin
 
-Unterhalb dieses Writerside-Topics bitte die Spezifikation Templates der Plugins einfügen.
+Unterhalb dieses Writerside-Topics bitte die Templates der Spezifikation der Plugins einfügen.
