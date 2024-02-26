@@ -124,7 +124,9 @@
             <toc-element topic="Backend-Templates.md">
                 <toc-element topic="Funktionale-Anforderung-Backend.md"/>
             </toc-element>
-            <toc-element topic="Plugin-Templates.md"/>
+            <toc-element topic="Plugin-Templates.md">
+                <toc-element topic="Funktionale-Anforderung-Plugin.md"/>
+            </toc-element>
         </toc-element>
         <toc-element topic="Benutzerdokumentation-Templates.md"/>
     </toc-element>
