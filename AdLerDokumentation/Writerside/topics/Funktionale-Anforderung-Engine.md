@@ -3,13 +3,13 @@
 
 # Definition:
 
-Die Engine muss Lehrenden die Möglichkeit bieten,
+Die Engine muss Lernenden die Möglichkeit bieten,
 
 Die Engine muss
 
 Die Engine muss fähig sein
 
-Als lehrende Person möchte ich
+Als lernende Person möchte ich
 
 
 # Akzeptanzkriterien:
