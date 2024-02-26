@@ -10,7 +10,7 @@
     </tr>
     <tr>
         <td>Akronym</td>
-        <td>GE</td>
+        <td>AS</td>
     </tr>
     <tr>
         <td>Begriff</td>
