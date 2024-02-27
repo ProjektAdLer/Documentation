@@ -1,3 +1,3 @@
-# Weiter-Entwickler
+# Entwickler
 
 Start typing here...
