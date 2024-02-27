@@ -77,6 +77,7 @@
         <toc-element topic="Lernende.md"/>
         <toc-element topic="Administratoren.md"/>
         <toc-element topic="Entwickler-BD.md">
+            <toc-element topic="Writerside-howto-and-best-practice-BD.md"/>
             <toc-element topic="Requirments-Engineering-und-Management.md">
                 <toc-element topic="Requirements-Engineering-und-Management-Leitfaden.md"/>
             </toc-element>
