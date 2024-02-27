@@ -84,12 +84,12 @@
     </toc-element>
     <toc-element topic="Glossar.md">
         <toc-element topic="A.md">
-            <toc-element topic="AdLer-Projekt-Glossareintrag.md"/>
-            <toc-element topic="AdLer-System-Glossareintrag.md"/>
+            <toc-element topic="AdLer-Projekt-GE.md"/>
+            <toc-element topic="AdLer-System-GE.md"/>
             <toc-element topic="Autorentool-GE.md"/>
         </toc-element>
         <toc-element topic="B.md">
-            <toc-element topic="Backend-Glossareintrag.md"/>
+            <toc-element topic="Backend-GE.md"/>
             <toc-element topic="Betrachtungsgegenstand.md"/>
         </toc-element>
         <toc-element topic="C.md"/>
@@ -97,7 +97,7 @@
             <toc-element topic="Dokumentation-GE.md"/>
         </toc-element>
         <toc-element topic="E.md">
-            <toc-element topic="Engine-Glossareintrag.md"/>
+            <toc-element topic="Engine-GE.md"/>
         </toc-element>
         <toc-element topic="F.md"/>
         <toc-element topic="G.md"/>

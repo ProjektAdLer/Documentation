@@ -18,7 +18,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td>Im <a href="AdLer-Projekt-Glossareintrag.md"></a> muss das AdLer-System das Softwaresystem sein,
+        <td>Im <a href="AdLer-Projekt-GE.md"></a> muss das AdLer-System das Softwaresystem sein,
             welches sich aus den folgenden <a href="Betrachtungsgegenstand.md">Betrachtungsgegenständen</a> 
             zusammensetzt:
             <a href="Autorentool.md"></a>, 
