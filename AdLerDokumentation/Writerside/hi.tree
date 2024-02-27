@@ -14,7 +14,7 @@
             <toc-element topic="Architektur.md"/>
         </toc-element>
         <toc-element topic="Autorentool-BG.md">
-            <toc-element topic="Funktionale-Anforderungen.md">
+            <toc-element topic="Funktionale-Anforderungen-Autorentool.md">
                 <toc-element topic="Lernwelt-CRUDSP-Autorentool.md">
                     <toc-element topic="ASE1.md"/>
                     <toc-element topic="ASE2.md"/>
@@ -27,14 +27,14 @@
                     </toc-element>
                 </toc-element>
             </toc-element>
-            <toc-element topic="Nicht-funktionale-Anforderungen.md">
+            <toc-element topic="Nicht-funktionale-Anforderungen-Autorentool.md">
                 <toc-element topic="Oberflächen.md"/>
                 <toc-element topic="Andere.md"/>
             </toc-element>
-            <toc-element topic="Schnittstellen.md"/>
-            <toc-element topic="SBOM.md"/>
-            <toc-element topic="Software-Architektur.md"/>
-            <toc-element topic="Design.md"/>
+            <toc-element topic="Schnittstellen-Autorentool.md"/>
+            <toc-element topic="SBOM-Autorentool.md"/>
+            <toc-element topic="Software-Architektur-Autorentool.md"/>
+            <toc-element topic="Software-Design-Autorentool.md"/>
         </toc-element>
         <toc-element topic="Generator-BG.md">
             <toc-element topic="Funktionale-Anforderungen-Generator.md"/>
