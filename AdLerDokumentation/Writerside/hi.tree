@@ -113,7 +113,9 @@
         <toc-element topic="P.md"/>
         <toc-element topic="Q.md"/>
         <toc-element topic="R.md"/>
-        <toc-element topic="S.md"/>
+        <toc-element topic="S.md">
+            <toc-element topic="Spezifikation-GE.md"/>
+        </toc-element>
         <toc-element topic="T.md"/>
         <toc-element topic="U.md"/>
         <toc-element topic="V.md"/>
