@@ -21,11 +21,11 @@
         <td>Im <a href="AdLer-Projekt-GE.md"></a> muss das AdLer-System das Softwaresystem sein,
             welches sich aus den folgenden <a href="Betrachtungsgegenstand-GE.md">Betrachtungsgegenständen</a> 
             zusammensetzt:
-            <a href="Autorentool.md"></a>, 
-            <a href="Engine.md"></a>,
-            <a href="Plugin.md"></a>
+            <a href="Autorentool-BG.md"></a>, 
+            <a href="Engine-BG.md"></a>,
+            <a href="Plugin-BG.md"></a>
             und 
-            <a href="Backend.md"></a>.</td>
+            <a href="Backend-BG.md"></a>.</td>
     </tr>
    <tr>
         <td>Synonym</td>
