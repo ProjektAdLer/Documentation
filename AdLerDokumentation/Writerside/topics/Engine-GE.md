@@ -24,7 +24,7 @@
         </td>
     </tr>
    <tr>
-        <td>Synonym</td>
+        <td>Synonyme</td>
         <td>2D3D, 23D</td>
     </tr>
 </table>
