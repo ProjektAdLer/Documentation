@@ -19,7 +19,7 @@
     <tr>
         <td>Definition</td>
         <td>Im <a href="AdLer-Projekt-GE.md"></a> muss das AdLer-System das Softwaresystem sein,
-            welches sich aus den folgenden <a href="Betrachtungsgegenstand.md">Betrachtungsgegenständen</a> 
+            welches sich aus den folgenden <a href="Betrachtungsgegenstand-GE.md">Betrachtungsgegenständen</a> 
             zusammensetzt:
             <a href="Autorentool.md"></a>, 
             <a href="Engine.md"></a>,

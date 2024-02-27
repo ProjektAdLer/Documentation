@@ -18,7 +18,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td>Die <a href="Engine.md"></a> ist der <a href="Betrachtungsgegenstand.md"></a>, 
+        <td>Die <a href="Engine.md"></a> ist der <a href="Betrachtungsgegenstand-GE.md"></a>, 
             der für die Lernenden 
             eine immersive bespielbare 3D-Lernumgebung bereitstellt.
         </td>
