@@ -1,8 +1,5 @@
 # Endanwender
 
-
-
-
 <table>
     <tr>
         <td></td>
@@ -18,10 +15,11 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td>Endanwender muss der Anwender sein, 
-        der das AdLer-System im Betrieb verwendet:
-        Lehrende
-        und Lernende.</td>
+        <td>Endanwender müssen die Anwender sein, 
+        die das AdLer-System im Betrieb verwenden:
+        <a href="Lehrende-GE.md"></a>
+        <a href="Lernende-GE.md"></a>
+        </td>
     </tr>
    <tr>
         <td>Synonyme</td>
