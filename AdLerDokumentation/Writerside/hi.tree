@@ -124,7 +124,9 @@
         <toc-element topic="S.md">
             <toc-element topic="Spezifikation-GE.md"/>
         </toc-element>
-        <toc-element topic="T.md"/>
+        <toc-element topic="T.md">
+            <toc-element topic="Technische-Dokumentation-GE.md"/>
+        </toc-element>
         <toc-element topic="U.md"/>
         <toc-element topic="V.md"/>
         <toc-element topic="W.md"/>
