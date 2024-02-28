@@ -110,7 +110,9 @@
         <toc-element topic="I.md"/>
         <toc-element topic="J.md"/>
         <toc-element topic="K.md"/>
-        <toc-element topic="L.md"/>
+        <toc-element topic="L.md">
+            <toc-element topic="Lehrende-GE.md"/>
+        </toc-element>
         <toc-element topic="M.md"/>
         <toc-element topic="N.md"/>
         <toc-element topic="O.md"/>
