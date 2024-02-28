@@ -28,7 +28,7 @@
             <a href="Backend-BG.md"></a>.</td>
     </tr>
    <tr>
-        <td>Synonym</td>
-        <td>keine</td>
+        <td>Synonyme</td>
+        <td></td>
     </tr>
 </table>

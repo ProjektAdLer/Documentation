@@ -21,7 +21,7 @@
         <td>Das AdLer-Projekt ist das Projekt, im Rahmen, dessen das <a href="AdLer-System.md"></a> entwickelt wird.</td>
     </tr>
    <tr>
-        <td>Synonym</td>
-        <td>keine</td>
+        <td>Synonyme</td>
+        <td></td>
     </tr>
 </table>
