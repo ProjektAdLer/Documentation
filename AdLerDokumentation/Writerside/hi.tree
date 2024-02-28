@@ -95,6 +95,7 @@
         </toc-element>
         <toc-element topic="B.md">
             <toc-element topic="Backend-GE.md"/>
+            <toc-element topic="Benutzerdokumentation-GE.md"/>
             <toc-element topic="Betrachtungsgegenstand-GE.md"/>
         </toc-element>
         <toc-element topic="C.md"/>
