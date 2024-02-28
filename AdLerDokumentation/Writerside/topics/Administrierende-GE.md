@@ -1,4 +1,4 @@
-# Administratoren
+# Administrierende
 
 
 
@@ -18,7 +18,8 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td>Administratoren müssen die Benutzer sein, die das <a href="AdLer-System.md"></a>
+        <td>Administrierende müssen die Benutzenden sein,
+            die das <a href="AdLer-System.md"></a>
             in Betrieb nehmen.</td>
     </tr>
    <tr>
