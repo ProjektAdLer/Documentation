@@ -108,7 +108,9 @@
         <toc-element topic="F.md"/>
         <toc-element topic="G.md"/>
         <toc-element topic="H.md"/>
-        <toc-element topic="I.md"/>
+        <toc-element topic="I.md">
+            <toc-element topic="Installationsanleitung-GE.md"/>
+        </toc-element>
         <toc-element topic="J.md"/>
         <toc-element topic="K.md"/>
         <toc-element topic="L.md">
