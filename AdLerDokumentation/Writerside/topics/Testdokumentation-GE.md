@@ -17,7 +17,7 @@
         <td>Testdokumentation</td>
     </tr>
     <tr>
-        <td>Definition</td>
+        <td>Definition</td> 
         <td>Die Testdokumentation muss die Dokumentation sein, 
             die zum Testen des <a href="AdLer-System.md">AdLer-Systems</a>
             erforderlich ist.</td>
