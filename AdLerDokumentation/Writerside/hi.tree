@@ -90,6 +90,7 @@
         <toc-element topic="A.md">
             <toc-element topic="AdLer-Projekt-GE.md"/>
             <toc-element topic="AdLer-System-GE.md"/>
+            <toc-element topic="Administratoren-GE.md"/>
             <toc-element topic="Autorentool-GE.md"/>
         </toc-element>
         <toc-element topic="B.md">
