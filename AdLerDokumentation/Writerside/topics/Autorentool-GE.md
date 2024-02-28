@@ -19,7 +19,8 @@
     <tr>
         <td>Definition</td>
         <td>Der <a href="Betrachtungsgegenstand-GE.md"></a> <a href="Autorentool-BG.md"></a> 
-            des AdLer-Projekts bildet zusammen mit dem Generator das Tool, 
+            des <a href="AdLer-System-GE.md">AdLer-Systems</a> bildet zusammen
+            mit dem <a href="Generator-GE.md"></a>  das Tool, 
             mit dem Lehrende Kurse für das AdLer-System erstellen können. 
             Das Tool soll dabei unter anderem die Möglichkeit bieten, neue Kurse als Lernwelten anzulegen, 
             in diesen Lernelemente mittels Lernräumen zu organisieren und diese mit Lernpfaden zu verknüpfen. 
