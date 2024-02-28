@@ -10,21 +10,26 @@
     </tr>
     <tr>
         <td>Akronym</td>
-        <td>GE</td>
+        <td>TD</td>
     </tr>
     <tr>
         <td>Begriff</td>
-        <td>Glossar Eintrag</td>
+        <td>Technische Dokumentation</td>
     </tr>
     <tr>
         <td>Definition</td>
         <td>Die technische Dokumentation muss die Dokumentation sein,
             um das <a href="AdLer-System.md"></a> zu entwickeln, 
             in Betrieb zu nehmen und zu betreiben. 
-            Dazu gehören: Installationsdokumentation, Wartungsdokumentation, Testdokumentation und Spezifikation</td>
+            Dazu gehören: 
+            <a href="Installationsanleitung-GE.md"></a> , 
+            <a href="Wartungsdokumentation-GE.md"></a> , 
+            <a href="Testdokumentation-GE.md"></a> , 
+            <a href="Spezifikation-GE.md"></a> , 
+        </td>
     </tr>
    <tr>
-        <td>Synonym</td>
-        <td>keine</td>
+        <td>Synonyme</td>
+        <td></td>
     </tr>
 </table>
