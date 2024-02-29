@@ -4,6 +4,6 @@ werden die Benutzerdokumentationen der
 [Lernenden](Lehrende-BD.md),
 [Administrierenden](Administrierende-BD.md) und
 [Entwickelnden](Entwickelnde-BD.md) 
-präsentiert. asdf
+präsentiert. foobar
 
 Das ist ein Test.
