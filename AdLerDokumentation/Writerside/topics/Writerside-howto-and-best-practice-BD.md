@@ -61,9 +61,40 @@ Speziell für die Vergabe einer Anforderungs-ID beachtet bitte:
 
 ## Templates
 
-**Template anlegen**
+**Template anlegen:**
+Aus jedem Writerside-Topic kann ein Template angelegt werden.
+[Siehe Topic als Template.](https://www.jetbrains.com/help/writerside//save-as-template.html)
 
-**Template verwenden**
+<note>
+  <p>
+      Templates die lokal in das Tool Writerside eingepflegt sind, können 
+      nach aktuellem Wissen nicht geteilt werden. (Jemand eine Idee?)
+      Daher gibt es das Kapitel <a href="Templates.md"></a>: hier können die Templates 
+      zum Teilen abgelegt werden. 
+  </p>
+  <warning>
+      <p>
+        Beachtet, dass wenn ihr ein Template im Kapitel der Templates ändert, alle die diese 
+        Änderung haben wollen, bei sich lokal das Template z.B. neu erstellen müssen.
+     </p>
+  </warning>  
+</note>
+
+Wie wird ein Template lokal erstellt: Rechts-Klick auf das Topic im
+[table of contents](https://www.jetbrains.com/help/writerside//table-of-contents.html)
+anschließend wie folgt: 
+
+![imageHinzufügenEinesTemplates.png](imageHinzufügenEinesTemplates.png)
+
+
+**Template verwenden:**
+Klicke mit rechter Maustaste an die Position in den
+[table of contents](https://www.jetbrains.com/help/writerside//table-of-contents.html)
+an der ein neues Template erstellt werden soll und dann:
+
+![imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png](imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png)
+
+
 
 ## Tabellen
 
@@ -118,7 +149,6 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 [Generelles zu Links in Writerside.](https://www.jetbrains.com/help/writerside//visual-elements.html)
 
 
-
 <tip>
     <p>
         Bilder benötigen eindeutige Namen. Ein Vorschlag ist: 
@@ -127,7 +157,6 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
          "image" + "EindeutigeSprechendeBezeichnungWasAufDemBildZuSehenIst"
     </p>
 </tip>
-
 
 ## Links in Writerside
 
@@ -155,7 +184,8 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
              anchor="glossar-eintrag-anlegen"></a>
       ]]>
   </code-block>
-  <p>Demonstration eines Markdown.md-Links auf ein Writerside Topic mit Navigation zu einem Anchor:</p>
+  <p>Demonstration eines Markdown.md-Links auf ein Writerside Topic mit Navigation zu einem 
+      Anchor:</p>
   <code-block lang="xml">
       <![CDATA[
         [Link auf Anchor](NameDesWritersideTopics.md#NameDesAnchors)
@@ -166,7 +196,6 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 ## Wichtige Shortcuts:
 
 [Generelles zu Shortcuts in Writerside.](https://www.jetbrains.com/help/writerside//shortcuts.html)
-
 
 Neu formatieren: STRG + ALT + L
 
