@@ -1,4 +1,4 @@
-# Glossar Eintrag
+# Glossareintrag
 
 
 
@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td>Begriff</td>
-        <td>Glossar Eintrag</td>
+        <td>Glossareintrag</td>
     </tr>
     <tr>
         <td>Definition</td>
