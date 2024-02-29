@@ -113,7 +113,6 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 - Die ausgelagerten Dokumentationsseiten dürfen gerne mit dem Glossar verlinkt werden.
 - Die im Glossareintrag angegebenen Synonyme sollten weder schriftlich noch sprachlich verwendet werden.
 - [Glossar Templates gibt es hier.](Glossar-Templates.md)
-- [Anleitung zum Erstellen eines Glossar Eintrags gibt es hier.](Writerside-howto-and-best-practice-BD.md#glossar-eintrag-anlegen)
 
 ## Bilder
 
@@ -130,7 +129,7 @@ Benennung
     Markdown.md</a>
     das Verlinken anders funktioniert als in 
     <a  href="https://www.jetbrains.com/help/writerside//links-and-references.html#link" >
-    XML</a> .
+    XML</a>.
   </p>
 </note>
 
@@ -153,7 +152,10 @@ Benennung
   </code-block>
 </tip>
 
-## Wichtige Short-Cuts:
+## Wichtige Shortcuts:
+
+[Generelles zu Shortcuts in Writerside.](https://www.jetbrains.com/help/writerside//shortcuts.html)
+
 
 Neu formatieren: STRG + ALT + L
 
