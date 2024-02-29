@@ -4,7 +4,7 @@
 ## Aufbau des Glossars
 
 Je Glossareintrag gibt es ein Writerside Topic in der alphabetischen Gliederung.
-Dadurch ist das Verlinken auf einzelne Glossareinträge so einfacher,
+Dadurch ist das Verlinken auf einzelne Glossareinträge einfacher,
 da nicht für jeden Eintrag händisch ein Link erzeugt werden muss.
 Auch kann so die alphabetische Reihenfolge einfacher sichergestellt werden. 
 Die Glossareinträge sind mit XML-Tabellen gebaut, damit
