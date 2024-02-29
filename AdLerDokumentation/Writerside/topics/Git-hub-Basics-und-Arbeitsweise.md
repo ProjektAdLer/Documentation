@@ -39,3 +39,6 @@ euch freigestellt, entweder nach Namen der Beteiligten oder Aufgabe/Sinnabschnit
 bitte häufig. Wenn ihr mit eurem Branch/Aufgabe/Sinnabschnitt fertig seid, erstellt ihr bitte wie gezeigt auf Github
 einen Pull Request von eurem Branch auf `main`. Bei Erstellung des Pull Requests werden die Entwickler benachrichtigt
 und kümmern sich baldmöglichst um das Mergen eures Pull Requests.
+
+GitHub-Dokumentation [zur Erstellung von Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+und [zu Pull Requests allgemein.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)
