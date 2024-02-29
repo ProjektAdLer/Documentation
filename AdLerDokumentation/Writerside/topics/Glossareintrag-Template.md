@@ -18,7 +18,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td>Ein Glossar Eintrag muss eine Begriffsdefinition sein.</td>
+        <td>Ein Glossareintrag muss eine Begriffsdefinition sein.</td>
     </tr>
    <tr>
         <td>Synonyme</td>
