@@ -25,7 +25,7 @@ Genaueres zu [Writerside Topics](https://www.jetbrains.com/help/writerside//topi
 
 
 
-Beim Anlegen eines neuen Topics muss ein Topic Title und ein Topic Filename angegeben werden.
+Beim Anlegen eines neuen Topics muss ein **Topic Title** und ein **Topic Filename** angegeben werden.
 
 - Der **Topic Title** ist eine beliebig zu wählende Bezeichnung.
 - Der **Topic Filename** muss eine Writerside weite ID sein. Die Eindeutigkeit wird auch von Writerside überprüft.
@@ -37,9 +37,12 @@ Speziell für die Vergabe einer Anforderungs-ID beachtet bitte:
 
 ## Writerside Topic umbenennen
 
-- Der **Topic Title** kann beliebig geändert werden.
+
 
 <tip>
+    <p>
+        Der Topic Title kann beliebig geändert werden.  
+    </p>
     <p>
         Der <control>Topic Filename</control> muss wie folgt geändert werden:
         <a href="https://www.jetbrains.com/help/writerside//topics.html#change-topic-title"> 
@@ -58,10 +61,6 @@ Speziell für die Vergabe einer Anforderungs-ID beachtet bitte:
         beachten.
     </p>
 </tip>
-
-## Glossar Eintrag anlegen 
-
-![imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png](imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png)
 
 ## Templates
 
@@ -82,11 +81,67 @@ In Writerside können verschiedene Arten von Tabellen verwendet werden:
     </p>
 </tip>
 
+## Glossar Eintrag anlegen
+
+Klicke mit rechter Maustaste an die Position in den
+[table of contents](https://www.jetbrains.com/help/writerside//table-of-contents.html)
+an der ein neuer Glossareintrag erstellt werden soll und dann:
+
+![imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png](imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png)
+
+<tip>
+    <p>
+        Bei der Namensvergabe eines Glossareintrags muss der Topic Title
+        dem Begriff entsprechen, der ins Glossar aufgenommen wird.
+    </p>
+    <p>
+         Der Topic Filename muss wie folgt aufgebaut sein: "Begriff" + GE
+    </p>
+    <p>
+         Hierbei steht GE für Glossareintrag. Mit dieser Vorgehensweise wird sichergestellt,
+         dass Glossareinträge als solche beim Einfügen von Links erkennbar sind.
+    </p>
+</tip>
+
+
+### Richtlinien zum Anlegen von Glossareinträgen:
+- Je Glossareintrag muss ein eigenes Writerside Topic erstellt werden!
+- Zur Erstellung muss ein Glossar Template verwendet werden!
+- Das Glossar muss primär aus Begriffsdefinitionen bestehen!
+- Alle Topics unterhalb des Topics Glossar
+  müssen Glossareinträge sein! Einzige Ausnahme sind die Topics
+  die für die alphabetische Strukturierung verwendet werden.
+- Weiterführende Erklärungen der Begriffe bitte auf eigene Dokumentationsseiten auslagern.
+- Die ausgelagerten Dokumentationsseiten dürfen gerne mit dem Glossar verlinkt werden.
+- Die im Glossareintrag angegebenen Synonyme sollten weder schriftlich noch sprachlich verwendet werden.
+- [Glossar Templates gibt es hier.](Glossar-Templates.md)
+- [Anleitung zum Erstellen eines Glossar Eintrags gibt es hier.](Writerside-howto-and-best-practice-BD.md#glossar-eintrag-anlegen)
+
+
 ## Bilder
 
-## Hyperlinks in Writerside
+Benennung
 
-xml 
+## Links in Writerside
+
+Demonstration eines XML-Links auf ein Writerside Topic mit Navigation zu einem Anchor:
+
+<code-block lang="xml">
+    <![CDATA[
+        <a  href="Writerside-howto-and-best-practice-BD.md"
+            anchor="glossar-eintrag-anlegen"></a>
+    ]]>
+</code-block>
+
+Demonstration eines Markdown.md-Links auf ein Writerside Topic mit Navigation zu einem Anchor:
+<code-block lang="xml">
+    <![CDATA[
+       [Link auf Anchor](NameDesWritersideTopics.md#NameDesAnchors)
+
+    ]]>
+</code-block>
+
+
 markdown
 
 Wi linken auf überschriften
