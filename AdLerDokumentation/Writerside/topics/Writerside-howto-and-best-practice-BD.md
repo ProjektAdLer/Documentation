@@ -37,8 +37,6 @@ Speziell für die Vergabe einer Anforderungs-ID beachtet bitte:
 
 ## Writerside Topic umbenennen
 
-
-
 <tip>
     <p>
         Der Topic Title kann beliebig geändert werden.  
@@ -103,8 +101,8 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
     </p>
 </tip>
 
-
 ### Richtlinien zum Anlegen von Glossareinträgen:
+
 - Je Glossareintrag muss ein eigenes Writerside Topic erstellt werden!
 - Zur Erstellung muss ein Glossar Template verwendet werden!
 - Das Glossar muss primär aus Begriffsdefinitionen bestehen!
@@ -117,36 +115,43 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 - [Glossar Templates gibt es hier.](Glossar-Templates.md)
 - [Anleitung zum Erstellen eines Glossar Eintrags gibt es hier.](Writerside-howto-and-best-practice-BD.md#glossar-eintrag-anlegen)
 
-
 ## Bilder
 
 Benennung
 
 ## Links in Writerside
 
-Demonstration eines XML-Links auf ein Writerside Topic mit Navigation zu einem Anchor:
+[Generelles zu Links in Writerside.](https://www.jetbrains.com/help/writerside//links-and-references.html)
 
-<code-block lang="xml">
-    <![CDATA[
-        <a  href="Writerside-howto-and-best-practice-BD.md"
-            anchor="glossar-eintrag-anlegen"></a>
+<note>
+  <p>
+    Beachtet bitte, dass in
+    <a  href="https://www.jetbrains.com/help/writerside//links-and-references.html#markdown">
+    Markdown.md</a>
+    das Verlinken anders funktioniert als in 
+    <a  href="https://www.jetbrains.com/help/writerside//links-and-references.html#link" >
+    XML</a> .
+  </p>
+</note>
+
+<tip>
+  <p> Die Links auf Überschriften etc. müssen wie unten aufgeführt direkt auf die Überschriften
+      Bezeichnung getätigt werden.
+  </p>
+  <p>Demonstration eines XML-Links auf ein Writerside Topic mit Navigation zu einem Anchor:</p>
+  <code-block lang="xml">
+      <![CDATA[
+          <a  href="Writerside-howto-and-best-practice-BD.md"
+             anchor="glossar-eintrag-anlegen"></a>
+      ]]>
+  </code-block>
+  <p>Demonstration eines Markdown.md-Links auf ein Writerside Topic mit Navigation zu einem Anchor:</p>
+  <code-block lang="xml">
+      <![CDATA[
+        [Link auf Anchor](NameDesWritersideTopics.md#NameDesAnchors)
     ]]>
-</code-block>
-
-Demonstration eines Markdown.md-Links auf ein Writerside Topic mit Navigation zu einem Anchor:
-<code-block lang="xml">
-    <![CDATA[
-       [Link auf Anchor](NameDesWritersideTopics.md#NameDesAnchors)
-
-    ]]>
-</code-block>
-
-
-markdown
-
-Wi linken auf überschriften
-
-bitte keine zusätzlichen IDs einfügen.
+  </code-block>
+</tip>
 
 ## Wichtige Short-Cuts:
 
