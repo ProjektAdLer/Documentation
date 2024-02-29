@@ -12,7 +12,7 @@ permissions:
 env:
   INSTANCE: Writerside/hi
   ARTIFACT: adlerDokumentation-all.zip
-  DOCKER_VERSION: 232.14389
+  DOCKER_VERSION: 233.14389
 
 jobs:
   build:
