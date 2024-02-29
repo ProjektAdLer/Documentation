@@ -10,19 +10,7 @@ Die Glossareinträge sind mit XML-Tabellen gebaut, damit
 diese einfacher geparst werden können. Durch das parsen können später
 unterschiedliche Sichten auf das Glossar erstellt werden.
 
-## Richtlinien
 
-- Je Glossareintrag muss ein eigenes Writerside Topic erstellt werden!
-- Zur Erstellung muss ein Glossar Template verwendet werden!
-- Das Glossar muss primär aus Begriffsdefinitionen bestehen!
-- Alle Topics unterhalb des Topics Glossar
-  müssen Glossareinträge sein! Einzige Ausnahme sind die Topics 
-  die für die alphabetische Strukturierung verwendet werden.
-- Weiterführende Erklärungen der Begriffe bitte auf eigene Dokumentationsseiten auslagern.
-- Die ausgelagerten Dokumentationsseiten dürfen gerne mit dem Glossar verlinkt werden.
-- Die im Glossareintrag angegebenen Synonyme sollten weder schriftlich noch sprachlich verwendet werden.
-- [Glossar Templates gibt es hier.](Glossar-Templates.md)
-- [Anleitung zum Erstellen eines Glossar Eintrags gibt es hier.](Writerside-howto-and-best-practice-BD.md#glossar-eintrag-anlegen)
 
 ## Rolle des Glossars
 
@@ -30,3 +18,11 @@ Das Glossar ist ein sehr wichtiges Artefakt, da hier eindeutige Definitionen
 der Projektweiten Begriffe hinterlegt sind. Die Wichtigkeit des Glossars kommt daher,
 dass ein gemeinsames Verständnis und somit eine gemeinsame Sprache erhebliche
 Auswirkungen auf den Projekterfolg hat.
+
+<note>
+    <p>
+        Zum Erstellen eines Glossareintrags siehe: 
+        <a  href="Writerside-howto-and-best-practice-BD.md"
+            anchor="glossar-eintrag-anlegen"></a>
+    </p>
+</note>
