@@ -11,7 +11,7 @@ permissions:
 
 env:
   INSTANCE: Writerside/hi
-  ARTIFACT: adlerDokumentation-all.zip
+  ARTIFACT: webHelpHI2-all.zip
   DOCKER_VERSION: 233.14389
 
 jobs:
