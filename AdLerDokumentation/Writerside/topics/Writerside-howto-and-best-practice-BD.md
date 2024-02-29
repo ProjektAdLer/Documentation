@@ -4,7 +4,6 @@ Hier befinden sich wichtige Informationen zum Umgang und Start mit Writerside im
 [Adler-Projekts](AdLer-Projekt-GE.md).
 
 Bitte beachtet die best practice Bereiche:
-
 <tip>
     <p>
         Ich bin ein Best Practice Bereich
@@ -60,7 +59,9 @@ Speziell für die Vergabe einer Anforderungs-ID beachtet bitte:
     </p>
 </tip>
 
-## Glossar Eintrag anlegen
+## Glossar Eintrag anlegen 
+
+![imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png](imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png)
 
 ## Templates
 
@@ -84,6 +85,13 @@ In Writerside können verschiedene Arten von Tabellen verwendet werden:
 ## Bilder
 
 ## Hyperlinks in Writerside
+
+xml 
+markdown
+
+Wi linken auf überschriften
+
+bitte keine zusätzlichen IDs einfügen.
 
 ## Wichtige Short-Cuts:
 
