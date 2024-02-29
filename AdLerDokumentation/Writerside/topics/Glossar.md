@@ -15,7 +15,7 @@ unterschiedliche Sichten auf das Glossar erstellt werden.
 - Je Glossareintrag muss ein eigenes Writerside Topic erstellt werden!
 - Zur Erstellung muss ein Glossar Template verwendet werden!
 - Das Glossar muss primär aus Begriffsdefinitionen bestehen!
-- Alle Topics unterhalb des Topics [Glossar](Glossar.md) 
+- Alle Topics unterhalb des Topics Glossar
   müssen Glossareinträge sein! Einzige Ausnahme sind die Topics 
   die für die alphabetische Strukturierung verwendet werden.
 - Weiterführende Erklärungen der Begriffe bitte auf eigene Dokumentationsseiten auslagern.
