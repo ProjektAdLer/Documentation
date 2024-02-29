@@ -9,18 +9,13 @@ permissions:
   id-token: write
   pages: write
 
-env:
-  INSTANCE: 'Writerside/hi'
-  ARTIFACT: 'webHelpHI2-all.zip'
-  DOCKER_VERSION: 233.14389
-
 jobs:
   call-build:
     uses: ProjektAdler/Documentation/.github/workflows/build.yml@main
     with:
-      INSTANCE: ${{ env.INSTANCE }}
-      ARTIFACT: ${{ env.ARTIFACT }}
-      DOCKER_VERSION: ${{ env.DOCKER_VERSION }}
+      INSTANCE: ${{ vars.WRITERSIDE_WORKFLOW_INSTANCE }}
+      ARTIFACT: ${{ vars.WRITERSIDE_WORKFLOW_ARTIFACT }}
+      DOCKER_VERSION: ${{ vars.WRITERSIDE_WORKFLOW_DOCKER_VERSION }}
 
   deploy:
     environment:
@@ -36,7 +31,7 @@ jobs:
           name: docs
 
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq ${{ env.ARTIFACT }} -d dir
+        run: unzip -O UTF-8 -qq ${{ vars.WRITERSIDE_WORKFLOW_ARTIFACT }} -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
