@@ -16,7 +16,7 @@
 
 ## Git(hub) Arbeitsweise auf dem Documentation Repository
 
-### Für Entwickler (AMG, Engine, Backend, Moodle)
+### Für Entwickler (Autorentool, Engine, Backend, Moodle)
 
 Entwickler dürfen direkt auf `main` arbeiten. Bitte achtet bei eurer Arbeitsweise auf rasches und häufiges Committen und
 Pushen auf den Branch. Ihr dürft, sofern ihr es bevorzugt, auch gerne mit Branches und Pull Requests arbeiten.
