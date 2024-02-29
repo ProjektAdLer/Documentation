@@ -80,10 +80,11 @@
         <toc-element topic="Lernende-BD.md"/>
         <toc-element topic="Administrierende-BD.md"/>
         <toc-element topic="Entwickelnde-BD.md">
-            <toc-element topic="Writerside-howto-and-best-practice-BD.md"/>
             <toc-element topic="Requirments-Engineering-und-Management.md">
                 <toc-element topic="Requirements-Engineering-und-Management-Leitfaden.md"/>
             </toc-element>
+            <toc-element topic="Software-Entwicklung-BD.md"/>
+            <toc-element topic="Writerside-howto-and-best-practice-BD.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="Glossar.md">
