@@ -53,10 +53,9 @@ Speziell für die Vergabe einer Anforderungs-ID beachtet bitte:
 
 <tip>
     <p>
-        Topics müssen sicher gelöscht werden daher:
-        Unbedingt das Vorgehen zum Löschen
-        von <a href="https://www.jetbrains.com/help/writerside//add-a-topic.html">Writerside</a>
-        beachten.
+        Topics müssen sicher gelöscht werden daher: 
+        von <a href="https://www.jetbrains.com/help/writerside//delete-a-topic.html">
+        Writerside Topic sicher Löschen</a>
     </p>
 </tip>
 
@@ -116,7 +115,19 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 
 ## Bilder
 
-Benennung
+[Generelles zu Links in Writerside.](https://www.jetbrains.com/help/writerside//visual-elements.html)
+
+
+
+<tip>
+    <p>
+        Bilder benötigen eindeutige Namen. Ein Vorschlag ist: 
+    </p>
+    <p>
+         "image" + "EindeutigeSprechendeBezeichnungWasAufDemBildZuSehenIst"
+    </p>
+</tip>
+
 
 ## Links in Writerside
 
