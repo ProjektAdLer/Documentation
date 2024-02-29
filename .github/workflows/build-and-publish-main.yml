@@ -12,10 +12,7 @@ permissions:
 jobs:
   call-build:
     uses: ProjektAdler/Documentation/.github/workflows/build.yml@main
-    with:
-      INSTANCE: ${{ vars.WRITERSIDE_WORKFLOW_INSTANCE }}
-      ARTIFACT: ${{ vars.WRITERSIDE_WORKFLOW_ARTIFACT }}
-      DOCKER_VERSION: ${{ vars.WRITERSIDE_WORKFLOW_DOCKER_VERSION }}
+    secrets: inherit
 
   deploy:
     environment:
