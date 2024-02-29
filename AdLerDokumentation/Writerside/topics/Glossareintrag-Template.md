@@ -1,6 +1,8 @@
 # Glossareintrag
 
-
+<link-summary rel="summary"/>
+<card-summary rel="summary"/>
+<web-summary rel="summary"/>
 
 
 <table>
@@ -18,10 +20,10 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td>Ein Glossareintrag muss eine Begriffsdefinition sein.</td>
+        <td id="summary">Ein Glossareintrag muss eine Begriffsdefinition sein. </td>
     </tr>
    <tr>
         <td>Synonyme</td>
-        <td>keine</td>
+        <td></td>
     </tr>
 </table>
