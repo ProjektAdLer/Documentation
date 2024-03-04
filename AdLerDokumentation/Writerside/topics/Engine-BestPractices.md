@@ -11,11 +11,4 @@ An dieser Stelle wird das Vorgehen zum Erstellen der Anforderungsdokumentation v
 6. Akzeptanzkriterien falls erforderlich beschreiben 
 7. Aktivitätsdiagramm zuweisen oder erstellen 
 8. Unit-Tests der Anforderung zuweisen 
-9. Fehlende Unit-Tests auf ZenHub dokumentieren 
-
-## Kriterien für Anforderungen 
-Sofern die User Story von ZenHub die Kriterien für Anforderungen nicht erfüllt, wird die Anforderung mit der Schablone der Sophist GmbH formuliert.
-
-### Formulierung
-**Benutzerinteraktion** 
-DAS SYSTEM _muss_ _wem?|was?_ DIE MÖGLICHKEIT BIETEN _verb_
+9. Fehlende Unit-Tests auf ZenHub dokumentieren
