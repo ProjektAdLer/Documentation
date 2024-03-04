@@ -14,4 +14,4 @@ Das Autorentool muss Lehrenden die Möglichkeit bieten, einen Lernraum zu erstel
 
 ## Aktivitätsdiagramm:
 
-![imageAWA1.png](imageAWA1.png)
+![imageAktivitätsdiagrammLernraumErstellen.png](imageAktivitätsdiagrammLernraumErstellen.png)
