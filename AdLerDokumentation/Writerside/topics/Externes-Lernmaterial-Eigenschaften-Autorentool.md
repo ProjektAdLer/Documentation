@@ -1,0 +1,3 @@
+# Externes Lernmaterial Eigenschaften
+
+Start typing here...
