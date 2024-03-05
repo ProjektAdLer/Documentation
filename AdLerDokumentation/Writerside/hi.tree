@@ -168,6 +168,7 @@
     </toc-element>
     <toc-element topic="Templates.md">
         <toc-element topic="Glossar-Templates.md">
+            <toc-element topic="Glossareintrag-2-0-Template.md"/>
             <toc-element topic="Glossareintrag-Template.md"/>
         </toc-element>
         <toc-element topic="Spezifikation-Templates.md">
@@ -187,6 +188,6 @@
                 <toc-element topic="Funktionale-Anforderung-Plugin.md"/>
             </toc-element>
         </toc-element>
-        <toc-element topic="Benutzerdokumentation-Templates.md"/>
     </toc-element>
+    <toc-element topic="Benutzerdokumentation-Templates.md"/>
 </instance-profile>
