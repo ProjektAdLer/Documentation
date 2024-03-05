@@ -59,13 +59,13 @@ Speziell für die Vergabe einer Anforderungs-ID beachtet bitte:
     </p>
 </tip>
 
-
 ## Nützliches zu Auszeichnungssprachen
 
-- [Was ist Markdown? Sowie tipps und tricks.](https://markdown-syntax.de/Was-ist-Markdown/)
-- 
-- [Tabellen konvertieren](https://tableconvert.com/xml-to-markdown)
+- [Unterschied Markup und Markdown](https://websiteberater.com/der-unterschied-zwischen-markup-und-markdown/)
 
+- [Was ist Markdown? Sowie tipps und tricks.](https://markdown-syntax.de/Was-ist-Markdown/)
+
+- [Tabellen konvertieren](https://tableconvert.com/xml-to-markdown)
 
 ## Templates
 
@@ -90,10 +90,9 @@ Aus jedem Writerside-Topic kann ein Template angelegt werden.
 
 Wie wird ein Template lokal erstellt: Rechts-Klick auf das Topic im
 [table of contents](https://www.jetbrains.com/help/writerside//table-of-contents.html)
-anschließend wie folgt: 
+anschließend wie folgt:
 
 ![imageHinzufügenEinesTemplates.png](imageHinzufügenEinesTemplates.png)
-
 
 **Template verwenden:**
 Klicke mit rechter Maustaste an die Position in den
@@ -101,8 +100,6 @@ Klicke mit rechter Maustaste an die Position in den
 an der ein neues Template erstellt werden soll und dann:
 
 ![imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png](imageMitHilfeEinesWritersideTemplatesEinNeuesWritersideTopicErstellen.png)
-
-
 
 ## Tabellen
 
