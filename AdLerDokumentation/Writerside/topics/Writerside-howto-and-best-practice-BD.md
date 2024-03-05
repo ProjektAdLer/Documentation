@@ -154,7 +154,7 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 
 ## Bilder
 
-[Generelles zu Links in Writerside.](https://www.jetbrains.com/help/writerside//visual-elements.html)
+[Generelles zu visuellen Elementen in Writerside.](https://www.jetbrains.com/help/writerside//visual-elements.html)
 
 
 <tip>
