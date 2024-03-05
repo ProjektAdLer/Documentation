@@ -59,6 +59,14 @@ Speziell für die Vergabe einer Anforderungs-ID beachtet bitte:
     </p>
 </tip>
 
+
+## Nützliches zu Auszeichnungssprachen
+
+- [Was ist Markdown? Sowie tipps und tricks.](https://markdown-syntax.de/Was-ist-Markdown/)
+- 
+- [Tabellen konvertieren](https://tableconvert.com/xml-to-markdown)
+
+
 ## Templates
 
 **Template anlegen:**
