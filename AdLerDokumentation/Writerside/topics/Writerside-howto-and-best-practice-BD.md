@@ -67,6 +67,8 @@ Speziell für die Vergabe einer Anforderungs-ID beachtet bitte:
 
 - [Tabellen konvertieren](https://tableconvert.com/xml-to-markdown)
 
+- [Online Markdown Editor (kollaboratives Arbeiten möglich)](https://onlinemarkdowneditor.dev/collaboration/#docec4f8f9abf)
+
 ## Templates
 
 **Template anlegen:**
