@@ -1,4 +1,4 @@
-# Glossareintrag 2.0
+# Glossareintrag
 
 <link-summary rel="summary"/>
 <card-summary rel="summary"/>
