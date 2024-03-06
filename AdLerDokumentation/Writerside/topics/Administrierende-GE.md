@@ -12,7 +12,7 @@
     </tr>
     <tr>
         <td>Begriff</td>
-        <td>Administratoren</td>
+        <td>Administrierende</td>
     </tr>
     <tr>
         <td>Englischer Begriff</td>
@@ -38,7 +38,7 @@
     </tr>
    <tr>
         <td>Verbotene Terminologie</td>
-        <td>Administratoren, Administratorinnen, Admins</td>
+        <td>Admins</td>
     </tr>
    <tr>
         <td>Quelle</td>
