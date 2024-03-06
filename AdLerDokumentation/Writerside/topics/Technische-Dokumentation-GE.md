@@ -22,7 +22,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Die technische Dokumentation muss die Dokumentation sein,
+            Die technische Dokumentation muss die <a href="Dokumentation-GE.md"></a>  sein,
             um das <a href="AdLer-System.md"></a> zu entwickeln, 
             in Betrieb zu nehmen und zu betreiben. 
             Dazu gehören: 
