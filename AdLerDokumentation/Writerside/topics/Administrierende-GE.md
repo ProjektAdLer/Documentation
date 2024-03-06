@@ -16,7 +16,7 @@
     </tr>
     <tr>
         <td>Englischer Begriff</td>
-        <td>glossary entry</td>
+        <td>Administrators</td>
     </tr>
     <tr>
         <td>Definition</td>
