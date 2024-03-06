@@ -1,30 +1,45 @@
 # Generator
 
-
-
-
 <table>
     <tr>
         <td></td>
         <td>Beschreibung</td>
     </tr>
     <tr>
-        <td>Akronym</td>
-        <td>GR</td>
-    </tr>
-    <tr>
         <td>Begriff</td>
         <td>Generator</td>
     </tr>
     <tr>
+        <td>Englischer Begriff</td>
+        <td>Generator</td>
+    </tr>
+    <tr>
         <td>Definition</td>
-            <td>Der <a href="Betrachtungsgegenstand-GE.md"></a> <a href="Generator-BG.md"></a> 
-            des <a href="AdLer-System-GE.md">AdLer-Systems</a> ist für die Generierung 
-            der immersiven 3D Lernwelten zuständig.
-        </td>
+        <td id="summary" >
+            Der <a href="Betrachtungsgegenstand-GE.md"></a>
+            <a href="Generator-BG.md"></a> 
+            des <a href="AdLer-System-GE.md">AdLer-Systems</a> 
+            ist für die Generierung 
+            der immersiven 3D Lernwelten zuständig.</td>
+    </tr>  
+    <tr>
+        <td>Siehe auch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Akronym</td>
+        <td>G</td>
     </tr>
    <tr>
-        <td>Synonyme</td>
+        <td>Erlaubte Alternativbenennung</td>
+        <td></td>
+    </tr>
+   <tr>
+        <td>Verbotene Terminologie</td>
+        <td></td>
+    </tr>
+   <tr>
+        <td>Quelle</td>
         <td></td>
     </tr>
 </table>
