@@ -39,7 +39,6 @@
                         <toc-element topic="ASE5.md"/>
                         <toc-element topic="ASE6.md">
                             <toc-element topic="ASE7.md"/>
-                            <toc-element topic="ASE8.md"/>
                         </toc-element>
                     </toc-element>
                 </toc-element>
@@ -48,6 +47,7 @@
                 </toc-element>
             </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Autorentool.md">
+                <toc-element topic="ASE8.md"/>
                 <toc-element topic="Oberflächen.md"/>
                 <toc-element topic="Andere.md"/>
             </toc-element>

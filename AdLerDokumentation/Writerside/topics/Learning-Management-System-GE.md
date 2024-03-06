@@ -19,7 +19,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Ein Learning Management System (LMS) ist eine Software, mit der Sie digitale Schulungsinhalte erstellen, verwalten und verbreiten können. Ein Beispiel für ein LMS ist Moodle.</td>
+        <td id="summary" >Ein Learning Management System (LMS) ist eine Software, mit der digitale Schulungsinhalte erstellt, verwaltet und verbreitet werden können. Ein Beispiel für ein LMS ist Moodle.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>
