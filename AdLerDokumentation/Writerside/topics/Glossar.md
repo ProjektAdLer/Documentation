@@ -1,5 +1,14 @@
 # Glossar
 
+<note>
+    <p>
+        Die Regeln zum Erstellen eines Glossareintrags müssen eingehalten 
+        werden und können hier gefunden werden: 
+        <a  href="Writerside-howto-and-best-practice-BD.md"
+            anchor="glossar-eintrag-anlegen"></a>
+    </p>
+</note>
+
 ## Aufbau des Glossars
 
 Je Glossareintrag gibt es ein Writerside Topic in der alphabetischen Gliederung.
@@ -19,10 +28,3 @@ der Projektweiten Begriffe hinterlegt sind. Die Wichtigkeit des Glossars kommt d
 dass ein gemeinsames Verständnis und somit eine gemeinsame Sprache erhebliche
 Auswirkungen auf den Projekterfolg hat.
 
-<note>
-    <p>
-        Zum Erstellen eines Glossareintrags siehe: 
-        <a  href="Writerside-howto-and-best-practice-BD.md"
-            anchor="glossar-eintrag-anlegen"></a>
-    </p>
-</note>
