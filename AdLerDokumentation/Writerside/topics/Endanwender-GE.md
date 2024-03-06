@@ -13,7 +13,7 @@
     </tr>
     <tr>
         <td>Englischer Begriff</td>
-        <td>End user</td>
+        <td>End users</td>
     </tr>
     <tr>
         <td>Definition</td>
