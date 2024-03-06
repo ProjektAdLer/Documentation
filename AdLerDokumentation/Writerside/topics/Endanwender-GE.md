@@ -32,7 +32,7 @@
     </tr>
    <tr>
         <td>Erlaubte Alternativbenennung</td>
-        <td>User, Nutzer, Anwender,</td>
+        <td></td>
     </tr>
    <tr>
         <td>Verbotene Terminologie</td>
