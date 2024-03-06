@@ -1,5 +1,9 @@
 # Lehrende
 
+<link-summary rel="summary"/>
+<card-summary rel="summary"/>
+<web-summary rel="summary"/>
+
 
 <table>
     <tr>
