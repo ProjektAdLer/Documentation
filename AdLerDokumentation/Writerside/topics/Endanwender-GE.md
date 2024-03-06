@@ -32,7 +32,7 @@
     </tr>
    <tr>
         <td>Erlaubte Alternativbenennung</td>
-        <td></td>
+        <td>Endanwender:innen</td>
     </tr>
    <tr>
         <td>Verbotene Terminologie</td>
