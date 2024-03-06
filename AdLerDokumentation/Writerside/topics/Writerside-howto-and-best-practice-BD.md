@@ -148,7 +148,6 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
   die für die alphabetische Strukturierung verwendet werden.
 - Weiterführende Erklärungen der Begriffe bitte auf eigene Dokumentationsseiten auslagern.
 - Die ausgelagerten Dokumentationsseiten dürfen gerne mit dem Glossar verlinkt werden.
-- Die im Glossareintrag angegebenen Synonyme sollten weder schriftlich noch sprachlich verwendet werden.
 - [Glossar Templates gibt es hier.](Glossar-Templates.md)
 
 ## Bilder
