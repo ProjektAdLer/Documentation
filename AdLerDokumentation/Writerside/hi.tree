@@ -103,6 +103,8 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Entities-FunktionaleAnforderungen-Engine.md">
+                    <toc-element topic="Storyelement-Entities-FunktionaleAnforderungen-Engine.md"/>
+                    <toc-element topic="Adaptivitätselement-Entities-FunktionaleAnforderungen-Engine.md"/>
                     <toc-element topic="Lernraum-Entities-FunktionaleAnforderungen-Engine.md"/>
                     <toc-element topic="Lernwelt-Entities-FunktionaleAnforderungen-Engine.md"/>
                     <toc-element topic="Lernelement-Entities-FunktionaleAnforderungen-Engine.md"/>
