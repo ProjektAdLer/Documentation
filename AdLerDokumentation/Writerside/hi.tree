@@ -67,6 +67,7 @@
         <toc-element topic="Engine-BG.md">
             <toc-element topic="Funktionale-Anforderungen-Engine.md">
                 <toc-element topic="Anderes.md">
+                    <toc-element topic="Startmenü-FunktionaleAnforderungen-Engine.md"/>
                     <toc-element topic="Ladebildschirm-FunktionaleAnforderungen-Engine.md"/>
                     <toc-element topic="Hilemenü-FunktionaleAnforderungen-Engine.md"/>
                     <toc-element topic="InternetVerlust-FunktionaleAnforderungen-Engine.md"/>
@@ -76,7 +77,6 @@
                     <toc-element topic="EZZ0002.md"/>
                     <toc-element topic="EZZ0001.md"/>
                 </toc-element>
-                <toc-element topic="Startmenü-FunktionaleAnforderungen-Engine.md"/>
                 <toc-element topic="Lernweltmenü-FunktionaleAnforderungen-Engine.md"/>
                 <toc-element topic="Lernraummenü-FunktionaleAnforderungen-Engine.md"/>
                 <toc-element topic="Lernraum-FunktionaleAnforderungen-Engine.md">
