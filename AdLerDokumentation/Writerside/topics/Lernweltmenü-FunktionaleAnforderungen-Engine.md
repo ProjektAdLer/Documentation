@@ -1,3 +1,3 @@
-# Lernweltmenü
+# Lernwelt
 
 Start typing here...
