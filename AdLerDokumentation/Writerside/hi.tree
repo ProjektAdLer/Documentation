@@ -17,6 +17,7 @@
             <toc-element topic="Funktionale-Anforderungen-Autorentool.md">
                 <toc-element topic="Lernraum-Autorentool.md">
                     <toc-element topic="Lernraum-Lernziele-Autorentool.md">
+                        <toc-element topic="AHO06.md"/>
                         <toc-element topic="AHO05.md"/>
                         <toc-element topic="Lernraum-Lernziele-Bearbeiten-Autorentool.md">
                             <toc-element topic="AHO04.md"/>
