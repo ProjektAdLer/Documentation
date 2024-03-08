@@ -1,6 +1,8 @@
 # Dokumentation
 
-
+<link-summary rel="summary"/>
+<card-summary rel="summary"/>
+<web-summary rel="summary"/>
 
 
 <table>
@@ -9,26 +11,40 @@
         <td>Beschreibung</td>
     </tr>
     <tr>
-        <td>Akronym</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>Begriff</td>
         <td>Dokumentation</td>
     </tr>
     <tr>
+        <td>Englischer Begriff</td>
+        <td>Documentation</td>
+    </tr>
+    <tr>
         <td>Definition</td>
-        <td>Unter Dokumentation muss die Nutzbarmachung 
-            von Wissen in Form von Artefakten zur weiteren Verwendung verstanden werden.
+        <td id="summary" >Unter Dokumentation muss die Nutzbarmachung 
+            von Wissen und Informationen in Form von Artefakten zur weiteren Verwendung
+            verstanden werden.
             Ziel der Dokumentation ist es, eine persistente und nachhaltige Aufbewahrung
-            von Wissen zu gewährleisten. 
-            <a href="https://de.wikipedia.org/wiki/Dokumentation#:~:text=Unter%20Dokumentation%20versteht%20man%20die,Dokumente)%20gezielt%20auffindbar%20zu%20machen">
-             (In Anlehnung an Wikipedia Dokumentation)
-            </a>
-        </td>
+            von Wissen und Informationen zu gewährleisten. 
+            </td>
+    </tr>  
+    <tr>
+        <td>Siehe auch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Akronym</td>
+        <td></td>
     </tr>
    <tr>
-        <td>Synonyme</td>
+        <td>Erlaubte Alternativbenennung</td>
+        <td></td>
+    </tr>
+   <tr>
+        <td>Verbotene Terminologie</td>
+        <td></td>
+    </tr>
+   <tr>
+        <td>Quelle</td>
         <td></td>
     </tr>
 </table>

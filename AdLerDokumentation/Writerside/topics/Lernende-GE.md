@@ -1,6 +1,8 @@
 # Lernende
 
-
+<link-summary rel="summary"/>
+<card-summary rel="summary"/>
+<web-summary rel="summary"/>
 
 
 <table>
@@ -9,20 +11,36 @@
         <td>Beschreibung</td>
     </tr>
     <tr>
-        <td>Akronym</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>Begriff</td>
         <td>Lernende</td>
     </tr>
     <tr>
+        <td>Englischer Begriff</td>
+        <td>Students</td>
+    </tr>
+    <tr>
         <td>Definition</td>
-        <td>Lernende müssen die Personen sein, die die <a href="Engine-GE.md"></a>
-        verwenden.</td>
+        <td id="summary" >Lernende müssen die Personen sein, die die <a href="Engine-GE.md"></a>
+        im Betrieb verwenden.</td>
+    </tr>  
+    <tr>
+        <td>Siehe auch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Akronym</td>
+        <td></td>
     </tr>
    <tr>
-        <td>Synonyme</td>
+        <td>Erlaubte Alternativbenennung</td>
+        <td></td>
+    </tr>
+   <tr>
+        <td>Verbotene Terminologie</td>
+        <td></td>
+    </tr>
+   <tr>
+        <td>Quelle</td>
         <td></td>
     </tr>
 </table>

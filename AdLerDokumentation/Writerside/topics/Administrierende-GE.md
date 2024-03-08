@@ -1,6 +1,8 @@
 # Administrierende
 
-
+<link-summary rel="summary"/>
+<card-summary rel="summary"/>
+<web-summary rel="summary"/>
 
 
 <table>
@@ -9,21 +11,37 @@
         <td>Beschreibung</td>
     </tr>
     <tr>
-        <td>Akronym</td>
-        <td></td>
+        <td>Begriff</td>
+        <td>Administrierende</td>
     </tr>
     <tr>
-        <td>Begriff</td>
-        <td>Administratoren</td>
+        <td>Englischer Begriff</td>
+        <td>Administrators</td>
     </tr>
     <tr>
         <td>Definition</td>
-        <td>Administrierende müssen die Benutzenden sein,
+        <td id="summary">Administrierende müssen die Benutzenden sein,
             die das <a href="AdLer-System.md"></a>
             in Betrieb nehmen.</td>
+    </tr>  
+    <tr>
+        <td>Siehe auch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Akronym</td>
+        <td></td>
     </tr>
    <tr>
-        <td>Synonyme</td>
+        <td>Erlaubte Alternativbenennung</td>
+        <td>Administrator:innen</td>
+    </tr>
+   <tr>
+        <td>Verbotene Terminologie</td>
+        <td>Admins</td>
+    </tr>
+   <tr>
+        <td>Quelle</td>
         <td></td>
     </tr>
 </table>

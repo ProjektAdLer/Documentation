@@ -15,6 +15,29 @@
         </toc-element>
         <toc-element topic="Autorentool-BG.md">
             <toc-element topic="Funktionale-Anforderungen-Autorentool.md">
+                <toc-element topic="Lernpfad-Autorentool.md">
+                    <toc-element topic="AHO14.md"/>
+                    <toc-element topic="AHO13.md"/>
+                    <toc-element topic="AHO12.md"/>
+                    <toc-element topic="AHO11.md"/>
+                </toc-element>
+                <toc-element topic="Lernraum-Autorentool.md">
+                    <toc-element topic="Lernraum-Lernziel-Autorentool.md">
+                        <toc-element topic="AHO06.md"/>
+                        <toc-element topic="AHO05.md"/>
+                        <toc-element topic="Lernraum-Lernziel-Bearbeiten-Autorentool.md">
+                            <toc-element topic="AHO04.md"/>
+                            <toc-element topic="AHO03.md"/>
+                        </toc-element>
+                        <toc-element topic="Lernraum-Lernziel-Erstellen-Autorentool.md">
+                            <toc-element topic="AHO02.md"/>
+                            <toc-element topic="AHO01.md"/>
+                        </toc-element>
+                    </toc-element>
+                    <toc-element topic="Lernraum-CRUDSP-Autorentool.md">
+                        <toc-element topic="AWA1.md"/>
+                    </toc-element>
+                </toc-element>
                 <toc-element topic="Externes-Lernmaterial-Autorentool.md">
                     <toc-element topic="Externes-Lernmaterial-Eigenschaften-Autorentool.md"/>
                     <toc-element topic="Externes-Lernmaterial-Prozesse-Autorentool.md">
@@ -41,9 +64,6 @@
                             <toc-element topic="ASE7.md"/>
                         </toc-element>
                     </toc-element>
-                </toc-element>
-                <toc-element topic="Lernraum-CRUDSP-Autorentool.md">
-                    <toc-element topic="AWA1.md"/>
                 </toc-element>
             </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Autorentool.md">
@@ -231,7 +251,6 @@
     </toc-element>
     <toc-element topic="Templates.md">
         <toc-element topic="Glossar-Templates.md">
-            <toc-element topic="Glossareintrag-2-0-Template.md"/>
             <toc-element topic="Glossareintrag-Template.md"/>
         </toc-element>
         <toc-element topic="Spezifikation-Templates.md">
