@@ -16,14 +16,14 @@
         <toc-element topic="Autorentool-BG.md">
             <toc-element topic="Funktionale-Anforderungen-Autorentool.md">
                 <toc-element topic="Lernraum-Autorentool.md">
-                    <toc-element topic="Lernraum-Lernziele-Autorentool.md">
+                    <toc-element topic="Lernraum-Lernziel-Autorentool.md">
                         <toc-element topic="AHO06.md"/>
                         <toc-element topic="AHO05.md"/>
-                        <toc-element topic="Lernraum-Lernziele-Bearbeiten-Autorentool.md">
+                        <toc-element topic="Lernraum-Lernziel-Bearbeiten-Autorentool.md">
                             <toc-element topic="AHO04.md"/>
                             <toc-element topic="AHO03.md"/>
                         </toc-element>
-                        <toc-element topic="Lernraum-Lernziele-Erstellen-Autorentool.md">
+                        <toc-element topic="Lernraum-Lernziel-Erstellen-Autorentool.md">
                             <toc-element topic="AHO02.md"/>
                             <toc-element topic="AHO01.md"/>
                         </toc-element>

@@ -1,8 +1,8 @@
-# Lernziele bearbeiten ohne Eingabeunterstützung
+# Lernziel bearbeiten ohne Eingabeunterstützung
 
 ## Definition:
 
-Das Autorentool muss Lehrenden die Möglichkeit bieten, ein zuvor erstelltes Lernziel eines Lernraums ohne Eingabeunterstützung bearbeiten zu können.
+Das Autorentool muss Lehrenden die Möglichkeit bieten, ein Lernziel eines Lernraums ohne Eingabeunterstützung zu bearbeiten.
 
 ## Akzeptanzkriterien:
 

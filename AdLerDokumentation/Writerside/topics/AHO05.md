@@ -1,8 +1,8 @@
-# Lernziele löschen
+# Lernziel löschen
 
 ## Definition:
 
-Das Autorentool muss Lehrenden die Möglichkeit bieten, ein zuvor erstelltes Lernziel eines Lernraums löschen zu können.
+Das Autorentool muss Lehrenden die Möglichkeit bieten, ein Lernziel eines Lernraums zu löschen.
 
 ## Akzeptanzkriterien:
 

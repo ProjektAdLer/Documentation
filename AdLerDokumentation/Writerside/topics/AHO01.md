@@ -1,8 +1,8 @@
-# Lernziele erstellen mit Eingabeunterstützung
+# Lernziel erstellen mit Eingabeunterstützung
 
 ## Definition:
 
-Das Autorentool muss Lehrenden die Möglichkeit bieten, ein Lernziel für einen Lernraum mit Eingabeunterstützung erstellen zu können.
+Das Autorentool muss Lehrenden die Möglichkeit bieten, ein Lernziel für einen Lernraum mit Eingabeunterstützung zu erstellen.
 
 ## Akzeptanzkriterien:
 

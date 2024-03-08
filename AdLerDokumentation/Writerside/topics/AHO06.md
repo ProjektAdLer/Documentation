@@ -1,8 +1,8 @@
-# Lernziele speichern
+# Lernziel speichern
 
 ## Definition:
 
-Das Autorentool muss Lehrenden die Möglichkeit bieten, ein erstelltes Lernziel eines Lernraums speichern zu können.
+Das Autorentool muss Lehrenden die Möglichkeit bieten, ein Lernziel eines Lernraums zu speichern.
 
 ## Akzeptanzkriterien:
 
