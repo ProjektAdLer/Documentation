@@ -105,9 +105,14 @@
                 <toc-element topic="Entities-FunktionaleAnforderungen-Engine.md">
                     <toc-element topic="Storyelement-Entities-FunktionaleAnforderungen-Engine.md"/>
                     <toc-element topic="Adaptivitätselement-Entities-FunktionaleAnforderungen-Engine.md"/>
-                    <toc-element topic="Lernraum-Entities-FunktionaleAnforderungen-Engine.md"/>
+                    <toc-element topic="Lernraum-Entities-FunktionaleAnforderungen-Engine.md">
+                        <toc-element topic="ELG0003.md"/>
+                        <toc-element topic="ELG0002.md"/>
+                    </toc-element>
                     <toc-element topic="Lernwelt-Entities-FunktionaleAnforderungen-Engine.md"/>
-                    <toc-element topic="Lernelement-Entities-FunktionaleAnforderungen-Engine.md"/>
+                    <toc-element topic="Lernelement-Entities-FunktionaleAnforderungen-Engine.md">
+                        <toc-element topic="ELG0001.md"/>
+                    </toc-element>
                     <toc-element topic="UserData-Entities-FunktionaleAnforderungen-Engine.md">
                         <toc-element topic="Login-Benachrichtigungen.md">
                             <toc-element topic="EZZ0005.md"/>
