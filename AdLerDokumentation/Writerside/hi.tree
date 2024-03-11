@@ -109,10 +109,6 @@
                                 <toc-element topic="EWE0006.md"/>
                                 <toc-element topic="EWE0004.md"/>
                             </toc-element>
-                            <toc-element topic="EWE0005.md"/>
-                            <toc-element topic="EWE0003.md"/>
-                            <toc-element topic="EWE0002.md"/>
-                            <toc-element topic="EWE0001.md"/>
                         </toc-element>
                         <toc-element topic="Menüleiste-FunktionaleAnforderungen-Engine.md"/>
                         <toc-element topic="Lernziele-FunktionaleAnforderungen-Engine.md"/>
@@ -131,7 +127,12 @@
                 </toc-element>
                 <toc-element topic="Entities-FunktionaleAnforderungen-Engine.md">
                     <toc-element topic="Storyelement-Entities-FunktionaleAnforderungen-Engine.md"/>
-                    <toc-element topic="Adaptivitätselement-Entities-FunktionaleAnforderungen-Engine.md"/>
+                    <toc-element topic="Adaptivitätselement-Entities-FunktionaleAnforderungen-Engine.md">
+                        <toc-element topic="EWE0001.md"/>
+                        <toc-element topic="EWE0002.md"/>
+                        <toc-element topic="EWE0003.md"/>
+                        <toc-element topic="EWE0005.md"/>
+                    </toc-element>
                     <toc-element topic="Lernraum-Entities-FunktionaleAnforderungen-Engine.md">
                         <toc-element topic="ELG0004.md"/>
                         <toc-element topic="ELG0003.md"/>
