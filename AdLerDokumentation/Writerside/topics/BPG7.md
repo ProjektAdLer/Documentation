@@ -2,7 +2,7 @@
 
 ## Definition
 
-Das Backend muss den Nutzern die Möglichkeit bieten, sich mit ihren Zugangsdaten des [LMS](LMS.md) anzumelden
+Das Backend muss den Nutzern die Möglichkeit bieten, sich mit ihren Zugangsdaten des [Learning Management Systems](Learning-Management-System-GE.md) anzumelden
 
 ## Akzeptanzkriterien
 
