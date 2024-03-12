@@ -1,5 +1,10 @@
 # REST
 
+<link-summary rel="summary"/>
+<card-summary rel="summary"/>
+<web-summary rel="summary"/>
+
+
 <table>
     <tr>
         <td></td>
@@ -7,19 +12,23 @@
     </tr>
     <tr>
         <td>Begriff</td>
-        <td>REST</td>
+        <td>Representational State Transfer</td>
+    </tr>
+    <tr>
+        <td>Englischer Begriff</td>
+        <td>Representational State Transfer</td>
+    </tr>
+    <tr>
+        <td>Definition</td>
+        <td id="summary" >REST (Representational State Transfer) ist ein Architekturstil für die Entwicklung von Netzwerkanwendungen. Er nutzt HTTP-Methoden (GET, POST, PUT, DELETE) zur Kommunikation und zum Austausch von Daten zwischen Clients und Servern. REST ist besonders in der Entwicklung von Webdiensten und APIs (Application Programming Interfaces) verbreitet, da es eine einfache und standardisierte Weise bietet, Ressourcen über das Netzwerk anzusprechen.</td>
+    </tr>  
+    <tr>
+        <td>Siehe auch</td>
+        <td></td>
     </tr>
     <tr>
         <td>Akronym</td>
         <td>REST</td>
-    </tr>
-<tr>
-        <td>Englischer Begriff</td>
-        <td>Representational State Transfer</td>
-  </tr>
-    <tr>
-        <td>Definition</td>
-        <td>Representational State Transfer (REST) ist ein Architekturstil für die Entwicklung von netzbasierten Anwendungen und definiert einen Satz von Einschränkungen zur Nutzung und zum Entwurf von Webdiensten. RESTful Webdienste ermöglichen die Interaktion mit Netzwerkdiensten über HTTP mit den Grundoperationen CREATE, READ, UPDATE und DELETE, die den CRUD-Operationen in Datenbanken entsprechen.</td>
     </tr>
    <tr>
         <td>Erlaubte Alternativbenennung</td>

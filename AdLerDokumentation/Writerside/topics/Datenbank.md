@@ -1,9 +1,13 @@
 # Datenbank
 
-Eine Datenbank ist ein organisiertes System zur Speicherung, Verwaltung und Abfrage von Daten. Sie ermöglicht es, große Mengen von Informationen effizient zu speichern, zu suchen und zu manipulieren.
+<link-summary rel="summary"/>
+<card-summary rel="summary"/>
+<web-summary rel="summary"/>
+
 
 <table>
     <tr>
+        <td></td>
         <td>Beschreibung</td>
     </tr>
     <tr>
@@ -11,26 +15,30 @@ Eine Datenbank ist ein organisiertes System zur Speicherung, Verwaltung und Abfr
         <td>Datenbank</td>
     </tr>
     <tr>
-        <td>Akronym</td>
-        <td>DB</td>
-    </tr>
-    <tr>
         <td>Englischer Begriff</td>
-        <td>Database</td>
+        <td>database</td>
     </tr>
     <tr>
         <td>Definition</td>
-        <td>Ein organisiertes System zur Speicherung, Verwaltung und Abfrage von Daten, das es ermöglicht, große Mengen von Informationen effizient zu organisieren und darauf zuzugreifen.</td>
+        <td id="summary">Eine strukturierte Sammlung von Daten, die elektronisch gespeichert und mit Hilfe von Datenbankmanagementsystemen (DBMS) abgefragt und manipuliert werden kann.</td>
+    </tr>  
+    <tr>
+        <td>Siehe auch</td>
+        <td></td>
     </tr>
     <tr>
+        <td>Akronym</td>
+        <td></td>
+    </tr>
+   <tr>
         <td>Erlaubte Alternativbenennung</td>
         <td></td>
     </tr>
-    <tr>
+   <tr>
         <td>Verbotene Terminologie</td>
         <td></td>
     </tr>
-    <tr>
+   <tr>
         <td>Quelle</td>
         <td></td>
     </tr>

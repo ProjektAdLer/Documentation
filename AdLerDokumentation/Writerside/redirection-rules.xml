@@ -46,4 +46,20 @@
         <description>Created after removal of "Login" from AdLerDokumentation</description>
         <accepts>Login.html</accepts>
     </rule>
+    <rule id="600a8798">
+        <description>Created after removal of "DatenbankOLD" from AdLerDokumentation</description>
+        <accepts>Datenbank.html</accepts>
+    </rule>
+    <rule id="48960524">
+        <description>Created after removal of "UserToken" from AdLerDokumentation</description>
+        <accepts>UserToken.html</accepts>
+    </rule>
+    <rule id="47952c7d">
+        <description>Created after removal of "REST" from AdLerDokumentation</description>
+        <accepts>REST.html</accepts>
+    </rule>
+    <rule id="79aa07">
+        <description>Created after removal of "LMS" from AdLerDokumentation</description>
+        <accepts>LMS.html</accepts>
+    </rule>
 </rules>
