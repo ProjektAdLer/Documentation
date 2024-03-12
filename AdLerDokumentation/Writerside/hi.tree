@@ -169,13 +169,29 @@
             <toc-element topic="SBOM-Engine.md"/>
         </toc-element>
         <toc-element topic="Backend-BG.md">
-        <toc-element topic="Funktionale-Anforderungen-Backend.md"/>
-        <toc-element topic="Nicht-funktionale-Anforderungen-Backend.md"/>
-        <toc-element topic="SBOM-Backend.md"/>
-        <toc-element topic="Schnittstellen-Backend.md"/>
-        <toc-element topic="Software-Architektur-Backend.md"/>
-        <toc-element topic="Software-Design-Backend.md"/>
-    </toc-element>
+            <toc-element topic="Funktionale-Anforderungen-Backend.md">
+                <toc-element topic="User.md">
+                    <toc-element topic="BPG7.md"/>
+                    <toc-element topic="BPG6.md"/>
+                </toc-element>
+                <toc-element topic="Lernwelt.md">
+                    <toc-element topic="Lernende.md">
+                        <toc-element topic="BPG5.md"/>
+                    </toc-element>
+                    <toc-element topic="Lehrende.md">
+                        <toc-element topic="BPG2.md"/>
+                        <toc-element topic="BPG1.md"/>
+                        <toc-element topic="BPG3.md"/>
+                    </toc-element>
+                    <toc-element topic="BPG4.md"/>
+                </toc-element>
+            </toc-element>
+            <toc-element topic="Nicht-funktionale-Anforderungen-Backend.md"/>
+            <toc-element topic="SBOM-Backend.md"/>
+            <toc-element topic="Schnittstellen-Backend.md"/>
+            <toc-element topic="Software-Architektur-Backend.md"/>
+            <toc-element topic="Software-Design-Backend.md"/>
+        </toc-element>
         <toc-element topic="Plugin-BG.md">
             <toc-element topic="Funktionale-Anforderungen-Plugin.md"/>
             <toc-element topic="Nicht-funktionale-Anforderungen-Plugin.md"/>
@@ -217,6 +233,7 @@
         </toc-element>
         <toc-element topic="C.md"/>
         <toc-element topic="D.md">
+            <toc-element topic="Datenbank.md"/>
             <toc-element topic="Dokumentation-GE.md"/>
         </toc-element>
         <toc-element topic="E.md">
@@ -247,7 +264,9 @@
             <toc-element topic="Pausenempfehlung-GE.md"/>
         </toc-element>
         <toc-element topic="Q.md"/>
-        <toc-element topic="R.md"/>
+        <toc-element topic="R.md">
+            <toc-element topic="REST.md"/>
+        </toc-element>
         <toc-element topic="S.md">
             <toc-element topic="Spezifikation-GE.md"/>
         </toc-element>
@@ -255,7 +274,9 @@
             <toc-element topic="Technische-Dokumentation-GE.md"/>
             <toc-element topic="Testdokumentation-GE.md"/>
         </toc-element>
-        <toc-element topic="U.md"/>
+        <toc-element topic="U.md">
+            <toc-element topic="UserToken.md"/>
+        </toc-element>
         <toc-element topic="V.md"/>
         <toc-element topic="W.md">
             <toc-element topic="Wartungsdokumentation-GE.md"/>

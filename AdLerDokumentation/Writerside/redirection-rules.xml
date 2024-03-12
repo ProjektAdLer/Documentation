@@ -22,4 +22,44 @@
         <description>Created after removal of "Lernwelt Create" from Help Instance</description>
         <accepts>ASE1.html</accepts>
     </rule>
+    <rule id="6444b040">
+        <description>Created after removal of "TestAnforderung" from AdLerDokumentation</description>
+        <accepts>BPG1.html</accepts>
+    </rule>
+    <rule id="385da639">
+        <description>Created after removal of "sadasd" from AdLerDokumentation</description>
+        <accepts>BPG1.html</accepts>
+    </rule>
+    <rule id="2ae916db">
+        <description>Created after removal of "BPG1" from AdLerDokumentation</description>
+        <accepts>BPG1.html</accepts>
+    </rule>
+    <rule id="15a6c13">
+        <description>Created after removal of "Lehrende" from AdLerDokumentation</description>
+        <accepts>Dozenten.html</accepts>
+    </rule>
+    <rule id="4d62db92">
+        <description>Created after removal of "Lernende" from AdLerDokumentation</description>
+        <accepts>Studenten.html</accepts>
+    </rule>
+    <rule id="6c199200">
+        <description>Created after removal of "Login" from AdLerDokumentation</description>
+        <accepts>Login.html</accepts>
+    </rule>
+    <rule id="600a8798">
+        <description>Created after removal of "DatenbankOLD" from AdLerDokumentation</description>
+        <accepts>Datenbank.html</accepts>
+    </rule>
+    <rule id="48960524">
+        <description>Created after removal of "UserToken" from AdLerDokumentation</description>
+        <accepts>UserToken.html</accepts>
+    </rule>
+    <rule id="47952c7d">
+        <description>Created after removal of "REST" from AdLerDokumentation</description>
+        <accepts>REST.html</accepts>
+    </rule>
+    <rule id="79aa07">
+        <description>Created after removal of "LMS" from AdLerDokumentation</description>
+        <accepts>LMS.html</accepts>
+    </rule>
 </rules>
