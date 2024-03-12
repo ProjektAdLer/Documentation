@@ -243,7 +243,8 @@
         <toc-element topic="N.md"/>
         <toc-element topic="O.md"/>
         <toc-element topic="P.md">
-            <toc-element topic="PausenhinweisGE.md"/>
+            <toc-element topic="Pausenhinweis-GE.md"/>
+            <toc-element topic="Pausenempfehlung-GE.md"/>
             <toc-element topic="PausenempfehlungGE.md"/>
         </toc-element>
         <toc-element topic="Q.md"/>
