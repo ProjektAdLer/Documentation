@@ -3,10 +3,10 @@
 Hier befinden sich wichtige Informationen zum Umgang und Start mit Writerside im Rahmen des
 [Adler-Projekts](AdLer-Projekt-GE.md).
 
-Bitte beachtet die best practice Bereiche:
+Bitte beachtet die Best-Practice-Bereiche:
 <tip>
     <p>
-        Ich bin ein Best Practice Bereich
+        Ich bin ein Best-Practice-Bereich
     </p>
 </tip>
 
