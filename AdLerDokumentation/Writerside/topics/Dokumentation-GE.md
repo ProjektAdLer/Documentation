@@ -20,9 +20,9 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Unter Dokumentation muss die Nutzbarmachung 
+        <td id="summary" >Unter Dokumentation wird die Nutzbarmachung 
             von Wissen und Informationen in Form von Artefakten zur weiteren Verwendung
-            verstanden werden.
+            verstanden.
             Ziel der Dokumentation ist es, eine persistente und nachhaltige Aufbewahrung
             von Wissen und Informationen zu gewährleisten. 
             </td>

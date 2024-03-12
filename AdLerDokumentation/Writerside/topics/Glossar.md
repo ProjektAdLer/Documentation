@@ -3,7 +3,7 @@
 <note>
     <p>
         Die Regeln zum Erstellen eines Glossareintrags müssen eingehalten 
-        werden und können hier gefunden werden: 
+        werden und finden sich hier: 
         <a  href="Writerside-howto-and-best-practice-BD.md"
             anchor="glossar-eintrag-anlegen"></a>
     </p>
@@ -11,12 +11,12 @@
 
 ## Aufbau des Glossars
 
-Je Glossareintrag gibt es ein Writerside Topic in der alphabetischen Gliederung.
+Je Glossareintrag gibt es ein Writerside-Topic in der alphabetischen Gliederung.
 Dadurch ist das Verlinken auf einzelne Glossareinträge einfacher,
-da nicht für jeden Eintrag händisch ein Link erzeugt werden muss.
+da nicht für jeden Eintrag manuell ein Link erzeugt werden muss.
 Auch kann so die alphabetische Reihenfolge einfacher sichergestellt werden.
 Die Glossareinträge sind mit XML-Tabellen gebaut, damit
-diese einfacher geparst werden können. Durch das parsen können später
+sie einfacher geparst werden können. Durch das Parsen können später
 unterschiedliche Sichten auf das Glossar erstellt werden.
 
 
@@ -24,7 +24,7 @@ unterschiedliche Sichten auf das Glossar erstellt werden.
 ## Rolle des Glossars
 
 Das Glossar ist ein sehr wichtiges Artefakt, da hier eindeutige Definitionen
-der Projektweiten Begriffe hinterlegt sind. Die Wichtigkeit des Glossars kommt daher,
+der projektweiten Begriffe hinterlegt sind. Die Wichtigkeit des Glossars kommt daher,
 dass ein gemeinsames Verständnis und somit eine gemeinsame Sprache erhebliche
-Auswirkungen auf den Projekterfolg hat.
+Auswirkungen auf den Projekterfolg haben.
 

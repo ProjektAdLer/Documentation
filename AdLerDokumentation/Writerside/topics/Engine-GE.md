@@ -22,8 +22,8 @@
         <td>Definition</td>
         <td id="summary" >
             Die <a href="Engine-BG.md"></a> ist der 
-            <a href="Betrachtungsgegenstand-GE.md"></a> der für die Lernenden 
-            eine immersive bespielbare 3D-Lernumgebung bereitstellt.
+            <a href="Betrachtungsgegenstand-GE.md"></a>, der für die Lernenden 
+            eine immersive spielbare 3D-Lernumgebung bereitstellt.
         </td>
     </tr>  
     <tr>
