@@ -252,6 +252,9 @@
         <toc-element topic="J.md"/>
         <toc-element topic="K.md"/>
         <toc-element topic="L.md">
+            <toc-element topic="Lernelement-GE.md"/>
+            <toc-element topic="Lernwelt-GE.md"/>
+            <toc-element topic="Lernraum-GE.md"/>
             <toc-element topic="Learning-Management-System-GE.md"/>
             <toc-element topic="Lehrende-GE.md"/>
             <toc-element topic="Lernende-GE.md"/>
