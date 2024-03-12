@@ -1,38 +1,37 @@
 # Requirements-Engineering und Management Leitfaden
 
-Dieser Leitfaden beschreibt wie das 
-Requirements-Engineering und Management 
+Dieser Leitfaden beschreibt wie das
+Requirements-Engineering und Management
 im [](AdLer-Projekt-GE.md) aussehen muss.
-
 
 ## Gliederung der Betrachtungsgegenstände
 
-
 **Betrachtungsgegenstand**
+
 - Funktionale Anforderungen
-  - Anforderung1
-    - Anforderung1 CRUDSP 
-    - Spezifischere Anforderung1
-      - Funktionsspezifische nicht funktionale Anforderungen
-      - Eigenschaften
-      - Regeln
-      - ...
-    - Spezifischere Anforderung2
-      - Funktionsspezifische nicht funktionale Anforderungen
-      - Eigenschaften
-      - Regeln
-      - ...
-    - Spezifischere Anforderung3
-      - ...
+    - Anforderung1
+        - Anforderung1 CRUDSP
+        - Spezifischere Anforderung1
+            - Funktionsspezifische nicht funktionale Anforderungen
+            - Eigenschaften
+            - Regeln
+            - ...
+        - Spezifischere Anforderung2
+            - Funktionsspezifische nicht funktionale Anforderungen
+            - Eigenschaften
+            - Regeln
+            - ...
+        - Spezifischere Anforderung3
+            - ...
+        - ...
+    - Anforderung2
+        - Anforderung2 CRUDSP
+        - Spezifischere Anforderungen2
+            - Funktionsspezifische nicht funktionale Anforderungen
+            - Eigenschaften
+            - Regeln
+        - ...
     - ...
-  - Anforderung2
-    - Anforderung2 CRUDSP 
-    - Spezifischere Anforderungen2
-      - Funktionsspezifische nicht funktionale Anforderungen
-      - Eigenschaften
-      - Regeln
-    - ...
-  - ...
 - ...
 - Nicht funktionale Anforderungen
 - SBOM
@@ -40,10 +39,7 @@ im [](AdLer-Projekt-GE.md) aussehen muss.
 - Software Architektur
 - Software Design
 
-
-
-### Benennung in Writerside
-
+## Benennung innerhalb der [Spezifikation](Spezifikation.md)
 
 <note>
     <p>
@@ -70,15 +66,11 @@ im [](AdLer-Projekt-GE.md) aussehen muss.
     </warning>
 </note>
 
-
-
-
-
-### ID-Vergabe für Anforderungen
+## ID-Vergabe für Anforderungen
 
 [Bitte hier einsehen](https://discord.com/channels/882591525433933834/1212414231547486210/1212416663614652496)
 
-## Anforderungen 
+## Anforderungen
 
 [Bitte hier einsehen](https://discord.com/channels/882591525433933834/1212414231547486210/1213092315669995530)
 
