@@ -174,7 +174,7 @@
                     <toc-element topic="BPG7.md"/>
                     <toc-element topic="BPG6.md"/>
                 </toc-element>
-                <toc-element topic="Lernwelt.md">
+                <toc-element topic="Lernwelt-Backend.md" >
                     <toc-element topic="Lernende.md">
                         <toc-element topic="BPG5.md"/>
                     </toc-element>
