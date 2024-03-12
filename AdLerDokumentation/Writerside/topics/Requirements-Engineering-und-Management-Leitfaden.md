@@ -60,7 +60,7 @@ im [](AdLer-Projekt-GE.md) aussehen muss.
     </p>
     <warning>
       <p>
-          Es gilt zu beachten, dass es nicht notwendig den gesamten Pfad im Filename abzubilden!
+          Es gilt zu beachten, dass es nicht notwendig ist den gesamten Pfad im Filename abzubilden!
           Natürlich nur so lange, wie es innerhalb eines Betrachtungsgegenstandes das Topic nur einmal gibt.
       </p>
     </warning>
