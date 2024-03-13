@@ -223,6 +223,7 @@
     </toc-element>
     <toc-element topic="Glossar.md">
         <toc-element topic="A.md">
+            <toc-element topic="ATF-GE.md"/>
             <toc-element topic="AdLer-Projekt-GE.md"/>
             <toc-element topic="AdLer-System-GE.md"/>
             <toc-element topic="Administrierende-GE.md"/>
