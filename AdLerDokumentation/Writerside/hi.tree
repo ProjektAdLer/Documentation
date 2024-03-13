@@ -127,7 +127,9 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Entities-FunktionaleAnforderungen-Engine.md">
-                    <toc-element topic="Storyelement-Entities-FunktionaleAnforderungen-Engine.md"/>
+                    <toc-element topic="Storyelement-Entities-FunktionaleAnforderungen-Engine.md">
+                        <toc-element topic="EZZ0006.md"/>
+                    </toc-element>
                     <toc-element topic="Adaptivitätselement-Entities-FunktionaleAnforderungen-Engine.md">
                         <toc-element topic="EWE0001.md"/>
                         <toc-element topic="EWE0002.md"/>
@@ -260,7 +262,9 @@
             <toc-element topic="Lernende-GE.md"/>
         </toc-element>
         <toc-element topic="M.md"/>
-        <toc-element topic="N.md"/>
+        <toc-element topic="N.md">
+            <toc-element topic="NPC-GE.md"/>
+        </toc-element>
         <toc-element topic="O.md"/>
         <toc-element topic="P.md">
             <toc-element topic="Pausenhinweis-GE.md"/>
