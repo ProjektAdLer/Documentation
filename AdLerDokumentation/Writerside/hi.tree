@@ -58,18 +58,23 @@
                                     <toc-element topic="AWA9004.md"/>
                                 </toc-element>
                                 <toc-element topic="Frage-CRUDSP-Adaptivitätselement-Autorentool.md">
+                                    <toc-element topic="AWA0014.md"/>
                                     <toc-element topic="AWA0009.md"/>
                                     <toc-element topic="AWA0008.md"/>
                                     <toc-element topic="AWA0004.md"/>
                                 </toc-element>
                             </toc-element>
                             <toc-element topic="Aufgabe-CRUDSP-Adaptivitätselement-Autorentool.md">
+                                <toc-element topic="AWA0013.md"/>
                                 <toc-element topic="AWA0007.md"/>
                                 <toc-element topic="AWA0006.md"/>
                                 <toc-element topic="AWA0005.md"/>
                             </toc-element>
                         </toc-element>
                         <toc-element topic="Adaptivitätselement-CRUDSP-Autorentool.md">
+                            <toc-element topic="AWA0012.md"/>
+                            <toc-element topic="AWA0011.md"/>
+                            <toc-element topic="AWA0010.md"/>
                             <toc-element topic="AWA0003.md"/>
                         </toc-element>
                     </toc-element>
