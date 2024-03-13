@@ -22,7 +22,7 @@
         <td>Definition</td>
         <td id="summary" >Die Benutzerdokumentation muss eine
             detaillierte Dokumentation für die <a href="Endanwender-GE.md"></a>,
-            die das <a href="AdLer-System-GE.md"></a> im laufenden Betrieb verwendet sein. 
+            die das <a href="AdLer-System-GE.md"></a> im laufenden Betrieb verwenden sein. 
             Niedrigste Vorkenntnisse müssen vorausgesetzt werden. 
             Hierbei ist der Dümmste Anzunehmende Benutzer (DAB) zu berücksichtigen.
             Der Detaillierungsgrad ist eine Schritt-für-Schritt-Anleitung auf 
