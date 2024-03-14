@@ -100,15 +100,15 @@
                         <toc-element topic="Storyelement-FunktionaleAnforderungen-Engine.md"/>
                         <toc-element topic="3D-Lernraum-FunktionaleAnforderungen-Engine.md"/>
                         <toc-element topic="Adaptivitätselement-FunktionaleAnforderungen-Engine.md">
+                            <toc-element topic="EWE0012.md">
+                                <toc-element topic="EWE0008.md"/>
+                                <toc-element topic="EWE0009.md"/>
+                            </toc-element>
                             <toc-element topic="EWE0011.md"/>
                             <toc-element topic="EWE0010.md">
                                 <toc-element topic="EWE0004.md"/>
                                 <toc-element topic="EWE0006.md"/>
                                 <toc-element topic="EWE0007.md"/>
-                            </toc-element>
-                            <toc-element topic="Fragen.md">
-                                <toc-element topic="EWE0009.md"/>
-                                <toc-element topic="EWE0008.md"/>
                             </toc-element>
                         </toc-element>
                         <toc-element topic="Menüleiste-FunktionaleAnforderungen-Engine.md"/>
