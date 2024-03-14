@@ -20,7 +20,13 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" ></td>
+        <td id="summary" >Ein Adaptivitätselement ist ein Element eines <a href="Lernraum-GE.md">Lernraums</a>, welches Aufgaben, Fragen und Hinweise 
+            beinhaltet. Jede Aufgabe beinhaltet eins bis drei Fragen mit jeweils unterschiedlichen Schwierigkeitsstufen. 
+            <br/>Eine Aufgabe kann entweder optional sein oder notwendig, um das Adaptivitätselement abschließen zu können. 
+            Falls eine Aufgabe nicht optional ist, muss eine Frage der gekennzeichneten Schwierigkeit oder höher richtig
+            beantwortet werden, um die Aufgabe erfolgreich bearbeitet zu haben. Bei falscher Beantwortung einer Frage 
+            kann optional ein Hinweis angezeigt werden. <br/>Das Adaptivitätselement gilt als abgeschlossen, wenn alle 
+            notwendigen Aufgaben erfolgreich bearbeitet sein. Aufgaben und Fragen können in beliebiger Reihenfolge bearbeitet werden.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>
@@ -36,7 +42,7 @@
     </tr>
    <tr>
         <td>Verbotene Terminologie</td>
-        <td></td>
+        <td>Quizelement</td>
     </tr>
    <tr>
         <td>Quelle</td>
