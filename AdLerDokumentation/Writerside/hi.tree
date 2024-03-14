@@ -109,8 +109,6 @@
                                 <toc-element topic="EWE0009.md"/>
                                 <toc-element topic="EWE0008.md"/>
                             </toc-element>
-                            <toc-element topic="Hinweis.md">
-                            </toc-element>
                         </toc-element>
                         <toc-element topic="Menüleiste-FunktionaleAnforderungen-Engine.md"/>
                         <toc-element topic="Lernziele-FunktionaleAnforderungen-Engine.md"/>

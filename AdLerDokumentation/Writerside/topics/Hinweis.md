@@ -1,3 +1,0 @@
-# Hinweis
-
-Start typing here...
