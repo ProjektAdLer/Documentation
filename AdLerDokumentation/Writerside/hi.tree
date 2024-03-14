@@ -286,6 +286,7 @@
             <toc-element topic="Spezifikation-GE.md"/>
         </toc-element>
         <toc-element topic="T.md">
+            <toc-element topic="Theme-GE.md"/>
             <toc-element topic="Technische-Dokumentation-GE.md"/>
             <toc-element topic="Testdokumentation-GE.md"/>
         </toc-element>
