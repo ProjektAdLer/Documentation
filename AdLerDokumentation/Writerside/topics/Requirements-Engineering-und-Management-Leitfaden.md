@@ -74,4 +74,13 @@ im [](AdLer-Projekt-GE.md) aussehen muss.
 
 [Bitte hier einsehen](https://discord.com/channels/882591525433933834/1212414231547486210/1213092315669995530)
 
+## Bedingungen in Anforderungen
 
+Für Bedingungen müssen die folgenden Wörter in den entsprechenden Fällen 
+gewählt werden:
+
+- Logik: Falls
+- Ereignis: Sobald
+- Zeitraum: Solange
+
+[vgl. Sophist Master Broschuere S. 40](https://www.sophist.de/fileadmin/user_upload/Bilder_zu_Seiten/Publikationen/Wissen_for_free/MASTeR_Broschuere_3-Auflage_interaktiv.pdf)
