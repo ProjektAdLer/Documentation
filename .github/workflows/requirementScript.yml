@@ -2,8 +2,8 @@ name: Clone Repos, Run Script, and Commit Changes
 
 on:
   push:
-    branches-ignore:
-      - main
+    branches:
+      - never-trigger-this-workflow # This branch is unlikely to exist
 
 jobs:
   process-repos:
@@ -40,7 +40,7 @@ jobs:
           sudo apt-get install -y tree
           tree -L 4
 
-      # Install Node.js and run the script yolo
+      # Install Node.js and run the script
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
