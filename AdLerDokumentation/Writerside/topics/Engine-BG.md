@@ -25,7 +25,7 @@ Funktionale Anforderungen
         - Türen
         - ... Elemente
             - Regal
-            - Tisch
+            - Tisch 
             - etc.
     - CRUDSP (Prozesse)
         - Laden 
