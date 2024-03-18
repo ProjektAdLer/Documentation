@@ -59,6 +59,8 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Lernwelt-Autorentool.md">
+                    <toc-element topic="ASN0002.md"/>
+                    <toc-element topic="ASN0001.md"/>
                     <toc-element topic="AHO22.md"/>
                     <toc-element topic="Lernwelt-Eigenschaften-Autorentool.md"/>
                     <toc-element topic="Lernwelt-CRUDSP-Autorentool.md">
