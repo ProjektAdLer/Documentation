@@ -1,0 +1,65 @@
+name: Clone Repos, Run Script, and Commit Changes
+
+on:
+  push:
+    branches:
+      - never-trigger-this-workflow # This branch is unlikely to exist
+
+jobs:
+  process-repos:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the main repository
+      - name: Checkout Main Repo
+        uses: actions/checkout@v2
+        with:
+          path: Documentation
+
+      # Checkout additional repositories at the same level as the main repo
+      - name: Checkout 2D_3D_AdLer Repo
+        uses: actions/checkout@v2
+        with:
+          repository: ProjektAdLer/2D_3D_AdLer
+          path: 2D_3D_AdLer
+
+      - name: Checkout Autorentool Repo
+        uses: actions/checkout@v2
+        with:
+          repository: ProjektAdLer/Autorentool
+          path: Autorentool
+
+      - name: Checkout AdLerBackend Repo
+        uses: actions/checkout@v2
+        with:
+          repository: ProjektAdLer/AdLerBackend
+          path: AdLerBackend
+
+      - name: Execute tree command
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tree
+          tree -L 4
+
+      # Install Node.js and run the script
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Run Script
+        run: |
+          cd Documentation/Scripts/Requirements
+          npm install --no-package-lock
+          node ./build/createRequirementReference.js
+
+      # Commit changes, if there are any
+      - name: Commit and Push Changes
+        run: |
+          cd ${{ github.workspace }}/Documentation
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Automated commit by GitHub Actions" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

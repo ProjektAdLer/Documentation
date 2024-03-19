@@ -62,4 +62,8 @@
         <description>Created after removal of "LMS" from AdLerDokumentation</description>
         <accepts>LMS.html</accepts>
     </rule>
+    <rule id="1d596521">
+        <description>Created after removal of "Anforderungen des Backends" from AdLerDokumentation</description>
+        <accepts>Auflistung-der-Anforderungen-Backend.html</accepts>
+    </rule>
 </rules>

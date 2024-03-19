@@ -12,3 +12,10 @@ An dieser Stelle wird das Vorgehen zum Erstellen der Anforderungsdokumentation v
 7. Aktivitätsdiagramm zuweisen oder erstellen 
 8. Unit-Tests der Anforderung zuweisen 
 9. Fehlende Unit-Tests auf ZenHub dokumentieren
+
+## Ordnerstruktur - 3 Level 
+- Top-Level Domänenobjekte 
+  - Prozesse zu Domämenobjekte (Name des Objekts + Prozesswort)
+  - Unterobjekte/Eigenschaften 
+    - Prozesse zu Unterobjekten
+

@@ -23,7 +23,7 @@
         <td id="summary" >
             Ein Lernraum ist eine Sammlung von <a href="Lernelement-GE.md">Lernelementen</a> sowie Metainformationen wie
             Name des Raumes, benötigte 
-            Punktzahl zum Abschließen des Raumes, Theme, zu erreichende Lernziele und Beschreibung des Raumes.<br/>
+            Punktzahl zum Abschließen des Raumes, <a href="Theme-GE.md">Theme</a>, zu erreichende Lernziele und Beschreibung des Raumes.<br/>
             Weiterhin können Lernräume durch einen nicht-zyklischen Graph mit UND/ODER Bedingungen verbunden werden,
             um Bedingungen fürs Freischalten zwischen den Räumen zu erstellen.
             Im <a href="Autorentool-GE.md"></a> können Lernräume erstellt und geändert werden sowie Lernelemente in 

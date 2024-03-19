@@ -6,3 +6,6 @@
 .idea/
 /pdfSourceHI.pdf
 /pdfSourceHI.html
+
+node_modules
+node_modules/

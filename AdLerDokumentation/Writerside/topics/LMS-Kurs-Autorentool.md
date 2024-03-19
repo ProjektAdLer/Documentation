@@ -1,3 +1,3 @@
-# Hinweis
+# LMS Kurs
 
 Start typing here...
