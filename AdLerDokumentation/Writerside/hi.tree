@@ -44,6 +44,10 @@
                         </toc-element>
                     </toc-element>
                     <toc-element topic="Lernraum-CRUDSP-Autorentool.md">
+                        <toc-element topic="AWA0025.md"/>
+                        <toc-element topic="AWA0024.md"/>
+                        <toc-element topic="AWA0023.md"/>
+                        <toc-element topic="AWA0022.md"/>
                         <toc-element topic="AWA0001.md"/>
                     </toc-element>
                 </toc-element>
