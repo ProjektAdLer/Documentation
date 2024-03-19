@@ -56,7 +56,6 @@
                 <toc-element topic="Lernelement-Autorentool.md">
                     <toc-element topic="Adaptivitätselement-Autorentool.md">
                         <toc-element topic="Aufgabe-Adaptivitätselement-Autorentool.md">
-                            <toc-element topic="Aufgabe-Eigenschaften-Adaptivitätselement-Autorentool.md"/>
                             <toc-element topic="Frage-Adaptivitätselement-Autorentool.md">
                                 <toc-element topic="Frage-Eigenschaften-Adaptivitätselement-Autorentool.md">
                                     <toc-element topic="AWA9002.md"/>
@@ -64,6 +63,7 @@
                                     <toc-element topic="AWA9004.md"/>
                                 </toc-element>
                                 <toc-element topic="Frage-CRUDSP-Adaptivitätselement-Autorentool.md">
+                                    <toc-element topic="AWA0021.md"/>
                                     <toc-element topic="AWA0014.md"/>
                                     <toc-element topic="AWA0009.md"/>
                                     <toc-element topic="AWA0008.md"/>
@@ -71,6 +71,7 @@
                                 </toc-element>
                             </toc-element>
                             <toc-element topic="Aufgabe-CRUDSP-Adaptivitätselement-Autorentool.md">
+                                <toc-element topic="AWA0020.md"/>
                                 <toc-element topic="AWA0013.md"/>
                                 <toc-element topic="AWA0007.md"/>
                                 <toc-element topic="AWA0006.md"/>
@@ -78,6 +79,7 @@
                             </toc-element>
                         </toc-element>
                         <toc-element topic="Adaptivitätselement-CRUDSP-Autorentool.md">
+                            <toc-element topic="AWA0019.md"/>
                             <toc-element topic="AWA0012.md"/>
                             <toc-element topic="AWA0011.md"/>
                             <toc-element topic="AWA0010.md"/>
@@ -88,6 +90,10 @@
                         <toc-element topic="AWA9001.md"/>
                     </toc-element>
                     <toc-element topic="Lernelement-CRUDSP-Autorentool.md">
+                        <toc-element topic="AWA0018.md"/>
+                        <toc-element topic="AWA0017.md"/>
+                        <toc-element topic="AWA0016.md"/>
+                        <toc-element topic="AWA0015.md"/>
                         <toc-element topic="AWA0002.md"/>
                     </toc-element>
                 </toc-element>

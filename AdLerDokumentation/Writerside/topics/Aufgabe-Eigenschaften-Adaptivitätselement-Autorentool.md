@@ -1,3 +1,0 @@
-# Aufgabe Eigenschaften
-
-Start typing here...
