@@ -221,6 +221,8 @@
                         <toc-element topic="ELG0003.md"/>
                     </toc-element>
                     <toc-element topic="Lernelement-Entities-FunktionaleAnforderungen-Engine.md">
+                        <toc-element topic="EZZ0010.md"/>
+                        <toc-element topic="EZZ0009.md"/>
                         <toc-element topic="EZZ0008.md"/>
                         <toc-element topic="ELG0001.md"/>
                     </toc-element>
