@@ -47,6 +47,14 @@
                         </toc-element>
                     </toc-element>
                     <toc-element topic="Lernraum-CRUDSP-Autorentool.md">
+                        <toc-element topic="Autorentool-FunktionaleAnforderungen-Lernraum-Elemente-platzieren.md">
+                            <toc-element topic="ASN0020.md"/>
+                            <toc-element topic="ASN0019.md"/>
+                            <toc-element topic="ASN0021.md"/>
+                            <toc-element topic="ASN0018.md"/>
+                            <toc-element topic="ASN0022.md"/>
+                            <toc-element topic="ASN0017.md"/>
+                        </toc-element>
                         <toc-element topic="AWA0001.md"/>
                         <toc-element topic="AWA0023.md"/>
                         <toc-element topic="AWA0024.md"/>
