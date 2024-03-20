@@ -16,6 +16,17 @@
         <toc-element topic="Autorentool-BG.md">
             <toc-element topic="Auflistung-der-Anforderungen-Autorentool.md"/>
             <toc-element topic="Funktionale-Anforderungen-Autorentool.md">
+                <toc-element topic="Autorentool-FunktionaleAnforderungen-Storyelement.md">
+                    <toc-element topic="Autorentool-FunktionaleAnforderungen-StoryelementProzesse.md">
+                        <toc-element topic="ASN0011.md"/>
+                        <toc-element topic="ASN0012.md"/>
+                        <toc-element topic="ASN0013.md"/>
+                        <toc-element topic="ASN0015.md"/>
+                        <toc-element topic="ASN0014.md"/>
+                        <toc-element topic="ASN0016.md"/>
+                    </toc-element>
+                    <toc-element topic="ASN0010.md"/>
+                </toc-element>
                 <toc-element topic="LMS-Kurs-Autorentool.md">
                     <toc-element topic="AHO24.md"/>
                     <toc-element topic="AHO23.md"/>
@@ -145,20 +156,20 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Lernwelt-Autorentool.md">
+                    <toc-element topic="ASE6.md">
+                        <toc-element topic="ASE7.md"/>
+                    </toc-element>
+                    <toc-element topic="ASE5.md"/>
+                    <toc-element topic="ASE4.md"/>
+                    <toc-element topic="ASE3.md"/>
+                    <toc-element topic="ASE2.md"/>
+                    <toc-element topic="ASE1.md"/>
+                    <toc-element topic="Autorentool-FunktionaleAnforderungen-LernweltProzesse.md">
+                    </toc-element>
                     <toc-element topic="ASN0002.md"/>
                     <toc-element topic="ASN0001.md"/>
                     <toc-element topic="AHO22.md"/>
                     <toc-element topic="Lernwelt-Eigenschaften-Autorentool.md"/>
-                    <toc-element topic="Lernwelt-CRUDSP-Autorentool.md">
-                        <toc-element topic="ASE1.md"/>
-                        <toc-element topic="ASE2.md"/>
-                        <toc-element topic="ASE3.md"/>
-                        <toc-element topic="ASE4.md"/>
-                        <toc-element topic="ASE5.md"/>
-                        <toc-element topic="ASE6.md">
-                            <toc-element topic="ASE7.md"/>
-                        </toc-element>
-                    </toc-element>
                 </toc-element>
             </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Autorentool.md">
