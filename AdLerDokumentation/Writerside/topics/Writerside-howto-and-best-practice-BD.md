@@ -156,6 +156,9 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 - Alle Topics unterhalb des Topics Glossar
   müssen Glossareinträge sein! Einzige Ausnahme sind die Topics
   die für die alphabetische Strukturierung verwendet werden.
+- Die Glossareinträge müssen alphabetisch sortiert werden! 
+- Semantische Unterordner dürfen nicht erstellt werden!
+  - Z.B. muss primitives Lernelement zu "P" und darf nicht zusammen mit Lernelement bei "L" abgelegt werden.
 - Weiterführende Erklärungen der Begriffe bitte auf eigene Dokumentationsseiten auslagern.
 - Die ausgelagerten Dokumentationsseiten dürfen gerne mit dem Glossar verlinkt werden.
 - [Glossar Templates gibt es hier.](Glossar-Templates.md)
