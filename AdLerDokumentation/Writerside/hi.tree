@@ -28,6 +28,20 @@
                     <toc-element topic="AHO11.md"/>
                 </toc-element>
                 <toc-element topic="Lernraum-Autorentool.md">
+                    <toc-element topic="Lernraum-Eigenschaften-Autorentool.md">
+                        <toc-element topic="AWA9013.md">
+                            <toc-element topic="AWA9005.md"/>
+                        </toc-element>
+                        <toc-element topic="AWA9014.md">
+                        </toc-element>
+                    </toc-element>
+                    <toc-element topic="Lernraum-CRUDSP-Autorentool.md">
+                        <toc-element topic="AWA0001.md"/>
+                        <toc-element topic="AWA0023.md"/>
+                        <toc-element topic="AWA0024.md"/>
+                        <toc-element topic="AWA0025.md"/>
+                        <toc-element topic="AWA0022.md"/>
+                    </toc-element>
                     <toc-element topic="Lernraum-Lernziel-Autorentool.md">
                         <toc-element topic="AHO06.md"/>
                         <toc-element topic="AHO05.md"/>
@@ -40,9 +54,6 @@
                             <toc-element topic="AHO01.md"/>
                         </toc-element>
                     </toc-element>
-                    <toc-element topic="Lernraum-CRUDSP-Autorentool.md">
-                        <toc-element topic="AWA1.md"/>
-                    </toc-element>
                 </toc-element>
                 <toc-element topic="Externes-Lernmaterial-Autorentool.md">
                     <toc-element topic="Externes-Lernmaterial-Eigenschaften-Autorentool.md"/>
@@ -52,10 +63,60 @@
                 </toc-element>
                 <toc-element topic="Lernelement-Autorentool.md">
                     <toc-element topic="Lernelement-Eigenschaften-Autorentool.md">
-                        <toc-element topic="AWA3.md"/>
+                        <toc-element topic="AWA9006.md">
+                            <toc-element topic="AWA9001.md"/>
+                        </toc-element>
+                        <toc-element topic="AWA9007.md"/>
                     </toc-element>
                     <toc-element topic="Lernelement-CRUDSP-Autorentool.md">
-                        <toc-element topic="AWA2.md"/>
+                        <toc-element topic="AWA0002.md"/>
+                        <toc-element topic="AWA0015.md"/>
+                        <toc-element topic="AWA0016.md"/>
+                        <toc-element topic="AWA0017.md"/>
+                        <toc-element topic="AWA0018.md"/>
+                    </toc-element>
+                    <toc-element topic="Adaptivitätselement-Autorentool.md">
+                        <toc-element topic="Adaptivitätselement-Eigenschaften-Autorentool.md">
+                            <toc-element topic="AWA9008.md"/>
+                            <toc-element topic="AWA9009.md"/>
+                        </toc-element>
+                        <toc-element topic="Adaptivitätselement-CRUDSP-Autorentool.md">
+                            <toc-element topic="AWA0003.md">
+                            </toc-element>
+                            <toc-element topic="AWA0010.md"/>
+                            <toc-element topic="AWA0011.md"/>
+                            <toc-element topic="AWA0012.md"/>
+                            <toc-element topic="AWA0019.md"/>
+                        </toc-element>
+                        <toc-element topic="Aufgabe-Adaptivitätselement-Autorentool.md">
+                            <toc-element topic="Aufgabe-Eigenschaften-Autorentool.md">
+                                <toc-element topic="AWA9010.md"/>
+                                <toc-element topic="AWA9011.md"/>
+                            </toc-element>
+                            <toc-element topic="Aufgabe-CRUDSP-Adaptivitätselement-Autorentool.md">
+                                <toc-element topic="AWA0005.md"/>
+                                <toc-element topic="AWA0006.md"/>
+                                <toc-element topic="AWA0007.md"/>
+                                <toc-element topic="AWA0013.md"/>
+                                <toc-element topic="AWA0020.md"/>
+                            </toc-element>
+                            <toc-element topic="Frage-Adaptivitätselement-Autorentool.md">
+                                <toc-element topic="Frage-Eigenschaften-Adaptivitätselement-Autorentool.md">
+                                    <toc-element topic="AWA9012.md">
+                                        <toc-element topic="AWA9002.md"/>
+                                        <toc-element topic="AWA9003.md"/>
+                                        <toc-element topic="AWA9004.md"/>
+                                    </toc-element>
+                                </toc-element>
+                                <toc-element topic="Frage-CRUDSP-Adaptivitätselement-Autorentool.md">
+                                    <toc-element topic="AWA0004.md"/>
+                                    <toc-element topic="AWA0008.md"/>
+                                    <toc-element topic="AWA0009.md"/>
+                                    <toc-element topic="AWA0014.md"/>
+                                    <toc-element topic="AWA0021.md"/>
+                                </toc-element>
+                            </toc-element>
+                        </toc-element>
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Lernwelt-Autorentool.md">
@@ -111,11 +172,12 @@
                         <toc-element topic="Storyelement-FunktionaleAnforderungen-Engine.md"/>
                         <toc-element topic="3D-Lernraum-FunktionaleAnforderungen-Engine.md"/>
                         <toc-element topic="Adaptivitätselement-FunktionaleAnforderungen-Engine.md">
+                            <toc-element topic="EWE0014.md"/>
+                            <toc-element topic="EWE0011.md"/>
                             <toc-element topic="EWE0012.md">
                                 <toc-element topic="EWE0008.md"/>
                                 <toc-element topic="EWE0009.md"/>
                             </toc-element>
-                            <toc-element topic="EWE0011.md"/>
                             <toc-element topic="EWE0010.md">
                                 <toc-element topic="EWE0004.md"/>
                                 <toc-element topic="EWE0006.md"/>
@@ -167,6 +229,7 @@
                     </toc-element>
                     <toc-element topic="Adaptivitätselement-Entities-FunktionaleAnforderungen-Engine.md">
                         <toc-element topic="EWE0001.md"/>
+                        <toc-element topic="EWE0013.md"/>
                         <toc-element topic="EWE0002.md"/>
                         <toc-element topic="EWE0003.md"/>
                         <toc-element topic="EWE0005.md"/>
