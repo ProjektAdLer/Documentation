@@ -142,8 +142,17 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 
 - Je Glossareintrag muss ein eigenes Writerside Topic erstellt werden!
 - Zur Erstellung muss ein Glossar Template verwendet werden!
-- Das Glossar muss primär aus Begriffsdefinitionen bestehen!
-- Die folgenden Beschreibungen müssen angegeben werden: Begriff, englischer Begriff und Definition.
+- Das Glossar muss primär aus Einträgen bestehen die sich wie folgt zusammensetzten:
+  - Begriff
+  - Englischer Begriff
+  - Definition
+    - Die Definition des Glossareintrags muss ca. 1-3 Sätze lang sein.
+  - Siehe auch
+  - Akronym
+  - Erlaubte Alternativbenennung
+  - Verbotene Terminologie
+  - Quelle
+- Die folgenden Beschreibungen müssen angegeben werden: **Begriff, englischer Begriff und Definition.**
 - Alle Topics unterhalb des Topics Glossar
   müssen Glossareinträge sein! Einzige Ausnahme sind die Topics
   die für die alphabetische Strukturierung verwendet werden.
