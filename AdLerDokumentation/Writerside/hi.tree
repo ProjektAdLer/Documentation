@@ -195,7 +195,6 @@
                             <toc-element topic="EKJ0002.md"/>
                             <toc-element topic="EKJ0003.md"/>
                             <toc-element topic="EKJ0004.md"/>
-                            <toc-element topic="EKJ0005.md"/>
                         </toc-element>
                     </toc-element>
                 </toc-element>
@@ -250,7 +249,9 @@
             </toc-element>
             <toc-element topic="Software-Design-Engine.md"/>
             <toc-element topic="Software-Architektur-Engine.md"/>
-            <toc-element topic="Schnittstellen-Engine.md"/>
+            <toc-element topic="Schnittstellen-Engine.md">
+                <toc-element topic="EKJ0005.md"/>
+            </toc-element>
             <toc-element topic="SBOM-Engine.md"/>
         </toc-element>
         <toc-element topic="Backend-BG.md">
@@ -304,7 +305,8 @@
             <toc-element topic="Writerside-howto-and-best-practice-BD.md">
             </toc-element>
         </toc-element>
-    </toc-element>
+            <toc-element topic="Benutzerdoku-BestPractices.topic"/>
+        </toc-element>
     <toc-element topic="Glossar.md">
         <toc-element topic="A.md">
             <toc-element topic="ATF-GE.md"/>
