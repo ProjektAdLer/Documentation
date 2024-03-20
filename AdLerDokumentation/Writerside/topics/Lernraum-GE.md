@@ -26,11 +26,6 @@
             Punktzahl zum Abschließen des Raumes, <a href="Theme-GE.md">Theme</a>, zu erreichende Lernziele und Beschreibung des Raumes.<br/>
             Weiterhin können Lernräume durch einen nicht-zyklischen Graph mit UND/ODER Bedingungen verbunden werden,
             um Bedingungen fürs Freischalten zwischen den Räumen zu erstellen.
-            Im <a href="Autorentool-GE.md"></a> können Lernräume erstellt und geändert werden sowie Lernelemente in 
-            diesen platziert werden.<br/>
-            In der <a href="Engine-GE.md"></a> werden Lernräume als tatsächliche 3D-Räume angezeigt und enthalten alle 
-            <a href="Lernelement-GE.md">Lernelemente</a>, die im <a href="Autorentool-GE.md"></a> platziert wurden.<br/>
-            In Moodle werden Lernräume durch Sections abgebildet.
         </td>
     </tr>  
     <tr>
