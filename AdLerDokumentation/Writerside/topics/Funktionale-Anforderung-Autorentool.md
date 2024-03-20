@@ -2,7 +2,7 @@
 
 
 
-# Definition:
+## Definition
 
 Das Autorentool muss Lehrenden die Möglichkeit bieten, 
 
@@ -13,9 +13,9 @@ Das Autorentool muss fähig sein
 Als lehrende Person möchte ich
 
 
-# Akzeptanzkriterien: 
+## Akzeptanzkriterien 
 
 
-# Aktivitätsdiagramm:
+## Aktivitätsdiagramm
 
 
