@@ -410,7 +410,9 @@
             <toc-element topic="Lehrende-GE.md"/>
             <toc-element topic="Lernende-GE.md"/>
         </toc-element>
-        <toc-element topic="M.md"/>
+        <toc-element topic="M.md">
+            <toc-element topic="MBZ-GE.md"/>
+        </toc-element>
         <toc-element topic="N.md">
             <toc-element topic="Nicht-Primitives-Lernelement-GE.md"/>
             <toc-element topic="NPC-GE.md"/>
