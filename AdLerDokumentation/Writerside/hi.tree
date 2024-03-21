@@ -383,7 +383,9 @@
         <toc-element topic="G.md">
             <toc-element topic="Generator-GE.md"/>
         </toc-element>
-        <toc-element topic="H.md"/>
+        <toc-element topic="H.md">
+            <toc-element topic="H5P-GE.md"/>
+        </toc-element>
         <toc-element topic="I.md">
             <toc-element topic="Installationsanleitung-GE.md"/>
         </toc-element>
@@ -400,10 +402,12 @@
         </toc-element>
         <toc-element topic="M.md"/>
         <toc-element topic="N.md">
+            <toc-element topic="Nicht-Primitives-Lernelement-GE.md"/>
             <toc-element topic="NPC-GE.md"/>
         </toc-element>
         <toc-element topic="O.md"/>
         <toc-element topic="P.md">
+            <toc-element topic="Primitives-Lernelement-GE.md"/>
             <toc-element topic="Pausenhinweis-GE.md"/>
             <toc-element topic="Pausenempfehlung-GE.md"/>
         </toc-element>

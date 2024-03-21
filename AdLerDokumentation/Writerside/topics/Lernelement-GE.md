@@ -28,7 +28,7 @@
     </tr>  
     <tr>
         <td>Siehe auch</td>
-        <td><a href="Lernwelt-GE.md"></a>, <a href="Lernraum-GE.md"></a>, <a href="Storyelement-GE.md"></a>, <a href="Adaptivitätselement-GE.md"></a></td>
+        <td><a href="Lernwelt-GE.md"></a>, <a href="Lernraum-GE.md"></a>, <a href="Adaptivitätselement-GE.md"></a>, <a href="Primitives-Lernelement-GE.md"></a>, <a href="Nicht-Primitives-Lernelement-GE.md"></a></td>
     </tr>
     <tr>
         <td>Akronym</td>
