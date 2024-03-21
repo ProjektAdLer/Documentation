@@ -192,7 +192,17 @@
         </toc-element>
         <toc-element topic="Generator-BG.md">
             <toc-element topic="Auflistung-der-Anforderungen-Generator.md"/>
-            <toc-element topic="Funktionale-Anforderungen-Generator.md"/>
+            <toc-element topic="Funktionale-Anforderungen-Generator.md">
+                <toc-element topic="MBZ-Generator.md">
+                    <toc-element topic="GHO11.md">
+                    </toc-element>
+                </toc-element>
+                <toc-element topic="ATF-Generator.md">
+                    <toc-element topic="GHO03.md"/>
+                    <toc-element topic="GHO02.md"/>
+                    <toc-element topic="GHO01.md"/>
+                </toc-element>
+            </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Generator.md"/>
             <toc-element topic="SBOM--Generator.md"/>
             <toc-element topic="Schnittstellen-Generator.md"/>
