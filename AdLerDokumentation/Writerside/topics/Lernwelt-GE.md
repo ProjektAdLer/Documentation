@@ -21,14 +21,9 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Eine Lernwelt ist eine Sammlung von <a href="Lernraum-GE.md">Lernräumen</a> sowie Metainformationen wie
+            Eine Lernwelt ist eine Sammlung von <a href="Lernraum-GE.md">Lernräumen</a> und unplatzierten
+            <a href="Lernelement-GE.md">Lernelementen</a> sowie Metainformationen wie
             Kurzname, Autor(en), Sprache, Evaluationslink, Informationen zur Einschreibemethode, Lernziele und Beschreibung.<br/>
-            Im <a href="Autorentool-GE.md"></a> können Lernwelten erstellt, geändert, gespeichert, exportiert, importiert
-            und in das verbundene <a href="Learning-Management-System-GE.md"></a> hochgeladen werden. Zudem können
-            in Lernwelten noch unplatzierte <a href="Lernelement-GE.md">Lernelemente</a> erstellt werden.<br/>
-            In der <a href="Engine-GE.md"></a> werden alle dem <a href="Lernende-GE.md">Lernenden</a> verfügbare
-            Lernwelten angezeigt, welche dann gespielt werden können.<br/>
-            In Moodle werden Lernwelten durch Kurse abgebildet.
         </td>
     </tr>  
     <tr>

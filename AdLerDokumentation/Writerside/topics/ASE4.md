@@ -1,4 +1,4 @@
-# Lernwelt Delete
+# Lernwelt löschen
 
 
 

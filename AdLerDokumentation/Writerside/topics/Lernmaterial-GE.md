@@ -25,8 +25,6 @@
             <a href="Lernende-GE.md">Lernenden</a> in der <a href="Engine-GE.md"></a> angezeigt wird. Es kann sich dabei
             sowohl um rein belehrende Inhalte (Bilder, Videos), Wissen abfragende Inhalte (Quizzes), spielerische Inhalte
             (Schiebepuzzle, Word-Search) oder um Kombinationen all dieser Kategorien von Inhalten handeln.<br/>
-            Im Autorentool muss ein Lerninhalt zunächst als Datei eingeladen werden, bevor ein 
-            <a href="Lernelement-GE.md"></a> mit diesem erstellt werden kann.<br/>
         </td>
     </tr>  
     <tr>
