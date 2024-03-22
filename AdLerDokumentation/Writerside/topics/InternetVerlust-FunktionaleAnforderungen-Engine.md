@@ -1,3 +1,0 @@
-# InternetVerlust
-
-Start typing here...
