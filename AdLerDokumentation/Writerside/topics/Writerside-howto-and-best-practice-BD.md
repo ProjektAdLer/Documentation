@@ -181,6 +181,8 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
     </p>
 </tip>
 
+[Benennung der Bilder für die Benutzerdokumentation](Benutzerdoku-BestPractices.topic#benennung_dateien)
+
 ## Links in Writerside
 
 [Generelles zu Links in Writerside.](https://www.jetbrains.com/help/writerside//links-and-references.html)
