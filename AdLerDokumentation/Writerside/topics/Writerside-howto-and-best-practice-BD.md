@@ -170,10 +170,14 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 
 <tip>
     <p>
-        Bilder benötigen eindeutige Namen. Ein Vorschlag ist: 
+        Bilder benötigen eindeutige Namen. Dies ist wie folgt zu gewährleisten:
     </p>
     <p>
          "image" + "EindeutigeSprechendeBezeichnungWasAufDemBildZuSehenIst"
+    </p>
+    <p>
+         Für Bilder, die semantisch zu einem <a href="Betrachtungsgegenstand-GE.md"></a> gehören, gilt:
+         "image" + "NameDesBetrachtungsgegenstandes + "EindeutigeSprechendeBezeichnungWasAufDemBildZuSehenIst"
     </p>
 </tip>
 
