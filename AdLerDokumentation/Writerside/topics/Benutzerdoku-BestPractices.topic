@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Benutzerdoku BestPractices" id="Benutzerdoku-BestPractices">
+       title="Benutzerdoku Best Practices" id="Benutzerdoku-BestPractices">
 
     <chapter title="Benennung hochgeladene Dateien" id="benennung_dateien"  >
         <deflist type="medium">
@@ -12,45 +12,61 @@
         </deflist>
     </chapter>
 
-    <chapter title="Einführung in Thema" id="einfuehrung_in_thema">
-        Kurzer Erklärtext mit den wichtigsten Begriffen, die in dem Topic behandelt werden. Die Begriffe mit dem <a href="Glossar.md">Glossar</a> verlinken.
+    <chapter title="Leistungsbeschreibung" id="leistungsbeschreibung">
+        <p>Gibt dem Nutzer einen ersten Eindruck vom Produkt und beschreibt die wichtigsten Leistungsmerkmale.</p>
+        <list>
+            <li>Zweck und Einsatz der Software</li>
+            <li>Kernfeature auf einen Blick</li>
+        </list>
     </chapter>
 
-    <chapter title="Handlungsbeschreibung" id="handlungsbeschreibung">
-        <procedure title="Hier steht die Bezeichung der Handlungsanweisung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
-            <step><p>Das ist der erste Schritt</p>
-                <list>
-                    <li>Das ist ein Stichpunkt</li>
-                    <li>Das ist ein Stichpunkt</li>
-                    <li>Das ist ein Stichpunkt</li>
-                </list>
+    <chapter title="Produktbeschreibung" id="produktbeschreibung">
+        <p>Stellt die Software bildlich vor und beschreibt die nutzerrelevanten Teile</p>
+        <list>
+            <li>Struktureller Aufbau der Sofwareteile</li>
+            <li>Bildliche Darstellung einzelner Ansichten mit Callouts</li>
+            <li>Beschreibung der Callouts</li>
+        </list>
+    </chapter>
+
+    <chapter title="Tätigkeitsbeschreibung" id="taetigkeitsbeschreibung">
+        <p>Beschreibt konkrete Handlungen für die Nutzer</p>
+        <p>Template für eine konkrete Handlungsanweisung:</p>
+
+        <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+            <deflist type="compact" sorted="desc">
+                <def title="&#127937;">
+                    <p>Hier wird das Ziel der Handlung beschrieben</p>
+                </def>
+            </deflist>
+
+            <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
             </step>
-            <step><p>Das ist der zweite Schritt</p>
-                <note>
-                    Das ist ein wichtiger Hinweis
-                </note>
-            </step>
-            <step><p>Das ist der dritte Schritt</p>
+            <step><p>Führen Sie den zweiten Schritt durch</p>
                 <warning>
-                    Das ist eine Warnung vor einem kritischen Ereignis
+                    <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
+                    <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
                 </warning>
             </step>
-
-            <step><p>Das ist der vierte Schritt</p>
-                <tip>
-                    Das ist eine optionale, zusätzliche Info
-                </tip>
+            <step><p>Führen Sie den dritten Schritt durch</p>
+                <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
             </step>
-            <step><p>Das ist der fünfte Schritt</p>
+
+            <step><p>Führen Sie den vierten Schritt durch</p>
+                <note>
+                    Hier wird ein Zwischenergebnis beschrieben
+                </note>
+            </step>
+            <step><p>Führen Sie den fünften Schritt durch</p>
                 <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
                 <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
             </step>
             <step>
                 <p>
-                Drücken Sie die <control>Neue Taste</control> um eine <emphasis>Neue Information</emphasis> anzuzeigen
+                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
                 </p>
             </step>
+            <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
         </procedure>
     </chapter>
-
 </topic>

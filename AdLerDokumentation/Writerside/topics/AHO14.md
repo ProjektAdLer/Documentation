@@ -1,12 +1,11 @@
-# Lernpfad speichern
+# Lernpfad persistieren
 
 ## Definition:
 
-Das Autorentool muss Lehrenden die Möglichkeit bieten, einen Lernpfad zu speichern.
+Sobald die Lernwelt, in der sich der Lernpfad befindet, [persistiert](ASE6.md) wird, muss das Autorentool diesen
+Lernpfad persistieren.
 
 ## Akzeptanzkriterien:
-
-- Bei Speicherung der Lernwelt müssen die in der Lernwelt enthaltenen Lernpfade automatisch mit gespeichert werden. (*TODO: Referenz auf Lernwelt speichern*)
 
 ## Aktivitätsdiagramm:
 
