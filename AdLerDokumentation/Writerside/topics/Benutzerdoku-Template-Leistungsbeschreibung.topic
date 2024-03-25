@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Template Leistungsbeschreibung" id="Benutzerdoku-Template-Leistungsbeschreibung">
+    <chapter title="Produktbezeichnung" id="produktbezeichnung">
+    <img src="" alt="Logo des Produkts"/>
+    <p>Zielgruppe und Zweck des Produkts in einem oder wenigen Sätzen.</p>
+    <p>Kernfunktionalitäten des Produkts:</p>
+    <list>
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+        <li>Feature 3</li>
+    </list>
+    </chapter>
+</topic>

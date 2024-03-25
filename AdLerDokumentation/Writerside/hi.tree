@@ -428,6 +428,8 @@
     </toc-element>
     <toc-element topic="Templates.md">
         <toc-element topic="Templates-Benutzerdoku.topic">
+            <toc-element topic="Benutzerdoku-Template-Leistungsbeschreibung.topic"/>
+            <toc-element topic="Benutzerdoku-Template-Produkbeschreibung.topic"/>
             <toc-element topic="Benutzerdoku-Template-Handlungsanweisung.topic"/>
         </toc-element>
         <toc-element topic="Glossar-Templates.md">
