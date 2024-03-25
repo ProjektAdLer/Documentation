@@ -8,12 +8,12 @@
     <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <p>Hier wird das Ziel der Handlung beschrieben</p>
+                <control>Hier wird das Ziel der Handlung beschrieben</control>
             </def>
         </deflist>
 
 
-        <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
+        <step><p>Führen Sie den ersten Schritt durch </p>
         </step>
         <step><p>Führen Sie den zweiten Schritt durch</p>
             <warning>
@@ -26,9 +26,7 @@
         </step>
 
         <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>
-                Hier wird ein Zwischenergebnis beschrieben
-            </note>
+            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
         </step>
         <step><p>Führen Sie den fünften Schritt durch</p>
             <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
@@ -39,6 +37,6 @@
                 Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
             </p>
         </step>
-        <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
+        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
     </procedure>
 </topic>

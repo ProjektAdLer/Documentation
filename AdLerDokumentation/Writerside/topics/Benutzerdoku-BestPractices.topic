@@ -5,6 +5,14 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Benutzerdoku Best Practices" id="Benutzerdoku-BestPractices">
 
+    <chapter title="Benennung Benutzerdoku Topics" id="benennung_topics"  >
+        <deflist type="medium">
+            <def title="Topic Autorentool">ManualAuthoring <emphasis>eindeutige Bezeichnung</emphasis></def>
+            <def title="Topic Engine">ManualEngine <emphasis>eindeutige Bezeichnung</emphasis></def>
+            <def title="Topic Moodle">ManualMoodle <emphasis>eindeutige Bezeichnung</emphasis></def>
+        </deflist>
+    </chapter>
+
     <chapter title="Benennung hochgeladene Dateien" id="benennung_dateien"  >
         <deflist type="medium">
             <def title="Bilder Autorentool">imageManualAuthoring <emphasis>eindeutige Bezeichnung</emphasis></def>
