@@ -351,10 +351,10 @@
                     <toc-element topic="ManualEngine-Lernwelt-öffnen.topic"/>
                     <toc-element topic="ManualEngine-Lernwelt-abschließen.topic"/>
                     <toc-element topic="ManualEngine-Lernraum-öffnen.topic"/>
-                    <toc-element topic="ManualEngine-Avatar-steuern.topic"/>
-                    <toc-element topic="ManualEngine-Interaktive-Inhalte-öffnen.topic"/>
                     <toc-element topic="ManualEngine-Lernraum-abschließen.topic"/>
                     <toc-element topic="ManualEngine-Lernraum-wechseln.topic"/>
+                    <toc-element topic="ManualEngine-Avatar-steuern.topic"/>
+                    <toc-element topic="ManualEngine-Interaktive-Inhalte-öffnen.topic"/>
                     <toc-element topic="Text-Lernelemente-betrachten.topic"/>
                     <toc-element topic="ManualEngine-PDF-Lernelemente-betrachten.topic"/>
                     <toc-element topic="ManualEngine-Bild-Lernelemente-betrachten.topic"/>
