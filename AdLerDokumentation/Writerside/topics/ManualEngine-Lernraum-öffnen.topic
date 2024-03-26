@@ -5,40 +5,33 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Lernraum öffnen " id="ManualEngine-Lernraum-öffnen">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <procedure title="" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <p>Hier wird das Ziel der Handlung beschrieben</p>
+                <p>Einen Lernraum aus der Lernwelt auswählen und in der 3D-Ansicht öffnen</p>
             </def>
         </deflist>
 
-
-        <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>
-                Hier wird ein Zwischenergebnis beschrieben
+        <tip>Voraussetzungen:
+            <list>
+                <li>Das Lernraummenü der gewünschten Lernwelt ist geöffnet. Siehe: <a href="ManualEngine-Lernwelt-öffnen.topic">Lernwelt öffnen</a></li>
+            </list>
+        </tip>
+        <warning><img alt="imageManualEngine-lock-icon-closed-nobg.svg" src="imageManualEngine-lock-icon-closed-nobg.svg"/> Gesperrte Lernräume sind nicht betretbar. Sie müssen durch Abschluss vorheriger Lernräume freigeschaltet werden. Siehe <a href="ManualEngine-Lernraum-abschließen.topic">Lernräume abschließen</a>
+        </warning>
+        <step><p>Wählen Sie den gewünschten Lernraum-Button aus der Graphen- oder Listenansicht aus.</p>
+            <img alt="imageManualEngine_LearningSpaceMenue.png" src="imageManualEngine_LearningSpaceMenue.png" width="200" thumbnail="true"/>
+            <note>Der ausgewählte Lernraum wird mit einem blauen Hintergrund markiert
+                <img src="imageManualEngine-blueBackground-LearningSpaceButton.png" alt="" width="200"/>
             </note>
+            <note>Die Detailinformationen zum Lernraum erscheinen im Bereich rechts</note>
         </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step><p>Öffnen Sie den Lernraum über den <control>Lernraum betreten</control>-Button</p>
+            <img alt="imageManualEngine-Lernraum-betreten.png" src="imageManualEngine-Lernraum-betreten.png" width="200"/>
         </step>
-        <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
-        </step>
-        <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
+        <note><format style="bold">&#10004; Der ausgewählte Lernraum startet in der 3D-Ansicht</format>
+        <img alt="imageManualEngine-LearningSpace-ViewOnStart.png" src="imageManualEngine-LearningSpace-ViewOnStart.png" idth="200" thumbnail="true"/>
+        </note>
+
     </procedure>
 </topic>
