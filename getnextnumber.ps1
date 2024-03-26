@@ -6,7 +6,7 @@ if (-not (Test-Path "AdLerDokumentation/Writerside/topics" -PathType Container))
 
 # Check if shorthand is provided as argument
 if ($args.Count -eq 0) {
-  Write-Output "Usage: $PSCommandPath <shorthand>"
+  Write-Output "Usage: $PSCommandPath <shorthand> [--short]"
   exit 1
 }
 
@@ -30,6 +30,10 @@ foreach ($number in $numbers) {
 }
 
 # Format the file name with the gap
-$next_file = "{0}{1:D4}.md" -f $shorthand, $gap
+if($args[1] -eq "--short") {
+  $next_file = "{0}{1}.md" -f $shorthand, $gap
+} else {
+  $next_file = "{0}{1:D4}.md" -f $shorthand, $gap
+}
 
 Write-Output $next_file
