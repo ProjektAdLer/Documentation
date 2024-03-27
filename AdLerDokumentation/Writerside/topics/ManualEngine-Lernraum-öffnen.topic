@@ -5,6 +5,8 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Lernraum öffnen " id="ManualEngine-Lernraum-öffnen">
 
+    <a href="ManualEngine-Lernraummenü.topic">Produktbeschreibung Lernraummenü</a>
+
     <procedure title="" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist sorted="desc">
             <def title="&#127937; Ziel der Handlung">
