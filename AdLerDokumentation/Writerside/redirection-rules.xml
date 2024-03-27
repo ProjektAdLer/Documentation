@@ -66,4 +66,8 @@
         <description>Created after removal of "Anforderungen des Backends" from AdLerDokumentation</description>
         <accepts>Auflistung-der-Anforderungen-Backend.html</accepts>
     </rule>
+    <rule id="65488413">
+        <description>Created after removal of "Mit Moodle Account anmelden" from AdLerDokumentation</description>
+        <accepts>Mit-Moodle-Account-anmelden.html</accepts>
+    </rule>
 </rules>
