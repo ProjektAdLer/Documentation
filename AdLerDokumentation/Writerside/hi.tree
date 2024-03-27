@@ -231,12 +231,12 @@
                         <toc-element topic="EWE0003.md"/>
                         <toc-element topic="EWE0005.md"/>
                         <toc-element topic="EWE0010.md">
+                            <toc-element topic="EWE0016.md"/>
                             <toc-element topic="EWE0004.md"/>
                             <toc-element topic="EWE0006.md"/>
                             <toc-element topic="EWE0007.md"/>
                         </toc-element>
                         <toc-element topic="EWE0017.md"/>
-                        <toc-element topic="EWE0016.md"/>
                         <toc-element topic="EWE0012.md">
                             <toc-element topic="EWE0008.md"/>
                             <toc-element topic="EWE0009.md"/>
@@ -346,11 +346,14 @@
         </toc-element>
     <toc-element topic="Glossar.md">
         <toc-element topic="A.md">
-            <toc-element topic="ATF-GE.md"/>
+            <toc-element topic="Adaptivitätsaufgabe-GE.md"/>
             <toc-element topic="Adaptivitätselement-GE.md"/>
+            <toc-element topic="Adaptivitätsfrage-GE.md"/>
+            <toc-element topic="Adaptivitätshinweis-GE.md"/>
             <toc-element topic="AdLer-Projekt-GE.md"/>
             <toc-element topic="AdLer-System-GE.md"/>
             <toc-element topic="Administrierende-GE.md"/>
+            <toc-element topic="ATF-GE.md"/>
             <toc-element topic="Autorentool-GE.md"/>
         </toc-element>
         <toc-element topic="B.md">

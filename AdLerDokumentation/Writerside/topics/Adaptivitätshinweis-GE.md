@@ -1,4 +1,4 @@
-# Adaptivitätselement
+# Adaptivitätshinweis
 
 <link-summary rel="summary"/>
 <card-summary rel="summary"/>
@@ -12,19 +12,19 @@
     </tr>
     <tr>
         <td>Begriff</td>
-        <td>Adaptivitätselement</td>
+        <td>Adaptivitätshinweis</td>
     </tr>
     <tr>
         <td>Englischer Begriff</td>
-        <td>Adaptivity element</td>
+        <td>Adaptivity hint</td>
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Ein Adaptivitätselement ist ein <a href="Lernelement-GE.md"></a>, welches <a href="Adaptivitätsaufgabe-GE.md">Adaptivitätsaufgaben</a>, <a href="Adaptivitätsfrage-GE.md">Adaptivitätsfragen</a> und <a href="Adaptivitätshinweis-GE.md">Adaptivitätshinweise</a> beinhaltet. </td>
+        <td id="summary" >Ein Adaptivitätshinweis ist ein kurzer optionaler Hinweistext mit einem optionalen Verweis auf ein anderes <a href="Lernelement-GE.md"></a>, der dem Lernenden bei der weiteren Bearbeitung einer falsch beantworteten <a href="Adaptivitätsfrage-GE.md"></a> helfen soll.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>
-        <td><a href="Lernelement-GE.md"></a>, <a href="Adaptivitätsaufgabe-GE.md"></a>, <a href="Adaptivitätsfrage-GE.md"></a>, <a href="Adaptivitätshinweis-GE.md"></a></td>
+        <td><a href="Adaptivitätselement-GE.md"></a>, <a href="Adaptivitätsaufgabe-GE.md"></a>, <a href="Adaptivitätsfrage-GE.md"></a></td>
     </tr>
     <tr>
         <td>Akronym</td>
@@ -36,7 +36,7 @@
     </tr>
    <tr>
         <td>Verbotene Terminologie</td>
-        <td>Quizelement</td>
+        <td></td>
     </tr>
    <tr>
         <td>Quelle</td>
