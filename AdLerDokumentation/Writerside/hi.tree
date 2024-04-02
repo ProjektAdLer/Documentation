@@ -431,7 +431,9 @@
             <toc-element topic="Benutzerdokumentation-GE.md"/>
             <toc-element topic="Betrachtungsgegenstand-GE.md"/>
         </toc-element>
-        <toc-element topic="C.md"/>
+        <toc-element topic="C.md">
+            <toc-element topic="CRUDSP-GE.md"/>
+        </toc-element>
         <toc-element topic="D.md">
             <toc-element topic="Datenbank.md"/>
             <toc-element topic="Dokumentation-GE.md"/>
