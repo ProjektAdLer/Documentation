@@ -37,12 +37,6 @@ jobs:
           repository: ProjektAdLer/AdLerBackend
           path: AdLerBackend
 
-      - name: Execute tree command
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y tree
-          tree -L 4
-
       # Install Node.js and run the script
       - name: Set up Node.js
         uses: actions/setup-node@v2

@@ -2,7 +2,7 @@ name: Build and publish main to Github Pages
 on:
   push:
     branches:
-      - main
+      - ci_test
   workflow_dispatch:
 
 permissions:
