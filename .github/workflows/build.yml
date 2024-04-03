@@ -9,8 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Copy Documentation
+        run: cp -r Documentation/* .
 
       - name: Build Writerside docs using Docker
         uses: JetBrains/writerside-github-action@v4
