@@ -1,8 +1,9 @@
 name: Build and publish main to Github Pages
 on:
+  # run on every push on every branch
   push:
     branches:
-      - ci_test
+      - '*'
   workflow_dispatch:
 
 permissions:
