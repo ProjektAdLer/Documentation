@@ -6,6 +6,9 @@ on:
       - main
   workflow_call:
 
+permissions:
+  contents: write
+
 jobs:
   process-repos:
     runs-on: ubuntu-latest
