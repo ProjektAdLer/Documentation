@@ -1,8 +1,8 @@
 name: Build
 on:
   push:
-    branches-ignore:
-      - main
+    branches:
+      - blabliblub
   workflow_call:
 
 jobs:
