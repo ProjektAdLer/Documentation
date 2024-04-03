@@ -8,11 +8,12 @@ on:
 permissions:
   id-token: write
   pages: write
+  contents: write
 
 jobs:
-  # call-requirement-script:
-  #   uses: ProjektAdler/Documentation/.github/workflows/requirementScript.yml@main
-  #   secrets: inherit
+  call-requirement-script:
+    uses: ProjektAdler/Documentation/.github/workflows/requirementScript.yml@main
+    secrets: inherit
   call-build:
     uses: ProjektAdler/Documentation/.github/workflows/build.yml@main
     secrets: inherit
