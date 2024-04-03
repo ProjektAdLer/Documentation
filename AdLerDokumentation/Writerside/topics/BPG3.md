@@ -1,6 +1,6 @@
 # Erstellte Lernwelten anzeigen
 
-## Beschreibung
+## Definition
 
 Das Backend muss dem Dozenten die Möglichkeit bieten, die von ihm erstellten Lernwelten anzuzeigen.
 

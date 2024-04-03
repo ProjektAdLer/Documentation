@@ -1,6 +1,6 @@
 # Eingeschriebene Lernwelten ausgeben
 
-## Beschreibung
+## Definition
 
 Das Backend muss den Lernenden die Möglichkeit bieten, die von ihnen eingeschriebenen Lernwelten auszugeben.
 
