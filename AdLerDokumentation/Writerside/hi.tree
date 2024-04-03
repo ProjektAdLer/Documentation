@@ -23,6 +23,7 @@
                 </toc-element>
                 <toc-element topic="Autorentool-FunktionaleAnforderungen-Storyelement.md">
                     <toc-element topic="Autorentool-FunktionaleAnforderungen-StoryelementProzesse.md">
+                        <toc-element topic="AHO41.md"/>
                         <toc-element topic="ASN0011.md"/>
                         <toc-element topic="ASN0012.md"/>
                         <toc-element topic="ASN0013.md"/>
@@ -38,6 +39,7 @@
                     <toc-element topic="AHO21.md"/>
                 </toc-element>
                 <toc-element topic="Lernpfad-Autorentool.md">
+                    <toc-element topic="AHO15.md"/>
                     <toc-element topic="AHO14.md"/>
                     <toc-element topic="AHO13.md"/>
                     <toc-element topic="AHO11.md"/>
@@ -51,6 +53,7 @@
                         </toc-element>
                     </toc-element>
                     <toc-element topic="Lernraum-Prozesse-Autorentool.md">
+                        <toc-element topic="AHO31.md"/>
                         <toc-element topic="Autorentool-FunktionaleAnforderungen-Lernraum-Elemente-platzieren.md">
                             <toc-element topic="ASN0020.md"/>
                             <toc-element topic="ASN0019.md"/>
@@ -86,6 +89,7 @@
                         <toc-element topic="AWA9018.md"/>
                     </toc-element>
                     <toc-element topic="Externes-Lernmaterial-Prozesse-Autorentool.md">
+                        <toc-element topic="AHO51.md"/>
                         <toc-element topic="AWA0042.md"/>
                         <toc-element topic="AWA0043.md"/>
                         <toc-element topic="AWA0044.md"/>
@@ -102,6 +106,7 @@
                         <toc-element topic="AWA9007.md"/>
                     </toc-element>
                     <toc-element topic="Lernelement-Prozesse-Autorentool.md">
+                        <toc-element topic="AHO42.md"/>
                         <toc-element topic="AWA0002.md"/>
                         <toc-element topic="AWA0015.md"/>
                         <toc-element topic="AWA0016.md"/>
@@ -114,6 +119,7 @@
                             <toc-element topic="AWA9009.md"/>
                         </toc-element>
                         <toc-element topic="Adaptivitätselement-Prozesse-Autorentool.md">
+                            <toc-element topic="AHO43.md"/>
                             <toc-element topic="AWA0003.md">
                             </toc-element>
                             <toc-element topic="AWA0010.md"/>
