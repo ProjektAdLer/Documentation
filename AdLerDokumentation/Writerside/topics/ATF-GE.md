@@ -1,4 +1,4 @@
-# ATF
+# Adler Transfer File (ATF)
 
 <link-summary rel="summary"/>
 <card-summary rel="summary"/>
@@ -12,7 +12,7 @@
     </tr>
     <tr>
         <td>Begriff</td>
-        <td>ATF (Adler Transfer File)</td>
+        <td>ATF</td>
     </tr>
     <tr>
         <td>Englischer Begriff</td>

@@ -1,4 +1,4 @@
-# Spielerdaten updaten
+# Spielerdaten löschen
 
 
 
