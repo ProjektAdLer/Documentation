@@ -335,6 +335,15 @@
         <toc-element topic="Backend-BG.md">
             <toc-element topic="Auflistung-der-Anforderungen-Backend.md"/>
             <toc-element topic="Funktionale-Anforderungen-Backend.md">
+                <toc-element topic="AdaptivitätselementB.md">
+                    <toc-element topic="BPG15.md"/>
+                    <toc-element topic="BPG14.md"/>
+                </toc-element>
+                <toc-element topic="LernelementeB.md">
+                    <toc-element topic="BPG17.md"/>
+                    <toc-element topic="BPG16.md"/>
+                    <toc-element topic="BPG13.md"/>
+                </toc-element>
                 <toc-element topic="BPGLernende.md">
                     <toc-element topic="BPG10.md"/>
                     <toc-element topic="BPG9.md"/>
