@@ -15,6 +15,7 @@ jobs:
     uses: ProjektAdler/Documentation/.github/workflows/requirementScript.yml@main
     secrets: inherit
   call-build:
+    needs: call-requirement-script
     uses: ProjektAdler/Documentation/.github/workflows/build.yml@main
     secrets: inherit
 
