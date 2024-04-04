@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Einschreiben in eine Lernwelt" id="ManualMoodleSubscribeToLearningWorld">
+
+        <chapter title="Benennung hochgeladene Dateien" id="benennung_dateien"  >
+            <deflist type="medium">
+                <def title="Bilder Autorentool">imageManualAuthoring <emphasis>eindeutige Bezeichnung</emphasis></def>
+                <def title="Bilder Engine">imageManualEngine <emphasis>eindeutige Bezeichnung</emphasis></def>
+            </deflist>
+        </chapter>
+
+        <chapter title="Einführung in Thema" id="einfuehrung_in_thema">
+            Kurzer Erklärtext mit den wichtigsten Begriffen, die in dem Topic behandelt werden. Die Begriffe mit dem <a href="Glossar.md">Glossar</a> verlinken.
+        </chapter>
+
+        <chapter title="Handlungsbeschreibung" id="handlungsbeschreibung">
+            <procedure title="Hier steht die Bezeichung der Handlungsanweisung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+                <step><p>Das ist der erste Schritt</p>
+                    <list>
+                        <li>Das ist ein Stichpunkt</li>
+                        <li>Das ist ein Stichpunkt</li>
+                        <li>Das ist ein Stichpunkt</li>
+                    </list>
+                </step>
+                <step><p>Das ist der zweite Schritt</p>
+                    <note>
+                        Das ist ein wichtiger Hinweis
+                    </note>
+                </step>
+                <step><p>Das ist der dritte Schritt</p>
+                    <warning>
+                        Das ist eine Warnung vor einem kritischen Ereignis
+                    </warning>
+                </step>
+
+                <step><p>Das ist der vierte Schritt</p>
+                    <tip>
+                        Das ist eine optionale, zusätzliche Info
+                    </tip>
+                </step>
+                <step><p>Das ist der fünfte Schritt</p>
+                    <p>Hier wird ein Bild als Thumbnail eingebaut, um die Übersichtlichkeit zu wahren</p>
+                    <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>
+                        Drücken Sie die <control>Neue Taste</control> um eine <emphasis>Neue Information</emphasis> anzuzeigen
+                    </p>
+                </step>
+            </procedure>
+        </chapter>
+
+    </topic>

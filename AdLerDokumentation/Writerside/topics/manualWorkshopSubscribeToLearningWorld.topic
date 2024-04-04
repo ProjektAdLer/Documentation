@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Workshop - Einschreiben in eine Lernwelt" id="manualWorkshopSubscribeToLearningWorld">
+    <chapter title="Anmeldung in Moodle">
+        <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung1">
+            <deflist type="compact" sorted="desc">
+                <def title="&#127937;">
+                    <control>Damit Sie Ihre erstellte Lernwelt in Moodle betrachten können, müssen Sie
+                        zunächst Moodle im Browser öffnen und sich anmelden.</control>
+                </def>
+            </deflist>
+
+            <step>
+                <p>Öffnen Sie ihren favorisierten Browser.</p>
+            </step>
+            <step>
+                <p>Tippen Sie folgende Adresse in Ihre Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://moodle.projekt-adler.eu" target="_blank">https://moodle.projekt-adler.eu</a></p>
+                <note>Sie befinden sich nun auf der Anmeldeseite des AdLer-Moodle</note>
+            </step>
+            <step>
+                <p>Klicken Sie dann im sich öffnenden Browserfenster im rechten oberen
+                    Bereich auf den Button „Log-in“.</p>
+                <img src="imageManualWorkshopSubscribeToLearningWorldMoodleHomescreenNotLoggedInWithArrow.png" alt="Home Screen des AdLer Moodles ohne Login" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Geben Sie im nun geöffneten Fenster ihre Anmeldedaten ein.</p>
+                <img src="imageManualWorkshopMoodleLoginFormWithData.png" alt="Moodle Login Formular" width="200" thumbnail="true"/>
+                <tip>Die Anmeldedaten im Bild sind nur zu Anschauungszwecken. Geben Sie bitte Ihre eigenen Anmeldedaten ein.</tip>
+            </step>
+            <step>
+                <p>Klicken Sie nun auf den Button "Log In".</p>
+                <img src="imageManualWorkshopMoodleLoginFormWithDataFocusLoginButton.png" alt="Moodle Login Formular mit Fokus auf den Login Button" width="200" thumbnail="true"/>
+            </step>
+            <note><control>Sie sind nun in Moodle angemeldet.</control></note>
+            <img src="imageManualWorkshopLoggedInToMoodleDefaultPage.png" alt="Standardansicht nach der Anmeldung in Moodle" width="200" thumbnail="true"/>
+        </procedure>
+
+    </chapter>
+    <chapter title="In eine Lernwelt einschreiben">
+        <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung">
+            <deflist type="compact" sorted="desc">
+                <def title="&#127937;">
+                    <control>Mit der Selbsteinschreibung, schreiben Sie sich in eine Lernwelt ein.</control>
+                </def>
+            </deflist>
+
+            <tip>Sie befinden sich in der Standardansicht nach dem Anmelden in Moodle.</tip>
+            <img src="imageManualWorkshopLoggedInToMoodleDefaultPage.png" alt="Standardansicht nach der Anmeldung in Moodle" width="200" thumbnail="true"/>
+
+            <step>
+                <p>Klicken Sie auf den Eintrag "Home" im oberen linken Eck des Fensters.</p>
+                <img src="imageManualWorkshopLoggedInToMoodleDefaultPageWithArrow.png" alt="Pfeil der auf den Eintrag Home in der Standardansicht zeigt" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Führen Sie den zweiten Schritt durch</p>
+            </step>
+            <step>
+                <p>Führen Sie den dritten Schritt durch</p>
+            </step>
+            <step>
+                <p>Führen Sie den vierten Schritt durch</p>
+            </step>
+            <step>
+                <p>Führen Sie den fünften Schritt durch</p>
+                <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
+                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.</p>
+            </step>
+            <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+        </procedure>
+    </chapter>
+</topic>
+
+<!--
+<warning>
+    <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
+    <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
+</warning>
+
+<tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
+
+<note>Hier wird ein Zwischenergebnis beschrieben</note>
+-->
