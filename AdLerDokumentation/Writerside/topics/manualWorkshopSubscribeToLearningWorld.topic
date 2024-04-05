@@ -39,39 +39,39 @@
         </procedure>
 
     </chapter>
-    <chapter title="In eine Lernwelt einschreiben">
+    <chapter title="Einschreibung in eine Lernwelt">
         <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung">
             <deflist type="compact" sorted="desc">
                 <def title="&#127937;">
-                    <control>Mit der Selbsteinschreibung, schreiben Sie sich in eine Lernwelt ein.</control>
+                    <control>Nach erfolgreicher Anmeldung in Moodle kann die Selbsteinschreibung in den Kurs
+                        erfolgen.</control>
                 </def>
             </deflist>
-
             <tip>Sie befinden sich in der Standardansicht nach dem Anmelden in Moodle.</tip>
             <img src="imageManualWorkshopLoggedInToMoodleDefaultPage.png" alt="Standardansicht nach der Anmeldung in Moodle" width="200" thumbnail="true"/>
-
             <step>
                 <p>Klicken Sie auf den Eintrag "Home" im oberen linken Eck des Fensters.</p>
                 <img src="imageManualWorkshopLoggedInToMoodleDefaultPageWithArrow.png" alt="Pfeil der auf den Eintrag Home in der Standardansicht zeigt" width="200" thumbnail="true"/>
+                <note>Ihnen werden nun alle verfügbaren Kurse angezeigt.</note>
             </step>
             <step>
-                <p>Führen Sie den zweiten Schritt durch</p>
+                <p>Wählen Sie nun den Kurs mit einem Klick aus, in den Sie sich einschreiben möchten.</p>
+                <img src="imageManualWorkshopAvailableCoursesWithArrow.png" alt="Pfeil der auf einen beispielhaft auszuwählenden Kurs zeigt" width="200" thumbnail="true"/>
+                <note>Hat der Kurs, in den Sie sich einschreiben möchten keinen Einschreibeschlüssel, endet die Handlung hier. Falls ein Einschreibeschlüssel erforderlich ist, folgen Sie den nächsten Schritten dieser Anleitung.</note>
             </step>
             <step>
-                <p>Führen Sie den dritten Schritt durch</p>
+                <p>Klicken Sie in das Eingabefeld und geben Sie den Einschreibeschlüssel für die ausgewählte Lernwelt ein.</p>
+                <img src="imageManualWorkshopEnrollInputSelfEnrolmentKeyWithArrow.png" alt="Hervorhebung des Eingabefelds des Einschreibeschlüssels." width="200" thumbnail="true"/>
             </step>
             <step>
-                <p>Führen Sie den vierten Schritt durch</p>
+                <p>Klicken Sie nun auf den Button mit der Aufschrift "Enroll me".</p>
+                <img src="imageManualWorkshopEnrollIEnrollMeButtonWithArrow.png" alt="Hervorhebung des Enroll-me Buttons" width="200" thumbnail="true"/>
             </step>
             <step>
-                <p>Führen Sie den fünften Schritt durch</p>
-                <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                <tip>Ihnen wird nun Ihr ausgewählter Kurs in Moodle angezeigt.</tip>
+                <img src="imageManualWorkshopMoodleCourseDefaultPage.png" alt="Anzeige des Moodle Kurses" width="200" thumbnail="true"/>
             </step>
-            <step>
-                <p>Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.</p>
-            </step>
-            <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+            <note><control>Hier wird das Ergebnis der Handlung beschrieben.</control><p>&#10004;</p></note>
         </procedure>
     </chapter>
 </topic>

@@ -374,7 +374,6 @@
             <toc-element topic="Nutzung-AdLer-BD.md"/>
             <toc-element topic="Handreichung-Didaktik-BD.md"/>
         </toc-element>
-            <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
             <toc-element topic="Lernende-BD.md">
             <toc-element topic="ManualMoodle-Moodle.topic"/>
             <toc-element topic="ManualEngine-3D-Lernumgebung.topic">
@@ -426,7 +425,10 @@
             </toc-element>
         </toc-element>
         </toc-element>
-    <toc-element topic="Glossar.md">
+        <toc-element topic="manualWorkshop.md">
+            <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
+        </toc-element>
+        <toc-element topic="Glossar.md">
         <toc-element topic="A.md">
             <toc-element topic="Adaptivitätsaufgabe-GE.md"/>
             <toc-element topic="Adaptivitätselement-GE.md"/>
