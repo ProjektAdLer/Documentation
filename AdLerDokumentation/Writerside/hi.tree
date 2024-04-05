@@ -370,7 +370,7 @@
             <toc-element topic="Software-Design-Plugin.md"/>
         </toc-element>
         <toc-element topic="Benutzerdokumentation.md">
-        <toc-element topic="Lehrende-BD.md">
+            <toc-element topic="Lehrende-BD.md">
             <toc-element topic="Nutzung-AdLer-BD.md"/>
             <toc-element topic="Handreichung-Didaktik-BD.md"/>
         </toc-element>
@@ -424,9 +424,10 @@
             <toc-element topic="Writerside-howto-and-best-practice-BD.md">
             </toc-element>
         </toc-element>
-        </toc-element>
-        <toc-element topic="manualWorkshop.md">
-            <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
+            <toc-element topic="manualWorkshop.md">
+                <toc-element topic="manualWorkshopLoginToEngine.topic"/>
+                <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
+            </toc-element>
         </toc-element>
         <toc-element topic="Glossar.md">
         <toc-element topic="A.md">
