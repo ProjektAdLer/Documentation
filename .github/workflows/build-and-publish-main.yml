@@ -11,19 +11,25 @@ permissions:
   contents: write
 
 jobs:
+  echo-actor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo actor name that triggered run
+        run: echo ${{ github.actor }}
+        
   call-requirement-script:
-    if: github.actor_id != 872369
+    if: github.actor != 'requirements-updater'
     uses: ProjektAdler/Documentation/.github/workflows/requirementScript.yml@main
     secrets: inherit
     
   call-build:
-    if: github.actor_id != 872369
+    if: github.actor != 'requirements-updater'
     needs: call-requirement-script
     uses: ProjektAdler/Documentation/.github/workflows/build.yml@main
     secrets: inherit
 
   deploy:
-    if: github.actor_id != 872369
+    if: github.actor != 'requirements-updater'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
