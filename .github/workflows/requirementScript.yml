@@ -27,6 +27,7 @@ jobs:
         with:
           path: Documentation
           ref: ${{ github.ref }}
+          persist-credentials: false
 
       # Checkout additional repositories at the same level as the main repo
       - name: Checkout 2D_3D_AdLer Repo
