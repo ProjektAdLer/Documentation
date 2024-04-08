@@ -56,6 +56,14 @@ jobs:
           npm install --no-package-lock
           node ./build/createRequirementReference.js
 
+      - name: Generate App token
+        id: generate-token
+        uses: actions/greate-github-app-token@v1
+        with:
+          app-id: ${{ secrets.REQ_UPDATER_APP_ID }}
+          private-key: ${{ secrets.REQ_UPDATER_APP_KEY }}
+        
+
       # Commit changes, if there are any
       - name: Commit and Push Changes
         run: |
@@ -66,4 +74,4 @@ jobs:
           git commit -m "Automated commit by GitHub Actions" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
