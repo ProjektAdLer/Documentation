@@ -2,11 +2,10 @@
 
 ## Definition:
 
-Das Autorentool muss Lehrenden die Möglichkeit bieten, ein Lernziel eines Lernraums zu speichern.
+Sobald die Lernwelt, in der sich das Lernziel eines Lernraums befindet, [persistiert](ASE6.md) wird, muss das Autorentool dieses 
+Lernziel persistieren.
 
 ## Akzeptanzkriterien:
-
-- Bei Speicherung der Lernwelt müssen die in den Lernräumen enthaltenen Lernziele automatisch mit gespeichert werden. (*TODO: Referenz auf Lernwelt speichern*)
 
 ## Aktivitätsdiagramm:
 

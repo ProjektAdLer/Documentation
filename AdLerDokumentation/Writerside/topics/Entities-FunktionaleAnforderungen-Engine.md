@@ -1,3 +1,0 @@
-# Entities
-
-Start typing here...

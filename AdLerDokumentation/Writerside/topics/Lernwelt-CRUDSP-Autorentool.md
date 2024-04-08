@@ -1,3 +1,0 @@
-# Lernwelt CRUDSP
-
-Start typing here...

@@ -1,3 +1,0 @@
-# 3D Lernumgebung
-
-Start typing here...

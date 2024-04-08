@@ -1,3 +1,0 @@
-# Lernelement CRUDSP
-
-Start typing here...

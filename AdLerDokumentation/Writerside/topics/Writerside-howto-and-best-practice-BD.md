@@ -142,11 +142,23 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 
 - Je Glossareintrag muss ein eigenes Writerside Topic erstellt werden!
 - Zur Erstellung muss ein Glossar Template verwendet werden!
-- Das Glossar muss primär aus Begriffsdefinitionen bestehen!
-- Die folgenden Beschreibungen müssen angegeben werden: Begriff, englischer Begriff und Definition.
+- Das Glossar muss primär aus Einträgen bestehen die sich wie folgt zusammensetzten:
+  - Begriff
+  - Englischer Begriff
+  - Definition
+    - Die Definition des Glossareintrags muss ca. 1-3 Sätze lang sein.
+  - Siehe auch
+  - Akronym
+  - Erlaubte Alternativbenennung
+  - Verbotene Terminologie
+  - Quelle
+- Die folgenden Beschreibungen müssen angegeben werden: **Begriff, englischer Begriff und Definition.**
 - Alle Topics unterhalb des Topics Glossar
   müssen Glossareinträge sein! Einzige Ausnahme sind die Topics
   die für die alphabetische Strukturierung verwendet werden.
+- Die Glossareinträge müssen alphabetisch sortiert werden! 
+- Semantische Unterordner dürfen nicht erstellt werden!
+  - Z.B. muss primitives Lernelement zu "P" und darf nicht zusammen mit Lernelement bei "L" abgelegt werden.
 - Weiterführende Erklärungen der Begriffe bitte auf eigene Dokumentationsseiten auslagern.
 - Die ausgelagerten Dokumentationsseiten dürfen gerne mit dem Glossar verlinkt werden.
 - [Glossar Templates gibt es hier.](Glossar-Templates.md)
@@ -158,12 +170,18 @@ an der ein neuer Glossareintrag erstellt werden soll und dann:
 
 <tip>
     <p>
-        Bilder benötigen eindeutige Namen. Ein Vorschlag ist: 
+        Bilder benötigen eindeutige Namen. Dies ist wie folgt zu gewährleisten:
     </p>
     <p>
          "image" + "EindeutigeSprechendeBezeichnungWasAufDemBildZuSehenIst"
     </p>
+    <p>
+         Für Bilder, die semantisch zu einem <a href="Betrachtungsgegenstand-GE.md"></a> gehören, gilt:
+         "image" + "NameDesBetrachtungsgegenstandes + "EindeutigeSprechendeBezeichnungWasAufDemBildZuSehenIst"
+    </p>
 </tip>
+
+[Benennung der Bilder für die Benutzerdokumentation](Benutzerdoku-BestPractices.topic#benennung_dateien)
 
 ## Links in Writerside
 

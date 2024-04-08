@@ -1,3 +1,0 @@
-# Lernraum CRUDSP
-
-Start typing here...

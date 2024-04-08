@@ -1,3 +1,0 @@
-# User
-
-Start typing here...

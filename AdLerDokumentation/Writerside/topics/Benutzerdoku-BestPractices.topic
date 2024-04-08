@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Benutzerdoku Best Practices" id="Benutzerdoku-BestPractices">
+
+    <chapter title="Benennung Benutzerdoku Topics" id="benennung_topics"  >
+        <deflist type="medium">
+            <def title="Topic Autorentool">ManualAuthoring <emphasis>eindeutige Bezeichnung</emphasis></def>
+            <def title="Topic Engine">ManualEngine <emphasis>eindeutige Bezeichnung</emphasis></def>
+            <def title="Topic Moodle">ManualMoodle <emphasis>eindeutige Bezeichnung</emphasis></def>
+            <def title="Topic Workshop">ManualWorkshop <emphasis>eindeutige Bezeichnung</emphasis></def>
+        </deflist>
+    </chapter>
+
+    <chapter title="Benennung hochgeladene Dateien" id="benennung_dateien"  >
+        <deflist type="medium">
+            <def title="Bilder Autorentool">imageManualAuthoring <emphasis>eindeutige Bezeichnung</emphasis></def>
+            <def title="Bilder Engine">imageManualEngine <emphasis>eindeutige Bezeichnung</emphasis></def>
+            <def title="Bilder Moodle">imageMoodle <emphasis>eindeutige Bezeichnung</emphasis></def>
+            <def title="Bilder Workshop">imageWorkshop <emphasis>eindeutige Bezeichnung</emphasis></def>
+        </deflist>
+    </chapter>
+
+    <chapter title="Markierung von wichtigen Bildelementen in Bildern der Benutzerdokumentation">
+        <procedure>
+            <note>Es wird davon ausgegangen, dass für die Bildbearbeitung Adobe Illustrator verwendet wird. Die Bearbeitung sollte jedoch auch mit anderen gängigen (Vektor)Grafikprogrammen umsetzbar sein.</note>
+            <step>Erstellen eines Screenshots des zu beschreibenden Screens bzw. Moments im Programmablauf</step>
+            <step>Öffnen des Screenshots mit Adobe Illustrator</step>
+            <step>Screenshot mit einem 60% transparenten Rechteck mit der Farbe #172d4d überlagern</step>
+            <step>Zweites Rechteck über den Bereich ziehen, der hervorgehoben werden soll</step>
+            <step>Ecken des zweiten Rechtecks 5-15px abrunden (je nach Größe des Rechtecks, 5px sind zu wenig für große Rechtecke und 15px zu viel für kleine Rechtecke)</step>
+            <step>Das zweite Rechteck mithilfe des Pathfinders abziehen und quasi "herausstanzen".</step>
+            <step>Pfeil hinzufügen, der auf die markierte Stelle zeigt.</step>
+            <!-- Hier fehlt noch die genaue Datei des Pfeils und ein Vorschaubild, wie die Markierung eines Bildelements aussehen kann [DG] -->
+        </procedure>
+    </chapter>
+
+    <chapter title="Leistungsbeschreibung" id="leistungsbeschreibung">
+        <p>Gibt dem Nutzer einen ersten Eindruck vom Produkt und beschreibt die wichtigsten Leistungsmerkmale.</p>
+        <list>
+            <li>Zweck und Einsatz der Software</li>
+            <li>Kernfeature auf einen Blick</li>
+        </list>
+        <a href="Benutzerdoku-Template-Leistungsbeschreibung.topic">Template Leistungsbeschreibung</a>
+    </chapter>
+
+    <chapter title="Produktbeschreibung" id="produktbeschreibung">
+        <p>Stellt die Software bildlich vor und beschreibt die nutzerrelevanten Teile</p>
+        <list>
+            <li>Struktureller Aufbau der Sofwareteile</li>
+            <li>Bildliche Darstellung einzelner Ansichten mit Callouts</li>
+            <li>Beschreibung der Callouts</li>
+        </list>
+        <a href="Benutzerdoku-Template-Produkbeschreibung.topic">Template Produktbeschreibung</a>
+    </chapter>
+
+    <chapter title="Tätigkeitsbeschreibung" id="taetigkeitsbeschreibung">
+        <p>Beschreibt konkrete Handlungen für die Nutzer</p>
+        <a href="Benutzerdoku-Template-Handlungsanweisung.topic">Template Tätigkeitsbeschreibung</a>
+
+    </chapter>
+</topic>

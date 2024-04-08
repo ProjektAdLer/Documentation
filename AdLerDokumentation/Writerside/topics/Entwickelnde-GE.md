@@ -20,12 +20,11 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Entwickelnde sind die Personen, 
+            Entwickelnde müssen die Personen sein, 
             die das <a href="AdLer-System.md"></a> 
             entwickeln. Unter anderem werden von diesen die folgenden Artefakte
             entwickelt: Assets, Tests, Icons, Code, Dokumentation, Architektur,
-            Software Design, GUI-Design, Anforderungen, Leitfäden, CI-CD-Pipeline
-            usw. 
+            Software Design, GUI-Design, Anforderungen, Leitfäden, CI-CD-Pipeline, usw. 
         </td>
     </tr>  
     <tr>

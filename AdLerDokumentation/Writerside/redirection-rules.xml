@@ -62,4 +62,36 @@
         <description>Created after removal of "LMS" from AdLerDokumentation</description>
         <accepts>LMS.html</accepts>
     </rule>
+    <rule id="1d596521">
+        <description>Created after removal of "Anforderungen des Backends" from AdLerDokumentation</description>
+        <accepts>Auflistung-der-Anforderungen-Backend.html</accepts>
+    </rule>
+    <rule id="65488413">
+        <description>Created after removal of "Mit Moodle Account anmelden" from AdLerDokumentation</description>
+        <accepts>Mit-Moodle-Account-anmelden.html</accepts>
+    </rule>
+    <rule id="f3070fe">
+        <description>Created after removal of "3D Lernumgebung" from AdLerDokumentation</description>
+        <accepts>Engine-GUI-3D-Lernraum.html</accepts>
+    </rule>
+    <rule id="3a9117b3">
+        <description>Created after removal of "Lernraummenü" from AdLerDokumentation</description>
+        <accepts>GUI-Engine-Lernraummenü.html</accepts>
+    </rule>
+    <rule id="7ef56fe8">
+        <description>Created after removal of "Lernweltmenü" from AdLerDokumentation</description>
+        <accepts>GUI-Engine-Lernweltmenü.html</accepts>
+    </rule>
+    <rule id="4b8d4c6c">
+        <description>Created after removal of "Startseite" from AdLerDokumentation</description>
+        <accepts>GUI-Engine-Startseite.html</accepts>
+    </rule>
+    <rule id="647f4a69">
+        <description>Created after removal of "GUI" from AdLerDokumentation</description>
+        <accepts>GUI-Engine.html</accepts>
+    </rule>
+    <rule id="460623f8">
+        <description>Created after removal of "Andere" from AdLerDokumentation</description>
+        <accepts>Andere-Engine.html</accepts>
+    </rule>
 </rules>
