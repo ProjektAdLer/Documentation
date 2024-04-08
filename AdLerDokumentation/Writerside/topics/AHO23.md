@@ -11,4 +11,4 @@ bieten, eine zuvor hochgeladene Lernwelt zu lesen.
 
 ## Aktivitätsdiagramm:
 
-
+![imageAktivitätsdiagrammLMSKursLesen](imageAktivitätsdiagrammLMSKursLesen.png)
