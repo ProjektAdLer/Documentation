@@ -58,7 +58,7 @@ jobs:
 
       - name: Generate App token
         id: generate-token
-        uses: actions/greate-github-app-token@v1
+        uses: actions/create-github-app-token@v1
         with:
           app-id: ${{ secrets.REQ_UPDATER_APP_ID }}
           private-key: ${{ secrets.REQ_UPDATER_APP_KEY }}
