@@ -12,18 +12,18 @@ permissions:
 
 jobs:
   call-requirement-script:
-    if: github.actor != 'github-actions'
+    if: github.actor_id != 872369
     uses: ProjektAdler/Documentation/.github/workflows/requirementScript.yml@main
     secrets: inherit
     
   call-build:
-    if: github.actor != 'github-actions'
+    if: github.actor_id != 872369
     needs: call-requirement-script
     uses: ProjektAdler/Documentation/.github/workflows/build.yml@main
     secrets: inherit
 
   deploy:
-    if: github.actor != 'github-actions'
+    if: github.actor_id != 872369
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
