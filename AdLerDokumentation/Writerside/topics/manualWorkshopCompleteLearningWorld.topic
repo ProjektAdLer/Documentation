@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Vervollständigen der Lernwelt Workshop2024_teilfertig im Autorentool" id="manualWorkshopCompleteLearningWorld"
+       help-id="manualWorkshopCreateAdLerLearningWorldAuthoringTool">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>Mit dieser Schritt für Schritt Beschreibung finalisieren Sie die Lernwelt des Workshops und lernen den Umgang mit dem AdLer Autorentool kennen.</control>
+        </def>
+    </deflist>
+        <chapter title="Vorbereitung des Autorentools">
+            <procedure title="Importieren der zur Verfügung gestellten Lernwelt in das Autorentool" id="ImportierenDerZurVerfuegungGestelltenLernweltInDasAutorentool">
+                <deflist type="compact" sorted="desc">
+                    <def title="&#127937;">
+                        <control>Sie importieren die Workshop-Lernwelt in das Autorentool, um mit der Bearbeitung beginnen zu können.</control>
+                    </def>
+                </deflist>
+
+                <tip>
+                    <p>Sie sollten das Autorentool Version 2.1.1. auf Ihrem Rechner gestartet haben. Die Versionsnummer finden Sie in der Kopfzeile der Anwendung. Beim Start der Anwendung sehen Sie folgende Anzeige.</p>
+                    <img src="imageManualWorkshopDefaultScreenAuthoringTool.png" alt="Standardansicht des Autorentools nach dem Öffnen der Anwendung" width="200" thumbnail="true" />
+                </tip>
+                <step>
+                    <p>Klicken Sie auf den Button <control>Importieren</control>.</p>
+                </step>
+                <step>
+                    <p>Suchen Sie im erscheinenden Systemdialog Ihres Betriebssystems die für den Workshop bereitgestellte Datei <control>240403_Lernwelt_Workshops2024_teilfertig.zip</control></p>
+                    <img src="imageManualWorkshopExplorerArchiveImport.png" alt="Import-Betriebssystemdialog am Beispiel von Windows 11" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Bestätigen Sie Ihre Auswahl mit einem Klick auf den Button <control>Öffnen</control>.</p>
+                    <tip>Nach dem Klick auf den <control>Öffnen</control> Button im Systemdialog erscheint folgende Ansicht</tip>
+                    <img src="imageManualWorkshopOpenedLearningWorldDefault.png" alt="Standardansicht des Autorentools nach dem Öffnen der Lernwelt" width="200" thumbnail="true" />
+                </step>
+                <note>
+                    <control>
+                        <p>Sie haben die Lernwelt erfolgreich ins Autorentool importiert.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </chapter>
+        <chapter title="Lernwelt">
+            <procedure title="Ändern der Bezeichnungen der Lernwelt" id="aendernDerBezeichnungenDerLernwelt">
+                <deflist type="compact" sorted="desc">
+                    <def title="&#127937;">
+                        <control>Sie vergeben der Lernwelt die korrekten Namen.</control>
+                    </def>
+                </deflist>
+                <tip>
+                    <p>Vergewissern Sie sich, das am linken Rand der Anwendung der Reiter <control>Angaben zur Lernwelt</control> angewählt ist.</p>
+                    <img src="imageManualWorkshopOpenedLearningWorldDefaultHiglightedLearningWorldSection.png" alt="Markierung des Reiters Angaben zur Lernwelt" width="200" thumbnail="true" />
+                </tip>
+                <step>
+                    <p>Klicken Sie in das Feld <control>Name</control> im Reiter <control>Lernwelt bearbeiten</control> auf der linken Seite des Fensters.</p>
+                </step>
+                <step>
+                    <p>Ändern Sie den Namen, wie in der Ihnen vorliegenden Ausfülltabelle angegeben, ab.</p>
+                </step>
+                <step>
+                    <p>Ändern Sie den Kurznamen, wie in der Ihnen vorliegenden Ausfülltabelle angegeben, ab.</p>
+                    <img src="imageManualWorkshopChangedNames.png" alt="Geänderte Namen der Lernwelt" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern. </p>
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben alle erforderlichen Änderungen an der Lernwelt vorgenommen.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </chapter>
+        <chapter title="Lernraum 4 - 3D Lernumgebung und Moodle">
+            <deflist type="compact" sorted="desc">
+                <def title="&#127937;">
+                    <control>Sie Öffnen den Lernraum, ändern dessen Metadaten und erstellen drei Lernelemente, versehen diese mit Metadaten und weisen diesen das passende Lernmaterial zu.</control>
+                </def>
+            </deflist>
+            <procedure title="Öffnen des Lernraums und Anpassen der Lernraummetadaten" id="oeffnenDesLernraumsUndAnpassenDerLernraumMetadaten">
+                <step>
+                    <p>Klicken Sie im rechten Bereich des Fensters mit einem Doppelklick auf den Lernraum <control>3D-Lernumgebung und Moodle</control>.</p>
+                    <img src="imageManualWorkshopHighlight3DRoomPathwayView.png" alt="Hervorhebung des anzuklickenden Lernraums in der Lernpfadansicht" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Klicken Sie nun, im Reiter Lernraum bearbeiten, auf den Punkt <control>Abschlussbedingung</control>, um diesen aufzuklappen.</p>
+                    <img src="imageManualWorkshopOpened3DRoom.png" alt="Geöffneter Lernraum 3D-Lernumgebung und Moodle" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Erhöhen Sie nun die Anzahl der Punkte auf die in der Ausfüllhilfe angegebene Punktzahl.</p>
+                    <tip>Sie können dies durch Klicken auf die Pfeile in der Zeile mit der Punktzahl oder durch Tastatureingabe der Zahl 8 in dieselbe erreichen.</tip>
+                </step>
+                <note>
+                    <control>
+                        <p>Sie haben den Lernraum erfolgreich geöffnet und alle erforderlichen Änderungen vorgenommen.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+            <procedure title="Erstellen von drei Lernelementen" id="erstellenVonDreiLernelementen">
+                <step>
+                    <p></p>
+                </step>
+            </procedure>
+        </chapter>
+</topic>
