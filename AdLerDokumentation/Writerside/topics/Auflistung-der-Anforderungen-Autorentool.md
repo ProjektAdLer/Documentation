@@ -22,6 +22,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | AHO22 | 0 |  |
 | AHO23 | 0 |  |
 | AHO24 | 0 |  |
+| AHO25 | 0 |  |
 | AHO31 | 0 |  |
 | AHO41 | 0 |  |
 | AHO42 | 0 |  |
