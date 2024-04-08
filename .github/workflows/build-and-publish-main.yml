@@ -11,12 +11,6 @@ permissions:
   contents: write
 
 jobs:
-  echo-actor:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Echo actor name that triggered run
-        run: echo ${{ github.actor }}
-        
   call-requirement-script:
     if: github.actor != 'requirements-updater[bot]'
     uses: ProjektAdler/Documentation/.github/workflows/requirementScript.yml@main
