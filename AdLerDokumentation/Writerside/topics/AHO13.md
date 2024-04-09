@@ -13,4 +13,4 @@ Das Autorentool muss Lehrenden die Möglichkeit bieten, einen Lernpfad zu lösch
 
 ## Aktivitätsdiagramm:
 
-
+![imageAktivitätsdiagrammLernpfadLöschen](imageAktivitätsdiagrammLernpfadLöschen.png)

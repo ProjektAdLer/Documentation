@@ -11,3 +11,5 @@ Lehrenden die Möglichkeit bieten, einen Lernpfad zu erstellen
   - Ein Lernraum darf nur einen eingehenden Lernpfad besitzen.
 
 ## Aktivitätsdiagramm:
+
+![imageAktivitätsdiagrammLernpfadErstellen](imageAktivitätsdiagrammLernpfadErstellen.png)
