@@ -53,3 +53,4 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | EZZ0009 | 0 |  |
 | EZZ0010 | 0 |  |
 | EZZ0011 | 0 |  |
+| EZZ0013 | 0 |  |
