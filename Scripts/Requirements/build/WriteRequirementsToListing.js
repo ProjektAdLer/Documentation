@@ -51,7 +51,7 @@ function WriteRequirementsToListing(requirementsWithTests, filePath) {
                 const { id, title } = requirement.requirementInfo;
                 const tests = requirement.unitTests.length;
                 const files = requirement.unitTests.map((test) => path.basename(test.file) + `:${test.lineNumber}`).join(', ');
-                table.push(`| ${id} (${title}) | ${tests} | ${files} |`);
+                table.push(`| ${title} (${id}) | ${tests} | ${files} |`);
             }
             return table;
         }
