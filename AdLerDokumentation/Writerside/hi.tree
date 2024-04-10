@@ -305,7 +305,11 @@
                 <toc-element topic="Übergreifendes.md">
                     <toc-element topic="Internetverlust.md"/>
                     <toc-element topic="Ladebildschirm.md"/>
-                    <toc-element topic="ELG0012.md"/>
+                    <toc-element topic="ELG0012.md">
+                        <toc-element topic="ELG0015.md"/>
+                        <toc-element topic="ELG0014.md"/>
+                        <toc-element topic="ELG0013.md"/>
+                    </toc-element>
                 </toc-element>
                 <toc-element topic="Applikationsspezifische-Anforderungen-Engine.md">
                     <toc-element topic="ELG0011.md"/>
