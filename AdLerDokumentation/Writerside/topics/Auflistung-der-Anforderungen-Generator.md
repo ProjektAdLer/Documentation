@@ -3,9 +3,9 @@
 Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefügt.
 
 [//]: # (Script-Start)
-| ID | Number of Tests | Files |
+| Requirement | Number of Tests | Files |
 | --- | --- | --- |
-| GHO01 | 0 |  |
-| GHO02 | 0 |  |
-| GHO03 | 0 |  |
-| GHO11 | 0 |  |
+| [ATF erstellen (GHO01)](GHO01.md) | 0 |  |
+| [ATF serialisieren (GHO02)](GHO02.md) | 0 |  |
+| [ATF lesen (GHO03)](GHO03.md) | 0 |  |
+| [MBZ erstellen (GHO11)](GHO11.md) | 0 |  |

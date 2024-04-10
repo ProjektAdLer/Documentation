@@ -51,7 +51,7 @@ function WriteRequirementsToListing(requirementsWithTests, filePath) {
                 const { id, title } = requirement.requirementInfo;
                 const tests = requirement.unitTests.length;
                 const files = requirement.unitTests.map((test) => path.basename(test.file) + `:${test.lineNumber}`).join(', ');
-                table.push(`| ${title} (${id}) | ${tests} | ${files} |`);
+                table.push(`| [${title} (${id})](${id}.md) | ${tests} | ${files} |`);
             }
             return table;
         }
@@ -65,6 +65,6 @@ function WriteRequirementsToListing(requirementsWithTests, filePath) {
 }
 exports.WriteRequirementsToListing = WriteRequirementsToListing;
 function addHeader(table) {
-    table.push('| Requirement ID (Title) | Number of Tests | Files |');
+    table.push('| Requirement | Number of Tests | Files |');
     table.push('| --- | --- | --- |');
 }

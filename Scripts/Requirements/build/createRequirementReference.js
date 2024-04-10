@@ -15,29 +15,18 @@ const WriteRequirementsToListing_1 = require("./WriteRequirementsToListing");
 function Main() {
     return __awaiter(this, void 0, void 0, function* () {
         const allRequirementsInfo = yield (0, GetAllReqIds_1.GetAllReqIds)();
-        // const autorentoolIds = allRequirementsInfo.filter(({ id }) => id.startsWith('A'));
-        // const backendIds = allRequirementsInfo.filter(({ id }) => id.startsWith('B'));
-        // const generatorIds = allRequirementsInfo.filter(({ id }) => id.startsWith('G'));
+        const autorentoolIds = allRequirementsInfo.filter(({ id }) => id.startsWith('A'));
+        const backendIds = allRequirementsInfo.filter(({ id }) => id.startsWith('B'));
+        const generatorIds = allRequirementsInfo.filter(({ id }) => id.startsWith('G'));
         const engineIds = allRequirementsInfo.filter(({ id }) => id.startsWith('E'));
-        // console.log(engineIds);
-        // const backendReferences = await parseUnitTests(backendIds, '../../../AdLerBackend/', '.UnitTests', '.cs');
-        // WriteRequirementsToListing(
-        //   backendReferences,
-        //   '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md'
-        // );
-        // const authoringToolReferences = await parseUnitTests(autorentoolIds, '../../../Autorentool/', 'Test', '.cs');
-        // WriteRequirementsToListing(
-        //   authoringToolReferences,
-        //   '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md'
-        // );
+        const backendReferences = yield (0, ParseUnitTests_1.parseUnitTests)(backendIds, '../../../AdLerBackend/', '.UnitTests', '.cs');
+        (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(backendReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md');
+        const authoringToolReferences = yield (0, ParseUnitTests_1.parseUnitTests)(autorentoolIds, '../../../Autorentool/', 'Test', '.cs');
+        (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(authoringToolReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md');
         const engineReferences = yield (0, ParseUnitTests_1.parseUnitTests)(engineIds, '../../../2D_3D_AdLer/', '', '.test.ts');
-        console.log(engineReferences);
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(engineReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md');
-        // const generatorReferences = await parseUnitTests(generatorIds, '../../../Autorentool/', 'Test', '.cs');
-        // WriteRequirementsToListing(
-        //   generatorReferences,
-        //   '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md'
-        // );
+        const generatorReferences = yield (0, ParseUnitTests_1.parseUnitTests)(generatorIds, '../../../Autorentool/', 'Test', '.cs');
+        (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(generatorReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md');
     });
 }
 Main();

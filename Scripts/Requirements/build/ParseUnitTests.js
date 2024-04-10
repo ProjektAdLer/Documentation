@@ -104,16 +104,16 @@ function findFilesWithIds(files) {
         return filesWithIds;
     });
 }
-// Maps the unit test information to the respective requirements.
 function mapFilesToRequirements(reqInfos, unitTestInfos) {
     return __awaiter(this, void 0, void 0, function* () {
         const output = {};
         reqInfos.forEach((req) => {
             const tests = unitTestInfos.filter((test) => test.id === req.id);
-            if (tests.length > 0) {
-                output[req.id] = output[req.id] || { requirementInfo: req, unitTests: [] };
-                output[req.id].unitTests.push(...tests);
-            }
+            // Ensure every requirement is added to the output, even if it has no associated tests.
+            output[req.id] = {
+                requirementInfo: req,
+                unitTests: tests,
+            };
         });
         return output;
     });

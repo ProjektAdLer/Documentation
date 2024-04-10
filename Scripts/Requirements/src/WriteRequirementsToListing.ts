@@ -24,7 +24,7 @@ export async function WriteRequirementsToListing(
       const tests = requirement.unitTests.length;
       const files = requirement.unitTests.map((test) => path.basename(test.file) + `:${test.lineNumber}`).join(', ');
 
-      table.push(`| ${title} (${id}) | ${tests} | ${files} |`);
+      table.push(`| [${title} (${id})](${id}.md) | ${tests} | ${files} |`);
     }
 
     return table;
@@ -41,6 +41,6 @@ export async function WriteRequirementsToListing(
 }
 
 function addHeader(table: string[]) {
-  table.push('| Requirement ID (Title) | Number of Tests | Files |');
+  table.push('| Requirement | Number of Tests | Files |');
   table.push('| --- | --- | --- |');
 }

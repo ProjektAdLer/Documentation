@@ -53,7 +53,6 @@ async function findFilesWithIds(files: string[]): Promise<UnitTestInfos[]> {
   return filesWithIds;
 }
 
-// Maps the unit test information to the respective requirements.
 async function mapFilesToRequirements(
   reqInfos: RequirementInfo[],
   unitTestInfos: UnitTestInfos[]
@@ -62,10 +61,11 @@ async function mapFilesToRequirements(
 
   reqInfos.forEach((req) => {
     const tests = unitTestInfos.filter((test) => test.id === req.id);
-    if (tests.length > 0) {
-      output[req.id] = output[req.id] || { requirementInfo: req, unitTests: [] };
-      output[req.id].unitTests.push(...tests);
-    }
+    // Ensure every requirement is added to the output, even if it has no associated tests.
+    output[req.id] = {
+      requirementInfo: req,
+      unitTests: tests,
+    };
   });
 
   return output;
