@@ -47,6 +47,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | EWE0019 | 0 |  |
 | EWE0020 | 1 | AdaptivityElementPresenter.test.ts:57 |
 | EWE0021 | 0 |  |
+| EWE0022 | 0 |  |
 | EZZ0001 | 1 | LoginUseCase.test.ts:73 |
 | EZZ0002 | 1 | LogoutUseCase.test.ts:28 |
 | EZZ0003 | 1 | LoginUseCase.test.ts:100 |
