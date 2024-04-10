@@ -5,16 +5,16 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 [//]: # (Script-Start)
 | Requirement ID (Title) | Number of Tests | Files |
 | --- | --- | --- |
-| EWE0002 (Adaptivitätselement-Status laden) | 1 | GetAdaptivityElementStatusUseCase.test.ts:148 |
-| EWE0003 (Adaptivitätselement werten) | 1 | ScoreAdaptivityElementUseCase.test.ts:144 |
-| EWE0005 (Adaptivitätselement-Antworten prüfen) | 2 | SubmitAdaptivityElementSelectionUseCase.test.ts:91, SubmitAdaptivityElementSelectionUseCase.test.ts:124 |
-| EWE0006 (zugängliches Lernelement als Hinweis anzeigen) | 1 | DisplayLearningElementUseCase.test.ts:170 |
-| EWE0007 (unzugängliches Lernelement als Hinweis anzeigen) | 1 | DisplayLearningElementUseCase.test.ts:200 |
-| EWE0012 (Fragen anzeigen) | 1 | AdaptivityElementPresenter.test.ts:236 |
-| EWE0013 (Adaptivitäselement-Inhalt laden) | 1 | LoadAdaptivityElementUseCase.test.ts:98 |
-| EWE0020 (Brotkrumennavigation anzeigen) | 1 | AdaptivityElementPresenter.test.ts:57 |
-| EZZ0001 (Lernenden einloggen) | 1 | LoginUseCase.test.ts:73 |
-| EZZ0002 (Lernenden ausloggen) | 1 | LogoutUseCase.test.ts:28 |
-| EZZ0003 (Erfolgreicher Login) | 1 | LoginUseCase.test.ts:100 |
-| EZZ0004 (Abgebrochener Login) | 1 | LoginUseCase.test.ts:130 |
-| EZZ0005 (Fehlgeschlagener Login) | 1 | LoginUseCase.test.ts:113 |
+| Adaptivitätselement-Status laden (EWE0002) | 1 | GetAdaptivityElementStatusUseCase.test.ts:148 |
+| Adaptivitätselement werten (EWE0003) | 1 | ScoreAdaptivityElementUseCase.test.ts:144 |
+| Adaptivitätselement-Antworten prüfen (EWE0005) | 2 | SubmitAdaptivityElementSelectionUseCase.test.ts:91, SubmitAdaptivityElementSelectionUseCase.test.ts:124 |
+| zugängliches Lernelement als Hinweis anzeigen (EWE0006) | 1 | DisplayLearningElementUseCase.test.ts:170 |
+| unzugängliches Lernelement als Hinweis anzeigen (EWE0007) | 1 | DisplayLearningElementUseCase.test.ts:200 |
+| Fragen anzeigen (EWE0012) | 1 | AdaptivityElementPresenter.test.ts:236 |
+| Adaptivitäselement-Inhalt laden (EWE0013) | 1 | LoadAdaptivityElementUseCase.test.ts:98 |
+| Brotkrumennavigation anzeigen (EWE0020) | 1 | AdaptivityElementPresenter.test.ts:57 |
+| Lernenden einloggen (EZZ0001) | 1 | LoginUseCase.test.ts:73 |
+| Lernenden ausloggen (EZZ0002) | 1 | LogoutUseCase.test.ts:28 |
+| Erfolgreicher Login (EZZ0003) | 1 | LoginUseCase.test.ts:100 |
+| Abgebrochener Login (EZZ0004) | 1 | LoginUseCase.test.ts:130 |
+| Fehlgeschlagener Login (EZZ0005) | 1 | LoginUseCase.test.ts:113 |
