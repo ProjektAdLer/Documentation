@@ -19,7 +19,6 @@ function Main() {
         const backendIds = allRequirementsInfo.filter(({ id }) => id.startsWith('B'));
         const generatorIds = allRequirementsInfo.filter(({ id }) => id.startsWith('G'));
         const engineIds = allRequirementsInfo.filter(({ id }) => id.startsWith('E'));
-        console.log(engineIds);
         const backendReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(backendIds.map(({ id }) => id), '../../../AdLerBackend/', '.UnitTests', '.cs');
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(backendReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md');
         const authoringToolReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(autorentoolIds.map(({ id }) => id), '../../../Autorentool/', 'Test', '.cs');

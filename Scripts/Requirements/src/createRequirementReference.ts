@@ -10,8 +10,6 @@ async function Main(): Promise<void> {
   const generatorIds = allRequirementsInfo.filter(({ id }) => id.startsWith('G'));
   const engineIds = allRequirementsInfo.filter(({ id }) => id.startsWith('E'));
 
-  console.log(engineIds);
-
   const backendReferences = await parseCsUnitTests(
     backendIds.map(({ id }) => id),
     '../../../AdLerBackend/',
