@@ -58,8 +58,10 @@
                     <toc-element topic="Lernraum-Eigenschaften-Autorentool.md">
                         <toc-element topic="AWA9013.md">
                             <toc-element topic="AWA9005.md"/>
+                            <toc-element topic="AWA9019.md"/>
                         </toc-element>
                         <toc-element topic="AWA9014.md">
+                            <toc-element topic="AWA9020.md"/>
                         </toc-element>
                     </toc-element>
                     <toc-element topic="Lernraum-Prozesse-Autorentool.md">
@@ -102,12 +104,15 @@
                     </toc-element>
                     <toc-element topic="Externes-Lernmaterial-Prozesse-Autorentool.md">
                         <toc-element topic="AHO51.md"/>
-                        <toc-element topic="AWA0042.md"/>
-                        <toc-element topic="AWA0043.md"/>
-                        <toc-element topic="AWA0044.md"/>
                         <toc-element topic="AWA0038.md"/>
                         <toc-element topic="AWA0037.md"/>
                         <toc-element topic="AWA0036.md"/>
+                        <toc-element topic="AWA0047.md"/>
+                        <toc-element topic="AWA0048.md"/>
+                        <toc-element topic="AWA0042.md"/>
+                        <toc-element topic="AWA0043.md"/>
+                        <toc-element topic="AWA0044.md"/>
+                        <toc-element topic="AWA0049.md"/>
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Lernelement-Autorentool.md">
@@ -121,13 +126,17 @@
                         <toc-element topic="AHO42.md"/>
                         <toc-element topic="AWA0002.md"/>
                         <toc-element topic="AWA0015.md"/>
+                        <toc-element topic="AWA0046.md"/>
+                        <toc-element topic="AWA0045.md"/>
                         <toc-element topic="AWA0016.md"/>
                         <toc-element topic="AWA0017.md"/>
                         <toc-element topic="AWA0018.md"/>
                     </toc-element>
                     <toc-element topic="Adaptivitätselement-Autorentool.md">
                         <toc-element topic="Adaptivitätselement-Eigenschaften-Autorentool.md">
-                            <toc-element topic="AWA9008.md"/>
+                            <toc-element topic="AWA9008.md">
+                                <toc-element topic="AWA9021.md"/>
+                            </toc-element>
                             <toc-element topic="AWA9009.md"/>
                         </toc-element>
                         <toc-element topic="Adaptivitätselement-Prozesse-Autorentool.md">
