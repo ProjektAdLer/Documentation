@@ -61,6 +61,6 @@ export async function WriteRequirementsToListing(
 }
 
 function addHeader(table: string[]) {
-  table.push('| Requirement with ID | Number of Tests | Files |');
+  table.push('| Anforderung | Nummer an Tests | Testdateien mit Zeilennummer |');
   table.push('| --- | --- | --- |');
 }
