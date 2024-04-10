@@ -103,6 +103,11 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | AWA0042 | 0 |  |
 | AWA0043 | 0 |  |
 | AWA0044 | 0 |  |
+| AWA0045 | 0 |  |
+| AWA0046 | 0 |  |
+| AWA0047 | 0 |  |
+| AWA0048 | 0 |  |
+| AWA0049 | 0 |  |
 | AWA9001 | 0 |  |
 | AWA9002 | 0 |  |
 | AWA9003 | 0 |  |
@@ -121,3 +126,6 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | AWA9016 | 0 |  |
 | AWA9017 | 0 |  |
 | AWA9018 | 0 |  |
+| AWA9019 | 0 |  |
+| AWA9020 | 0 |  |
+| AWA9021 | 0 |  |
