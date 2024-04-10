@@ -110,4 +110,8 @@
         <description>Created after removal of "Video-Lernelemente betrachten" from AdLerDokumentation</description>
         <accepts>ManualEngine-Video-Lernelemente-betrachten.html</accepts>
     </rule>
+    <rule id="6c4c5540">
+        <description>Created after removal of "Internetverlust" from AdLerDokumentation</description>
+        <accepts>Internetverlust.html</accepts>
+    </rule>
 </rules>
