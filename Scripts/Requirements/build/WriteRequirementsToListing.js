@@ -45,24 +45,32 @@ function WriteRequirementsToListing(requirementsWithTests, filePath, repoName) {
         function generateMarkdownTable(requirementsWithTests) {
             let table = [];
             addHeader(table);
-            // Populate the table rows
-            for (const requirementId in requirementsWithTests) {
-                const requirement = requirementsWithTests[requirementId];
+            // Convert to array and sort by requirement title
+            const sortedRequirements = Object.values(requirementsWithTests).sort((a, b) => {
+                return a.requirementInfo.title.localeCompare(b.requirementInfo.title);
+            });
+            // Populate the table rows based on the sorted array
+            for (const requirement of sortedRequirements) {
                 const { id, title } = requirement.requirementInfo;
                 const tests = requirement.unitTests.length;
-                const files = requirement.unitTests.map((test) => getFileName(test)).join(', ');
+                // join with line break
+                const files = requirement.unitTests.map((test) => getFileName(test)).join('<br>');
                 table.push(`| [${title} (${id})](${id}.md) | ${tests} | ${files} |`);
             }
             return table;
-            function getFileName(test) {
-                // remove everything before the repo name
-                var filePath = test.file.substring(test.file.indexOf(repoName));
-                var repopath = filePath
-                    .replace(repoName, 'https://github.com/ProjektAdLer/' + repoName + '/blob/main')
-                    // replace all backslashes with forward slashes
-                    .replace(/\\/g, '/');
-                return `[${path.basename(test.file)}:${test.lineNumber}](${repopath}#L${test.lineNumber})`;
-            }
+        }
+        function getFileName(test) {
+            // Remove everything before the repo name
+            var filePath = test.file.substring(test.file.indexOf(repoName));
+            var repopath = filePath
+                .replace(repoName, 'https://github.com/ProjektAdLer/' + repoName + '/blob/main')
+                // Replace all backslashes with forward slashes
+                .replace(/\\/g, '/');
+            return `[${path.basename(test.file)}:${test.lineNumber}](${repopath}#L${test.lineNumber})`;
+        }
+        function addHeader(table) {
+            table.push('| Requirement with ID | Number of Tests | Files |');
+            table.push('| --- | --- | --- |');
         }
         const newContent = generateMarkdownTable(requirementsWithTests);
         // Insert the new content
