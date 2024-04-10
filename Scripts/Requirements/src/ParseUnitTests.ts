@@ -9,28 +9,39 @@ export type IDDetail = {
   idString: string;
   file: string;
   lineNumber: number;
+  title: string;
 };
 
 // Parses  unit tests to find specific IDs within the test files, returning the structured output.
 export async function parseCsUnitTests(
-  reqIds: string[],
+  reqInfos: {
+    id: string;
+    header: string;
+  }[],
   unitTestFolder: string,
   unitTestEnding: string,
   expectedFileExtention: string
 ): Promise<OutputStructure[]> {
   const potentialTestFiles = await findFiles(unitTestFolder, expectedFileExtention);
-  // Search each file for the IDs and collect results.
-  const searchResults = await Promise.all(potentialTestFiles.map((file) => searchFile(file, reqIds)));
-  const flatResults = flattenArray(searchResults);
+  const filesWithIDs = await Promise.all(potentialTestFiles.map((file) => searchFile(file, reqInfos)));
+  const flatResults = flattenArray(filesWithIDs);
 
   // Organize results by ID.
-  const resultsByIDs = reqIds.map((id) => ({ [id]: flatResults.filter((result) => result.idString === id) }));
+  const resultsByIDs = reqInfos
+    .map(({ id }) => id)
+    .map((id) => ({ [id]: flatResults.filter((result) => result.idString === id) }));
 
   return resultsByIDs;
 }
 
 // Searches a single file for specified  IDs, returning found search results.
-async function searchFile(fileName: string, ids: string[]): Promise<IDDetail[]> {
+async function searchFile(
+  fileName: string,
+  reqInfos: {
+    id: string;
+    header: string;
+  }[]
+): Promise<IDDetail[]> {
   const fileStream = createReadStream(fileName);
   const rl = readline.createInterface({ input: fileStream });
   let lineNumber = 0;
@@ -38,8 +49,18 @@ async function searchFile(fileName: string, ids: string[]): Promise<IDDetail[]> 
 
   for await (const line of rl) {
     lineNumber++;
-    const matchedIds = matchIdsInLine(line, ids);
-    matchedIds.forEach((idString) => results.push({ idString, file: fileName, lineNumber }));
+    const matchedIds = matchIdsInLine(
+      line,
+      reqInfos.map(({ id }) => id)
+    );
+    matchedIds.forEach((idString) =>
+      results.push({
+        idString,
+        file: fileName,
+        lineNumber,
+        title: reqInfos.find((req) => req.id === idString)?.header || '',
+      })
+    );
   }
 
   return results;

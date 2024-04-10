@@ -45,20 +45,21 @@ const path = __importStar(require("path"));
 const fs_1 = require("fs");
 const readline = __importStar(require("readline"));
 // Parses  unit tests to find specific IDs within the test files, returning the structured output.
-function parseCsUnitTests(reqIds, unitTestFolder, unitTestEnding, expectedFileExtention) {
+function parseCsUnitTests(reqInfos, unitTestFolder, unitTestEnding, expectedFileExtention) {
     return __awaiter(this, void 0, void 0, function* () {
         const potentialTestFiles = yield findFiles(unitTestFolder, expectedFileExtention);
-        // Search each file for the IDs and collect results.
-        const searchResults = yield Promise.all(potentialTestFiles.map((file) => searchFile(file, reqIds)));
-        const flatResults = flattenArray(searchResults);
+        const filesWithIDs = yield Promise.all(potentialTestFiles.map((file) => searchFile(file, reqInfos)));
+        const flatResults = flattenArray(filesWithIDs);
         // Organize results by ID.
-        const resultsByIDs = reqIds.map((id) => ({ [id]: flatResults.filter((result) => result.idString === id) }));
+        const resultsByIDs = reqInfos
+            .map(({ id }) => id)
+            .map((id) => ({ [id]: flatResults.filter((result) => result.idString === id) }));
         return resultsByIDs;
     });
 }
 exports.parseCsUnitTests = parseCsUnitTests;
 // Searches a single file for specified  IDs, returning found search results.
-function searchFile(fileName, ids) {
+function searchFile(fileName, reqInfos) {
     return __awaiter(this, void 0, void 0, function* () {
         var _a, e_1, _b, _c;
         const fileStream = (0, fs_1.createReadStream)(fileName);
@@ -71,8 +72,16 @@ function searchFile(fileName, ids) {
                 _d = false;
                 const line = _c;
                 lineNumber++;
-                const matchedIds = matchIdsInLine(line, ids);
-                matchedIds.forEach((idString) => results.push({ idString, file: fileName, lineNumber }));
+                const matchedIds = matchIdsInLine(line, reqInfos.map(({ id }) => id));
+                matchedIds.forEach((idString) => {
+                    var _a;
+                    return results.push({
+                        idString,
+                        file: fileName,
+                        lineNumber,
+                        title: ((_a = reqInfos.find((req) => req.id === idString)) === null || _a === void 0 ? void 0 : _a.header) || '',
+                    });
+                });
             }
         }
         catch (e_1_1) { e_1 = { error: e_1_1 }; }

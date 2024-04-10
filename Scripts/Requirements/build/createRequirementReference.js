@@ -19,13 +19,13 @@ function Main() {
         const backendIds = allRequirementsInfo.filter(({ id }) => id.startsWith('B'));
         const generatorIds = allRequirementsInfo.filter(({ id }) => id.startsWith('G'));
         const engineIds = allRequirementsInfo.filter(({ id }) => id.startsWith('E'));
-        const backendReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(backendIds.map(({ id }) => id), '../../../AdLerBackend/', '.UnitTests', '.cs');
+        const backendReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(backendIds, '../../../AdLerBackend/', '.UnitTests', '.cs');
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(backendReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md');
-        const authoringToolReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(autorentoolIds.map(({ id }) => id), '../../../Autorentool/', 'Test', '.cs');
+        const authoringToolReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(autorentoolIds, '../../../Autorentool/', 'Test', '.cs');
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(authoringToolReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md');
-        const engineReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(engineIds.map(({ id }) => id), '../../../2D_3D_AdLer/', '', '.test.ts');
+        const engineReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(engineIds, '../../../2D_3D_AdLer/', '', '.test.ts');
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(engineReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md');
-        const generatorReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(generatorIds.map(({ id }) => id), '../../../Autorentool/', 'Test', '.cs');
+        const generatorReferences = yield (0, ParseUnitTests_1.parseCsUnitTests)(generatorIds, '../../../Autorentool/', 'Test', '.cs');
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(generatorReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md');
     });
 }

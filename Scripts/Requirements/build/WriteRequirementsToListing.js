@@ -51,13 +51,12 @@ function WriteRequirementsToListing(ids, filePath) {
         const insertPosition = content.indexOf(marker) + marker.length;
         // Remove anything after the marker
         content = content.slice(0, insertPosition);
-        function generateMarkdownTable(ids) {
+        function generateMarkdownTable(requirementInfos) {
             let table = [];
-            // Add table header
-            table.push('| ID | Number of Tests | Files |');
-            table.push('| --- | --- | --- |');
+            addHeader(table);
             // Populate the table rows
-            ids.forEach((outputStructure) => {
+            requirementInfos.forEach((outputStructure) => {
+                console.log(outputStructure);
                 Object.entries(outputStructure).forEach(([idString, details]) => {
                     const numOfTests = details.length;
                     const fileNameWithLineNumber = (detail) => {
@@ -77,6 +76,10 @@ function WriteRequirementsToListing(ids, filePath) {
         yield fs.writeFile(filePath, content).then(() => {
             console.log('File written successfully');
         });
+        function addHeader(table) {
+            table.push('| ID | Number of Tests | Files |');
+            table.push('| --- | --- | --- |');
+        }
     });
 }
 exports.WriteRequirementsToListing = WriteRequirementsToListing;

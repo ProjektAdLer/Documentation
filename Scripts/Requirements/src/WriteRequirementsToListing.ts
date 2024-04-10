@@ -2,6 +2,7 @@ import * as fs from 'fs/promises';
 import * as path from 'path';
 import { OutputStructure } from './OutputStructure';
 import { IDDetail } from './ParseUnitTests';
+import { json } from 'stream/consumers';
 
 // type IDDetail = {
 //   idString: string;
@@ -24,14 +25,14 @@ export async function WriteRequirementsToListing(ids: OutputStructure[], filePat
   // Remove anything after the marker
   content = content.slice(0, insertPosition);
 
-  function generateMarkdownTable(ids: OutputStructure[]): string[] {
+  function generateMarkdownTable(requirementInfos: OutputStructure[]): string[] {
     let table: string[] = [];
-    // Add table header
-    table.push('| ID | Number of Tests | Files |');
-    table.push('| --- | --- | --- |');
+
+    addHeader(table);
 
     // Populate the table rows
-    ids.forEach((outputStructure: OutputStructure) => {
+    requirementInfos.forEach((outputStructure: OutputStructure) => {
+      // console.log(outputStructure);
       Object.entries(outputStructure).forEach(([idString, details]: [string, IDDetail[]]) => {
         const numOfTests = details.length;
         const fileNameWithLineNumber = (detail: IDDetail): string => {
@@ -54,4 +55,9 @@ export async function WriteRequirementsToListing(ids: OutputStructure[], filePat
   await fs.writeFile(filePath, content).then(() => {
     console.log('File written successfully');
   });
+
+  function addHeader(table: string[]) {
+    table.push('| ID | Number of Tests | Files |');
+    table.push('| --- | --- | --- |');
+  }
 }
