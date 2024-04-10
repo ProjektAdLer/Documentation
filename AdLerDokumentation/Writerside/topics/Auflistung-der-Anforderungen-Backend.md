@@ -3,9 +3,9 @@
 Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefügt.
 
 [//]: # (Script-Start)
-| Requirement | Number of Tests | Files |
+| Requirement with ID | Number of Tests | Files |
 | --- | --- | --- |
-| [Lernwelt hochladen (BPG1)](BPG1.md) | 1 | GetPlayerDataUseCaseTest.cs:25 |
+| [Lernwelt hochladen (BPG1)](BPG1.md) | 1 | [GetPlayerDataUseCaseTest.cs:25](https://github.com/ProjektAdLer/AdLerBackend/blob/main/AdLerBackend.Application.UnitTests/Player/GetPlayerData/GetPlayerDataUseCaseTest.cs#L25) |
 | [Spielerdaten löschen (BPG10)](BPG10.md) | 0 |  |
 | [Status aller Elemente in der Lernwelt (BPG11)](BPG11.md) | 0 |  |
 | [Lernelemente bearbeiten (BPG12)](BPG12.md) | 0 |  |
@@ -25,4 +25,4 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Nutzerdaten ausgeben (BPG6)](BPG6.md) | 0 |  |
 | [Login (BPG7)](BPG7.md) | 0 |  |
 | [Spielerdaten aktualisieren (BPG8)](BPG8.md) | 0 |  |
-| [Spielerdaten erlangen (BPG9)](BPG9.md) | 1 | GetPlayerDataUseCaseTest.cs:25 |
+| [Spielerdaten erlangen (BPG9)](BPG9.md) | 1 | [GetPlayerDataUseCaseTest.cs:25](https://github.com/ProjektAdLer/AdLerBackend/blob/main/AdLerBackend.Application.UnitTests/Player/GetPlayerData/GetPlayerDataUseCaseTest.cs#L25) |

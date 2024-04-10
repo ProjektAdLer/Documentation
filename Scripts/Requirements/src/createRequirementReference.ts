@@ -11,27 +11,32 @@ async function Main(): Promise<void> {
   const engineIds = allRequirementsInfo.filter(({ id }) => id.startsWith('E'));
 
   const backendReferences = await parseUnitTests(backendIds, '../../../AdLerBackend/', '.UnitTests', '.cs');
+
   WriteRequirementsToListing(
     backendReferences,
-    '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md'
+    '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md',
+    'AdLerBackend'
   );
 
   const authoringToolReferences = await parseUnitTests(autorentoolIds, '../../../Autorentool/', 'Test', '.cs');
   WriteRequirementsToListing(
     authoringToolReferences,
-    '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md'
+    '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md',
+    'Autorentool'
   );
 
   const engineReferences = await parseUnitTests(engineIds, '../../../2D_3D_AdLer/', '', '.test.ts');
   WriteRequirementsToListing(
     engineReferences,
-    '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md'
+    '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md',
+    '2D_3D_AdLer'
   );
 
   const generatorReferences = await parseUnitTests(generatorIds, '../../../Autorentool/', 'Test', '.cs');
   WriteRequirementsToListing(
     generatorReferences,
-    '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md'
+    '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md',
+    'Autorentool'
   );
 }
 
