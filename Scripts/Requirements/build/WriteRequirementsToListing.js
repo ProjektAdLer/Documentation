@@ -35,43 +35,36 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.WriteRequirementsToListing = void 0;
 const fs = __importStar(require("fs/promises"));
 const path = __importStar(require("path"));
-function WriteRequirementsToListing(ids, filePath) {
+// Function to write requirements and their associated unit tests to a markdown listing.
+function WriteRequirementsToListing(requirementsWithTests, filePath) {
     return __awaiter(this, void 0, void 0, function* () {
-        var content = yield fs.readFile(filePath, 'utf8');
+        let content = yield fs.readFile(filePath, 'utf8');
         const marker = '[//]: # (Script-Start)';
-        // Find the position of the marker
         const insertPosition = content.indexOf(marker) + marker.length;
-        // Remove anything after the marker
-        content = content.slice(0, insertPosition);
-        function generateMarkdownTable(requirementInfos) {
+        content = content.slice(0, insertPosition); // Remove anything after the marker
+        function generateMarkdownTable(requirementsWithTests) {
             let table = [];
             addHeader(table);
             // Populate the table rows
-            requirementInfos.forEach((outputStructure) => {
-                // console.log(outputStructure);
-                Object.entries(outputStructure).forEach(([idString, details]) => {
-                    const numOfTests = details.length;
-                    const fileNameWithLineNumber = (detail) => {
-                        const fileName = path.basename(detail.file);
-                        return `${fileName}:${detail.lineNumber}`;
-                    };
-                    const files = details.map(fileNameWithLineNumber).join(', ');
-                    table.push(`| ${idString} | ${numOfTests} | ${files} |`);
-                });
-            });
+            for (const requirementId in requirementsWithTests) {
+                const requirement = requirementsWithTests[requirementId];
+                const { id, title } = requirement.requirementInfo;
+                const tests = requirement.unitTests.length;
+                const files = requirement.unitTests.map((test) => path.basename(test.file) + `:${test.lineNumber}`).join(', ');
+                table.push(`| ${id} (${title}) | ${tests} | ${files} |`);
+            }
             return table;
         }
-        const newContent = generateMarkdownTable(ids);
+        const newContent = generateMarkdownTable(requirementsWithTests);
         // Insert the new content
-        content = content + '\n' + newContent.join('\n');
+        content += '\n' + newContent.join('\n');
         // Write the new content to the file
-        yield fs.writeFile(filePath, content).then(() => {
-            console.log('File written successfully');
-        });
-        function addHeader(table) {
-            table.push('| ID | Number of Tests | Files |');
-            table.push('| --- | --- | --- |');
-        }
+        yield fs.writeFile(filePath, content);
+        console.log('File written successfully');
     });
 }
 exports.WriteRequirementsToListing = WriteRequirementsToListing;
+function addHeader(table) {
+    table.push('| Requirement ID (Title) | Number of Tests | Files |');
+    table.push('| --- | --- | --- |');
+}

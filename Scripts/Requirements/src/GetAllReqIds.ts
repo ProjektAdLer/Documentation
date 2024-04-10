@@ -1,6 +1,7 @@
 import fs from 'fs/promises';
+import { RequirementInfo } from './OutputStructure';
 
-export async function GetAllReqIds(): Promise<{ id: string; header: string }[]> {
+export async function GetAllReqIds(): Promise<RequirementInfo[]> {
   try {
     const files: string[] = await fs.readdir('../../AdLerDokumentation/Writerside/topics');
 
@@ -10,9 +11,9 @@ export async function GetAllReqIds(): Promise<{ id: string; header: string }[]> 
     const idsWithHeaders = await Promise.all(
       filteredFiles.map(async (file: string) => {
         const content = await fs.readFile(`../../AdLerDokumentation/Writerside/topics/${file}`, 'utf8');
-        const header = content.split('\n')[0]; // Assumes the first line is the header
+        const title = getTitle(content);
         const id = file.split('.')[0];
-        return { id, header };
+        return { id, title };
       })
     );
 
@@ -20,5 +21,13 @@ export async function GetAllReqIds(): Promise<{ id: string; header: string }[]> 
   } catch (err) {
     console.error('Error reading the directory:', err);
     return []; // Return an empty array in case of error
+  }
+
+  function getTitle(content: string) {
+    var firstLine = content.split('\n')[0];
+    if (firstLine.startsWith('# ')) {
+      return firstLine.substring(2);
+    }
+    return 'No title found';
   }
 }

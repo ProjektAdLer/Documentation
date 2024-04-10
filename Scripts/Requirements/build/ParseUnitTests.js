@@ -39,86 +39,91 @@ var __asyncValues = (this && this.__asyncValues) || function (o) {
     function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.parseCsUnitTests = void 0;
+exports.parseUnitTests = void 0;
 const fsPromises = __importStar(require("fs/promises"));
 const path = __importStar(require("path"));
 const fs_1 = require("fs");
 const readline = __importStar(require("readline"));
-// Parses  unit tests to find specific IDs within the test files, returning the structured output.
-function parseCsUnitTests(reqInfos, unitTestFolder, unitTestEnding, expectedFileExtention) {
-    return __awaiter(this, void 0, void 0, function* () {
-        const potentialTestFiles = yield findFiles(unitTestFolder, expectedFileExtention);
-        const filesWithIDs = yield Promise.all(potentialTestFiles.map((file) => searchFile(file, reqInfos)));
-        const flatResults = flattenArray(filesWithIDs);
-        // Organize results by ID.
-        const resultsByIDs = reqInfos
-            .map(({ id }) => id)
-            .map((id) => ({ [id]: flatResults.filter((result) => result.idString === id) }));
-        return resultsByIDs;
-    });
-}
-exports.parseCsUnitTests = parseCsUnitTests;
-// Searches a single file for specified  IDs, returning found search results.
-function searchFile(fileName, reqInfos) {
-    return __awaiter(this, void 0, void 0, function* () {
-        var _a, e_1, _b, _c;
-        const fileStream = (0, fs_1.createReadStream)(fileName);
-        const rl = readline.createInterface({ input: fileStream });
-        let lineNumber = 0;
-        const results = [];
-        try {
-            for (var _d = true, rl_1 = __asyncValues(rl), rl_1_1; rl_1_1 = yield rl_1.next(), _a = rl_1_1.done, !_a; _d = true) {
-                _c = rl_1_1.value;
-                _d = false;
-                const line = _c;
-                lineNumber++;
-                const matchedIds = matchIdsInLine(line, reqInfos.map(({ id }) => id));
-                matchedIds.forEach((idString) => {
-                    var _a;
-                    return results.push({
-                        idString,
-                        file: fileName,
-                        lineNumber,
-                        title: ((_a = reqInfos.find((req) => req.id === idString)) === null || _a === void 0 ? void 0 : _a.header) || '',
-                    });
-                });
-            }
-        }
-        catch (e_1_1) { e_1 = { error: e_1_1 }; }
-        finally {
-            try {
-                if (!_d && !_a && (_b = rl_1.return)) yield _b.call(rl_1);
-            }
-            finally { if (e_1) throw e_1.error; }
-        }
-        return results;
-    });
-}
-// Finds .cs files recursively in a directory.
-function findFiles(dir, expectedFileExtention) {
+// Finds potential test files in the directory and its subdirectories.
+function findPotentialTestFiles(dir, expectedFileExtension) {
     return __awaiter(this, void 0, void 0, function* () {
         const entries = yield fsPromises.readdir(dir, { withFileTypes: true });
         const files = entries.map((entry) => __awaiter(this, void 0, void 0, function* () {
             const fullPath = path.join(dir, entry.name);
             return entry.isDirectory()
-                ? findFiles(fullPath, expectedFileExtention)
-                : fullPath.endsWith(expectedFileExtention)
+                ? findPotentialTestFiles(fullPath, expectedFileExtension)
+                : fullPath.endsWith(expectedFileExtension)
                     ? fullPath
                     : [];
         }));
-        return flattenArray(yield Promise.all(files));
+        return (yield Promise.all(files)).flat();
     });
 }
-// Utility function to flatten an array.
-function flattenArray(arr) {
-    return arr.reduce((acc, val) => (Array.isArray(val) ? acc.concat(flattenArray(val)) : acc.concat(val)), []);
+// Finds files with specified IDs and records their line numbers and the IDs themselves.
+function findFilesWithIds(files) {
+    return __awaiter(this, void 0, void 0, function* () {
+        var _a, e_1, _b, _c;
+        const idRegex = /\/\/ ANF-ID: \[([A-Z0-9, ]+)\]/;
+        let filesWithIds = [];
+        for (const file of files) {
+            const fileStream = (0, fs_1.createReadStream)(file);
+            const rl = readline.createInterface({
+                input: fileStream,
+                crlfDelay: Infinity,
+            });
+            let lineNumber = 0;
+            try {
+                for (var _d = true, rl_1 = (e_1 = void 0, __asyncValues(rl)), rl_1_1; rl_1_1 = yield rl_1.next(), _a = rl_1_1.done, !_a; _d = true) {
+                    _c = rl_1_1.value;
+                    _d = false;
+                    const line = _c;
+                    lineNumber++;
+                    const match = line.match(idRegex);
+                    if (match) {
+                        // Split and trim IDs from the matched line.
+                        const ids = match[1].split(',').map((id) => id.trim());
+                        // For each ID, push a new UnitTestInfo to the array.
+                        ids.forEach((id) => {
+                            filesWithIds.push({
+                                id: id,
+                                file: file,
+                                lineNumber: lineNumber,
+                            });
+                        });
+                    }
+                }
+            }
+            catch (e_1_1) { e_1 = { error: e_1_1 }; }
+            finally {
+                try {
+                    if (!_d && !_a && (_b = rl_1.return)) yield _b.call(rl_1);
+                }
+                finally { if (e_1) throw e_1.error; }
+            }
+        }
+        return filesWithIds;
+    });
 }
-// Matches the specified  IDs within a line, considering the specific format.
-function matchIdsInLine(line, ids) {
-    const match = line.match(/\/\/ ANF-ID: \[([A-Z0-9, ]+)\]/);
-    if (match && match[1]) {
-        const idsInLine = match[1].split(',').map((id) => id.trim());
-        return ids.filter((id) => idsInLine.includes(id));
-    }
-    return [];
+// Maps the unit test information to the respective requirements.
+function mapFilesToRequirements(reqInfos, unitTestInfos) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const output = {};
+        reqInfos.forEach((req) => {
+            const tests = unitTestInfos.filter((test) => test.id === req.id);
+            if (tests.length > 0) {
+                output[req.id] = output[req.id] || { requirementInfo: req, unitTests: [] };
+                output[req.id].unitTests.push(...tests);
+            }
+        });
+        return output;
+    });
 }
+// Parses unit tests to find specific IDs within the test files, returning the structured output.
+function parseUnitTests(reqInfos, unitTestFolder, unitTestEnding, expectedFileExtension) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const potentialTestFiles = yield findPotentialTestFiles(unitTestFolder, expectedFileExtension);
+        const filesWithIds = yield findFilesWithIds(potentialTestFiles);
+        return yield mapFilesToRequirements(reqInfos, filesWithIds);
+    });
+}
+exports.parseUnitTests = parseUnitTests;
