@@ -5,6 +5,8 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 [//]: # (Script-Start)
 | Requirement with ID | Number of Tests | Files |
 | --- | --- | --- |
+| [3D-Darstellung (ASN0008)](ASN0008.md) | 0 |  |
+| [3D-Darstellung (ASN0009)](ASN0009.md) | 0 |  |
 | [Adaptivitätselement bearbeiten (AWA0010)](AWA0010.md) | 0 |  |
 | [Adaptivitätselement deplatzieren (ASN0021)](ASN0021.md) | 0 |  |
 | [Adaptivitätselement erstellen (AWA0003)](AWA0003.md) | 0 |  |
@@ -103,6 +105,8 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Link suchen (AWA0049)](AWA0049.md) | 0 |  |
 | [LMS Kurs lesen (AHO23)](AHO23.md) | 0 |  |
 | [LMS Kurs löschen (AHO24)](AHO24.md) | 0 |  |
+| [Name (ASN0006)](ASN0006.md) | 0 |  |
+| [Name (ASN0023)](ASN0023.md) | 0 |  |
 | [Optionale Eigenschaften für Adaptivitätselement (AWA9009)](AWA9009.md) | 0 |  |
 | [Optionale Eigenschaften für Aufgabe (AWA9011)](AWA9011.md) | 0 |  |
 | [Optionale Eigenschaften für Lernelement (AWA9007)](AWA9007.md) | 0 |  |
@@ -120,6 +124,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Storyelement platzieren (ASN0019)](ASN0019.md) | 0 |  |
 | [Storyelement speichern (ASN0016)](ASN0016.md) | 0 |  |
 | [Storyelement suchen (ASN0014)](ASN0014.md) | 0 |  |
+| [Storytext (ASN0007)](ASN0007.md) | 0 |  |
 | [Undo (ASN0003)](ASN0003.md) | 0 |  |
 | [Undo/Redo Anwendbarkeit (ASN0005)](ASN0005.md) | 0 |  |
 | [Unterstützte Dateiformate (AWA9018)](AWA9018.md) | 0 |  |
