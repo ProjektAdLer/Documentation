@@ -22,6 +22,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | ELG0009 | 0 |  |
 | ELG0010 | 0 |  |
 | ELG0011 | 0 |  |
+| ELG0012 | 0 |  |
 | EWE0001 | 0 |  |
 | EWE0002 | 1 | GetAdaptivityElementStatusUseCase.test.ts:148 |
 | EWE0003 | 1 | ScoreAdaptivityElementUseCase.test.ts:144 |
