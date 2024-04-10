@@ -3,7 +3,7 @@
 Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefügt.
 
 [//]: # (Script-Start)
-| Requirement | Number of Tests | Files |
+| Requirement with ID | Number of Tests | Files |
 | --- | --- | --- |
 | [Lernwelt hochladen (BPG1)](BPG1.md) | 1 | GetPlayerDataUseCaseTest.cs:25 |
 | [Spielerdaten löschen (BPG10)](BPG10.md) | 0 |  |

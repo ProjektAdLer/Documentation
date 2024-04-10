@@ -3,7 +3,7 @@
 Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefügt.
 
 [//]: # (Script-Start)
-| Requirement | Number of Tests | Files |
+| Requirement with ID | Number of Tests | Files |
 | --- | --- | --- |
 | [Pausenhinweis anzeigen (EKJ0001)](EKJ0001.md) | 0 |  |
 | [Pausenempfehlung anzeigen  (EKJ0002)](EKJ0002.md) | 0 |  |

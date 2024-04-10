@@ -3,7 +3,7 @@
 Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefügt.
 
 [//]: # (Script-Start)
-| Requirement | Number of Tests | Files |
+| Requirement with ID | Number of Tests | Files |
 | --- | --- | --- |
 | [Lernziel erstellen mit Eingabeunterstützung (AHO01)](AHO01.md) | 0 |  |
 | [Lernziel erstellen ohne Eingabeunterstützung (AHO02)](AHO02.md) | 0 |  |
