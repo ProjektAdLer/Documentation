@@ -1,18 +1,7 @@
 import * as fs from 'fs/promises';
 import * as path from 'path';
-import { OutputStructure } from './OutputStructure';
-import { IDDetail } from './ParseUnitTests';
+import { IDDetail, OutputStructure } from './OutputStructure';
 import { json } from 'stream/consumers';
-
-// type IDDetail = {
-//   idString: string;
-//   file: string;
-//   lineNumber: number;
-// };
-
-// type OutputStructure = {
-//   [idString: string]: IDDetail[];
-// };
 
 export async function WriteRequirementsToListing(ids: OutputStructure[], filePath: string): Promise<void> {
   var content: string = await fs.readFile(filePath, 'utf8');

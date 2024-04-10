@@ -35,14 +35,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.WriteRequirementsToListing = void 0;
 const fs = __importStar(require("fs/promises"));
 const path = __importStar(require("path"));
-// type IDDetail = {
-//   idString: string;
-//   file: string;
-//   lineNumber: number;
-// };
-// type OutputStructure = {
-//   [idString: string]: IDDetail[];
-// };
 function WriteRequirementsToListing(ids, filePath) {
     return __awaiter(this, void 0, void 0, function* () {
         var content = yield fs.readFile(filePath, 'utf8');
@@ -56,7 +48,7 @@ function WriteRequirementsToListing(ids, filePath) {
             addHeader(table);
             // Populate the table rows
             requirementInfos.forEach((outputStructure) => {
-                console.log(outputStructure);
+                // console.log(outputStructure);
                 Object.entries(outputStructure).forEach(([idString, details]) => {
                     const numOfTests = details.length;
                     const fileNameWithLineNumber = (detail) => {

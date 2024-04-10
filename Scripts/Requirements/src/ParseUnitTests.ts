@@ -2,15 +2,7 @@ import * as fsPromises from 'fs/promises';
 import * as path from 'path';
 import { createReadStream } from 'fs';
 import * as readline from 'readline';
-import { OutputStructure } from './OutputStructure';
-
-// Defines a type for the detail of where the ID is found.
-export type IDDetail = {
-  idString: string;
-  file: string;
-  lineNumber: number;
-  title: string;
-};
+import { IDDetail, OutputStructure } from './OutputStructure';
 
 // Parses  unit tests to find specific IDs within the test files, returning the structured output.
 export async function parseCsUnitTests(
