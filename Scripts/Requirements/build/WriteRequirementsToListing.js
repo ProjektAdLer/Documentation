@@ -65,6 +65,6 @@ function WriteRequirementsToListing(requirementsWithTests, filePath) {
 }
 exports.WriteRequirementsToListing = WriteRequirementsToListing;
 function addHeader(table) {
-    table.push('| Requirement | Number of Tests | Files |');
+    table.push('| Requirement with ID | Number of Tests | Files |');
     table.push('| --- | --- | --- |');
 }

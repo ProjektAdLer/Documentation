@@ -41,6 +41,6 @@ export async function WriteRequirementsToListing(
 }
 
 function addHeader(table: string[]) {
-  table.push('| Requirement | Number of Tests | Files |');
+  table.push('| Requirement with ID | Number of Tests | Files |');
   table.push('| --- | --- | --- |');
 }
