@@ -25,6 +25,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Hinweis anbieten (EWE0010)](EWE0010.md) | 0 |  |
 | [Internetverlust (EWE0022)](EWE0022.md) | 0 |  |
 | [Introtext anzeigen (EWE0014)](EWE0014.md) | 0 |  |
+| [Laufziel auf begehbaren Bereich begrenzen (EZZ0012)](EZZ0012.md) | 0 |  |
 | [Lernelement Bewertungszustand mit Backend synchronisieren (EZZ0011)](EZZ0011.md) | 0 |  |
 | [Lernelement laden (EZZ0008)](EZZ0008.md) | 0 |  |
 | [Lernenden ausloggen (EZZ0002)](EZZ0002.md) | 1 | [LogoutUseCase.test.ts:28](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Logout/LogoutUseCase.test.ts#L28) |
