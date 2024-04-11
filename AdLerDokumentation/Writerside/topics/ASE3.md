@@ -17,7 +17,4 @@ den Namen einer Welt zum Namen einer anderen, bereits bestehenden Welt zu änder
 
 # Aktivitätsdiagramm:
 
-![image ASE3.png](imageASE3.png)
-
-Akti überarbeiten. User initiiert atomare Aktivitäten direkt nicht nur System
-
+![Lernwelt bearbeiten Diagramm](imageASE3.png)

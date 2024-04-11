@@ -12,5 +12,4 @@ Das Autorentool muss Lehrenden die Möglichkeit bieten, eine Lernwelt zu erstell
 - Muss die Eigenschaften aus [](Lernwelt-Eigenschaften-Autorentool.md) erfüllen.
 
 # Aktivitätsdiagramm:
-
-
+![Lernwelt erstellen Aktivitätsdiagramm](imageASE1.png)
