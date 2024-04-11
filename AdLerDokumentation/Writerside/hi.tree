@@ -316,7 +316,9 @@
                     <toc-element topic="EZZ0006.md"/>
                 </toc-element>
                 <toc-element topic="UserData-Entities-FunktionaleAnforderungen-Engine.md">
-                    <toc-element topic="Avatar-FunktionaleAnforderungen-Engine.md"/>
+                    <toc-element topic="Avatar-FunktionaleAnforderungen-Engine.md">
+                        <toc-element topic="EZZ0012.md"/>
+                    </toc-element>
                     <toc-element topic="Login-Benachrichtigungen.md">
                         <toc-element topic="EZZ0005.md"/>
                         <toc-element topic="EZZ0004.md"/>
@@ -347,6 +349,11 @@
                         <toc-element topic="EKJ0005.md"/>
                         <toc-element topic="EKJ0004.md"/>
                     </toc-element>
+                    <toc-element topic="ELG0011.md"/>
+                    <toc-element topic="ELG0010.md"/>
+                    <toc-element topic="EZZ0013.md"/>
+                    <toc-element topic="ELG0009.md"/>
+                    <toc-element topic="EWE0021.md"/>
                 </toc-element>
                 <toc-element topic="Prozesse.md"/>
             </toc-element>
@@ -502,6 +509,7 @@
             <toc-element topic="Administrierende-GE.md"/>
             <toc-element topic="ATF-GE.md"/>
             <toc-element topic="Autorentool-GE.md"/>
+            <toc-element topic="Avatar-GE.md"/>
         </toc-element>
         <toc-element topic="B.md">
             <toc-element topic="Backend-GE.md"/>
@@ -545,6 +553,7 @@
             <toc-element topic="MBZ-GE.md"/>
         </toc-element>
         <toc-element topic="N.md">
+            <toc-element topic="NavMesh-GE.md"/>
             <toc-element topic="Nutzer-GE.md"/>
             <toc-element topic="Nicht-Primitives-Lernelement-GE.md"/>
             <toc-element topic="NPC-GE.md"/>
