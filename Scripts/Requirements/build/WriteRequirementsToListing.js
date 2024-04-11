@@ -82,6 +82,6 @@ function WriteRequirementsToListing(requirementsWithTests, filePath, repoName) {
 }
 exports.WriteRequirementsToListing = WriteRequirementsToListing;
 function addHeader(table) {
-    table.push('| Requirement with ID | Number of Tests | Files |');
+    table.push('| Anforderung | Nummer an Tests | Testdateien mit Zeilennummer |');
     table.push('| --- | --- | --- |');
 }
