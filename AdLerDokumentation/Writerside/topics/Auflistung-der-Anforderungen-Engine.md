@@ -25,6 +25,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Hinweis anbieten (EWE0010)](EWE0010.md) | 0 |  |
 | [Internetverlust (EWE0022)](EWE0022.md) | 0 |  |
 | [Introtext anzeigen (EWE0014)](EWE0014.md) | 0 |  |
+| [Ladebildschirm anzeigen (EWE0023)](EWE0023.md) | 0 |  |
 | [Laufziel auf begehbaren Bereich begrenzen (EZZ0012)](EZZ0012.md) | 0 |  |
 | [Lernelement Bewertungszustand mit Backend synchronisieren (EZZ0011)](EZZ0011.md) | 0 |  |
 | [Lernelement laden (EZZ0008)](EZZ0008.md) | 0 |  |
