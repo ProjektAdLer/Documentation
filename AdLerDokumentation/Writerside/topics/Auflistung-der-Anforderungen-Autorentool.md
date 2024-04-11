@@ -98,7 +98,6 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Lernziel laden (AHO07)](AHO07.md) | 0 |  |
 | [Lernziel löschen (AHO05)](AHO05.md) | 0 |  |
 | [Lernziel persistieren (AHO08)](AHO08.md) | 0 |  |
-| [Lernziel speichern (AHO06)](AHO06.md) | 0 |  |
 | [Link anzeigen (AWA0044)](AWA0044.md) | 0 |  |
 | [Link hinzufügen (AWA0042)](AWA0042.md) | 0 |  |
 | [Link löschen (AWA0043)](AWA0043.md) | 0 |  |
