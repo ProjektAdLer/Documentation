@@ -71,7 +71,8 @@ function findPotentialTestFiles(dir, testFileIdentifiers, expectedFileExtensions
 function findFilesWithIds(files) {
     return __awaiter(this, void 0, void 0, function* () {
         var _a, e_1, _b, _c;
-        const idRegex = /\/\/ ANF-ID: \[([A-Z0-9, ]+)\]/;
+        // Updated regex to allow optional spaces around 'ANF-ID' and inside the brackets
+        const idRegex = /\/\/\s*ANF-ID:\s*\[([A-Z0-9,\s]+)\]/;
         let filesWithIds = [];
         for (const file of files) {
             try {
@@ -86,9 +87,10 @@ function findFilesWithIds(files) {
                         lineNumber++;
                         const match = line.match(idRegex);
                         if (match) {
+                            // Split on comma and then trim spaces from each ID
                             const ids = match[1].split(',').map((id) => id.trim());
                             ids.forEach((id) => {
-                                filesWithIds.push({ id, file, lineNumber }); // Keep original file name here for output
+                                filesWithIds.push({ id, file, lineNumber });
                             });
                         }
                     }
