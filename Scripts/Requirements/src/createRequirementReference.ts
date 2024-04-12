@@ -13,17 +13,27 @@ async function Main(): Promise<void> {
   const authoringToolReferences = await getUnitTestsForRequirements(
     autorentoolIds,
     '../../../Autorentool/',
-    'Test',
-    '.cs'
+    ['Test'],
+    ['.cs']
   );
   const backendReferences = await getUnitTestsForRequirements(
     backendIds,
     '../../../AdLerBackend/',
-    '.UnitTests',
-    '.cs'
+    ['.UnitTest'],
+    ['.cs']
   );
-  const generatorReferences = await getUnitTestsForRequirements(generatorIds, '../../../Autorentool/', 'Test', '.cs');
-  const engineReferences = await getUnitTestsForRequirements(engineIds, '../../../2D_3D_AdLer/', '', '.test.ts');
+  const generatorReferences = await getUnitTestsForRequirements(
+    generatorIds,
+    '../../../Autorentool/',
+    ['Test'],
+    ['.cs']
+  );
+  const engineReferences = await getUnitTestsForRequirements(
+    engineIds,
+    '../../../2D_3D_AdLer/',
+    ['test'],
+    ['.test.ts', '.test.tsx']
+  );
 
   WriteRequirementsToListing(
     backendReferences,

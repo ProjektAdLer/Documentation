@@ -44,17 +44,19 @@ const fsPromises = __importStar(require("fs/promises"));
 const path = __importStar(require("path"));
 const fs_1 = require("fs");
 const readline = __importStar(require("readline"));
-// Finds potential test files in the directory and its subdirectories.
-function findPotentialTestFiles(dir, expectedFileExtension) {
+// Finds potential test files in the directory and its subdirectories that match any of the identifiers or extensions.
+function findPotentialTestFiles(dir, testFileIdentifiers, expectedFileExtensions) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const entries = yield fsPromises.readdir(dir, { withFileTypes: true });
             const files = yield Promise.all(entries.map((entry) => {
                 const fullPath = path.join(dir, entry.name);
+                const fullPathLower = fullPath.toLowerCase(); // Use a lowercased version for matching
                 return entry.isDirectory()
-                    ? findPotentialTestFiles(fullPath, expectedFileExtension)
-                    : fullPath.endsWith(expectedFileExtension)
-                        ? [fullPath]
+                    ? findPotentialTestFiles(fullPath, testFileIdentifiers, expectedFileExtensions)
+                    : testFileIdentifiers.some((id) => fullPathLower.includes(id.toLowerCase())) &&
+                        expectedFileExtensions.some((ext) => fullPathLower.endsWith(ext.toLowerCase()))
+                        ? [fullPath] // Use the original fullPath in output
                         : [];
             }));
             return files.flat();
@@ -86,7 +88,7 @@ function findFilesWithIds(files) {
                         if (match) {
                             const ids = match[1].split(',').map((id) => id.trim());
                             ids.forEach((id) => {
-                                filesWithIds.push({ id, file, lineNumber });
+                                filesWithIds.push({ id, file, lineNumber }); // Keep original file name here for output
                             });
                         }
                     }
@@ -118,9 +120,9 @@ function mapFilesToRequirements(reqInfos, unitTestInfos) {
     });
 }
 // Parses unit tests to find specific IDs within the test files, returning the structured output.
-function parseUnitTests(reqInfos, unitTestFolder, expectedFileExtension) {
+function parseUnitTests(reqInfos, unitTestFolder, testFileIdentifiers, expectedFileExtensions) {
     return __awaiter(this, void 0, void 0, function* () {
-        const potentialTestFiles = yield findPotentialTestFiles(unitTestFolder, expectedFileExtension);
+        const potentialTestFiles = yield findPotentialTestFiles(unitTestFolder, testFileIdentifiers, expectedFileExtensions);
         const filesWithIds = yield findFilesWithIds(potentialTestFiles);
         return mapFilesToRequirements(reqInfos, filesWithIds);
     });

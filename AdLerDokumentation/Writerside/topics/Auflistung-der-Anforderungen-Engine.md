@@ -12,19 +12,19 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Adaptivitätselement-Antworten prüfen (EWE0005)](EWE0005.md) | 2 | [SubmitAdaptivityElementSelectionUseCase.test.ts:91](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/SubmitAdaptivityElementSelectionUseCase/SubmitAdaptivityElementSelectionUseCase.test.ts#L91)<br>[SubmitAdaptivityElementSelectionUseCase.test.ts:124](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/SubmitAdaptivityElementSelectionUseCase/SubmitAdaptivityElementSelectionUseCase.test.ts#L124) |
 | [Adaptivitätselement-Status laden (EWE0002)](EWE0002.md) | 1 | [GetAdaptivityElementStatusUseCase.test.ts:148](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/GetAdaptivityElementStatusUseCase/GetAdaptivityElementStatusUseCase.test.ts#L148) |
 | [Anmeldestatus prüfen (EWE0021)](EWE0021.md) | 0 |  |
-| [Aufgaben anzeigen (EWE0011)](EWE0011.md) | 0 |  |
+| [Aufgaben anzeigen (EWE0011)](EWE0011.md) | 1 | [AdaptivityElementTaskSelection.test.tsx:94](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementTaskSelection.test.tsx#L94) |
 | [Aufgabenabschluss anzeigen (EWE0017)](EWE0017.md) | 0 |  |
 | [Brotkrumennavigation anzeigen (EWE0020)](EWE0020.md) | 1 | [AdaptivityElementPresenter.test.ts:57](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/AdaptivityElementPresenter.test.ts#L57) |
 | [Bug-Report erstellen (ELG0015)](ELG0015.md) | 0 |  |
 | [Erfolgreicher Login (EZZ0003)](EZZ0003.md) | 1 | [LoginUseCase.test.ts:100](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Login/LoginUseCase.test.ts#L100) |
 | [Fehlgeschlagener Login (EZZ0005)](EZZ0005.md) | 1 | [LoginUseCase.test.ts:113](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Login/LoginUseCase.test.ts#L113) |
 | [Fortschritt anzeigen (EWE0018)](EWE0018.md) | 0 |  |
-| [Fragen anzeigen (EWE0012)](EWE0012.md) | 1 | [AdaptivityElementPresenter.test.ts:236](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/AdaptivityElementPresenter.test.ts#L236) |
+| [Fragen anzeigen (EWE0012)](EWE0012.md) | 2 | [AdaptivityElementPresenter.test.ts:236](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/AdaptivityElementPresenter.test.ts#L236)<br>[AdaptivityElementQuestionSelection.test.tsx:7](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementQuestionSelection.test.tsx#L7) |
 | [Fragen empfehlen (EWE0016)](EWE0016.md) | 0 |  |
 | [Hilfe (ELG0012)](ELG0012.md) | 0 |  |
-| [Hinweis anbieten (EWE0010)](EWE0010.md) | 0 |  |
-| [Internetverlust (EWE0022)](EWE0022.md) | 0 |  |
-| [Introtext anzeigen (EWE0014)](EWE0014.md) | 0 |  |
+| [Hinweis anbieten (EWE0010)](EWE0010.md) | 1 | [AdaptivityElementQuestionSelection.test.tsx:143](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementQuestionSelection.test.tsx#L143) |
+| [Internetverlust (EWE0022)](EWE0022.md) | 1 | [InternetLossModal.test.tsx:25](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/React/GeneralComponents/InternetLossModal/InternetLossModal.test.tsx#L25) |
+| [Introtext anzeigen (EWE0014)](EWE0014.md) | 1 | [AdaptivityElementDialogContainer.test.tsx:48](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementDialogContainer.test.tsx#L48) |
 | [Ladebildschirm anzeigen (EWE0023)](EWE0023.md) | 0 |  |
 | [Laufziel auf begehbaren Bereich begrenzen (EZZ0012)](EZZ0012.md) | 0 |  |
 | [Lernelement Bewertungszustand mit Backend synchronisieren (EZZ0011)](EZZ0011.md) | 0 |  |
@@ -44,7 +44,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Lernweltverfügbarkeit prüfen (ELG0010)](ELG0010.md) | 0 |  |
 | [Log-Export erstellen (ELG0013)](ELG0013.md) | 0 |  |
 | [Modelbild anzeigen (EWE0015)](EWE0015.md) | 0 |  |
-| [Multiple-Response Frage bearbeiten (EWE0009)](EWE0009.md) | 0 |  |
+| [Multiple-Response Frage bearbeiten (EWE0009)](EWE0009.md) | 2 | [AdaptivityElementAnswerSelection.test.tsx:34](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementAnswerSelection.test.tsx#L34)<br>[AdaptivityElementAnswerSelection.test.tsx:66](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementAnswerSelection.test.tsx#L66) |
 | [Nicht-primitives Lernelement werten (EZZ0010)](EZZ0010.md) | 0 |  |
 | [Nutzerdoku auffinden (ELG0014)](ELG0014.md) | 0 |  |
 | [Pausenempfehlung anzeigen  (EKJ0002)](EKJ0002.md) | 0 |  |
@@ -54,9 +54,9 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Pausenhinweis anzeigen (EKJ0001)](EKJ0001.md) | 0 |  |
 | [Pausenhinweis schließen (EKJ0005)](EKJ0005.md) | 0 |  |
 | [Primitives Lernelement werten (EZZ0009)](EZZ0009.md) | 0 |  |
-| [Single-Response Fragen bearbeiten (EWE0008)](EWE0008.md) | 0 |  |
+| [Single-Response Fragen bearbeiten (EWE0008)](EWE0008.md) | 3 | [AdaptivityElementAnswerSelection.test.tsx:34](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementAnswerSelection.test.tsx#L34)<br>[AdaptivityElementAnswerSelection.test.tsx:66](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementAnswerSelection.test.tsx#L66)<br>[AdaptivityElementAnswerSelection.test.tsx:99](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementAnswerSelection.test.tsx#L99) |
 | [Storyelement Laden (EZZ0006)](EZZ0006.md) | 0 |  |
 | [Symbollegende anzeigen (EWE0019)](EWE0019.md) | 0 |  |
-| [Text als Hinweis anzeigen (EWE0004)](EWE0004.md) | 0 |  |
+| [Text als Hinweis anzeigen (EWE0004)](EWE0004.md) | 1 | [AdaptivityElementHint.test.tsx:7](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementHint.test.tsx#L7) |
 | [unzugängliches Lernelement als Hinweis anzeigen (EWE0007)](EWE0007.md) | 1 | [DisplayLearningElementUseCase.test.ts:200](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/DisplayLearningElementUseCase/DisplayLearningElementUseCase.test.ts#L200) |
 | [zugängliches Lernelement als Hinweis anzeigen (EWE0006)](EWE0006.md) | 1 | [DisplayLearningElementUseCase.test.ts:170](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/DisplayLearningElementUseCase/DisplayLearningElementUseCase.test.ts#L170) |
