@@ -45,14 +45,16 @@ function generateMarkdownTable(requirementsWithTests, repoName) {
     sortedRequirements.forEach((requirement) => {
         const { id, title } = requirement.requirementInfo;
         const tests = requirement.unitTests.length;
-        const files = requirement.unitTests.map((test) => formatFileLink(test, repoName)).join('<br>');
-        table.push(`| [${title} (${id})](${id}.md) | ${tests} | ${files} |`);
+        const testCountDisplay = tests === 0 ? `<span style="color: red;">${tests}</span>` : `${tests}`;
+        const files = requirement.unitTests.map((test) => formatFileLink(test, repoName)).join('<br/>');
+        const filesDisplay = tests === 0 ? `<span style="color: red;">(noch) keine Tests vorhanden</span>` : files;
+        table.push(`| [${title} (${id})](${id}.md) | ${testCountDisplay} | ${filesDisplay} |`);
     });
     return table.join('\n');
 }
 // Adds the header row to the markdown table.
 function addTableHeader(table) {
-    table.push('| Requirement with ID | Number of Tests | Files |');
+    table.push('| Requirement | Anzahl an Tests | Dateien |');
     table.push('| --- | --- | --- |');
 }
 // Formats the link to a file for inclusion in the markdown.
@@ -62,7 +64,6 @@ function formatFileLink(test, repoName) {
     const repoPath = `https://github.com/ProjektAdLer/${repoName}/blob/main/${filePath}#L${test.lineNumber}`;
     return `[${path.basename(test.file)}:${test.lineNumber}](${repoPath})`;
 }
-// Main function to write requirements and their associated unit tests to a markdown listing.
 function writeRequirementsToListing(requirementsWithTests, filePath, repoName) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
