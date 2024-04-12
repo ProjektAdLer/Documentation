@@ -23,10 +23,10 @@ function Main() {
         const backendReferences = yield (0, ParseUnitTests_1.parseUnitTests)(backendIds, '../../../AdLerBackend/', ['.UnitTest'], ['.cs']);
         const generatorReferences = yield (0, ParseUnitTests_1.parseUnitTests)(generatorIds, '../../../Autorentool/', ['Test'], ['.cs']);
         const engineReferences = yield (0, ParseUnitTests_1.parseUnitTests)(engineIds, '../../../2D_3D_AdLer/', ['test'], ['.test.ts', '.test.tsx']);
-        (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(backendReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md', 'AdLerBackend');
-        (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(authoringToolReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md', 'Autorentool');
-        (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(engineReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md', '2D_3D_AdLer');
-        (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(generatorReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md', 'Autorentool');
+        (0, WriteRequirementsToListing_1.writeRequirementsToListing)(backendReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md', 'AdLerBackend');
+        (0, WriteRequirementsToListing_1.writeRequirementsToListing)(authoringToolReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md', 'Autorentool');
+        (0, WriteRequirementsToListing_1.writeRequirementsToListing)(engineReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md', '2D_3D_AdLer');
+        (0, WriteRequirementsToListing_1.writeRequirementsToListing)(generatorReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md', 'Autorentool');
     });
 }
 Main();

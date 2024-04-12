@@ -32,56 +32,52 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.WriteRequirementsToListing = void 0;
+exports.writeRequirementsToListing = void 0;
 const fs = __importStar(require("fs/promises"));
 const path = __importStar(require("path"));
-// Function to write requirements and their associated unit tests to a markdown listing.
-function WriteRequirementsToListing(requirementsWithTests, filePath, repoName) {
-    return __awaiter(this, void 0, void 0, function* () {
-        let content = yield fs.readFile(filePath, 'utf8');
-        const marker = '[//]: # (Script-Start)';
-        const insertPosition = content.indexOf(marker) + marker.length;
-        content = content.slice(0, insertPosition); // Remove anything after the marker
-        function generateMarkdownTable(requirementsWithTests) {
-            let table = [];
-            addHeader(table);
-            // Convert to array and sort by requirement title
-            const sortedRequirements = Object.values(requirementsWithTests).sort((a, b) => {
-                return a.requirementInfo.title.localeCompare(b.requirementInfo.title);
-            });
-            // Populate the table rows based on the sorted array
-            for (const requirement of sortedRequirements) {
-                const { id, title } = requirement.requirementInfo;
-                const tests = requirement.unitTests.length;
-                // join with line break
-                const files = requirement.unitTests.map((test) => getFileName(test)).join('<br>');
-                table.push(`| [${title} (${id})](${id}.md) | ${tests} | ${files} |`);
-            }
-            return table;
-        }
-        function getFileName(test) {
-            // Remove everything before the repo name
-            var filePath = test.file.substring(test.file.indexOf(repoName));
-            var repopath = filePath
-                .replace(repoName, 'https://github.com/ProjektAdLer/' + repoName + '/blob/main')
-                // Replace all backslashes with forward slashes
-                .replace(/\\/g, '/');
-            return `[${path.basename(test.file)}:${test.lineNumber}](${repopath}#L${test.lineNumber})`;
-        }
-        function addHeader(table) {
-            table.push('| Requirement with ID | Number of Tests | Files |');
-            table.push('| --- | --- | --- |');
-        }
-        const newContent = generateMarkdownTable(requirementsWithTests);
-        // Insert the new content
-        content += '\n' + newContent.join('\n');
-        // Write the new content to the file
-        yield fs.writeFile(filePath, content);
-        console.log('File written successfully');
+// Function to generate the markdown table for requirements with tests.
+function generateMarkdownTable(requirementsWithTests, repoName) {
+    let table = [];
+    addTableHeader(table);
+    // Convert to array and sort by requirement title
+    const sortedRequirements = Object.values(requirementsWithTests).sort((a, b) => a.requirementInfo.title.localeCompare(b.requirementInfo.title));
+    // Populate the table rows based on the sorted array
+    sortedRequirements.forEach((requirement) => {
+        const { id, title } = requirement.requirementInfo;
+        const tests = requirement.unitTests.length;
+        const files = requirement.unitTests.map((test) => formatFileLink(test, repoName)).join('<br>');
+        table.push(`| [${title} (${id})](${id}.md) | ${tests} | ${files} |`);
     });
+    return table.join('\n');
 }
-exports.WriteRequirementsToListing = WriteRequirementsToListing;
-function addHeader(table) {
-    table.push('| Anforderung | Nummer an Tests | Testdateien mit Zeilennummer |');
+// Adds the header row to the markdown table.
+function addTableHeader(table) {
+    table.push('| Requirement with ID | Number of Tests | Files |');
     table.push('| --- | --- | --- |');
 }
+// Formats the link to a file for inclusion in the markdown.
+function formatFileLink(test, repoName) {
+    // remove repo name and the backslashes from the file path
+    const filePath = test.file.substring(test.file.indexOf(repoName) + repoName.length + 1).replace(/\\/g, '/');
+    const repoPath = `https://github.com/ProjektAdLer/${repoName}/blob/main/${filePath}#L${test.lineNumber}`;
+    return `[${path.basename(test.file)}:${test.lineNumber}](${repoPath})`;
+}
+// Main function to write requirements and their associated unit tests to a markdown listing.
+function writeRequirementsToListing(requirementsWithTests, filePath, repoName) {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            let content = yield fs.readFile(filePath, 'utf8');
+            const marker = '[//]: # (Script-Start)';
+            const insertPosition = content.indexOf(marker) + marker.length;
+            content = content.slice(0, insertPosition); // Retain content before marker
+            const markdownTable = generateMarkdownTable(requirementsWithTests, repoName);
+            content += '\n' + markdownTable;
+            yield fs.writeFile(filePath, content);
+            console.log('File written successfully');
+        }
+        catch (error) {
+            console.error('Error writing requirements to file:', error);
+        }
+    });
+}
+exports.writeRequirementsToListing = writeRequirementsToListing;

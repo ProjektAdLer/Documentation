@@ -1,6 +1,6 @@
 import { GetAllReqInfos } from './GetAllRequirements';
 import { parseUnitTests as getUnitTestsForRequirements } from './ParseUnitTests';
-import { WriteRequirementsToListing } from './WriteRequirementsToListing';
+import { writeRequirementsToListing } from './WriteRequirementsToListing';
 
 async function Main(): Promise<void> {
   const allRequirementsInfos = await GetAllReqInfos();
@@ -35,25 +35,25 @@ async function Main(): Promise<void> {
     ['.test.ts', '.test.tsx']
   );
 
-  WriteRequirementsToListing(
+  writeRequirementsToListing(
     backendReferences,
     '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md',
     'AdLerBackend'
   );
 
-  WriteRequirementsToListing(
+  writeRequirementsToListing(
     authoringToolReferences,
     '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md',
     'Autorentool'
   );
 
-  WriteRequirementsToListing(
+  writeRequirementsToListing(
     engineReferences,
     '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md',
     '2D_3D_AdLer'
   );
 
-  WriteRequirementsToListing(
+  writeRequirementsToListing(
     generatorReferences,
     '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md',
     'Autorentool'
