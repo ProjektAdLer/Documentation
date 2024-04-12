@@ -17,6 +17,11 @@ const promises_1 = __importDefault(require("fs/promises"));
 const TOPICS_DIRECTORY = '../../AdLerDokumentation/Writerside/topics';
 const FILENAME_REGEX = /^[a-zA-Z]{3}.*\d\.md$/;
 const MARKDOWN_TITLE_PREFIX = '# ';
+/**
+ * Reads all Markdown files from a specific directory, filters them by a regex pattern,
+ * and extracts IDs and titles from each.
+ * @returns A Promise resolving to an array of RequirementInfo objects.
+ */
 function GetAllReqInfos() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
@@ -25,7 +30,6 @@ function GetAllReqInfos() {
             return yield Promise.all(filteredFiles.map(readFileAndExtractInfo));
         }
         catch (err) {
-            // Type-safe error handling
             if (err instanceof Error) {
                 throw new Error(`Error reading the directory: ${err.message}`);
             }
@@ -36,6 +40,11 @@ function GetAllReqInfos() {
     });
 }
 exports.GetAllReqInfos = GetAllReqInfos;
+/**
+ * Reads the content of a file, extracts the title based on Markdown syntax, and constructs a RequirementInfo.
+ * @param file The file name of the Markdown document.
+ * @returns A Promise resolving to a RequirementInfo object.
+ */
 function readFileAndExtractInfo(file) {
     return __awaiter(this, void 0, void 0, function* () {
         const content = yield promises_1.default.readFile(`${TOPICS_DIRECTORY}/${file}`, 'utf8');
@@ -44,6 +53,11 @@ function readFileAndExtractInfo(file) {
         return { id, title };
     });
 }
+/**
+ * Extracts the title from Markdown content.
+ * @param content Markdown file content as a string.
+ * @returns The title as a string.
+ */
 function extractTitle(content) {
     const firstLine = content.split('\n')[0];
     if (firstLine.startsWith(MARKDOWN_TITLE_PREFIX)) {

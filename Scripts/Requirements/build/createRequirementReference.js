@@ -9,12 +9,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const GetAllReqIds_1 = require("./GetAllReqIds");
+const GetAllRequirements_1 = require("./GetAllRequirements");
 const ParseUnitTests_1 = require("./ParseUnitTests");
 const WriteRequirementsToListing_1 = require("./WriteRequirementsToListing");
 function Main() {
     return __awaiter(this, void 0, void 0, function* () {
-        const allRequirementsInfo = yield (0, GetAllReqIds_1.GetAllReqIds)();
+        const allRequirementsInfo = yield (0, GetAllRequirements_1.GetAllReqInfos)();
         const autorentoolIds = allRequirementsInfo.filter(({ id }) => id.startsWith('A'));
         const backendIds = allRequirementsInfo.filter(({ id }) => id.startsWith('B'));
         const generatorIds = allRequirementsInfo.filter(({ id }) => id.startsWith('G'));

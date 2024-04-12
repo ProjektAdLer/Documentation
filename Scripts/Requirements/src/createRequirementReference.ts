@@ -1,4 +1,4 @@
-import { GetAllReqIds as GetAllReqInfos } from './GetAllReqIds';
+import { GetAllReqInfos } from './GetAllRequirements';
 import { parseUnitTests } from './ParseUnitTests';
 import { WriteRequirementsToListing } from './WriteRequirementsToListing';
 
