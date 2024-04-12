@@ -25,7 +25,7 @@ function generateMarkdownTable(requirementsWithTests: OutputStructure, repoName:
 
 // Adds the header row to the markdown table.
 function addTableHeader(table: string[]): void {
-  table.push('| Requirement with ID | Number of Tests | Files |');
+  table.push('| Requirement | Anzahl an Tests | Dateien |');
   table.push('| --- | --- | --- |');
 }
 
@@ -37,7 +37,6 @@ function formatFileLink(test: UnitTestInfos, repoName: string): string {
   return `[${path.basename(test.file)}:${test.lineNumber}](${repoPath})`;
 }
 
-// Main function to write requirements and their associated unit tests to a markdown listing.
 export async function writeRequirementsToListing(
   requirementsWithTests: OutputStructure,
   filePath: string,
