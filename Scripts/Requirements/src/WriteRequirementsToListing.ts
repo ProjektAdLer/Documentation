@@ -16,7 +16,7 @@ function generateMarkdownTable(requirementsWithTests: OutputStructure, repoName:
   sortedRequirements.forEach((requirement) => {
     const { id, title } = requirement.requirementInfo;
     const tests = requirement.unitTests.length;
-    const files = requirement.unitTests.map((test) => formatFileLink(test, repoName)).join('<br>');
+    const files = requirement.unitTests.map((test) => formatFileLink(test, repoName)).join('<br/>');
     table.push(`| [${title} (${id})](${id}.md) | ${tests} | ${files} |`);
   });
 
