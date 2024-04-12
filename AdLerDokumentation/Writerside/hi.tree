@@ -328,7 +328,6 @@
                 </toc-element>
                 <toc-element topic="Applikationsspezifische-Anforderungen-Engine.md">
                     <toc-element topic="EWE0022.md"/>
-                    <toc-element topic="Ladebildschirm.md"/>
                     <toc-element topic="ELG0012.md">
                         <toc-element topic="ELG0015.md"/>
                         <toc-element topic="ELG0014.md"/>

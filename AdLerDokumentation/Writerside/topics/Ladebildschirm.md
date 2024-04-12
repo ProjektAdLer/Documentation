@@ -1,3 +1,0 @@
-# Ladebildschirm
-
-Start typing here...
