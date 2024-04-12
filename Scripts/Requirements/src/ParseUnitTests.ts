@@ -2,21 +2,27 @@ import * as fsPromises from 'fs/promises';
 import * as path from 'path';
 import { createReadStream } from 'fs';
 import * as readline from 'readline';
-import { OutputStructure, RequirementInfo, UnitTestInfos } from './OutputStructure';
+import { OutputStructure, RequirementInfo, UnitTestInfos } from './Types';
 
 // Finds potential test files in the directory and its subdirectories.
 async function findPotentialTestFiles(dir: string, expectedFileExtension: string): Promise<string[]> {
-  const entries = await fsPromises.readdir(dir, { withFileTypes: true });
-  const files = entries.map(async (entry) => {
-    const fullPath = path.join(dir, entry.name);
-    return entry.isDirectory()
-      ? findPotentialTestFiles(fullPath, expectedFileExtension)
-      : fullPath.endsWith(expectedFileExtension)
-      ? fullPath
-      : [];
-  });
-
-  return (await Promise.all(files)).flat();
+  try {
+    const entries = await fsPromises.readdir(dir, { withFileTypes: true });
+    const files = await Promise.all(
+      entries.map((entry) => {
+        const fullPath = path.join(dir, entry.name);
+        return entry.isDirectory()
+          ? findPotentialTestFiles(fullPath, expectedFileExtension)
+          : fullPath.endsWith(expectedFileExtension)
+          ? [fullPath]
+          : [];
+      })
+    );
+    return files.flat();
+  } catch (error) {
+    console.error('Error reading directory:', error);
+    throw error;
+  }
 }
 
 // Finds files with specified IDs and records their line numbers and the IDs themselves.
@@ -25,31 +31,26 @@ async function findFilesWithIds(files: string[]): Promise<UnitTestInfos[]> {
   let filesWithIds: UnitTestInfos[] = [];
 
   for (const file of files) {
-    const fileStream = createReadStream(file);
-    const rl = readline.createInterface({
-      input: fileStream,
-      crlfDelay: Infinity,
-    });
+    try {
+      const fileStream = createReadStream(file);
+      const rl = readline.createInterface({ input: fileStream, crlfDelay: Infinity });
+      let lineNumber = 0;
 
-    let lineNumber = 0;
-    for await (const line of rl) {
-      lineNumber++;
-      const match = line.match(idRegex);
-      if (match) {
-        // Split and trim IDs from the matched line.
-        const ids = match[1].split(',').map((id) => id.trim());
-        // For each ID, push a new UnitTestInfo to the array.
-        ids.forEach((id) => {
-          filesWithIds.push({
-            id: id,
-            file: file,
-            lineNumber: lineNumber,
+      for await (const line of rl) {
+        lineNumber++;
+        const match = line.match(idRegex);
+        if (match) {
+          const ids = match[1].split(',').map((id) => id.trim());
+          ids.forEach((id) => {
+            filesWithIds.push({ id, file, lineNumber });
           });
-        });
+        }
       }
+    } catch (error) {
+      console.error('Error processing file:', file, error);
+      throw error;
     }
   }
-
   return filesWithIds;
 }
 
@@ -61,11 +62,7 @@ async function mapFilesToRequirements(
 
   reqInfos.forEach((req) => {
     const tests = unitTestInfos.filter((test) => test.id === req.id);
-    // Ensure every requirement is added to the output, even if it has no associated tests.
-    output[req.id] = {
-      requirementInfo: req,
-      unitTests: tests,
-    };
+    output[req.id] = { requirementInfo: req, unitTests: tests };
   });
 
   return output;
@@ -75,10 +72,10 @@ async function mapFilesToRequirements(
 export async function parseUnitTests(
   reqInfos: RequirementInfo[],
   unitTestFolder: string,
-  unitTestEnding: string,
+  testFileIdentifier: string,
   expectedFileExtension: string
 ): Promise<OutputStructure> {
   const potentialTestFiles = await findPotentialTestFiles(unitTestFolder, expectedFileExtension);
   const filesWithIds = await findFilesWithIds(potentialTestFiles);
-  return await mapFilesToRequirements(reqInfos, filesWithIds);
+  return mapFilesToRequirements(reqInfos, filesWithIds);
 }

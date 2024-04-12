@@ -47,16 +47,22 @@ const readline = __importStar(require("readline"));
 // Finds potential test files in the directory and its subdirectories.
 function findPotentialTestFiles(dir, expectedFileExtension) {
     return __awaiter(this, void 0, void 0, function* () {
-        const entries = yield fsPromises.readdir(dir, { withFileTypes: true });
-        const files = entries.map((entry) => __awaiter(this, void 0, void 0, function* () {
-            const fullPath = path.join(dir, entry.name);
-            return entry.isDirectory()
-                ? findPotentialTestFiles(fullPath, expectedFileExtension)
-                : fullPath.endsWith(expectedFileExtension)
-                    ? fullPath
-                    : [];
-        }));
-        return (yield Promise.all(files)).flat();
+        try {
+            const entries = yield fsPromises.readdir(dir, { withFileTypes: true });
+            const files = yield Promise.all(entries.map((entry) => {
+                const fullPath = path.join(dir, entry.name);
+                return entry.isDirectory()
+                    ? findPotentialTestFiles(fullPath, expectedFileExtension)
+                    : fullPath.endsWith(expectedFileExtension)
+                        ? [fullPath]
+                        : [];
+            }));
+            return files.flat();
+        }
+        catch (error) {
+            console.error('Error reading directory:', error);
+            throw error;
+        }
     });
 }
 // Finds files with specified IDs and records their line numbers and the IDs themselves.
@@ -66,39 +72,36 @@ function findFilesWithIds(files) {
         const idRegex = /\/\/ ANF-ID: \[([A-Z0-9, ]+)\]/;
         let filesWithIds = [];
         for (const file of files) {
-            const fileStream = (0, fs_1.createReadStream)(file);
-            const rl = readline.createInterface({
-                input: fileStream,
-                crlfDelay: Infinity,
-            });
-            let lineNumber = 0;
             try {
-                for (var _d = true, rl_1 = (e_1 = void 0, __asyncValues(rl)), rl_1_1; rl_1_1 = yield rl_1.next(), _a = rl_1_1.done, !_a; _d = true) {
-                    _c = rl_1_1.value;
-                    _d = false;
-                    const line = _c;
-                    lineNumber++;
-                    const match = line.match(idRegex);
-                    if (match) {
-                        // Split and trim IDs from the matched line.
-                        const ids = match[1].split(',').map((id) => id.trim());
-                        // For each ID, push a new UnitTestInfo to the array.
-                        ids.forEach((id) => {
-                            filesWithIds.push({
-                                id: id,
-                                file: file,
-                                lineNumber: lineNumber,
+                const fileStream = (0, fs_1.createReadStream)(file);
+                const rl = readline.createInterface({ input: fileStream, crlfDelay: Infinity });
+                let lineNumber = 0;
+                try {
+                    for (var _d = true, rl_1 = (e_1 = void 0, __asyncValues(rl)), rl_1_1; rl_1_1 = yield rl_1.next(), _a = rl_1_1.done, !_a; _d = true) {
+                        _c = rl_1_1.value;
+                        _d = false;
+                        const line = _c;
+                        lineNumber++;
+                        const match = line.match(idRegex);
+                        if (match) {
+                            const ids = match[1].split(',').map((id) => id.trim());
+                            ids.forEach((id) => {
+                                filesWithIds.push({ id, file, lineNumber });
                             });
-                        });
+                        }
                     }
                 }
-            }
-            catch (e_1_1) { e_1 = { error: e_1_1 }; }
-            finally {
-                try {
-                    if (!_d && !_a && (_b = rl_1.return)) yield _b.call(rl_1);
+                catch (e_1_1) { e_1 = { error: e_1_1 }; }
+                finally {
+                    try {
+                        if (!_d && !_a && (_b = rl_1.return)) yield _b.call(rl_1);
+                    }
+                    finally { if (e_1) throw e_1.error; }
                 }
-                finally { if (e_1) throw e_1.error; }
+            }
+            catch (error) {
+                console.error('Error processing file:', file, error);
+                throw error;
             }
         }
         return filesWithIds;
@@ -109,21 +112,17 @@ function mapFilesToRequirements(reqInfos, unitTestInfos) {
         const output = {};
         reqInfos.forEach((req) => {
             const tests = unitTestInfos.filter((test) => test.id === req.id);
-            // Ensure every requirement is added to the output, even if it has no associated tests.
-            output[req.id] = {
-                requirementInfo: req,
-                unitTests: tests,
-            };
+            output[req.id] = { requirementInfo: req, unitTests: tests };
         });
         return output;
     });
 }
 // Parses unit tests to find specific IDs within the test files, returning the structured output.
-function parseUnitTests(reqInfos, unitTestFolder, unitTestEnding, expectedFileExtension) {
+function parseUnitTests(reqInfos, unitTestFolder, expectedFileExtension) {
     return __awaiter(this, void 0, void 0, function* () {
         const potentialTestFiles = yield findPotentialTestFiles(unitTestFolder, expectedFileExtension);
         const filesWithIds = yield findFilesWithIds(potentialTestFiles);
-        return yield mapFilesToRequirements(reqInfos, filesWithIds);
+        return mapFilesToRequirements(reqInfos, filesWithIds);
     });
 }
 exports.parseUnitTests = parseUnitTests;

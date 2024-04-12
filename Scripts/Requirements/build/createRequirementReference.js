@@ -14,18 +14,18 @@ const ParseUnitTests_1 = require("./ParseUnitTests");
 const WriteRequirementsToListing_1 = require("./WriteRequirementsToListing");
 function Main() {
     return __awaiter(this, void 0, void 0, function* () {
-        const allRequirementsInfo = yield (0, GetAllRequirements_1.GetAllReqInfos)();
-        const autorentoolIds = allRequirementsInfo.filter(({ id }) => id.startsWith('A'));
-        const backendIds = allRequirementsInfo.filter(({ id }) => id.startsWith('B'));
-        const generatorIds = allRequirementsInfo.filter(({ id }) => id.startsWith('G'));
-        const engineIds = allRequirementsInfo.filter(({ id }) => id.startsWith('E'));
-        const backendReferences = yield (0, ParseUnitTests_1.parseUnitTests)(backendIds, '../../../AdLerBackend/', '.UnitTests', '.cs');
+        const allRequirementsInfos = yield (0, GetAllRequirements_1.GetAllReqInfos)();
+        const autorentoolIds = allRequirementsInfos.filter(({ id }) => id.startsWith('A'));
+        const backendIds = allRequirementsInfos.filter(({ id }) => id.startsWith('B'));
+        const generatorIds = allRequirementsInfos.filter(({ id }) => id.startsWith('G'));
+        const engineIds = allRequirementsInfos.filter(({ id }) => id.startsWith('E'));
+        const authoringToolReferences = yield (0, ParseUnitTests_1.parseUnitTests)(autorentoolIds, '../../../Autorentool/', '.cs');
+        const backendReferences = yield (0, ParseUnitTests_1.parseUnitTests)(backendIds, '../../../AdLerBackend/', '.cs');
+        const generatorReferences = yield (0, ParseUnitTests_1.parseUnitTests)(generatorIds, '../../../Autorentool/', '.cs');
+        const engineReferences = yield (0, ParseUnitTests_1.parseUnitTests)(engineIds, '../../../2D_3D_AdLer/', '.test.ts');
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(backendReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md', 'AdLerBackend');
-        const authoringToolReferences = yield (0, ParseUnitTests_1.parseUnitTests)(autorentoolIds, '../../../Autorentool/', 'Test', '.cs');
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(authoringToolReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md', 'Autorentool');
-        const engineReferences = yield (0, ParseUnitTests_1.parseUnitTests)(engineIds, '../../../2D_3D_AdLer/', '', '.test.ts');
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(engineReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md', '2D_3D_AdLer');
-        const generatorReferences = yield (0, ParseUnitTests_1.parseUnitTests)(generatorIds, '../../../Autorentool/', 'Test', '.cs');
         (0, WriteRequirementsToListing_1.WriteRequirementsToListing)(generatorReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md', 'Autorentool');
     });
 }

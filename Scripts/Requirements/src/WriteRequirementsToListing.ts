@@ -1,6 +1,6 @@
 import * as fs from 'fs/promises';
 import * as path from 'path';
-import { OutputStructure, RequirementInfo, RequirementWithTests, UnitTestInfos } from './OutputStructure';
+import { OutputStructure, RequirementInfo, RequirementWithTests, UnitTestInfos } from './Types';
 
 // Function to write requirements and their associated unit tests to a markdown listing.
 export async function WriteRequirementsToListing(

@@ -1,5 +1,5 @@
 import fs from 'fs/promises';
-import { RequirementInfo } from './OutputStructure';
+import { RequirementInfo } from './Types';
 
 const TOPICS_DIRECTORY = '../../AdLerDokumentation/Writerside/topics';
 const FILENAME_REGEX = /^[a-zA-Z]{3}.*\d\.md$/;
