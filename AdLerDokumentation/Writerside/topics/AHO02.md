@@ -11,4 +11,5 @@ Das Autorentool muss Lehrenden die Möglichkeit bieten, ein Lernziel für einen 
 
 ## Aktivitätsdiagramm:
 
+![imageAktivitätsdiagrammLernzielErstellenOhneEingabeunterstützung](imageAktivitätsdiagrammLernzielErstellenOhneEingabeunterstützung.png)
 

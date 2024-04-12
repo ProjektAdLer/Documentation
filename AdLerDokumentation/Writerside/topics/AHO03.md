@@ -13,3 +13,5 @@ Das Autorentool muss Lehrenden die Möglichkeit bieten, ein zuvor mit Eingabeunt
 - Zu jeder Eingabe des Nutzers wird die Vorschau des zu generierenden Lernziels in formulierter Form aktualisiert.
 
 ## Aktivitätsdiagramm:
+
+![imageAktivitätsdiagrammLernzielEditierenMitEingabeunterstützung](imageAktivitätsdiagrammLernzielEditierenMitEingabeunterstützung.png)
