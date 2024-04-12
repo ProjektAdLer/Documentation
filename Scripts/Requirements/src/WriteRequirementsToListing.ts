@@ -16,9 +16,9 @@ function generateMarkdownTable(requirementsWithTests: OutputStructure, repoName:
   sortedRequirements.forEach((requirement) => {
     const { id, title } = requirement.requirementInfo;
     const tests = requirement.unitTests.length;
-    const testCountDisplay = tests === 0 ? `<span style="color: red;">${tests}</span>` : `${tests}`;
+    const testCountDisplay = tests === 0 ? `**${tests}**` : `${tests}`;
     const files = requirement.unitTests.map((test) => formatFileLink(test, repoName)).join('<br/>');
-    const filesDisplay = tests === 0 ? `<span style="color: red;">(noch) keine Tests vorhanden</span>` : files;
+    const filesDisplay = tests === 0 ? `-` : files;
     table.push(`| [${title} (${id})](${id}.md) | ${testCountDisplay} | ${filesDisplay} |`);
   });
 
