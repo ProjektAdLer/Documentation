@@ -1,3 +1,0 @@
-# Übergreifendes
-
-Start typing here...
