@@ -442,7 +442,6 @@
             <toc-element topic="ManualAuthoringAutorentool.topic">
                 <toc-element topic="ManualAuthoringFeatures-auf-einen-Blick.topic"/>
                 <toc-element topic="ManualAuthoringSoftwarekomponenten.topic">
-                    <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeile.topic"/>
                     <toc-element topic="ManualAuthoringSoftwarekomponentenStartseite.topic"/>
                     <toc-element topic="ManualAuthoringSoftwarekomponentenArbeitsfläche.topic">
                         <toc-element topic="ManualAuthoringSoftwarekomponentenLinke-Sidebar.topic">
@@ -472,9 +471,9 @@
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflächeRechteSidebarHierarchischeÜbersicht.topic"/>
                         </toc-element>
                     </toc-element>
+                    <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeile.topic"/>
                 </toc-element>
                 <toc-element topic="ManualAuthoringBedienung.topic">
-                    <toc-element topic="ManualAuthoringBedienungKopfzeile.topic"/>
                     <toc-element topic="ManualAuthoringBedienungStartseite.topic">
                         <toc-element topic="ManualAuthoringBedienungStartseiteLernwelt-erstellen.topic"/>
                     </toc-element>
@@ -485,6 +484,7 @@
                     <toc-element topic="ManualAuthoringBedienungArbeitsfläche-Rechte-Sidebar.topic">
                         <toc-element topic="ManualAuthoringBedienungRechteSidebarLernräume-verbinden.topic"/>
                     </toc-element>
+                    <toc-element topic="ManualAuthoringBedienungKopfzeile.topic"/>
                 </toc-element>
             </toc-element>
             <toc-element topic="Nutzung-AdLer-BD.md"/>
