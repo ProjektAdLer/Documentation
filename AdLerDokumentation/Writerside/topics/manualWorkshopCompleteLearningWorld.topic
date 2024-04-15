@@ -225,7 +225,7 @@
                 <step>
                     <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
                     <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern. </p>
-                    <img src="imageManualWorkshopLearningSpaceCreated.png" alt="Leerer, neu erstellter Lernraum" width="200" thumbnail="true" />
+                    <img src="imageManualWorkshopOpenedLearningSpaceAbschluss.png" alt="Leerer, neu erstellter Lernraum" width="200" thumbnail="true" />
                 </step>
                 <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
                 <note>
@@ -237,7 +237,44 @@
             </procedure>
             <procedure title="Erstellen eines Storyelements" id="erstellenEinesStoryElements">
                 <step>
-
+                    <img src="imageManualWorkshopAddStoryElementHighlightedButton.png" alt="Hervorgehobener Storyelement Slot im Lernraum Editor" width="200" thumbnail="true" />
+                    <p>Klicken Sie auf den Slot, welcher sich im <control>Lernraum-Editor</control> auf der linken Seite befindet.</p>
+                    <tip>Die Position des zu klickenden Slots, ist im beigefügten Bild dieses Handlungsschritts zu sehen.</tip>
+                </step>
+                <step>
+                    <p>Füllen Sie im nun geöffneten Reiter <control>Storyelement erstellen</control> die Zeile Name, wie in der Ausfüllhilfe angegeben, aus.</p>
+                    <img src="imageManualWorkshopCreateStoryElementFormHighlighted.png" alt="Hervorgehobener Bereich Storyelement erstellen" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Klicken Sie nun auf den <control>Plus-Button</control> im Bereich <control>Story</control> und tragen in die geöffnete Textbox den Story-Text, wie in der Ausfüllhilfe angegeben, ein</p>
+                    <img src="imageManualWorkshopAddStoryHighlightedButton.png" alt="Hervorgehobener Plus-Button zum Erstellen eines Story-Textes" width="200" thumbnail="true" />
+                    <note>Eine Textbox zum Eintragen des Story-Textes öffnet sich, anstelle des <control>Plus-Buttons</control>.</note>
+                </step>
+                <step>
+                    <note>In der Ausfüllhilfe wird der Text, welcher in einzelne Slides kopiert werden soll, mit einem Strich getrennt in der Zelle dargestellt. Kopieren Sie pro Slide also nur den jeweiligen Teil des Zellentexts.</note>
+                    <p>Wiederholen Sie den vorherigen Schritt nun mit den restlichen in der Ausfüllhilfe angegebenen Slides.</p>
+                </step>
+                <step>
+                    <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den <control>OK-Button</control> im unteren Bereich des Formulars.</p>
+                    <img src="imageManualWorkshopCreateStoryElementOkButtonHighlighted.png" alt="Hervorgehobener OK-Button, im Storyelement erstellen Bereich" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern. </p>
+                    <img src="imageManualWorkshopStoryElementAdded.png" alt="Ungespeicherte Änderungen nach Erstellen eines Storyelements" width="200" thumbnail="true" />
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich ein Storyelement in Ihren Raum eingefügt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+            <procedure title="Erstellen eines weiteren Lernelements" id="erstellenEinesWeiterenLernElements">
+                <step>
+                    <p>Erstellen Sie das fehlende Lernelement im Raum Abschluss, wie in der Aufüllhilfe angegeben.</p>
+                    <tip>Gehen Sie bei der Erstellung des Lernelements, wie im Kapitel <a href="#erstellenVonDreiLernelementen">"Erstellen von drei Lernelementen"</a> vor.</tip>
                 </step>
             </procedure>
         </chapter>
