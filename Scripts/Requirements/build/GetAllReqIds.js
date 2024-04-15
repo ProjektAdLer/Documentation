@@ -1,27 +1,4 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    var desc = Object.getOwnPropertyDescriptor(m, k);
-    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
-    }
-    Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -31,26 +8,46 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.GetAllReqIds = void 0;
-const fs = __importStar(require("fs/promises"));
-function GetAllReqIds() {
+exports.GetAllReqInfos = void 0;
+const promises_1 = __importDefault(require("fs/promises"));
+const TOPICS_DIRECTORY = '../../AdLerDokumentation/Writerside/topics';
+const FILENAME_REGEX = /^[a-zA-Z]{3}.*\d\.md$/;
+const MARKDOWN_TITLE_PREFIX = '# ';
+function GetAllReqInfos() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const files = yield fs.readdir('../../AdLerDokumentation/Writerside/topics');
-            // Filter the files based on the regular expression
-            const filteredFiles = files.filter((file) => {
-                return /^[a-zA-Z]{3}.*\d\.md$/.test(file);
-            });
-            const ids = filteredFiles.map((file) => {
-                return file.split('.')[0];
-            });
-            return ids;
+            const files = yield promises_1.default.readdir(TOPICS_DIRECTORY);
+            const filteredFiles = files.filter((file) => FILENAME_REGEX.test(file));
+            return yield Promise.all(filteredFiles.map(readFileAndExtractInfo));
         }
         catch (err) {
-            console.error('Error reading the directory:', err);
-            return []; // Return an empty array in case of error
+            // Type-safe error handling
+            if (err instanceof Error) {
+                throw new Error(`Error reading the directory: ${err.message}`);
+            }
+            else {
+                throw new Error('An unexpected error occurred');
+            }
         }
     });
 }
-exports.GetAllReqIds = GetAllReqIds;
+exports.GetAllReqInfos = GetAllReqInfos;
+function readFileAndExtractInfo(file) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const content = yield promises_1.default.readFile(`${TOPICS_DIRECTORY}/${file}`, 'utf8');
+        const title = extractTitle(content);
+        const id = file.split('.')[0];
+        return { id, title };
+    });
+}
+function extractTitle(content) {
+    const firstLine = content.split('\n')[0];
+    if (firstLine.startsWith(MARKDOWN_TITLE_PREFIX)) {
+        return firstLine.substring(MARKDOWN_TITLE_PREFIX.length);
+    }
+    return 'No title found';
+}

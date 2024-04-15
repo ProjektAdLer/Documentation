@@ -39,77 +39,94 @@ var __asyncValues = (this && this.__asyncValues) || function (o) {
     function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.parseCsUnitTests = void 0;
+exports.parseUnitTests = void 0;
 const fsPromises = __importStar(require("fs/promises"));
 const path = __importStar(require("path"));
 const fs_1 = require("fs");
 const readline = __importStar(require("readline"));
-// Parses  unit tests to find specific IDs within the test files, returning the structured output.
-function parseCsUnitTests(reqIds, unitTestFolder, unitTestEnding, expectedFileExtention) {
+// Finds potential test files in the directory and its subdirectories that match any of the identifiers or extensions.
+function findPotentialTestFiles(dir, testFileIdentifiers, expectedFileExtensions) {
     return __awaiter(this, void 0, void 0, function* () {
-        const potentialTestFiles = yield findFiles(unitTestFolder, expectedFileExtention);
-        // Search each file for the IDs and collect results.
-        const searchResults = yield Promise.all(potentialTestFiles.map((file) => searchFile(file, reqIds)));
-        const flatResults = flattenArray(searchResults);
-        // Organize results by ID.
-        const resultsByIDs = reqIds.map((id) => ({ [id]: flatResults.filter((result) => result.idString === id) }));
-        return resultsByIDs;
+        try {
+            const entries = yield fsPromises.readdir(dir, { withFileTypes: true });
+            const files = yield Promise.all(entries.map((entry) => {
+                const fullPath = path.join(dir, entry.name);
+                const fullPathLower = fullPath.toLowerCase(); // Use a lowercased version for matching
+                return entry.isDirectory()
+                    ? findPotentialTestFiles(fullPath, testFileIdentifiers, expectedFileExtensions)
+                    : testFileIdentifiers.some((id) => fullPathLower.includes(id.toLowerCase())) &&
+                        expectedFileExtensions.some((ext) => fullPathLower.endsWith(ext.toLowerCase()))
+                        ? [fullPath] // Use the original fullPath in output
+                        : [];
+            }));
+            return files.flat();
+        }
+        catch (error) {
+            console.error('Error reading directory:', error);
+            throw error;
+        }
     });
 }
-exports.parseCsUnitTests = parseCsUnitTests;
-// Searches a single file for specified  IDs, returning found search results.
-function searchFile(fileName, ids) {
+// Finds files with specified IDs and records their line numbers and the IDs themselves.
+function findFilesWithIds(files) {
     return __awaiter(this, void 0, void 0, function* () {
         var _a, e_1, _b, _c;
-        const fileStream = (0, fs_1.createReadStream)(fileName);
-        const rl = readline.createInterface({ input: fileStream });
-        let lineNumber = 0;
-        const results = [];
-        try {
-            for (var _d = true, rl_1 = __asyncValues(rl), rl_1_1; rl_1_1 = yield rl_1.next(), _a = rl_1_1.done, !_a; _d = true) {
-                _c = rl_1_1.value;
-                _d = false;
-                const line = _c;
-                lineNumber++;
-                const matchedIds = matchIdsInLine(line, ids);
-                matchedIds.forEach((idString) => results.push({ idString, file: fileName, lineNumber }));
-            }
-        }
-        catch (e_1_1) { e_1 = { error: e_1_1 }; }
-        finally {
+        // Updated regex to allow optional spaces around 'ANF-ID' and inside the brackets
+        const idRegex = /\/\/\s*ANF-ID:\s*\[([A-Z0-9,\s]+)\]/;
+        let filesWithIds = [];
+        for (const file of files) {
             try {
-                if (!_d && !_a && (_b = rl_1.return)) yield _b.call(rl_1);
+                const fileStream = (0, fs_1.createReadStream)(file);
+                const rl = readline.createInterface({ input: fileStream, crlfDelay: Infinity });
+                let lineNumber = 0;
+                try {
+                    for (var _d = true, rl_1 = (e_1 = void 0, __asyncValues(rl)), rl_1_1; rl_1_1 = yield rl_1.next(), _a = rl_1_1.done, !_a; _d = true) {
+                        _c = rl_1_1.value;
+                        _d = false;
+                        const line = _c;
+                        lineNumber++;
+                        const match = line.match(idRegex);
+                        if (match) {
+                            // Split on comma and then trim spaces from each ID
+                            const ids = match[1].split(',').map((id) => id.trim());
+                            ids.forEach((id) => {
+                                filesWithIds.push({ id, file, lineNumber });
+                            });
+                        }
+                    }
+                }
+                catch (e_1_1) { e_1 = { error: e_1_1 }; }
+                finally {
+                    try {
+                        if (!_d && !_a && (_b = rl_1.return)) yield _b.call(rl_1);
+                    }
+                    finally { if (e_1) throw e_1.error; }
+                }
             }
-            finally { if (e_1) throw e_1.error; }
+            catch (error) {
+                console.error('Error processing file:', file, error);
+                throw error;
+            }
         }
-        return results;
+        return filesWithIds;
     });
 }
-// Finds .cs files recursively in a directory.
-function findFiles(dir, expectedFileExtention) {
+function mapFilesToRequirements(reqInfos, unitTestInfos) {
     return __awaiter(this, void 0, void 0, function* () {
-        const entries = yield fsPromises.readdir(dir, { withFileTypes: true });
-        const files = entries.map((entry) => __awaiter(this, void 0, void 0, function* () {
-            const fullPath = path.join(dir, entry.name);
-            return entry.isDirectory()
-                ? findFiles(fullPath, expectedFileExtention)
-                : fullPath.endsWith(expectedFileExtention)
-                    ? fullPath
-                    : [];
-        }));
-        return flattenArray(yield Promise.all(files));
+        const output = {};
+        reqInfos.forEach((req) => {
+            const tests = unitTestInfos.filter((test) => test.id === req.id);
+            output[req.id] = { requirementInfo: req, unitTests: tests };
+        });
+        return output;
     });
 }
-// Utility function to flatten an array.
-function flattenArray(arr) {
-    return arr.reduce((acc, val) => (Array.isArray(val) ? acc.concat(flattenArray(val)) : acc.concat(val)), []);
+// Parses unit tests to find specific IDs within the test files, returning the structured output.
+function parseUnitTests(reqInfos, unitTestFolder, testFileIdentifiers, expectedFileExtensions) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const potentialTestFiles = yield findPotentialTestFiles(unitTestFolder, testFileIdentifiers, expectedFileExtensions);
+        const filesWithIds = yield findFilesWithIds(potentialTestFiles);
+        return mapFilesToRequirements(reqInfos, filesWithIds);
+    });
 }
-// Matches the specified  IDs within a line, considering the specific format.
-function matchIdsInLine(line, ids) {
-    const match = line.match(/\/\/ ANF-ID: \[([A-Z0-9, ]+)\]/);
-    if (match && match[1]) {
-        const idsInLine = match[1].split(',').map((id) => id.trim());
-        return ids.filter((id) => idsInLine.includes(id));
-    }
-    return [];
-}
+exports.parseUnitTests = parseUnitTests;

@@ -14,6 +14,5 @@ aus dem Autorentool (also aus dem Hauptspeicher) entladen und die Lernweltdatei 
 unwiderruflich gelöscht.
 
 # Aktivitätsdiagramm:
-TODO: Aktivitätsdiagramm komplett neu machen, passt nicht mehr zum aktuellen Stand
 ![imageASE4.png](imageASE4.png)
 

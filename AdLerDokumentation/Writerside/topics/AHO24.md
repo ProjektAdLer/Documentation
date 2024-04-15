@@ -12,4 +12,4 @@ bieten, eine zuvor hochgeladene Lernwelt zu löschen.
 
 ## Aktivitätsdiagramm:
 
-
+![imageAktivitätsdiagrammLMSKursLöschen](imageAktivitätsdiagrammLMSKursLöschen.png)

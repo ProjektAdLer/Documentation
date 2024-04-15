@@ -16,6 +16,14 @@
         <toc-element topic="Autorentool-BG.md">
             <toc-element topic="Auflistung-der-Anforderungen-Autorentool.md"/>
             <toc-element topic="Funktionale-Anforderungen-Autorentool.md">
+                <toc-element topic="Lernpfad-Bedingungen-Autorentool.md">
+                    <toc-element topic="AHO66.md"/>
+                    <toc-element topic="AHO65.md"/>
+                    <toc-element topic="AHO64.md"/>
+                    <toc-element topic="AHO63.md"/>
+                    <toc-element topic="AHO62.md"/>
+                    <toc-element topic="AHO61.md"/>
+                </toc-element>
                 <toc-element topic="Autorentool-FunktionalAnforderungen-UndoundRedo.md">
                     <toc-element topic="ASN0005.md"/>
                     <toc-element topic="ASN0004.md"/>
@@ -31,14 +39,24 @@
                         <toc-element topic="ASN0014.md"/>
                         <toc-element topic="ASN0016.md"/>
                     </toc-element>
-                    <toc-element topic="ASN0010.md"/>
+                    <toc-element topic="ASN0010.md">
+                        <toc-element topic="Autorentool-Storyelement-ErforderlicheEigenschaften.md">
+                            <toc-element topic="ASN0006.md"/>
+                            <toc-element topic="ASN0007.md"/>
+                        </toc-element>
+                        <toc-element topic="Autorentool-Storyelement-OptionaleEigenschaften.md">
+                            <toc-element topic="ASN0008.md"/>
+                        </toc-element>
+                    </toc-element>
                 </toc-element>
                 <toc-element topic="LMS-Autorentool.md">
+                    <toc-element topic="AHO25.md"/>
                     <toc-element topic="AHO24.md"/>
                     <toc-element topic="AHO23.md"/>
                     <toc-element topic="AHO21.md"/>
                 </toc-element>
                 <toc-element topic="Lernpfad-Autorentool.md">
+                    <toc-element topic="AHO16.md"/>
                     <toc-element topic="AHO15.md"/>
                     <toc-element topic="AHO14.md"/>
                     <toc-element topic="AHO13.md"/>
@@ -48,8 +66,10 @@
                     <toc-element topic="Lernraum-Eigenschaften-Autorentool.md">
                         <toc-element topic="AWA9013.md">
                             <toc-element topic="AWA9005.md"/>
+                            <toc-element topic="AWA9019.md"/>
                         </toc-element>
                         <toc-element topic="AWA9014.md">
+                            <toc-element topic="AWA9020.md"/>
                         </toc-element>
                     </toc-element>
                     <toc-element topic="Lernraum-Prozesse-Autorentool.md">
@@ -72,7 +92,8 @@
                         <toc-element topic="AWA0022.md"/>
                     </toc-element>
                     <toc-element topic="Lernraum-Lernziel-Autorentool.md">
-                        <toc-element topic="AHO06.md"/>
+                        <toc-element topic="AHO08.md"/>
+                        <toc-element topic="AHO07.md"/>
                         <toc-element topic="AHO05.md"/>
                         <toc-element topic="Lernraum-Lernziel-Bearbeiten-Autorentool.md">
                             <toc-element topic="AHO04.md"/>
@@ -90,12 +111,15 @@
                     </toc-element>
                     <toc-element topic="Externes-Lernmaterial-Prozesse-Autorentool.md">
                         <toc-element topic="AHO51.md"/>
-                        <toc-element topic="AWA0042.md"/>
-                        <toc-element topic="AWA0043.md"/>
-                        <toc-element topic="AWA0044.md"/>
                         <toc-element topic="AWA0038.md"/>
                         <toc-element topic="AWA0037.md"/>
                         <toc-element topic="AWA0036.md"/>
+                        <toc-element topic="AWA0047.md"/>
+                        <toc-element topic="AWA0048.md"/>
+                        <toc-element topic="AWA0042.md"/>
+                        <toc-element topic="AWA0043.md"/>
+                        <toc-element topic="AWA0044.md"/>
+                        <toc-element topic="AWA0049.md"/>
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Lernelement-Autorentool.md">
@@ -103,19 +127,25 @@
                         <toc-element topic="AWA9006.md">
                             <toc-element topic="AWA9001.md"/>
                         </toc-element>
-                        <toc-element topic="AWA9007.md"/>
+                        <toc-element topic="AWA9007.md">
+                            <toc-element topic="ASN0009.md"/>
+                        </toc-element>
                     </toc-element>
                     <toc-element topic="Lernelement-Prozesse-Autorentool.md">
                         <toc-element topic="AHO42.md"/>
                         <toc-element topic="AWA0002.md"/>
                         <toc-element topic="AWA0015.md"/>
+                        <toc-element topic="AWA0046.md"/>
+                        <toc-element topic="AWA0045.md"/>
                         <toc-element topic="AWA0016.md"/>
                         <toc-element topic="AWA0017.md"/>
                         <toc-element topic="AWA0018.md"/>
                     </toc-element>
                     <toc-element topic="Adaptivitätselement-Autorentool.md">
                         <toc-element topic="Adaptivitätselement-Eigenschaften-Autorentool.md">
-                            <toc-element topic="AWA9008.md"/>
+                            <toc-element topic="AWA9008.md">
+                                <toc-element topic="AWA9021.md"/>
+                            </toc-element>
                             <toc-element topic="AWA9009.md"/>
                         </toc-element>
                         <toc-element topic="Adaptivitätselement-Prozesse-Autorentool.md">
@@ -195,7 +225,12 @@
                         <toc-element topic="ASN0001.md"/>
                         <toc-element topic="ASN0002.md"/>
                     </toc-element>
-                    <toc-element topic="Lernwelt-Eigenschaften-Autorentool.md"/>
+                    <toc-element topic="Lernwelt-Eigenschaften-Autorentool.md">
+                        <toc-element topic="Autorentool-Lernwelt-OptionaleEigenschaften.md"/>
+                        <toc-element topic="Autorentool-Lernwelt-ErforderlicheEigenschaften.md">
+                            <toc-element topic="ASN0023.md"/>
+                        </toc-element>
+                    </toc-element>
                 </toc-element>
             </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Autorentool.md">
@@ -275,13 +310,14 @@
                     </toc-element>
                     <toc-element topic="EZZ0011.md"/>
                     <toc-element topic="EZZ0008.md"/>
-                    <toc-element topic="ELG0001.md"/>
                 </toc-element>
                 <toc-element topic="Storyelement-Entities-FunktionaleAnforderungen-Engine.md">
                     <toc-element topic="EZZ0006.md"/>
                 </toc-element>
                 <toc-element topic="UserData-Entities-FunktionaleAnforderungen-Engine.md">
-                    <toc-element topic="Avatar-FunktionaleAnforderungen-Engine.md"/>
+                    <toc-element topic="Avatar-FunktionaleAnforderungen-Engine.md">
+                        <toc-element topic="EZZ0012.md"/>
+                    </toc-element>
                     <toc-element topic="Login-Benachrichtigungen.md">
                         <toc-element topic="EZZ0005.md"/>
                         <toc-element topic="EZZ0004.md"/>
@@ -291,6 +327,12 @@
                     <toc-element topic="EZZ0002.md"/>
                 </toc-element>
                 <toc-element topic="Applikationsspezifische-Anforderungen-Engine.md">
+                    <toc-element topic="EWE0022.md"/>
+                    <toc-element topic="ELG0012.md">
+                        <toc-element topic="ELG0015.md"/>
+                        <toc-element topic="ELG0014.md"/>
+                        <toc-element topic="ELG0013.md"/>
+                    </toc-element>
                     <toc-element topic="Pausenhinweise.md">
                         <toc-element topic="EKJ0001.md"/>
                         <toc-element topic="EKJ0002.md"/>
@@ -298,14 +340,21 @@
                         <toc-element topic="EKJ0005.md"/>
                         <toc-element topic="EKJ0004.md"/>
                     </toc-element>
+                    <toc-element topic="EWE0023.md"/>
+                    <toc-element topic="ELG0011.md"/>
+                    <toc-element topic="ELG0010.md"/>
+                    <toc-element topic="EZZ0013.md"/>
+                    <toc-element topic="ELG0009.md"/>
+                    <toc-element topic="EWE0021.md"/>
                 </toc-element>
                 <toc-element topic="Prozesse.md"/>
             </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Engine.md">
                 <toc-element topic="Technologische-Anforderungen-Engine.md">
-                    <toc-element topic="Babylon-js-Engine.md"/>
-                    <toc-element topic="React-Engine.md"/>
                     <toc-element topic="Schnittstelle-ATF-Engine.md"/>
+                    <toc-element topic="React-Engine.md"/>
+                    <toc-element topic="Babylon-js-Engine.md"/>
+                    <toc-element topic="glTF-3D-Format.md"/>
                     <toc-element topic="Unterstützte-Geräte-Engine.md"/>
                 </toc-element>
                 <toc-element topic="Qualitaetsanforderungen-Engine.md">
@@ -317,6 +366,7 @@
                     <toc-element topic="Styleguide-3D-Engine.md"/>
                 </toc-element>
                 <toc-element topic="Rechtlich-Vertragliche-Anforderungen-Engine.md">
+                    <toc-element topic="Datenschutz-Engine.md"/>
                     <toc-element topic="Projektantrag-AdLer-Engine.md"/>
                 </toc-element>
                 <toc-element topic="Sonstige-Lieferbestandteile-Engine.md">
@@ -334,6 +384,23 @@
         <toc-element topic="Backend-BG.md">
             <toc-element topic="Auflistung-der-Anforderungen-Backend.md"/>
             <toc-element topic="Funktionale-Anforderungen-Backend.md">
+                <toc-element topic="H5P.md">
+                    <toc-element topic="BPG21.md"/>
+                    <toc-element topic="BPG20.md"/>
+                </toc-element>
+                <toc-element topic="LMS.topic">
+                    <toc-element topic="BPG19.md"/>
+                    <toc-element topic="BPG18.md"/>
+                </toc-element>
+                <toc-element topic="AdaptivitätselementB.md">
+                    <toc-element topic="BPG15.md"/>
+                    <toc-element topic="BPG14.md"/>
+                </toc-element>
+                <toc-element topic="LernelementeB.md">
+                    <toc-element topic="BPG17.md"/>
+                    <toc-element topic="BPG16.md"/>
+                    <toc-element topic="BPG13.md"/>
+                </toc-element>
                 <toc-element topic="BPGLernende.md">
                     <toc-element topic="BPG10.md"/>
                     <toc-element topic="BPG9.md"/>
@@ -345,6 +412,7 @@
                 </toc-element>
                 <toc-element topic="Lernwelt-Backend.md" >
                     <toc-element topic="Lernende.md">
+                        <toc-element topic="BPG11.md"/>
                         <toc-element topic="BPG5.md"/>
                     </toc-element>
                     <toc-element topic="Lehrende.md">
@@ -371,6 +439,54 @@
         </toc-element>
         <toc-element topic="Benutzerdokumentation.md">
             <toc-element topic="Lehrende-BD.md">
+            <toc-element topic="ManualAuthoringAutorentool.topic">
+                <toc-element topic="ManualAuthoringFeatures-auf-einen-Blick.topic"/>
+                <toc-element topic="ManualAuthoringSoftwarekomponenten.topic">
+                    <toc-element topic="ManualAuthoringSoftwarekomponentenStartseite.topic"/>
+                    <toc-element topic="ManualAuthoringSoftwarekomponentenArbeitsfläche.topic">
+                        <toc-element topic="ManualAuthoringSoftwarekomponentenLinke-Sidebar.topic">
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeLinkeSidebarLernweltBearbeiten.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeLinkeSidebarAngabenZuLernräumen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeLinkeSidebarAngabenZuStoryelementen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeLinkeSidebarAngabenZuLernelementen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeLinkeSidebarAngabenZuAdaptivitätselementen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeLinkeSidebarExternesLernmaterial.topic"/>
+                        </toc-element>
+                        <toc-element topic="ManualAuthoringSoftwarekomponentenMittleres-Fenster.topic">
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeMittleresFensterLernraumEditor.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeMittleresFensterUnplatzierteElemente.topic"/>
+                        </toc-element>
+                        <toc-element topic="ManualAuthoringSoftwarekomponentenRechte-Sidebar.topic">
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeRechteSidebarVerbindungenZwischenLernräumen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflächeRechteSidebarHierarchischeÜbersicht.topic"/>
+                        </toc-element>
+                    </toc-element>
+                    <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeile.topic"/>
+                </toc-element>
+                <toc-element topic="ManualAuthoringBedienung.topic">
+                    <toc-element topic="ManualAuthoringBedienungStartseite.topic">
+                        <toc-element topic="ManualAuthoringBedienungStartseiteLernwelt-erstellen.topic"/>
+                    </toc-element>
+                    <toc-element topic="ManualAuthoringBedienungArbeitsfläche-Linke-Sidebar.topic">
+                        <toc-element topic="ManualAuthoringBedienungLinkeSidebarLernwelt-bearbeiten.topic"/>
+                    </toc-element>
+                    <toc-element topic="ManualAuthoringBedienungArbeitsfläche-Mittleres-Fenster.topic"/>
+                    <toc-element topic="ManualAuthoringBedienungArbeitsfläche-Rechte-Sidebar.topic">
+                        <toc-element topic="ManualAuthoringBedienungRechteSidebarLernräume-verbinden.topic"/>
+                    </toc-element>
+                    <toc-element topic="ManualAuthoringBedienungKopfzeile.topic"/>
+                </toc-element>
+            </toc-element>
             <toc-element topic="Nutzung-AdLer-BD.md"/>
             <toc-element topic="Handreichung-Didaktik-BD.md"/>
         </toc-element>
@@ -400,10 +516,7 @@
                     <toc-element topic="ManualEngine-Lernraum-wechseln.topic"/>
                     <toc-element topic="ManualEngine-Avatar-steuern.topic"/>
                     <toc-element topic="ManualEngine-Interaktive-Inhalte-öffnen.topic"/>
-                    <toc-element topic="Text-Lernelemente-betrachten.topic"/>
-                    <toc-element topic="ManualEngine-PDF-Lernelemente-betrachten.topic"/>
-                    <toc-element topic="ManualEngine-Bild-Lernelemente-betrachten.topic"/>
-                    <toc-element topic="ManualEngine-Video-Lernelemente-betrachten.topic"/>
+                    <toc-element topic="ManualEngine-Einfache-Lernelemente-abschließen.topic"/>
                     <toc-element topic="ManualEngine-H5P-Lernelemente-abschließen.topic"/>
                     <toc-element topic="ManualEngine-Adaptivitätselement-bedienen.topic"/>
                     <toc-element topic="ManualEngine-Story-Elemente-bedienen.topic"/>
@@ -441,6 +554,7 @@
             <toc-element topic="Administrierende-GE.md"/>
             <toc-element topic="ATF-GE.md"/>
             <toc-element topic="Autorentool-GE.md"/>
+            <toc-element topic="Avatar-GE.md"/>
         </toc-element>
         <toc-element topic="B.md">
             <toc-element topic="Backend-GE.md"/>
@@ -484,6 +598,7 @@
             <toc-element topic="MBZ-GE.md"/>
         </toc-element>
         <toc-element topic="N.md">
+            <toc-element topic="NavMesh-GE.md"/>
             <toc-element topic="Nutzer-GE.md"/>
             <toc-element topic="Nicht-Primitives-Lernelement-GE.md"/>
             <toc-element topic="NPC-GE.md"/>

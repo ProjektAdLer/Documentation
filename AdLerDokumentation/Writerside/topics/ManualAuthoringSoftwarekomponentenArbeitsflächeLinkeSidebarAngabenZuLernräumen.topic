@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Angaben zu Lernräumen" id="ManualAuthoringSoftwarekomponentenArbeitsflächeLinkeSidebarAngabenZuLernräumen">
+
+    <chapter title="Bezeichnung Produktteil" id="bezeichnung_produktteil">
+    <img src="" alt="Screenshot mit Callouts"/>
+        <table>
+            <tr>
+                <td>ID</td>
+                <td>Bezeichnung</td>
+                <td>Beschreibung</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Element 1</td>
+                <td>Beschreibung 1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Element 2</td>
+                <td>Beschreibung 2</td>
+            </tr>
+        </table>
+        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <list>
+            <li>Handlung 1</li>
+            <li>Handlung 2</li>
+            <li>Handlung 3</li>
+        </list>
+    </chapter>
+</topic>

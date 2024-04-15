@@ -12,4 +12,4 @@ bieten, sich im [LMS](Learning-Management-System-GE.md) anzumelden.
 
 ## Aktivitätsdiagramm:
 
-
+![imageAktivitätsdiagrammInLMSAnmelden](imageAktivitätsdiagrammInLMSAnmelden.png)

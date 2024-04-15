@@ -16,6 +16,7 @@ An dieser Stelle wird das Vorgehen zum Erstellen der Anforderungsdokumentation v
 ## Ordnerstruktur - 3 Level 
 - Top-Level Domänenobjekte 
   - Prozesse zu Domämenobjekte (Name des Objekts + Prozesswort)
-  - Unterobjekte/Eigenschaften 
+  - Unterobjekte/Eigenschaften
     - Prozesse zu Unterobjekten
 
+Hierbei sollte regulärer Groß- und Kleinschreibung gefolgt werden. Damit sollten Objekt-Topics nur groß geschrieben sein und Topics die Prozesse in Anforderungen beschreiben, können einen Mix aus Groß- und Kleinschreibung enthalten. 
