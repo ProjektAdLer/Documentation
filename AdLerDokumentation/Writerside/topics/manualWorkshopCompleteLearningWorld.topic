@@ -142,14 +142,14 @@
                     <note>Das Lernelement erscheint nun, an jenem Lernelement-Slot, welchen Sie zu Beginn ausgewählt hatten.</note>
                 </step>
                 <step>
+                    <p>Wiederholen Sie nun Schritt 1-8 dieses Kapitels an den beiden verbliebenen Lernelement-Slots an denen die beiden verbliebenen Lernelemente hinzugefügt werden sollen.</p>
+                    <tip>Welchen Slots Sie die beiden verbliebenen Lernelemente hinzufügen sollen, können Sie der Ausfüllhilfe entnehmen.</tip>
+                </step>
+                <step>
                     <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
                     <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern. </p>
                 </step>
                 <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
-                <step>
-                    <p>Wiederholen Sie nun Schritt 1-8 dieses Kapitels an den beiden verbliebenen Lernelement-Slots an denen die beiden verbliebenen Lernelemente hinzugefügt werden sollen.</p>
-                    <tip>Welchen Slots Sie die beiden verbliebenen Lernelemente hinzufügen sollen, können Sie der Ausfüllhilfe entnehmen.</tip>
-                </step>
                 <note>
                     <control>
                         <p>Sie haben den Lernraum erfolgreich vervollständigt.</p>
@@ -157,10 +157,87 @@
                     </control>
                 </note>
             </procedure>
+            <procedure title="Erstellen einer logischen Verknüpfung zwischen zwei Räumen" id="erstellenEinerLogischenVerknuepfungZwischenZweiRaeumen">
+                <step>
+                    <p>Klicken Sie bei geöffneter Lernwelt auf den Button <control>Und-/Oder-Verbindung erstellen</control>.</p>
+                    <img src="imageManualWorkshopHiglightedAddConnection.png" alt="Hervorgehobener Button Und-/Oder-Verbindung erstellen" width="200" thumbnail="true" />
+                    <note>
+                        <p>Die Und-/Oder-Verbindung erscheint mit der Standardeinstellung <control>Oder</control>, in der Lernpfadansicht des Autorentools.</p>
+                        <img src="imageManualWorkshopAddedAndOrConnectionHighlighted.png" alt="Hervorgehobene Und-/Oder-Verbindung in der Lernpfadansicht" width="200" thumbnail="true" />
+                    </note>
+                </step>
+                <step>
+                    <p>Klicken Sie nun einmal auf den Schieberegler der <control>Und-/Oder-Verbindung</control>. Der Regler schaltet nun auf <control>Und</control>.</p>
+                    <img src="imageManualWorkshopAndConnection.png" alt="Verbindungselement umgestellt auf Und" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Ziehen Sie die Und-Verbindung unter die Räume <control>Autorentool</control> und <control>3D-Lernumgebung und Moodle</control>.</p>
+                    <img src="imagesManualWorkshopCorrectLocationAndConnection.png" alt="Position der Und-Verbindung" width="200" thumbnail="true" />
+                    <tip>Klicken Sie zum Ziehen der Verbindung in den grauen Randbereich der Und-Verbindung.</tip>
+                    <warning>Die Und-Verbindung lässt sich durch Klicken und Ziehen auf den <control>Button-Bereich</control> nicht bewegen.</warning>
+                </step>
+                <step>
+                    <p>Klicken Sie nun auf den orangen <control>Plus-Button</control> am Autorentool Raum, halten die linke Maustaste gedrückt und ziehen den nun erschienenen Pfeil auf die <control>Und-Verbindung</control>.</p>
+                    <img src="imageManualWorkshopLearningRoomFocused.png" alt="Lernraum mit orangem Plus-Button" width="200" thumbnail="true" />
+                    <tip>
+                        <p>Sie können die linke Maustaste loslassen, wenn die <control>Und-Verbindung</control> mit einem orangen Kasten hervorgehoben wird.</p>
+                        <img src="imageManualWorkshopPullConnectionArrow.png" alt="Hervorgehobene Und-Verbindung" width="200" thumbnail="true" />
+                    </tip>
+                </step>
+                <step>
+                    <p>Wiederholen Sie die Schritte 2-4 für den Raum <control>3D-Lernumgebung und Moodle</control>.</p>
+                    <img src="imageManualWorkshopLearningPathwayCreated.png" alt="Fertig erstellte Verbindungen zu logischen Verknüpfung der Lernräume" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern. </p>
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich eine logische Verknüpfung zwischen Lernräumen hergestellt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
             <procedure title="Erstellen eines neuen Lernraums" id="erstellenEinesNeuenLernraums">
                 <step>
-                    <img src="imageManualWorkshopImportedLearningWorld.png" alt="Lernraum Editor nach Vervollständigen des Raums 3D-Lernumgebung und Moodle" width="200" thumbnail="true" />
-                    <p>Placeholder against warning</p>
+                    <img src="imageManualWorkshopNewLearningSpaceHighlighted.png" alt="Hervorgehobener Neu-Button im Lernraum bearbeiten Bereich" width="200" thumbnail="true" />
+                    <p>Klicken Sie auf den <control>Neu-Button</control> im Bereich <control>Lernraum bearbeiten</control>.</p>
+                </step>
+                <step>
+                    <p>Füllen Sie nun die Reiter <control>Allgemein, Abschlussbedingung, Thema</control> und <control>Beschreibung</control>, wie in der Ausfüllhilfe angegeben, aus.</p>
+                    <img src="imageManualWorkshopFillInLearningSpaceMetadataHighlighted.png" alt="Hervorgehobener Lernraum erstellen Bereich" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den <control>OK-Button</control> im unteren Bereich des Formulars.</p>
+                    <img src="imageManualWorkshopOKButtonHighlighted.png" alt="Hervorgehobener OK-Button, im Lernraum erstellen Bereich" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Ziehen Sie den Lernraum in der Lernpfadansicht an die, in der Ausfüllhilfe angegebene Stelle.</p>
+                    <img src="imageManualWorkshopDraggedLearningSpaceInPathwayView.png" alt="Im Lernpfad korrekt platzierter Lernraum." width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Verbinden Sie den Lernpfad mithilfe der orangen <control>Plus-Buttons</control>.</p>
+                    <tip>Das Erstellen von Verbindungen im Lernpfad, haben Sie bereits in Schritt 4 des Kapitels "Erstellen einer logischen Verknüpfung zwischen zwei Räumen" durchgeführt.</tip>
+                    <img src="imageManualWorkshopDraggedLearningPathToRoomAbschluss.png" alt="Im Lernpfad korrekt platzierter Lernraum mit Lernpfadverbindung." width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern. </p>
+                    <img src="imageManualWorkshopLearningSpaceCreated.png" alt="Leerer, neu erstellter Lernraum" width="200" thumbnail="true" />
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich eine logische Verknüpfung zwischen Lernräumen hergestellt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+            <procedure title="Erstellen eines Storyelements" id="erstellenEinesStoryElements">
+                <step>
+
                 </step>
             </procedure>
         </chapter>
