@@ -527,6 +527,7 @@
             <toc-element topic="Administrierende-BD.md"/>
             <toc-element topic="Entwickelnde-BD.md">
                 <toc-element topic="manualWorkshop.md">
+                    <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
                     <toc-element topic="manualWorkshopCompleteLearningWorld.topic"/>
                     <toc-element topic="manualWorkshopLoginToEngine.topic"/>
                     <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>

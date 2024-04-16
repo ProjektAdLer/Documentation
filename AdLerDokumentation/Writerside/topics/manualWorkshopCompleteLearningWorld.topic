@@ -260,7 +260,7 @@
                 </step>
                 <step>
                     <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
-                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern. </p>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern.</p>
                     <img src="imageManualWorkshopStoryElementAdded.png" alt="Ungespeicherte Änderungen nach Erstellen eines Storyelements" width="200" thumbnail="true" />
                 </step>
                 <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
@@ -276,6 +276,27 @@
                     <p>Erstellen Sie das fehlende Lernelement im Raum Abschluss, wie in der Aufüllhilfe angegeben.</p>
                     <tip>Gehen Sie bei der Erstellung des Lernelements, wie im Kapitel <a href="#erstellenVonDreiLernelementen">"Erstellen von drei Lernelementen"</a> vor.</tip>
                 </step>
+                <step>
+                    <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern.</p>
+                    <img src="imageManualWorkshopLearningWorldFinished.png" alt="Gespeicherte Änderungen nach dem Erstellen des letzten Lernelements" width="200" thumbnail="true" />
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben den letzten Lernraum erfolgreich vervollständigt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
             </procedure>
+            <note>
+                <control>
+                    <p>Sie haben die Lernwelt erfolgreich fertiggestellt.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+            <tip>
+                Fahren Sie nun mit dem <a href="manualWorkshopUploadLearningWorld.topic">Hochladen der Lernwelt auf Moodle</a> fort.
+            </tip>
         </chapter>
 </topic>

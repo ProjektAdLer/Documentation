@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Hochladen einer Lernwelt" id="manualWorkshopUploadLearningWorld">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>Mit dieser Schritt für Schritt Beschreibung laden Sie ihre vervollständigte Lernwelt auf den AdLer Server.</control>
+        </def>
+    </deflist>
+    <procedure title="Anmelden auf dem AdLer-Server im Autorentool">
+        <tip>
+            <p>Sie befinden sich auf der im folgenden Bild gezeigten Ansicht, Ihres vervollständigten Lernraums.</p>
+            <img src="imageManualWorkshopLoginToAdLerServerStartingPoint.png" alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" />
+        </tip>
+        <step>
+            <p>Klicken Sie auf den <control>Einloggen auf AdLer-Server-Button</control>.</p>
+            <img src="imageManualWorkshopHighlightedAdministrationButton.png" alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" />
+        </step>
+        <step>
+            <p>Tragen Sie im nun geöffneten Anmeldeformular die Login-Daten ein. Sie erhalten die Anmeldedaten von der Person, die Ihren Workshop leitet.</p>
+            <img src="imageManualWorkshopLoginToAdLerServerAuthoringTool.png" alt="Anmeldeformular zur Anmeldung auf dem AdLer Server im Autorentool" width="200" thumbnail="true" />
+        </step>
+        <step>
+            <p>Klicken Sie auf den <control>Anmelden-Button</control>.</p>
+            <img src="imageManualWorkshopLoginToAdLerServerAuthoringToolHighlightedAnmeldenButton.png" alt="Hervorgehobener Anmelden-Button im Anmeldeformular" width="200" thumbnail="true" />
+        </step>
+        <step>
+            <p>Sie können das nun angezeigte Fenster über den <control>X-Button</control> im oberen, rechten Eck des Pop-Up Fensters, schließen.</p>
+            <img src="imageManualWorkshopLoginToAdLerServerSuccessful.png" alt="Erfolgreiche Anmeldung auf dem AdLer-Server" width="200" thumbnail="true" />
+        </step>
+        <note>
+            <control>
+                <p>Sie haben sich erfolgreich auf dem AdLer-Server angemeldet.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+    <procedure title="Lernwelt auf den AdLer-Server hochladen">
+        <tip>
+            <p>Sie befinden sich auf der im folgenden Bild gezeigten Ansicht, Ihres vervollständigten Lernraums.</p>
+            <img src="imageManualWorkshopLoginToAdLerServerStartingPoint.png" alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" />
+        </tip>
+        <step>
+            <p>Klicken Sie auf den <control>Lernwelt als Moodle Lernwelt-Datei(.mbz) veröffentlichen-Button</control>.</p>
+            <img src="imageManualWorkshopUploadCourseButtonHighlighted.png" alt="Hervorgehobener Lernwelt als Moodle Lernwelt-Datei(.mbz) veröffentlichen-Button" width="200" thumbnail="true" />
+        </step>
+        <step>
+            <p>Klicken Sie im nun angezeigten Pop-Up Fenster auf <control>Hochladen</control>.</p>
+            <img src="imageManualWorkshopConfirmUploadDialog.png" alt="Lade Lernwelt hoch Pop-Up Fenster" width="200" thumbnail="true" />
+            <tip>
+                <p>Warten Sie kurz, bis die Lernwelt auf den Server hochgeladen ist.</p>
+                <img src="imageManualWorkshopLoadingScreen.png" alt="Ladebildschirm während des Hochladens einer Lernwelt" width="200" thumbnail="true" />
+            </tip>
+            <note>
+                <p>Sie haben Ihre Lernwelt erfolgreich auf den AdLer-Server hochgeladen.</p>
+                <img src="imageManualWorkshopUploadLearningWorldSuceeded.png" alt="Hochladen erfolgreich Pop-Up Fenster" width="200" thumbnail="true" />
+            </note>
+        </step>
+        <step>
+            <p>Klicken Sie nun auf <control>In Moodle öffnen</control> und fahren Sie mit der Anleitung <a href="manualWorkshopSubscribeToLearningWorld.topic">"Einschreiben in eine Lernwelt"</a> fort.</p>
+        </step>
+    </procedure>
+
+</topic>

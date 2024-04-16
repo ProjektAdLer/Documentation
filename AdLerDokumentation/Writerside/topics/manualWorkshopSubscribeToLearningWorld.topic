@@ -18,6 +18,7 @@
                 <p>Öffnen Sie ihren favorisierten Browser.</p>
             </step>
             <step>
+                <tip>Falls Sie von der Anleitung <a>"Hochladen einer Lernwelt"</a> hier hergeleitet wurden, überspringen Sie den ersten Schritt.</tip>
                 <p>Tippen Sie folgende Adresse in Ihre Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://moodle.projekt-adler.eu" target="_blank">https://moodle.projekt-adler.eu</a></p>
                 <note>Sie befinden sich nun auf der Anmeldeseite des AdLer-Moodle</note>
             </step>
@@ -74,7 +75,15 @@
                 <tip>Ihnen wird nun Ihr ausgewählter Kurs in Moodle angezeigt.</tip>
                 <img src="imageManualWorkshopMoodleCourseDefaultPage.png" alt="Anzeige des Moodle Kurses" width="200" thumbnail="true"/>
             </step>
-            <note><control>Hier wird das Ergebnis der Handlung beschrieben.</control><p>&#10004;</p></note>
+            <note>
+                <control>
+                    <p>Sie haben sich erfolgreich in Moodle in eine Lernwelt eingeschrieben.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+            <step>
+                <p>Fahren Sie nun mit der Anleitung <a href="manualWorkshopLoginToEngine.topic">"Einloggen in die 3D-Umgebung"</a> fort.</p>
+            </step>
         </procedure>
     </chapter>
 </topic>
