@@ -13,4 +13,4 @@ Das Autorentool muss Lehrenden die Möglichkeit bieten, eine zuvor erstellte Ler
 
 ## Aktivitätsdiagramm
 
-
+![imageAktivitätsdiagrammLernpfadBedingungBearbeiten](imageAktivitätsdiagrammLernpfadBedingungBearbeiten.png)

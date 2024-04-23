@@ -11,4 +11,4 @@ bieten, eine angewählte Lernwelt hochzuladen.
 
 ## Aktivitätsdiagramm:
 
-
+![imageAktivitätsdiagrammLernweltHochladen](imageAktivitätsdiagrammLernweltHochladen.bmp)

@@ -12,4 +12,4 @@ Das Autorentool muss Lehrenden die Möglichkeit bieten, eine Lernpfad-Bedingung 
 
 ## Aktivitätsdiagramm
 
-
+![imageAktivitätsdiagrammLernpfadBedingungErstellen](imageAktivitätsdiagrammLernpfadBedingungErstellen.png)
