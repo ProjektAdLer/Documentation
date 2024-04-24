@@ -1,3 +1,3 @@
 # Schließen der Applikation
 
-Start typing here...
+Sammlung aller funktionalen Anforderungen an das Autorentool, die das Schließen der Applikation betreffen.

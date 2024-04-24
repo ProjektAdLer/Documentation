@@ -17,6 +17,9 @@
             <toc-element topic="Auflistung-der-Anforderungen-Autorentool.md"/>
             <toc-element topic="Funktionale-Anforderungen-Autorentool.md">
                 <toc-element topic="Autorentool-FunktionaleAnforderungen-Lebenszyklus.md">
+                    <toc-element topic="Autorentool-FunktionaleAnforderungen-Lebenszyklus-StartenderApplikation.md">
+                        <toc-element topic="ASN0024.md"/>
+                    </toc-element>
                     <toc-element topic="Autorentool-FunktionaleAnforderungen-Lebenszyklus-SchließenderApplikation.md">
                         <toc-element topic="ASN0025.md"/>
                     </toc-element>
@@ -226,7 +229,6 @@
                         <toc-element topic="ASE4.md"/>
                         <toc-element topic="ASE5.md"/>
                         <toc-element topic="ASE2.md"/>
-                        <toc-element topic="ASN0024.md"/>
                         <toc-element topic="AHO22.md"/>
                         <toc-element topic="ASN0001.md"/>
                         <toc-element topic="ASN0002.md"/>
