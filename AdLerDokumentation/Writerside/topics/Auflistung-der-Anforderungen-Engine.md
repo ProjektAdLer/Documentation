@@ -59,7 +59,6 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Nutzerdoku auffinden (ELG0014)](ELG0014.md) | **0** | - |
 | [Pausenempfehlung anzeigen  (EKJ0002)](EKJ0002.md) | **0** | - |
 | [Pausenempfehlung schließen (EKJ0004)](EKJ0004.md) | **0** | - |
-| [Pausenempfehlung schließen (EKJ0006)](EKJ0006.md) | **0** | - |
 | [Pausenempfehlung umblättern (EKJ0003)](EKJ0003.md) | **0** | - |
 | [Pausenhinweis anzeigen (EKJ0001)](EKJ0001.md) | **0** | - |
 | [Pausenhinweis schließen (EKJ0005)](EKJ0005.md) | **0** | - |
