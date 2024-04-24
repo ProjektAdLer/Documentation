@@ -1,0 +1,3 @@
+# Schließen der Applikation
+
+Start typing here...

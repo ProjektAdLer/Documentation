@@ -16,6 +16,11 @@
         <toc-element topic="Autorentool-BG.md">
             <toc-element topic="Auflistung-der-Anforderungen-Autorentool.md"/>
             <toc-element topic="Funktionale-Anforderungen-Autorentool.md">
+                <toc-element topic="Autorentool-FunktionaleAnforderungen-Lebenszyklus.md">
+                    <toc-element topic="Autorentool-FunktionaleAnforderungen-Lebenszyklus-SchließenderApplikation.md">
+                        <toc-element topic="ASN0025.md"/>
+                    </toc-element>
+                </toc-element>
                 <toc-element topic="Lernpfad-Bedingungen-Autorentool.md">
                     <toc-element topic="AHO66.md"/>
                     <toc-element topic="AHO65.md"/>
