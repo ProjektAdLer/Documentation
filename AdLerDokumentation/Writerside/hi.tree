@@ -16,6 +16,14 @@
         <toc-element topic="Autorentool-BG.md">
             <toc-element topic="Auflistung-der-Anforderungen-Autorentool.md"/>
             <toc-element topic="Funktionale-Anforderungen-Autorentool.md">
+                <toc-element topic="Autorentool-FunktionaleAnforderungen-Lebenszyklus.md">
+                    <toc-element topic="Autorentool-FunktionaleAnforderungen-Lebenszyklus-StartenderApplikation.md">
+                        <toc-element topic="ASN0024.md"/>
+                    </toc-element>
+                    <toc-element topic="Autorentool-FunktionaleAnforderungen-Lebenszyklus-SchließenderApplikation.md">
+                        <toc-element topic="ASN0025.md"/>
+                    </toc-element>
+                </toc-element>
                 <toc-element topic="Lernpfad-Bedingungen-Autorentool.md">
                     <toc-element topic="AHO66.md"/>
                     <toc-element topic="AHO65.md"/>
@@ -266,6 +274,9 @@
             <toc-element topic="Auflistung-der-Anforderungen-Engine.md"/>
             <toc-element topic="FunktionaleAnforderungen-Engine.md">
                 <toc-element topic="Lernwelt-Entities-FunktionaleAnforderungen-Engine.md">
+                    <toc-element topic="EWE0028.md"/>
+                    <toc-element topic="EWE0024.md"/>
+                    <toc-element topic="EWE0027.md"/>
                     <toc-element topic="ELG0008.md"/>
                     <toc-element topic="ELG0005.md"/>
                     <toc-element topic="ELG0006.md"/>
@@ -279,6 +290,8 @@
                     <toc-element topic="ELG0004.md"/>
                     <toc-element topic="ELG0002.md"/>
                     <toc-element topic="ELG0003.md"/>
+                    <toc-element topic="EWE0026.md"/>
+                    <toc-element topic="EWE0025.md"/>
                     <toc-element topic="ELG0016.md"/>
                     <toc-element topic="ELG0017.md"/>
                 </toc-element>
@@ -321,7 +334,10 @@
                 </toc-element>
                 <toc-element topic="UserData-Entities-FunktionaleAnforderungen-Engine.md">
                     <toc-element topic="Avatar-FunktionaleAnforderungen-Engine.md">
+                        <toc-element topic="EZZ0015.md"/>
                         <toc-element topic="EZZ0012.md"/>
+                        <toc-element topic="EZZ0016.md"/>
+                        <toc-element topic="EZZ0014.md"/>
                     </toc-element>
                     <toc-element topic="Login-Benachrichtigungen.md">
                         <toc-element topic="EZZ0005.md"/>

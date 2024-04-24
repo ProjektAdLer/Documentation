@@ -17,6 +17,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Adaptivitätselement persistieren (AWA0012)](AWA0012.md) | **0** | - |
 | [Adaptivitätselement platzieren (ASN0018)](ASN0018.md) | **0** | - |
 | [Adaptivitätselementname (AWA9021)](AWA9021.md) | **0** | - |
+| [Alle Lernwelten bei Programmstart laden (ASN0024)](ASN0024.md) | **0** | - |
 | [Antworten (AWA9002)](AWA9002.md) | **0** | - |
 | [Antworttext (AWA9003)](AWA9003.md) | **0** | - |
 | [Aufgabe bearbeiten (AWA0006)](AWA0006.md) | **0** | - |
@@ -126,6 +127,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Storytext (ASN0007)](ASN0007.md) | **0** | - |
 | [Undo (ASN0003)](ASN0003.md) | **0** | - |
 | [Undo/Redo Anwendbarkeit (ASN0005)](ASN0005.md) | **0** | - |
+| [Ungespeicherte Welten speichern (ASN0025)](ASN0025.md) | **0** | - |
 | [Unterstützte Dateiformate (AWA9018)](AWA9018.md) | **0** | - |
 | [Verweis bearbeiten (AWA0027)](AWA0027.md) | **0** | - |
 | [Verweis erstellen (AWA0026)](AWA0026.md) | **0** | - |
