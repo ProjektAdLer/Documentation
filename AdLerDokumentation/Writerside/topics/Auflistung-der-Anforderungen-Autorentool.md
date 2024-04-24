@@ -127,6 +127,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Storytext (ASN0007)](ASN0007.md) | **0** | - |
 | [Undo (ASN0003)](ASN0003.md) | **0** | - |
 | [Undo/Redo Anwendbarkeit (ASN0005)](ASN0005.md) | **0** | - |
+| [Ungespeicherte Welten speichern (ASN0025)](ASN0025.md) | **0** | - |
 | [Unterstützte Dateiformate (AWA9018)](AWA9018.md) | **0** | - |
 | [Verweis bearbeiten (AWA0027)](AWA0027.md) | **0** | - |
 | [Verweis erstellen (AWA0026)](AWA0026.md) | **0** | - |
