@@ -13,7 +13,7 @@ Autorentool einzuladen.
 - Das Dateiformat der Lernwelten muss, soweit technisch möglich, rückwärts kompatibel sein. Eine in beispielsweise 
 Version 2.0.0 erstellte und gespeicherte Welt muss in Version 2.1.0 und weiter auch ladbar sein.
 - Bei Start des Autorentools werden alle Welten, welche in einem versteckten Applikationsordner liegen,
-automatisch eingeladen.
+automatisch eingeladen (siehe [](ASN0024.md)).
 
 
 
