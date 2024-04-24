@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Installieren des Autorentools" id="manualWorkshopInstallAuthoringTool">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>Mit dieser Schritt für Schritt Beschreibung laden Sie sich das Autorentool herunter und installieren es.</control>
+        </def>
+    </deflist>
+    <procedure title="Herunterladen des Autorentools">
+        <step>
+            <p>Öffnen Sie ihren favorisierten Browser.</p>
+        </step>
+        <step>
+            <p>Tippen Sie folgende Adresse in Ihre Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a></p>
+            <tip>Sie befinden sich nun auf der Release-Seite des Autorentools, im Projekt AdLer, auf GitHub.</tip>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben das Autorentool erfolgreich heruntergeladen.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+    <procedure title="Installieren des Autorentools unter Windows 10/11">
+        <step>
+
+        </step>
+        <note>
+            <control>
+                <p>Sie haben das Autorentool erfolgreich auf ihrem Windows Computer installiert.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+    <procedure title="Installieren des Autorentools unter macOS">
+        <step>
+
+        </step>
+        <note>
+            <control>
+                <p>Sie haben das Autorentool erfolgreich auf ihrem Mac installiert.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+    <procedure title="Installieren des Autorentools unter Linux">
+        <step>
+
+        </step>
+        <note>
+            <control>
+                <p>Sie haben das Autorentool erfolgreich auf ihrem Linux Computer installiert.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+</topic>
