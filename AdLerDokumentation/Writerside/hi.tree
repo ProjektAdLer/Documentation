@@ -266,8 +266,9 @@
             <toc-element topic="Auflistung-der-Anforderungen-Engine.md"/>
             <toc-element topic="FunktionaleAnforderungen-Engine.md">
                 <toc-element topic="Lernwelt-Entities-FunktionaleAnforderungen-Engine.md">
-                    <toc-element topic="EWE0027.md"/>
+                    <toc-element topic="EWE0028.md"/>
                     <toc-element topic="EWE0024.md"/>
+                    <toc-element topic="EWE0027.md"/>
                     <toc-element topic="ELG0008.md"/>
                     <toc-element topic="ELG0005.md"/>
                     <toc-element topic="ELG0006.md"/>
