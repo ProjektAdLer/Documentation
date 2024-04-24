@@ -68,5 +68,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Storyelement Laden (EZZ0006)](EZZ0006.md) | **0** | - |
 | [Symbollegende anzeigen (EWE0019)](EWE0019.md) | **0** | - |
 | [Text als Hinweis anzeigen (EWE0004)](EWE0004.md) | 1 | [AdaptivityElementHint.test.tsx:7](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementHint.test.tsx#L7) |
+| [Türen darstellen (ELG0019)](ELG0019.md) | **0** | - |
+| [Türen highlighten (ELG0018)](ELG0018.md) | **0** | - |
 | [unzugängliches Lernelement als Hinweis anzeigen (EWE0007)](EWE0007.md) | 1 | [DisplayLearningElementUseCase.test.ts:200](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/DisplayLearningElementUseCase/DisplayLearningElementUseCase.test.ts#L200) |
 | [zugängliches Lernelement als Hinweis anzeigen (EWE0006)](EWE0006.md) | 1 | [DisplayLearningElementUseCase.test.ts:170](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/DisplayLearningElementUseCase/DisplayLearningElementUseCase.test.ts#L170) |
