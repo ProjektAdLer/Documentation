@@ -18,6 +18,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Bewegung zu Laufziel durchführen (EZZ0014)](EZZ0014.md) | 1 | [AvatarController.test.ts:154](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/Avatar/AvatarController.test.ts#L154) |
 | [Brotkrumennavigation anzeigen (EWE0020)](EWE0020.md) | 1 | [AdaptivityElementPresenter.test.ts:57](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/AdaptivityElementPresenter.test.ts#L57) |
 | [Bug-Report erstellen (ELG0015)](ELG0015.md) | **0** | - |
+| [Charakter-Animationen anzeigen (EZZ0018)](EZZ0018.md) | **0** | - |
 | [Erfolgreicher Login (EZZ0003)](EZZ0003.md) | 1 | [LoginUseCase.test.ts:100](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Login/LoginUseCase.test.ts#L100) |
 | [Fehlgeschlagener Login (EZZ0005)](EZZ0005.md) | 1 | [LoginUseCase.test.ts:113](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Login/LoginUseCase.test.ts#L113) |
 | [Fortschritt anzeigen (EWE0018)](EWE0018.md) | **0** | - |
