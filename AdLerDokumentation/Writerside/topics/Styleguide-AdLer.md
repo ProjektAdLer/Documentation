@@ -1,6 +1,6 @@
-# Styleguide 2D
+# Styleguide AdLer
 
-## AdLer-Engine Styleguide
+## AdLer Styleguide
 
 Dieser **Styleguide** beschreibt die in der Kommunikation und Umsetzung des AdLer-Projekts zu verwendenden Farben, Typografie, textliche Ansprache von Rezipienten und der Verwendung des Logos.
 
@@ -8,41 +8,22 @@ Dieser **Styleguide** beschreibt die in der Kommunikation und Umsetzung des AdLe
 
 Wir verwenden Farben in einem begrenzten Sättigungs- und Helligkeitsbereich. Die Beschränkung lautet, wie folgt:
 - HSB(A)/HSV(A)/HSL(A) - (H = 0 – 360, S = 10% - 90%, B/V/L = 10% - 90%, A = 0 – 100%)
-- **Ausnahmen sollten nur reines Schwarz (#000000) und reines Weiß (#ffffff) sein**
+- **Ausnahmen sollten nur reines Schwarz (#000000), reines Weiß (#ffffff) und reine Grautöne (z.B. #111111, #e9e9e9) sein**
 
 Die Wahl des Farbtons an sich, soll nicht eingeschränkt werden, da in der AdLer-Engine, wie im Autorentool, verschiedenste Farben zur Ausarbeitung der einzelnen Elemente der Anwendung benötigt werden. Eine Auswahl von Farben, per Eingabe der HSL Werte ist auf der Seite der [w3schools](https://www.w3schools.com/colors/colors_hsl.asp) möglich.
 Dort sind ebenfalls generelle Informationen zu Farben im Web verfügbar.
 
 Zusätzlich werden zu benutzende Farben für die Kommunikationsarbeit des AdLer-Projekts festgelegt. Farbangaben gehen von wenig gesättigt bis stark gesättigt.
 
-#### Verwendete Farben AdLerEngine und Autorentool
+#### Zu verwendende Farben
+Die Hauptfarben für den AdLer sind:
+adlerblue: #a1c8e5
+adlerdarkblue: #172d4d
+
 
 ***Weiß (#FFFFFF), rgb (255, 255, 255) und Schwarz (#000000), rgb (0, 0, 0) können immer verwendet werden.***
 
 Schlagschatten: #707070 - Abstände: x = 0, y = 3 Breite: 6px
-
-#### Farbenzuordnung AdLerEngine
-
-        babylonbg: #33334d - Babylon Default Hintergrundfarbe
-        blacktrans: rgba(0,0,0,0.5) - Schwarz mit 50% Transparenz zur Abdunklung der Hintergründe von Modals
-        whitetrans: rgba(255,255,255,0.3) - Weiß mit 30% Transparenz
-        adlerblue: #a1c8e5 - Blau
-        adlerdarkblue: #172d4d - Dunkelblau
-        adlergreen: #59b347 - Grün
-        buttonbgblue: #e9f2fa - Hintergrundfarbe für Buttons
-        buttonpressedblue: #ace8fc - Hintergrundfarbe für Buttons im Zustand nachdem sie geklickt wurden
-        adlertextgrey: #111111 - Textfarbe
-        adlerbuttonlocked: #b9bfc6 - Farbe zur Kennzeichnung nicht benutzbarer Buttons
-        adlerdeactivatedtext: #e9e9e9 - Textfarbe für Texte in nicht benutzbaren Buttons
-        adlerbggradientfrom: #a1c8e5 - Startfarbe (Blau) des Hintergrundverlaufs der Menüs
-        adlerbggradientto: #e2eaf2 - Zielfarbe (Hellblau) des Hintergrundverlaufs der Menüs
-        nodehandlecolor: #e9d6b3 - Farbe der einzelnen Nodes in der Graphansicht des Lernweltmenüs
-        adleroceanblue: #45a0e5 - Farbe zur Hervorhebung von Links
-
-### Changelog Farben
-
-#### 16.05.23
-- Rot #d70000 / rgb 215, 0, 0 hinzugefügt (verwendet in Icons 09-debug und 09-1-bug-icon)
 
 ### Typografie
 

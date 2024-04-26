@@ -8,6 +8,7 @@
 
     <toc-element topic="Spezifikation.md">
         <toc-element topic="AdLer-System.md">
+            <toc-element topic="Styleguide-AdLer.md"/>
             <toc-element topic="Zweck.md"/>
             <toc-element topic="Marktanforderungen.md"/>
             <toc-element topic="Systemkontext.md"/>
