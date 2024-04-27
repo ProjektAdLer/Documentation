@@ -24,7 +24,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Fortschritt anzeigen (EWE0018)](EWE0018.md) | **0** | - |
 | [Fragen anzeigen (EWE0012)](EWE0012.md) | 2 | [AdaptivityElementPresenter.test.ts:236](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/AdaptivityElementPresenter.test.ts#L236)<br/>[AdaptivityElementQuestionSelection.test.tsx:7](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementQuestionSelection.test.tsx#L7) |
 | [Fragen empfehlen (EWE0016)](EWE0016.md) | **0** | - |
-| [Hilfe (ELG0012)](ELG0012.md) | **0** | - |
+| [Hilfe anzeigen (ELG0012)](ELG0012.md) | **0** | - |
 | [Hinweis anbieten (EWE0010)](EWE0010.md) | 1 | [AdaptivityElementQuestionSelection.test.tsx:143](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementQuestionSelection.test.tsx#L143) |
 | [Internetverlust anzeigen (EWE0022)](EWE0022.md) | 1 | [InternetLossModal.test.tsx:25](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/React/GeneralComponents/InternetLossModal/InternetLossModal.test.tsx#L25) |
 | [Introtext anzeigen (EWE0014)](EWE0014.md) | 1 | [AdaptivityElementDialogContainer.test.tsx:48](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementDialogContainer.test.tsx#L48) |
