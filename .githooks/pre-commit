@@ -4,11 +4,9 @@ PATH=$PATH:./.githooks
 PLATFORM=$(uname -s)
 case "$PLATFORM" in 
   *MINGW*)
-    echo "here"
     PNGQUANT_EXEC="pngquant-win"
     OXIPNG_EXEC="oxipng-win";;
   *)
-    echo "there"
     PNGQUANT_EXEC="pngquant"
     OXIPNG_EXEC="oxipng";;
 esac
@@ -39,10 +37,3 @@ do
     git add $file
   fi
 done
-
-# for file in `git diff --cached --name-only | grep ".jpg\$"`
-# do
-#   echo "Crushing $file"
-#   jpegtran -copy none -optimize -perfect -outfile $file ${file%.jpg}.new | grep "filesize"
-#   mv -f ${file%.jpg}.new $file
-# done
