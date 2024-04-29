@@ -1,0 +1,48 @@
+#!/bin/sh
+echo $PWD
+PATH=$PATH:./.githooks
+PLATFORM=$(uname -s)
+case "$PLATFORM" in 
+  *MINGW*)
+    echo "here"
+    PNGQUANT_EXEC="pngquant-win"
+    OXIPNG_EXEC="oxipng-win";;
+  *)
+    echo "there"
+    PNGQUANT_EXEC="pngquant"
+    OXIPNG_EXEC="oxipng";;
+esac
+echo $PLATFORM
+echo $PNGQUANT_EXEC
+echo $OXIPNG_EXEC
+
+# to use, copy this file into your .git/hooks folder in your git repo
+# make sure to add execute permissions using: chmod +x .git/hooks/pre-commit-image-optimize
+command -v $PNGQUANT_EXEC >/dev/null 2>&1 || {
+    echo "windows: drop pngquant-win into .githooks (without .exe file ending)\r\n"
+    echo "macos: brew install pngquant"
+    exit 1;
+}
+
+command -v $OXIPNG_EXEC >/dev/null 2>&1 || {
+    echo "windows: drop oxipng-win into .githooks (without .exe file ending)\r\n"
+    echo "macos: brew install oxipng"
+    exit 1;
+}
+
+for file in `git diff --cached --name-only | grep ".png\$"`
+do
+  if [[ -f "$file" ]]; then
+    echo "Compressing $file"
+    $PNGQUANT_EXEC 256 -s2 --ext .png --force -- $file 
+    $OXIPNG_EXEC -o 3 --strip safe --alpha $file
+    git add $file
+  fi
+done
+
+# for file in `git diff --cached --name-only | grep ".jpg\$"`
+# do
+#   echo "Crushing $file"
+#   jpegtran -copy none -optimize -perfect -outfile $file ${file%.jpg}.new | grep "filesize"
+#   mv -f ${file%.jpg}.new $file
+# done
