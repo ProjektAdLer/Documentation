@@ -17,8 +17,9 @@ Zusätzlich werden zu benutzende Farben für die Kommunikationsarbeit des AdLer-
 
 #### Zu verwendende Farben
 Die Hauptfarben für den AdLer sind:
-adlerblue: #a1c8e5
-adlerdarkblue: #172d4d
+
+- adlerblue: #a1c8e5 ![#a1c8e5](https://readme-swatches.vercel.app/a1c8e5)
+- adlerdarkblue: #172d4d ![#172d4d](https://readme-swatches.vercel.app/172d4d)
 
 
 ***Weiß (#FFFFFF), rgb (255, 255, 255) und Schwarz (#000000), rgb (0, 0, 0) können immer verwendet werden.***
