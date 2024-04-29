@@ -7,7 +7,7 @@
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
         <p>Bei Start des Autorentools wird als erste Ansicht stets die Startseite angezeigt. Auf dieser werden alle erstellten und importierten Lernwelten aufgeführt.</p>
-    <img src="imageManualAuthoringStartseiteCallout.png" alt="imageManualAuthoringStartseiteCallout"/>
+    <img src="imageManualAuthoringStartseiteCallout.png" alt="StartseiteCallout"/>
         <table>
             <tr>
                 <td>ID</td>
