@@ -18,7 +18,7 @@
             <li>Kategorie 6 (eingeklappt): Beschreibung</li>
         </list>
         <chapter title="Kategorie ''Allgemein''" id="KategorieAllgemeinLernraum">
-            <img src="imageManualAuthoringLernraum1Callout.png" alt="imageManualAuthoringLernraum1Callout"/>
+            <img src="imageManualAuthoringAngabenZumLernraum1Callout.png" alt="Lernraum1Callout"/>
             <table>
                 <tr>
                     <td>ID</td>
@@ -43,7 +43,7 @@
             </table>
         </chapter>
         <chapter title="Kategorien ''Abschlussbedingung'', ''Thema'', ''Lernziele'' und ''Beschreibung''" id="KategorieAbschlussbedingungThemaLernzieleBeschreibung">
-            <img src="imageManualAuthoringLernraum2Callout.png" alt="imageManualAuthoringLernraum2Callout"/>
+            <img src="imageManualAuthoringAngabenZumLernraum2Callout.png" alt="Lernraum2Callout"/>
             <table>
                 <tr>
                     <td>ID</td>
