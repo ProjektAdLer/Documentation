@@ -3,10 +3,11 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Hierarchische Übersicht" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischeUebersicht"
-       help-id="ManualAuthoringSoftwarekomponentenArbeitsflächeRechteSidebarHierarchischeÜbersicht">
+       title="Rechte Sidebar" id="ManualAuthoringSoftwarekomponentenRechteSidebar"
+       help-id="ManualAuthoringSoftwarekomponentenRechte-Sidebar">
 
-    <chapter title="Bezeichnung Produktteil" id="bezeichnung_produktteil">
+    <chapter title="Übersicht" id="bezeichnung_produktteil">
+        <p>Die rechte Sidebar umfasst ingesamt zwei Tabs. Sie kann entweder permanent angezeigt werden oder nur bei Bedarf.</p>
     <img src="" alt="Screenshot mit Callouts"/>
         <table>
             <tr>
@@ -16,13 +17,13 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Element 1</td>
-                <td>Beschreibung 1</td>
+                <td>Hierarchischer Aufbau der Lernwelt </td>
+                <td>Öffnet den Tab zum Anzeigen des hierarchischen Aufbaus der geöffneten Lernwelt mit den darin enthaltenen Lernräumen und Elementen.</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Element 2</td>
-                <td>Beschreibung 2</td>
+                <td>Verbindungen zwischen Lernräumen</td>
+                <td>Öffnet den Tab zum Verbinden von Lernräumen durch Lernpfade und dem Erzeugen von Abhängigkeiten zwischen den Lernräumen durch Und-/Oder-Bedingungen.</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
