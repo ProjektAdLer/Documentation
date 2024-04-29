@@ -21,7 +21,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >Eine Tür ist Teil eines <a href="Lernraum-GE.md">Lernraumes</a>.
-        Es existieren in einem Lernraum immer zwei Arten von Türen: Eine Eingangstür, die zu einem vorherigen, und eine Ausgangstür, die zu einem nachfolgenden Lernraum führt.
+        Es existieren in einem Lernraum immer zwei Arten von Türen: Eine Eingangstür, die zu einem oder mehreren vorherigen, und eine Ausgangstür, die zu einem oder mehreren nachfolgenden Lernräumen führt.
         </td>
     </tr>  
     <tr>
