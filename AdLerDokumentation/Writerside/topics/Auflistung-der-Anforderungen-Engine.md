@@ -21,7 +21,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Charakter-Animationen anzeigen (EZZ0018)](EZZ0018.md) | **0** | - |
 | [Erfolgreicher Login (EZZ0003)](EZZ0003.md) | 1 | [LoginUseCase.test.ts:100](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Login/LoginUseCase.test.ts#L100) |
 | [Fehlgeschlagener Login (EZZ0005)](EZZ0005.md) | 1 | [LoginUseCase.test.ts:113](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Login/LoginUseCase.test.ts#L113) |
-| [Fenster anzeigen (ELG0020)](ELG0020.md) | **0** | - |
+| [Fenster anzeigen (ELG0020)](ELG0020.md) | 1 | [LearningSpacePresenter.test.ts:266](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/LearningSpaces/LearningSpacePresenter.test.ts#L266) |
 | [Fortschritt anzeigen (EWE0018)](EWE0018.md) | **0** | - |
 | [Fragen anzeigen (EWE0012)](EWE0012.md) | 2 | [AdaptivityElementPresenter.test.ts:236](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/AdaptivityElementPresenter.test.ts#L236)<br/>[AdaptivityElementQuestionSelection.test.tsx:7](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementQuestionSelection.test.tsx#L7) |
 | [Fragen empfehlen (EWE0016)](EWE0016.md) | **0** | - |
@@ -72,7 +72,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Symbollegende anzeigen (EWE0019)](EWE0019.md) | **0** | - |
 | [Text als Hinweis anzeigen (EWE0004)](EWE0004.md) | 1 | [AdaptivityElementHint.test.tsx:7](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Adaptivity/AdaptivityElement/UIComponents/AdaptivityElementHint.test.tsx#L7) |
 | [Türen anzeigen (ELG0019)](ELG0019.md) | **0** | - |
-| [Türen highlighten (ELG0018)](ELG0018.md) | **0** | - |
+| [Türen highlighten (ELG0018)](ELG0018.md) | 2 | [DoorView.test.ts:200](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/Door/DoorView.test.ts#L200)<br/>[DoorView.test.ts:215](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/Door/DoorView.test.ts#L215) |
 | [unzugängliches Lernelement als Hinweis anzeigen (EWE0007)](EWE0007.md) | 1 | [DisplayLearningElementUseCase.test.ts:200](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/DisplayLearningElementUseCase/DisplayLearningElementUseCase.test.ts#L200) |
 | [Vorangegangene und nachfolgende Lernräume ermitteln (EWE0029)](EWE0029.md) | 1 | [GetLearningSpacePrecursorAndSuccessorUseCase.test.ts:90](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/GetLearningSpacePrecursorAndSuccessor/GetLearningSpacePrecursorAndSuccessorUseCase.test.ts#L90) |
 | [zugängliches Lernelement als Hinweis anzeigen (EWE0006)](EWE0006.md) | 1 | [DisplayLearningElementUseCase.test.ts:170](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/DisplayLearningElementUseCase/DisplayLearningElementUseCase.test.ts#L170) |
