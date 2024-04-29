@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Inkscape Tutorial Hervorhebungen erstellen" id="manualInkscapeTutorialHighlighting">
+
+    <procedure title="Einfügen einer Hervorhebung in einem Screenshot für die AdLer Dokumentation mit Inkscape" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Sie erstellen eine in der AdLer Dokumentation nutzbare .png Datei und exportieren diese. Zusätzlich speichern Sie die offenen Daten der Datei als .svg Datei im AdLer Dokumentationsrepository ab.</control>
+            </def>
+        </deflist>
+
+        <tip>
+            <p>Diese Handlungsanweisung geht davon aus, dass Sie Inkscape auf ihrem Computer installiert haben. Falls Sie dies nicht haben, laden und installieren Sie Inkscape unter folgendem Link herunter und installieren das Programm auf Ihrem Computer: <a href="https://inkscape.org/release/inkscape-1.3.2/">https://inkscape.org/release/inkscape-1.3.2/</a></p>
+        </tip>
+        <step>
+            <p>Öffnen Sie Inkscape.</p>
+        </step>
+        <step>
+            <p>Klicken Sie auf Datei > Öffnen oder drücken Sie die Tastenkombination <control>STRG + O</control> (Windows)/<control>CMD + O</control> (macOS)</p>
+            <img src="imageManualInkscapeTutorialHighlightingOpenFile.png" alt="Öffnen einer Datei in Inkscape" width="200" thumbnail="true" />
+        </step>
+        <note>
+            <control>
+                <p>Dies ist ein Ergebnisplatzhalter</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+</topic>

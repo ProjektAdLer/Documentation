@@ -15,7 +15,7 @@
             <li>Kategorie 5 (eingeklappt): Beschreibung</li>
         </list>
         <chapter title="Kategorien ''Allgemein'' und ''Externes Lernmaterial''" id="KategorienAllgemeinUndExternesLernmaterial">
-            <img src="imageManualAuthoringLernelement1Callout.png" alt="imageManualAuthoringLernelement1Callout"/>
+            <img src="imageManualAuthoringAngabenZumLernelement1Callout.png" alt="AngabenZumLernelement1Callout"/>
             <table>
                 <tr>
                     <td>ID</td>
@@ -40,7 +40,7 @@
                 <tr>
                     <td>4</td>
                     <td>Informationssymbol</td>
-                    <td>Enthält zusätzliche Informationen zum Lernelement.</td>
+                    <td>Enthält zusätzliche Informationen zu den Elementen.</td>
                 </tr>
                 <tr>
                     <td>5</td>
@@ -64,7 +64,7 @@
                 </tr>
                 <tr>
                     <td>9</td>
-                    <td>Such-Funktion</td>
+                    <td>Suchen-Funktion</td>
                     <td>Ermöglicht das Suchen eines bestimmten externen Lernmaterials.</td>
                 </tr>
                 <tr>
@@ -85,7 +85,7 @@
             </table>
         </chapter>
         <chapter title="Kategorie ''3D-Darstellung''" id="Kategorien3DDarstellung">
-            <img src="imageManualAuthoringLernelement2Callout.png" alt="imageManualAuthoringLernelement2Callout"/>
+            <img src="imageManualAuthoringAngabenZumLernelement2Callout.png" alt="AngabenZumLernelement2Callout"/>
             <table>
                 <tr>
                     <td>ID</td>
@@ -105,7 +105,7 @@
             </table>
         </chapter>
         <chapter title="Kategorien ''Lernziele'' und ''Beschreibung''" id="KategorienLernzieleUndBeschreibung">
-            <img src="imageManualAuthoringLernelement3Callout.png" alt="imageManualAuthoringLernelement3Callout"/>
+            <img src="imageManualAuthoringAngabenZumLernelement3Callout.png" alt="AngabenZumLernelement3Callout"/>
             <table>
                 <tr>
                     <td>ID</td>

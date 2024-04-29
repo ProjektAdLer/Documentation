@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns:serif="http://www.serif.com/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080"
+	 style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#EEEEEE;}
+	.st2{fill:#172D4D;}
+</style>
+<rect id="PfeilDokumentation" x="0" y="205.5" class="st0" width="1919.5" height="668.5"/>
+<g>
+	<path class="st1" d="M56,687.5V392h1480.4v-98.5l344.8,246.3L1536.3,786v-98.5H56L56,687.5z"/>
+	<path class="st2" d="M1536.3,803c-2.7,0-5.3-0.6-7.8-1.9c-5.7-2.9-9.2-8.8-9.2-15.1v-81.5H56c-9.4,0-17-7.6-17-17V392
+		c0-9.4,7.6-17,17-17h1463.3v-81.5c0-6.4,3.6-12.2,9.2-15.1c5.7-2.9,12.5-2.4,17.7,1.3L1891,525.9c4.5,3.2,7.1,8.3,7.1,13.8
+		c0,5.5-2.7,10.6-7.1,13.8l-344.8,246.3C1543.3,802,1539.8,803,1536.3,803z M73,670.5h1463.3c9.4,0,17,7.6,17,17V753l298.5-213.2
+		l-298.5-213.2V392c0,9.4-7.6,17-17,17H73V670.5z"/>
+</g>
+</svg>
