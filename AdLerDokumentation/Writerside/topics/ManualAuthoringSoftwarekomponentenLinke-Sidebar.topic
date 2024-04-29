@@ -7,7 +7,7 @@
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
         <p>Die linke Sidebar umfasst ingesamt sechs Tabs. Sie kann entweder permanent angezeigt werden oder nur bei Bedarf.</p>
-        <img src="imageManualAuthoringLinkeSidebarCallout.png" alt="imageManualAuthoringLinkeSidebarCallout"/>
+        <img src="imageManualAuthoringLinkeSidebarCallout.png" alt="LinkeSidebarCallout"/>
         <table>
             <tr>
                 <td>ID</td>
