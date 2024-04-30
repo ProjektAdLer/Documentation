@@ -288,6 +288,9 @@
                         <toc-element topic="ELG0019.md"/>
                         <toc-element topic="ELG0018.md"/>
                         <toc-element topic="ELG0022.md"/>
+                        <toc-element topic="EWE0031.md"/>
+                        <toc-element topic="EWE0032.md"/>
+                        <toc-element topic="EWE0033.md"/>
                     </toc-element>
                     <toc-element topic="Fenster-FunktionaleAnforderungen-Engine.md">
                         <toc-element topic="ELG0020.md"/>
