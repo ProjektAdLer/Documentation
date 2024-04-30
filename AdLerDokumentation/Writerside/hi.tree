@@ -480,13 +480,9 @@
             <toc-element topic="ManualAuthoringAutorentool.topic">
                 <toc-element topic="ManualAuthoringFeatures-auf-einen-Blick.topic"/>
                 <toc-element topic="ManualAuthoringSoftwarekomponenten.topic">
-                    <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeilen.topic">
-                        <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic"/>
-                        <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic"/>
-                    </toc-element>
                     <toc-element topic="ManualAuthoringSoftwarekomponentenStartseite.topic"/>
                     <toc-element topic="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">
-                        <toc-element topic="ManualAuthoringSoftwarekomponentenLinke-Sidebar.topic">
+                        <toc-element topic="ManualAuthoringSoftwarekomponentenLinkeSidebar.topic">
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarLernweltBearbeiten.topic"/>
                             <toc-element
@@ -513,18 +509,22 @@
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic"/>
                         </toc-element>
-                        <toc-element topic="ManualAuthoringSoftwarekomponentenMittleres-Fenster.topic">
+                        <toc-element topic="ManualAuthoringSoftwarekomponentenMittleresFenster.topic">
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic"/>
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"/>
                         </toc-element>
-                        <toc-element topic="ManualAuthoringSoftwarekomponentenRechte-Sidebar.topic">
+                        <toc-element topic="ManualAuthoringSoftwarekomponentenRechteSidebar.topic">
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"/>
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"/>
                         </toc-element>
+                    </toc-element>
+                    <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeilen.topic">
+                        <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic"/>
+                        <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic"/>
                     </toc-element>
                 </toc-element>
                 <toc-element topic="ManualAuthoringBedienung.topic">

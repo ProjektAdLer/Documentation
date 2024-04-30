@@ -18,7 +18,7 @@
             <tr>
                 <td>1</td>
                 <td>Eingeklappter/Ausgeklappter Baumknoten</td>
-                <td>Öffnet in der linken Sidebar den Tab "Angaben zum Lernraum" zum Erstellen eines neuen Lernraums. Ist dieser erstellt, erscheint dieser auch in der rechten Sidebar als neuer Lernraum.</td>
+                <td>Zeigt im ausgeklappten Zustand die sich in dem jeweiligen Lernraum befindlichen Elemente. In dieser hierarchischen Übersicht sind zunächst alle Lernräume eingeklappt.</td>
             </tr>
             <tr>
                 <td>2</td>
