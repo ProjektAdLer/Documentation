@@ -488,7 +488,10 @@
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumen.topic">
                                 <toc-element
-                                        topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumenLernzielFormulierung.topic"/>
+                                        topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuLernraeumenLernzielFormulierung.topic">
+                                    <toc-element
+                                            topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumenLernzielFormulierung.topic"/>
+                                </toc-element>
                             </toc-element>
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuStoryelementen.topic"/>
