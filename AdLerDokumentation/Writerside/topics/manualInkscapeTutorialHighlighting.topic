@@ -59,7 +59,7 @@
                 <img src="imageManualInkscapeTutorialHighlightingTypeColor.png" alt="Farbwert eingeben" width="200" thumbnail="true" />
             </step>
             <step>
-                <p>Tippen Sie die benötigte Transparenz von 60% in das Transparenzeingabefeld <control>(A)</control> im Reiter <control>Füllung</control> im rechten Teil der Programmoberfläche ein.</p>
+                <p>Tippen Sie die benötigte Transparenz von 60 % in das Transparenzeingabefeld <control>(A)</control> im Reiter <control>Füllung</control> im rechten Teil der Programmoberfläche ein.</p>
                 <img src="imageManualInkscapeTutorialHighlightingTypeOpacity.png" alt="Transparenzwert eingeben" width="200" thumbnail="true" />
             </step>
             <step>
@@ -87,8 +87,8 @@
                 <img src="imageManualInkscapeTutorialHighlightingChooseFillAndContour.png" alt="Füllung und Kontur wählen" width="200" thumbnail="true" />
             </step>
             <step>
-                <p>Wählen Sie dort nun die Schaltfläche <control>Keine Farbe</control>.</p>
-                <img src="imageManualInkscapeTutorialHighlightingChooseNoContour.png" alt="Auswählen von Keine Farbe für Kontur" width="200" thumbnail="true" />
+                <p>Wählen Sie dort nun die Schaltfläche <control>Keine-Farbe-Button</control>.</p>
+                <img src="imageManualInkscapeTutorialHighlightingChooseNoContour.png" alt="Auswählen von Keine-Farbe-Button für Kontur" width="200" thumbnail="true" />
             </step>
             <step>
                 <p>Öffnen Sie in ihrem Betriebssystem ihren Datei-Explorer und navigieren Sie in das AdLer Dokumentationsrepository. Öffnen Sie dort den Pfad AdLerDokumentation/Writerside/images. Dort befindet sich die Datei <control>imageManualArrow.svg</control>. Klicken Sie mit der linken Maustaste auf diese Datei und ziehen Sie sie mit gedrückter linker Maustaste in den Arbeitsbereich von Inkscape. Lassen Sie nun die linke Maustaste los.</p>
@@ -132,7 +132,7 @@
             </step>
             <step>
                 <p>Überprüfen Sie nun, dass die Einstellungen, denen im folgenden Bild entsprechen. Klicken Sie danach auf den <control>Exportieren-Button</control></p>
-                <tip>Die genaue Höhe und Breite der exportierten Grafik, kann bei Ihnen abweichend sein. Dies entsteht durch mögliche unterschiedliche Bildschirmauflösungen oder unterschiedlich großen Bereichen, die der jeweilige Screenshot abdeckt.</tip>
+                <tip>Die genaue Höhe und Breite der exportierten Grafik kann bei Ihnen abweichend sein. Dies entsteht durch mögliche unterschiedliche Bildschirmauflösungen oder unterschiedlich großen Bereichen, die der jeweilige Screenshot abdeckt.</tip>
                 <img src="imageManualInkscapeTutorialHighlightingClickExportButton.png" alt="Seite auswählen" width="200" thumbnail="true" />
             </step>
             <note>
@@ -145,24 +145,24 @@
 
         <procedure title="Speichern der offenen Daten" id="speichernDerOffenenDaten">
             <step>
-                <p>Klicken Sie auf den Reiter Datei im oberen Menüband der Anwendung. Klicken Sie dann auf <control>Speichern unter...</control></p>
-                <img src="imageManualInkscapeTutorialHighlightingSaveAs.png" alt="Datei > Speichern unter... auswählen" width="200" thumbnail="true" />
+                <p>Klicken Sie auf den Reiter Datei im oberen Menüband der Anwendung. Klicken Sie dann auf <control>Speichern unter ...</control></p>
+                <img src="imageManualInkscapeTutorialHighlightingSaveAs.png" alt="Datei > Speichern unter ... auswählen" width="200" thumbnail="true" />
             </step>
             <step>
                 <p>Wählen Sie im nun erschienenen Systemdialog folgenden Speicherort aus: IhrAdLerDokumentationsrepository/AdLerDokumentation/Writerside/images.</p>
-                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter..." width="200" thumbnail="true" />
+                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter ..." width="200" thumbnail="true" />
             </step>
             <step>
                 <p>Vergeben Sie nun einen Dateinamen nach der <a href="Benutzerdoku-BestPractices.topic#benennung_dateien">Dateinamenkonvention</a> der AdLer Dokumentation.</p>
-                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter..." width="200" thumbnail="true" />
+                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter ..." width="200" thumbnail="true" />
             </step>
             <step>
                 <p>Wählen Sie nun den Dateityp <control>Inkscape-SVG(*.svg)</control> aus.</p>
-                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter..." width="200" thumbnail="true" />
+                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter ..." width="200" thumbnail="true" />
             </step>
             <step>
                 <p>Speichern Sie die Datei nun mit einem Klick auf den <control>Speichern-Button</control> ab.</p>
-                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter..." width="200" thumbnail="true" />
+                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter ..." width="200" thumbnail="true" />
             </step>
             <note>
                 <control>
