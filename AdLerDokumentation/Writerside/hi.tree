@@ -43,19 +43,19 @@
                         <toc-element topic="Autorentool-Storyelement-ErforderlicheEigenschaften.md">
                             <toc-element topic="ASN0006.md"/>
                             <toc-element topic="ASN0007.md"/>
+                            <toc-element topic="ASN0008.md"/>
                         </toc-element>
                         <toc-element topic="Autorentool-Storyelement-OptionaleEigenschaften.md">
-                            <toc-element topic="ASN0008.md"/>
                         </toc-element>
                     </toc-element>
                     <toc-element topic="Autorentool-FunktionaleAnforderungen-StoryelementProzesse.md">
-                        <toc-element topic="AHO41.md"/>
                         <toc-element topic="ASN0011.md"/>
                         <toc-element topic="ASN0012.md"/>
                         <toc-element topic="ASN0013.md"/>
                         <toc-element topic="ASN0015.md"/>
                         <toc-element topic="ASN0014.md"/>
                         <toc-element topic="ASN0016.md"/>
+                        <toc-element topic="AHO41.md"/>
                     </toc-element>
                 </toc-element>
                 <toc-element topic="LMS-Autorentool.md">
