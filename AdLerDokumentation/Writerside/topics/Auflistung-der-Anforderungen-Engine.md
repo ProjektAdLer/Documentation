@@ -76,6 +76,9 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Storyelement laden (EZZ0006)](EZZ0006.md) | **0** | - |
 | [Storyelement Tooltip anzeigen (ELG0023)](ELG0023.md) | 2 | [StoryNPCController.test.ts:46](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/StoryNPC/StoryNPCController.test.ts#L46)<br/>[StoryNPCController.test.ts:70](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/StoryNPC/StoryNPCController.test.ts#L70) |
 | [Tür Tooltip anzeigen (ELG0022)](ELG0022.md) | 2 | [DoorController.test.ts:46](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/Door/DoorController.test.ts#L46)<br/>[DoorController.test.ts:53](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/Door/DoorController.test.ts#L53) |
+| [Türdialogfenster anzeigen (EWE0032)](EWE0032.md) | **0** | - |
+| [Türdialogfenster schließen (EWE0033)](EWE0033.md) | **0** | - |
+| [Türen anklicken (EWE0031)](EWE0031.md) | **0** | - |
 | [Türen anzeigen (ELG0019)](ELG0019.md) | **0** | - |
 | [Türen highlighten (ELG0018)](ELG0018.md) | 2 | [DoorView.test.ts:200](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/Door/DoorView.test.ts#L200)<br/>[DoorView.test.ts:215](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/Door/DoorView.test.ts#L215) |
 | [Umgebung anzeigen (ELG0021)](ELG0021.md) | 2 | [AmbienceBuilder.test.ts:21](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/Ambience/AmbienceBuilder.test.ts#L21)<br/>[AmbienceView.test.ts:43](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/Ambience/AmbienceView.test.ts#L43) |
