@@ -9,4 +9,4 @@ Der Generator muss eine Moodle Backup Datei (MBZ) generieren.
 
 ## Aktivitätsdiagramm:
 
-
+![imageAktivitätsdiagrammMBZErstellen](imageAktivitätsdiagrammMBZErstellen.png)
