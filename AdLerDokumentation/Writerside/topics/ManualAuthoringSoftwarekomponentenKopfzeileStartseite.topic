@@ -42,8 +42,8 @@
             </tr>
             <tr>
                 <td>5</td>
-                <td>Spracheinstellungen-Button</td>
-                <td>Zeigt die aktuell eingestellte Sprache (deutsch) an und ermöglicht einen Wechsel der Sprache (englisch).</td>
+                <td>Sprache-Button</td>
+                <td>Stellt die Sprache für die Benutzungsoberfläche des Autorentools auf Deutsch oder Englisch ein. Standardmäßig ist die deutsche Sprache ausgewählt.</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>

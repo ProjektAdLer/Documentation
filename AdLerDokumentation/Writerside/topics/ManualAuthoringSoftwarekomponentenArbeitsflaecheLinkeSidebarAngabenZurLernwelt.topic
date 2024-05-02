@@ -3,8 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Angaben zur Lernwelt" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarLernweltBearbeiten"
-       help-id="ManualAuthoringSoftwarekomponentenArbeitsflächeLinkeSidebarLernweltBearbeiten">
+       title="Angaben zur Lernwelt" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZurLernwelt"
+       help-id="ManualAuthoringSoftwarekomponentenArbeitsflächeLinkeSidebarLernweltBearbeiten;ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarLernweltBearbeiten">
 
     <show-structure for="chapter" depth="2"/>
     <chapter title="Übersicht" id="bezeichnung_produktteil">
@@ -16,7 +16,7 @@
         <li>Kategorie 4 (eingeklappt): Beschreibung</li>
     </list>
         <chapter title="Kategorie ''Allgemein''" id="KategorieAllgemeinLernwelt">
-        <img src="imageManualAuthoringAngabenZurLernweltCallout1.png" alt="imageManualAuthoringAngabenZurLernweltCallout1"/>
+        <img src="imageManualAuthoringAngabenZurLernwelt1Callout.png" alt="AngabenZurLernwelt1Callout"/>
             <table>
                 <tr>
                     <td>ID</td>
@@ -61,7 +61,7 @@
             </table>
         </chapter>
         <chapter title="Kategorien ''Einschreibemethode'', ''Lernziele'' und ''Beschreibung''" id="KategorieEinschreibemethodeLernzieleBeschreibung">
-            <img src="imageManualAuthoringAngabenZurLernweltCallout2.png" alt="imageManualAuthoringAngabenZurLernweltCallout2"/>
+            <img src="imageManualAuthoringAngabenZurLernwelt2Callout.png" alt="AngabenZurLernwelt2Callout"/>
             <table>
                 <tr>
                     <td>ID</td>
