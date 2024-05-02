@@ -16,7 +16,7 @@
 
         <tip>Voraussetzungen:
             <list>
-                <li>Das Lernraummenü der gewünschten Lernwelt ist geöffnet. Siehe: <a href="ManualEngine-Lernwelt-öffnen.topic">Lernwelt öffnen</a></li>
+                <li>Das Lernraummenü der gewünschten Lernwelt ist geöffnet. Siehe: <a href="ManualEngine-Lernwelt-oeffnen.topic">Lernwelt öffnen</a></li>
             </list>
         </tip>
         <warning><img alt="imageManualEngine-lock-icon-closed-nobg.svg" src="imageManualEngine-lock-icon-closed-nobg.svg"/> Gesperrte Lernräume sind nicht betretbar. Sie müssen durch Abschluss vorheriger Lernräume freigeschaltet werden. Siehe <a href="ManualEngine-Lernraum-abschließen.topic">Lernräume abschließen</a>

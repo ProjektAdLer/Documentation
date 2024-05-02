@@ -560,7 +560,7 @@
                 </toc-element>
                 <toc-element topic="ManualEngine_Softwarekomponenten.topic">
                     <toc-element topic="ManualEngine_Startmenü.topic"/>
-                    <toc-element topic="ManualEngine-Lernweltmenü.topic"/>
+                    <toc-element topic="ManualEngine-Lernweltmenue.topic"/>
                     <toc-element topic="ManualEngine-Lernraummenü.topic"/>
                     <toc-element topic="ManualEngine-Lernraum-allgemein.topic"/>
                     <toc-element topic="ManualEngine-Lernraum-Lernelement.topic"/>
@@ -572,7 +572,7 @@
                 <toc-element topic="ManualEngine-3D-Lernumgebung-bedienen.topic">
                     <toc-element topic="ManualEngine-In-3D-Lernumgebung-anmelden.topic"/>
                     <toc-element topic="ManualEngine-Von-3D-Lernumgebung-abmelden.topic"/>
-                    <toc-element topic="ManualEngine-Lernwelt-öffnen.topic"/>
+                    <toc-element topic="ManualEngine-Lernwelt-oeffnen.topic"/>
                     <toc-element topic="ManualEngine-Lernwelt-abschließen.topic"/>
                     <toc-element topic="ManualEngine-Lernraum-öffnen.topic"/>
                     <toc-element topic="ManualEngine-Lernraum-abschließen.topic"/>

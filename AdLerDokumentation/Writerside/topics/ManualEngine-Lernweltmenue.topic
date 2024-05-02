@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Lernweltmenü" id="ManualEngine-Lernweltmenü">
+       title="Lernweltmenü" id="ManualEngine-Lernweltmenue" help-id="ManualEngine-Lernweltmenü">
 
     <chapter title="Produktbeschreibung" id="bezeichnung_produktteil">
         <img src="imageManualEngine_CalloutsLernwerltmenue.png" alt="240502_Callouts_Lernweltmenü.png"/>
@@ -56,7 +56,7 @@
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
-            <li><a href="ManualEngine-Lernwelt-öffnen.topic">Lernwelt öffnen</a></li>
+            <li><a href="ManualEngine-Lernwelt-oeffnen.topic">Lernwelt öffnen</a></li>
             <li><a href="ManualEngine-Lernwelt-abschließen.topic">Lernwelt abschließen</a></li>
         </list>
     </chapter>
