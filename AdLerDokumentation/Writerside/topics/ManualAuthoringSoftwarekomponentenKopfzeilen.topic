@@ -5,5 +5,6 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Kopfzeile" id="ManualAuthoringSoftwarekomponentenKopfzeilen">
 
-    <p>Start typing here...</p>
+    <p>Die Kopfzeile ist sowohl auf der Startseite als auch in der Arbeitsfläche am oberen Rand des Autorentools platziert. Abhängig davon, welche der beiden Ansichten "Startseite" oder "Arbeitsfläche" geöffnet sind, stehen verschiedene Funktionen zur Verfügung. Die angezeigten Buttons bleiben dabei stets dieselben, lediglich ihr Zugriff variiert je nach geöffneter Ansicht.</p>
+    <p>Die Buttons werden auf der Ansicht vorgestellt, auf der sie eine zentralere Rolle spielen.</p>
 </topic>

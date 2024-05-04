@@ -8,4 +8,4 @@ Der Generator muss ein [ATF](ATF-GE.md) Dokument lesen.
 
 ## Aktivitätsdiagramm:
 
-
+![imageAktivitätsdiagrammATFLesen](imageAktivitätsdiagrammATFLesen.png)

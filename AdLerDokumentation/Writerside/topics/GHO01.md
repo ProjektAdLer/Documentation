@@ -9,4 +9,4 @@ Der Generator muss eine [ATF](ATF-GE.md) Objekt-Struktur erstellen.
 
 ## Aktivitätsdiagramm:
 
-
+![imageAktivitätsdiagrammATFErstellen](imageAktivitätsdiagrammATFErstellen.png)
