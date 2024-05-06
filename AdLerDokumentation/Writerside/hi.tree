@@ -687,8 +687,10 @@
         <toc-element topic="L.md">
             <toc-element topic="Lernmaterial-GE.md"/>
             <toc-element topic="Lernelement-GE.md"/>
+            <toc-element topic="Lernelement-Slot-GE.md"/>
             <toc-element topic="Lernwelt-GE.md"/>
             <toc-element topic="Lernraum-GE.md"/>
+            <toc-element topic="Lernraum-Template-GE.md"/>
             <toc-element topic="Learning-Management-System-GE.md"/>
             <toc-element topic="Lehrende-GE.md"/>
             <toc-element topic="Lernende-GE.md"/>
