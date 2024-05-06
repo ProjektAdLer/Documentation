@@ -600,11 +600,11 @@
                 </toc-element>
                 <toc-element topic="manualInkscapeTutorialHighlighting.topic"/>
                 <toc-element topic="manualWorkshop.md">
-                    <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
                     <toc-element topic="manualWorkshopInstallAuthoringTool.topic"/>
                     <toc-element topic="manualWorkshopCompleteLearningWorld.topic"/>
-                    <toc-element topic="manualWorkshopLoginToEngine.topic"/>
+                    <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
                     <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
+                    <toc-element topic="manualWorkshopLoginToEngine.topic"/>
                 </toc-element>
                 <toc-element topic="Requirments-Engineering-und-Management.md">
                     <toc-element topic="Engine-BestPractices.md"/>

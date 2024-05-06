@@ -6,21 +6,6 @@ Dieser **Styleguide** beschreibt die in der Kommunikation und Umsetzung des AdLe
 
 ### Farben
 
-Wir verwenden Farben in einem begrenzten Sättigungs- und Helligkeitsbereich. Die Beschränkung lautet, wie folgt:
-- HSB(A)/HSV(A)/HSL(A) - (H = 0 – 360, S = 10% - 90%, B/V/L = 10% - 90%, A = 0 – 100%)
-- **Ausnahmen sollten nur reines Schwarz (#000000) und reines Weiß (#ffffff) sein**
-
-Die Wahl des Farbtons an sich, soll nicht eingeschränkt werden, da in der AdLer-Engine, wie im Autorentool, verschiedenste Farben zur Ausarbeitung der einzelnen Elemente der Anwendung benötigt werden. Eine Auswahl von Farben, per Eingabe der HSL Werte ist auf der Seite der [w3schools](https://www.w3schools.com/colors/colors_hsl.asp) möglich.
-Dort sind ebenfalls generelle Informationen zu Farben im Web verfügbar.
-
-Zusätzlich werden zu benutzende Farben für die Kommunikationsarbeit des AdLer-Projekts festgelegt. Farbangaben gehen von wenig gesättigt bis stark gesättigt.
-
-#### Verwendete Farben AdLerEngine und Autorentool
-
-***Weiß (#FFFFFF), rgb (255, 255, 255) und Schwarz (#000000), rgb (0, 0, 0) können immer verwendet werden.***
-
-Schlagschatten: #707070 - Abstände: x = 0, y = 3 Breite: 6px
-
 #### Farbenzuordnung AdLerEngine
 
         babylonbg: #33334d - Babylon Default Hintergrundfarbe
@@ -38,11 +23,6 @@ Schlagschatten: #707070 - Abstände: x = 0, y = 3 Breite: 6px
         adlerbggradientto: #e2eaf2 - Zielfarbe (Hellblau) des Hintergrundverlaufs der Menüs
         nodehandlecolor: #e9d6b3 - Farbe der einzelnen Nodes in der Graphansicht des Lernweltmenüs
         adleroceanblue: #45a0e5 - Farbe zur Hervorhebung von Links
-
-### Changelog Farben
-
-#### 16.05.23
-- Rot #d70000 / rgb 215, 0, 0 hinzugefügt (verwendet in Icons 09-debug und 09-1-bug-icon)
 
 ### Typografie
 
@@ -67,15 +47,3 @@ Wir stellen den Nutzer in den Mittelpunkt der Entwicklung unserer Anwendung. Auc
 
 #### Verwendung des/der Logos
 Das Logo ist in seinen verschiedenen Ausführungen auf der Cloud zu finden. Nach Möglichkeit sollten zur Bildschirmdarstellung die Vektorgrafiken (.svg) bevorzugt genutzt werden, da diese unendlich skalierbar sind. Ist dies nicht möglich werden die Pixeldateien (.png) verwendet.
-
-## Linksammlung UI Guidelines
-
--   [2D UI | Decentraland](https://docs.decentraland.org/development-guide/onscreen-ui/)
--   [CORPORATE PROFILE - XTOPIA\_UI\_Guideline.pdf](https://developers.xtopia.io/clients/XTOPIA_Developers_0DA0F184-BC10-43F1-9346-83655F63F9B8/contentms/img/doc/XTOPIA_UI_Guideline.pdf)
--   [Designing a User Interface - Win32 apps | Microsoft Docs](https://docs.microsoft.com/en-us/windows/win32/appuistart/designing-a-user-interface)
--   [Destiny 2 UI + Visual Design on Behance](https://www.behance.net/gallery/60073341/Destiny-2-UI-Visual-Design)
--   [Homepage - Material Design](https://material.io/)
--   [Human Interface Guidelines - Design - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/)
--   [Design guidelines  |  Conversational Actions  |  Google Developers](https://developers.google.com/assistant/interactivecanvas/design)
--   [Google Design](https://design.google/)
--   [Scientific Paper: Design Guidelines for Hybrid 2D/3D User Interfaces on Tablet Devices](https://www.researchgate.net/profile/Katri-Salo/publication/236873172_Design_Guidelines_for_Hybrid_2D3D_User_Interfaces_on_Tablet_Devices_-_A_User_Experience_Evaluation/links/54737db70cf29afed60f5533/Design-Guidelines-for-Hybrid-2D-3D-User-Interfaces-on-Tablet-Devices-A-User-Experience-Evaluation.pdf?origin=publication_detail)
