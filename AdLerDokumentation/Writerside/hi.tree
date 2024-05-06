@@ -295,7 +295,7 @@
                     <toc-element topic="Fenster-FunktionaleAnforderungen-Engine.md">
                         <toc-element topic="ELG0020.md"/>
                     </toc-element>
-                    <toc-element topic="Dekoration.md">
+                    <toc-element topic="Dekorationen.md">
                         <toc-element topic="ELG0026.md"/>
                         <toc-element topic="ELG0025.md"/>
                     </toc-element>
@@ -370,6 +370,7 @@
                 <toc-element topic="Applikationsspezifische-Anforderungen-Engine.md">
                     <toc-element topic="Charakter-Engine.md">
                         <toc-element topic="EZZ0018.md"/>
+                        <toc-element topic="EZZ0019.md"/>
                     </toc-element>
                     <toc-element topic="Pausenhinweise.md">
                         <toc-element topic="EKJ0001.md"/>
