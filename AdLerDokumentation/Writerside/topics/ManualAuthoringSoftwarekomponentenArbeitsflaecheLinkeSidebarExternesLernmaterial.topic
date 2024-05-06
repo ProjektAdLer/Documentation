@@ -25,7 +25,7 @@
             <tr>
                 <td>1</td>
                 <td>Dropzone</td>
-                <td>Öffnet ein Fenster, in dem die hinzuzufügenden Dateien gesucht werden können.</td>
+                <td>Öffnet ein Dateimanager, in dem die hinzuzufügenden Dateien gesucht werden können. Zudem können Dateien auch per Drag&Drop hinzugefügt werden.</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -40,12 +40,12 @@
             <tr>
                 <td>4</td>
                 <td>Name des Links-Textfeld</td>
-                <td>Einzeiliges Textfeld zur Angabe vom Namen des Links.</td>
+                <td>Textfeld zur Angabe vom Namen des Links.</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>URL-Textfeld</td>
-                <td>Einzeiliges Textfeld zur Angabe der URL des Links.</td>
+                <td>Textfeld zur Angabe der URL des Links.</td>
             </tr>
             <tr>
                 <td>6</td>
@@ -76,7 +76,7 @@
             <tr>
                 <td>9</td>
                 <td>Löschen-Button</td>
-                <td>Löscht alle ausgewählte externe Lernmaterial.</td>
+                <td>Löscht alle ausgewählten externen Lernmaterialien.</td>
             </tr>
             <tr>
                 <td>10</td>
@@ -105,18 +105,18 @@
             </tr>
             <tr>
                 <td>15</td>
-                <td>Nächste-Seite-Button</td>
+                <td>Nächste Seite-Button</td>
                 <td>Zeigt die nächste Seite mit hinzugefügtem externen Lernmaterial an.</td>
             </tr>
             <tr>
                 <td>16</td>
-                <td>Letzte-Seite-Button</td>
+                <td>Letzte Seite-Button</td>
                 <td>Zeigt die letzte Seite mit hinzugefügtem externen Lernmaterial an.</td>
             </tr>
             <tr>
                 <td>17</td>
-                <td>Dateipfad-Öffnen-Button</td>
-                <td>Öffnet ein Fenster mit dem Ordner, in dem das hinzugefügte externe Lernmaterial abliegt.</td>
+                <td>Dateipfad öffnen-Button</td>
+                <td>Öffnet den Dateimanager mit dem Ordner, in dem das hinzugefügte externe Lernmaterial abliegt.</td>
             </tr>
             <tr>
                 <td>18</td>

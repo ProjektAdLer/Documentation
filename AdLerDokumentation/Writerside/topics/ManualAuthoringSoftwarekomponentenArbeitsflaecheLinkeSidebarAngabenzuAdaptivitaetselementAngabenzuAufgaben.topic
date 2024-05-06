@@ -6,7 +6,7 @@
        title="Angaben zu Aufgaben" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgaben">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Hier muss noch ein Text hin.</p>
+        <p>Ein Adaptivitätselement besteht aus mindestens einer Aufgabe. Eine Aufgabe weist mindestens Frage auf. Diese kann als einfach, mittelschwer oder schwer angezeigt werden.</p>
     <img src="imageManualAuthoringAngabenZumAdaptivitaetselementAufgabeCallout.png" alt="AngabenZumAdaptivitaetselementAufgabeCallout"/>
         <table>
             <tr>
@@ -17,7 +17,7 @@
             <tr>
                 <td>1</td>
                 <td>Name der Aufgabe-Textfeld</td>
-                <td>Zweizeiliges Textfeld zur Angabe vom Namen der Aufgabe.</td>
+                <td>Textfeld zur Angabe vom Namen der Aufgabe.</td>
             </tr>
             <tr>
                 <td>2</td>

@@ -37,7 +37,7 @@
             <tr>
                 <td>5</td>
                 <td>Lernwelt importieren-Button</td>
-                <td>Öffnet ein Fenster zum Importieren einer bereits existierenden Lernwelt-Datei.</td>
+                <td>Öffnet den Dateimanager zum Importieren einer bereits existierenden Lernwelt-Datei.</td>
             </tr>
             <tr>
                 <td>6</td>
@@ -76,7 +76,7 @@
             </tr>
             <tr>
                 <td>13</td>
-                <td>Bildlaufleiste</td>
+                <td>Scrollbar</td>
                 <td>Zeigt alle erstellten und importierten Lernwelten an.</td>
             </tr>
         </table>

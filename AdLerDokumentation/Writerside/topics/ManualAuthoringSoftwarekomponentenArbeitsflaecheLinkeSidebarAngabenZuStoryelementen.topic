@@ -8,7 +8,7 @@
 
     <show-structure for="chapter" depth="2"/>
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Der Tab für das Angeben von Informationen zu Storyelementen enthält insgesamt drei Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
+        <p>Der Tab für das Angeben von Metadaten und Informationen zu Storyelementen enthält insgesamt drei Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
         <list>
             <li>Kategorie 1 (ausgeklappt): Allgemein</li>
             <li>Kategorie 2 (ausgeklappt): Story</li>
@@ -24,7 +24,7 @@
             <tr>
                 <td>1</td>
                 <td>Erforderliche Angabe</td>
-                <td>Enthält die Information, dass bestimmte Angaben zum Storyelement erforderlich sind.</td>
+                <td>Enthält die Information, dass  mit einem Stern markierte Angaben zum Storyelement erforderlich sind.</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -34,7 +34,7 @@
             <tr>
                 <td>3</td>
                 <td>Name des Storyelements-Textfeld</td>
-                <td>Einzeiliges Textfeld zur Angabe vom Namen des Storyelements (Erforderliche Angabe)</td>
+                <td>Textfeld zur Angabe vom Namen des Storyelements (Erforderliche Angabe)</td>
             </tr>
             <tr>
                 <td>4</td>
@@ -43,7 +43,7 @@
             </tr>
             <tr>
                 <td>5</td>
-                <td>Informationssymbold</td>
+                <td>Informationssymbol</td>
                 <td>Enthält zusätzliche Informationen zum Storyelement.</td>
             </tr>
             <tr>
@@ -74,7 +74,7 @@
             <tr>
                 <td>11</td>
                 <td>Story-Textblock</td>
-                <td>Mehrzeiliges Textfeld zur Angabe einer Story für den Lernraum.</td>
+                <td>Textfeld zur Angabe einer Story für den Lernraum.</td>
             </tr>
             <tr>
                 <td>12</td>

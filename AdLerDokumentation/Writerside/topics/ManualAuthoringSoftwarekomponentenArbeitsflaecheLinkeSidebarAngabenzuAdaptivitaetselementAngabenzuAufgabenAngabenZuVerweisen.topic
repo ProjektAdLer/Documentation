@@ -6,7 +6,7 @@
        title="Angaben zu Verweisen" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuVerweisen">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Hier muss noch ein Text hin.</p>
+        <p>Bei erfolglosem Abschließen einer Frage durch die Studierenden kann ein zusätzlicher Verweis hinzugefügt werden. Es kann auf ein Lernelement oder auf ein externes Lernmaterial verwiesen werden. Zudem kann der Verweis mit einem zusätzlichen Hinweis versehen werden.</p>
     <img src="imageManualAuthoringAngabenZumAdaptivitaetselementVerweisCallout.png" alt="AngabenZumAdaptivitaetselementAufgabeVerweis"/>
         <table>
             <tr>
@@ -22,11 +22,11 @@
             <tr>
                 <td>2</td>
                 <td>Hinweis-Textfeld</td>
-                <td>Mehrzeiliges Textfeld zur optionalen Angabe eines Hinweises.</td>
+                <td>Textfeld zur optionalen Angabe eines Hinweises.</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Löschen-Button</td>
+                <td>Schließen-Button</td>
                 <td>Schließt das Fenster zum Hinzufügen und Bearbeiten von Verweisen zu einem Adaptivitätselement.</td>
             </tr>
             <tr>
