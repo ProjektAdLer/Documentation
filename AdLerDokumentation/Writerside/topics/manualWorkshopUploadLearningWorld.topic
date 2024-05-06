@@ -10,13 +10,14 @@
             <control>Mit dieser Schritt-für-Schritt-Anleitung laden Sie Ihre vervollständigte Lernwelt vom Autorentool aus als Moodle-Kurs auf den AdLer-Server.</control>
         </def>
     </deflist>
-        <procedure title="Anmelden auf den AdLer-Server im Autorentool">
+    <chapter title="Anmelden auf den AdLer-Server im Autorentool" id="anmeldenAufDenAdLerServerImAutorentool">
+        <procedure>
             <tip>
-                <p>Sie befinden sich auf der im folgenden Bild gezeigten Ansicht, Ihres vervollständigten Lernraums.</p>
+                <p>Sie befinden sich auf der im folgenden Bild gezeigten Ansicht Ihrer vervollständigten Lernwelt.</p>
                 <img src="imageManualWorkshopLoginToAdLerServerStartingPoint.png" alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" />
             </tip>
             <step>
-                <p>Klicken Sie auf den <control>Einloggen auf AdLer-Server-Button</control>.</p>
+                <p>Klicken Sie auf den Button <control>Einloggen auf AdLer-Server</control>.</p>
                 <img src="imageManualWorkshopHighlightedAdministrationButton.png" alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" />
             </step>
             <step>
@@ -24,11 +25,11 @@
                 <img src="imageManualWorkshopLoginToAdLerServerAuthoringTool.png" alt="Anmeldeformular zur Anmeldung auf dem AdLer Server im Autorentool" width="200" thumbnail="true" />
             </step>
             <step>
-                <p>Klicken Sie auf den <control>Anmelden-Button</control>.</p>
+                <p>Klicken Sie auf den Button <control>Anmelden</control>.</p>
                 <img src="imageManualWorkshopLoginToAdLerServerAuthoringToolHighlightedAnmeldenButton.png" alt="Hervorgehobener Anmelden-Button im Anmeldeformular" width="200" thumbnail="true" />
             </step>
             <step>
-                <p>Sie können das nun angezeigte Fenster über den <control>X-Button</control> im oberen, rechten Eck des Pop-Up Fensters, schließen.</p>
+                <p>Sie können das nun angezeigte Fenster über den Button <control>X</control> im oberen, rechten Eck des Pop-Up Fensters, schließen.</p>
                 <img src="imageManualWorkshopLoginToAdLerServerSuccessful.png" alt="Erfolgreiche Anmeldung auf dem AdLer-Server" width="200" thumbnail="true" />
             </step>
             <note>
@@ -38,9 +39,11 @@
                 </control>
             </note>
         </procedure>
-        <procedure title="Lernwelt auf den AdLer-Server hochladen">
+    </chapter>
+    <chapter title="Lernwelt auf den AdLer-Server hochladen" id="lernweltAufDenAdLerServerHochladen">
+        <procedure>
             <tip>
-                <p>Sie befinden sich auf der im folgenden Bild gezeigten Ansicht, Ihres vervollständigten Lernraums.</p>
+                <p>Sie befinden sich auf der im folgenden Bild gezeigten Ansicht Ihrer vervollständigten Lernwelt.</p>
                 <img src="imageManualWorkshopLoginToAdLerServerStartingPoint.png" alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" />
             </tip>
             <step>
@@ -63,4 +66,5 @@
                 <p>Klicken Sie nun auf <control>In Moodle öffnen</control> und fahren Sie mit der Anleitung <a href="manualWorkshopSubscribeToLearningWorld.topic">"Einschreiben in eine Lernwelt"</a> fort.</p>
             </step>
         </procedure>
+    </chapter>
 </topic>

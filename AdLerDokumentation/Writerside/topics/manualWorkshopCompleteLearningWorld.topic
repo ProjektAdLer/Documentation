@@ -11,8 +11,8 @@
             <control>Mit dieser Schritt für Schritt Beschreibung finalisieren Sie die Lernwelt des Workshops und lernen den Umgang mit dem AdLer Autorentool kennen.</control>
         </def>
     </deflist>
-        <chapter title="Vorbereitung des Autorentools">
-            <procedure title="Importieren der zur Verfügung gestellten Lernwelt in das Autorentool" id="ImportierenDerZurVerfuegungGestelltenLernweltInDasAutorentool">
+        <chapter title="Importieren der zur Verfügung gestellten Lernwelt in das Autorentool" id="ImportierenDerZurVerfuegungGestelltenLernweltInDasAutorentool">
+            <procedure>
                 <deflist type="compact" sorted="desc">
                     <def title="&#127937;">
                         <control>Sie importieren die Workshop-Lernwelt in das Autorentool, um mit der Bearbeitung beginnen zu können.</control>
