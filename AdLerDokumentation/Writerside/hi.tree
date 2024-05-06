@@ -81,6 +81,8 @@
                         </toc-element>
                     </toc-element>
                     <toc-element topic="Lernraum-Prozesse-Autorentool.md">
+                        <toc-element topic="ASN0027.md"/>
+                        <toc-element topic="ASN0026.md"/>
                         <toc-element topic="AHO31.md"/>
                         <toc-element topic="Autorentool-FunktionaleAnforderungen-Lernraum-Elemente-platzieren.md">
                             <toc-element topic="ASN0020.md"/>
