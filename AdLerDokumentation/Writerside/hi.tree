@@ -6,6 +6,15 @@
                   name="AdLerDokumentation"
                   start-page="Spezifikation.md">
 
+    <toc-element topic="Beispielanwendungen.md">
+        <toc-element topic="manualWorkshop.md">
+            <toc-element topic="manualWorkshopInstallAuthoringTool.topic"/>
+            <toc-element topic="manualWorkshopCompleteLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopLoginToEngine.topic"/>
+        </toc-element>
+    </toc-element>
     <toc-element topic="Spezifikation.md">
         <toc-element topic="AdLer-System.md">
             <toc-element topic="Styleguide-AdLer.md"/>
@@ -474,15 +483,6 @@
             <toc-element topic="Schnittstellen-Backend.md"/>
             <toc-element topic="Software-Architektur-Backend.md"/>
             <toc-element topic="Software-Design-Backend.md"/>
-        </toc-element>
-        <toc-element topic="Beispielanwendungen.md">
-            <toc-element topic="manualWorkshop.md">
-                <toc-element topic="manualWorkshopInstallAuthoringTool.topic"/>
-                <toc-element topic="manualWorkshopCompleteLearningWorld.topic"/>
-                <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
-                <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
-                <toc-element topic="manualWorkshopLoginToEngine.topic"/>
-            </toc-element>
         </toc-element>
         <toc-element topic="Plugin-BG.md">
             <toc-element topic="Funktionale-Anforderungen-Plugin.md"/>
