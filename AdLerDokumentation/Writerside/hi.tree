@@ -6,15 +6,6 @@
                   name="AdLerDokumentation"
                   start-page="Spezifikation.md">
 
-    <toc-element topic="Beispielanwendungen.md">
-        <toc-element topic="manualWorkshop.md">
-            <toc-element topic="manualWorkshopInstallAuthoringTool.topic"/>
-            <toc-element topic="manualWorkshopCompleteLearningWorld.topic"/>
-            <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
-            <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
-            <toc-element topic="manualWorkshopLoginToEngine.topic"/>
-        </toc-element>
-    </toc-element>
     <toc-element topic="Spezifikation.md">
         <toc-element topic="AdLer-System.md">
             <toc-element topic="Styleguide-AdLer.md"/>
@@ -54,8 +45,7 @@
                             <toc-element topic="ASN0007.md"/>
                             <toc-element topic="ASN0008.md"/>
                         </toc-element>
-                        <toc-element topic="Autorentool-Storyelement-OptionaleEigenschaften.md">
-                        </toc-element>
+                        <toc-element topic="Autorentool-Storyelement-OptionaleEigenschaften.md"/>
                     </toc-element>
                     <toc-element topic="Autorentool-FunktionaleAnforderungen-StoryelementProzesse.md">
                         <toc-element topic="ASN0011.md"/>
@@ -168,8 +158,7 @@
                         </toc-element>
                         <toc-element topic="Adaptivitätselement-Prozesse-Autorentool.md">
                             <toc-element topic="AHO43.md"/>
-                            <toc-element topic="AWA0003.md">
-                            </toc-element>
+                            <toc-element topic="AWA0003.md"/>
                             <toc-element topic="AWA0010.md"/>
                             <toc-element topic="AWA0011.md"/>
                             <toc-element topic="AWA0012.md"/>
@@ -265,8 +254,7 @@
             <toc-element topic="Auflistung-der-Anforderungen-Generator.md"/>
             <toc-element topic="Funktionale-Anforderungen-Generator.md">
                 <toc-element topic="MBZ-Generator.md">
-                    <toc-element topic="GHO11.md">
-                    </toc-element>
+                    <toc-element topic="GHO11.md"/>
                 </toc-element>
                 <toc-element topic="ATF-Generator.md">
                     <toc-element topic="GHO03.md"/>
@@ -432,8 +420,7 @@
             </toc-element>
             <toc-element topic="Software-Design-Engine.md"/>
             <toc-element topic="Software-Architektur-Engine.md"/>
-            <toc-element topic="Schnittstellen-Engine.md">
-            </toc-element>
+            <toc-element topic="Schnittstellen-Engine.md"/>
             <toc-element topic="SBOM-Engine.md"/>
         </toc-element>
         <toc-element topic="Backend-BG.md">
@@ -492,7 +479,36 @@
             <toc-element topic="Software-Architektur-Plugin.md"/>
             <toc-element topic="Software-Design-Plugin.md"/>
         </toc-element>
-        <toc-element topic="Benutzerdokumentation.md">
+        <toc-element topic="Templates.md">
+            <toc-element topic="Templates-Benutzerdoku.topic">
+                <toc-element topic="Benutzerdoku-Template-Leistungsbeschreibung.topic"/>
+                <toc-element topic="Benutzerdoku-Template-Produkbeschreibung.topic"/>
+                <toc-element topic="Benutzerdoku-Template-Handlungsanweisung.topic"/>
+            </toc-element>
+            <toc-element topic="Glossar-Templates.md">
+                <toc-element topic="Glossareintrag-Template.md"/>
+            </toc-element>
+            <toc-element topic="Spezifikation-Templates.md">
+                <toc-element topic="Autorentool-Templates.md">
+                    <toc-element topic="Funktionale-Anforderung-Autorentool.md"/>
+                </toc-element>
+                <toc-element topic="Generator-Templates.md">
+                    <toc-element topic="Funktionale-Anforderung-Generator.md"/>
+                </toc-element>
+                <toc-element topic="Engine-Templates.md">
+                    <toc-element topic="Funktionale-Anforderung-Engine.md"/>
+                </toc-element>
+                <toc-element topic="Backend-Templates.md">
+                    <toc-element topic="Funktionale-Anforderung-Backend.md"/>
+                </toc-element>
+                <toc-element topic="Plugin-Templates.md">
+                    <toc-element topic="Funktionale-Anforderung-Plugin.md"/>
+                </toc-element>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="Benutzerdokumentation-Templates.md"/>
+    </toc-element>
+    <toc-element topic="Benutzerdokumentation.md">
         <toc-element topic="Lehrende-BD.md">
             <toc-element topic="ManualAuthoringAdLer-System.topic"/>
             <toc-element topic="ManualAuthoringAutorentool.topic">
@@ -571,8 +587,7 @@
         <toc-element topic="Lernende-BD.md">
             <toc-element topic="ManualMoodle-Moodle.topic"/>
             <toc-element topic="ManualEngine-3D-Lernumgebung.topic">
-                <toc-element topic="ManualEngine-Leistungsbeschreibung.topic">
-                </toc-element>
+                <toc-element topic="ManualEngine-Leistungsbeschreibung.topic"/>
                 <toc-element topic="ManualEngine_Softwarekomponenten.topic">
                     <toc-element topic="ManualEngine_Startmenü.topic"/>
                     <toc-element topic="ManualEngine-Lernweltmenue.topic"/>
@@ -602,141 +617,120 @@
                 </toc-element>
             </toc-element>
         </toc-element>
-            <toc-element topic="Administrierende-BD.md"/>
-            <toc-element topic="Entwickelnde-BD.md">
-                <toc-element topic="EntwickelndeBenutzerdokumentation.md">
-                    <toc-element topic="Benutzerdoku-BestPractices.topic"/>
-                </toc-element>
-                <toc-element topic="manualInkscapeTutorialHighlighting.topic"/>
-                <toc-element topic="Requirments-Engineering-und-Management.md">
-                    <toc-element topic="Engine-BestPractices.md"/>
-                    <toc-element topic="Requirements-Engineering-und-Management-Leitfaden.md"/>
-                </toc-element>
-                <toc-element topic="Software-Entwicklung-BD.md">
-                    <toc-element topic="Git-hub-Basics-und-Arbeitsweise.md"/>
-                </toc-element>
-                <toc-element topic="Writerside-howto-and-best-practice-BD.md">
-                </toc-element>
+        <toc-element topic="Administrierende-BD.md"/>
+        <toc-element topic="Entwickelnde-BD.md">
+            <toc-element topic="EntwickelndeBenutzerdokumentation.md">
+                <toc-element topic="Benutzerdoku-BestPractices.topic"/>
             </toc-element>
+            <toc-element topic="manualInkscapeTutorialHighlighting.topic"/>
+            <toc-element topic="Requirments-Engineering-und-Management.md">
+                <toc-element topic="Engine-BestPractices.md"/>
+                <toc-element topic="Requirements-Engineering-und-Management-Leitfaden.md"/>
+            </toc-element>
+            <toc-element topic="Software-Entwicklung-BD.md">
+                <toc-element topic="Git-hub-Basics-und-Arbeitsweise.md"/>
+            </toc-element>
+            <toc-element topic="Writerside-howto-and-best-practice-BD.md"/>
         </toc-element>
-        <toc-element topic="Glossar.md">
-            <toc-element topic="A.md">
-                <toc-element topic="Adaptivitätsaufgabe-GE.md"/>
-                <toc-element topic="Adaptivitätselement-GE.md"/>
-                <toc-element topic="Adaptivitätsfrage-GE.md"/>
-                <toc-element topic="Adaptivitätshinweis-GE.md"/>
-                <toc-element topic="AdLer-Projekt-GE.md"/>
-                <toc-element topic="AdLer-System-GE.md"/>
-                <toc-element topic="Administrierende-GE.md"/>
-                <toc-element topic="ATF-GE.md"/>
-                <toc-element topic="Autorentool-GE.md"/>
-                <toc-element topic="Avatar-GE.md"/>
-            </toc-element>
-            <toc-element topic="B.md">
-                <toc-element topic="Backend-GE.md"/>
-                <toc-element topic="Benutzerdokumentation-GE.md"/>
-                <toc-element topic="Betrachtungsgegenstand-GE.md"/>
-            </toc-element>
-            <toc-element topic="C.md">
-                <toc-element topic="CRUDSP-GE.md"/>
-            </toc-element>
-            <toc-element topic="D.md">
-                <toc-element topic="Datenbank.md"/>
-                <toc-element topic="Dokumentation-GE.md"/>
-            </toc-element>
-            <toc-element topic="E.md">
-                <toc-element topic="Endanwender-GE.md"/>
-                <toc-element topic="Engine-GE.md"/>
-                <toc-element topic="Entwickelnde-GE.md"/>
-            </toc-element>
-            <toc-element topic="F.md"/>
-            <toc-element topic="G.md">
-                <toc-element topic="Generator-GE.md"/>
-            </toc-element>
-            <toc-element topic="H.md">
-                <toc-element topic="H5P-GE.md"/>
-            </toc-element>
-            <toc-element topic="I.md">
-                <toc-element topic="Installationsanleitung-GE.md"/>
-            </toc-element>
-            <toc-element topic="J.md"/>
-            <toc-element topic="K.md"/>
-            <toc-element topic="L.md">
-                <toc-element topic="Lernmaterial-GE.md"/>
-                <toc-element topic="Lernelement-GE.md"/>
-                <toc-element topic="Lernwelt-GE.md"/>
-                <toc-element topic="Lernraum-GE.md"/>
-                <toc-element topic="Learning-Management-System-GE.md"/>
-                <toc-element topic="Lehrende-GE.md"/>
-                <toc-element topic="Lernende-GE.md"/>
-            </toc-element>
-            <toc-element topic="M.md">
-                <toc-element topic="MBZ-GE.md"/>
-            </toc-element>
-            <toc-element topic="N.md">
-                <toc-element topic="NavMesh-GE.md"/>
-                <toc-element topic="Nutzer-GE.md"/>
-                <toc-element topic="Nicht-Primitives-Lernelement-GE.md"/>
-                <toc-element topic="NPC-GE.md"/>
-            </toc-element>
-            <toc-element topic="O.md"/>
-            <toc-element topic="P.md">
-                <toc-element topic="Primitives-Lernelement-GE.md"/>
-                <toc-element topic="Pausenhinweis-GE.md"/>
-                <toc-element topic="Pausenempfehlung-GE.md"/>
-            </toc-element>
-            <toc-element topic="Q.md"/>
-            <toc-element topic="R.md">
-                <toc-element topic="REST.md"/>
-            </toc-element>
-            <toc-element topic="S.md">
-                <toc-element topic="Storyelement-GE.md"/>
-                <toc-element topic="Spezifikation-GE.md"/>
-            </toc-element>
-            <toc-element topic="T.md">
-                <toc-element topic="Tür.md"/>
-                <toc-element topic="Theme-GE.md"/>
-                <toc-element topic="Technische-Dokumentation-GE.md"/>
-                <toc-element topic="Testdokumentation-GE.md"/>
-            </toc-element>
-            <toc-element topic="U.md">
-                <toc-element topic="UserToken.md"/>
-            </toc-element>
-            <toc-element topic="V.md"/>
-            <toc-element topic="W.md">
-                <toc-element topic="Wartungsdokumentation-GE.md"/>
-            </toc-element>
-            <toc-element topic="X.md"/>
-            <toc-element topic="Y.md"/>
-            <toc-element topic="Z.md"/>
+    </toc-element>
+    <toc-element topic="Beispielanwendungen.md">
+        <toc-element topic="manualWorkshop.md">
+            <toc-element topic="manualWorkshopInstallAuthoringTool.topic"/>
+            <toc-element topic="manualWorkshopCompleteLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopLoginToEngine.topic"/>
         </toc-element>
-        <toc-element topic="Templates.md">
-            <toc-element topic="Templates-Benutzerdoku.topic">
-                <toc-element topic="Benutzerdoku-Template-Leistungsbeschreibung.topic"/>
-                <toc-element topic="Benutzerdoku-Template-Produkbeschreibung.topic"/>
-                <toc-element topic="Benutzerdoku-Template-Handlungsanweisung.topic"/>
-            </toc-element>
-            <toc-element topic="Glossar-Templates.md">
-                <toc-element topic="Glossareintrag-Template.md"/>
-            </toc-element>
-            <toc-element topic="Spezifikation-Templates.md">
-                <toc-element topic="Autorentool-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Autorentool.md"/>
-                </toc-element>
-                <toc-element topic="Generator-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Generator.md"/>
-                </toc-element>
-                <toc-element topic="Engine-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Engine.md"/>
-                </toc-element>
-                <toc-element topic="Backend-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Backend.md"/>
-                </toc-element>
-                <toc-element topic="Plugin-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Plugin.md"/>
-                </toc-element>
-            </toc-element>
+    </toc-element>
+    <toc-element topic="Glossar.md">
+        <toc-element topic="A.md">
+            <toc-element topic="Adaptivitätsaufgabe-GE.md"/>
+            <toc-element topic="Adaptivitätselement-GE.md"/>
+            <toc-element topic="Adaptivitätsfrage-GE.md"/>
+            <toc-element topic="Adaptivitätshinweis-GE.md"/>
+            <toc-element topic="AdLer-Projekt-GE.md"/>
+            <toc-element topic="AdLer-System-GE.md"/>
+            <toc-element topic="Administrierende-GE.md"/>
+            <toc-element topic="ATF-GE.md"/>
+            <toc-element topic="Autorentool-GE.md"/>
+            <toc-element topic="Avatar-GE.md"/>
         </toc-element>
-        <toc-element topic="Benutzerdokumentation-Templates.md"/>
+        <toc-element topic="B.md">
+            <toc-element topic="Backend-GE.md"/>
+            <toc-element topic="Benutzerdokumentation-GE.md"/>
+            <toc-element topic="Betrachtungsgegenstand-GE.md"/>
+        </toc-element>
+        <toc-element topic="C.md">
+            <toc-element topic="CRUDSP-GE.md"/>
+        </toc-element>
+        <toc-element topic="D.md">
+            <toc-element topic="Datenbank.md"/>
+            <toc-element topic="Dokumentation-GE.md"/>
+        </toc-element>
+        <toc-element topic="E.md">
+            <toc-element topic="Endanwender-GE.md"/>
+            <toc-element topic="Engine-GE.md"/>
+            <toc-element topic="Entwickelnde-GE.md"/>
+        </toc-element>
+        <toc-element topic="F.md"/>
+        <toc-element topic="G.md">
+            <toc-element topic="Generator-GE.md"/>
+        </toc-element>
+        <toc-element topic="H.md">
+            <toc-element topic="H5P-GE.md"/>
+        </toc-element>
+        <toc-element topic="I.md">
+            <toc-element topic="Installationsanleitung-GE.md"/>
+        </toc-element>
+        <toc-element topic="J.md"/>
+        <toc-element topic="K.md"/>
+        <toc-element topic="L.md">
+            <toc-element topic="Lernmaterial-GE.md"/>
+            <toc-element topic="Lernelement-GE.md"/>
+            <toc-element topic="Lernwelt-GE.md"/>
+            <toc-element topic="Lernraum-GE.md"/>
+            <toc-element topic="Learning-Management-System-GE.md"/>
+            <toc-element topic="Lehrende-GE.md"/>
+            <toc-element topic="Lernende-GE.md"/>
+        </toc-element>
+        <toc-element topic="M.md">
+            <toc-element topic="MBZ-GE.md"/>
+        </toc-element>
+        <toc-element topic="N.md">
+            <toc-element topic="NavMesh-GE.md"/>
+            <toc-element topic="Nutzer-GE.md"/>
+            <toc-element topic="Nicht-Primitives-Lernelement-GE.md"/>
+            <toc-element topic="NPC-GE.md"/>
+        </toc-element>
+        <toc-element topic="O.md"/>
+        <toc-element topic="P.md">
+            <toc-element topic="Primitives-Lernelement-GE.md"/>
+            <toc-element topic="Pausenhinweis-GE.md"/>
+            <toc-element topic="Pausenempfehlung-GE.md"/>
+        </toc-element>
+        <toc-element topic="Q.md"/>
+        <toc-element topic="R.md">
+            <toc-element topic="REST.md"/>
+        </toc-element>
+        <toc-element topic="S.md">
+            <toc-element topic="Storyelement-GE.md"/>
+            <toc-element topic="Spezifikation-GE.md"/>
+        </toc-element>
+        <toc-element topic="T.md">
+            <toc-element topic="Tür.md"/>
+            <toc-element topic="Theme-GE.md"/>
+            <toc-element topic="Technische-Dokumentation-GE.md"/>
+            <toc-element topic="Testdokumentation-GE.md"/>
+        </toc-element>
+        <toc-element topic="U.md">
+            <toc-element topic="UserToken.md"/>
+        </toc-element>
+        <toc-element topic="V.md"/>
+        <toc-element topic="W.md">
+            <toc-element topic="Wartungsdokumentation-GE.md"/>
+        </toc-element>
+        <toc-element topic="X.md"/>
+        <toc-element topic="Y.md"/>
+        <toc-element topic="Z.md"/>
     </toc-element>
 </instance-profile>
