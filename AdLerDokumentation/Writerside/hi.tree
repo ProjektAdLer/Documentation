@@ -571,7 +571,12 @@
                 </toc-element>
                 <toc-element topic="ManualAuthoringBedienung.topic">
                     <toc-element topic="ManualAuthoringBedienungStartseite.topic">
-                        <toc-element topic="ManualAuthoringBedienungStartseiteLernwelt-erstellen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungStartseiteLernweltErstellen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungStartseiteLernweltImportieren.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungStartseiteLernweltSortieren.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungStartseiteLernweltLoeschen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen.topic"/>
                     </toc-element>
                     <toc-element topic="ManualAuthoringBedienungArbeitsfläche-Linke-Sidebar.topic">
                         <toc-element topic="ManualAuthoringBedienungLinkeSidebarLernwelt-bearbeiten.topic"/>

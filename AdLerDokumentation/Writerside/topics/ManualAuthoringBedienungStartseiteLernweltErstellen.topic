@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernwelt erstellen" id="ManualAuthoringBedienungStartseiteLernweltErstellen"
+       help-id="ManualAuthoringLernwelt-erstellen;ManualAuthoringBedienungStartseiteLernwelt-erstellen">
+
+    <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Softwarekomponenten: Startseite</a>
+
+    <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Eine neue Lernwelt erstellen und diese Lernwelt mit Metadaten und weiteren Informationen versehen.</p>
+            </def>
+        </deflist>
+
+        <step><p>Klicken Sie auf den Button <b>Neu.</b></p>
+            <img src="imageManualAuthoringStartseiteLernweltErstellenButtonCallout.png" alt="LernweltErstellenButtonCallout" width="200" thumbnail="true"/>
+            <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Neue Lernwelt erstellen" wird angezeigt.</tip>
+            <note>&#10004; Im linken Bereich des Fensters erscheint ein weiteres Dialogfenster zur Angabe von Metadaten und weiteren Informationen.</note>
+        </step>
+        <step><p>Vergeben Sie im ersten Textfeld einen Namen für die Lernwelt.</p>
+            <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+            <tip>Der Name der Lernwelt muss angegeben werden.</tip>
+            <warning>
+                <p>Für den Namen der Lernwelt gelten bestimmte Regeln --> siehe <a href="ASN0023.md">Erforderliche Eigenschaften für Lernwelt</a>.</p>
+            </warning>
+        </step>
+        <step><p>Machen Sie in den folgenden Kategorien über die bereitgestellten Textfelder weitere Angaben zur neuen Lernwelt:</p>
+            <tip>Diese Angaben sind optional.</tip>
+            <tabs>
+                <tab id="Lernwelt-Allgemein" title="Allgemein">
+                    <list>
+                        <li><b>Kurzname</b>
+                            <p>Geben Sie den Kurznamen für Ihre Lernwelt an.</p>
+                        </li>
+                        <li><b>Autorinnen und Autoren</b>
+                            <p>Geben Sie die Personen an, die an der Erstellung und Gestaltung dieser Lernwelt beteiligt sind.</p>
+                        </li>
+                        <li><b>Sprache</b>
+                            <p>Geben Sie die Sprache in den von Ihnen verwendeten Lernmaterialen (Video, Text usw.) an.</p>
+                        </li>
+                        <li><b>Link zur Evaluation</b>
+                            <p>Tragen Sie eine URL zu Ihrer Evaluation ein, wenn Sie Ihre Lernwelt durch Ihre Lernenden evaluieren möchten.</p>
+                        </li>
+                    </list>
+                </tab>
+                <tab id="Lernwelt-Einschreibemethode" title="Einschreibemethode">
+                    <list>
+                        <li><b>Einschreibeschlüssel</b>
+                            <p>Tragen Sie einen Einschreibeschlüssel zu Ihrer Lernwelt ein, wenn Sie den Zugriff zu dieser einschränken möchten.</p>
+                        </li>
+                    </list>
+                    <tip>Wenn Sie nichts in das Feld eintragen, können sich alle Lernenden in die Lernwelt einschreiben.</tip>
+                </tab>
+                <tab id="Lernwelt-Lernziele" title="Lernziele">
+                    <list>
+                        <li><b>Lernziele</b>
+                            <p>Formulieren Sie ein oder mehrere Lernziele für Ihre Lernwelt.</p>
+                        </li>
+                    </list>
+                </tab>
+                <tab id="Lernwelt-Beschreibung" title="Beschreibung">
+                    <list>
+                        <li><b>Beschreibung</b>
+                            <p>Beschreiben Sie das Thema Ihrer Lernwelt.</p>
+                        </li>
+                    </list>
+                </tab>
+            </tabs>
+
+
+        </step>
+
+        <step><p>Bestätigen Sie Ihre Angaben zur Lernwelt mit einem Klick auf den Button <b>OK.</b></p>
+            <img src="imageManualAuthoringOKButton.png" alt="OKButton" width="200" thumbnail="true"/>
+        </step>
+        <note><control>&#10004; Sie haben eine neue Lernwelt erstellt.</control></note>
+        <tip>Nach Erstellen der neuen Lernwelt werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Ausgestaltung der neu erstellten Lernwelt beginnen können.</tip>
+    </procedure>
+</topic>

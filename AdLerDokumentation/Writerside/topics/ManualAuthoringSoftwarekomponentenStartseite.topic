@@ -80,11 +80,14 @@
                 <td>Zeigt alle erstellten und importierten Lernwelten an.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic">Lernwelt erstellen</a></li>
+            <li>Lernwelt importieren</li>
+            <li>Lernwelt sortieren</li>
+            <li>Lernwelt öffnen</li>
+            <li>Lernwelt löschen</li>
+            <li>Dateinamen der Lernwelt anzeigen</li>
         </list>
     </chapter>
 </topic>
