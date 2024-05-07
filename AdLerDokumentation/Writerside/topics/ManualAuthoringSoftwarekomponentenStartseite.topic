@@ -84,10 +84,10 @@
         <list>
             <li><a href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic">Lernwelt erstellen</a></li>
             <li><a href="ManualAuthoringBedienungStartseiteLernweltImportieren.topic">Lernwelt importieren</a></li>
-            <li>Lernwelt sortieren</li>
-            <li>Lernwelt öffnen</li>
-            <li>Lernwelt löschen</li>
-            <li>Dateinamen der Lernwelt anzeigen</li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltSortieren.topic">Lernwelt sortieren</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic">Lernwelt öffnen</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltLoeschen.topic">Lernwelt löschen</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen.topic">Dateinamen der Lernwelt anzeigen</a></li>
         </list>
     </chapter>
 </topic>
