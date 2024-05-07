@@ -45,6 +45,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Lernelement laden (EZZ0008)](EZZ0008.md) | **0** | - |
 | [Lernelement platzieren (ELG0028)](ELG0028.md) | **0** | - |
 | [Lernelement Tooltip anzeigen (ELG0024)](ELG0024.md) | 2 | [LearningElementController.test.ts:43](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/LearningElements/LearningElementController.test.ts#L43)<br/>[LearningElementController.test.ts:65](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Presentation/Babylon/LearningElements/LearningElementController.test.ts#L65) |
+| [Lernelement-Inhalt anzeigen (EWE0037)](EWE0037.md) | **0** | - |
 | [Lernelementabschluss anzeigen (EWE0034)](EWE0034.md) | **0** | - |
 | [Lernenden ausloggen (EZZ0002)](EZZ0002.md) | 1 | [LogoutUseCase.test.ts:28](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Logout/LogoutUseCase.test.ts#L28) |
 | [Lernenden einloggen (EZZ0001)](EZZ0001.md) | 1 | [LoginUseCase.test.ts:73](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Login/LoginUseCase.test.ts#L73) |
