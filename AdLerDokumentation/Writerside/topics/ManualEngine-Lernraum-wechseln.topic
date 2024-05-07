@@ -5,40 +5,33 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Lernraum wechseln" id="ManualEngine-Lernraum-wechseln">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
-        <deflist type="compact" sorted="desc">
-            <def title="&#127937;">
-                <p>Hier wird das Ziel der Handlung beschrieben</p>
+    <procedure title="" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist sorted="desc">
+            <def title="&#127937; Ziel der Handlung">
+                <p>Einen anderen <a href="Lernraum-GE.md">Lernraum</a> aus der <a href="Lernwelt-GE.md">Lernwelt</a> auswählen und in der 3D-Ansicht öffnen.</p>
             </def>
         </deflist>
 
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Ein Lernraum einer Lernwelt ist geöffnet</li>
+                <li>Das Lernwelt-Navigationsmenü ist geöffnet. Siehe: <a href="Lernraum-Navigationsmenü.topic">Lernraum-Navigationsmenü</a></li>
+            </list>
+        </tip>
 
-        <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
+        <step>
+            <p>Öffnen Sie das Lernraum-Menü über den <control>Lernraum-Menü</control>-Button des <control>Lernraum-Navigationsmenüs</control></p>
             <note>
-                Hier wird ein Zwischenergebnis beschrieben
+                Sie haben den Lernraum verlassen und befinden sich nun im <a href="ManualEngine-Lernraummenü.topic">Lernraum-Menü</a>.
             </note>
         </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
-        </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+            <p>Öffnen Sie einen Lernraum. Siehe: <a href="ManualEngine-Lernraum-öffnen.topic">Lernraum öffnen</a></p>
         </step>
-        <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
+        <note>
+            <format style="bold">&#10004; Der Lernraum wurde verlassen und der neu ausgewählte Lernraum startet in der 3D-Ansicht.</format>
+            <img alt="imageManualEngine-LearningSpace-ViewOnStart.png" src="imageManualEngine-LearningSpace-ViewOnStart.png" />
+        </note>
     </procedure>
 </topic>

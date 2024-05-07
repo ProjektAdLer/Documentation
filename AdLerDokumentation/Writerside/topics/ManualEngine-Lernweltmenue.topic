@@ -6,6 +6,7 @@
        title="Lernweltmenü" id="ManualEngine-Lernweltmenue" help-id="ManualEngine-Lernweltmenü">
 
     <chapter title="Produktbeschreibung" id="bezeichnung_produktteil">
+        <p>Eine Übersicht und Beschreibung der auswählbaren Lernwelten.</p>
         <img src="imageManualEngine_CalloutsLernwerltmenue.png" alt="240502_Callouts_Lernweltmenü.png"/>
         <table>
             <tr>
