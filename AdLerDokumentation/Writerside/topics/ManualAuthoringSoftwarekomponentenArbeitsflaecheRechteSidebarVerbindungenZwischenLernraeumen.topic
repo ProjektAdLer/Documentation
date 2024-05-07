@@ -38,7 +38,7 @@
             <tr>
                 <td>5</td>
                 <td>Lernraum importieren-Button</td>
-                <td>Öffnet ein Fenster zum Importieren einer bereits existierenden Lernraum-Datei.</td>
+                <td>Öffnet den Dateimanager zum Importieren einer bereits existierenden Lernraum-Datei.</td>
             </tr>
             <tr>
                 <td>6</td>

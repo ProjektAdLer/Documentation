@@ -83,7 +83,7 @@
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
             <li><a href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic">Lernwelt erstellen</a></li>
-            <li>Lernwelt importieren</li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltImportieren.topic">Lernwelt importieren</a></li>
             <li>Lernwelt sortieren</li>
             <li>Lernwelt öffnen</li>
             <li>Lernwelt löschen</li>
