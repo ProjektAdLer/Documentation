@@ -40,25 +40,25 @@
             </note>
         </procedure>
     </chapter>
-    <chapter title="Lernwelt auf den AdLer-Server hochladen" id="lernweltAufDenAdLerServerHochladen">
+    <chapter title="Veröffentlichen der Lernwelt" id="veroeffentlichenDerLernwelt">
         <procedure>
             <tip>
                 <p>Sie befinden sich auf der im folgenden Bild gezeigten Ansicht Ihrer vervollständigten Lernwelt.</p>
                 <img src="imageManualWorkshopLoginToAdLerServerStartingPoint.png" alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" />
             </tip>
             <step>
-                <p>Klicken Sie auf den <control>Lernwelt als Moodle Lernwelt-Datei(.mbz) veröffentlichen-Button</control>.</p>
+                <p>Klicken Sie auf den Button <control>Lernwelt als Moodle Lernwelt-Datei(.mbz) veröffentlichen</control>.</p>
                 <img src="imageManualWorkshopUploadCourseButtonHighlighted.png" alt="Hervorgehobener Lernwelt als Moodle Lernwelt-Datei(.mbz) veröffentlichen-Button" width="200" thumbnail="true" />
             </step>
             <step>
                 <p>Klicken Sie im nun angezeigten Pop-Up Fenster auf <control>Hochladen</control>.</p>
                 <img src="imageManualWorkshopConfirmUploadDialog.png" alt="Lade Lernwelt hoch Pop-Up Fenster" width="200" thumbnail="true" />
                 <tip>
-                    <p>Warten Sie kurz, bis die Lernwelt auf den Server hochgeladen ist.</p>
+                    <p>Warten Sie, bis die Lernwelt auf den Server hochgeladen ist.</p>
                     <img src="imageManualWorkshopLoadingScreen.png" alt="Ladebildschirm während des Hochladens einer Lernwelt" width="200" thumbnail="true" />
                 </tip>
                 <note>
-                    <p>Sie haben Ihre Lernwelt erfolgreich auf den AdLer-Server hochgeladen.</p>
+                    <p>Sie haben Ihre Lernwelt erfolgreich veröffentlicht und als Moodle-Kurs auf den AdLer-Server hochgeladen.</p>
                     <img src="imageManualWorkshopUploadLearningWorldSuceeded.png" alt="Hochladen erfolgreich Pop-Up Fenster" width="200" thumbnail="true" />
                 </note>
             </step>

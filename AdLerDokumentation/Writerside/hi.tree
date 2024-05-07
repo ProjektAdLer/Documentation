@@ -643,6 +643,7 @@
     <toc-element topic="Beispielanwendungen.md">
         <toc-element topic="manualWorkshop.md">
             <toc-element topic="manualWorkshopInstallAuthoringTool.topic"/>
+            <toc-element topic="manualWorkshopPrepareLearningWorld.topic"/>
             <toc-element topic="manualWorkshopCompleteLearningWorld.topic"/>
             <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
             <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>

@@ -7,16 +7,16 @@
     <show-structure for="chapter, procedure" depth="2"/>
     <deflist type="compact" sorted="desc">
         <def title="&#127937;">
-            <control>Mit dieser Schritt für Schritt Beschreibung laden Sie sich das Autorentool herunter und installieren es.</control>
+            <control>Mit dieser Schritt-für-Schritt-Anleitung laden Sie das Autorentool herunter und installieren dieses.</control>
         </def>
     </deflist>
     <procedure title="Herunterladen des Autorentools">
         <step>
-            <p>Öffnen Sie ihren favorisierten Browser.</p>
+            <p>Öffnen Sie Ihren bevorzugten Browser.</p>
         </step>
         <step>
-            <p>Tippen Sie folgende Adresse in Ihre Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a></p>
-            <tip>Sie befinden sich nun auf der Release-Seite des Autorentools, im Projekt AdLer, auf GitHub.</tip>
+            <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a></p>
+            <tip>Sie befinden sich nun auf der GitHub-Seite "Releases", auf der alle Versionen des AdLer-Autorentools aufgeführt werden. Die aktuellste Version wird ganz oben angezeigt.</tip>
         </step>
         <note>
             <control>

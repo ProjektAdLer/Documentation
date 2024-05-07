@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Vorbereiten der Lernwelt" id="manualWorkshopPrepareLearningWorld"
+       help-id="manualWorkshopCreateAdLerLearningWorldAuthoringTool">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>Mit dieser Schritt-für-Schritt-Anleitung importieren Sie die vorgefertigte Lernwelt in das AdLer-Autorentool und ändern Ihre Metadaten, um mit der Fertigstellung der Lernwelt beginnen zu können.</control>
+        </def>
+    </deflist>
+
+        <procedure title="Importieren der Lernwelt" id="ImportierenDerZurVerfuegungGestelltenLernweltInDasAutorentool">
+
+            <tip>
+                <p>Sie sollten das Autorentool in der aktuellsten Version auf Ihrem Rechner gestartet haben. Die Versionsnummer finden Sie in der Kopfzeile der Anwendung. Bei Start des Autorentools sehen Sie folgende Anzeige.</p>
+                <img src="imageManualWorkshopDefaultScreenAuthoringTool.png" alt="Standardansicht des Autorentools nach dem Öffnen der Anwendung" width="200" thumbnail="true" />
+            </tip>
+            <step>
+                <p>Klicken Sie auf den Button <control>Importieren</control>.</p>
+            </step>
+            <step>
+                <p>Suchen Sie im erscheinenden Systemdialog Ihres Betriebssystems die für den Workshop bereitgestellte Datei <control>240403_Lernwelt_Workshops2024_teilfertig.zip</control></p>
+                <img src="imageManualWorkshopExplorerArchiveImport.png" alt="Import-Betriebssystemdialog am Beispiel von Windows 11" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Bestätigen Sie Ihre Auswahl mit einem Klick auf den Button <control>Öffnen</control>.</p>
+                <tip>Nach dem Klick auf den Button <control>Öffnen</control> im Systemdialog erscheint folgende Ansicht.</tip>
+                <img src="imageManualWorkshopOpenedLearningWorldDefault.png" alt="Standardansicht des Autorentools nach dem Öffnen der Lernwelt" width="200" thumbnail="true" />
+            </step>
+            <note>
+                <control>
+                    <p>Sie haben die Lernwelt erfolgreich in das Autorentool importiert.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+
+        <procedure title="Vorbereiten der Lernwelt" id="aendernDerBezeichnungenDerLernwelt">
+
+            <tip>
+                <p>Vergewissern Sie sich, dass im linken Bereich des Autorentool der Tab <control>Angaben zur Lernwelt</control> angewählt ist.</p>
+                <img src="imageManualWorkshopOpenedLearningWorldDefaultHiglightedLearningWorldSection.png" alt="Markierung des Reiters Angaben zur Lernwelt" width="200" thumbnail="true" />
+            </tip>
+            <step>
+                <p>Klicken Sie in das Feld <control>Name</control> im Reiter <control>Lernwelt bearbeiten</control> auf der linken Seite des Fensters.</p>
+            </step>
+            <step>
+                <p>Ändern Sie den Namen, wie in der Ihnen vorliegenden Ausfülltabelle angegeben, ab.</p>
+            </step>
+            <step>
+                <p>Ändern Sie den Kurznamen, wie in der Ihnen vorliegenden Ausfülltabelle angegeben, ab.</p>
+                <img src="imageManualWorkshopChangedNames.png" alt="Geänderte Namen der Lernwelt" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern.</p>
+            </step>
+            <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+            <note>
+                <control>
+                    <p>Sie haben alle erforderlichen Änderungen an der Lernwelt vorgenommen.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+
+        <tip>
+            Fahren Sie nun mit dem <a href="manualWorkshopCompleteLearningWorld.topic">Vervollständigen der Lernwelt</a> fort.
+        </tip>
+</topic>
