@@ -18,6 +18,30 @@
             <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a></p>
             <tip>Sie befinden sich nun auf der GitHub-Seite "Releases", auf der alle Versionen des AdLer-Autorentools aufgeführt werden. Die aktuellste Version wird ganz oben angezeigt.</tip>
         </step>
+        <step>
+            <p>Wählen Sie nun unter dem Punkt Assets, die Datei aus, welche für ihr System passend ist und laden Sie diese herunter.</p>
+            <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
+        </step>
+        <step><p>Im folgenden sehen Sie eine Auflistung, welche Datei sie für welches Betriebssystem herunterladen müssen, um das Autorentool installieren zu können.</p>
+        </step>
+        <tabs>
+            <tab id="windows" title="Windows">
+                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.exe</control></p>
+                <img src="imageManualWorkshopDownloadAuthoringToolWin.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
+            </tab>
+            <tab id="macOS" title="macOS">
+                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.dmg</control></p>
+                <img src="imageManualWorkshopDownloadAuthoringToolMac.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
+            </tab>
+            <tab id="linux" title="Linux">
+                <p>Klicken Sie je nach Ihrer installierten Linux Distribution auf die passende Datei. Zum Beispiel <control>.snap</control> oder <control>.AppImage</control></p>
+                <img src="imageManualWorkshopDownloadAuthoringToolLinux.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
+            </tab>
+        </tabs>
+        <tip>
+            <p>Die von Ihnen ausgewählte Datei wird nun heruntergeladen.</p>
+            <img src="imagesManualWorkshopExeDownload.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
+        </tip>
         <note>
             <control>
                 <p>Sie haben das Autorentool erfolgreich heruntergeladen.</p>
@@ -27,7 +51,14 @@
     </procedure>
     <procedure title="Installieren des Autorentools unter Windows 10/11">
         <step>
-
+            <p>Öffnen Sie den Ordner, in den Sie die Installationsdatei heruntergeladen haben.</p>
+        </step>
+        <tip>
+            <p>Standardmäßig lädt Windows Dateien in den Ordner <control>C:\Users\NameIhresPCs\Downloads</control> herunter.</p>
+        </tip>
+        <step>
+            <p>Öffnen Sie die heruntergeladene Autorentool Installationsdatei mit einem Doppelklick.</p>
+            <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
         </step>
         <note>
             <control>
