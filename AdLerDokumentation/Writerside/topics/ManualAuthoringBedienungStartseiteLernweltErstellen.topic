@@ -19,7 +19,7 @@
         <step><p>Klicken Sie auf den Button <b>Neu.</b></p>
             <img src="imageManualAuthoringStartseiteLernweltErstellenButtonCallout.png" alt="LernweltErstellenButtonCallout" width="200" thumbnail="true"/>
             <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Neue Lernwelt erstellen" wird angezeigt.</tip>
-            <note>&#10004; Im linken Bereich des Fensters erscheint ein weiteres Dialogfenster zur Angabe von Metadaten und weiteren Informationen.</note>
+            <note>Im linken Bereich des Fensters erscheint ein weiteres Dialogfenster zur Angabe von Metadaten und weiteren Informationen.</note>
         </step>
         <step><p>Vergeben Sie im ersten Textfeld einen Namen für die Lernwelt.</p>
             <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
@@ -43,7 +43,7 @@
                             <p>Geben Sie die Sprache in den von Ihnen verwendeten Lernmaterialen (Video, Text usw.) an.</p>
                         </li>
                         <li><b>Link zur Evaluation</b>
-                            <p>Tragen Sie eine URL zu Ihrer Evaluation ein, wenn Sie Ihre Lernwelt durch Ihre Lernenden evaluieren möchten.</p>
+                            <p>Tragen Sie eine URL zu Ihrem Evaluationsbogen ein, wenn Sie die Umsetzung dieser Lernwelt in 3D durch Lernende evaluieren möchten.</p>
                         </li>
                     </list>
                 </tab>
@@ -53,7 +53,7 @@
                             <p>Tragen Sie einen Einschreibeschlüssel zu Ihrer Lernwelt ein, wenn Sie den Zugriff zu dieser einschränken möchten.</p>
                         </li>
                     </list>
-                    <tip>Wenn Sie nichts in das Feld eintragen, können sich alle Lernenden in die Lernwelt einschreiben.</tip>
+                    <tip>Wenn Sie nichts in das Feld eintragen, können sich alle Lernenden selbst in die Lernwelt einschreiben.</tip>
                 </tab>
                 <tab id="Lernwelt-Lernziele" title="Lernziele">
                     <list>
@@ -75,9 +75,14 @@
         </step>
 
         <step><p>Bestätigen Sie Ihre Angaben zur Lernwelt mit einem Klick auf den Button <b>OK.</b></p>
-            <img src="imageManualAuthoringOKButton.png" alt="OKButton" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringStartseiteLernweltErstellenOKButtonCallout.png" alt="OKButton" width="200" thumbnail="true"/>
         </step>
-        <note><control>&#10004; Sie haben eine neue Lernwelt erstellt.</control></note>
-        <tip>Nach Erstellen der neuen Lernwelt werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Ausgestaltung der neu erstellten Lernwelt beginnen können.</tip>
+        <note>
+            <control>
+                <p>Sie haben erfolgreich eine neue Lernwelt erstellt.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+        <tip>Nach Erstellen der neuen Lernwelt werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Ausgestaltung dieser Lernwelt beginnen können.</tip>
     </procedure>
 </topic>

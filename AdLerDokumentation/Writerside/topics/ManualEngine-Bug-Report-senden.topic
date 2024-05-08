@@ -5,40 +5,90 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Bug-Report senden" id="ManualEngine-Bug-Report-senden">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <procedure title="Bug-Report senden" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <p>Hier wird das Ziel der Handlung beschrieben</p>
+                <p>Einen Bug-Report über Fehler in der AdLer 3D-Umgebung, dem Autorentool oder Moodle erstellen und senden.</p>
             </def>
         </deflist>
 
-
-        <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>
-                Hier wird ein Zwischenergebnis beschrieben
-            </note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step>
+            <p>Öffnen Sie das <control>AdLer - Bug Report</control> Formular</p>
+            <tip>
+                <p>Das Bug-Report-Formular kann durch folgende Möglichkeiten erreicht werden:</p>
+                <list>
+                    <li>Klicken des <control>Bug-Report</control>-Buttons im <a href="ManualEngine-Hilfe-Menü.topic"/></li>
+                    <li>Direktes Aufrufen über <a href="https://bugreport.projekt-adler.eu/"/></li>
+                </list>
+            </tip>
         </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+            <p>Optional: Falls Sie bereit sind Rückfragen zu erhalten und so der Fehlerbehebung beizutragen, geben Sie Ihre E-Mail-Adresse an.</p>
         </step>
-        <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
+        <step>
+            <p>Erforderlich: Wählen Sie das betroffene System (AdLer 3D-Umgebung, Autorentool, Moodle) aus.</p>
+        </step>
+        <step>
+            <p>Erforderlich: Beschreiben Sie den aufgetretenen Fehler so genau wie möglich.</p>
+            <tip>
+                <list>
+                    <li>Welcher Fehler ist aufgetreten? Was genau ist der Fehler? </li>
+                    <li>Wann ist der Fehler zum ersten Mal aufgetreten? Was haben Sie direkt vor dem Fehler getan?</li>
+                    <li>Tritt der Fehler immer auf oder nur unter bestimmten Bedingungen?</li>
+                    <li>Gibt es ähnliche Fehler, die Sie in der Vergangenheit beobachtet haben?</li>
+                </list>
+            </tip>
+        </step>
+        <step>
+            <p>Optional: Geben Sie die Schritte zur Fehlerwiederholung an.</p>
+            <tip>
+                <list>
+                    <li>Kann der Fehler wiederholt werden? Wenn ja, wie?</li>
+                    <li>Welche Schritte sind notwendig, um den Fehler zu wiederholen?</li>
+                    <li>Gibt es bestimmte Bedingungen oder Umgebungen, in denen der Fehler häufiger auftritt?</li>
+                </list>
+            </tip>
+        </step>
+        <step>
+            <p>Optional: Beschreiben Sie, wie die Software Ihrer Meinung nach hätte reagieren sollen.</p>
+            <tip>
+                <list>
+                    <li>Was ist das erwartete Verhalten bei dem Auftreten des Fehlers?</li>
+                    <li>Wie unterscheidet sich das tatsächliche Verhalten vom erwarteten Verhalten?</li>
+                </list>
+            </tip>
+        </step>
+        <step>
+            <p>Optional: Geben Sie Informationen zur Umgebung an, auf dem der Fehler aufgetreten ist.</p>
+            <tip>
+                <list>
+                    <li>Gerätetyp (z.B. Laptop, Tablet)</li>
+                    <li>Betriebssystem und Systemversion</li>
+                    <li>Browser und Browserversion, sowie installierte Addons (insbesondere Blocker aller Art)</li>
+                    <li>angeschlossene/verwendete (Eingabe-)Geräte</li>
+                </list>
+            </tip>
+        </step>
+        <step>
+            <p>Erforderlich: Wählen Sie das verwendete Betriebssystem aus.</p>
+        </step>
+        <step>
+            <p>Erforderlich: Wählen Sie aus, ob die Touch-Eingabe verwendet wurde.</p>
+        </step>
+        <step>
+            <p>Erforderlich: Wählen Sie aus, welche Art der Internetverbindung zum Zeitpunkt des Fehlers verwendet wurde. </p>
+        </step>
+        <step>
+            <p>Optional: Geben Sie weitere Informationen oder Anmerkungen zum Fehler an. Wenn sie eine Antwort erwarten, geben Sie das bitte hier an.</p>
+        </step>
+        <step>
+            <p>Optional: Fügen Sie die Log-Datei aus dem <a href="ManualEngine-Hilfe-Menü.topic"/> an.</p>
+        </step>
+        <step>
+            <p>Erforderlich: Klicken Sie auf den <control>Send</control>-Button um das ausgefüllte Bug-Report-Formular abzusenden.</p>
+        </step>
+        <note>
+            <format style="bold">&#10004; Der Fehler wurde erfolgreich gemeldet. Wir werden uns schnellstmöglich um das Problem kümmern.</format>
+        </note>
     </procedure>
 </topic>
