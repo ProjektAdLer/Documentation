@@ -34,6 +34,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Erforderliche Eigenschaften für Verweis (AWA9015)](AWA9015.md) | **0** | - |
 | [Externes Lernmaterial als Zip laden (AWA0047)](AWA0047.md) | **0** | - |
 | [Externes Lernmaterial anzeigen (AWA0038)](AWA0038.md) | **0** | - |
+| [Externes Lernmaterial auflisten (ASN0028)](ASN0028.md) | **0** | - |
 | [Externes Lernmaterial hochladen (AHO51)](AHO51.md) | **0** | - |
 | [Externes Lernmaterial laden (AWA0036)](AWA0036.md) | **0** | - |
 | [Externes Lernmaterial löschen (AWA0037)](AWA0037.md) | **0** | - |
