@@ -6,7 +6,7 @@
        title="Angaben zu Kommentaren" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuKommentaren">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Hier muss noch ein Text hin.</p>
+        <p>Bei erfolglosem Abschließen einer Frage durch die Studierenden kann ein zusätzlicher Kommentar hinzugefügt werden. In diesem können Hinweise ergänzt werden.</p>
     <img src="imageManualAuthoringAngabenZumAdaptivitaetselementKommentarCallout.png" alt="AngabenZumAdaptivitaetselementKommentarCallout"/>
         <table>
             <tr>
@@ -17,7 +17,7 @@
             <tr>
                 <td>1</td>
                 <td>Kommentar-Textfeld</td>
-                <td>Mehrzeiliges Textfeld zur Angabe eines Kommentars.</td>
+                <td>Textfeld zur Angabe eines Kommentars.</td>
             </tr>
             <tr>
                 <td>2</td>

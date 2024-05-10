@@ -6,7 +6,7 @@
        title="Angaben zu Fragen" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuFragen">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Hier muss noch ein Text hin.</p>
+        <p>Eine Frage kann als Single-Choice-Frage oder Multiple-Choice-Frage formuliert und mit einer Vielzahl an Antwortmöglichkeiten versehen werden. Einer Frage kann zusätzlich ein Kommentar oder ein Verweis hinzugefügt werden.</p>
     <img src="imageManualAuthoringAngabenZumAdaptivitaetselementFrageCallout.png" alt="AngabenZumAdaptivitaetselementFrageCallout"/>
         <table>
             <tr>
@@ -27,7 +27,7 @@
             <tr>
                 <td>3</td>
                 <td>Fragetext-Textfeld</td>
-                <td>Mehrzeiliges Textfeld zur Angabe eines Fragetextes.</td>
+                <td>Textfeld zur Angabe eines Fragetextes.</td>
             </tr>
             <tr>
                 <td>4</td>
@@ -42,7 +42,7 @@
             <tr>
                 <td>6</td>
                 <td>Bezeichnung der Antwortmöglichkeit-Textfeld</td>
-                <td>Einzeiliges Textfeld zur Angabe einer Antwort.</td>
+                <td>Textfeld zur Angabe einer Antwort.</td>
             </tr>
             <tr>
                 <td>7</td>

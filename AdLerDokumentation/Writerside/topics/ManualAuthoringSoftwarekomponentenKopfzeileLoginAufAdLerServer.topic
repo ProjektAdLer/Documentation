@@ -16,7 +16,7 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Anmelde-Button</td>
+                <td>Anmelden-Button</td>
                 <td>Leitet die Anmeldung auf den AdLer-Server ein.</td>
             </tr>
             <tr>
@@ -27,17 +27,17 @@
             <tr>
                 <td>3</td>
                 <td>Passwort-Textfeld</td>
-                <td>Einzeiliges Textfeld zum Eingeben des Passwortes.</td>
+                <td>Textfeld zum Eingeben des Passwortes.</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Benutzername-Textfeld</td>
-                <td>Einzeiliges Textfeld zum Eingeben des Benutzernamens.</td>
+                <td>Textfeld zum Eingeben des Benutzernamens.</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>URL-Textfeld</td>
-                <td>Einzeiliges Textfeld zum Eingeben der AdLer API URL.</td>
+                <td>Textfeld zum Eingeben der AdLer API URL.</td>
             </tr>
             <tr>
                 <td>6</td>
@@ -51,7 +51,7 @@
             </tr>
             <tr>
                 <td>8</td>
-                <td>Abmelde-Button</td>
+                <td>Abmelden-Button</td>
                 <td>Leitet die Abmeldung vom AdLer-Server ein.</td>
             </tr>
             <tr>
@@ -71,7 +71,7 @@
             </tr>
             <tr>
                 <td>12</td>
-                <td>Bildlaufleiste</td>
+                <td>Scrollbar</td>
                 <td>Zeigt alle mit dem Autorentool erzeugten Moodle-Kurse an.</td>
             </tr>
             <tr>

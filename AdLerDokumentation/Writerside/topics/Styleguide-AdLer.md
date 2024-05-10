@@ -20,7 +20,7 @@ Die Hauptfarben für den AdLer sind:
 
 - adlerblue: #a1c8e5 ![#a1c8e5](https://readme-swatches.vercel.app/a1c8e5)
 - adlerdarkblue: #172d4d ![#172d4d](https://readme-swatches.vercel.app/172d4d)
-
+- adlergold: #e9d6b3 ![#e9d6b3](https://readme-swatches.vercel.app/e9d6b3)
 
 ***Weiß (#FFFFFF), rgb (255, 255, 255) und Schwarz (#000000), rgb (0, 0, 0) können immer verwendet werden.***
 

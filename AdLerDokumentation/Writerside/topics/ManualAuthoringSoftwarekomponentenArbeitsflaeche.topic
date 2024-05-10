@@ -18,17 +18,17 @@
             <tr>
                 <td>1</td>
                 <td>Linke Sidebar</td>
-                <td>Bereich, in dem Lernräume und Elemente mit zusätzlichen Informationen versehen werden.</td>
+                <td>Bereich, in dem die Lernwelt, die darin enthaltenen Lernräume und Elemente mit zusätzlichen Metadaten und Informationen versehen werden.</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Mittleres Fenster</td>
-                <td>Bereich, in dem erstellte Elemente im Grundriss eines Lernraums platziert werden.</td>
+                <td>Bereich, in dem erstellte Elemente aufgelistet und im Grundriss eines Lernraums platziert werden.</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Rechte Sidebar</td>
-                <td>Bereich, in dem eine Übersicht über die geöffnete Lernwelt gegeben wird.</td>
+                <td>Bereich, in dem eine Übersicht über die geöffnete Lernwelt gegeben wird und Verbindungen zwischen Lernräumen hergestellt werden.</td>
             </tr>
         </table>
     </chapter>

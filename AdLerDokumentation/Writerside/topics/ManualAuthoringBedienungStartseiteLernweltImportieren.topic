@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernwelt importieren" id="ManualAuthoringBedienungStartseiteLernweltImportieren">
+
+    <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Softwarekomponenten: Startseite</a>
+
+    <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Eine bereits existierende Lernwelt importieren.</p>
+            </def>
+        </deflist>
+
+        <tip>Voraussetzung:
+            <p>Die zu importierende Lernwelt liegt als ZIP-Datei ab --> siehe <a href="">Lernwelt archivieren</a>.</p>
+        </tip>
+
+        <step><p>Klicken Sie auf den Button <b>Importieren.</b></p>
+            <img src="imageManualAuthoringStartseiteLernweltImportierenButtonCallout.png" alt="LernweltImportierenButtonCallout" width="200" thumbnail="true"/>
+            <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Lernwelt als ZIP-Datei importieren (z.B. von anderem Rechner oder aus Sicherheitskopie)" wird angezeigt.</tip>
+            <note>Es öffnet sich der Dateimanager, über den die Lernwelt als ZIP-Datei gesucht werden kann.</note>
+        </step>
+        <step><p>Markieren Sie die zu importierende Lernwelt im Dateimanager.</p>
+            <img src="imageManualAuthoringStartseiteLernweltImportierenDateipfadCallout.png" alt="LernweltImportierenDateipfadCallout" width="200" thumbnail="true"/>
+        </step>
+        <step><p>Bestätigen Sie Ihre Angabe mit einem Klick auf den Button <b>Öffnen.</b></p>
+            <img src="imageManualAuthoringStartseiteLernweltImportierenDateiOeffnenCallout.png" alt="LernweltImportierenDateiOeffnenCallout" width="200" thumbnail="true"/>
+            <tip>Existiert bereits eine Lernwelt mit dem gleichen Namen im Autorentool, wird der importierten Lernwelt eine fortlaufende Nummer (Nr.) hinzugefügt.</tip>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben erfolgreich eine Lernwelt importiert.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+        <tip>Nach Importieren der Lernwelt werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Bearbeitung dieser Lernwelt beginnen können.</tip>
+    </procedure>
+</topic>

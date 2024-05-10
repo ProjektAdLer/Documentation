@@ -8,7 +8,7 @@
 
     <show-structure for="chapter" depth="2"/>
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Der Tab für das Angeben von Informationen zu Lernräumen enthält insgesamt sechs Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
+        <p>Der Tab für das Angeben von Metadaten und Informationen zu Lernräumen enthält insgesamt sechs Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
         <list>
             <li>Kategorie 1 (ausgeklappt): Allgemein</li>
             <li>Kategorie 2 (eingeklappt): Abschlussbedingung</li>
@@ -28,7 +28,7 @@
                 <tr>
                     <td>1</td>
                     <td>Erforderliche Angabe</td>
-                    <td>Enthält die Information, dass bestimmte Angaben zum Lernraum erforderlich sind.</td>
+                    <td>Enthält die Information, dass  mit einem Stern markierte Angaben zum Lernraum erforderlich sind.</td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -38,7 +38,7 @@
                 <tr>
                     <td>3</td>
                     <td>Name des Lernraums-Textfeld</td>
-                    <td>Einzeiliges Textfeld zur Angabe vom Namen des Lernraums (Erforderliche Angabe).</td>
+                    <td>Textfeld zur Angabe vom Namen des Lernraums (Erforderliche Angabe).</td>
                 </tr>
             </table>
         </chapter>
@@ -57,7 +57,7 @@
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>Grundrisse</td>
+                    <td>Grundriss</td>
                     <td>Auswahl verschiedener Grundrisse mit numerischer Angabe der möglichen Elementplatzierungen. Diese Kategorie wird nur im Modus "Lernraum bearbeiten" angezeigt.</td>
                 </tr>
                 <tr>
@@ -83,7 +83,7 @@
                 <tr>
                     <td>10</td>
                     <td>Thema</td>
-                    <td>Ermöglicht das Angeben eines bestimmten Themas für den Lernraums.</td>
+                    <td>Ermöglicht das Angeben eines bestimmten Themas für den Lernraums. Je nach ausgewähltem Thema verändert sich die Gestaltung der Umgebung des Lernraums.</td>
                 </tr>
                 <tr>
                     <td>11</td>

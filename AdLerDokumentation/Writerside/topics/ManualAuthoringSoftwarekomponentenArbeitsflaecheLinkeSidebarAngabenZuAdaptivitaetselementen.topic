@@ -8,7 +8,7 @@
 
     <show-structure for="chapter" depth="2"/>
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Der Tab für das Angeben von Informationen zu Adaptivitätselementen enthält insgesamt fünf Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
+        <p>Der Tab für das Angeben von Metadaten und Informationen zu Adaptivitätselementen enthält insgesamt fünf Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
         <list>
             <li>Kategorie 1 (ausgeklappt): Allgemein</li>
             <li>Kategorie 2 (ausgeklappt): Aufgaben</li>
@@ -27,7 +27,7 @@
             <tr>
                 <td>1</td>
                 <td>Erforderliche Angabe</td>
-                <td>Enthält die Information, dass bestimmte Angaben zu Adaptivitätselementen erforderlich sind.</td>
+                <td>Enthält die Information, dass  mit einem Stern markierte Angaben zum Adaptivitätselement erforderlich sind.</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -37,7 +37,7 @@
             <tr>
                 <td>3</td>
                 <td>Name des Adaptivitätselements-Textfeld</td>
-                <td>Einzeiliges Textfeld zur Angabe vom Namen des Adaptivitätselements (Erforderliche Angabe).</td>
+                <td>Textfeld zur Angabe vom Namen des Adaptivitätselements (Erforderliche Angabe).</td>
             </tr>
             <tr>
                 <td>4</td>
@@ -72,12 +72,12 @@
                 <tr>
                     <td>8</td>
                     <td>Lernziel-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe eines oder mehrerer Lernziele für das Adaptivitätselement.</td>
+                    <td>Textfeld zur Angabe eines oder mehrerer Lernziele für das Adaptivitätselement.</td>
                 </tr>
                 <tr>
                     <td>9</td>
                     <td>Beschreibungs-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung des Adaptivitätselements.</td>
+                    <td>Textfeld zur Angabe einer Beschreibung des Adaptivitätselements.</td>
                 </tr>
                 <tr>
                     <td>10</td>

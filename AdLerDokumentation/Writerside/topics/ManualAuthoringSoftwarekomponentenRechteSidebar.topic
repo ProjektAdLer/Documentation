@@ -7,7 +7,7 @@
        help-id="ManualAuthoringSoftwarekomponentenRechte-Sidebar">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Die rechte Sidebar umfasst ingesamt zwei Tabs. Sie kann entweder permanent angezeigt werden oder nur bei Bedarf.</p>
+        <p>Die rechte Sidebar umfasst ingesamt zwei Tabs. Standardmäßig wird ein Tab der rechten Sidebar permanent angezeigt. Bei Bedarf kann der geöffnete Tab auch geschlossen werden, sodass nur noch die Symbole der einzelnen Tabs in der rechten Sidebar zu sehen sind.</p>
     <img src="imageManualAuthoringRechteSidebarCallout.png" alt="RechteSidebarCallout"/>
         <table>
             <tr>
@@ -17,12 +17,12 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Hierarchischer Aufbau der Lernwelt </td>
+                <td>Hierarchischer Aufbau der Lernwelt-Tab</td>
                 <td>Öffnet den Tab zum Anzeigen des hierarchischen Aufbaus der geöffneten Lernwelt mit den darin enthaltenen Lernräumen und Elementen.</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Verbindungen zwischen Lernräumen</td>
+                <td>Verbindungen zwischen Lernräumen-Tab</td>
                 <td>Öffnet den Tab zum Verbinden von Lernräumen durch Lernpfade und dem Erzeugen von Abhängigkeiten zwischen den Lernräumen durch Und-/Oder-Bedingungen.</td>
             </tr>
         </table>

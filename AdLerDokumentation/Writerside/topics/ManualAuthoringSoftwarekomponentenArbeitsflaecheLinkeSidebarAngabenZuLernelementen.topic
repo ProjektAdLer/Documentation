@@ -6,7 +6,7 @@
        title="Angaben zu Lernelementen" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernelementen">
     <show-structure for="chapter" depth="2"/>
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Der Tab für das Angeben von Informationen zu Lernelementen enthält insgesamt fünf Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
+        <p>Der Tab für das Angeben von Metadaten und Informationen zu Lernelementen enthält insgesamt fünf Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
         <list>
             <li>Kategorie 1 (ausgeklappt): Allgemein</li>
             <li>Kategorie 2 (ausgeklappt): Externes Lernmaterial</li>
@@ -25,7 +25,7 @@
                 <tr>
                     <td>1</td>
                     <td>Erforderliche Angabe</td>
-                    <td>Enthält die Information, dass bestimmte Angaben zum Lernelement erforderlich sind.</td>
+                    <td>Enthält die Information, dass  mit einem Stern markierte Angaben zum Lernelement erforderlich sind.</td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -35,7 +35,7 @@
                 <tr>
                     <td>3</td>
                     <td>Name des Lernelements-Textfeld</td>
-                    <td>Einzeiliges Textfeld zur Angabe vom Namen des Lernelements (Erforderliche Angabe).</td>
+                    <td>Textfeld zur Angabe vom Namen des Lernelements (Erforderliche Angabe).</td>
                 </tr>
                 <tr>
                     <td>4</td>
@@ -44,7 +44,7 @@
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>Bildlaufleiste</td>
+                    <td>Scrollbar</td>
                     <td>Zeigt alle Informationen zum Lernelement an.</td>
                 </tr>
                 <tr>
@@ -115,12 +115,12 @@
                 <tr>
                     <td>15</td>
                     <td>Lernziel-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe eines oder mehrerer Lernziele für das Lernelement.</td>
+                    <td>Textfeld zur Angabe eines oder mehrerer Lernziele für das Lernelement.</td>
                 </tr>
                 <tr>
                     <td>16</td>
                     <td>Beschreibungs-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung des Lernelements.</td>
+                    <td>Textfeld zur Angabe einer Beschreibung des Lernelements.</td>
                 </tr>
                 <tr>
                     <td>17</td>

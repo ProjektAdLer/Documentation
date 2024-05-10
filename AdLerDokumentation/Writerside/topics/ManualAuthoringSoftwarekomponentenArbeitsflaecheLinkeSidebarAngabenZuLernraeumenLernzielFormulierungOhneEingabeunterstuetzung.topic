@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Ohne Eingabeunterstützung" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuLernraeumenLernzielFormulierungOhneEingabeunterstuetzung">
+       title="Ohne Eingabeunterstuetzung" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuLernraeumenLernzielFormulierungOhneEingabeunterstuetzung">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
     <img src="imageManualAuthoringLernzielOhneCallout.png" alt="LernzielFormulierungOhneEingabeunterstuetzungCallout"/>
@@ -16,7 +16,7 @@
             <tr>
                 <td>1</td>
                 <td>Lernziel-Textfeld</td>
-                <td>Mehrzeiliges Textfeld zum selbstständigen Formulieren eines Lernziels für einen bestimmten Lernraum.</td>
+                <td>Textfeld zum selbstständigen Formulieren eines Lernziels für einen bestimmten Lernraum.</td>
             </tr>
             <tr>
                 <td>2</td>

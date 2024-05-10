@@ -38,7 +38,7 @@
             <tr>
                 <td>5</td>
                 <td>Lernraum importieren-Button</td>
-                <td>Öffnet ein Fenster zum Importieren einer bereits existierenden Lernraum-Datei.</td>
+                <td>Öffnet den Dateimanager zum Importieren einer bereits existierenden Lernraum-Datei.</td>
             </tr>
             <tr>
                 <td>6</td>
@@ -62,7 +62,7 @@
             </tr>
             <tr>
                 <td>10</td>
-                <td>Lernpfad ergänzen-Button</td>
+                <td>Lernpfad hinzufügen-Button</td>
                 <td>Erzeugt einen Lernpfad, der das Verbinden von diesem Lernraum mit einem anderen Lernraum oder einer Bedingung ermöglicht.</td>
             </tr>
             <tr>
@@ -77,12 +77,12 @@
             </tr>
             <tr>
                 <td>13</td>
-                <td>Und-/Oder-Bedingung</td>
+                <td>Und-/Oder-Bedingung-Anzeige</td>
                 <td>Darstellung der Und-/Oder-Bedingung.</td>
             </tr>
             <tr>
                 <td>14</td>
-                <td>Lernpfad ergänzen-Button</td>
+                <td>Lernraum-Anzeige</td>
                 <td>Darstellung eines Lernraums. Im aktiven Zustand weist dieser einen blauen Hintergrund auf.</td>
             </tr>
         </table>

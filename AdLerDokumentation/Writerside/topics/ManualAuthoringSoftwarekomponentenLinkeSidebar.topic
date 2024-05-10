@@ -7,7 +7,7 @@
        help-id="ManualAuthoringSoftwarekomponentenLinke-Sidebar">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Die linke Sidebar umfasst ingesamt sechs Tabs. Sie kann entweder permanent angezeigt werden oder nur bei Bedarf.</p>
+        <p>Die linke Sidebar umfasst ingesamt sechs Tabs. Standardmäßig wird ein Tab der linken Sidebar permanent angezeigt. Bei Bedarf kann der geöffnete Tab auch geschlossen werden, sodass nur noch die Symbole der einzelnen Tabs in der linken Sidebar zu sehen sind.</p>
         <img src="imageManualAuthoringLinkeSidebarCallout.png" alt="LinkeSidebarCallout"/>
         <table>
             <tr>
@@ -17,32 +17,32 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Lernwelt bearbeiten</td>
+                <td>Lernwelt bearbeiten-Tab</td>
                 <td>Öffnet den Tab zum Bearbeiten der geöffneten Lernwelt.</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Lernraum erstellen / bearbeiten</td>
+                <td>Lernraum erstellen / bearbeiten-Tab</td>
                 <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Lernraums.</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Storyelement erstellen / bearbeiten</td>
+                <td>Storyelement erstellen / bearbeiten-Tab</td>
                 <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Storyelements.</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Lernelement erstellen / bearbeiten</td>
+                <td>Lernelement erstellen / bearbeiten-Tab</td>
                 <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Lernelements.</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Adaptivitätselement erstellen / bearbeiten</td>
+                <td>Adaptivitätselement erstellen / bearbeiten-Tab</td>
                 <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Adaptivitätselements.</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Externes Lernmaterial hinzufügen</td>
+                <td>Externes Lernmaterial hinzufügen-Tab</td>
                 <td>Öffnet den Tab zum Hinzufügen von externem Lernmaterial.</td>
             </tr>
         </table>

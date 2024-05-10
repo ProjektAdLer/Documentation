@@ -37,7 +37,7 @@
             <tr>
                 <td>5</td>
                 <td>Lernwelt importieren-Button</td>
-                <td>Öffnet ein Fenster zum Importieren einer bereits existierenden Lernwelt-Datei.</td>
+                <td>Öffnet den Dateimanager zum Importieren einer bereits existierenden Lernwelt-Datei.</td>
             </tr>
             <tr>
                 <td>6</td>
@@ -76,15 +76,18 @@
             </tr>
             <tr>
                 <td>13</td>
-                <td>Bildlaufleiste</td>
+                <td>Scrollbar</td>
                 <td>Zeigt alle erstellten und importierten Lernwelten an.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic">Lernwelt erstellen</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltImportieren.topic">Lernwelt importieren</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltSortieren.topic">Lernwelt sortieren</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic">Lernwelt öffnen</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltLoeschen.topic">Lernwelt löschen</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen.topic">Dateinamen der Lernwelt anzeigen</a></li>
         </list>
     </chapter>
 </topic>

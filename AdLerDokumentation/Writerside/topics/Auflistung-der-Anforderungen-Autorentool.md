@@ -34,6 +34,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Erforderliche Eigenschaften für Verweis (AWA9015)](AWA9015.md) | **0** | - |
 | [Externes Lernmaterial als Zip laden (AWA0047)](AWA0047.md) | **0** | - |
 | [Externes Lernmaterial anzeigen (AWA0038)](AWA0038.md) | **0** | - |
+| [Externes Lernmaterial auflisten (ASN0028)](ASN0028.md) | **0** | - |
 | [Externes Lernmaterial hochladen (AHO51)](AHO51.md) | **0** | - |
 | [Externes Lernmaterial laden (AWA0036)](AWA0036.md) | **0** | - |
 | [Externes Lernmaterial löschen (AWA0037)](AWA0037.md) | **0** | - |
@@ -74,6 +75,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Lernpfad laden (AHO16)](AHO16.md) | **0** | - |
 | [Lernpfad löschen (AHO13)](AHO13.md) | **0** | - |
 | [Lernpfad persistieren (AHO14)](AHO14.md) | **0** | - |
+| [Lernraum als Baum auflisten (ASN0027)](ASN0027.md) | **0** | - |
 | [Lernraum bearbeiten (AWA0023)](AWA0023.md) | **0** | - |
 | [Lernraum erstellen (AWA0001)](AWA0001.md) | **0** | - |
 | [Lernraum hochladen (AHO31)](AHO31.md) | **0** | - |
@@ -81,6 +83,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Lernraum löschen (AWA0024)](AWA0024.md) | **0** | - |
 | [Lernraum persistieren (AWA0025)](AWA0025.md) | **0** | - |
 | [Lernraum Thema (AWA9020)](AWA9020.md) | **0** | - |
+| [Lernraumlayout anzeigen (ASN0026)](ASN0026.md) | **0** | - |
 | [Lernraumname (AWA9005)](AWA9005.md) | **0** | - |
 | [Lernwelt Automatisch Persistieren 2 (ASE8)](ASE8.md) | **0** | - |
 | [Lernwelt bearbeiten (ASE3)](ASE3.md) | **0** | - |

@@ -3,8 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Lernwelt erstellen" id="ManualAuthoringBedienungStartseiteLernwelt-erstellen"
-       help-id="ManualAuthoringLernwelt-erstellen">
+       title="Lernwelt löschen" id="ManualAuthoringBedienungStartseiteLernweltLoeschen">
 
     <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
