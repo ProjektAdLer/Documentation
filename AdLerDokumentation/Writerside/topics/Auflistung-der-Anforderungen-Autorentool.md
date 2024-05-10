@@ -25,6 +25,8 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Aufgabe laden (AWA0020)](AWA0020.md) | **0** | - |
 | [Aufgabe löschen (AWA0007)](AWA0007.md) | **0** | - |
 | [Aufgabe persistieren (AWA0013)](AWA0013.md) | **0** | - |
+| [Elemente filtern (ASN0030)](ASN0030.md) | **0** | - |
+| [Elemente suchen (ASN0029)](ASN0029.md) | **0** | - |
 | [Erforderliche Eigenschaften für Adaptivitätselement (AWA9008)](AWA9008.md) | **0** | - |
 | [Erforderliche Eigenschaften für Aufgabe (AWA9010)](AWA9010.md) | **0** | - |
 | [Erforderliche Eigenschaften für Frage (AWA9012)](AWA9012.md) | **0** | - |
@@ -131,6 +133,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Undo (ASN0003)](ASN0003.md) | **0** | - |
 | [Undo/Redo Anwendbarkeit (ASN0005)](ASN0005.md) | **0** | - |
 | [Ungespeicherte Welten speichern (ASN0025)](ASN0025.md) | **0** | - |
+| [Unplatzierte Elemente auflisten (ASN0031)](ASN0031.md) | **0** | - |
 | [Unterstützte Dateiformate (AWA9018)](AWA9018.md) | **0** | - |
 | [Verweis bearbeiten (AWA0027)](AWA0027.md) | **0** | - |
 | [Verweis erstellen (AWA0026)](AWA0026.md) | **0** | - |
