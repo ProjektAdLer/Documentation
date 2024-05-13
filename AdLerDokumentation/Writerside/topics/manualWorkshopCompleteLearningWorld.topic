@@ -30,7 +30,7 @@
                     <tip>Wenn Sie mit der Maus über die Lernräume fahren, wird Ihnen der vollständige Name angezeigt.</tip>
                 </step>
                 <step>
-                    <p>Klicken Sie nun im Reiter <control>Lernraum bearbeiten</control> auf die ategorie <control>Abschlussbedingung</control>, um diese aufzuklappen.</p>
+                    <p>Klicken Sie nun im Tab <control>Lernraum bearbeiten</control> auf die Kategorie <control>Abschlussbedingung</control>, um diese aufzuklappen.</p>
                     <img src="imageManualWorkshopOpened3DRoom.png" alt="Geöffneter Lernraum 3D-Lernumgebung und Moodle" width="200" thumbnail="true" />
                 </step>
                 <step>
@@ -65,12 +65,12 @@
                     <img src="imageManualWorkshopSearchLearningContent.png" alt="Lernelement erstellen Dialog mit Daten in Suchzeile für Externes Lernmaterial" width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <p>Weisen Sie das gefundene Externe Lernmaterial mit einem Klick dem Lernelement zu.</p>
-                    <tip>Sobald das externe Lernmaterial ausgewählt und dem Lernelement zugewiesen ist, ändert sich die Hintergrundfarbe des Listeneintrags auf ein dunkleres Grau.
+                    <p>Weisen Sie das gefundene externe Lernmaterial mit einem Klick dem Lernelement zu.</p>
+                    <tip>Sobald das externe Lernmaterial ausgewählt und dem Lernelement zugewiesen ist, ändert sich die Hintergrundfarbe des Listeneintrags in ein dunkleres Grau.
                     </tip>
                 </step>
                 <step>
-                    <p>Klicken Sie als nächstes auf die Kategorie <control>3D-Darstellung</control> und wählen Sie per Klick die passende die in der Ausfüllhilfe angegebene 3D-Darstellung aus.</p>
+                    <p>Klicken Sie als nächstes auf die Kategorie <control>3D-Darstellung</control> und wählen Sie per Klick die in der Ausfüllhilfe angegebene 3D-Darstellung aus.</p>
                     <img src="imageManualWorkshopCreateLearningElementChoose3D.png" alt="Geöffneter Unterpunkt 3D-Darstellung" width="200" thumbnail="true" />
                     <tip>Die, wie im Bild gezeigte, vergrößerte 3D-Darstellung erhalten Sie, wenn Sie mit der Maus über die jeweilige 3D-Darstellung in der Liste fahren.</tip>
                 </step>
@@ -83,8 +83,8 @@
                     <note>Das Lernelement erscheint im Grundriss in dem Lernelement-Slot, den Sie zu Beginn ausgewählt hatten.</note>
                 </step>
                 <step>
-                    <p>Wiederholen Sie nun Schritt 1-8 dieses Kapitels ("Erstellen von drei Lernelementen") und fügen Sie den restlichen freien Lernelement-Slots die zwei weiteren Lernelemente aus der Ausfüllhilfe zu.</p>
-                    <tip>Entnehmen Sie die Informationen zu Metadaten und Platzierung der beiden Lernelemene der Ausfüllhilfe.</tip>
+                    <p>Wiederholen Sie nun Schritt 1-8 dieses Kapitels <control>Erstellen von drei Lernelementen</control> und fügen Sie den restlichen freien Lernelement-Slots die zwei weiteren Lernelemente aus der Ausfüllhilfe zu.</p>
+                    <tip>Entnehmen Sie die Informationen zu Metadaten und Platzierung der beiden Lernelemente der Ausfüllhilfe.</tip>
                 </step>
                 <step>
                     <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>

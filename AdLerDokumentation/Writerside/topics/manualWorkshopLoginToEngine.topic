@@ -3,55 +3,69 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Einloggen in die 3D-Lernumgebung" id="manualWorkshopLoginToEngine">
+       title="Betrachten der Lernwelt in der 3D-Lernumgebung" id="manualWorkshopLoginToEngine">
 
-    <chapter title="Anmeldung in der 3D-Umgebung">
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>Mit dieser Schritt-für-Schritt-Anleitung melden Sie sich in der AdLer-3D-Lernumgebung an, um die erstellte Lernwelt als 3D-Welt betrachten zu können.</control>
+        </def>
+    </deflist>
+
+    <chapter title="Anmelden in die 3D-Lernumgebung">
         <procedure>
-            <deflist type="compact" sorted="desc">
-                <def title="&#127937;">
-                    <control>Loggen sie sich in der AdLer 3D-Umgebung ein, um diese aufrufen zu können.</control>
-                </def>
-            </deflist>
-
             <step>
-                <p>Öffnen Sie ihren favorisierten Browser.</p>
+                <p>Öffnen Sie Ihren bevorzugten Browser.</p>
             </step>
             <step>
-                <p>Tippen Sie folgende Adresse in Ihre Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://engine.projekt-adler.eu" target="_blank">https://engine.projekt-adler.eu</a></p>
-                <tip>Sie befinden sich nun auf der Anmeldeseite des AdLer-Moodle</tip>
+                <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://engine.projekt-adler.eu" target="_blank">https://engine.projekt-adler.eu</a>.</p>
+                <tip>Sie befinden sich nun auf der Anmeldeseite des AdLer-Moodle.</tip>
             </step>
             <step>
-                <p>Klicken Sie dann im nun geöffneten Browserfenster auf das Eingabefeld mit der Bezeichnung <control>Nutzername</control> und geben Sie Ihren Nutzernamen ein.</p>
+                <p>Klicken Sie im nun geöffneten Browserfenster auf das Eingabefeld <control>Nutzername</control> und geben Sie Ihren Nutzernamen ein.</p>
                 <img src="imageManualWorkshopAdlerEngineWelcomePageLoginFormWithArrow.png" alt="Home Screen des AdLer Moodles ohne Login" width="200" thumbnail="true"/>
             </step>
             <step>
-                <p>Klicken Sie nun auf das Eingabefeld mit der Bezeichnung <control>Passwort</control> und geben Sie Ihr Passwort ein.</p>
-                <note>Nutzen Sie für die Anmeldung die Anmeldedaten, die Sie für die Anmeldung in Moodle verwendet haben.</note>
+                <p>Klicken Sie nun auf das Eingabefeld <control>Passwort</control> und geben Sie Ihr Passwort ein.</p>
+                <note>Nutzen Sie für die Anmeldung dieselben Anmeldedaten, die Sie für die Anmeldung im AdLer-Moodle verwendet haben.</note>
                 <img src="imageManualWorkshopAdlerEngineWelcomePageLoginFormWithArrow.png" alt="Home Screen des AdLer Moodles ohne Login" width="200" thumbnail="true"/>
             </step>
             <step>
-                <p>Klicken Sie nun auf den Button <control>Login</control> um sich einzuloggen.</p>
+                <p>Klicken Sie nun auf den Button <control>Login</control>, um sich anzumelden.</p>
                 <img src="imageManualWorkshopAdlerEngineWelcomePageLoginButtonWithArrow.png" alt="AdLer Engine Login Formular mit Fokus auf den Login Button" width="200" thumbnail="true"/>
             </step>
-            <note><control>&#10004; Sie sind nun in der 3D-Umgebung eingeloggt.</control></note>
-            <img src="imageManualMoodleWorkshopAdlerEngineWelcomePageLoggedInWithArrows.png" alt="AdLer Engine Welcome Page Ansicht nach dem Einloggen" width="200" thumbnail="true"/>
+            <note>
+                <control>
+                    <p>Sie sind nun erfolgreich in der AdLer-3D-Lernumgebung angemeldet.</p>
+                    <p>&#10004;</p>
+                    <img src="imageManualMoodleWorkshopAdlerEngineWelcomePageLoggedInWithArrows.png" alt="AdLer Engine Welcome Page Ansicht nach dem Einloggen" width="200" thumbnail="true"/>
+                </control>
+            </note>
+
         </procedure>
     </chapter>
-    <chapter title="Betreten des Lernweltmenüs">
+    <chapter title="Betreten des Lernwelt-Menüs">
         <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung2"> <!--title="Überschrift der Handlung" finde das doppelt sich mit der generellen Überschrift-->
-            <deflist type="compact" sorted="desc">
-                <def title="&#127937;">
-                    <control>Betreten Sie das Lernwelt Menü, um sich Ihre Lernwelten anzusehen.</control>
-                </def>
-            </deflist>
-
             <step>
-                <p>Nachdem Sie sich eingeloggt haben, klicken Sie auf den Button <control>"zum Lernwelt-Menü"</control>, um eine Übersicht ihrer Lernwelten zu sehen, in die Sie eingeschrieben sind.</p>
+                <p>Klicken Sie auf den Button <control>zum Lernwelt-Menü</control>.</p>
                 <img src="imageManualMoodleWorkshopAdlerEngineWelcomePageToLearningWorldMenuButtonWithArrows.png" alt="AdLer Engine Welcome Page mit Fokus auf zum Lernwelt Menü Button" width="200" thumbnail="true"/>
+                <tip>Nach kurzer Ladezeit werden Ihnen alle Lernwelten in einer Übersicht angezeigt, in die Sie mit Ihrem Account eingeschrieben sind.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben das Lernwelt-Menü erfolgreich betreten.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
             </step>
-            <note><control>&#10004; Sie sind nun in der 3D-Umgebung eingeloggt.</control></note>
-            <tip>Nachdem das nun kurz erscheinende Ladefenster verschwunden ist, können Sie nun alle Lernwelten sehen, in die der eingeloggte Account eingeschrieben ist.</tip>
-            <img src="imageManualWorkshopLearningWorldMenuWithoutDetail.png" alt="AdLer Engine Welcome Page Ansicht nach dem Einloggen" width="200" thumbnail="true"/>
+            <step>
+                <p>Klicken Sie auf die von Ihnen erstellte Lernwelt.</p>
+                <img src="imageManualWorkshopLearningWorldMenuWithoutDetail.png" alt="AdLer Engine Welcome Page Ansicht nach dem Einloggen" width="200" thumbnail="true"/>
+            </step>
+            <note>
+                <control>
+                    <p>Sie können nun die erstellte Lernwelt als 3D-Lernwelt betrachten.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
         </procedure>
     </chapter>
 </topic>
