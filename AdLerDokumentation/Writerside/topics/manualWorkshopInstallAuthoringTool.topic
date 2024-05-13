@@ -60,6 +60,19 @@
             <p>Öffnen Sie die heruntergeladene Autorentool Installationsdatei mit einem Doppelklick.</p>
             <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
         </step>
+        <step>
+            <tip>Es erscheint, die im folgenden Screenshot abgebildete Warnung. Diese erscheint, da das AdLer Autorentool noch kein Zertifikat von Microsoft hat.</tip>
+            <img src="imageManualWorkshopAlertWindow.png" alt="Warnfenster in Windows" width="200" thumbnail="true"/>
+            <p>Klicken Sie im Warnfenster auf <control>Weitere Informationen</control>.</p>
+        </step>
+        <step>
+            <p>Klicken Sie nun auf <control>Trotzdem ausführen</control>.</p>
+            <img src="imageManualWorkshopInstallNevertheless.png" alt="Warnfenster in Windows mit Trotzdem installieren" width="200" thumbnail="true"/>
+        </step>
+        <tip>
+            <p>Die Installation läuft nun automatisch ab. Nach der Installation sehen Sie die Standardansicht des AdLer Autorentools.</p>
+            <img src="imageManualWorkshopAuthoringToolDefaultAfterInstallWindows.png" alt="Standardansicht des Autorentools nach dem Öffnen auf Windows" width="200" thumbnail="true"/>
+        </tip>
         <note>
             <control>
                 <p>Sie haben das Autorentool erfolgreich auf ihrem Windows Computer installiert.</p>
@@ -69,7 +82,40 @@
     </procedure>
     <procedure title="Installieren des Autorentools unter macOS">
         <step>
-
+            <p>Öffnen Sie den Ordner, in den Sie die Installationsdatei heruntergeladen haben.</p>
+        </step>
+        <tip>
+            <p>Standardmäßig lädt macOS Dateien in den Ordner <control>/Users/IhrBenutzerName/Downloads</control> herunter.</p>
+        </tip>
+        <step>
+            <p>Öffnen Sie die heruntergeladene Datei mit einem Doppelklick.</p>
+            <img src="imageManualWorkshopDownloadsFolderMacOs.png" alt="Downloads Ordner macOS" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>Klicken Sie auf das Autorentool Logo und ziehen Sie es mit gedrückter linker Maustaste auf den Ordner Applications (Programme). Lassen Sie es dort los.</p>
+            <tip>Die Dateiendung <control>.app</control> erschient auf Ihrem Mac möglicherweise nicht.</tip>
+            <img src="imageManualWorkshopDragAuthoringToolToInstall.png" alt="Installationsdialog macOS" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>Öffnen Sie nun Ihren Finder und gehen Sie auf den Ordner <control>Programme</control>. Suchen Sie dort die Anwendung <control>AuthoringTool</control>, welche das zugehörige AdLer Logo aufweist.</p>
+            <img src="imageManualWorkshopFinderPrograms.png" alt="Programme Ordner im Finder" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>Klicken Sie nun mit der rechten Maustaste auf das Autorentool oder Halten Sie die Taste <control>CTRL</control> gedrückt und Klicken Sie mit der linken Maustaste.</p>
+            <note>Das Rechtsklick-Kontextmenü erscheint.</note>
+        </step>
+        <step>
+            <p>Klicken Sie nun auf <control>Öffnen</control>.</p>
+            <img src="imageManualWorkshopRightClickAuthoringTool.png" alt="Rechtsklick Kontextmenü" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>Klicken Sie im nun geöffneten Warnfenster auf den Button <control>Öffnen</control>.</p>
+            <img src="imageManualWorkshopPromptClickOpen.png" alt="Warnfenster" width="200" thumbnail="true"/>
+            <tip>Das Warnfenster erscheint, da das AdLer Autorentool noch kein Zertifikat von Apple besitzt. Sie müssen diesen Prozess des Öffnens nur beim erstmaligen Öffnen durchführen.</tip>
+            <note>
+                <p>Sie sehen nun das geöffnete Autorentool.</p>
+                <img src="imageManualWorkshopAuthoringToolDefaultMacOs.png" alt="Standardansicht des Autorentools macOS" width="200" thumbnail="true"/>
+            </note>
         </step>
         <note>
             <control>
@@ -80,7 +126,7 @@
     </procedure>
     <procedure title="Installieren des Autorentools unter Linux">
         <step>
-
+            <p>Diese Schritt-für-Schritt-Anleitung ist noch nicht erstellt.</p>
         </step>
         <note>
             <control>
