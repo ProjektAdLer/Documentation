@@ -89,4 +89,41 @@
             </control>
         </note>
     </procedure>
+    <procedure title="Installieren des Autorentools auf Domänenrechnern">
+        <step>
+            <p>Öffnen Sie den Ordner, in den Sie die Installationsdatei heruntergeladen haben.</p>
+            <tip>
+                <p>Standardmäßig lädt Windows Dateien in den Ordner <control>C:\Users\NameIhresPCs\Downloads</control> herunter.</p>
+            </tip>
+        </step>
+        <step>
+            <p>Machen Sie einen <b>Rechtsklick</b> auf die heruntergeladene Autorentool-Installationsdatei.</p>
+            <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>Klicken Sie in dem nun neu erscheinenden Fenster die Option <b>Eigenschaften</b> an.</p>
+            <img src="imageManualWorkshopDomaenenrechnerEigenschaften.png" alt="FensterEigenschaften" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>In dem sich nun öffnenden Fenster setzen Sie im Tab <b>Allgemein</b> unten rechts bei <b>Zulassen</b> einen Haken.</p>
+            <img src="imageManualWorkshopDomaenenrechnerZulassen.png" alt="ZulassenImFensterEigenschaften" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>Bestätigen Sie Ihre Angabe mit einem Klick auf den Button <b>OK</b>.</p>
+            <img src="imageManualWorkshopDomaenenrechnerOKButton.png" alt="OKButtonImFensterEigenschaften" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>Öffnen Sie die heruntergeladene Autorentool-Installationsdatei mit einem Doppelklick.</p>
+            <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
+            <tip>
+                <p>Das Autorentool sollte nun installiert werden und sich nach der Installation automatisch öffnen.</p>
+            </tip>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben das Autorentool erfolgreich auf Ihrem Windows-Domänenrechner installiert.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
 </topic>
