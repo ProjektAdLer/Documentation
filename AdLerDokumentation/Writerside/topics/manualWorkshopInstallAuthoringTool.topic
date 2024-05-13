@@ -15,26 +15,26 @@
             <p>Öffnen Sie Ihren bevorzugten Browser.</p>
         </step>
         <step>
-            <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a></p>
+            <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a>.</p>
             <tip>Sie befinden sich nun auf der GitHub-Seite "Releases", auf der alle Versionen des AdLer-Autorentools aufgeführt werden. Die aktuellste Version wird ganz oben angezeigt.</tip>
         </step>
         <step>
-            <p>Wählen Sie nun unter dem Punkt Assets, die Datei aus, welche für ihr System passend ist und laden Sie diese herunter.</p>
+            <p>Wählen Sie nun unter dem Punkt <control>Assets</control>, die Datei aus, welche für Ihr System passend ist und laden Sie diese herunter.</p>
             <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
         </step>
-        <step><p>Im folgenden sehen Sie eine Auflistung, welche Datei sie für welches Betriebssystem herunterladen müssen, um das Autorentool installieren zu können.</p>
+        <step><p>Im folgenden sehen Sie eine Auflistung, welche Datei Sie für welches Betriebssystem herunterladen müssen, um das Autorentool installieren zu können.</p>
         </step>
         <tabs>
             <tab id="windows" title="Windows">
-                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.exe</control></p>
+                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.exe</control>.</p>
                 <img src="imageManualWorkshopDownloadAuthoringToolWin.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
             </tab>
             <tab id="macOS" title="macOS">
-                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.dmg</control></p>
+                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.dmg</control>.</p>
                 <img src="imageManualWorkshopDownloadAuthoringToolMac.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
             </tab>
             <tab id="linux" title="Linux">
-                <p>Klicken Sie je nach Ihrer installierten Linux Distribution auf die passende Datei. Zum Beispiel <control>.snap</control> oder <control>.AppImage</control></p>
+                <p>Klicken Sie je nach Ihrer installierten Linux-Distribution auf die passende Datei. Zum Beispiel <control>.snap</control> oder <control>.AppImage</control>.</p>
                 <img src="imageManualWorkshopDownloadAuthoringToolLinux.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
             </tab>
         </tabs>
@@ -51,17 +51,17 @@
     </procedure>
     <procedure title="Installieren des Autorentools unter Windows 10/11">
         <step>
-            <p>Öffnen Sie den Ordner, in den Sie die Installationsdatei heruntergeladen haben.</p>
+            <p>Öffnen Sie den Ordner, in dem Sie die Installationsdatei heruntergeladen haben.</p>
         </step>
         <tip>
             <p>Standardmäßig lädt Windows Dateien in den Ordner <control>C:\Users\NameIhresPCs\Downloads</control> herunter.</p>
         </tip>
         <step>
-            <p>Öffnen Sie die heruntergeladene Autorentool Installationsdatei mit einem Doppelklick.</p>
+            <p>Öffnen Sie die heruntergeladene Autorentool-Installationsdatei mit einem Doppelklick.</p>
             <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
         </step>
         <step>
-            <tip>Es erscheint, die im folgenden Screenshot abgebildete Warnung. Diese erscheint, da das AdLer Autorentool noch kein Zertifikat von Microsoft hat.</tip>
+            <tip>Es erscheint, die im folgenden Screenshot abgebildete Warnung. Diese erscheint, da das AdLer-Autorentool noch kein Zertifikat von Microsoft hat.</tip>
             <img src="imageManualWorkshopAlertWindow.png" alt="Warnfenster in Windows" width="200" thumbnail="true"/>
             <p>Klicken Sie im Warnfenster auf <control>Weitere Informationen</control>.</p>
         </step>
@@ -70,19 +70,19 @@
             <img src="imageManualWorkshopInstallNevertheless.png" alt="Warnfenster in Windows mit Trotzdem installieren" width="200" thumbnail="true"/>
         </step>
         <tip>
-            <p>Die Installation läuft nun automatisch ab. Nach der Installation sehen Sie die Standardansicht des AdLer Autorentools.</p>
+            <p>Die Installation läuft nun automatisch ab. Nach der Installation sehen Sie die Standardansicht des AdLer-Autorentools.</p>
             <img src="imageManualWorkshopAuthoringToolDefaultAfterInstallWindows.png" alt="Standardansicht des Autorentools nach dem Öffnen auf Windows" width="200" thumbnail="true"/>
         </tip>
         <note>
             <control>
-                <p>Sie haben das Autorentool erfolgreich auf ihrem Windows Computer installiert.</p>
+                <p>Sie haben das Autorentool erfolgreich auf Ihrem Windows-Computer installiert.</p>
                 <p>&#10004;</p>
             </control>
         </note>
     </procedure>
     <procedure title="Installieren des Autorentools unter macOS">
         <step>
-            <p>Öffnen Sie den Ordner, in den Sie die Installationsdatei heruntergeladen haben.</p>
+            <p>Öffnen Sie den Ordner, in dem Sie die Installationsdatei heruntergeladen haben.</p>
         </step>
         <tip>
             <p>Standardmäßig lädt macOS Dateien in den Ordner <control>/Users/IhrBenutzerName/Downloads</control> herunter.</p>
@@ -92,26 +92,26 @@
             <img src="imageManualWorkshopDownloadsFolderMacOs.png" alt="Downloads Ordner macOS" width="200" thumbnail="true"/>
         </step>
         <step>
-            <p>Klicken Sie auf das Autorentool Logo und ziehen Sie es mit gedrückter linker Maustaste auf den Ordner Applications (Programme). Lassen Sie es dort los.</p>
-            <tip>Die Dateiendung <control>.app</control> erschient auf Ihrem Mac möglicherweise nicht.</tip>
+            <p>Klicken Sie auf das Autorentool-Logo und ziehen Sie es mit gedrückter linker Maustaste auf den Ordner <control>Applications (Programme)</control>. Lassen Sie es dort los.</p>
+            <tip>Die Dateiendung <control>.app</control> erscheint auf Ihrem Mac möglicherweise nicht.</tip>
             <img src="imageManualWorkshopDragAuthoringToolToInstall.png" alt="Installationsdialog macOS" width="200" thumbnail="true"/>
         </step>
         <step>
-            <p>Öffnen Sie nun Ihren Finder und gehen Sie auf den Ordner <control>Programme</control>. Suchen Sie dort die Anwendung <control>AuthoringTool</control>, welche das zugehörige AdLer Logo aufweist.</p>
+            <p>Öffnen Sie nun Ihren Finder und gehen Sie auf den Ordner <control>Programme</control>. Suchen Sie dort die Anwendung <control>AuthoringTool</control>, welche das zugehörige AdLer-Logo aufweist.</p>
             <img src="imageManualWorkshopFinderPrograms.png" alt="Programme Ordner im Finder" width="200" thumbnail="true"/>
         </step>
         <step>
-            <p>Klicken Sie nun mit der rechten Maustaste auf das Autorentool oder Halten Sie die Taste <control>CTRL</control> gedrückt und Klicken Sie mit der linken Maustaste.</p>
+            <p>Klicken Sie nun mit der rechten Maustaste auf das Autorentool oder halten Sie die Taste <control>CTRL</control> gedrückt und klicken Sie mit der linken Maustaste.</p>
             <note>Das Rechtsklick-Kontextmenü erscheint.</note>
         </step>
         <step>
-            <p>Klicken Sie nun auf <control>Öffnen</control>.</p>
+            <p>Klicken Sie nun auf die Option <control>Öffnen</control>.</p>
             <img src="imageManualWorkshopRightClickAuthoringTool.png" alt="Rechtsklick Kontextmenü" width="200" thumbnail="true"/>
         </step>
         <step>
             <p>Klicken Sie im nun geöffneten Warnfenster auf den Button <control>Öffnen</control>.</p>
             <img src="imageManualWorkshopPromptClickOpen.png" alt="Warnfenster" width="200" thumbnail="true"/>
-            <tip>Das Warnfenster erscheint, da das AdLer Autorentool noch kein Zertifikat von Apple besitzt. Sie müssen diesen Prozess des Öffnens nur beim erstmaligen Öffnen durchführen.</tip>
+            <tip>Das Warnfenster erscheint, da das AdLer-Autorentool noch kein Zertifikat von Apple besitzt. Sie müssen diesen Prozess des Öffnens nur beim erstmaligen Öffnen durchführen.</tip>
             <note>
                 <p>Sie sehen nun das geöffnete Autorentool.</p>
                 <img src="imageManualWorkshopAuthoringToolDefaultMacOs.png" alt="Standardansicht des Autorentools macOS" width="200" thumbnail="true"/>
@@ -119,7 +119,7 @@
         </step>
         <note>
             <control>
-                <p>Sie haben das Autorentool erfolgreich auf ihrem Mac installiert.</p>
+                <p>Sie haben das Autorentool erfolgreich auf Ihrem Mac installiert.</p>
                 <p>&#10004;</p>
             </control>
         </note>
@@ -130,7 +130,7 @@
         </step>
         <note>
             <control>
-                <p>Sie haben das Autorentool erfolgreich auf ihrem Linux Computer installiert.</p>
+                <p>Sie haben das Autorentool erfolgreich auf Ihrem Linux-Computer installiert.</p>
                 <p>&#10004;</p>
             </control>
         </note>
