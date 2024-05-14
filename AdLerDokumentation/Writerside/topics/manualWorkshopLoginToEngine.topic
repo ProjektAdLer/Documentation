@@ -22,11 +22,12 @@
             </step>
             <step>
                 <p>Klicken Sie im nun geöffneten Browserfenster auf das Eingabefeld <control>Nutzername</control> und geben Sie Ihren Nutzernamen ein.</p>
+                <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops ausgegeben. Sie finden das Schema der Anmeldedaten zusätzlich auf der Workshop Webseite der Projekt AdLer Homepage.</tip>
                 <img src="imageManualWorkshopAdlerEngineWelcomePageLoginFormWithArrow.png" alt="Home Screen des AdLer Moodles ohne Login" width="200" thumbnail="true"/>
             </step>
             <step>
                 <p>Klicken Sie nun auf das Eingabefeld <control>Passwort</control> und geben Sie Ihr Passwort ein.</p>
-                <note>Nutzen Sie für die Anmeldung dieselben Anmeldedaten, die Sie für die Anmeldung im AdLer-Moodle verwendet haben.</note>
+                <note>Nutzen Sie für die Anmeldung dieselben Anmeldedaten, die Sie für die Anmeldung und Einschreibung im AdLer-Moodle verwendet haben.</note>
                 <img src="imageManualWorkshopAdlerEngineWelcomePageLoginFormWithArrow.png" alt="Home Screen des AdLer Moodles ohne Login" width="200" thumbnail="true"/>
             </step>
             <step>

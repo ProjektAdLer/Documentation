@@ -27,6 +27,7 @@
             </step>
             <step>
                 <p>Geben Sie im nun erscheinenden Fenster Ihre Anmeldedaten ein.</p>
+                <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops ausgegeben. Sie finden das Schema der Anmeldedaten zusätzlich auf der Workshop Webseite der Projekt AdLer Homepage.</tip>
                 <img src="imageManualWorkshopMoodleLoginFormWithData.png" alt="Moodle Login Formular" width="200" thumbnail="true"/>
                 <tip>Die Anmeldedaten im Bild sind nur zu Anschauungszwecken. Geben Sie bitte Ihre eigenen Anmeldedaten ein.</tip>
             </step>
@@ -44,7 +45,7 @@
     </chapter>
     <chapter title="Einschreiben in die 3D-Lernwelt" id="einschreibenInEineLernwelt">
         <procedure>
-            <tip>Sie befinden sich nach der Anmeldung in Moodle in der Standardansicht.</tip>
+            <tip>Sie befinden sich nach der Anmeldung in Moodle in der Standardansicht. Sollten Sie sich direkt im Fenster des Moodle Kurses befinden, welches einen Button <control>Enroll me</control> aufweist, dann starten Sie bei Schritt 3.</tip>
             <img src="imageManualWorkshopLoggedInToMoodleDefaultPage.png" alt="Standardansicht nach der Anmeldung in Moodle" width="200" thumbnail="true"/>
             <step>
                 <p>Klicken Sie im oberen linken Bereich auf die Option <control>Home</control>.</p>
@@ -73,9 +74,9 @@
                     <p>&#10004;</p>
                 </control>
             </note>
-            <step>
-                <p>Fahren Sie nun mit der Anleitung <a href="manualWorkshopLoginToEngine.topic">"Einloggen in die 3D-Umgebung"</a> fort.</p>
-            </step>
         </procedure>
+        <tip>
+            <p>Fahren Sie nun mit der Anleitung <a href="manualWorkshopLoginToEngine.topic">"Betrachten der Lernwelt in der 3D-Lernumgebung"</a> fort.</p>
+        </tip>
     </chapter>
 </topic>

@@ -25,7 +25,7 @@
             </deflist>
             <procedure title="a. Anpassen der Metadaten des Lernraums" id="anpassenDerMetadatenDesLernraums">
                 <step>
-                    <p>Klicken Sie im rechten Bereich des Fensters mit einem Doppelklick auf die Abbildung des Lernraums <control>3D-Lernumgebung und Moodle</control>.</p>
+                    <p>Klicken Sie im rechten Bereich des Fensters mit einem Doppelklick auf die Abbildung des Lernraums <control>Moodle und 3D-Lernumgebung</control>.</p>
                     <img src="imageManualWorkshopHighlight3DRoomPathwayView.png" alt="Hervorhebung des anzuklickenden Lernraums in der Lernpfadansicht" width="200" thumbnail="true" />
                     <tip>Wenn Sie mit der Maus über die Lernräume fahren, wird Ihnen der vollständige Name angezeigt.</tip>
                 </step>
@@ -99,7 +99,7 @@
                 </note>
             </procedure>
             <procedure title="c. Verbinden von Lernräumen (Lernpfad)" id="verbindenVonLernraeumenLernpfad">
-                <tip>Sie befinden sich noch in der Ansicht des geöffneten Lernraums <control>3D-Lernumgebung und Moodle</control></tip>
+                <tip>Sie befinden sich noch in der Ansicht des geöffneten Lernraums <control>Moodle und 3D-Lernumgebung</control>. Sollten Sie sich dort nicht mehr befinden, klicken Sie im linken Bereich auf den Tab <control>Angaben zu Lernräumen</control>.</tip>
                 <step>
                     <p>Klicken Sie im rechten Tab <b>Verbindungen zwischen Lernräumen</b> auf den Button <control>Und-/Oder-Verbindung erstellen</control>.</p>
                     <img src="imageManualWorkshopHiglightedAddConnection.png" alt="Hervorgehobener Button Und-/Oder-Verbindung erstellen" width="200" thumbnail="true" />
@@ -113,7 +113,7 @@
                     <img src="imageManualWorkshopAndConnection.png" alt="Verbindungselement umgestellt auf Und" width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <p>Fahren Sie mit der Maus über den grauen Hintergrundbereich der <control>Und-Verbindung</control> und ziehen Sie die <control>Und-Verbindung</control> unter die Lernräume <control>Autorentool</control> und <control>3D-Lernumgebung und Moodle</control>.</p>
+                    <p>Fahren Sie mit der Maus über den grauen Hintergrundbereich der <control>Und-Verbindung</control> und ziehen Sie die <control>Und-Verbindung</control> unter die Lernräume <control>Autorentool</control> und <control>Moodle und 3D-Lernumgebung</control>.</p>
                     <img src="imagesManualWorkshopCorrectLocationAndConnection.png" alt="Position der Und-Verbindung" width="200" thumbnail="true" />
                     <warning>Die Und-Verbindung lässt sich durch Klicken und Ziehen auf den <control>Umschalter</control> nicht bewegen.</warning>
                 </step>
@@ -126,7 +126,7 @@
                     </tip>
                 </step>
                 <step>
-                    <p>Wiederholen Sie die Schritte 2-4 für den Lernraum <control>3D-Lernumgebung und Moodle</control>.</p>
+                    <p>Wiederholen Sie die Schritte 2-4 für den Lernraum <control>Moodle und 3D-Lernumgebung</control>.</p>
                     <img src="imageManualWorkshopLearningPathwayCreated.png" alt="Fertig erstellte Verbindungen zu logischen Verknüpfung der Lernräume" width="200" thumbnail="true" />
                 </step>
                 <step>
@@ -252,6 +252,6 @@
                 </control>
             </note>
             <tip>
-                Fahren Sie nun mit dem <a href="manualWorkshopUploadLearningWorld.topic">Hochladen der Lernwelt</a> fort.
+                <p>Fahren Sie nun mit dem <a href="manualWorkshopUploadLearningWorld.topic">Hochladen der Lernwelt</a> fort.</p>
             </tip>
 </topic>
