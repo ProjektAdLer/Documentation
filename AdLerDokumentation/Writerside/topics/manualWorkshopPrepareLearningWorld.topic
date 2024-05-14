@@ -22,7 +22,7 @@
                 <p>Klicken Sie auf den Button <control>Importieren</control>.</p>
             </step>
             <step>
-                <p>Suchen Sie im erscheinenden Systemdialog Ihres Betriebssystems die für den Workshop bereitgestellte Datei <control>240403_Lernwelt_Workshops2024_teilfertig.zip</control></p>
+                <p>Suchen Sie im erscheinenden Systemdialog Ihres Betriebssystems die für den Workshop bereitgestellte Datei <control>Workshops2024_teilfertig.zip</control></p>
                 <img src="imageManualWorkshopExplorerArchiveImport.png" alt="Import-Betriebssystemdialog am Beispiel von Windows 11" width="200" thumbnail="true" />
             </step>
             <step>
