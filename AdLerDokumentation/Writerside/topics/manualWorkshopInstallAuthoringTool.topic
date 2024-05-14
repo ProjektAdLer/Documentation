@@ -135,7 +135,7 @@
             </control>
         </note>
     </procedure>
-    <procedure title="Installieren des Autorentools auf Domänenrechnern">
+    <procedure title="Installieren des Autorentools auf Domänenrechnern der TH Aschaffenburg">
         <step>
             <p>Öffnen Sie den Ordner, in den Sie die Installationsdatei heruntergeladen haben.</p>
             <tip>
@@ -167,7 +167,7 @@
         </step>
         <note>
             <control>
-                <p>Sie haben das Autorentool erfolgreich auf Ihrem Windows-Domänenrechner installiert.</p>
+                <p>Sie haben das Autorentool erfolgreich auf Ihrem Windows-Domänenrechner der TH Aschaffenburg installiert.</p>
                 <p>&#10004;</p>
             </control>
         </note>
