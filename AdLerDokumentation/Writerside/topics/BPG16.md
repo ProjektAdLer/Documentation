@@ -1,9 +1,9 @@
 # Lernelement Bewertungsstatus ausgeben
 
-# Definition:
+## Definition:
 
-Das Backend muss den Bewertungsstatus eines Lernelements ausgeben
+Das Backend muss den Bewertungsstatus eines Lernelements aus dem LMS ausgeben
 
 
-# Akzeptanzkriterien:
+## Akzeptanzkriterien:
 - Es wird zu jedem Lernelement der Bewertungsstatus /Success/Failed/ ausgegeben

@@ -14,17 +14,23 @@
         <chapter title="Vervollständigen des Lernraums 3D-Lernumgebung und Moodle" id="VervollstaendigenDesLernraums3DLernumgebungundMoodle">
             <deflist type="compact" sorted="desc">
                 <def title="&#127937;">
-                    <control>Sie Öffnen den Lernraum, ändern dessen Metadaten und erstellen drei Lernelemente, versehen diese mit Metadaten und weisen diesen das passende Lernmaterial zu.</control>
+                    <control>
+                        <list type="alpha-lower">
+                            <li>Sie öffnen den Lernraum und ändern dessen Metadaten.</li>
+                            <li>Danach erstellen Sie drei Lernelemente, versehen diese mit Metadaten und weisen diesen das passende Lernmaterial zu.</li>
+                            <li>Abschließend erzeugen Sie Abhängigkeiten zwischen den Lernräumen.</li>
+                            </list>
+                    </control>
                 </def>
             </deflist>
-            <procedure title="Anpassen der Metadaten des Lernraums" id="anpassenDerMetadatenDesLernraums">
+            <procedure title="a. Anpassen der Metadaten des Lernraums" id="anpassenDerMetadatenDesLernraums">
                 <step>
                     <p>Klicken Sie im rechten Bereich des Fensters mit einem Doppelklick auf die Abbildung des Lernraums <control>3D-Lernumgebung und Moodle</control>.</p>
                     <img src="imageManualWorkshopHighlight3DRoomPathwayView.png" alt="Hervorhebung des anzuklickenden Lernraums in der Lernpfadansicht" width="200" thumbnail="true" />
                     <tip>Wenn Sie mit der Maus über die Lernräume fahren, wird Ihnen der vollständige Name angezeigt.</tip>
                 </step>
                 <step>
-                    <p>Klicken Sie nun im Reiter <control>Lernraum bearbeiten</control> auf die ategorie <control>Abschlussbedingung</control>, um diese aufzuklappen.</p>
+                    <p>Klicken Sie nun im Tab <control>Lernraum bearbeiten</control> auf die Kategorie <control>Abschlussbedingung</control>, um diese aufzuklappen.</p>
                     <img src="imageManualWorkshopOpened3DRoom.png" alt="Geöffneter Lernraum 3D-Lernumgebung und Moodle" width="200" thumbnail="true" />
                 </step>
                 <step>
@@ -44,7 +50,7 @@
                 </note>
             </procedure>
 
-            <procedure title="Erstellen von drei Lernelementen" id="erstellenVonDreiLernelementen">
+            <procedure title="b. Erstellen von drei Lernelementen" id="erstellenVonDreiLernelementen">
                 <tip>Sie befinden sich weiterhin in der Ansicht des geöffneten Lernraums <control>3D-Lernumgebung und Moodle</control></tip>
                 <step>
                     <p>Klicken Sie den auf der Abbildung markierten Lernelement-Slot an.</p>
@@ -59,12 +65,12 @@
                     <img src="imageManualWorkshopSearchLearningContent.png" alt="Lernelement erstellen Dialog mit Daten in Suchzeile für Externes Lernmaterial" width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <p>Weisen Sie das gefundene Externe Lernmaterial mit einem Klick dem Lernelement zu.</p>
-                    <tip>Sobald das externe Lernmaterial ausgewählt und dem Lernelement zugewiesen ist, ändert sich die Hintergrundfarbe des Listeneintrags auf ein dunkleres Grau.
+                    <p>Weisen Sie das gefundene externe Lernmaterial mit einem Klick dem Lernelement zu.</p>
+                    <tip>Sobald das externe Lernmaterial ausgewählt und dem Lernelement zugewiesen ist, ändert sich die Hintergrundfarbe des Listeneintrags in ein dunkleres Grau.
                     </tip>
                 </step>
                 <step>
-                    <p>Klicken Sie als nächstes auf die Kategorie <control>3D-Darstellung</control> und wählen Sie per Klick die passende die in der Ausfüllhilfe angegebene 3D-Darstellung aus.</p>
+                    <p>Klicken Sie als nächstes auf die Kategorie <control>3D-Darstellung</control> und wählen Sie per Klick die in der Ausfüllhilfe angegebene 3D-Darstellung aus.</p>
                     <img src="imageManualWorkshopCreateLearningElementChoose3D.png" alt="Geöffneter Unterpunkt 3D-Darstellung" width="200" thumbnail="true" />
                     <tip>Die, wie im Bild gezeigte, vergrößerte 3D-Darstellung erhalten Sie, wenn Sie mit der Maus über die jeweilige 3D-Darstellung in der Liste fahren.</tip>
                 </step>
@@ -77,8 +83,8 @@
                     <note>Das Lernelement erscheint im Grundriss in dem Lernelement-Slot, den Sie zu Beginn ausgewählt hatten.</note>
                 </step>
                 <step>
-                    <p>Wiederholen Sie nun Schritt 1-8 dieses Kapitels ("Erstellen von drei Lernelementen") und fügen Sie den restlichen freien Lernelement-Slots die zwei weiteren Lernelemente aus der Ausfüllhilfe zu.</p>
-                    <tip>Entnehmen Sie die Informationen zu Metadaten und Platzierung der beiden Lernelemene der Ausfüllhilfe.</tip>
+                    <p>Wiederholen Sie nun Schritt 1-8 dieses Kapitels <control>Erstellen von drei Lernelementen</control> und fügen Sie den restlichen freien Lernelement-Slots die zwei weiteren Lernelemente aus der Ausfüllhilfe zu.</p>
+                    <tip>Entnehmen Sie die Informationen zu Metadaten und Platzierung der beiden Lernelemente der Ausfüllhilfe.</tip>
                 </step>
                 <step>
                     <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
@@ -92,10 +98,10 @@
                     </control>
                 </note>
             </procedure>
-            <procedure title="Verbinden von Lernräumen (Lernpfad)" id="verbindenVonLernraeumenLernpfad">
+            <procedure title="c. Verbinden von Lernräumen (Lernpfad)" id="verbindenVonLernraeumenLernpfad">
                 <tip>Sie befinden sich noch in der Ansicht des geöffneten Lernraums <control>3D-Lernumgebung und Moodle</control></tip>
                 <step>
-                    <p>Klicken Sie auf den Button <control>Und-/Oder-Verbindung erstellen</control>.</p>
+                    <p>Klicken Sie im rechten Tab <b>Verbindungen zwischen Lernräumen</b> auf den Button <control>Und-/Oder-Verbindung erstellen</control>.</p>
                     <img src="imageManualWorkshopHiglightedAddConnection.png" alt="Hervorgehobener Button Und-/Oder-Verbindung erstellen" width="200" thumbnail="true" />
                     <note>
                         <p>Die Und-/Oder-Verbindung erscheint mit der Standardeinstellung <control>Oder</control>.</p>
@@ -135,7 +141,21 @@
                     </control>
                 </note>
             </procedure>
-            <procedure title="Erstellen eines neuen Lernraums" id="erstellenEinesNeuenLernraums">
+        </chapter>
+
+    <chapter title="Gestalten eines neuen Lernraums" id="GestaltenEinesNeuenLernraums">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>
+                    <list type="alpha-lower">
+                        <li>Sie erstellen einen neuen Lernraum und vergeben diesem Metadaten.</li>
+                        <li>Danach erstellen Sie ein Storyelement und fügen diesem Story-Texte hinzu.</li>
+                        <li>Abschließend erstellen Sie ein Lernelement mit den dazugehörigen Metadaten.</li>
+                    </list>
+                </control>
+            </def>
+        </deflist>
+            <procedure title="a. Erstellen eines neuen Lernraums" id="erstellenEinesNeuenLernraums">
                 <step>
                     <p>Klicken Sie auf den Button <control>Neu</control> im linken Bereich <control>Lernraum bearbeiten</control>.</p>
                     <img src="imageManualWorkshopNewLearningSpaceHighlighted.png" alt="Hervorgehobener Neu-Button im Lernraum bearbeiten Bereich" width="200" thumbnail="true" />
@@ -145,85 +165,86 @@
                     <img src="imageManualWorkshopFillInLearningSpaceMetadataHighlighted.png" alt="Hervorgehobener Lernraum erstellen Bereich" width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den <control>OK-Button</control> im unteren Bereich des Formulars.</p>
+                    <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den Button <control>OK</control> im unteren Bereich des geöffneten linken Tabs <control>Lernraum bearbeiten</control>.</p>
                     <img src="imageManualWorkshopOKButtonHighlighted.png" alt="Hervorgehobener OK-Button, im Lernraum erstellen Bereich" width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <p>Ziehen Sie den Lernraum in der Lernpfadansicht an die, in der Ausfüllhilfe angegebene Stelle.</p>
+                    <p>Gehen Sie nun im rechten Bereich zum Tab <b>Verbindungen zwischen Lernräumen</b> und ziehen Sie den neu erstellten Lernraum <b>Abschluss</b> an die, in der Ausfüllhilfe angegebene, Stelle.</p>
                     <img src="imageManualWorkshopDraggedLearningSpaceInPathwayView.png" alt="Im Lernpfad korrekt platzierter Lernraum." width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <p>Verbinden Sie den Lernpfad mithilfe der orangen <control>Plus-Buttons</control>.</p>
-                    <tip>Das Erstellen von Verbindungen im Lernpfad, haben Sie bereits in Schritt 4 des Kapitels "Erstellen einer logischen Verknüpfung zwischen zwei Räumen" durchgeführt.</tip>
+                    <p>Verbinden Sie die <control>Und-Verbindung</control> mit dem Lernraum <control>Abschluss</control> mithilfe des orangefarbenen Buttons <control>Plus</control> an der <control>Und-Verbindung</control>.</p>
+                    <tip>Das Verbinden von Lernräumen und Und-/Oder-Verbindungen haben Sie bereits in Schritt 4 des Kapitels <a href="#verbindenVonLernraeumenLernpfad">"Verbinden von Lernräumen (Lernpfad)"</a> durchgeführt.</tip>
                     <img src="imageManualWorkshopDraggedLearningPathToRoomAbschluss.png" alt="Im Lernpfad korrekt platzierter Lernraum mit Lernpfadverbindung." width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
-                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern. </p>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern.</p>
                     <img src="imageManualWorkshopOpenedLearningSpaceAbschluss.png" alt="Leerer, neu erstellter Lernraum" width="200" thumbnail="true" />
                 </step>
                 <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
                 <note>
                     <control>
-                        <p>Sie haben erfolgreich eine logische Verknüpfung zwischen Lernräumen hergestellt.</p>
+                        <p>Sie haben erfolgreich einen neuen Lernraum erstellt und diesen mit den anderen Lernräumen verbunden.</p>
                         <p>&#10004;</p>
                     </control>
                 </note>
             </procedure>
-            <procedure title="Erstellen eines Storyelements" id="erstellenEinesStoryElements">
+            <procedure title="b. Erstellen eines Storyelements" id="erstellenEinesStoryElements">
                 <step>
-                    <img src="imageManualWorkshopAddStoryElementHighlightedButton.png" alt="Hervorgehobener Storyelement Slot im Lernraum Editor" width="200" thumbnail="true" />
                     <p>Klicken Sie auf den Slot, welcher sich im <control>Lernraum-Editor</control> auf der linken Seite befindet.</p>
-                    <tip>Die Position des zu klickenden Slots, ist im beigefügten Bild dieses Handlungsschritts zu sehen.</tip>
+                    <img src="imageManualWorkshopAddStoryElementHighlightedButton.png" alt="Hervorgehobener Storyelement Slot im Lernraum Editor" width="200" thumbnail="true" />
+                    <tip>Die Position des zu klickenden Slots ist im beigefügten Bild dieses Handlungsschritts zu sehen.</tip>
                 </step>
                 <step>
-                    <p>Füllen Sie im nun geöffneten Reiter <control>Storyelement erstellen</control> die Zeile Name, wie in der Ausfüllhilfe angegeben, aus.</p>
+                    <p>Füllen Sie im nun geöffneten Tab <control>Storyelement erstellen</control> das Feld <b>Name</b>, wie in der Ausfüllhilfe angegeben, aus.</p>
                     <img src="imageManualWorkshopCreateStoryElementFormHighlighted.png" alt="Hervorgehobener Bereich Storyelement erstellen" width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <p>Klicken Sie nun auf den <control>Plus-Button</control> im Bereich <control>Story</control> und tragen in die geöffnete Textbox den Story-Text, wie in der Ausfüllhilfe angegeben, ein</p>
+                    <p>Klicken Sie auf den Button <control>Plus</control> in der Kategorie <control>Story</control> und tragen Sie in den erscheinenden Textblock (Slide) den Story-Text, wie in der Ausfüllhilfe angegeben, ein.</p>
                     <img src="imageManualWorkshopAddStoryHighlightedButton.png" alt="Hervorgehobener Plus-Button zum Erstellen eines Story-Textes" width="200" thumbnail="true" />
-                    <note>Eine Textbox zum Eintragen des Story-Textes öffnet sich, anstelle des <control>Plus-Buttons</control>.</note>
+                    <note>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock (Slide) mit max. 550 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button <b>Plus</b> weitere Textblöcke (Slides) hinzugefügt werden.</note>
                 </step>
                 <step>
-                    <note>In der Ausfüllhilfe wird der Text, welcher in einzelne Slides kopiert werden soll, mit einem Strich getrennt in der Zelle dargestellt. Kopieren Sie pro Slide also nur den jeweiligen Teil des Zellentexts.</note>
-                    <p>Wiederholen Sie den vorherigen Schritt nun mit den restlichen in der Ausfüllhilfe angegebenen Slides.</p>
+                    <p>Wiederholen Sie den vorherigen Schritt 3 für die beiden restlichen, in der Ausfüllhilfe angegebenen, Story-Texte.</p>
+                    <note>In der Ausfüllhilfe wird der Text, welcher in einzelne Slides kopiert werden soll, mit einem Strich getrennt in der Zelle dargestellt. Insgesamt handelt es sich um drei Story-Texte, die jeweils in einen Story-Textblock eingefügt werden. Kopieren Sie pro Slide also nur den jeweiligen Teil des Zellentexts.</note>
                 </step>
                 <step>
-                    <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den <control>OK-Button</control> im unteren Bereich des Formulars.</p>
+                    <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den Button <control>OK</control> im unteren Bereich des geöffneten Tabs <control>Storyelement erstellen</control>.</p>
                     <img src="imageManualWorkshopCreateStoryElementOkButtonHighlighted.png" alt="Hervorgehobener OK-Button, im Storyelement erstellen Bereich" width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
-                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern.</p>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern.</p>
                     <img src="imageManualWorkshopStoryElementAdded.png" alt="Ungespeicherte Änderungen nach Erstellen eines Storyelements" width="200" thumbnail="true" />
                 </step>
                 <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
                 <note>
                     <control>
-                        <p>Sie haben erfolgreich ein Storyelement in Ihren Raum eingefügt.</p>
+                        <p>Sie haben erfolgreich ein Storyelement in den neu erstellten Lernraum eingefügt.</p>
                         <p>&#10004;</p>
                     </control>
                 </note>
             </procedure>
-            <procedure title="Erstellen eines weiteren Lernelements" id="erstellenEinesWeiterenLernElements">
+            <procedure title="c. Erstellen eines weiteren Lernelements" id="erstellenEinesWeiterenLernElements">
                 <step>
-                    <p>Erstellen Sie das fehlende Lernelement im Raum Abschluss, wie in der Aufüllhilfe angegeben.</p>
-                    <tip>Gehen Sie bei der Erstellung des Lernelements, wie im Kapitel <a href="#erstellenVonDreiLernelementen">"Erstellen von drei Lernelementen"</a> vor.</tip>
+                    <p>Erstellen Sie ein letztes Lernelement im Lernraum <control>Abschluss</control>, wie in der Ausfüllhilfe angegeben.</p>
+                    <tip>Gehen Sie bei der Erstellung des Lernelements wie in Kapitel <a href="#erstellenVonDreiLernelementen">"Erstellen von drei Lernelementen"</a> vor.</tip>
                 </step>
                 <step>
-                    <note>Der rote Punkt, am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen, an ihrer Lernwelt gibt.</note>
-                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um ihre ungespeicherten Änderungen zu speichern.</p>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern.</p>
                     <img src="imageManualWorkshopLearningWorldFinished.png" alt="Gespeicherte Änderungen nach dem Erstellen des letzten Lernelements" width="200" thumbnail="true" />
                 </step>
                 <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
                 <note>
                     <control>
-                        <p>Sie haben den letzten Lernraum erfolgreich vervollständigt.</p>
+                        <p>Sie haben erfolgreich ein Lernelement in den neu erstellten Lernraum eingefügt.</p>
                         <p>&#10004;</p>
                     </control>
                 </note>
             </procedure>
+    </chapter>
             <note>
                 <control>
                     <p>Sie haben die Lernwelt erfolgreich fertiggestellt.</p>
@@ -231,7 +252,6 @@
                 </control>
             </note>
             <tip>
-                Fahren Sie nun mit dem <a href="manualWorkshopUploadLearningWorld.topic">Hochladen der Lernwelt auf Moodle</a> fort.
+                Fahren Sie nun mit dem <a href="manualWorkshopUploadLearningWorld.topic">Hochladen der Lernwelt</a> fort.
             </tip>
-        </chapter>
 </topic>
