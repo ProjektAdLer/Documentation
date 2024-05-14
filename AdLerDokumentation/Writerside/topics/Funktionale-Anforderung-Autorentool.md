@@ -1,7 +1,5 @@
 # Funktionale Anforderung Autorentool
 
-
-
 ## Definition
 
 Das Autorentool muss Lehrenden die Möglichkeit bieten, 
