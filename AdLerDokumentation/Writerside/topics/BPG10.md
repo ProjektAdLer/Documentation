@@ -1,8 +1,6 @@
 # Spielerdaten löschen
 
-
-
-# Definition:
+## Definition:
 
 Das Backend muss fähig sein die Spielerbezogene Daten zu löschen.
 
@@ -11,11 +9,10 @@ Diese Anforderung wurde zwar an das System gestellt, jedoch verarbeiten die ande
 Allerdings ist diese Anforderung zwingend zu implementieren, wenn Spielerdaten gehalten werden. 
 
 
-# Akzeptanzkriterien:
+## Akzeptanzkriterien:
 Liste der momentanen Spielerdaten:
 - Geschlecht (enum: Männlich, Weiblich)
 - Hintergrundfarbe der Welt
 - ID des Spielers
 
-# Aktivitätsdiagramm:
 

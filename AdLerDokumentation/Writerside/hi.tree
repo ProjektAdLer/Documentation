@@ -469,6 +469,8 @@
                     <toc-element topic="BPG13.md"/>
                 </toc-element>
                 <toc-element topic="BPGLernende.md">
+                    <toc-element topic="BPG22.md"/>
+                    <toc-element topic="Spielerdaten-Eigenschaften-Backend.md"/>
                     <toc-element topic="BPG10.md"/>
                     <toc-element topic="BPG9.md"/>
                     <toc-element topic="BPG8.md"/>
