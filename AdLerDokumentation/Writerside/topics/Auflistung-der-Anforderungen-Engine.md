@@ -5,6 +5,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 [//]: # (Script-Start)
 | Requirement | Anzahl an Tests | Dateien |
 | --- | --- | --- |
+| [3D-Lernraum anzeigen (EZZ0027)](EZZ0027.md) | **0** | - |
 | [Abgebrochener Login (EZZ0004)](EZZ0004.md) | 1 | [LoginUseCase.test.ts:130](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Login/LoginUseCase.test.ts#L130) |
 | [Adaptivitäselement-Inhalt laden (EWE0013)](EWE0013.md) | 1 | [LoadAdaptivityElementUseCase.test.ts:98](https://github.com/ProjektAdLer/2D_3D_AdLer/blob/main/src/Components/CoreTest/Application/UseCases/Adaptivity/LoadAdaptivityElementUseCase/LoadAdaptivityElementUseCase.test.ts#L98) |
 | [Adaptivitätselement laden (EWE0001)](EWE0001.md) | **0** | - |
