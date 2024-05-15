@@ -17,7 +17,8 @@
                     <control>
                         <list type="alpha-lower">
                             <li>Sie öffnen den Lernraum und ändern dessen Metadaten.</li>
-                            <li>Danach erstellen Sie drei Lernelemente, versehen diese mit Metadaten und weisen diesen das passende Lernmaterial zu.</li>
+                            <li>Danach fügen Sie externes Lernmaterial in das Autorentool hinzu.</li>
+                            <li>Anschließend erstellen Sie drei Lernelemente, versehen diese mit Metadaten und weisen diesen das passende Lernmaterial zu.</li>
                             <li>Abschließend erzeugen Sie Abhängigkeiten zwischen den Lernräumen.</li>
                             </list>
                     </control>
@@ -50,8 +51,76 @@
                 </note>
             </procedure>
 
-            <procedure title="b. Erstellen von drei Lernelementen" id="erstellenVonDreiLernelementen">
-                <tip>Sie befinden sich weiterhin in der Ansicht des geöffneten Lernraums <control>3D-Lernumgebung und Moodle</control></tip>
+            <procedure title="b. Hinzufügen von externem Lernmaterial" id="hinzufuegenVonExternemLernmaterial">
+                <tip>Sie befinden sich weiterhin in der Ansicht des geöffneten Lernraums <control>Moodle und 3D-Lernumgebung</control></tip>
+                <img src="imageManualWorkshopLearningSpaceMoodleOpened.png" alt="Ansicht des Autorentools mit geöffnetem Raum Moodle und 3D-Lernumgebung" width="200" thumbnail="true"/>
+                <step>
+                    <p>Klicken Sie auf den Tab <control>Externes Lernmaterial</control> im linken Bereich des Autorentools.</p>
+                    <img src="imageManualWorkshopClickExternalLearningMaterial.png" alt="Klick auf Tab Externes Lernmaterial" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>Laden Sie sich von der Landingpage des Workshops das "Externe Lernmaterial zum Erstellen der fehlenden Lernelemente" herunter.</p>
+                    <tip>Den Link zur Landingpage wurde ihnen während des Workshops zur Verfügung gestellt.</tip>
+                </step>
+                <step>
+                    <p>Entpacken Sie die heruntergeladene .zip Datei.</p>
+                    <tip>In Windows 10/11 können Sie .zip Dateien mit einem Rechtsklick auf die .zip-Datei und einem Klick auf <control>Alle extrahieren...</control> entpacken.</tip>
+                </step>
+                <step>
+                    <p>Ziehen Sie die Datei mit der Dateiendung <control>.h5p</control> und die Datei mit der Dateiendung <control>.pdf</control> in den hellblauen Bereich, um Sie ins Autorentool hinzuzufügen.</p>
+                    <img src="imageManualWorkshopAddExternalLearningMaterialDragDrop.png" alt="Extrnes Lernmaterial Dropzone" width="200" thumbnail="true"/>
+                    <note>Sie haben erfolgreich eine Datei als Externes Lernmaterial zum Autorentool hinzugefügt.</note>
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern. </p>
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <step>
+                    <p>Klicken Sie auf den Punkt <control>Link hinzufügen</control>, um diesen aufzuklappen.</p>
+                    <img src="imageManualWorkshopClickAddLink.png" alt="Link hinzufügen aufklappen" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>Öffnen Sie nun die entpackte Datei mit der Dateiendung .txt.</p>
+                </step>
+                <step>
+                    <p>Kopieren Sie nun den Namen, der in der Ausfüllhilfe in der Spalte <control>Externes Lernmaterial</control>, beim ersten Lernelement des Raums <control>Moodle und 3D-Lernumgebung</control> angegeben ist.</p>
+                </step>
+                <step>
+                    <p>Fügen Sie diesen nun in das Textfeld <control>Name für den Link</control> ein.</p>
+                    <img src="imageManualWorkshopClickNameLink.png" alt="Link Namen eingeben" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>Öffnen Sie nun die entpackte Datei mit der Dateiendung .txt.</p>
+                </step>
+                <step>
+                    <p>Kopieren Sie den zum Namen des Externen Lernmaterials passenden Link aus der .txt Datei.</p>
+                </step>
+                <step>
+                    <p>Fügen Sie diesen Link in das Textfeld <control>Link</control> im Autorentool ein.</p>
+                    <img src="imageManualWorkshopClickLinkURL.png" alt="URL eingeben" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>Bestätigen Sie Ihre Angabe mit dem Button <control>OK</control>.</p>
+                    <img src="imageManualWorkshopClickLinkOK.png" alt="Mit OK bestätigen" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern. </p>
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <step>
+                    <p>Wiederholen Sie nun die Schritte 8-13, um den zweiten benötigten Link als Externes Lernmaterial anzulegen.</p>
+                    <tip>Den Namen des anzulegenden Externen Lernmaterials finden Sie in der Ausfüllhilfe unter Raum 5 - Abschluss, in der Spalte Externes Lernelement, in der Zeile Lernelement.</tip>
+                </step>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich ein Externes Lernmaterial zum Autorentool hinzugefügt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+            <procedure title="c. Erstellen von drei Lernelementen" id="erstellenVonDreiLernelementen">
                 <step>
                     <p>Klicken Sie den auf der Abbildung markierten Lernelement-Slot an.</p>
                     <img src="imageManualWorkshopFirstLearningElementSlotHighlighted.png" alt="Markierter Lernelement Slot des ersten hinzuzufügenden Lernelements" width="200" thumbnail="true" />
@@ -98,7 +167,7 @@
                     </control>
                 </note>
             </procedure>
-            <procedure title="c. Verbinden von Lernräumen (Lernpfad)" id="verbindenVonLernraeumenLernpfad">
+            <procedure title="d. Verbinden von Lernräumen (Lernpfad)" id="verbindenVonLernraeumenLernpfad">
                 <tip>Sie befinden sich noch in der Ansicht des geöffneten Lernraums <control>Moodle und 3D-Lernumgebung</control>. Sollten Sie sich dort nicht mehr befinden, klicken Sie im linken Bereich auf den Tab <control>Angaben zu Lernräumen</control>.</tip>
                 <step>
                     <p>Klicken Sie im rechten Tab <b>Verbindungen zwischen Lernräumen</b> auf den Button <control>Und-/Oder-Verbindung erstellen</control>.</p>
