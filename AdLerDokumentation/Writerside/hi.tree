@@ -615,7 +615,24 @@
                     <toc-element topic="ManualAuthoringBedienungArbeitsfläche-Rechte-Sidebar.topic">
                         <toc-element topic="ManualAuthoringBedienungRechteSidebarLernräume-verbinden.topic"/>
                     </toc-element>
-                    <toc-element topic="ManualAuthoringBedienungKopfzeile.topic"/>
+                    <toc-element topic="ManualAuthoringBedienungKopfzeile.topic">
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileZurStartseiteWechseln.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileLernweltSpeichern.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileLetzteAktionRueckgaengigMachen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileAktionWiederholen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileLernweltArchivieren.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileLernweltVeroeffentlichen.topic"/>
+                        <toc-element
+                                topic="ManualAuthoringBedienungKopfzeileFeedbackZurBenutzungsoberflaecheGeben.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileFeedbackZumAutorentoolGeben.topic">
+                        </toc-element>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileTechnischenFehlerMelden.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileZurAdLerProjektseiteGehen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileMoodleKurseLoeschen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileAutorentoolSchließen.topic"/>
+                    </toc-element>
                 </toc-element>
             </toc-element>
             <toc-element topic="Nutzung-AdLer-BD.md"/>

@@ -19,13 +19,13 @@
             <tr>
                 <td>1</td>
                 <td>Undo-Button</td>
-                <td>Macht eine letzte Operation rückgängig (erst aktiv, wenn mindestens eine Operation ausgeführt wurde).</td>
+                <td>Macht eine letzte Aktion rückgängig (erst aktiv, wenn mindestens eine Aktion ausgeführt wurde).</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Redo-Button</td>
-                <td>Wiederholt eine Operation (erst aktiv, wenn der Befehl "Undo" zuvor mindestens einmal verwendet wurde).</td>
+                <td>Wiederholt eine Aktion (erst aktiv, wenn der Befehl "Undo" zuvor mindestens einmal verwendet wurde).</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
@@ -85,9 +85,14 @@
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li>Letzte Aktion rückgängig machen</li>
+            <li>Aktion wiederholen</li>
+            <li>Feedback zur Benutzungsoberfläche geben</li>
+            <li>Sprache des Autorentools ändern</li>
+            <li>Feedback zum Autorentool geben</li>
+            <li>Technischen Fehler melden</li>
+            <li>Zur AdLer-Projektseite gehen</li>
+            <li>Autorentool schließen</li>
         </list>
     </chapter>
 </topic>

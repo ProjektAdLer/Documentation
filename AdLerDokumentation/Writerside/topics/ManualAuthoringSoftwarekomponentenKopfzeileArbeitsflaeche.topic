@@ -97,9 +97,12 @@
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li>Zur Startseite wechseln</li>
+            <li>Lernwelt speichern</li>
+            <li>Lernwelt archivieren</li>
+            <li>Lernwelt veröffentlichen</li>
+            <li>Feedback geben</li>
+            <li>Lernziel-Übersicht betrachten</li>
         </list>
     </chapter>
 </topic>
