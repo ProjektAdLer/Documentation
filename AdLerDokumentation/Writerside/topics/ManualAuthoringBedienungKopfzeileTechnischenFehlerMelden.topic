@@ -21,8 +21,8 @@
             </tip>
         </step>
 
-        <step><p>Klicken Sie auf die Option <control>Technischen Fehler melden.</control></p>
-            <img src="imageManualAuthoringStartseiteTechnischerFehlerButtonCallout.png" alt="TechnischerFehlerButton" width="200" thumbnail="true"/>
+        <step><p>Klicken Sie auf die Option <control>Technischen Fehler melden</control>.</p>
+            <img src="imageManualAuthoringStartseiteTechnischerFehlerButtonCallout.png" alt="TechnischerFehlerButtonCallout" width="200" thumbnail="true"/>
             <tip>Es öffnet sich ein Browserfenster mit einem Formular, in dem Angaben zum aufgetretenen Fehler vorgenommen werden können.</tip>
             <img src="imageManualAuthoringStartseiteTechnischerFehlerCallout.png" alt="TechnischerFehlerCallout" width="200" thumbnail="true"/>
             <warning>Füllen Sie das Formular so präzise wie möglich aus, damit der aufgetretene Fehler bestmöglich nachvollzogen und von unserer Seite aus schnellst möglich behoben werden kann.</warning>
