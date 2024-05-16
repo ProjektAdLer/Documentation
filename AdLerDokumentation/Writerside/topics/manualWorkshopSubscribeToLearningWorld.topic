@@ -18,7 +18,8 @@
                 <tip>Falls durch die vorangegangenen Schritte in der Anleitung <a href="manualWorkshopUploadLearningWorld.topic">"Hochladen einer Lernwelt"</a> bereits ein Browserfenster geöffnet wurde, können Sie den ersten Schritt überspringen.</tip>
             </step>
             <step>
-                <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://moodle.projekt-adler.eu" target="_blank">https://moodle.projekt-adler.eu</a>.</p>
+                <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://moodle.projekt-adler.eu" target="_blank">https://moodle.projekt-adler.eu</a> Oder öffnen Sie Moodle über den Button <control>In Moodle Öffnen</control> im zuvor erschienenen Pop-Up im Autorentool.</p>
+                <img src="imageManualWorkshopUploadLearningWorldSuceeded.png" alt="Hochladen erfolgreich Pop-Up Fenster" width="200" thumbnail="true" />
                 <note>Sie befinden sich nun auf der Anmeldeseite des AdLer-Moodle.</note>
             </step>
             <step>
@@ -28,6 +29,7 @@
             <step>
                 <p>Geben Sie im nun erscheinenden Fenster Ihre Anmeldedaten ein.</p>
                 <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops ausgegeben. Sie finden das Schema der Anmeldedaten zusätzlich auf der Workshop Webseite der Projekt AdLer Homepage.</tip>
+                <warning>Ihre Anmeldedaten sind nicht dieselben, die sie im Autorentool genutzt haben um sich zum Hochladen der Lernwelt anzumelden!</warning>
                 <img src="imageManualWorkshopMoodleLoginFormWithData.png" alt="Moodle Login Formular" width="200" thumbnail="true"/>
                 <tip>Die Anmeldedaten im Bild sind nur zu Anschauungszwecken. Geben Sie bitte Ihre eigenen Anmeldedaten ein.</tip>
             </step>
@@ -55,9 +57,9 @@
             <step>
                 <p>Wählen Sie nun den Moodle-Kurs zu Ihrer erstellten Lernwelt mit einem Klick aus.</p>
                 <img src="imageManualWorkshopAvailableCoursesWithArrow.png" alt="Pfeil der auf einen beispielhaft auszuwählenden Kurs zeigt" width="200" thumbnail="true"/>
-                <note>Hat der Kurs, in den Sie sich einschreiben möchten keinen Einschreibeschlüssel, endet die Handlung hier. Falls ein Einschreibeschlüssel erforderlich ist, folgen Sie den nächsten Schritten dieser Anleitung.</note>
             </step>
             <step>
+                <tip>Hat der Kurs, in den Sie sich einschreiben möchten, keinen Einschreibeschlüssel, fahren Sie bitte mit Schritt 4 fort.</tip>
                 <p>Klicken Sie in das Eingabefeld und geben Sie den Einschreibeschlüssel für die ausgewählte Lernwelt ein.</p>
                 <img src="imageManualWorkshopEnrollInputSelfEnrolmentKeyWithArrow.png" alt="Hervorhebung des Eingabefelds des Einschreibeschlüssels." width="200" thumbnail="true"/>
             </step>

@@ -59,12 +59,12 @@
                     <img src="imageManualWorkshopClickExternalLearningMaterial.png" alt="Klick auf Tab Externes Lernmaterial" width="200" thumbnail="true"/>
                 </step>
                 <step>
-                    <p>Laden Sie sich von der Landingpage des Workshops das "Externe Lernmaterial zum Erstellen der fehlenden Lernelemente" herunter.</p>
+                    <p>Laden Sie sich von der Landingpage des Workshops das "Externes Lernmaterial zum Erstellen der fehlenden Lernelemente" herunter.</p>
                     <tip>Den Link zur Landingpage wurde ihnen während des Workshops zur Verfügung gestellt.</tip>
                 </step>
                 <step>
                     <p>Entpacken Sie die heruntergeladene .zip Datei.</p>
-                    <tip>In Windows 10/11 können Sie .zip Dateien mit einem Rechtsklick auf die .zip-Datei und einem Klick auf <control>Alle extrahieren...</control> entpacken.</tip>
+                    <tip>In Windows 11 können Sie .zip Dateien mit einem Rechtsklick auf die .zip-Datei und einem Klick auf <control>Alle extrahieren...</control> entpacken. Windows 10 benötigt zusätzliche Software wie 7zip oder WinRar. In macOS öffnen Sie eine .zip Datei einfach per Doppelklick.</tip>
                 </step>
                 <step>
                     <p>Ziehen Sie die Datei mit der Dateiendung <control>.h5p</control> und die Datei mit der Dateiendung <control>.pdf</control> in den hellblauen Bereich, um Sie ins Autorentool hinzuzufügen.</p>
@@ -85,6 +85,7 @@
                 </step>
                 <step>
                     <p>Kopieren Sie nun den Namen, der in der Ausfüllhilfe in der Spalte <control>Externes Lernmaterial</control>, beim ersten Lernelement des Raums <control>Moodle und 3D-Lernumgebung</control> angegeben ist.</p>
+                    <tip>Der Name des Links ist ebenfalls in der .txt Datei angegeben.</tip>
                 </step>
                 <step>
                     <p>Fügen Sie diesen nun in das Textfeld <control>Name für den Link</control> ein.</p>
@@ -110,7 +111,7 @@
                 </step>
                 <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
                 <step>
-                    <p>Wiederholen Sie nun die Schritte 8-13, um den zweiten benötigten Link als Externes Lernmaterial anzulegen.</p>
+                    <p>Wiederholen Sie nun die Schritte 6-13, um den zweiten benötigten Link als Externes Lernmaterial anzulegen.</p>
                     <tip>Den Namen des anzulegenden Externen Lernmaterials finden Sie in der Ausfüllhilfe unter Raum 5 - Abschluss, in der Spalte Externes Lernelement, in der Zeile Lernelement.</tip>
                 </step>
                 <note>
@@ -276,7 +277,7 @@
                 </step>
                 <step>
                     <p>Wiederholen Sie den vorherigen Schritt 3 für die beiden restlichen, in der Ausfüllhilfe angegebenen, Story-Texte.</p>
-                    <note>In der Ausfüllhilfe wird der Text, welcher in einzelne Slides kopiert werden soll, mit einem Strich getrennt in der Zelle dargestellt. Insgesamt handelt es sich um drei Story-Texte, die jeweils in einen Story-Textblock eingefügt werden. Kopieren Sie pro Slide also nur den jeweiligen Teil des Zellentexts.</note>
+                    <tip>In der Ausfüllhilfe wird der Text, welcher in einzelne Slides kopiert werden soll, mit einem Strich getrennt in der Zelle dargestellt. Insgesamt handelt es sich um drei Story-Texte, die jeweils in einen Story-Textblock eingefügt werden. Kopieren Sie pro Slide also nur den jeweiligen Teil des Zellentexts.</tip>
                 </step>
                 <step>
                     <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den Button <control>OK</control> im unteren Bereich des geöffneten Tabs <control>Storyelement erstellen</control>.</p>
