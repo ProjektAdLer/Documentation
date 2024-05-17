@@ -24,7 +24,7 @@
     </tr>  
     <tr>
         <td>Siehe auch</td>
-        <td><a href="Lernraum-GE.md"></a><a href="Lernelement-Slot-GE.md"></a></td>
+        <td><a href="Lernraum-GE.md"></a>, <a href="Lernelement-Slot-GE.md"></a></td>
     </tr>
     <tr>
         <td>Akronym</td>
