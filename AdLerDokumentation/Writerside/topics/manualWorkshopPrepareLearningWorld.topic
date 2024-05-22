@@ -48,10 +48,21 @@
                 <p>Klicken Sie auf der linken Seite in das Feld <control>Name</control> im Tab <control>Lernwelt bearbeiten</control>.</p>
             </step>
             <step>
-                <p>Ändern Sie den Namen, wie in der Ihnen vorliegenden Ausfülltabelle angegeben, ab.</p>
+                <p>Ändern Sie den Namen wie folgt ab:</p>
+                <list type="none">
+                    <li>Workshop2024_*Ihre Initialen*_*Ihr Lieblingsgericht oder Lieblingstier*</li>
+                    <li><emphasis>Beispiel: Workshop2024_XY_Kojote</emphasis></li>
+                </list>
             </step>
             <step>
-                <p>Ändern Sie den Kurznamen, wie in der Ihnen vorliegenden Ausfülltabelle angegeben, ab.</p>
+                <p>Klicken Sie auf der linken Seite in das Feld <control>Kurzname</control> im Tab <control>Lernwelt bearbeiten</control>.</p>
+            </step>
+            <step>
+                <p>Ändern Sie den Kurznamen wie folgt ab:</p>
+                    <list type="none">
+                        <li>Work2024_*Ihre Initialen*_*Ihr Lieblingsgericht oder Lieblingstier*</li>
+                        <li><emphasis>Beispiel: Work2024_XY_Kojote</emphasis></li>
+                    </list>
                 <img src="imageManualWorkshopChangedNames.png" alt="Geänderte Namen der Lernwelt" width="200" thumbnail="true" />
             </step>
             <step>
