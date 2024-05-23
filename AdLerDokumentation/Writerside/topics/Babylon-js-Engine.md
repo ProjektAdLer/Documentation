@@ -1,21 +1,17 @@
 # Babylon.js
 
-Babylon.js ist eine JavaScript-Bibliothek, die in der AdLer Engine für die Darstellung der 3D-Lernumgebung und verschiedene Interaktionen mit dieser verwendet wird.
+**Babylon.js** ist eine JavaScript-Bibliothek, die in der AdLer Engine für die Darstellung der 3D-Lernumgebung und verschiedene Interaktionen mit dieser verwendet wird.
 
 
-## Kurzbeschreibung:
+## Kurzbeschreibung
 
-Babylon.js ist eine 3D-Engine für Echtzeitanwendungen im Webbrowser. Sie ist dabei speziell auf Spieleanwendungen ausgerichtet und bietet deswegen nützliche Funktionalitäten für die Verwendung in der AdLer Engine. 
-<br/>Babylon.js ist eine Open-Source JavaScript-Bibliothek, aber funktioniert ebenfalls mit TypeScript.
+Babylon.js ist eine 3D-Engine für Echtzeitanwendungen im Webbrowser. Sie ist dabei speziell auf Spieleanwendungen ausgerichtet und bietet deswegen nützliche Funktionalitäten, wie die Navigation von Agenten in und übliche Nutzer-Interaktionen mit der 3D-Szene. Diese sind besonders nützlich für die Verwendung in der AdLer Engine. 
 
-## Codebeispiel:
-
+Babylon.js ist eine Open-Source JavaScript/TypeScript-Bibliothek. Sie ist unter der Apache Licence 2.0 veröffentlicht. 
 
 
-
-## Eigenschaften:
-
-### Vorteile:
+## Eigenschaften
+### Vorteile
 
 - Vollständiger Szenegraph mit Lichtern, Kameras, Materialien, Meshes, Animationen und Audio
 - Recast.js Integration für Navigation auf NavMesh im 3D-Lernraum 
@@ -30,12 +26,10 @@ Babylon.js ist eine 3D-Engine für Echtzeitanwendungen im Webbrowser. Sie ist da
 - einfache Integration mit React Benutzeroberfläche
 
 
-### Nachteile:
-
-- keine (bis jetzt)
+### Nachteile
 
 
-## Weitere Ressourcen:
+## Weitere Ressourcen
 
 - [Babylon.js Webseite](https://babylonjs.com)
 - [Babylon.js Dokumentation](https://doc.babylonjs.com) 
