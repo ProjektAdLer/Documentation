@@ -12,7 +12,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Adaptivitätselement erstellen (AWA0003)](AWA0003.md) | **0** | - |
 | [Adaptivitätselement hochladen (AHO43)](AHO43.md) | **0** | - |
 | [Adaptivitätselement innerhalb Lernraum verschieben (AWA0040)](AWA0040.md) | **0** | - |
-| [Adaptivitätselement laden (AWA0019)](AWA0019.md) | **0** | - |
+| [Adaptivitätselement laden (AWA0019)](AWA0019.md) | 2 | [PersistenceCt.cs:359](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L359)<br/>[PersistenceCt.cs:438](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L438) |
 | [Adaptivitätselement löschen (AWA0011)](AWA0011.md) | **0** | - |
 | [Adaptivitätselement persistieren (AWA0012)](AWA0012.md) | **0** | - |
 | [Adaptivitätselement platzieren (ASN0018)](ASN0018.md) | **0** | - |
@@ -59,7 +59,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Lernelement erstellen (AWA0002)](AWA0002.md) | **0** | - |
 | [Lernelement hochladen (AHO42)](AHO42.md) | **0** | - |
 | [Lernelement innerhalb Lernraum verschieben (AWA0041)](AWA0041.md) | **0** | - |
-| [Lernelement laden (AWA0018)](AWA0018.md) | **0** | - |
+| [Lernelement laden (AWA0018)](AWA0018.md) | 1 | [PersistenceCt.cs:398](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L398) |
 | [Lernelement Lernmaterial H5P auswählen (AWA0045)](AWA0045.md) | **0** | - |
 | [Lernelement Lernmaterial nicht vorhanden (AWA0046)](AWA0046.md) | **0** | - |
 | [Lernelement löschen (AWA0016)](AWA0016.md) | **0** | - |
@@ -69,7 +69,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Lernpfad Bedingung bearbeiten (AHO62)](AHO62.md) | **0** | - |
 | [Lernpfad Bedingung erstellen (AHO61)](AHO61.md) | **0** | - |
 | [Lernpfad Bedingung hochladen (AHO64)](AHO64.md) | **0** | - |
-| [Lernpfad Bedingung laden (AHO66)](AHO66.md) | **0** | - |
+| [Lernpfad Bedingung laden (AHO66)](AHO66.md) | 1 | [PersistenceCt.cs:171](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L171) |
 | [Lernpfad Bedingung löschen (AHO63)](AHO63.md) | **0** | - |
 | [Lernpfad Bedingung persistieren (AHO65)](AHO65.md) | **0** | - |
 | [Lernpfad erstellen (AHO11)](AHO11.md) | **0** | - |
@@ -81,7 +81,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Lernraum bearbeiten (AWA0023)](AWA0023.md) | **0** | - |
 | [Lernraum erstellen (AWA0001)](AWA0001.md) | **0** | - |
 | [Lernraum hochladen (AHO31)](AHO31.md) | **0** | - |
-| [Lernraum laden (AWA0022)](AWA0022.md) | **0** | - |
+| [Lernraum laden (AWA0022)](AWA0022.md) | 2 | [PersistenceCt.cs:171](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L171)<br/>[PersistenceCt.cs:359](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L359) |
 | [Lernraum löschen (AWA0024)](AWA0024.md) | **0** | - |
 | [Lernraum persistieren (AWA0025)](AWA0025.md) | **0** | - |
 | [Lernraum Thema (AWA9020)](AWA9020.md) | **0** | - |
@@ -93,10 +93,10 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Lernwelt exportieren (ASN0001)](ASN0001.md) | **0** | - |
 | [Lernwelt hochladen (AHO22)](AHO22.md) | 5 | [BackendAccessUt.cs:66](https://github.com/ProjektAdLer/Autorentool/blob/main/BackendAccessTest/API/BackendAccessUt.cs#L66)<br/>[UserBackendServicesUt.cs:289](https://github.com/ProjektAdLer/Autorentool/blob/main/BackendAccessTest/BackendServices/UserBackendServicesUt.cs#L289)<br/>[UserBackendServicesUt.cs:323](https://github.com/ProjektAdLer/Autorentool/blob/main/BackendAccessTest/BackendServices/UserBackendServicesUt.cs#L323)<br/>[UserBackendServicesUt.cs:344](https://github.com/ProjektAdLer/Autorentool/blob/main/BackendAccessTest/BackendServices/UserBackendServicesUt.cs#L344)<br/>[PresentationLogicUt.cs:136](https://github.com/ProjektAdLer/Autorentool/blob/main/PresentationTest/PresentationLogic/API/PresentationLogicUt.cs#L136) |
 | [Lernwelt importieren (ASN0002)](ASN0002.md) | **0** | - |
-| [Lernwelt laden (ASE2)](ASE2.md) | **0** | - |
+| [Lernwelt laden (ASE2)](ASE2.md) | 7 | [DataAccessUt.cs:73](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/API/DataAccessUt.cs#L73)<br/>[DataAccessUt.cs:85](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/API/DataAccessUt.cs#L85)<br/>[PersistenceCt.cs:25](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L25)<br/>[PersistenceCt.cs:171](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L171)<br/>[PersistenceCt.cs:359](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L359)<br/>[PersistenceCt.cs:398](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L398)<br/>[PersistenceCt.cs:438](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L438) |
 | [Lernwelt löschen (ASE4)](ASE4.md) | **0** | - |
-| [Lernwelt speichern (ASE6)](ASE6.md) | **0** | - |
-| [Lernwelt suchen (ASE5)](ASE5.md) | **0** | - |
+| [Lernwelt speichern (ASE6)](ASE6.md) | 2 | [DataAccessUt.cs:58](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/API/DataAccessUt.cs#L58)<br/>[PersistenceCt.cs:25](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/PersistenceCt.cs#L25) |
+| [Lernwelt suchen (ASE5)](ASE5.md) | 1 | [LearningWorldSavePathsHandlerUt.cs:31](https://github.com/ProjektAdLer/Autorentool/blob/main/DataAccessTest/Persistence/LearningWorldSavePathsHandlerUt.cs#L31) |
 | [Lernziel bearbeiten mit Eingabeunterstützung (AHO03)](AHO03.md) | **0** | - |
 | [Lernziel bearbeiten ohne Eingabeunterstützung (AHO04)](AHO04.md) | **0** | - |
 | [Lernziel erstellen mit Eingabeunterstützung (AHO01)](AHO01.md) | **0** | - |
