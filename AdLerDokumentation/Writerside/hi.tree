@@ -442,7 +442,6 @@
                 </toc-element>
                 <toc-element topic="Rechtlich-Vertragliche-Anforderungen-Engine.md">
                     <toc-element topic="Datenschutz-Engine.md"/>
-                    <toc-element topic="Projektantrag-AdLer-Engine.md"/>
                 </toc-element>
                 <toc-element topic="Sonstige-Lieferbestandteile-Engine.md">
                     <toc-element topic="Entwicklerdokumentation-Engine.md"/>
