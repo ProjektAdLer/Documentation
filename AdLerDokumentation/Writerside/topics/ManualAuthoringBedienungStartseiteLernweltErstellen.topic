@@ -5,10 +5,12 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Lernwelt erstellen" id="ManualAuthoringBedienungStartseiteLernweltErstellen"
        help-id="ManualAuthoringLernwelt-erstellen;ManualAuthoringBedienungStartseiteLernwelt-erstellen">
-    <show-structure for="procedure" depth="2"/>
-    <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Softwarekomponenten: Startseite</a>
 
-    <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung" title="Bezeichnung">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Startseite</a>.</p>
+
+    <chapter title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
@@ -16,68 +18,96 @@
             </def>
         </deflist>
 
-        <step><p>Klicken Sie auf den Button <b>Neu.</b></p>
-            <img src="imageManualAuthoringStartseiteLernweltErstellenButtonCallout.png" alt="LernweltErstellenButtonCallout" width="200" thumbnail="true"/>
-            <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Neue Lernwelt erstellen" wird angezeigt.</tip>
-            <note>Im linken Bereich des Fensters erscheint ein weiteres Dialogfenster zur Angabe von Metadaten und weiteren Informationen.</note>
-        </step>
-        <step><p>Vergeben Sie im ersten Textfeld einen Namen für die Lernwelt.</p>
-            <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
-            <tip>Der Name der Lernwelt muss angegeben werden.</tip>
-            <warning>
-                <p>Für den Namen der Lernwelt gelten bestimmte Regeln --> siehe <a href="ASN0023.md">Erforderliche Eigenschaften für Lernwelt</a>.</p>
-            </warning>
-        </step>
-        <step><p>Machen Sie in den folgenden Kategorien über die bereitgestellten Textfelder weitere Angaben zur neuen Lernwelt:</p>
-            <tip>Diese Angaben sind optional.</tip>
-            <tabs>
-                <tab id="Lernwelt-Allgemein" title="Allgemein">
-                    <list>
-                        <li><b>Kurzname</b>
-                            <p>Geben Sie den Kurznamen für Ihre Lernwelt an.</p>
-                        </li>
-                        <li><b>Autorinnen und Autoren</b>
-                            <p>Geben Sie die Personen an, die an der Erstellung und Gestaltung dieser Lernwelt beteiligt sind.</p>
-                        </li>
-                        <li><b>Sprache</b>
-                            <p>Geben Sie die Sprache in den von Ihnen verwendeten Lernmaterialen (Video, Text usw.) an.</p>
-                        </li>
-                        <li><b>Link zur Evaluation</b>
-                            <p>Tragen Sie eine URL zu Ihrem Evaluationsbogen ein, wenn Sie die Umsetzung dieser Lernwelt in 3D durch Lernende evaluieren möchten.</p>
-                        </li>
-                    </list>
-                </tab>
-                <tab id="Lernwelt-Einschreibemethode" title="Einschreibemethode">
-                    <list>
-                        <li><b>Einschreibeschlüssel</b>
-                            <p>Tragen Sie einen Einschreibeschlüssel zu Ihrer Lernwelt ein, wenn Sie den Zugriff zu dieser einschränken möchten.</p>
-                        </li>
-                    </list>
-                    <tip>Wenn Sie nichts in das Feld eintragen, können sich alle Lernenden selbst in die Lernwelt einschreiben.</tip>
-                </tab>
-                <tab id="Lernwelt-Lernziele" title="Lernziele">
-                    <list>
-                        <li><b>Lernziele</b>
-                            <p>Formulieren Sie ein oder mehrere Lernziele für Ihre Lernwelt.</p>
-                        </li>
-                    </list>
-                </tab>
-                <tab id="Lernwelt-Beschreibung" title="Beschreibung">
-                    <list>
-                        <li><b>Beschreibung</b>
-                            <p>Beschreiben Sie das Thema Ihrer Lernwelt.</p>
-                        </li>
-                    </list>
-                </tab>
-            </tabs>
-        </step>
+        <chapter title="Lernwelt erstellen" id="LernraumErstellen">
+            <procedure>
+                <step>
+                    <p>Klicken Sie auf den Button <b>Neu</b>.</p>
+                    <img src="imageManualAuthoringStartseiteLernweltErstellenButtonCallout.png" alt="LernweltErstellenButtonCallout" width="200" thumbnail="true"/>
+                    <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Neue Lernwelt erstellen" wird angezeigt.</tip>
+                    <note>Im linken Bereich des Fensters erscheint ein weiteres Dialogfenster zur Angabe von Metadaten.
+                        <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                    </note>
+                </step>
+            </procedure>
+        </chapter>
 
+        <chapter title="Metadaten zur Lernwelt angeben" id="MetadatenZurLernwelt">
+            <procedure type="steps">
+                <step>Machen Sie Angaben zur Lernwelt.
+                    <tabs>
+                        <tab id="erforderlich_lernwelt" title="Erforderlich">
+                            <procedure id="erforderliche_angaben_lernwelt" title="Erforderliche Angaben">
+                                <step>
+                                    <p>Vergeben Sie im ersten Textfeld einen Namen für die Lernwelt.</p>
+                                    <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                    <warning>
+                                        <p>Für den Namen der Lernwelt gelten bestimmte Regeln --> siehe <a href="ASN0023.md">Erforderliche Eigenschaften für Lernwelt</a>.</p>
+                                    </warning>
+                                </step>
+                            </procedure>
+                        </tab>
 
+                        <tab id="optional_lernwelt" title="Optional">
+                            <procedure id="optionale_angaben_lernwelt" title="Optionale Angaben">
+                                <tabs>
+                                    <tab id="allgemeines_lernwelt" title="Allgemein">
+                                        <procedure type="choices" id="allgemeines_tab_lernwelt" title="Allgemeines">
+                                            <step>
+                                                <p>Tragen Sie allgemeine Metadaten zur Ihrer Lernwelt ein:</p>
+                                                <img src="imageManualAuthoringLernweltErstellenAllgemeinesCallout.png" alt="AllgemeinesCallout" width="200" thumbnail="true"/>
+                                            </step>
+                                            <step><b>Kurzname</b>
+                                                <p>Geben Sie den Kurznamen für Ihre Lernwelt an.</p>
+                                            </step>
+                                            <step><b>Autorenschaft</b>
+                                                <p>Geben Sie die Personen an, die an der Erstellung und Gestaltung dieser Lernwelt beteiligt sind.</p>
+                                            </step>
+                                            <step><b>Sprache</b>
+                                                <p>Geben Sie die Sprache in den von Ihnen verwendeten Lernmaterialien (Video, Text usw.) an.</p>
+                                            </step>
+                                            <step><b>Link zur Evaluation</b>
+                                                <p>Tragen Sie eine URL zu Ihrem Evaluationsbogen ein.</p>
+                                                <tip>Wenn Sie Ihre Lernwelt anhand der Lernenden testen möchten, können Sie hier eine URL eintragen. Diese wird den Lernenden in der 3D-Lernumgebung angezeigt, sodass sie über die 3D-Lernumgebung an Ihrer Umfrage teilnehmen können.</tip>
+                                            </step>
+                                        </procedure>
+                                    </tab>
+                                    <tab id="einschreibemethode_lernwelt" title="Einschreibemethode">
+                                        <procedure id="einschreibemethode_tab_lernwelt" title="Einschreibemethode">
+                                            <step>
+                                                <p>Tragen Sie einen Einschreibeschlüssel zu Ihrer Lernwelt ein, wenn Sie den Zugriff zu dieser einschränken möchten.</p>
+                                                <img src="imageManualAuthoringLernweltErstellenEinschreibemethodeCallout.png" alt="EinschreibemethodeCallout" width="200" thumbnail="true"/>
+                                                <tip>Wenn Sie nichts in das Feld eintragen, können sich alle Lernenden selbst in die Lernwelt einschreiben.</tip>
+                                            </step>
+                                        </procedure>
+                                    </tab>
+                                    <tab id="lernziele_lernwelt" title="Lernziele">
+                                        <procedure id="lernziele_tab_lernwelt" title="Lernziele zur Lernwelt">
+                                            <step>
+                                                <p>Formulieren Sie ein oder mehrere Lernziele für Ihre Lernwelt.</p>
+                                                <img src="imageManualAuthoringLernweltErstellenLernzieleCallout.png" alt="LernzieleCallout" width="200" thumbnail="true"/>
+                                            </step>
+                                        </procedure>
+                                    </tab>
+                                    <tab id="beschreibung_lernwelt" title="Beschreibung">
+                                        <procedure id="beschreibung_tab_lernwelt" title="Beschreibung zur Lernwelt">
+                                            <step>
+                                                <p>Beschreiben Sie das Thema Ihrer Lernwelt.</p>
+                                                <img src="imageManualAuthoringLernweltErstellenBeschreibungCallout.png" alt="BeschreibungCallout" width="200" thumbnail="true"/>
+                                            </step>
+                                        </procedure>
+                                    </tab>
+                                </tabs>
+                            </procedure>
+                        </tab>
+                    </tabs>
+                </step>
 
-
-        <step><p>Bestätigen Sie Ihre Angaben zur Lernwelt mit einem Klick auf den Button <b>OK.</b></p>
-            <img src="imageManualAuthoringStartseiteLernweltErstellenOKButtonCallout.png" alt="OKButton" width="200" thumbnail="true"/>
-        </step>
+                <step>
+                    <p>Bestätigen Sie Ihre Angaben zur Lernwelt mit einem Klick auf den Button <b>OK</b>.</p>
+                    <img src="imageManualAuthoringStartseiteLernweltErstellenOKButtonCallout.png" alt="OKButton" width="200" thumbnail="true"/>
+                </step>
+            </procedure>
+        </chapter>
         <note>
             <control>
                 <p>Sie haben erfolgreich eine neue Lernwelt erstellt.</p>
@@ -85,5 +115,5 @@
             </control>
         </note>
         <tip>Nach Erstellen der neuen Lernwelt werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Ausgestaltung dieser Lernwelt beginnen können.</tip>
-    </procedure>
+    </chapter>
 </topic>

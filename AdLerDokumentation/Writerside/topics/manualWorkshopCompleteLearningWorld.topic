@@ -275,7 +275,7 @@
                 </step>
                 <step>
                     <p>Verbinden Sie die <control>Und-Verbindung</control> mit dem Lernraum <control>Abschluss</control> mithilfe des orangefarbenen Buttons <control>Plus</control> an der <control>Und-Verbindung</control>.</p>
-                    <tip>Das Verbinden von Lernräumen und Und-/Oder-Verbindungen haben Sie bereits in Schritt 4 des Kapitels <a href="#verbindenVonLernraeumenLernpfad">"Verbinden von Lernräumen (Lernpfad)"</a> durchgeführt.</tip>
+                    <tip>Das Verbinden von Lernräumen und Und-/Oder-Verbindungen haben Sie bereits in Schritt 4 des Kapitels <a href="#verbindenVonLernraeumenLernpfad">Verbinden von Lernräumen (Lernpfad)</a> durchgeführt.</tip>
                     <img src="imageManualWorkshopDraggedLearningPathToRoomAbschluss.png" alt="Im Lernpfad korrekt platzierter Lernraum mit Lernpfadverbindung." width="200" thumbnail="true" />
                 </step>
                 <step>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernraum erstellen" id="ManualAuthoringBedienungArbeitsflaecheLernraumErstellen"
+       help-id="ManualAuthoringBedienungLinkeSidebarLernraumErstellenUndBearbeiten;ManualAuthoringBedienungLinkeSidebarLernraumErstellen">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumen.topic">Angaben zu Lernräumen</a>.</p>
+
+    <chapter title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>In einer geöffneten Lernwelt einen neuen Lernraum erstellen.</p>
+            </def>
+        </deflist>
+        <chapter title="Lernraum über die linke Sidebar erstellen" id="LernraumErstellenLinkeSidebar">
+            <tabs>
+                <tab title="...in einer neuen Lernwelt">
+                    <procedure title="Lernraum in einer neuen Lernwelt erstellen">
+                        <tip>In einer neuen Lernwelt existieren noch keine Lernräume, sodass Sie in einer leeren Lernwelt starten. Sobald eine neue Lernwelt erstellt wurde, öffnet sich die Arbeitsfläche des Autorentools und der Tab <control>Angaben zur Lernwelt</control> in der <a href="ManualAuthoringSoftwarekomponentenLinkeSidebar.topic">linken Sidebar</a> wird automatisch geöffnet.
+                            <img src="imageManualAuthoringLernweltBearbeitenTab.png" alt="LernweltBearbeitenTab" width="200" thumbnail="true"/>
+                        </tip>
+                        <step>
+                            <p>Klicken Sie auf den Tab <control>Angaben zu Lernräumen</control>, um den Tab zu wechseln.</p>
+                            <img src="imageManualAuthoringLernraumErstellenTab.png" alt="LernraumErstellenTab" width="200" thumbnail="true"/>
+                        </step>
+                        <step>
+                            <p>Machen Sie <a href="#MetadatenZuLernraum">Angaben zum Lernraum</a>.</p>
+                        </step>
+                    </procedure>
+                </tab>
+
+                <tab title="...in einer bereits existierenden Lernwelt">
+                    <procedure title="Lernraum in einer bereits existierenden Lernwelt erstellen">
+                        <step><p>Klicken Sie auf den Button <control>Neu</control>, um vom Bearbeitungsmodus des vorherigen Lernraums in den Erstellungsmodus eines neuen Lernraums zu wechseln.</p>
+                            <img src="imageManualAuthoringLernraumErstellenButton.png" alt="LernraumErstellenButton" width="200" thumbnail="true"/>
+                        </step>
+                    </procedure>
+                </tab>
+            </tabs>
+
+        </chapter>
+        <chapter title="Lernraum über die rechte Sidebar erstellen" id="LernraumErstellenRechteSidebar">
+            <procedure>
+                <step><p>Klicken Sie auf den Button <control>Neu</control>, um vom Bearbeitungsmodus des vorherigen Lernraums in den Erstellungsmodus eines neuen Lernraums zu wechseln.</p>
+                    <img src="imageManualAuthoringLernraumErstellenRechteSidebarButton.png" alt="LernraumErstellenButtonRechteSidebar" width="200" thumbnail="true"/>
+                </step>
+                <step><p>Führen Sie den zweiten Schritt durch</p>
+                    <warning>
+                        <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
+                        <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
+                    </warning>
+                </step>
+                <step><p>Führen Sie den dritten Schritt durch</p>
+                    <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
+                </step>
+
+                <step><p>Führen Sie den vierten Schritt durch</p>
+                    <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
+                </step>
+                <step><p>Führen Sie den fünften Schritt durch</p>
+                    <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
+                    <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>
+                        Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
+                    </p>
+                </step>
+                <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+            </procedure>
+        </chapter>
+
+        <chapter title="Metadaten zum Lernraum angeben" id="MetadatenZuLernraum">
+            <procedure>
+                <step>Machen Sie Angaben zum Lernraum.
+                    <tabs>
+                        <tab id="erforderlich_lernraum" title="Erforderlich">
+                            <procedure id="erforderliche_angaben_lernraum" title="Erforderliche Angaben">
+                                <tabs>
+                                    <tab id="allgemeines_lernraum" title="Allgemein"></tab>
+                                    <tab id="abschlussbedingung_lernraum" title="Abschlussbedingung"></tab>
+                                    <tab id="grundriss_lernraum" title="Grundriss"></tab>
+                                    <tab id="thema_lernraum" title="Thema"></tab>
+                                </tabs>
+                                <step>
+                                    <p>Vergeben Sie im ersten Textfeld einen Namen für den Lernraum.</p>
+                                    <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                    <warning>
+                                        <p>Für den Namen des Lernraums gelten bestimmte Regeln --> siehe <a href="AWA9005.md">Erforderliche Eigenschaften für Lernraum</a>.</p>
+                                    </warning>
+                                </step>
+                            </procedure>
+                        </tab>
+
+                        <tab id="optional_lernraum" title="Optional">
+                            <procedure id="optionale_angaben_lernraum" title="Optionale Angaben">
+                                <tabs>
+                                    <tab id="lernziele_lernraum" title="Lernziele">
+                                        <procedure id="lernziele_tab_lernraum" title="Lernziele zum Lernraum">
+                                            <step>
+                                                <p>Formulieren Sie ein oder mehrere Lernziele für Ihren Lernraum.</p>
+                                                <img src="imageManualAuthoringLernweltErstellenLernzieleCallout.png" alt="LernzieleCallout" width="200" thumbnail="true"/>
+                                            </step>
+                                        </procedure>
+                                    </tab>
+                                    <tab id="beschreibung_lernraum" title="Beschreibung">
+                                        <procedure id="beschreibung_tab_lernraum" title="Beschreibung zum Lernraum">
+                                            <step>
+                                                <p>Beschreiben Sie das Thema Ihres Lernraums.</p>
+                                                <img src="imageManualAuthoringLernweltErstellenBeschreibungCallout.png" alt="BeschreibungCallout" width="200" thumbnail="true"/>
+                                            </step>
+                                        </procedure>
+                                    </tab>
+                                </tabs>
+                            </procedure>
+                        </tab>
+                    </tabs>
+                </step>
+
+                <step>
+                    <p>Bestätigen Sie Ihre Angaben zum Lernraum mit einem Klick auf den Button <b>OK</b>.</p>
+                    <img src="imageManualAuthoringStartseiteLernweltErstellenOKButtonCallout.png" alt="OKButton" width="200" thumbnail="true"/>
+                </step>
+            </procedure>
+        </chapter>
+        <note>
+            <control>
+                <p>Sie haben erfolgreich einen neuen Lernraum erstellt.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </chapter>
+</topic>

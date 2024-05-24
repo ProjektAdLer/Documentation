@@ -612,12 +612,14 @@
                         <toc-element topic="ManualAuthoringBedienungStartseiteLernweltLoeschen.topic"/>
                         <toc-element topic="ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen.topic"/>
                     </toc-element>
-                    <toc-element topic="ManualAuthoringBedienungArbeitsfläche-Linke-Sidebar.topic">
-                        <toc-element topic="ManualAuthoringBedienungLinkeSidebarLernwelt-bearbeiten.topic"/>
-                    </toc-element>
-                    <toc-element topic="ManualAuthoringBedienungArbeitsfläche-Mittleres-Fenster.topic"/>
-                    <toc-element topic="ManualAuthoringBedienungArbeitsfläche-Rechte-Sidebar.topic">
-                        <toc-element topic="ManualAuthoringBedienungRechteSidebarLernräume-verbinden.topic"/>
+                    <toc-element topic="ManualAuthoringBedienungArbeitsflaeche.topic">
+                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernweltBearbeiten.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumErstellen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumBearbeiten.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumLoeschen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungRechteSidebarLernraeumeVerbinden.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen.topic"/>
                     </toc-element>
                     <toc-element topic="ManualAuthoringBedienungKopfzeile.topic">
                         <toc-element topic="ManualAuthoringBedienungKopfzeileZurStartseiteWechseln.topic"/>

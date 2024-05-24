@@ -117,5 +117,5 @@
     <rule id="352050f2">
         <description>Created after removal of "Spielerdaten-Eigenschaften-Backend" from AdLerDokumentation</description>
         <accepts>Spielerdaten-Eigenschaften-Backend.html</accepts>
-    </rule>
+    </rule><rule></rule><rule></rule><rule></rule><rule></rule><rule></rule>
 </rules>
