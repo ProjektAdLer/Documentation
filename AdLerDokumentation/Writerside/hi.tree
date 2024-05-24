@@ -447,6 +447,8 @@
             </toc-element>
             <toc-element topic="Design-Engine.md"/>
             <toc-element topic="Software-Design-Engine.md">
+                <toc-element topic="Use-Cases-Engine.md"/>
+                <toc-element topic="Ports-Engine.md"/>
                 <toc-element topic="Babylon-js-Engine.md"/>
                 <toc-element topic="React-Engine.md"/>
                 <toc-element topic="glTF-3D-Format.md"/>
