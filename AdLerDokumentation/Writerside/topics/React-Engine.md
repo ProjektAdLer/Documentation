@@ -53,7 +53,8 @@ export default function TextComponent({
 - Erweiterte Funktionalität durch React-Hooks
 
 ### Nachteile
-
+- Zur Einbindung in die MVC-Architektur muss eigens geschriebene Hook (useBuilder) genutzt werden
+- Keine objekt-orientierte Programmierung in UI-Komponenten aufgrund von Reacts funktionaler Programmierung
 
 ## Weitere Ressourcen
 - [https://github.com/facebook/react](https://github.com/facebook/react)
