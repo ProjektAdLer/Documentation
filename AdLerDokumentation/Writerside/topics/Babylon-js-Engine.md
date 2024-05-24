@@ -10,6 +10,11 @@ Babylon.js ist eine 3D-Engine für Echtzeitanwendungen im Webbrowser. Sie ist da
 Babylon.js ist eine Open-Source JavaScript/TypeScript-Bibliothek. Sie ist unter der Apache Licence 2.0 veröffentlicht. 
 
 
+<!---
+## Codebeispiele
+--->
+
+
 ## Eigenschaften
 ### Vorteile
 
@@ -25,9 +30,9 @@ Babylon.js ist eine Open-Source JavaScript/TypeScript-Bibliothek. Sie ist unter 
 - Inspector zum Debugging in der Produktionsumgebung
 - einfache Integration mit React Benutzeroberfläche
 
-
+<!---
 ### Nachteile
-
+--->
 
 ## Weitere Ressourcen
 
