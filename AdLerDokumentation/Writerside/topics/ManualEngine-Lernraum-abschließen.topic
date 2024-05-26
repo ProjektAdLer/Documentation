@@ -5,40 +5,33 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Lernraum abschließen" id="ManualEngine-Lernraum-abschließen">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <procedure title="Lernraum abschließen" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <p>Hier wird das Ziel der Handlung beschrieben</p>
+                <p>Lernraum abschließen durch Erreichen der erforderlichen Punktezahl</p>
             </def>
         </deflist>
 
 
-        <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
+        <step><p>Wählen Sie einen Lernraum aus.</p>
         </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
+        <step><p>
+            Sehen Sie die erforderliche Punktezahl in der Lernraumübersicht ein.
+            Diese kann durch Erledigen der einzelnen Aufgaben erreicht werden.
+            Jedes Lernelement bietet dabei eine gewisse Punktzahl.</p>
+            <img src="imageManualEngine_LernraumAbschliessen.png" alt="Lernraum abschliessen Punktezahl"/>
         </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
+        <step><p><a href="ManualEngine-Lernraum-öffnen.topic"> Öffnen Sie den Lernraum.</a></p>
+        </step>
+        <step><p>Schließen Sie ausreichend Lernelemente zum Erreichen der erforderlichen Punktezahl ab.</p>
+            <list>
+                <li><a href="ManualEngine-Einfache-Lernelemente-abschließen.topic"/></li>
+                <li><a href="ManualEngine-Interaktive-Inhalte-öffnen.topic"/></li>
+                <li><a href="ManualEngine-Story-Elemente-bedienen.topic"/></li>
+                <li><a href="ManualEngine-H5P-Lernelemente-abschließen.topic"/></li>
+            </list>
         </step>
 
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>
-                Hier wird ein Zwischenergebnis beschrieben
-            </note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
-        </step>
-        <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
-        </step>
-        <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
+        <note><format style="bold">&#10004; Der Lernraum wurde abgeschlossen.</format></note>
     </procedure>
 </topic>

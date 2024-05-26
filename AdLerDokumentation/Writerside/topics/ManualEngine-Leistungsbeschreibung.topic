@@ -5,13 +5,19 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Features auf einen Blick" id="ManualEngine-Leistungsbeschreibung">
     <chapter title="Produktbezeichnung" id="produktbezeichnung">
-    <img src="" alt="Logo des Produkts"/>
-    <p>Zielgruppe und Zweck des Produkts in einem oder wenigen Sätzen.</p>
+    <!--img src="" alt="Logo des Produkts"/-->
+    <p>Lernende können in einer ansprechenden 3D-Lernumgebung interaktiv durch Lehrende bereitgestellte Lernmaterialien spielerisch bearbeiten.
+    So soll der Lernwille und die Motivation maßgeblich gesteigert werden.</p>
     <p>Kernfunktionalitäten des Produkts:</p>
     <list>
-        <li>Feature 1</li>
-        <li>Feature 2</li>
-        <li>Feature 3</li>
+        <li>Lernende werden durch immersive Lernwelten aktiviert, motiviert und erleben einen Flow</li>
+        <li>Lernende lernen individuell und flexibel</li>
+        <li>Prinzipien des Game-based Learning</li>
+        <li>Aufteilung des Lernerlebnisses in Lernwelten, Lernräume und Lernelemente mit individuellem Lernpfad</li>
+        <li>Nutzung der 3D-Lernwelt oder alternativ einer Moodle-Darstellung</li>
+        <li>Nutzung verschiedenster Lernelemente und Medien</li>
+        <li>Klar definierte Lernziele</li>
+        <li>Lernfortschritt jederzeit sichtbar</li>
     </list>
     </chapter>
 </topic>
