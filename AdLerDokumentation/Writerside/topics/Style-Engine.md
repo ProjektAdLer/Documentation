@@ -10,7 +10,7 @@
 
 ## 3D Style Anforderungen
 
-- Alle Assets innerhalb eines Themes müssen das selbe Material nutzen.
+- Keine harten Anforderungen, nur Vorschläge die zur Einhaltung des Stils beitragen.
 
 ## Anmerkungen:
 
