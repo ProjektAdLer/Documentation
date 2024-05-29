@@ -1,7 +1,7 @@
 # Presentation Builder 
 
 Um die Initialisierung des in der AdLer Engine verwendeten [MVC Musters](MVC-Muster-Engine.md) in der Adapterschicht 
-(siehe [Architektur](Architektur.md)) zu vereinfachen, wird ein sog. Presentation Builder verwendet. Dieser folgt dem 
+(siehe [](Gesamtarchitektur-Engine.md)) zu vereinfachen, wird ein sog. Presentation Builder verwendet. Dieser folgt dem 
 Builder Design Pattern. Dabei definiert der Builder eine feste Liste zu erzeugender Objekte. 
 
 ![](imageEnginePresentationBuilder.jpg)
