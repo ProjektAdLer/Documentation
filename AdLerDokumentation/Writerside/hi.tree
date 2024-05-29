@@ -458,8 +458,8 @@
                 <toc-element topic="glTF-3D-Format.md"/>
             </toc-element>
             <toc-element topic="Software-Architektur-Engine.md">
-                <toc-element topic="Entities-Engine.md"/>
                 <toc-element topic="Gesamtarchitektur-Engine.md"/>
+                <toc-element topic="Entities-Engine.md"/>
             </toc-element>
             <toc-element topic="Schnittstellen-Engine.md"/>
             <toc-element topic="SBOM-Engine.md"/>
