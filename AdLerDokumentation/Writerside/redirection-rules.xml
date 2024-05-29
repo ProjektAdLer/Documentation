@@ -118,4 +118,2176 @@
         <description>Created after removal of "Spielerdaten-Eigenschaften-Backend" from AdLerDokumentation</description>
         <accepts>Spielerdaten-Eigenschaften-Backend.html</accepts>
     </rule><rule></rule><rule></rule><rule></rule><rule></rule><rule></rule>
+    <rule id="29daa95b">
+        <description>Created after removal of "AdLer-System" from AdLerDokumentation</description>
+        <accepts>AdLer-System.html</accepts>
+    </rule>
+    <rule id="9bc37e3">
+        <description>Created after removal of "Schnittstellen" from AdLerDokumentation</description>
+        <accepts>Schnittstellen.html</accepts>
+    </rule>
+    <rule id="1f25786b">
+        <description>Created after removal of "AdLer Transfer File (ATF)" from AdLerDokumentation</description>
+        <accepts>AdLer-Transfer-File-ATF.html</accepts>
+    </rule>
+    <rule id="41c9748d">
+        <description>Created after removal of "Styleguide AdLer" from AdLerDokumentation</description>
+        <accepts>Styleguide-AdLer.html</accepts>
+    </rule>
+    <rule id="258a19eb">
+        <description>Created after removal of "Zweck" from AdLerDokumentation</description>
+        <accepts>Zweck.html</accepts>
+    </rule>
+    <rule id="50c51140">
+        <description>Created after removal of "Marktanforderungen" from AdLerDokumentation</description>
+        <accepts>Marktanforderungen.html</accepts>
+    </rule>
+    <rule id="12c2ca07">
+        <description>Created after removal of "Systemkontext" from AdLerDokumentation</description>
+        <accepts>Systemkontext.html</accepts>
+    </rule>
+    <rule id="149bc540">
+        <description>Created after removal of "Architektur" from AdLerDokumentation</description>
+        <accepts>Architektur.html</accepts>
+    </rule>
+    <rule id="1e53ff4c">
+        <description>Created after removal of "Autorentool" from AdLerDokumentation</description>
+        <accepts>Autorentool-BG.html</accepts>
+    </rule>
+    <rule id="672baef0">
+        <description>Created after removal of "Auflistungen der Anforderungen" from AdLerDokumentation</description>
+        <accepts>Auflistung-der-Anforderungen-Autorentool.html</accepts>
+    </rule>
+    <rule id="3b51207c">
+        <description>Created after removal of "Funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Funktionale-Anforderungen-Autorentool.html</accepts>
+    </rule>
+    <rule id="62edb6a3">
+        <description>Created after removal of "Lebenszyklus" from AdLerDokumentation</description>
+        <accepts>Autorentool-FunktionaleAnforderungen-Lebenszyklus.html</accepts>
+    </rule>
+    <rule id="786778a1">
+        <description>Created after removal of "Starten der Applikation" from AdLerDokumentation</description>
+        <accepts>Autorentool-FunktionaleAnforderungen-Lebenszyklus-StartenderApplikation.html</accepts>
+    </rule>
+    <rule id="323c4a69">
+        <description>Created after removal of "Alle Lernwelten bei Programmstart laden" from AdLerDokumentation
+        </description>
+        <accepts>ASN0024.html</accepts>
+    </rule>
+    <rule id="77df4e97">
+        <description>Created after removal of "Schließen der Applikation" from AdLerDokumentation</description>
+        <accepts>Autorentool-FunktionaleAnforderungen-Lebenszyklus-SchließenderApplikation.html</accepts>
+    </rule>
+    <rule id="82d63cd">
+        <description>Created after removal of "Ungespeicherte Welten speichern" from AdLerDokumentation</description>
+        <accepts>ASN0025.html</accepts>
+    </rule>
+    <rule id="2f61450a">
+        <description>Created after removal of "Lernpfad Bedingungen" from AdLerDokumentation</description>
+        <accepts>Lernpfad-Bedingungen-Autorentool.html</accepts>
+    </rule>
+    <rule id="6e0dea13">
+        <description>Created after removal of "Lernpfad Bedingung laden" from AdLerDokumentation</description>
+        <accepts>AHO66.html</accepts>
+    </rule>
+    <rule id="2e70c32c">
+        <description>Created after removal of "Lernpfad Bedingung persistieren" from AdLerDokumentation</description>
+        <accepts>AHO65.html</accepts>
+    </rule>
+    <rule id="7dddc3af">
+        <description>Created after removal of "Lernpfad Bedingung hochladen" from AdLerDokumentation</description>
+        <accepts>AHO64.html</accepts>
+    </rule>
+    <rule id="7cfcf872">
+        <description>Created after removal of "Lernpfad Bedingung löschen" from AdLerDokumentation</description>
+        <accepts>AHO63.html</accepts>
+    </rule>
+    <rule id="5a5c4f37">
+        <description>Created after removal of "Lernpfad Bedingung bearbeiten" from AdLerDokumentation</description>
+        <accepts>AHO62.html</accepts>
+    </rule>
+    <rule id="48394797">
+        <description>Created after removal of "Lernpfad Bedingung erstellen" from AdLerDokumentation</description>
+        <accepts>AHO61.html</accepts>
+    </rule>
+    <rule id="29378d3b">
+        <description>Created after removal of "Undo und Redo" from AdLerDokumentation</description>
+        <accepts>Autorentool-FunktionalAnforderungen-UndoundRedo.html</accepts>
+    </rule>
+    <rule id="6ab722f7">
+        <description>Created after removal of "Undo/Redo Anwendbarkeit" from AdLerDokumentation</description>
+        <accepts>ASN0005.html</accepts>
+    </rule>
+    <rule id="72574ec3">
+        <description>Created after removal of "Redo" from AdLerDokumentation</description>
+        <accepts>ASN0004.html</accepts>
+    </rule>
+    <rule id="6f871e78">
+        <description>Created after removal of "Undo" from AdLerDokumentation</description>
+        <accepts>ASN0003.html</accepts>
+    </rule>
+    <rule id="3ec739a7">
+        <description>Created after removal of "Storyelement" from AdLerDokumentation</description>
+        <accepts>Autorentool-FunktionaleAnforderungen-Storyelement.html</accepts>
+    </rule>
+    <rule id="ef59317">
+        <description>Created after removal of "Storyelement Prozesse" from AdLerDokumentation</description>
+        <accepts>Autorentool-FunktionaleAnforderungen-StoryelementProzesse.html</accepts>
+    </rule>
+    <rule id="70981296">
+        <description>Created after removal of "Storyelement erstellen" from AdLerDokumentation</description>
+        <accepts>ASN0011.html</accepts>
+    </rule>
+    <rule id="4112d7e3">
+        <description>Created after removal of "Storyelement laden" from AdLerDokumentation</description>
+        <accepts>ASN0012.html</accepts>
+    </rule>
+    <rule id="f20aa31">
+        <description>Created after removal of "Storyelement bearbeiten" from AdLerDokumentation</description>
+        <accepts>ASN0013.html</accepts>
+    </rule>
+    <rule id="ab7250">
+        <description>Created after removal of "Storyelement löschen" from AdLerDokumentation</description>
+        <accepts>ASN0015.html</accepts>
+    </rule>
+    <rule id="532be7dd">
+        <description>Created after removal of "Storyelement suchen" from AdLerDokumentation</description>
+        <accepts>ASN0014.html</accepts>
+    </rule>
+    <rule id="2aaa920c">
+        <description>Created after removal of "Storyelement speichern" from AdLerDokumentation</description>
+        <accepts>ASN0016.html</accepts>
+    </rule>
+    <rule id="14d04e4f">
+        <description>Created after removal of "Storyelement hochladen" from AdLerDokumentation</description>
+        <accepts>AHO41.html</accepts>
+    </rule>
+    <rule id="71db4ba8">
+        <description>Created after removal of "Storyelement Eigenschaften" from AdLerDokumentation</description>
+        <accepts>ASN0010.html</accepts>
+    </rule>
+    <rule id="647c8faf">
+        <description>Created after removal of "Erforderliche Eigenschaften für Storyelement" from AdLerDokumentation
+        </description>
+        <accepts>Autorentool-Storyelement-ErforderlicheEigenschaften.html</accepts>
+    </rule>
+    <rule id="6c537f29">
+        <description>Created after removal of "Name" from AdLerDokumentation</description>
+        <accepts>ASN0006.html</accepts>
+    </rule>
+    <rule id="6d64a274">
+        <description>Created after removal of "Storytext" from AdLerDokumentation</description>
+        <accepts>ASN0007.html</accepts>
+    </rule>
+    <rule id="c9ed5f6">
+        <description>Created after removal of "3D-Darstellung" from AdLerDokumentation</description>
+        <accepts>ASN0008.html</accepts>
+    </rule>
+    <rule id="43f986a9">
+        <description>Created after removal of "Optionale Eigenschaften für Storyelement" from AdLerDokumentation
+        </description>
+        <accepts>Autorentool-Storyelement-OptionaleEigenschaften.html</accepts>
+    </rule>
+    <rule id="45892816">
+        <description>Created after removal of "LMS" from AdLerDokumentation</description>
+        <accepts>LMS-Autorentool.html</accepts>
+    </rule>
+    <rule id="4ee30807">
+        <description>Created after removal of "Von LMS abmelden" from AdLerDokumentation</description>
+        <accepts>AHO25.html</accepts>
+    </rule>
+    <rule id="18e0ce77">
+        <description>Created after removal of "LMS Kurs löschen" from AdLerDokumentation</description>
+        <accepts>AHO24.html</accepts>
+    </rule>
+    <rule id="873e2b6">
+        <description>Created after removal of "LMS Kurs lesen" from AdLerDokumentation</description>
+        <accepts>AHO23.html</accepts>
+    </rule>
+    <rule id="1a59b124">
+        <description>Created after removal of "Im LMS anmelden" from AdLerDokumentation</description>
+        <accepts>AHO21.html</accepts>
+    </rule>
+    <rule id="55ec2f0b">
+        <description>Created after removal of "Lernpfad" from AdLerDokumentation</description>
+        <accepts>Lernpfad-Autorentool.html</accepts>
+    </rule>
+    <rule id="2c5282b1">
+        <description>Created after removal of "Lernpfad laden" from AdLerDokumentation</description>
+        <accepts>AHO16.html</accepts>
+    </rule>
+    <rule id="38746d95">
+        <description>Created after removal of "Lernpfad hochladen" from AdLerDokumentation</description>
+        <accepts>AHO15.html</accepts>
+    </rule>
+    <rule id="53e85cee">
+        <description>Created after removal of "Lernpfad persistieren" from AdLerDokumentation</description>
+        <accepts>AHO14.html</accepts>
+    </rule>
+    <rule id="7804ac0c">
+        <description>Created after removal of "Lernpfad löschen" from AdLerDokumentation</description>
+        <accepts>AHO13.html</accepts>
+    </rule>
+    <rule id="57ccab03">
+        <description>Created after removal of "Lernpfad erstellen" from AdLerDokumentation</description>
+        <accepts>AHO11.html</accepts>
+    </rule>
+    <rule id="257b07b">
+        <description>Created after removal of "Lernraum" from AdLerDokumentation</description>
+        <accepts>Lernraum-Autorentool.html</accepts>
+    </rule>
+    <rule id="69a9c912">
+        <description>Created after removal of "Lernraum Eigenschaften" from AdLerDokumentation</description>
+        <accepts>Lernraum-Eigenschaften-Autorentool.html</accepts>
+    </rule>
+    <rule id="4f127e01">
+        <description>Created after removal of "Erforderliche Eigenschaften für Lernraum" from AdLerDokumentation
+        </description>
+        <accepts>AWA9013.html</accepts>
+    </rule>
+    <rule id="7467118f">
+        <description>Created after removal of "Lernraumname" from AdLerDokumentation</description>
+        <accepts>AWA9005.html</accepts>
+    </rule>
+    <rule id="6851711c">
+        <description>Created after removal of "Grundriss" from AdLerDokumentation</description>
+        <accepts>AWA9019.html</accepts>
+    </rule>
+    <rule id="51324e5d">
+        <description>Created after removal of "Optionale Eigenschaften für Lernraum" from AdLerDokumentation
+        </description>
+        <accepts>AWA9014.html</accepts>
+    </rule>
+    <rule id="548feb98">
+        <description>Created after removal of "Lernraum Thema" from AdLerDokumentation</description>
+        <accepts>AWA9020.html</accepts>
+    </rule>
+    <rule id="39d8be9f">
+        <description>Created after removal of "Lernraum Prozesse" from AdLerDokumentation</description>
+        <accepts>Lernraum-Prozesse-Autorentool.html</accepts>
+    </rule>
+    <rule id="a915d2">
+        <description>Created after removal of "Lernraum als Baum auflisten" from AdLerDokumentation</description>
+        <accepts>ASN0027.html</accepts>
+    </rule>
+    <rule id="3ebad864">
+        <description>Created after removal of "Lernraumlayout anzeigen" from AdLerDokumentation</description>
+        <accepts>ASN0026.html</accepts>
+    </rule>
+    <rule id="6ff3d222">
+        <description>Created after removal of "Lernraum hochladen" from AdLerDokumentation</description>
+        <accepts>AHO31.html</accepts>
+    </rule>
+    <rule id="4b4343f4">
+        <description>Created after removal of "Elemente platzieren" from AdLerDokumentation</description>
+        <accepts>Autorentool-FunktionaleAnforderungen-Lernraum-Elemente-platzieren.html</accepts>
+    </rule>
+    <rule id="4769b6d">
+        <description>Created after removal of "Storyelement deplatzieren" from AdLerDokumentation</description>
+        <accepts>ASN0020.html</accepts>
+    </rule>
+    <rule id="1ecdf5a6">
+        <description>Created after removal of "Storyelement platzieren" from AdLerDokumentation</description>
+        <accepts>ASN0019.html</accepts>
+    </rule>
+    <rule id="5bb0069b">
+        <description>Created after removal of "Storyelement innerhalb Lernraum verschieben" from AdLerDokumentation
+        </description>
+        <accepts>AWA0039.html</accepts>
+    </rule>
+    <rule id="55dccb84">
+        <description>Created after removal of "Adaptivitätselement deplatzieren" from AdLerDokumentation</description>
+        <accepts>ASN0021.html</accepts>
+    </rule>
+    <rule id="31c6fde1">
+        <description>Created after removal of "Adaptivitätselement platzieren" from AdLerDokumentation</description>
+        <accepts>ASN0018.html</accepts>
+    </rule>
+    <rule id="1354e06b">
+        <description>Created after removal of "Adaptivitätselement innerhalb Lernraum verschieben" from
+            AdLerDokumentation
+        </description>
+        <accepts>AWA0040.html</accepts>
+    </rule>
+    <rule id="5a8866d9">
+        <description>Created after removal of "Lernelement deplatzieren" from AdLerDokumentation</description>
+        <accepts>ASN0022.html</accepts>
+    </rule>
+    <rule id="3c0e902a">
+        <description>Created after removal of "Lernelement platzieren" from AdLerDokumentation</description>
+        <accepts>ASN0017.html</accepts>
+    </rule>
+    <rule id="61d70f67">
+        <description>Created after removal of "Lernelement innerhalb Lernraum verschieben" from AdLerDokumentation
+        </description>
+        <accepts>AWA0041.html</accepts>
+    </rule>
+    <rule id="5969356a">
+        <description>Created after removal of "Lernraum erstellen" from AdLerDokumentation</description>
+        <accepts>AWA0001.html</accepts>
+    </rule>
+    <rule id="7d36b100">
+        <description>Created after removal of "Lernraum bearbeiten" from AdLerDokumentation</description>
+        <accepts>AWA0023.html</accepts>
+    </rule>
+    <rule id="25511267">
+        <description>Created after removal of "Lernraum löschen" from AdLerDokumentation</description>
+        <accepts>AWA0024.html</accepts>
+    </rule>
+    <rule id="e0dd197">
+        <description>Created after removal of "Lernraum persistieren" from AdLerDokumentation</description>
+        <accepts>AWA0025.html</accepts>
+    </rule>
+    <rule id="770a945e">
+        <description>Created after removal of "Lernraum laden" from AdLerDokumentation</description>
+        <accepts>AWA0022.html</accepts>
+    </rule>
+    <rule id="185c3ebc">
+        <description>Created after removal of "Lernziel" from AdLerDokumentation</description>
+        <accepts>Lernraum-Lernziel-Autorentool.html</accepts>
+    </rule>
+    <rule id="1c209fcb">
+        <description>Created after removal of "Lernziel persistieren" from AdLerDokumentation</description>
+        <accepts>AHO08.html</accepts>
+    </rule>
+    <rule id="58e16120">
+        <description>Created after removal of "Lernziel laden" from AdLerDokumentation</description>
+        <accepts>AHO07.html</accepts>
+    </rule>
+    <rule id="62492694">
+        <description>Created after removal of "Lernziel löschen" from AdLerDokumentation</description>
+        <accepts>AHO05.html</accepts>
+    </rule>
+    <rule id="148ec68a">
+        <description>Created after removal of "Lernziel bearbeiten" from AdLerDokumentation</description>
+        <accepts>Lernraum-Lernziel-Bearbeiten-Autorentool.html</accepts>
+    </rule>
+    <rule id="42e2153f">
+        <description>Created after removal of "Lernziel bearbeiten ohne Eingabeunterstützung" from AdLerDokumentation
+        </description>
+        <accepts>AHO04.html</accepts>
+    </rule>
+    <rule id="1f59ff8a">
+        <description>Created after removal of "Lernziel bearbeiten mit Eingabeunterstützung" from AdLerDokumentation
+        </description>
+        <accepts>AHO03.html</accepts>
+    </rule>
+    <rule id="6c9effef">
+        <description>Created after removal of "Lernziel erstellen" from AdLerDokumentation</description>
+        <accepts>Lernraum-Lernziel-Erstellen-Autorentool.html</accepts>
+    </rule>
+    <rule id="515f2b2a">
+        <description>Created after removal of "Lernziel erstellen ohne Eingabeunterstützung" from AdLerDokumentation
+        </description>
+        <accepts>AHO02.html</accepts>
+    </rule>
+    <rule id="e996fb2">
+        <description>Created after removal of "Lernziel erstellen mit Eingabeunterstützung" from AdLerDokumentation
+        </description>
+        <accepts>AHO01.html</accepts>
+    </rule>
+    <rule id="59017c2b">
+        <description>Created after removal of "Externes Lernmaterial" from AdLerDokumentation</description>
+        <accepts>Externes-Lernmaterial-Autorentool.html</accepts>
+    </rule>
+    <rule id="6afe3fb2">
+        <description>Created after removal of "Externes Lernmaterial Eigenschaften" from AdLerDokumentation
+        </description>
+        <accepts>Externes-Lernmaterial-Eigenschaften-Autorentool.html</accepts>
+    </rule>
+    <rule id="7af1c61a">
+        <description>Created after removal of "Unterstützte Dateiformate" from AdLerDokumentation</description>
+        <accepts>AWA9018.html</accepts>
+    </rule>
+    <rule id="47a360a2">
+        <description>Created after removal of "Externes Lernmaterial Prozesse" from AdLerDokumentation</description>
+        <accepts>Externes-Lernmaterial-Prozesse-Autorentool.html</accepts>
+    </rule>
+    <rule id="6ba0f00c">
+        <description>Created after removal of "Externes Lernmaterial auflisten" from AdLerDokumentation</description>
+        <accepts>ASN0028.html</accepts>
+    </rule>
+    <rule id="554d489c">
+        <description>Created after removal of "Externes Lernmaterial hochladen" from AdLerDokumentation</description>
+        <accepts>AHO51.html</accepts>
+    </rule>
+    <rule id="6a806d8a">
+        <description>Created after removal of "Externes Lernmaterial anzeigen" from AdLerDokumentation</description>
+        <accepts>AWA0038.html</accepts>
+    </rule>
+    <rule id="4fd43f87">
+        <description>Created after removal of "Externes Lernmaterial löschen" from AdLerDokumentation</description>
+        <accepts>AWA0037.html</accepts>
+    </rule>
+    <rule id="722f6f8a">
+        <description>Created after removal of "Externes Lernmaterial laden" from AdLerDokumentation</description>
+        <accepts>AWA0036.html</accepts>
+    </rule>
+    <rule id="f6fce6">
+        <description>Created after removal of "Externes Lernmaterial als Zip laden" from AdLerDokumentation
+        </description>
+        <accepts>AWA0047.html</accepts>
+    </rule>
+    <rule id="78102784">
+        <description>Created after removal of "Externes Lernmaterial suchen" from AdLerDokumentation</description>
+        <accepts>AWA0048.html</accepts>
+    </rule>
+    <rule id="3a33a79b">
+        <description>Created after removal of "Link hinzufügen" from AdLerDokumentation</description>
+        <accepts>AWA0042.html</accepts>
+    </rule>
+    <rule id="497dbb97">
+        <description>Created after removal of "Link löschen" from AdLerDokumentation</description>
+        <accepts>AWA0043.html</accepts>
+    </rule>
+    <rule id="2d6e0a0">
+        <description>Created after removal of "Link anzeigen" from AdLerDokumentation</description>
+        <accepts>AWA0044.html</accepts>
+    </rule>
+    <rule id="9ea66c4">
+        <description>Created after removal of "Link suchen" from AdLerDokumentation</description>
+        <accepts>AWA0049.html</accepts>
+    </rule>
+    <rule id="600be099">
+        <description>Created after removal of "Lernelement" from AdLerDokumentation</description>
+        <accepts>Lernelement-Autorentool.html</accepts>
+    </rule>
+    <rule id="175a2eed">
+        <description>Created after removal of "Lernelement Eigenschaften" from AdLerDokumentation</description>
+        <accepts>Lernelement-Eigenschaften-Autorentool.html</accepts>
+    </rule>
+    <rule id="1d8bd2e0">
+        <description>Created after removal of "Erforderliche Eigenschaften für Lernelement" from AdLerDokumentation
+        </description>
+        <accepts>AWA9006.html</accepts>
+    </rule>
+    <rule id="2b448891">
+        <description>Created after removal of "Lernelementname" from AdLerDokumentation</description>
+        <accepts>AWA9001.html</accepts>
+    </rule>
+    <rule id="3861f4b6">
+        <description>Created after removal of "Optionale Eigenschaften für Lernelement" from AdLerDokumentation
+        </description>
+        <accepts>AWA9007.html</accepts>
+    </rule>
+    <rule id="5c473504">
+        <description>Created after removal of "3D-Darstellung" from AdLerDokumentation</description>
+        <accepts>ASN0009.html</accepts>
+    </rule>
+    <rule id="223a4b74">
+        <description>Created after removal of "Lernelement Prozesse" from AdLerDokumentation</description>
+        <accepts>Lernelement-Prozesse-Autorentool.html</accepts>
+    </rule>
+    <rule id="f0d733e">
+        <description>Created after removal of "Lernelement hochladen" from AdLerDokumentation</description>
+        <accepts>AHO42.html</accepts>
+    </rule>
+    <rule id="6af9d03b">
+        <description>Created after removal of "Lernelement erstellen" from AdLerDokumentation</description>
+        <accepts>AWA0002.html</accepts>
+    </rule>
+    <rule id="74f0b2f1">
+        <description>Created after removal of "Lernelement bearbeiten" from AdLerDokumentation</description>
+        <accepts>AWA0015.html</accepts>
+    </rule>
+    <rule id="f2a83b1">
+        <description>Created after removal of "Lernelement Lernmaterial nicht vorhanden" from AdLerDokumentation
+        </description>
+        <accepts>AWA0046.html</accepts>
+    </rule>
+    <rule id="30d3f568">
+        <description>Created after removal of "Lernelement Lernmaterial H5P auswählen" from AdLerDokumentation
+        </description>
+        <accepts>AWA0045.html</accepts>
+    </rule>
+    <rule id="62e912f6">
+        <description>Created after removal of "Lernelement löschen" from AdLerDokumentation</description>
+        <accepts>AWA0016.html</accepts>
+    </rule>
+    <rule id="3729e03d">
+        <description>Created after removal of "Lernelement persistieren" from AdLerDokumentation</description>
+        <accepts>AWA0017.html</accepts>
+    </rule>
+    <rule id="6a792c26">
+        <description>Created after removal of "Lernelement laden" from AdLerDokumentation</description>
+        <accepts>AWA0018.html</accepts>
+    </rule>
+    <rule id="6158b69d">
+        <description>Created after removal of "Unplatzierte Elemente auflisten" from AdLerDokumentation</description>
+        <accepts>ASN0031.html</accepts>
+    </rule>
+    <rule id="76f3c89d">
+        <description>Created after removal of "Elemente suchen" from AdLerDokumentation</description>
+        <accepts>ASN0029.html</accepts>
+    </rule>
+    <rule id="345f90fa">
+        <description>Created after removal of "Elemente filtern" from AdLerDokumentation</description>
+        <accepts>ASN0030.html</accepts>
+    </rule>
+    <rule id="22e57ed7">
+        <description>Created after removal of "Adaptivitätselement" from AdLerDokumentation</description>
+        <accepts>Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="69c8b675">
+        <description>Created after removal of "Adaptivitätselement Eigenschaften" from AdLerDokumentation</description>
+        <accepts>Adaptivitätselement-Eigenschaften-Autorentool.html</accepts>
+    </rule>
+    <rule id="3d9c579e">
+        <description>Created after removal of "Erforderliche Eigenschaften für Adaptivitätselement" from
+            AdLerDokumentation
+        </description>
+        <accepts>AWA9008.html</accepts>
+    </rule>
+    <rule id="292b8b60">
+        <description>Created after removal of "Adaptivitätselementname" from AdLerDokumentation</description>
+        <accepts>AWA9021.html</accepts>
+    </rule>
+    <rule id="4753a7c6">
+        <description>Created after removal of "Optionale Eigenschaften für Adaptivitätselement" from
+            AdLerDokumentation
+        </description>
+        <accepts>AWA9009.html</accepts>
+    </rule>
+    <rule id="6c7cb00c">
+        <description>Created after removal of "Adaptivitätselement Prozesse" from AdLerDokumentation</description>
+        <accepts>Adaptivitätselement-Prozesse-Autorentool.html</accepts>
+    </rule>
+    <rule id="16040515">
+        <description>Created after removal of "Adaptivitätselement hochladen" from AdLerDokumentation</description>
+        <accepts>AHO43.html</accepts>
+    </rule>
+    <rule id="50708c7f">
+        <description>Created after removal of "Adaptivitätselement erstellen" from AdLerDokumentation</description>
+        <accepts>AWA0003.html</accepts>
+    </rule>
+    <rule id="5ce9d5b5">
+        <description>Created after removal of "Adaptivitätselement bearbeiten" from AdLerDokumentation</description>
+        <accepts>AWA0010.html</accepts>
+    </rule>
+    <rule id="2140c7d4">
+        <description>Created after removal of "Adaptivitätselement löschen" from AdLerDokumentation</description>
+        <accepts>AWA0011.html</accepts>
+    </rule>
+    <rule id="7da17765">
+        <description>Created after removal of "Adaptivitätselement persistieren" from AdLerDokumentation</description>
+        <accepts>AWA0012.html</accepts>
+    </rule>
+    <rule id="7aad6744">
+        <description>Created after removal of "Adaptivitätselement laden" from AdLerDokumentation</description>
+        <accepts>AWA0019.html</accepts>
+    </rule>
+    <rule id="741eec52">
+        <description>Created after removal of "Aufgabe" from AdLerDokumentation</description>
+        <accepts>Aufgabe-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="39d5b5bc">
+        <description>Created after removal of "Aufgabe Eigenschaften" from AdLerDokumentation</description>
+        <accepts>Aufgabe-Eigenschaften-Autorentool.html</accepts>
+    </rule>
+    <rule id="141c4687">
+        <description>Created after removal of "Erforderliche Eigenschaften für Aufgabe" from AdLerDokumentation
+        </description>
+        <accepts>AWA9010.html</accepts>
+    </rule>
+    <rule id="2b208bb9">
+        <description>Created after removal of "Optionale Eigenschaften für Aufgabe" from AdLerDokumentation
+        </description>
+        <accepts>AWA9011.html</accepts>
+    </rule>
+    <rule id="2778927b">
+        <description>Created after removal of "Aufgabe Prozesse" from AdLerDokumentation</description>
+        <accepts>Aufgabe-Prozesse-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="3917564b">
+        <description>Created after removal of "Aufgabe erstellen" from AdLerDokumentation</description>
+        <accepts>AWA0005.html</accepts>
+    </rule>
+    <rule id="3e5a3d7d">
+        <description>Created after removal of "Aufgabe bearbeiten" from AdLerDokumentation</description>
+        <accepts>AWA0006.html</accepts>
+    </rule>
+    <rule id="2a2dc2fa">
+        <description>Created after removal of "Aufgabe löschen" from AdLerDokumentation</description>
+        <accepts>AWA0007.html</accepts>
+    </rule>
+    <rule id="66d19629">
+        <description>Created after removal of "Aufgabe persistieren" from AdLerDokumentation</description>
+        <accepts>AWA0013.html</accepts>
+    </rule>
+    <rule id="6b12b109">
+        <description>Created after removal of "Aufgabe laden" from AdLerDokumentation</description>
+        <accepts>AWA0020.html</accepts>
+    </rule>
+    <rule id="c59eef0">
+        <description>Created after removal of "Frage" from AdLerDokumentation</description>
+        <accepts>Frage-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="3a70b6c">
+        <description>Created after removal of "Frage Eigenschaften" from AdLerDokumentation</description>
+        <accepts>Frage-Eigenschaften-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="1e50daea">
+        <description>Created after removal of "Erforderliche Eigenschaften für Frage" from AdLerDokumentation
+        </description>
+        <accepts>AWA9012.html</accepts>
+    </rule>
+    <rule id="5607a48a">
+        <description>Created after removal of "Antworten" from AdLerDokumentation</description>
+        <accepts>AWA9002.html</accepts>
+    </rule>
+    <rule id="66760894">
+        <description>Created after removal of "Antworttext" from AdLerDokumentation</description>
+        <accepts>AWA9003.html</accepts>
+    </rule>
+    <rule id="2e613698">
+        <description>Created after removal of "Fragetext" from AdLerDokumentation</description>
+        <accepts>AWA9004.html</accepts>
+    </rule>
+    <rule id="745b519b">
+        <description>Created after removal of "Frage Prozesse" from AdLerDokumentation</description>
+        <accepts>Frage-Prozesse-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="262f89a">
+        <description>Created after removal of "Frage erstellen" from AdLerDokumentation</description>
+        <accepts>AWA0004.html</accepts>
+    </rule>
+    <rule id="3fa645fc">
+        <description>Created after removal of "Frage bearbeiten" from AdLerDokumentation</description>
+        <accepts>AWA0008.html</accepts>
+    </rule>
+    <rule id="7a144800">
+        <description>Created after removal of "Frage löschen" from AdLerDokumentation</description>
+        <accepts>AWA0009.html</accepts>
+    </rule>
+    <rule id="3fa59901">
+        <description>Created after removal of "Frage persistieren" from AdLerDokumentation</description>
+        <accepts>AWA0014.html</accepts>
+    </rule>
+    <rule id="210a412f">
+        <description>Created after removal of "Frage laden" from AdLerDokumentation</description>
+        <accepts>AWA0021.html</accepts>
+    </rule>
+    <rule id="817fd76">
+        <description>Created after removal of "Verweis" from AdLerDokumentation</description>
+        <accepts>Verweis-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="7e21d4b7">
+        <description>Created after removal of "Verweis Eigenschaften" from AdLerDokumentation</description>
+        <accepts>Verweis-Eigenschaften-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="3b5be27b">
+        <description>Created after removal of "Erforderliche Eigenschaften für Verweis" from AdLerDokumentation
+        </description>
+        <accepts>AWA9015.html</accepts>
+    </rule>
+    <rule id="31704e15">
+        <description>Created after removal of "Optionale Eigenschaften für Verweis" from AdLerDokumentation
+        </description>
+        <accepts>AWA9016.html</accepts>
+    </rule>
+    <rule id="48a8280f">
+        <description>Created after removal of "Verweis Prozesse" from AdLerDokumentation</description>
+        <accepts>Verweis-Prozesse-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="3c4a271d">
+        <description>Created after removal of "Verweis erstellen" from AdLerDokumentation</description>
+        <accepts>AWA0026.html</accepts>
+    </rule>
+    <rule id="434abb2a">
+        <description>Created after removal of "Verweis bearbeiten" from AdLerDokumentation</description>
+        <accepts>AWA0027.html</accepts>
+    </rule>
+    <rule id="3fb66518">
+        <description>Created after removal of "Verweis löschen" from AdLerDokumentation</description>
+        <accepts>AWA0028.html</accepts>
+    </rule>
+    <rule id="6ad26090">
+        <description>Created after removal of "Verweis persistieren" from AdLerDokumentation</description>
+        <accepts>AWA0029.html</accepts>
+    </rule>
+    <rule id="30cbd7fd">
+        <description>Created after removal of "Verweis laden" from AdLerDokumentation</description>
+        <accepts>AWA0030.html</accepts>
+    </rule>
+    <rule id="711e32cd">
+        <description>Created after removal of "Kommentar" from AdLerDokumentation</description>
+        <accepts>Kommentar-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="39e808ce">
+        <description>Created after removal of "Kommentar Eigenschaften" from AdLerDokumentation</description>
+        <accepts>Kommentar-Eigenschaften-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="3cdff937">
+        <description>Created after removal of "Erforderliche Eigenschaften für Kommentar" from AdLerDokumentation
+        </description>
+        <accepts>AWA9017.html</accepts>
+    </rule>
+    <rule id="78fb171">
+        <description>Created after removal of "Kommentar Prozesse" from AdLerDokumentation</description>
+        <accepts>Kommentar-Prozesse-Adaptivitätselement-Autorentool.html</accepts>
+    </rule>
+    <rule id="4cf441d1">
+        <description>Created after removal of "Kommentar erstellen" from AdLerDokumentation</description>
+        <accepts>AWA0031.html</accepts>
+    </rule>
+    <rule id="3ba7887d">
+        <description>Created after removal of "Kommentar bearbeiten" from AdLerDokumentation</description>
+        <accepts>AWA0032.html</accepts>
+    </rule>
+    <rule id="1ac6a70e">
+        <description>Created after removal of "Kommentar löschen" from AdLerDokumentation</description>
+        <accepts>AWA0033.html</accepts>
+    </rule>
+    <rule id="5d07ff1">
+        <description>Created after removal of "Kommentar persistieren" from AdLerDokumentation</description>
+        <accepts>AWA0034.html</accepts>
+    </rule>
+    <rule id="302676e5">
+        <description>Created after removal of "Kommentar laden" from AdLerDokumentation</description>
+        <accepts>AWA0035.html</accepts>
+    </rule>
+    <rule id="625a707d">
+        <description>Created after removal of "Lernwelt" from AdLerDokumentation</description>
+        <accepts>Lernwelt-Autorentool.html</accepts>
+    </rule>
+    <rule id="138a87f0">
+        <description>Created after removal of "Lernwelt Eigenschaften" from AdLerDokumentation</description>
+        <accepts>Lernwelt-Eigenschaften-Autorentool.html</accepts>
+    </rule>
+    <rule id="6a6beec5">
+        <description>Created after removal of "Optionale Eigenschaften für Lernwelt" from AdLerDokumentation
+        </description>
+        <accepts>Autorentool-Lernwelt-OptionaleEigenschaften.html</accepts>
+    </rule>
+    <rule id="32216ed9">
+        <description>Created after removal of "Erforderliche Eigenschaften für Lernwelt" from AdLerDokumentation
+        </description>
+        <accepts>Autorentool-Lernwelt-ErforderlicheEigenschaften.html</accepts>
+    </rule>
+    <rule id="516f7c3">
+        <description>Created after removal of "Name" from AdLerDokumentation</description>
+        <accepts>ASN0023.html</accepts>
+    </rule>
+    <rule id="28120a91">
+        <description>Created after removal of "Lernwelt Prozesse" from AdLerDokumentation</description>
+        <accepts>Autorentool-FunktionaleAnforderungen-LernweltProzesse.html</accepts>
+    </rule>
+    <rule id="7b64714">
+        <description>Created after removal of "Lernwelt erstellen" from AdLerDokumentation</description>
+        <accepts>ASE1.html</accepts>
+    </rule>
+    <rule id="3c0beae">
+        <description>Created after removal of "Lernwelt bearbeiten" from AdLerDokumentation</description>
+        <accepts>ASE3.html</accepts>
+    </rule>
+    <rule id="1c489ebb">
+        <description>Created after removal of "Lernwelt speichern" from AdLerDokumentation</description>
+        <accepts>ASE6.html</accepts>
+    </rule>
+    <rule id="7cf6bf3f">
+        <description>Created after removal of "Lernwelt löschen" from AdLerDokumentation</description>
+        <accepts>ASE4.html</accepts>
+    </rule>
+    <rule id="216ccdc1">
+        <description>Created after removal of "Lernwelt suchen" from AdLerDokumentation</description>
+        <accepts>ASE5.html</accepts>
+    </rule>
+    <rule id="30b8de47">
+        <description>Created after removal of "Lernwelt laden" from AdLerDokumentation</description>
+        <accepts>ASE2.html</accepts>
+    </rule>
+    <rule id="5a179141">
+        <description>Created after removal of "Lernwelt hochladen" from AdLerDokumentation</description>
+        <accepts>AHO22.html</accepts>
+    </rule>
+    <rule id="457ffeeb">
+        <description>Created after removal of "Lernwelt exportieren" from AdLerDokumentation</description>
+        <accepts>ASN0001.html</accepts>
+    </rule>
+    <rule id="7f65511">
+        <description>Created after removal of "Lernwelt importieren" from AdLerDokumentation</description>
+        <accepts>ASN0002.html</accepts>
+    </rule>
+    <rule id="52ecad0d">
+        <description>Created after removal of "Nicht funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Nicht-funktionale-Anforderungen-Autorentool.html</accepts>
+    </rule>
+    <rule id="174c9d1c">
+        <description>Created after removal of "Lernwelt Automatisch Persistieren 2" from AdLerDokumentation
+        </description>
+        <accepts>ASE8.html</accepts>
+    </rule>
+    <rule id="7bd5317d">
+        <description>Created after removal of "GUI" from AdLerDokumentation</description>
+        <accepts>Oberflächen.html</accepts>
+    </rule>
+    <rule id="611a646c">
+        <description>Created after removal of "Andere" from AdLerDokumentation</description>
+        <accepts>Andere.html</accepts>
+    </rule>
+    <rule id="50098b1c">
+        <description>Created after removal of "SBOM" from AdLerDokumentation</description>
+        <accepts>SBOM-Autorentool.html</accepts>
+    </rule>
+    <rule id="1b2bc698">
+        <description>Created after removal of "Schnittstellen" from AdLerDokumentation</description>
+        <accepts>Schnittstellen-Autorentool.html</accepts>
+    </rule>
+    <rule id="2f1c6d">
+        <description>Created after removal of "Software Architektur" from AdLerDokumentation</description>
+        <accepts>Software-Architektur-Autorentool.html</accepts>
+    </rule>
+    <rule id="58f9fc23">
+        <description>Created after removal of "Software Design" from AdLerDokumentation</description>
+        <accepts>Software-Design-Autorentool.html</accepts>
+    </rule>
+    <rule id="6f3feef2">
+        <description>Created after removal of "Generator" from AdLerDokumentation</description>
+        <accepts>Generator-BG.html</accepts>
+    </rule>
+    <rule id="63d93c74">
+        <description>Created after removal of "Auflistungen der Anforderungen" from AdLerDokumentation</description>
+        <accepts>Auflistung-der-Anforderungen-Generator.html</accepts>
+    </rule>
+    <rule id="7bed88f3">
+        <description>Created after removal of "Funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Funktionale-Anforderungen-Generator.html</accepts>
+    </rule>
+    <rule id="233056c5">
+        <description>Created after removal of "MBZ" from AdLerDokumentation</description>
+        <accepts>MBZ-Generator.html</accepts>
+    </rule>
+    <rule id="73cd9973">
+        <description>Created after removal of "MBZ erstellen" from AdLerDokumentation</description>
+        <accepts>GHO11.html</accepts>
+    </rule>
+    <rule id="67b77002">
+        <description>Created after removal of "ATF" from AdLerDokumentation</description>
+        <accepts>ATF-Generator.html</accepts>
+    </rule>
+    <rule id="6110a96e">
+        <description>Created after removal of "ATF lesen" from AdLerDokumentation</description>
+        <accepts>GHO03.html</accepts>
+    </rule>
+    <rule id="495d996b">
+        <description>Created after removal of "ATF serialisieren" from AdLerDokumentation</description>
+        <accepts>GHO02.html</accepts>
+    </rule>
+    <rule id="3a806180">
+        <description>Created after removal of "ATF erstellen" from AdLerDokumentation</description>
+        <accepts>GHO01.html</accepts>
+    </rule>
+    <rule id="793bbadf">
+        <description>Created after removal of "Nicht funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Nicht-funktionale-Anforderungen-Generator.html</accepts>
+    </rule>
+    <rule id="36e7c72e">
+        <description>Created after removal of "SBOM" from AdLerDokumentation</description>
+        <accepts>SBOM--Generator.html</accepts>
+    </rule>
+    <rule id="62c2e804">
+        <description>Created after removal of "Schnittstellen" from AdLerDokumentation</description>
+        <accepts>Schnittstellen-Generator.html</accepts>
+    </rule>
+    <rule id="15b08898">
+        <description>Created after removal of "Software Architektur" from AdLerDokumentation</description>
+        <accepts>Software-Architektur-Generator.html</accepts>
+    </rule>
+    <rule id="62829ef6">
+        <description>Created after removal of "Software Design" from AdLerDokumentation</description>
+        <accepts>Software-Design-Generator.html</accepts>
+    </rule>
+    <rule id="1831ff8f">
+        <description>Created after removal of "Engine" from AdLerDokumentation</description>
+        <accepts>Engine-BG.html</accepts>
+    </rule>
+    <rule id="1fc4c781">
+        <description>Created after removal of "Auflistungen der Anforderungen" from AdLerDokumentation</description>
+        <accepts>Auflistung-der-Anforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="7e8d5891">
+        <description>Created after removal of "Funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="60721293">
+        <description>Created after removal of "Lernwelt" from AdLerDokumentation</description>
+        <accepts>Lernwelt-Entities-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="78ad0879">
+        <description>Created after removal of "Lernweltabschluss-Dialogfenster anzeigen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0028.html</accepts>
+    </rule>
+    <rule id="6bb6fce4">
+        <description>Created after removal of "Lernweltübersicht anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0024.html</accepts>
+    </rule>
+    <rule id="75160868">
+        <description>Created after removal of "Lernweltfortschritt anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0027.html</accepts>
+    </rule>
+    <rule id="16851d8b">
+        <description>Created after removal of "Lernwelten Übersicht laden" from AdLerDokumentation</description>
+        <accepts>ELG0008.html</accepts>
+    </rule>
+    <rule id="70f2fb0f">
+        <description>Created after removal of "Lernwelt laden" from AdLerDokumentation</description>
+        <accepts>ELG0005.html</accepts>
+    </rule>
+    <rule id="4baa0bad">
+        <description>Created after removal of "Lernwelt betreten" from AdLerDokumentation</description>
+        <accepts>ELG0006.html</accepts>
+    </rule>
+    <rule id="7a1db319">
+        <description>Created after removal of "Lernwelt verlassen" from AdLerDokumentation</description>
+        <accepts>ELG0007.html</accepts>
+    </rule>
+    <rule id="50d74842">
+        <description>Created after removal of "Lernraum" from AdLerDokumentation</description>
+        <accepts>Lernraum-Entities-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="65e63ec9">
+        <description>Created after removal of "Türen" from AdLerDokumentation</description>
+        <accepts>Türen-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="19c20668">
+        <description>Created after removal of "Türen anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0019.html</accepts>
+    </rule>
+    <rule id="35243704">
+        <description>Created after removal of "Türen highlighten" from AdLerDokumentation</description>
+        <accepts>ELG0018.html</accepts>
+    </rule>
+    <rule id="722545ec">
+        <description>Created after removal of "Tür Tooltip anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0022.html</accepts>
+    </rule>
+    <rule id="6d82883b">
+        <description>Created after removal of "Türen anklicken" from AdLerDokumentation</description>
+        <accepts>EWE0031.html</accepts>
+    </rule>
+    <rule id="1dc08f82">
+        <description>Created after removal of "Türdialogfenster anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0032.html</accepts>
+    </rule>
+    <rule id="67186f2d">
+        <description>Created after removal of "Türdialogfenster schließen" from AdLerDokumentation</description>
+        <accepts>EWE0033.html</accepts>
+    </rule>
+    <rule id="43cc4df7">
+        <description>Created after removal of "Fenster" from AdLerDokumentation</description>
+        <accepts>Fenster-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="60d72271">
+        <description>Created after removal of "Fenster anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0020.html</accepts>
+    </rule>
+    <rule id="7726846c">
+        <description>Created after removal of "Dekorationen" from AdLerDokumentation</description>
+        <accepts>Dekorationen.html</accepts>
+    </rule>
+    <rule id="6b745c97">
+        <description>Created after removal of "Platzhalterdekorationen anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0026.html</accepts>
+    </rule>
+    <rule id="6ffe4f43">
+        <description>Created after removal of "Lernraumdekoration anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0025.html</accepts>
+    </rule>
+    <rule id="5ec5244c">
+        <description>Created after removal of "Umgebung" from AdLerDokumentation</description>
+        <accepts>Umgebung.html</accepts>
+    </rule>
+    <rule id="57b0fd6">
+        <description>Created after removal of "Umgebung anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0021.html</accepts>
+    </rule>
+    <rule id="5d86f90a">
+        <description>Created after removal of "Lernraum laden" from AdLerDokumentation</description>
+        <accepts>ELG0004.html</accepts>
+    </rule>
+    <rule id="17ff83b9">
+        <description>Created after removal of "Lernraum betreten" from AdLerDokumentation</description>
+        <accepts>ELG0002.html</accepts>
+    </rule>
+    <rule id="3a0a8ea0">
+        <description>Created after removal of "Lernraum verlassen" from AdLerDokumentation</description>
+        <accepts>ELG0003.html</accepts>
+    </rule>
+    <rule id="522bf243">
+        <description>Created after removal of "Lernraumzugänglichkeit anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0026.html</accepts>
+    </rule>
+    <rule id="65251d15">
+        <description>Created after removal of "Lernraumabschluss anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0025.html</accepts>
+    </rule>
+    <rule id="565d99fc">
+        <description>Created after removal of "Lernraumgeometrie aufbauen" from AdLerDokumentation</description>
+        <accepts>ELG0016.html</accepts>
+    </rule>
+    <rule id="6f2dd714">
+        <description>Created after removal of "Lernraumtexturen darstellen" from AdLerDokumentation</description>
+        <accepts>ELG0017.html</accepts>
+    </rule>
+    <rule id="5fde331a">
+        <description>Created after removal of "Lernraumpunktestand anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0030.html</accepts>
+    </rule>
+    <rule id="565d9549">
+        <description>Created after removal of "3D-Lernraum anzeigen" from AdLerDokumentation</description>
+        <accepts>EZZ0027.html</accepts>
+    </rule>
+    <rule id="38143530">
+        <description>Created after removal of "Lernelement" from AdLerDokumentation</description>
+        <accepts>Lernelement-Entities-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="41565cc2">
+        <description>Created after removal of "Nicht-primitives Lernelement" from AdLerDokumentation</description>
+        <accepts>Nicht-primitives-Lernelement-Engine.html</accepts>
+    </rule>
+    <rule id="5fc430f6">
+        <description>Created after removal of "Adaptivitätselement" from AdLerDokumentation</description>
+        <accepts>Adaptivitätselement-Entities-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="6d2f5cb">
+        <description>Created after removal of "Hinweis anbieten" from AdLerDokumentation</description>
+        <accepts>EWE0010.html</accepts>
+    </rule>
+    <rule id="1996a19b">
+        <description>Created after removal of "Adaptivitätselements: Fragen empfehlen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0016.html</accepts>
+    </rule>
+    <rule id="1774ff2c">
+        <description>Created after removal of "Adaptivitätselement: Text als Hinweis anzeigen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0004.html</accepts>
+    </rule>
+    <rule id="35a48eef">
+        <description>Created after removal of "Adaptivitätselement: Zugängliches Lernelement als Hinweis anzeigen" from
+            AdLerDokumentation
+        </description>
+        <accepts>EWE0006.html</accepts>
+    </rule>
+    <rule id="5cc6668">
+        <description>Created after removal of "Adaptivitätselement: Unzugängliches Lernelement als Hinweis anzeigen"
+            from AdLerDokumentation
+        </description>
+        <accepts>EWE0007.html</accepts>
+    </rule>
+    <rule id="687fee1e">
+        <description>Created after removal of "Fragen anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0012.html</accepts>
+    </rule>
+    <rule id="18303218">
+        <description>Created after removal of "Single-Response Fragen des Adaptivitätselements bearbeiten" from
+            AdLerDokumentation
+        </description>
+        <accepts>EWE0008.html</accepts>
+    </rule>
+    <rule id="1f3fc4d4">
+        <description>Created after removal of "Multiple-Response des Adaptivitätselements Frage bearbeiten" from
+            AdLerDokumentation
+        </description>
+        <accepts>EWE0009.html</accepts>
+    </rule>
+    <rule id="565cd07b">
+        <description>Created after removal of "Adaptivitätselement laden" from AdLerDokumentation</description>
+        <accepts>EWE0001.html</accepts>
+    </rule>
+    <rule id="58918fb5">
+        <description>Created after removal of "Adaptivitäselement-Inhalt laden" from AdLerDokumentation</description>
+        <accepts>EWE0013.html</accepts>
+    </rule>
+    <rule id="12ee8634">
+        <description>Created after removal of "Adaptivitätselement-Status laden" from AdLerDokumentation</description>
+        <accepts>EWE0002.html</accepts>
+    </rule>
+    <rule id="378fb409">
+        <description>Created after removal of "Adaptivitätselement werten" from AdLerDokumentation</description>
+        <accepts>EWE0003.html</accepts>
+    </rule>
+    <rule id="572cdebf">
+        <description>Created after removal of "Adaptivitätselement-Antworten prüfen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0005.html</accepts>
+    </rule>
+    <rule id="6e8ebd81">
+        <description>Created after removal of "Adaptivitätselement-Aufgabenabschluss anzeigen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0017.html</accepts>
+    </rule>
+    <rule id="b4088a4">
+        <description>Created after removal of "Adaptivitätselement-Aufgaben anzeigen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0011.html</accepts>
+    </rule>
+    <rule id="33d6dcb0">
+        <description>Created after removal of "Adaptivitätselement-Introtext anzeigen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0014.html</accepts>
+    </rule>
+    <rule id="3a6e9fc0">
+        <description>Created after removal of "Adaptivitätselement-Modellbild anzeigen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0015.html</accepts>
+    </rule>
+    <rule id="6a2d031c">
+        <description>Created after removal of "Adaptivitätselement-Fortschritt anzeigen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0018.html</accepts>
+    </rule>
+    <rule id="7a5fbeca">
+        <description>Created after removal of "Adaptivitätselement-Symbollegende anzeigen" from AdLerDokumentation
+        </description>
+        <accepts>EWE0019.html</accepts>
+    </rule>
+    <rule id="612f8b4">
+        <description>Created after removal of "Adaptivitätselement-Brotkrumennavigation anzeigen" from
+            AdLerDokumentation
+        </description>
+        <accepts>EWE0020.html</accepts>
+    </rule>
+    <rule id="21c78517">
+        <description>Created after removal of "Nicht-primitives Lernelement werten" from AdLerDokumentation
+        </description>
+        <accepts>EZZ0010.html</accepts>
+    </rule>
+    <rule id="2c406f55">
+        <description>Created after removal of "Primitives Lernelement" from AdLerDokumentation</description>
+        <accepts>Primitives-Lernelement-Engine.html</accepts>
+    </rule>
+    <rule id="1b760a59">
+        <description>Created after removal of "Primitives Lernelement werten" from AdLerDokumentation</description>
+        <accepts>EZZ0009.html</accepts>
+    </rule>
+    <rule id="49236ab3">
+        <description>Created after removal of "Lernelement laden" from AdLerDokumentation</description>
+        <accepts>EZZ0008.html</accepts>
+    </rule>
+    <rule id="4c3b860e">
+        <description>Created after removal of "Lernelement platzieren" from AdLerDokumentation</description>
+        <accepts>ELG0028.html</accepts>
+    </rule>
+    <rule id="2cf6870e">
+        <description>Created after removal of "Lernelement Inhalte laden" from AdLerDokumentation</description>
+        <accepts>ELG0029.html</accepts>
+    </rule>
+    <rule id="300ce92d">
+        <description>Created after removal of "Lernelement Bewertungszustand mit Backend synchronisieren" from
+            AdLerDokumentation
+        </description>
+        <accepts>EZZ0011.html</accepts>
+    </rule>
+    <rule id="199cd759">
+        <description>Created after removal of "Lernelement Tooltip anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0024.html</accepts>
+    </rule>
+    <rule id="a19cf68">
+        <description>Created after removal of "Lernelement highlighten" from AdLerDokumentation</description>
+        <accepts>ELG0027.html</accepts>
+    </rule>
+    <rule id="71f4e35a">
+        <description>Created after removal of "Lernelementabschluss anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0034.html</accepts>
+    </rule>
+    <rule id="4d8a1121">
+        <description>Created after removal of "Lernelement anklicken" from AdLerDokumentation</description>
+        <accepts>EWE0035.html</accepts>
+    </rule>
+    <rule id="5ba8eff6">
+        <description>Created after removal of "Lernelement-Inhalt anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0037.html</accepts>
+    </rule>
+    <rule id="4ef0f9db">
+        <description>Created after removal of "H5P Lernelemente bearbeiten" from AdLerDokumentation</description>
+        <accepts>ELG0030.html</accepts>
+    </rule>
+    <rule id="1935176d">
+        <description>Created after removal of "Lernelement-Inhalt schließen" from AdLerDokumentation</description>
+        <accepts>EWE0038.html</accepts>
+    </rule>
+    <rule id="3090d79a">
+        <description>Created after removal of "Storyelement" from AdLerDokumentation</description>
+        <accepts>Storyelement-Entities-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="43b8aeaf">
+        <description>Created after removal of "Storyelement Cutscene ausführen" from AdLerDokumentation</description>
+        <accepts>EZZ0026.html</accepts>
+    </rule>
+    <rule id="7d71062a">
+        <description>Created after removal of "Storyelement Zufällige Bewegung durchführen" from AdLerDokumentation
+        </description>
+        <accepts>EZZ0025.html</accepts>
+    </rule>
+    <rule id="b9723a1">
+        <description>Created after removal of "Storyelement Idle Zustand darstellen" from AdLerDokumentation
+        </description>
+        <accepts>EZZ0024.html</accepts>
+    </rule>
+    <rule id="2dfa2d01">
+        <description>Created after removal of "Storyelement-Introcutscene starten" from AdLerDokumentation</description>
+        <accepts>EWE0036.html</accepts>
+    </rule>
+    <rule id="54a90b82">
+        <description>Created after removal of "Storyelement-Outrocutscene starten" from AdLerDokumentation</description>
+        <accepts>EWE0042.html</accepts>
+    </rule>
+    <rule id="7d7d7268">
+        <description>Created after removal of "Storyelement-Cutscene beenden" from AdLerDokumentation</description>
+        <accepts>EWE0043.html</accepts>
+    </rule>
+    <rule id="1bc085d8">
+        <description>Created after removal of "Storyelement Modell anzeigen" from AdLerDokumentation</description>
+        <accepts>EZZ0022.html</accepts>
+    </rule>
+    <rule id="53bab3f">
+        <description>Created after removal of "Storyelement Modell platzieren" from AdLerDokumentation</description>
+        <accepts>EZZ0023.html</accepts>
+    </rule>
+    <rule id="1a997019">
+        <description>Created after removal of "Storyelement laden" from AdLerDokumentation</description>
+        <accepts>EZZ0006.html</accepts>
+    </rule>
+    <rule id="230a263a">
+        <description>Created after removal of "Storyelement Tooltip anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0023.html</accepts>
+    </rule>
+    <rule id="1a57ddf6">
+        <description>Created after removal of "Storyelement highlighten" from AdLerDokumentation</description>
+        <accepts>ELG0031.html</accepts>
+    </rule>
+    <rule id="408b008b">
+        <description>Created after removal of "Storyelement anklicken" from AdLerDokumentation</description>
+        <accepts>EWE0039.html</accepts>
+    </rule>
+    <rule id="12bf9e6f">
+        <description>Created after removal of "Storyelement-Inhalt anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0040.html</accepts>
+    </rule>
+    <rule id="6af2480a">
+        <description>Created after removal of "Storyelement-Inhalt schließen" from AdLerDokumentation</description>
+        <accepts>EWE0041.html</accepts>
+    </rule>
+    <rule id="490a6a38">
+        <description>Created after removal of "Storyelement-Modellbild anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0032.html</accepts>
+    </rule>
+    <rule id="3abe41d3">
+        <description>Created after removal of "Lernende" from AdLerDokumentation</description>
+        <accepts>UserData-Entities-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="586b4bc0">
+        <description>Created after removal of "Avatar" from AdLerDokumentation</description>
+        <accepts>Avatar-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="35318d9f">
+        <description>Created after removal of "Avatar anzeigen" from AdLerDokumentation</description>
+        <accepts>EZZ0017.html</accepts>
+    </rule>
+    <rule id="45f44e3c">
+        <description>Created after removal of "Avatar Kamera folgt Avatar" from AdLerDokumentation</description>
+        <accepts>EZZ0020.html</accepts>
+    </rule>
+    <rule id="1440cf3f">
+        <description>Created after removal of "Avatar Kamera ist zoombar" from AdLerDokumentation</description>
+        <accepts>EZZ0021.html</accepts>
+    </rule>
+    <rule id="7919a5ae">
+        <description>Created after removal of "Bewegung zu Laufziel durchführen" from AdLerDokumentation</description>
+        <accepts>EZZ0014.html</accepts>
+    </rule>
+    <rule id="6137c622">
+        <description>Created after removal of "Laufziel anzeigen" from AdLerDokumentation</description>
+        <accepts>EZZ0016.html</accepts>
+    </rule>
+    <rule id="39446f92">
+        <description>Created after removal of "Laufziel auf begehbaren Bereich begrenzen" from AdLerDokumentation
+        </description>
+        <accepts>EZZ0012.html</accepts>
+    </rule>
+    <rule id="7260b796">
+        <description>Created after removal of "Laufziel wählen" from AdLerDokumentation</description>
+        <accepts>EZZ0015.html</accepts>
+    </rule>
+    <rule id="64e7aa59">
+        <description>Created after removal of "Login Benachrichtigungen" from AdLerDokumentation</description>
+        <accepts>Login-Benachrichtigungen.html</accepts>
+    </rule>
+    <rule id="6293adca">
+        <description>Created after removal of "Fehlgeschlagener Login" from AdLerDokumentation</description>
+        <accepts>EZZ0005.html</accepts>
+    </rule>
+    <rule id="3d49abe">
+        <description>Created after removal of "Abgebrochener Login" from AdLerDokumentation</description>
+        <accepts>EZZ0004.html</accepts>
+    </rule>
+    <rule id="669d36d7">
+        <description>Created after removal of "Erfolgreicher Login" from AdLerDokumentation</description>
+        <accepts>EZZ0003.html</accepts>
+    </rule>
+    <rule id="56e4b20b">
+        <description>Created after removal of "Lernenden einloggen" from AdLerDokumentation</description>
+        <accepts>EZZ0001.html</accepts>
+    </rule>
+    <rule id="1d2e9837">
+        <description>Created after removal of "Lernenden ausloggen" from AdLerDokumentation</description>
+        <accepts>EZZ0002.html</accepts>
+    </rule>
+    <rule id="708b74ab">
+        <description>Created after removal of "Applikationsspezifische Anforderungen" from AdLerDokumentation
+        </description>
+        <accepts>Applikationsspezifische-Anforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="48e1fcca">
+        <description>Created after removal of "Charakter" from AdLerDokumentation</description>
+        <accepts>Charakter-Engine.html</accepts>
+    </rule>
+    <rule id="354e3f11">
+        <description>Created after removal of "Charakteranimationen anzeigen" from AdLerDokumentation</description>
+        <accepts>EZZ0018.html</accepts>
+    </rule>
+    <rule id="214ef4a2">
+        <description>Created after removal of "Charakterbewegung nach Timeout abbrechen" from AdLerDokumentation
+        </description>
+        <accepts>EZZ0019.html</accepts>
+    </rule>
+    <rule id="1326b6f5">
+        <description>Created after removal of "Pausenhinweise" from AdLerDokumentation</description>
+        <accepts>Pausenhinweise.html</accepts>
+    </rule>
+    <rule id="7f76bd13">
+        <description>Created after removal of "Pausenhinweis anzeigen" from AdLerDokumentation</description>
+        <accepts>EKJ0001.html</accepts>
+    </rule>
+    <rule id="4fa5532d">
+        <description>Created after removal of "Pausenempfehlung anzeigen" from AdLerDokumentation</description>
+        <accepts>EKJ0002.html</accepts>
+    </rule>
+    <rule id="122e0c8f">
+        <description>Created after removal of "Pausenempfehlung umblättern" from AdLerDokumentation</description>
+        <accepts>EKJ0003.html</accepts>
+    </rule>
+    <rule id="458cc8c4">
+        <description>Created after removal of "Pausenhinweis schließen" from AdLerDokumentation</description>
+        <accepts>EKJ0005.html</accepts>
+    </rule>
+    <rule id="3ecb87c">
+        <description>Created after removal of "Pausenempfehlung schließen" from AdLerDokumentation</description>
+        <accepts>EKJ0004.html</accepts>
+    </rule>
+    <rule id="576dd259">
+        <description>Created after removal of "Hilfe anzeigen" from AdLerDokumentation</description>
+        <accepts>ELG0012.html</accepts>
+    </rule>
+    <rule id="1d4e09f0">
+        <description>Created after removal of "Bug-Report erstellen" from AdLerDokumentation</description>
+        <accepts>ELG0015.html</accepts>
+    </rule>
+    <rule id="53d53dc">
+        <description>Created after removal of "Nutzerdoku auffinden" from AdLerDokumentation</description>
+        <accepts>ELG0014.html</accepts>
+    </rule>
+    <rule id="1a6ec11e">
+        <description>Created after removal of "Log-Export erstellen" from AdLerDokumentation</description>
+        <accepts>ELG0013.html</accepts>
+    </rule>
+    <rule id="2d277d55">
+        <description>Created after removal of "Internetverlust anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0022.html</accepts>
+    </rule>
+    <rule id="2dbd6e87">
+        <description>Created after removal of "Ladebildschirm anzeigen" from AdLerDokumentation</description>
+        <accepts>EWE0023.html</accepts>
+    </rule>
+    <rule id="1af97f8c">
+        <description>Created after removal of "Lernraumverfügbarkeit prüfen" from AdLerDokumentation</description>
+        <accepts>ELG0011.html</accepts>
+    </rule>
+    <rule id="61ee5052">
+        <description>Created after removal of "Lernweltverfügbarkeit prüfen" from AdLerDokumentation</description>
+        <accepts>ELG0010.html</accepts>
+    </rule>
+    <rule id="2b9028d7">
+        <description>Created after removal of "Lernraumaufenthalt prüfen" from AdLerDokumentation</description>
+        <accepts>EZZ0013.html</accepts>
+    </rule>
+    <rule id="384d6ed7">
+        <description>Created after removal of "Lernweltaufenthalt prüfen" from AdLerDokumentation</description>
+        <accepts>ELG0009.html</accepts>
+    </rule>
+    <rule id="580e02de">
+        <description>Created after removal of "Anmeldestatus prüfen" from AdLerDokumentation</description>
+        <accepts>EWE0021.html</accepts>
+    </rule>
+    <rule id="360495be">
+        <description>Created after removal of "Vorangegangene und nachfolgende Lernräume ermitteln" from
+            AdLerDokumentation
+        </description>
+        <accepts>EWE0029.html</accepts>
+    </rule>
+    <rule id="58d3a30">
+        <description>Created after removal of "Engine Prozesse" from AdLerDokumentation</description>
+        <accepts>Prozesse.html</accepts>
+    </rule>
+    <rule id="6f133578">
+        <description>Created after removal of "Nicht funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Nicht-funktionale-Anforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="4d072d39">
+        <description>Created after removal of "Technologische Anforderungen" from AdLerDokumentation</description>
+        <accepts>Technologische-Anforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="7027abe5">
+        <description>Created after removal of "Unterstützte Geräte" from AdLerDokumentation</description>
+        <accepts>Unterstützte-Geräte-Engine.html</accepts>
+    </rule>
+    <rule id="544da0">
+        <description>Created after removal of "Qualitätsanforderungen" from AdLerDokumentation</description>
+        <accepts>Qualitaetsanforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="6fe1055e">
+        <description>Created after removal of "Performance 3D" from AdLerDokumentation</description>
+        <accepts>Performance-3D-Engine.html</accepts>
+    </rule>
+    <rule id="38339a55">
+        <description>Created after removal of "Benutzeroberfläche" from AdLerDokumentation</description>
+        <accepts>Benutzeroberflaeche-Engine.html</accepts>
+    </rule>
+    <rule id="fcd4969">
+        <description>Created after removal of "Bedienung" from AdLerDokumentation</description>
+        <accepts>Bedienung-Engine.html</accepts>
+    </rule>
+    <rule id="5dd5c6dd">
+        <description>Created after removal of "Style" from AdLerDokumentation</description>
+        <accepts>Style-Engine.html</accepts>
+    </rule>
+    <rule id="2de74144">
+        <description>Created after removal of "Rechtlich-Vertragliche Anforderungen" from AdLerDokumentation
+        </description>
+        <accepts>Rechtlich-Vertragliche-Anforderungen-Engine.html</accepts>
+    </rule>
+    <rule id="50db1110">
+        <description>Created after removal of "Datenschutz" from AdLerDokumentation</description>
+        <accepts>Datenschutz-Engine.html</accepts>
+    </rule>
+    <rule id="76893550">
+        <description>Created after removal of "Sonstige-Lieferbestandteile-Engine" from AdLerDokumentation</description>
+        <accepts>Sonstige-Lieferbestandteile-Engine.html</accepts>
+    </rule>
+    <rule id="2d04a1e8">
+        <description>Created after removal of "Entwicklerdokumentation" from AdLerDokumentation</description>
+        <accepts>Entwicklerdokumentation-Engine.html</accepts>
+    </rule>
+    <rule id="caef0ef">
+        <description>Created after removal of "Benutzerdokumentation" from AdLerDokumentation</description>
+        <accepts>Benutzerdokumentation-Engine.html</accepts>
+    </rule>
+    <rule id="1c0da506">
+        <description>Created after removal of "Tutorials" from AdLerDokumentation</description>
+        <accepts>Tutorials-Engine.html</accepts>
+    </rule>
+    <rule id="1220acb5">
+        <description>Created after removal of "Design" from AdLerDokumentation</description>
+        <accepts>Design-Engine.html</accepts>
+    </rule>
+    <rule id="2efb7365">
+        <description>Created after removal of "Bedienkonzept" from AdLerDokumentation</description>
+        <accepts>Bedienkonzept-Engine.html</accepts>
+    </rule>
+    <rule id="1ded9d73">
+        <description>Created after removal of "Styleguide 2D" from AdLerDokumentation</description>
+        <accepts>Styleguide-2D-Engine.html</accepts>
+    </rule>
+    <rule id="60b92b15">
+        <description>Created after removal of "Styleguide 3D" from AdLerDokumentation</description>
+        <accepts>Styleguide-3D-Engine.html</accepts>
+    </rule>
+    <rule id="110aebdf">
+        <description>Created after removal of "Software Design" from AdLerDokumentation</description>
+        <accepts>Software-Design-Engine.html</accepts>
+    </rule>
+    <rule id="5d8793d">
+        <description>Created after removal of "MVC Muster" from AdLerDokumentation</description>
+        <accepts>MVC-Muster-Engine.html</accepts>
+    </rule>
+    <rule id="57118aa8">
+        <description>Created after removal of "Use Cases" from AdLerDokumentation</description>
+        <accepts>Use-Cases-Engine.html</accepts>
+    </rule>
+    <rule id="5b2d1383">
+        <description>Created after removal of "Ports" from AdLerDokumentation</description>
+        <accepts>Ports-Engine.html</accepts>
+    </rule>
+    <rule id="c52cfce">
+        <description>Created after removal of "Babylon.js" from AdLerDokumentation</description>
+        <accepts>Babylon-js-Engine.html</accepts>
+    </rule>
+    <rule id="74618b9f">
+        <description>Created after removal of "React" from AdLerDokumentation</description>
+        <accepts>React-Engine.html</accepts>
+    </rule>
+    <rule id="7cf2d782">
+        <description>Created after removal of "glTF Dateiformat" from AdLerDokumentation</description>
+        <accepts>glTF-3D-Format.html</accepts>
+    </rule>
+    <rule id="46d4fd42">
+        <description>Created after removal of "Software Architektur" from AdLerDokumentation</description>
+        <accepts>Software-Architektur-Engine.html</accepts>
+    </rule>
+    <rule id="3858405e">
+        <description>Created after removal of "Gesamtarchitektur" from AdLerDokumentation</description>
+        <accepts>Gesamtarchitektur-Engine.html</accepts>
+    </rule>
+    <rule id="262f7944">
+        <description>Created after removal of "Schnittstellen" from AdLerDokumentation</description>
+        <accepts>Schnittstellen-Engine.html</accepts>
+    </rule>
+    <rule id="6675384d">
+        <description>Created after removal of "SBOM" from AdLerDokumentation</description>
+        <accepts>SBOM-Engine.html</accepts>
+    </rule>
+    <rule id="1296b38d">
+        <description>Created after removal of "Backend" from AdLerDokumentation</description>
+        <accepts>Backend-BG.html</accepts>
+    </rule>
+    <rule id="8a4855c">
+        <description>Created after removal of "Auflistungen der Anforderungen" from AdLerDokumentation</description>
+        <accepts>Auflistung-der-Anforderungen-Backend.html</accepts>
+    </rule>
+    <rule id="e14bfc">
+        <description>Created after removal of "Funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Funktionale-Anforderungen-Backend.html</accepts>
+    </rule>
+    <rule id="14706dbe">
+        <description>Created after removal of "H5P" from AdLerDokumentation</description>
+        <accepts>H5P.html</accepts>
+    </rule>
+    <rule id="272177a8">
+        <description>Created after removal of "H5P herunterladen" from AdLerDokumentation</description>
+        <accepts>BPG21.html</accepts>
+    </rule>
+    <rule id="4bd54a90">
+        <description>Created after removal of "H5P abspeichern" from AdLerDokumentation</description>
+        <accepts>BPG20.html</accepts>
+    </rule>
+    <rule id="280ab72b">
+        <description>Created after removal of "LMS" from AdLerDokumentation</description>
+        <accepts>LMS.html</accepts>
+    </rule>
+    <rule id="5b65bbf1">
+        <description>Created after removal of "Beim LMS autentifizieren" from AdLerDokumentation</description>
+        <accepts>BPG19.html</accepts>
+    </rule>
+    <rule id="5d272293">
+        <description>Created after removal of "Funktionen auf einem LMS ausführen" from AdLerDokumentation</description>
+        <accepts>BPG18.html</accepts>
+    </rule>
+    <rule id="2f44f47c">
+        <description>Created after removal of "Adaptivitätselement" from AdLerDokumentation</description>
+        <accepts>AdaptivitätselementB.html</accepts>
+    </rule>
+    <rule id="5e0f2687">
+        <description>Created after removal of "Adaptivitätselement ausgeben" from AdLerDokumentation</description>
+        <accepts>BPG15.html</accepts>
+    </rule>
+    <rule id="197bca65">
+        <description>Created after removal of "Adaptivitätselement beantworten" from AdLerDokumentation</description>
+        <accepts>BPG14.html</accepts>
+    </rule>
+    <rule id="49e0b72c">
+        <description>Created after removal of "Lernelemente" from AdLerDokumentation</description>
+        <accepts>LernelementeB.html</accepts>
+    </rule>
+    <rule id="4decf453">
+        <description>Created after removal of "Dateiquelle eines Lernelements ausgeben" from AdLerDokumentation
+        </description>
+        <accepts>BPG17.html</accepts>
+    </rule>
+    <rule id="1eb40caf">
+        <description>Created after removal of "Lernelement Bewertungsstatus ausgeben" from AdLerDokumentation
+        </description>
+        <accepts>BPG16.html</accepts>
+    </rule>
+    <rule id="12649c91">
+        <description>Created after removal of "Lernelemente auswerten" from AdLerDokumentation</description>
+        <accepts>BPG13.html</accepts>
+    </rule>
+    <rule id="7f5246e8">
+        <description>Created after removal of "Lernende" from AdLerDokumentation</description>
+        <accepts>BPGLernende.html</accepts>
+    </rule>
+    <rule id="75516124">
+        <description>Created after removal of "Spielerdaten erstellen" from AdLerDokumentation</description>
+        <accepts>BPG22.html</accepts>
+    </rule>
+    <rule id="61c0ee5d">
+        <description>Created after removal of "Eigenschaften Spielerdaten" from AdLerDokumentation</description>
+        <accepts>Spielerdaten-Eigenschaften-Backend.html</accepts>
+    </rule>
+    <rule id="59d460e2">
+        <description>Created after removal of "Spielerdaten löschen" from AdLerDokumentation</description>
+        <accepts>BPG10.html</accepts>
+    </rule>
+    <rule id="ee42fa2">
+        <description>Created after removal of "Spielerdaten erlangen" from AdLerDokumentation</description>
+        <accepts>BPG9.html</accepts>
+    </rule>
+    <rule id="52d37e2b">
+        <description>Created after removal of "Spielerdaten aktualisieren" from AdLerDokumentation</description>
+        <accepts>BPG8.html</accepts>
+    </rule>
+    <rule id="8d85616">
+        <description>Created after removal of "Nutzer" from AdLerDokumentation</description>
+        <accepts>Nutzer.html</accepts>
+    </rule>
+    <rule id="339d4e4d">
+        <description>Created after removal of "Login" from AdLerDokumentation</description>
+        <accepts>BPG7.html</accepts>
+    </rule>
+    <rule id="48dac4da">
+        <description>Created after removal of "Nutzerdaten ausgeben" from AdLerDokumentation</description>
+        <accepts>BPG6.html</accepts>
+    </rule>
+    <rule id="5b2de76d">
+        <description>Created after removal of "Lernwelt" from AdLerDokumentation</description>
+        <accepts>Lernwelt-Backend.html</accepts>
+    </rule>
+    <rule id="784fa813">
+        <description>Created after removal of "Lernende" from AdLerDokumentation</description>
+        <accepts>Lernende.html</accepts>
+    </rule>
+    <rule id="6514b615">
+        <description>Created after removal of "Status aller Elemente in der Lernwelt" from AdLerDokumentation
+        </description>
+        <accepts>BPG11.html</accepts>
+    </rule>
+    <rule id="574cb718">
+        <description>Created after removal of "Eingeschriebene Lernwelten ausgeben" from AdLerDokumentation
+        </description>
+        <accepts>BPG5.html</accepts>
+    </rule>
+    <rule id="3f463dd6">
+        <description>Created after removal of "Lehrende" from AdLerDokumentation</description>
+        <accepts>Lehrende.html</accepts>
+    </rule>
+    <rule id="63aff0cf">
+        <description>Created after removal of "Lernwelt löschen" from AdLerDokumentation</description>
+        <accepts>BPG2.html</accepts>
+    </rule>
+    <rule id="302079a4">
+        <description>Created after removal of "Lernwelt hochladen" from AdLerDokumentation</description>
+        <accepts>BPG1.html</accepts>
+    </rule>
+    <rule id="246ba154">
+        <description>Created after removal of "Erstellte Lernwelten anzeigen" from AdLerDokumentation</description>
+        <accepts>BPG3.html</accepts>
+    </rule>
+    <rule id="753def6">
+        <description>Created after removal of "Vorhandene Lernwelten ausgeben" from AdLerDokumentation</description>
+        <accepts>BPG4.html</accepts>
+    </rule>
+    <rule id="fe60be0">
+        <description>Created after removal of "Nicht funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Nicht-funktionale-Anforderungen-Backend.html</accepts>
+    </rule>
+    <rule id="10c24f6a">
+        <description>Created after removal of "SBOM" from AdLerDokumentation</description>
+        <accepts>SBOM-Backend.html</accepts>
+    </rule>
+    <rule id="68af5bd2">
+        <description>Created after removal of "Schnittstellen" from AdLerDokumentation</description>
+        <accepts>Schnittstellen-Backend.html</accepts>
+    </rule>
+    <rule id="78dd4aff">
+        <description>Created after removal of "Software Architektur" from AdLerDokumentation</description>
+        <accepts>Software-Architektur-Backend.html</accepts>
+    </rule>
+    <rule id="60a06187">
+        <description>Created after removal of "Software Design" from AdLerDokumentation</description>
+        <accepts>Software-Design-Backend.html</accepts>
+    </rule>
+    <rule id="55745247">
+        <description>Created after removal of "Plugin" from AdLerDokumentation</description>
+        <accepts>Plugin-BG.html</accepts>
+    </rule>
+    <rule id="32c3572c">
+        <description>Created after removal of "Funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Funktionale-Anforderungen-Plugin.html</accepts>
+    </rule>
+    <rule id="141aa917">
+        <description>Created after removal of "Nicht funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Nicht-funktionale-Anforderungen-Plugin.html</accepts>
+    </rule>
+    <rule id="42000983">
+        <description>Created after removal of "SBOM" from AdLerDokumentation</description>
+        <accepts>SBOM-Plugin.html</accepts>
+    </rule>
+    <rule id="5f4c6236">
+        <description>Created after removal of "Schnittstellen" from AdLerDokumentation</description>
+        <accepts>Schnittstellen-Plugin.html</accepts>
+    </rule>
+    <rule id="58ea7b36">
+        <description>Created after removal of "Software Architektur" from AdLerDokumentation</description>
+        <accepts>Software-Architektur-Plugin.html</accepts>
+    </rule>
+    <rule id="11cc1c3a">
+        <description>Created after removal of "Software Design" from AdLerDokumentation</description>
+        <accepts>Software-Design-Plugin.html</accepts>
+    </rule>
+    <rule id="48906954">
+        <description>Created after removal of "Templates" from AdLerDokumentation</description>
+        <accepts>Templates.html</accepts>
+    </rule>
+    <rule id="5d6287a3">
+        <description>Created after removal of "Benutzerdoku" from AdLerDokumentation</description>
+        <accepts>Templates-Benutzerdoku.html</accepts>
+    </rule>
+    <rule id="4e89007d">
+        <description>Created after removal of "Template Leistungsbeschreibung" from AdLerDokumentation</description>
+        <accepts>Benutzerdoku-Template-Leistungsbeschreibung.html</accepts>
+    </rule>
+    <rule id="1f998392">
+        <description>Created after removal of "Template Produktbeschreibung" from AdLerDokumentation</description>
+        <accepts>Benutzerdoku-Template-Produkbeschreibung.html</accepts>
+    </rule>
+    <rule id="702ab2ce">
+        <description>Created after removal of "Template Handlungsanweisung" from AdLerDokumentation</description>
+        <accepts>Benutzerdoku-Template-Handlungsanweisung.html</accepts>
+    </rule>
+    <rule id="7619e81d">
+        <description>Created after removal of "Glossar" from AdLerDokumentation</description>
+        <accepts>Glossar-Templates.html</accepts>
+    </rule>
+    <rule id="5f55c64d">
+        <description>Created after removal of "Glossareintrag" from AdLerDokumentation</description>
+        <accepts>Glossareintrag-Template.html</accepts>
+    </rule>
+    <rule id="3cd44f39">
+        <description>Created after removal of "Spezifikation" from AdLerDokumentation</description>
+        <accepts>Spezifikation-Templates.html</accepts>
+    </rule>
+    <rule id="3649b579">
+        <description>Created after removal of "Autorentool" from AdLerDokumentation</description>
+        <accepts>Autorentool-Templates.html</accepts>
+    </rule>
+    <rule id="68c564d6">
+        <description>Created after removal of "Funktionale Anforderung Autorentool" from AdLerDokumentation
+        </description>
+        <accepts>Funktionale-Anforderung-Autorentool.html</accepts>
+    </rule>
+    <rule id="3aebe1cc">
+        <description>Created after removal of "Generator" from AdLerDokumentation</description>
+        <accepts>Generator-Templates.html</accepts>
+    </rule>
+    <rule id="190d8644">
+        <description>Created after removal of "Funktionale Anforderung Generator" from AdLerDokumentation</description>
+        <accepts>Funktionale-Anforderung-Generator.html</accepts>
+    </rule>
+    <rule id="5df146d6">
+        <description>Created after removal of "Engine" from AdLerDokumentation</description>
+        <accepts>Engine-Templates.html</accepts>
+    </rule>
+    <rule id="76339e41">
+        <description>Created after removal of "Funktionale Anforderung Engine" from AdLerDokumentation</description>
+        <accepts>Funktionale-Anforderung-Engine.html</accepts>
+    </rule>
+    <rule id="59ec2ff9">
+        <description>Created after removal of "Backend" from AdLerDokumentation</description>
+        <accepts>Backend-Templates.html</accepts>
+    </rule>
+    <rule id="52c5d90f">
+        <description>Created after removal of "Funktionale Anforderung Backend" from AdLerDokumentation</description>
+        <accepts>Funktionale-Anforderung-Backend.html</accepts>
+    </rule>
+    <rule id="71c95649">
+        <description>Created after removal of "Plugin" from AdLerDokumentation</description>
+        <accepts>Plugin-Templates.html</accepts>
+    </rule>
+    <rule id="ca480c1">
+        <description>Created after removal of "Funktionale Anforderung Plugin" from AdLerDokumentation</description>
+        <accepts>Funktionale-Anforderung-Plugin.html</accepts>
+    </rule>
+    <rule id="4d7d5485">
+        <description>Created after removal of "Benutzerdokumentation" from AdLerDokumentation</description>
+        <accepts>Benutzerdokumentation-Templates.html</accepts>
+    </rule>
+    <rule id="2b4ac630">
+        <description>Created after removal of "Spezifikation" from AdLerDokumentation</description>
+        <accepts>Spezifikation.html</accepts>
+    </rule>
+    <rule id="493cbe49">
+        <description>Created after removal of "Beispielanwendungen" from AdLerDokumentation</description>
+        <accepts>Beispielanwendungen.html</accepts>
+    </rule>
+    <rule id="b750a">
+        <description>Created after removal of "A" from AdLerDokumentation</description>
+        <accepts>A.html</accepts>
+    </rule>
+    <rule id="791b365">
+        <description>Created after removal of "Adaptivitätsaufgabe" from AdLerDokumentation</description>
+        <accepts>Adaptivitätsaufgabe-GE.html</accepts>
+    </rule>
+    <rule id="7c31dd66">
+        <description>Created after removal of "Adaptivitätselement" from AdLerDokumentation</description>
+        <accepts>Adaptivitätselement-GE.html</accepts>
+    </rule>
+    <rule id="36ce40d">
+        <description>Created after removal of "Adaptivitätsfrage" from AdLerDokumentation</description>
+        <accepts>Adaptivitätsfrage-GE.html</accepts>
+    </rule>
+    <rule id="38c3ce67">
+        <description>Created after removal of "Adaptivitätshinweis" from AdLerDokumentation</description>
+        <accepts>Adaptivitätshinweis-GE.html</accepts>
+    </rule>
+    <rule id="427bddb4">
+        <description>Created after removal of "AdLer-Projekt" from AdLerDokumentation</description>
+        <accepts>AdLer-Projekt-GE.html</accepts>
+    </rule>
+    <rule id="1d71abfc">
+        <description>Created after removal of "AdLer-System" from AdLerDokumentation</description>
+        <accepts>AdLer-System-GE.html</accepts>
+    </rule>
+    <rule id="59c9cc6e">
+        <description>Created after removal of "Administrierende" from AdLerDokumentation</description>
+        <accepts>Administrierende-GE.html</accepts>
+    </rule>
+    <rule id="3a78ed37">
+        <description>Created after removal of "Adler Transfer File (ATF)" from AdLerDokumentation</description>
+        <accepts>ATF-GE.html</accepts>
+    </rule>
+    <rule id="d4aa848">
+        <description>Created after removal of "Autorentool" from AdLerDokumentation</description>
+        <accepts>Autorentool-GE.html</accepts>
+    </rule>
+    <rule id="50340a7c">
+        <description>Created after removal of "Avatar" from AdLerDokumentation</description>
+        <accepts>Avatar-GE.html</accepts>
+    </rule>
+    <rule id="555bf3ce">
+        <description>Created after removal of "B" from AdLerDokumentation</description>
+        <accepts>B.html</accepts>
+    </rule>
+    <rule id="1ecf74ea">
+        <description>Created after removal of "Backend" from AdLerDokumentation</description>
+        <accepts>Backend-GE.html</accepts>
+    </rule>
+    <rule id="5845da2">
+        <description>Created after removal of "Benutzerdokumentation" from AdLerDokumentation</description>
+        <accepts>Benutzerdokumentation-GE.html</accepts>
+    </rule>
+    <rule id="377af62b">
+        <description>Created after removal of "Betrachtungsgegenstand" from AdLerDokumentation</description>
+        <accepts>Betrachtungsgegenstand-GE.html</accepts>
+    </rule>
+    <rule id="2048de10">
+        <description>Created after removal of "C" from AdLerDokumentation</description>
+        <accepts>C.html</accepts>
+    </rule>
+    <rule id="1c8f99d9">
+        <description>Created after removal of "CRUDSP" from AdLerDokumentation</description>
+        <accepts>CRUDSP-GE.html</accepts>
+    </rule>
+    <rule id="37328697">
+        <description>Created after removal of "Cutscene" from AdLerDokumentation</description>
+        <accepts>Cutscene-GE.html</accepts>
+    </rule>
+    <rule id="2c6fca0c">
+        <description>Created after removal of "D" from AdLerDokumentation</description>
+        <accepts>D.html</accepts>
+    </rule>
+    <rule id="5cc06438">
+        <description>Created after removal of "Datenbank" from AdLerDokumentation</description>
+        <accepts>Datenbank.html</accepts>
+    </rule>
+    <rule id="7859abde">
+        <description>Created after removal of "Dokumentation" from AdLerDokumentation</description>
+        <accepts>Dokumentation-GE.html</accepts>
+    </rule>
+    <rule id="26d50941">
+        <description>Created after removal of "E" from AdLerDokumentation</description>
+        <accepts>E.html</accepts>
+    </rule>
+    <rule id="537452c6">
+        <description>Created after removal of "Endanwender" from AdLerDokumentation</description>
+        <accepts>Endanwender-GE.html</accepts>
+    </rule>
+    <rule id="52d91a9e">
+        <description>Created after removal of "Engine" from AdLerDokumentation</description>
+        <accepts>Engine-GE.html</accepts>
+    </rule>
+    <rule id="27daadeb">
+        <description>Created after removal of "Entwickelnde" from AdLerDokumentation</description>
+        <accepts>Entwickelnde-GE.html</accepts>
+    </rule>
+    <rule id="5502d9ba">
+        <description>Created after removal of "F" from AdLerDokumentation</description>
+        <accepts>F.html</accepts>
+    </rule>
+    <rule id="6b62fd8e">
+        <description>Created after removal of "G" from AdLerDokumentation</description>
+        <accepts>G.html</accepts>
+    </rule>
+    <rule id="1e288dc">
+        <description>Created after removal of "Generator" from AdLerDokumentation</description>
+        <accepts>Generator-GE.html</accepts>
+    </rule>
+    <rule id="305a0e01">
+        <description>Created after removal of "H" from AdLerDokumentation</description>
+        <accepts>H.html</accepts>
+    </rule>
+    <rule id="852df8d">
+        <description>Created after removal of "H5P" from AdLerDokumentation</description>
+        <accepts>H5P-GE.html</accepts>
+    </rule>
+    <rule id="9d218b9">
+        <description>Created after removal of "I" from AdLerDokumentation</description>
+        <accepts>I.html</accepts>
+    </rule>
+    <rule id="7a45ddaf">
+        <description>Created after removal of "Installationsanleitung" from AdLerDokumentation</description>
+        <accepts>Installationsanleitung-GE.html</accepts>
+    </rule>
+    <rule id="366e02d5">
+        <description>Created after removal of "J" from AdLerDokumentation</description>
+        <accepts>J.html</accepts>
+    </rule>
+    <rule id="3d2c15d5">
+        <description>Created after removal of "K" from AdLerDokumentation</description>
+        <accepts>K.html</accepts>
+    </rule>
+    <rule id="6e500705">
+        <description>Created after removal of "L" from AdLerDokumentation</description>
+        <accepts>L.html</accepts>
+    </rule>
+    <rule id="e9b6730">
+        <description>Created after removal of "Lernmaterial" from AdLerDokumentation</description>
+        <accepts>Lernmaterial-GE.html</accepts>
+    </rule>
+    <rule id="253d6b37">
+        <description>Created after removal of "Lernelement" from AdLerDokumentation</description>
+        <accepts>Lernelement-GE.html</accepts>
+    </rule>
+    <rule id="191e157">
+        <description>Created after removal of "Lernelement Slot" from AdLerDokumentation</description>
+        <accepts>Lernelement-Slot-GE.html</accepts>
+    </rule>
+    <rule id="71b8c9c3">
+        <description>Created after removal of "Lernwelt" from AdLerDokumentation</description>
+        <accepts>Lernwelt-GE.html</accepts>
+    </rule>
+    <rule id="62728f69">
+        <description>Created after removal of "Lernraum" from AdLerDokumentation</description>
+        <accepts>Lernraum-GE.html</accepts>
+    </rule>
+    <rule id="5ea61461">
+        <description>Created after removal of "Lernraum Template" from AdLerDokumentation</description>
+        <accepts>Lernraum-Template-GE.html</accepts>
+    </rule>
+    <rule id="37a5a42e">
+        <description>Created after removal of "Learning Management System" from AdLerDokumentation</description>
+        <accepts>Learning-Management-System-GE.html</accepts>
+    </rule>
+    <rule id="37a990e0">
+        <description>Created after removal of "Lehrende" from AdLerDokumentation</description>
+        <accepts>Lehrende-GE.html</accepts>
+    </rule>
+    <rule id="6d89942b">
+        <description>Created after removal of "Lernende" from AdLerDokumentation</description>
+        <accepts>Lernende-GE.html</accepts>
+    </rule>
+    <rule id="2d63544f">
+        <description>Created after removal of "M" from AdLerDokumentation</description>
+        <accepts>M.html</accepts>
+    </rule>
+    <rule id="7cd07c0c">
+        <description>Created after removal of "MBZ" from AdLerDokumentation</description>
+        <accepts>MBZ-GE.html</accepts>
+    </rule>
+    <rule id="178731f">
+        <description>Created after removal of "N" from AdLerDokumentation</description>
+        <accepts>N.html</accepts>
+    </rule>
+    <rule id="5119634b">
+        <description>Created after removal of "NavMesh" from AdLerDokumentation</description>
+        <accepts>NavMesh-GE.html</accepts>
+    </rule>
+    <rule id="718da033">
+        <description>Created after removal of "Nutzer" from AdLerDokumentation</description>
+        <accepts>Nutzer-GE.html</accepts>
+    </rule>
+    <rule id="568ae581">
+        <description>Created after removal of "Nicht-Primitives Lernelement" from AdLerDokumentation</description>
+        <accepts>Nicht-Primitives-Lernelement-GE.html</accepts>
+    </rule>
+    <rule id="27601a01">
+        <description>Created after removal of "Nicht-Spieler Charakter" from AdLerDokumentation</description>
+        <accepts>NPC-GE.html</accepts>
+    </rule>
+    <rule id="56c2a4e1">
+        <description>Created after removal of "O" from AdLerDokumentation</description>
+        <accepts>O.html</accepts>
+    </rule>
+    <rule id="8da1e95">
+        <description>Created after removal of "P" from AdLerDokumentation</description>
+        <accepts>P.html</accepts>
+    </rule>
+    <rule id="7d1b179c">
+        <description>Created after removal of "Primitives Lernelement" from AdLerDokumentation</description>
+        <accepts>Primitives-Lernelement-GE.html</accepts>
+    </rule>
+    <rule id="b3ff252">
+        <description>Created after removal of "Pausenhinweis" from AdLerDokumentation</description>
+        <accepts>Pausenhinweis-GE.html</accepts>
+    </rule>
+    <rule id="6e660412">
+        <description>Created after removal of "Pausenempfehlung" from AdLerDokumentation</description>
+        <accepts>Pausenempfehlung-GE.html</accepts>
+    </rule>
+    <rule id="15f711e1">
+        <description>Created after removal of "Q" from AdLerDokumentation</description>
+        <accepts>Q.html</accepts>
+    </rule>
+    <rule id="42122fca">
+        <description>Created after removal of "R" from AdLerDokumentation</description>
+        <accepts>R.html</accepts>
+    </rule>
+    <rule id="5845e332">
+        <description>Created after removal of "REST" from AdLerDokumentation</description>
+        <accepts>REST.html</accepts>
+    </rule>
+    <rule id="397e7695">
+        <description>Created after removal of "S" from AdLerDokumentation</description>
+        <accepts>S.html</accepts>
+    </rule>
+    <rule id="6cc2a8e9">
+        <description>Created after removal of "Storyelement" from AdLerDokumentation</description>
+        <accepts>Storyelement-GE.html</accepts>
+    </rule>
+    <rule id="55f945ca">
+        <description>Created after removal of "Spezifikation" from AdLerDokumentation</description>
+        <accepts>Spezifikation-GE.html</accepts>
+    </rule>
+    <rule id="65d6d145">
+        <description>Created after removal of "T" from AdLerDokumentation</description>
+        <accepts>T.html</accepts>
+    </rule>
+    <rule id="446509b0">
+        <description>Created after removal of "Tür" from AdLerDokumentation</description>
+        <accepts>Tür.html</accepts>
+    </rule>
+    <rule id="a32f297">
+        <description>Created after removal of "Theme" from AdLerDokumentation</description>
+        <accepts>Theme-GE.html</accepts>
+    </rule>
+    <rule id="58b32376">
+        <description>Created after removal of "Technische Dokumentation" from AdLerDokumentation</description>
+        <accepts>Technische-Dokumentation-GE.html</accepts>
+    </rule>
+    <rule id="6a63247a">
+        <description>Created after removal of "Testdokumentation" from AdLerDokumentation</description>
+        <accepts>Testdokumentation-GE.html</accepts>
+    </rule>
+    <rule id="764fb88c">
+        <description>Created after removal of "U" from AdLerDokumentation</description>
+        <accepts>U.html</accepts>
+    </rule>
+    <rule id="5c90f3">
+        <description>Created after removal of "UserToken" from AdLerDokumentation</description>
+        <accepts>UserToken.html</accepts>
+    </rule>
+    <rule id="63d0d472">
+        <description>Created after removal of "V" from AdLerDokumentation</description>
+        <accepts>V.html</accepts>
+    </rule>
+    <rule id="2d58b400">
+        <description>Created after removal of "W" from AdLerDokumentation</description>
+        <accepts>W.html</accepts>
+    </rule>
+    <rule id="41be2b78">
+        <description>Created after removal of "Wartungsdokumentation" from AdLerDokumentation</description>
+        <accepts>Wartungsdokumentation-GE.html</accepts>
+    </rule>
+    <rule id="54a7b00">
+        <description>Created after removal of "X" from AdLerDokumentation</description>
+        <accepts>X.html</accepts>
+    </rule>
+    <rule id="577d5f85">
+        <description>Created after removal of "Y" from AdLerDokumentation</description>
+        <accepts>Y.html</accepts>
+    </rule>
+    <rule id="74844030">
+        <description>Created after removal of "Z" from AdLerDokumentation</description>
+        <accepts>Z.html</accepts>
+    </rule>
+    <rule id="344a1421">
+        <description>Created after removal of "Glossar" from AdLerDokumentation</description>
+        <accepts>Glossar.html</accepts>
+    </rule>
+    <rule id="61e5fa6c">
+        <description>Created after removal of "Benutzerdokumentation" from AdLerDokumentation</description>
+        <accepts>EntwickelndeBenutzerdokumentation.html</accepts>
+    </rule>
+    <rule id="188d929f">
+        <description>Created after removal of "Benutzerdoku Best Practices" from AdLerDokumentation</description>
+        <accepts>Benutzerdoku-BestPractices.html</accepts>
+    </rule>
+    <rule id="3c458e54">
+        <description>Created after removal of "Inkscape Tutorial Hervorhebungen erstellen" from AdLerDokumentation
+        </description>
+        <accepts>manualInkscapeTutorialHighlighting.html</accepts>
+    </rule>
+    <rule id="afde55">
+        <description>Created after removal of "Requirments-Engineering und Management" from AdLerDokumentation
+        </description>
+        <accepts>Requirments-Engineering-und-Management.html</accepts>
+    </rule>
+    <rule id="41e576c6">
+        <description>Created after removal of "Engine-BestPractices" from AdLerDokumentation</description>
+        <accepts>Engine-BestPractices.html</accepts>
+    </rule>
+    <rule id="68431845">
+        <description>Created after removal of "Requirements-Engineering und Management Leitfaden" from
+            AdLerDokumentation
+        </description>
+        <accepts>Requirements-Engineering-und-Management-Leitfaden.html</accepts>
+    </rule>
+    <rule id="19a388d">
+        <description>Created after removal of "Software Entwicklung" from AdLerDokumentation</description>
+        <accepts>Software-Entwicklung-BD.html</accepts>
+    </rule>
+    <rule id="1cb1d1d3">
+        <description>Created after removal of "Git(hub) Basics und Arbeitsweise" from AdLerDokumentation</description>
+        <accepts>Git-hub-Basics-und-Arbeitsweise.html</accepts>
+    </rule>
+    <rule id="e823ac8">
+        <description>Created after removal of "Writerside HowTo and Best Practice" from AdLerDokumentation</description>
+        <accepts>Writerside-howto-and-best-practice-BD.html</accepts>
+    </rule>
+    <rule id="68df25b1">
+        <description>Created after removal of "Administrierende" from AdLerDokumentation</description>
+        <accepts>Administrierende-BD.html</accepts>
+    </rule>
+    <rule id="6f31e98d">
+        <description>Created after removal of "Entwickelnde" from AdLerDokumentation</description>
+        <accepts>Entwickelnde-BD.html</accepts>
+    </rule>
+    <rule id="3893bad9">
+        <description>Created after removal of "Moodle" from AdLerDokumentation</description>
+        <accepts>ManualMoodle-Moodle.html</accepts>
+    </rule><rule></rule>
+    <rule id="653b2ede">
+        <description>Created after removal of "Nutzung AdLer" from AdLerDokumentation</description>
+        <accepts>Nutzung-AdLer-BD.html</accepts>
+    </rule>
+    <rule id="2475ce1e">
+        <description>Created after removal of "Handreichung Didaktik" from AdLerDokumentation</description>
+        <accepts>Handreichung-Didaktik-BD.html</accepts>
+    </rule>
+    <rule id="e7c2106">
+        <description>Created after removal of "Features auf einen Blick" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringFeatures-auf-einen-Blick.html</accepts>
+    </rule>
 </rules>
