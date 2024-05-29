@@ -450,6 +450,7 @@
                 <toc-element topic="Styleguide-3D-Engine.md"/>
             </toc-element>
             <toc-element topic="Software-Design-Engine.md">
+                <toc-element topic="Observable-Engine.md"/>
                 <toc-element topic="MVC-Muster-Engine.md"/>
                 <toc-element topic="Use-Cases-Engine.md"/>
                 <toc-element topic="Ports-Engine.md"/>
