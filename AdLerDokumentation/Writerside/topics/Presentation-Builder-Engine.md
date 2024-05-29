@@ -22,8 +22,8 @@ Es ist deshalb zu empfehlen, die Komponente ggf. nicht zu rendern, falls sie vom
 ## Presentation Director
 Die Reihenfolge der Instanziierung der MVC-Komponenten durch den Presentation Builder erfolg durch den Presentation Director.
 Der Director führt folgende Anweisungen in fester Reihenfolge aus:
-- setze übergebenen Builder zurück
-- erzeuge ViewModel
-- erzeuge Controller
-- erzeuge View
-- erzeuge Presenter
+1. setze übergebenen Builder zurück 
+2. erzeuge ViewModel 
+3. erzeuge Controller 
+4. erzeuge View 
+5. erzeuge Presenter
