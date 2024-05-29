@@ -12,6 +12,10 @@ Im folgenden Diagramm sind die Schichten mit ihren Namen in der Projektstruktur 
 
 ## Komponenten
 
-<!-- Design Artikel hier verlinken -->
-
 ![imageAdLerEngineComponentDiagram.jpg](imageAdLerEngineComponentDiagram.jpg){width="700"}
+
+<!-- TODO: Software Design Artikel hier verlinken -->
+Für genauere Beschreibungen der Komponenten siehe folgende Topics:
+- [Presentation Adapter im MVC Muster](MVC-Muster-Engine.md)
+- [](Use-Cases-Engine.md)
+- [](Ports-Engine.md)
