@@ -9,7 +9,9 @@
     <toc-element topic="Spezifikation.md">
         <toc-element topic="AdLer-System.md">
             <toc-element topic="Schnittstellen.md">
-                <toc-element topic="AdLer-Transfer-File-ATF.md"/>
+                <toc-element topic="AdLer-Transfer-File-ATF.md">
+                    <toc-element topic="Model-Bezeichnungen-ATF.md"/>
+                </toc-element>
             </toc-element>
             <toc-element topic="Styleguide-AdLer.md"/>
             <toc-element topic="Zweck.md"/>
