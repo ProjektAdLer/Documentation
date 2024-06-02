@@ -14,6 +14,6 @@
 - Die Kamera innerhalb der 3D-Szene muss sich automatisch mit dem Charakter mitbewegen.
 - Die Kamera innerhalb der 3D-Szene muss zoombar sein.
 
-## Anmerkungen:
+## Anmerkungen
 
 - Vergleiche mit [Bedienkonzept](Bedienkonzept-Engine.md)
