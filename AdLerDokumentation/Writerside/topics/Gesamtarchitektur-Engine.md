@@ -16,7 +16,8 @@ Im folgenden Diagramm sind die Schichten mit ihren Namen in der Projektstruktur 
 
 <!-- TODO: Software Design Artikel hier verlinken -->
 Für genauere Beschreibungen der Komponenten siehe folgende Topics:
-- [Presentation Adapter im MVC Muster](MVC-Muster-Engine.md)
 - [](Use-Cases-Engine.md)
 - [](Ports-Engine.md)
-- Wichtige Anzeige/Grafik-Packages in [](Babylon-js-Engine.md) und [](React-Engine.md)
+- [Presentation Adapter im MVC Muster](MVC-Muster-Engine.md)
+- [](Presentation-Builder-Engine.md) der das MVC-Muster aufbaut
+- Wichtige externe Frameworks in [](Babylon-js-Engine.md) und [](React-Engine.md)
