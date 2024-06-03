@@ -16,7 +16,9 @@ Babylon.js ist eine Open-Source JavaScript/TypeScript-Bibliothek. Sie ist unter 
 
 
 ## Eigenschaften
+<!---
 ### Vorteile
+--->
 
 - Vollständiger Szenegraph mit Lichtern, Kameras, Materialien, Meshes, Animationen und Audio
 - Recast.js Integration für Navigation auf NavMesh im 3D-Lernraum 
