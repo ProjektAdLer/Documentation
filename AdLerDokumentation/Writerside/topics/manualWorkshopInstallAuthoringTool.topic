@@ -13,7 +13,9 @@
     <procedure title="Herunterladen des Autorentools">
         <step>
             <p>Öffnen Sie Ihren bevorzugten Browser.</p>
-            <warning>Nutzen Sie <control>nicht</control> den Browser <control>Safari</control> für das Herunterladen des Autorentools. Hierbei schlägt das Herunterladen fehl.</warning>
+            <warning>
+                <p>Nutzen Sie <control>nicht</control> den Browser <control>Safari</control> für das Herunterladen des Autorentools. Die von Safari heruntergeladene Datei ist nicht nutzbar.</p>
+            </warning>
         </step>
         <step>
             <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a>.</p>
