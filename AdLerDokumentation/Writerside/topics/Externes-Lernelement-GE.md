@@ -1,4 +1,4 @@
-# Tür
+# Externes Lernelement
 
 <link-summary rel="summary"/>
 <card-summary rel="summary"/>
@@ -12,21 +12,22 @@
     </tr>
     <tr>
         <td>Begriff</td>
-        <td>Tür</td>
+        <td>Externes Lernelement</td>
     </tr>
     <tr>
         <td>Englischer Begriff</td>
-        <td>Door</td>
+        <td>External learning element</td>
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Eine Tür ist Teil eines <a href="Lernraum-GE.md">Lernraumes</a>.
-        Es existieren in einem Lernraum immer zwei Arten von Türen: Eine Eingangstür, die zu einem oder mehreren vorherigen, und eine Ausgangstür, die zu einem oder mehreren nachfolgenden Lernräumen führt.
+        <td id="summary" >
+            Ein externes Lernelement ist ein <a href="Lernelement-GE.md">Lernelement</a> welches <a href="Lernmaterial-GE.md"></a> beinhaltet und 
+            im Kontext eines <a href="Adaptivitätsaufgabe-GE.md">Adaptivitätselements</a> als <a href="Adaptivitätshinweis-GE.md">Hinweis</a> angezeigt wird.
         </td>
     </tr>  
     <tr>
         <td>Siehe auch</td>
-        <td><a href="Lernraum-GE.md">Lernraum</a></td>
+        <td><a href="Lernelement-GE.md">Lernelement</a>, <a href="Adaptivitätsaufgabe-GE.md">Adaptivitätselements</a>, <a href="Adaptivitätshinweis-GE.md">Hinweis</a></td>
     </tr>
     <tr>
         <td>Akronym</td>
