@@ -6,6 +6,7 @@
                   name="AdLerDokumentation"
                   start-page="Benutzerdokumentation.md">
 
+    <toc-element topic="AdLer-UFF-Workshop.md"/>
     <toc-element topic="manualWorkshop.md">
         <toc-element topic="manualWorkshopInstallAuthoringTool.topic"/>
         <toc-element topic="manualWorkshopPrepareLearningWorld.topic"/>
