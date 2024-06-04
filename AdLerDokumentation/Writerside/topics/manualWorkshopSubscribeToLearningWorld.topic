@@ -28,7 +28,7 @@
             </step>
             <step>
                 <p>Geben Sie im nun erscheinenden Fenster Ihre Anmeldedaten ein.</p>
-                <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops ausgegeben. Sie finden das Schema der Anmeldedaten zusätzlich auf der Workshop Webseite der Projekt AdLer Homepage.</tip>
+                <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops per Privatnachricht zugeschickt. Falls sie Ihre Nutzerdaten verloren haben, können Sie sich gerne per Mail an uns wenden: <a href= "mailto: philipp.geirhos@hs-kempten.de">philipp.geirhos@hs-kempten.de</a></tip>
                 <warning>Ihre Anmeldedaten sind nicht dieselben, die sie im Autorentool genutzt haben um sich zum Hochladen der Lernwelt anzumelden!</warning>
                 <img src="imageManualWorkshopMoodleLoginFormWithData.png" alt="Moodle Login Formular" width="200" thumbnail="true"/>
                 <tip>Die Anmeldedaten im Bild sind nur zu Anschauungszwecken. Geben Sie bitte Ihre eigenen Anmeldedaten ein.</tip>

@@ -18,6 +18,12 @@
                 <p>Sie sollten das Autorentool in der aktuellsten Version auf Ihrem Rechner gestartet haben. Die Versionsnummer finden Sie in der Kopfzeile der Anwendung. Bei Start des Autorentools sehen Sie folgende Anzeige.</p>
                 <img src="imageManualWorkshopDefaultScreenAuthoringTool.png" alt="Standardansicht des Autorentools nach dem Öffnen der Anwendung" width="200" thumbnail="true" />
             </tip>
+            <tip>
+                <p>
+                    Die zu importierende Lernwelt können Sie unter folgendem Link herunterladen:
+                    <a href="https://cloud.projekt-adler.eu/s/zetq497CPCzT2rT"> Lernwelt teilfertig </a>
+                </p>
+            </tip>
             <step>
                 <p>Klicken Sie auf den Button <control>Importieren</control>.</p>
             </step>

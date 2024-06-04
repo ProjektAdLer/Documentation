@@ -21,8 +21,12 @@
                 <img src="imageManualWorkshopHighlightedAdministrationButton.png" alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" />
             </step>
             <step>
-                <p>Tragen Sie im nun geöffneten Anmeldeformular die Login-Daten ein.</p>
-                <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops ausgegeben. Sie finden das Schema der Anmeldedaten zusätzlich auf der Workshop Webseite der Projekt AdLer Homepage.</tip>
+                <p>Tragen Sie im nun geöffneten Anmeldeformular die folgenden Login-Daten ein.</p>
+                <tip>
+                    <p>AdLer API URL*</p><code-block>https://api.projekt-adler.eu/api</code-block>
+                    <p>Benutzername*</p><code-block>UFF_Manager</code-block>
+                    <p>Passwort*</p><code-block>UFF_Manager</code-block>
+                </tip>
                 <img src="imageManualWorkshopLoginToAdLerServerAuthoringTool.png" alt="Anmeldeformular zur Anmeldung auf dem AdLer Server im Autorentool" width="200" thumbnail="true" />
             </step>
             <step>

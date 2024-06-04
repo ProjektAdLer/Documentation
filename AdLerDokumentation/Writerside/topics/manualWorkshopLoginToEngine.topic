@@ -23,7 +23,7 @@
             </step>
             <step>
                 <p>Klicken Sie im nun geöffneten Browserfenster auf das Eingabefeld <control>Nutzername</control> und geben Sie Ihren Nutzernamen ein.</p>
-                <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops ausgegeben. Sie finden das Schema der Anmeldedaten zusätzlich auf der Workshop Webseite der Projekt AdLer Homepage.</tip>
+                <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops per Privatnachricht zugeschickt. Falls sie Ihre Nutzerdaten verloren haben, können Sie sich gerne per Mail an uns wenden: <a href= "mailto: philipp.geirhos@hs-kempten.de">philipp.geirhos@hs-kempten.de</a></tip>
                 <img src="imageManualWorkshopAdlerEngineWelcomePageLoginFormWithArrow.png" alt="Home Screen des AdLer Moodles ohne Login" width="200" thumbnail="true"/>
             </step>
             <step>
