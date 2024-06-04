@@ -66,6 +66,9 @@
             <step>
                 <p>Klicken Sie nun auf <control>In Moodle öffnen</control>.</p>
             </step>
+            <tip>
+                <p>Moodle öffnet sich in einem Browserfenster Ihres Standardbrowsers. Die kann im Hintergrund passieren. Überprüfen Sie ihr Browserfenster, ob sich Moodle geöffnet hat.</p>
+            </tip>
             <note>
                 <control>
                     <p>Sie haben Ihre Lernwelt erfolgreich auf dem AdLer-Server veröffentlicht.</p>

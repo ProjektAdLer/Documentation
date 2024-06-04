@@ -27,7 +27,7 @@
             <procedure title="a. Anpassen der Metadaten des Lernraums" id="anpassenDerMetadatenDesLernraums">
                 <step>
                     <p>Klicken Sie im rechten Bereich des Fensters mit einem Doppelklick auf die Abbildung des Lernraums <control>Moodle und 3D-Lernumgebung</control>.</p>
-                    <img src="imageManualWorkshopHighlight3DRoomPathwayView.png" alt="Hervorhebung des anzuklickenden Lernraums in der Lernpfadansicht" width="200" thumbnail="true" />
+                    <img src="imageManualWorkshopHighlightMoodle3DRoomPathwayView.png" alt="Hervorhebung des anzuklickenden Lernraums in der Lernpfadansicht" width="200" thumbnail="true" />
                     <tip>Lernräume werden im rechten Bereich als Quadrate dargestellt. Wenn Sie mit der Maus über die Lernräume fahren, wird Ihnen der vollständige Name angezeigt.</tip>
                 </step>
                 <step>
@@ -213,7 +213,12 @@
                 <step>
                     <p>Fahren Sie mit der Maus über den grauen Hintergrundbereich der <control>Und-Verbindung</control> und ziehen Sie die <control>Und-Verbindung</control> unter die Lernräume <control>Autorentool</control> und <control>Moodle und 3D-Lernumgebung</control>.</p>
                     <img src="imagesManualWorkshopCorrectLocationAndConnection.png" alt="Position der Und-Verbindung" width="200" thumbnail="true" />
-                    <warning>Die Und-Verbindung lässt sich durch Klicken und Ziehen auf den <control>Umschalter</control> nicht bewegen.</warning>
+                    <warning>
+                        <p>Die Und-Verbindung lässt sich durch Klicken und Ziehen auf den <control>Umschalter</control> nicht bewegen.</p>
+                    </warning>
+                    <warning>
+                        <p>Die <control>Und-Verbindung</control> muss unterhalb der zu verbindenden Räume platziert werden. Die Struktur des Lernpfads würde sonst nicht mehr funktionieren.</p>
+                    </warning>
                 </step>
                 <step>
                     <p>Klicken Sie nun auf den orangefarbenen Button <control>Plus</control> am Lernraum <control>Autorentool</control>, halten Sie die linke Maustaste gedrückt und ziehen Sie den nun erscheinenden Pfeil auf die <control>Und-Verbindung</control>.</p>
@@ -224,7 +229,10 @@
                     </tip>
                 </step>
                 <step>
-                    <p>Wiederholen Sie den Schritt 4 für den Lernraum <control>Moodle und 3D-Lernumgebung</control>.</p>
+                    <p>Wiederholen Sie Schritt 4 für den Lernraum <control>Moodle und 3D-Lernumgebung</control> und verbinden Sie diesen ebenfalls mit der zuvor erstellten <control>Und-Verbindung</control>.</p>
+                    <warning>
+                        <p>Erstellen Sie keine zweite <control>Und-Verbindung</control></p>
+                    </warning>
                     <img src="imageManualWorkshopLearningPathwayCreated.png" alt="Fertig erstellte Verbindungen zu logischen Verknüpfung der Lernräume" width="200" thumbnail="true" />
                 </step>
                 <step>
