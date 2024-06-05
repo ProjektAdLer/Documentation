@@ -7,6 +7,14 @@
                   start-page="Benutzerdokumentation.md">
 
     <toc-element topic="AdLer-UFF-Workshop.md">
+        <toc-element topic="manualWorkshop.md">
+            <toc-element topic="manualWorkshopInstallAuthoringTool.topic"/>
+            <toc-element topic="manualWorkshopPrepareLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopCompleteLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
+            <toc-element topic="manualWorkshopLoginToEngine.topic"/>
+        </toc-element>
         <toc-element topic="Benutzerdokumentation.md">
             <toc-element topic="Lehrende-BD.md">
                 <toc-element topic="ManualAuthoringAdLer-System.topic"/>
@@ -99,14 +107,6 @@
                     </toc-element>
                 </toc-element>
             </toc-element>
-        </toc-element>
-        <toc-element topic="manualWorkshop.md">
-            <toc-element topic="manualWorkshopInstallAuthoringTool.topic"/>
-            <toc-element topic="manualWorkshopPrepareLearningWorld.topic"/>
-            <toc-element topic="manualWorkshopCompleteLearningWorld.topic"/>
-            <toc-element topic="manualWorkshopUploadLearningWorld.topic"/>
-            <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
-            <toc-element topic="manualWorkshopLoginToEngine.topic"/>
         </toc-element>
     </toc-element>
 </instance-profile>
