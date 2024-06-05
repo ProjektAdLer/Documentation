@@ -628,7 +628,7 @@
                     </toc-element>
                     <toc-element topic="ManualAuthoringBedienungArbeitsflaeche.topic">
                         <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebar.topic">
-                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernweltBearbeiten.topic"/>
+                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernweltBearbeiten.topic"/>
                             <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic"/>

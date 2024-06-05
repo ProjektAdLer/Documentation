@@ -48,7 +48,7 @@
                             <p>Tragen Sie eine maximal zu erreichende Punktzahl für diesen Lernraum ein.</p>
                             <img src="imageManualAuthoringLernraumErstellenAbschlussbedingung.png" alt="LernraumAbschlussbedingung" width="200" thumbnail="true"/>
                             <tip>
-                                <p>Im Rahmen der Abschlussbedingung wird definiert, mit welcher maximalen Punktzahl ein Lernraum als erfolgreich abgeschlossen gilt. Die Angabe der maximalen Punktzahl sollte im Nachgang zur Erstellung der im Lernraum platzierten Elemente erfolgen, da sich erst im Anschluss daran die benötigte Punktzahl bestimmen lässt.
+                                <p>Im Rahmen der Abschlussbedingung wird definiert, mit welcher maximalen Punktzahl ein Lernraum als erfolgreich abgeschlossen gilt. Die Angabe der maximalen Punktzahl sollte im Nachgang zur Erstellung der im Lernraum platzierten Elemente erfolgen, da sich erst im Anschluss daran die benötigte Punktzahl bestimmen lässt.</p>
                             </tip>
                         </step>
                     </procedure>
@@ -56,7 +56,7 @@
                 <tab id="grundriss_lernraum" title="Grundriss">
                     <procedure type="choices" id="grundriss_tab_lernraum" title="Grundriss">
                         <warning>
-                            <p>Die Kategorie <control>Grundriss</control> steht ausschließlich im Bearbeitungsmodus (<control><a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"></control>) zur Verfügung, d.h. diese wird erst angezeigt, sobald ein Lernraum erstellt wurde und die Anzeige in den Bearbeitungsmodus wechselt.</p>
+                            <p>Die Kategorie <control>Grundriss</control> steht ausschließlich im Bearbeitungsmodus (<control><a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/></control>) zur Verfügung, d.h. diese wird erst angezeigt, sobald ein Lernraum erstellt wurde und die Anzeige in den Bearbeitungsmodus wechselt.</p>
                         </warning>
                         <tip>
                             <p>Mit dem Grundriss wird die Form des Lernraums und die Anzahl an verfügbaren Slots für das Platzieren von Elementen festgelegt. Der Grundriss mit <control>6</control> verfügbaren Slots ist standardmäßig eingestellt.</p>
