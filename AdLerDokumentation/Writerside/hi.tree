@@ -65,42 +65,6 @@
                             <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeileLoginAufAdLerServer.topic"/>
                         </toc-element>
                     </toc-element>
-                    <toc-element topic="ManualAuthoringBedienung.topic">
-                        <toc-element topic="ManualAuthoringBedienungStartseite.topic">
-                            <toc-element topic="ManualAuthoringBedienungStartseiteLernweltErstellen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungStartseiteLernweltImportieren.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungStartseiteLernweltSortieren.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungStartseiteLernweltLoeschen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen.topic"/>
-                        </toc-element>
-                        <toc-element topic="ManualAuthoringBedienungArbeitsflaeche.topic">
-                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernweltBearbeiten.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumErstellen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumBearbeiten.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumLoeschen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungRechteSidebarLernraeumeVerbinden.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen.topic"/>
-                        </toc-element>
-                        <toc-element topic="ManualAuthoringBedienungKopfzeile.topic">
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileZurStartseiteWechseln.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileLernweltSpeichern.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileLetzteAktionRueckgaengigMachen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileAktionWiederholen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileLernweltArchivieren.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileLernweltVeroeffentlichen.topic"/>
-                            <toc-element
-                                    topic="ManualAuthoringBedienungKopfzeileFeedbackZurBenutzungsoberflaecheGeben.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileFeedbackZumAutorentoolGeben.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileTechnischenFehlerMelden.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileZurAdLerProjektseiteGehen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileMoodleKurseLoeschen.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungKopfzeileAutorentoolSchließen.topic"/>
-                        </toc-element>
-                    </toc-element>
                 </toc-element>
             </toc-element>
             <toc-element topic="Lernende-BD.md">

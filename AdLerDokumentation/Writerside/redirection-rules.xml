@@ -2290,4 +2290,173 @@
         <description>Created after removal of "Features auf einen Blick" from AdLerDokumentation</description>
         <accepts>ManualAuthoringFeatures-auf-einen-Blick.html</accepts>
     </rule>
+    <rule id="5dfecaeb">
+        <description>Created after removal of "Startseite" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringStartseite
+        </description>
+        <accepts>ManualAuthoringBedienungStartseite.html</accepts>
+    </rule>
+    <rule id="213e8e04">
+        <description>Created after removal of "Lernwelt erstellen" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringLernwelt-erstellen;ManualAuthoringBedienungStartseiteLernwelt-erstellen
+        </description>
+        <accepts>ManualAuthoringBedienungStartseiteLernweltErstellen.html</accepts>
+    </rule>
+    <rule id="76c03c24">
+        <description>Created after removal of "Lernwelt importieren" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungStartseiteLernweltImportieren.html</accepts>
+    </rule>
+    <rule id="22a4caf9">
+        <description>Created after removal of "Lernwelt sortieren" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungStartseiteLernweltSortieren.html</accepts>
+    </rule>
+    <rule id="4e5f5ae6">
+        <description>Created after removal of "Lernwelt öffnen" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungStartseiteLernweltOeffnen.html</accepts>
+    </rule>
+    <rule id="5bb2f15e">
+        <description>Created after removal of "Lernwelt löschen" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungStartseiteLernweltLoeschen.html</accepts>
+    </rule>
+    <rule id="4b84665f">
+        <description>Created after removal of "Dateinamen der Lernwelt anzeigen" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen.html</accepts>
+    </rule>
+    <rule id="6c4a0f3c">
+        <description>Created after removal of "Arbeitsfläche" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringBedienungArbeitsflaecheLinkeSidebar;ManualAuthoringBedienungArbeitsfläche-Linke-Sidebar;ManualAuthoringArbeitsfläche-Linke-Sidebar
+        </description>
+        <accepts>ManualAuthoringBedienungArbeitsflaeche.html</accepts>
+    </rule>
+    <rule id="97414d4">
+        <description>Created after removal of "Lernwelt bearbeiten" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringLernwelt-bearbeiten;ManualAuthoringBedienungLinkeSidebarLernweltBearbeiten;ManualAuthoringBedienungLinkeSidebarLernwelt-bearbeiten
+        </description>
+        <accepts>ManualAuthoringBedienungArbeitsflaecheLernweltBearbeiten.html</accepts>
+    </rule>
+    <rule id="a8698b2">
+        <description>Created after removal of "Lernraum erstellen" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringBedienungLinkeSidebarLernraumErstellenUndBearbeiten;ManualAuthoringBedienungLinkeSidebarLernraumErstellen
+        </description>
+        <accepts>ManualAuthoringBedienungArbeitsflaecheLernraumErstellen.html</accepts>
+    </rule>
+    <rule id="48faf47">
+        <description>Created after removal of "Lernraum bearbeiten" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringBedienungLinkeSidebarLernraumBearbeiten
+        </description>
+        <accepts>ManualAuthoringBedienungArbeitsflaecheLernraumBearbeiten.html</accepts>
+    </rule>
+    <rule id="3a121479">
+        <description>Created after removal of "Lernraum löschen" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringBedienungArbeitsflaecheMittleresFenster;ManualAuthoringBedienungArbeitsfläche-Mittleres-Fenster;ManualAuthoringArbeitsfläche-Mittleres-Fenster
+        </description>
+        <accepts>ManualAuthoringBedienungArbeitsflaecheLernraumLoeschen.html</accepts>
+    </rule>
+    <rule id="226085bd">
+        <description>Created after removal of "Lernräume verbinden" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringLernräume-verbinden;ManualAuthoringBedienungRechteSidebarLernräume-verbinden
+        </description>
+        <accepts>ManualAuthoringBedienungRechteSidebarLernraeumeVerbinden.html</accepts>
+    </rule>
+    <rule id="624f19c9">
+        <description>Created after removal of "Lernraum öffnen" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringBedienungArbeitsfläche-Rechte-Sidebar;ManualAuthoringArbeitsfläche-Rechte-Sidebar;ManualAuthoringBedienungArbeitsflaecheRechteSidebar
+        </description>
+        <accepts>ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.html</accepts>
+    </rule>
+    <rule id="3226d24">
+        <description>Created after removal of "Bedingung hinzufügen" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringBedienungArbeitsflaecheLernraumImportieren
+        </description>
+        <accepts>ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen.html</accepts>
+    </rule>
+    <rule id="3f4b19da">
+        <description>Created after removal of "Kopfzeile" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeile.html</accepts>
+    </rule>
+    <rule id="397422fd">
+        <description>Created after removal of "Zur Startseite wechseln" from AdLerDokumentation
+            Help IDs that are no longer available in build after removal:
+
+            ManualAuthoringBedienungKopfzeileAufDerStartseite
+        </description>
+        <accepts>ManualAuthoringBedienungKopfzeileZurStartseiteWechseln.html</accepts>
+    </rule>
+    <rule id="45a864a9">
+        <description>Created after removal of "Lernwelt speichern" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileLernweltSpeichern.html</accepts>
+    </rule>
+    <rule id="da00e05">
+        <description>Created after removal of "Letzte Aktion rückgängig machen" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileLetzteAktionRueckgaengigMachen.html</accepts>
+    </rule>
+    <rule id="14e1753b">
+        <description>Created after removal of "Aktion wiederholen" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileAktionWiederholen.html</accepts>
+    </rule>
+    <rule id="73c7047">
+        <description>Created after removal of "Lernwelt archivieren" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileLernweltArchivieren.html</accepts>
+    </rule>
+    <rule id="3e077027">
+        <description>Created after removal of "Lernwelt veröffentlichen" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileLernweltVeroeffentlichen.html</accepts>
+    </rule>
+    <rule id="56a9f2b7">
+        <description>Created after removal of "Feedback zur Benutzungsoberfläche geben" from AdLerDokumentation
+        </description>
+        <accepts>ManualAuthoringBedienungKopfzeileFeedbackZurBenutzungsoberflaecheGeben.html</accepts>
+    </rule>
+    <rule id="4a8d86e">
+        <description>Created after removal of "Sprache des Autorentools ändern" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern.html</accepts>
+    </rule>
+    <rule id="2d8a2b52">
+        <description>Created after removal of "Feedback zum Autorentool geben" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileFeedbackZumAutorentoolGeben.html</accepts>
+    </rule>
+    <rule id="1ee55a0a">
+        <description>Created after removal of "Technischen Fehler melden" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileTechnischenFehlerMelden.html</accepts>
+    </rule>
+    <rule id="25789c53">
+        <description>Created after removal of "Zur AdLer-Projektseite gehen" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileZurAdLerProjektseiteGehen.html</accepts>
+    </rule>
+    <rule id="2d1defc1">
+        <description>Created after removal of "Auf AdLer-Server anmelden" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.html</accepts>
+    </rule>
+    <rule id="212cbd47">
+        <description>Created after removal of "Moodle-Kurse löschen" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileMoodleKurseLoeschen.html</accepts>
+    </rule>
+    <rule id="62287fb8">
+        <description>Created after removal of "Autorentool schließen" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienungKopfzeileAutorentoolSchließen.html</accepts>
+    </rule>
+    <rule id="3f2739e6">
+        <description>Created after removal of "Bedienung" from AdLerDokumentation</description>
+        <accepts>ManualAuthoringBedienung.html</accepts>
+    </rule>
 </rules>

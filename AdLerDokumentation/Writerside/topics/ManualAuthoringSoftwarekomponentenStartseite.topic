@@ -80,14 +80,5 @@
                 <td>Zeigt alle erstellten und importierten Lernwelten an.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
-        <list>
-            <li><a href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic">Lernwelt erstellen</a></li>
-            <li><a href="ManualAuthoringBedienungStartseiteLernweltImportieren.topic">Lernwelt importieren</a></li>
-            <li><a href="ManualAuthoringBedienungStartseiteLernweltSortieren.topic">Lernwelt sortieren</a></li>
-            <li><a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic">Lernwelt öffnen</a></li>
-            <li><a href="ManualAuthoringBedienungStartseiteLernweltLoeschen.topic">Lernwelt löschen</a></li>
-            <li><a href="ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen.topic">Dateinamen der Lernwelt anzeigen</a></li>
-        </list>
     </chapter>
 </topic>
