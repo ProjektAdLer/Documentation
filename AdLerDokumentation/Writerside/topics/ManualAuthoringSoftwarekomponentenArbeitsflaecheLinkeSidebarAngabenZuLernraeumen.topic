@@ -91,11 +91,9 @@
                     <td>Auswahl aus vier verschiedenen Themen "Campus Aschaffenburg", "Campus Kempten", "Vorstadt" und "Spielhalle" für den Lernraum.</td>
                 </tr>
             </table>
-            <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+            <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
             <list>
-                <li>Handlung 1</li>
-                <li>Handlung 2</li>
-                <li>Handlung 3</li>
+                <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic">Lernraum erstellen</a></li>
             </list>
         </chapter>
     </chapter>

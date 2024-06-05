@@ -627,13 +627,21 @@
                         <toc-element topic="ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen.topic"/>
                     </toc-element>
                     <toc-element topic="ManualAuthoringBedienungArbeitsflaeche.topic">
-                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernweltBearbeiten.topic"/>
-                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumErstellen.topic"/>
-                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumBearbeiten.topic"/>
-                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumLoeschen.topic"/>
-                        <toc-element topic="ManualAuthoringBedienungRechteSidebarLernraeumeVerbinden.topic"/>
-                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>
-                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebar.topic">
+                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernweltBearbeiten.topic"/>
+                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic"/>
+                        </toc-element>
+                        <toc-element topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebar.topic">
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>
+                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumLoeschen.topic"/>
+                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>
+                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>
+                            <toc-element topic="ManualAuthoringBedienungRechteSidebarLernraeumeVerbinden.topic"/>
+                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen.topic"/>
+                        </toc-element>
                     </toc-element>
                     <toc-element topic="ManualAuthoringBedienungKopfzeile.topic">
                         <toc-element topic="ManualAuthoringBedienungKopfzeileZurStartseiteWechseln.topic"/>
