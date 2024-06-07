@@ -5,40 +5,45 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Adaptivitätselemente abschließen" id="ManualEngine-Adaptivitätselement-bedienen">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <procedure title="Adaptivitätselement abschließen" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <p>Hier wird das Ziel der Handlung beschrieben</p>
+                <p>Ein Adaptivitätselement öffnen und erfolgreich abschließen.</p>
             </def>
         </deflist>
 
 
-        <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
+        <step><p>Öffnen des Adaptivitätselements: Klicken Sie auf den Roboter in der 3D-Lernwelt um das Adaptivitätselement zu öffnen.</p>
+            <img src="imageManualEngine_Adaptivitaetselement_step01.png" alt="Adaptivitaetselement_Schritt1"/>
+            <note>Ein Aufgabendialog öffnet sich, die Themeauswahl wird als Startseite angezeigt.</note>
         </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
+        <step><p>Auswählen der Aufgabe: Klicken Sie auf eine der in der Dialogbox angezeigten Aufgaben um fortzufahren.</p>
+            <img src="imageManualEngine_Adaptivitaetselement_step02.png" alt="Adaptivitaetselement_Schritt2"/>
+            <tip>Hier sehen Sie eine Auflistung der verwendeten Symbole zur Kennzeichnung von verschiedenen Eigenschaften, wie bspw. der Schwierigkeit und welche Aufgaben zum Abschluss erforderlich sind.
+                <img src="imageManualEngine_Adaptivitaetselement_symbols.png" alt="Adaptivitaetselement_Symbole"/></tip>
+            <note>Im Aufgabendialog wechselt die Seite von der Themenauswahl zur Schwierigkeitsauswahl.</note>
         </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
+        <step><p>Auswählen der Schwierigkeit: Klicken Sie auf eine der bereitgestellten Schwierigkeitsstufen um fortzufahren.</p>
+            <tip>Fangen Sie mit den leichteren aufgaben an und steigern Sie den Schwierigkeitsgrad nach erfolgreichem Beenden der aktuellen Aufgabe.</tip>
+            <img src="imageManualEngine_Adaptivitaetselement_step03.png" alt="Adaptivitaetselement_Schritt3"/>
+            <note>Im aufgabendialog wechselt die Seite von der Schwierigkeitsauswahl zur Aufgabe und den Antwortmöglichkeiten.</note>
         </step>
 
-        <step><p>Führen Sie den vierten Schritt durch</p>
+        <step><p>Auswählen der Antwort: Wählen Sie die korrekten Antworten aus der gegebenen Liste aus und klicken Sie auf den Button "Antwort abgeben".</p>
+            <img src="imageManualEngine_Adaptivitaetselement_step04.png" alt="Adaptivitaetselement_Schritt4"/>
             <note>
-                Hier wird ein Zwischenergebnis beschrieben
+                Sollte die Antwort richtig sein, können Sie eine höhere Schwierigkeitsstufe versuchen. Zur Auswahl gelangen Sie durch Klick auf den "Weiter"-Button.
+                <img src="imageManualEngine_Adaptivitaetselement_step05.png" alt="Adaptivitaetselement_Antwort_richtig"/>
+            </note>
+            <note>
+                Sollte die Antwort falsch sein, versuchen Sie es erneut. Dazu klicken Sie auf den "Weiter"-Button und wählen die selbe oder eine einfachere Schwierigkeit erneut aus.
+                <img src="imageManualEngine_Adaptivitaetselement_step05X.png" alt="Adaptivitaetselement_Antwort_falsch"/>
             </note>
         </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step><p>Abschließen des Adaptivitätselemnts: Bearbeiten Sie alle erforderlichen Aufgaben und Schwierigkeitsgrade. Nach Abschluss schlißen Sie den Dialog durch Klick auf den Schließen-Button (X).</p>
+           <tip>Ihren aktuellen Fortschritt können Sie in der Themenauswahl des Adaptivitätselemnts einsehen. Sollte der Fortschritt 100% erreicht sein, gilt dieses als vollständig abgeschlossen.
+               <img src="imageManualEngine_Adaptivitaetselement_step02.png" alt="Adaptivitaetselement_Schritt1"/></tip>
         </step>
-        <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
-        </step>
-        <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
+        <note><format style="bold">&#10004; Ein Adaptivitätselement wurde geöffnet, alle erforderlichen Aufgaben und Schwierigkeiten bearbeitet und durch Schließen des Aufgabendialoges diese erfolgreich abgeschlossen.</format></note>
     </procedure>
 </topic>

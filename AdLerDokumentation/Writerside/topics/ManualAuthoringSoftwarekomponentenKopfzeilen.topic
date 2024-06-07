@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Kopfzeile" id="ManualAuthoringSoftwarekomponentenKopfzeilen">
+
+    <p>Die Kopfzeile ist sowohl auf der Startseite als auch in der Arbeitsfläche am oberen Rand des Autorentools platziert. Abhängig davon, welche der beiden Ansichten "Startseite" oder "Arbeitsfläche" geöffnet sind, stehen verschiedene Funktionen zur Verfügung. Die angezeigten Buttons bleiben dabei stets dieselben, lediglich ihr Zugriff variiert je nach geöffneter Ansicht.</p>
+    <p>Die Buttons werden auf der Ansicht vorgestellt, auf der sie eine zentralere Rolle spielen.</p>
+</topic>

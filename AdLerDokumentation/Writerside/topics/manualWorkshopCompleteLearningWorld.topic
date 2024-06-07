@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Vervollständigen der Lernwelt" id="manualWorkshopCompleteLearningWorld"
+       help-id="manualWorkshopCreateAdLerLearningWorldAuthoringTool">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>Mit dieser Schritt-für-Schritt-Anleitung vervollständigen Sie einen bereits existierenden Lernraum. Zudem gestalten Sie einen neuen Lernraum und stellen Verbindungen zwischen den Lernräumen her.</control>
+        </def>
+    </deflist>
+        <chapter title="Vervollständigen des Lernraums 3D-Lernumgebung und Moodle" id="VervollstaendigenDesLernraums3DLernumgebungundMoodle">
+            <deflist type="compact" sorted="desc">
+                <def title="&#127937;">
+                    <control>
+                        <list type="alpha-lower">
+                            <li>Sie öffnen den Lernraum und ändern dessen Metadaten.</li>
+                            <li>Danach fügen Sie externes Lernmaterial in das Autorentool hinzu.</li>
+                            <li>Anschließend erstellen Sie drei Lernelemente, versehen diese mit Metadaten und weisen diesen das passende Lernmaterial zu.</li>
+                            <li>Abschließend erzeugen Sie Abhängigkeiten zwischen den Lernräumen.</li>
+                            </list>
+                    </control>
+                </def>
+            </deflist>
+            <procedure title="a. Anpassen der Metadaten des Lernraums" id="anpassenDerMetadatenDesLernraums">
+                <step>
+                    <p>Klicken Sie im rechten Bereich des Fensters mit einem Doppelklick auf die Abbildung des Lernraums <control>Moodle und 3D-Lernumgebung</control>.</p>
+                    <img src="imageManualWorkshopHighlightMoodle3DRoomPathwayView.png" alt="Hervorhebung des anzuklickenden Lernraums in der Lernpfadansicht" width="200" thumbnail="true" />
+                    <tip>Lernräume werden im rechten Bereich als Quadrate dargestellt. Wenn Sie mit der Maus über die Lernräume fahren, wird Ihnen der vollständige Name angezeigt.</tip>
+                </step>
+                <step>
+                    <p>Klicken Sie nun im Tab <control>Lernraum bearbeiten</control> auf die Kategorie <control>Abschlussbedingung</control>, um diese aufzuklappen.</p>
+                    <img src="imageManualWorkshopOpened3DRoom.png" alt="Geöffneter Lernraum 3D-Lernumgebung und Moodle" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Erhöhen Sie nun die Anzahl der Punkte auf die Punktzahl <control>8</control>.</p>
+                    <tip>Sie können diesen Schritt durch Klicken auf die Pfeile innerhalb des Felds oder per Tastatureingabe der Zahl durchführen.</tip>
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern.</p>
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich alle erforderlichen Änderungen an den Metadaten des Lernraums vorgenommen.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+
+            <procedure title="b. Hinzufügen von externem Lernmaterial" id="hinzufuegenVonExternemLernmaterial">
+                <tip>Sie befinden sich weiterhin in der Ansicht des geöffneten Lernraums <control>Moodle und 3D-Lernumgebung</control>.
+                    <img src="imageManualWorkshopLearningSpaceMoodleOpened.png" alt="Ansicht des Autorentools mit geöffnetem Raum Moodle und 3D-Lernumgebung" width="200" thumbnail="true"/>
+                </tip>
+                <step>
+                    <p>Klicken Sie auf den Tab <control>Externes Lernmaterial</control> im linken Bereich des Autorentools.</p>
+                    <img src="imageManualWorkshopClickExternalLearningMaterial.png" alt="Klick auf Tab Externes Lernmaterial" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>Laden Sie sich von der Landingpage des Workshops das "Externes Lernmaterial zum Erstellen der fehlenden Lernelemente" herunter.</p>
+                    <tip>Den Link zur Landingpage wurde Ihnen während des Workshops zur Verfügung gestellt.</tip>
+                </step>
+                <step>
+                    <p>Entpacken Sie die heruntergeladene .ZIP-Datei.</p>
+                    <tip>
+                        <list>
+                            <li>In Windows 11 können Sie .ZIP-Dateien mit einem Rechtsklick auf die .ZIP-Datei und einem Klick auf <control>Alle extrahieren...</control> entpacken.</li>
+                            <li>Windows 10 benötigt zusätzliche Software wie 7zip oder WinRar.</li>
+                            <li>In macOS öffnen Sie eine .ZIP-Datei einfach per Doppelklick.</li>
+                        </list>
+                    </tip>
+                </step>
+                <step>
+                    <p>Ziehen Sie die Datei mit der Dateiendung <control>.h5p</control> und die Datei mit der Dateiendung <control>.pdf</control> in den hellblauen Bereich, um Sie dem Autorentool hinzuzufügen.</p>
+                    <img src="imageManualWorkshopAddExternalLearningMaterialDragDrop.png" alt="Externes Lernmaterial Dropzone" width="200" thumbnail="true"/>
+                    <note>Sie haben erfolgreich Dateien als externes Lernmaterial dem Autorentool hinzugefügt.</note>
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern. </p>
+                    <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                </step>
+                <step>
+                    <p>Klicken Sie auf die Kategorie <control>Link hinzufügen</control>, um diese aufzuklappen.</p>
+                    <img src="imageManualWorkshopClickAddLink.png" alt="Link hinzufügen aufklappen" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>Kopieren Sie den untenstehenden Namen.</p>
+                    <code-block>Grundrisse Themes Avatar und 3D</code-block>
+                </step>
+                <step>
+                    <p>Fügen Sie diesen nun in das Textfeld <control>Name für den Link</control> ein.</p>
+                    <img src="imageManualWorkshopClickNameLink.png" alt="Link Namen eingeben" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>Kopieren Sie den untenstehenden Link.</p>
+                    <code-block>https://www.youtube.com/watch?v=8bcZdUicYeY</code-block>
+                </step>
+
+                <step>
+                    <p>Fügen Sie diesen nun in das Textfeld <control>Link</control> ein.</p>
+                    <img src="imageManualWorkshopClickLinkURL.png" alt="URL eingeben" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <p>Bestätigen Sie Ihre Angabe mit dem Button <control>OK</control>.</p>
+                    <img src="imageManualWorkshopClickLinkOK.png" alt="Mit OK bestätigen" width="200" thumbnail="true"/>
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern. </p>
+                    <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                </step>
+                <step>
+                    <p>Wiederholen Sie nun die Schritte 7-12, um den zweiten benötigten Link als externes Lernmaterial anzulegen. Die dafür notwendigen Informationen finden Sie untenstehend.</p>
+                    <tip>
+                    <p>Name für den Link:</p><code-block>Vielen Dank</code-block>
+                    <p>Link:</p><code-block>https://www.youtube.com/watch?v=utNBG19HYa8</code-block>
+                    </tip>
+                </step>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich externes Lernmaterial zum Autorentool hinzugefügt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+            <procedure title="c. Erstellen von drei Lernelementen" id="erstellenVonDreiLernelementen">
+                <step>
+                    <p>Klicken Sie den auf der Abbildung markierten Lernelement-Slot an.</p>
+                    <img src="imageManualWorkshopFirstLearningElementSlotHighlighted.png" alt="Markierter Lernelement Slot des ersten hinzuzufügenden Lernelements" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Im linken Bereich öffnet sich der Tab <control>Lernelement erstellen</control>. Tragen Sie nun die Metadaten <control>Name, Punkte, Arbeitsaufwand und Schwierigkeitsgrad</control> ein.</p>
+                    <p>Name:</p><code-block>Grundrisse Themes Avatar und 3D</code-block>
+                    <p>Punkte:</p><code-block>1</code-block>
+                    <p>Arbeitsaufwand:</p><code-block>1</code-block>
+                    <p>Schwierigkeitsgrad:</p><code-block>Keine Angabe</code-block>
+                    <img src="imageManualWorkshopCreateLearningElementDialogEmpty.png" alt="Geöffneter Dialog Lernelement erstellen" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Klicken Sie nun in der Kategorie <control>Externes Lernmaterial</control> in die Suchzeile und geben den untenstehenden Dateinamen des Lernmaterials an.</p>
+                    <p>Dateiname:</p><code-block>Grundrisse Themes Avatar und 3D</code-block>
+                    <img src="imageManualWorkshopSearchLearningContent.png" alt="Lernelement erstellen Dialog mit Daten in Suchzeile für Externes Lernmaterial" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Weisen Sie das gefundene externe Lernmaterial mit einem Klick dem Lernelement zu.</p>
+                    <tip>Sobald das externe Lernmaterial ausgewählt und dem Lernelement zugewiesen ist, ändert sich die Hintergrundfarbe des Listeneintrags in ein dunkleres Grau.
+                    </tip>
+                </step>
+                <step>
+                    <p>Klicken Sie als nächstes auf die Kategorie <control>3D-Darstellung</control> und wählen Sie per Klick eine 3D-Darstellung Ihrer Wahl aus.</p>
+                    <img src="imageManualWorkshopCreateLearningElementChoose3D.png" alt="Geöffneter Unterpunkt 3D-Darstellung" width="200" thumbnail="true" />
+                    <tip>Die, wie im Bild gezeigte, vergrößerte 3D-Darstellung erhalten Sie, wenn Sie mit der Maus über die jeweilige 3D-Darstellung in der Liste fahren.</tip>
+                </step>
+                <step>
+                    <p>Klicken Sie auf die Kategorie <control>Beschreibung</control> und kopieren Sie den untenstehenden Beschreibungstext in das Textfeld.</p>
+                    <p>Beschreibung:</p><code-block>Videopräsentation mit einer Auflistung der verschiedenen Grundrisse der AdLer-Anwendung. Außerdem werden verschiedene Themes und der Avatar gezeigt.</code-block>
+                    <img src="imageManualWorkshopCreateLearningElementTypeDescription.png" alt="Geöffneter Reiter Beschreibung mit eingefügtem Text" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Klicken Sie nun auf den Button <control>OK</control>, um die Angaben zum Lernelement zu bestätigen und das Lernelement zu erstellen.</p>
+                    <note>Das Lernelement erscheint im Grundriss in dem Lernelement-Slot, den Sie zu Beginn ausgewählt hatten.</note>
+                </step>
+                <step>
+                    <warning>Für den nachfolgenden Schritt wählen Sie jeweils einen weiteren freien Lernelement-Slot im Grundriss aus. Wenn Sie keinen Slot auswählen und ein neues Lernelement erstellen, erscheint Ihr erstelltes Lernelement unterhalb des Grundrisses in dem Bereich <control>Alle unplatzierten Elemente</control>. Von dort aus können Sie das erstellte Lernelement in einem freien Lernelement-Slot platzieren.</warning>
+                    <p>Wiederholen Sie nun Schritt 2-7 dieses Kapitels <control>Erstellen von drei Lernelementen</control> und fügen Sie den restlichen freien Lernelement-Slots die zwei weiteren Lernelemente zu.</p>
+                    <tip>Entnehmen Sie untenstehend die Informationen zu den Metadaten der beiden Lernelemente.
+                        <p><b>Zweites Lernelement:</b></p>
+                        <p>Name:</p><code-block>Lernelemente</code-block>
+                        <p>Punkte:</p><code-block>1</code-block>
+                        <p>Arbeitsaufwand:</p><code-block>1</code-block>
+                        <p>Schwierigkeitsgrad:</p><code-block>Keine Angabe</code-block>
+                        <p>Dateiname:</p><code-block>3D_LE_Lernelemente.pdf</code-block>
+                        <p>Beschreibung:</p><code-block>Informationsfolie zur Darstellung von Lernelementen in der 3D-Lernumgebung.</code-block>
+                        <p><b>Drittes Lernelement:</b></p>
+                        <p>Name:</p><code-block>3D-Lernumgebung</code-block>
+                        <p>Punkte:</p><code-block>3</code-block>
+                        <p>Arbeitsaufwand:</p><code-block>2</code-block>
+                        <p>Schwierigkeitsgrad:</p><code-block>Mittelschwer</code-block>
+                        <p>Dateiname:</p><code-block>3D_Fragen_zur_3D_Lernumgebung.h5p</code-block>
+                        <p>Beschreibung:</p><code-block>Prüfen Sie Ihr Wissen zur 3D-Lernumgebung in diesem interaktiven Quiz.</code-block>
+                    </tip>
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern. </p>
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben den Lernraum erfolgreich vervollständigt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+            <procedure title="d. Verbinden von Lernräumen (Lernpfad)" id="verbindenVonLernraeumenLernpfad">
+                <tip>Sie befinden sich noch in der Ansicht des geöffneten Lernraums <control>Moodle und 3D-Lernumgebung</control>. Sollten Sie sich dort nicht mehr befinden, klicken Sie im linken Bereich auf den Tab <control>Angaben zu Lernräumen</control>.</tip>
+                <step>
+                    <p>Klicken Sie im rechten Tab <b>Verbindungen zwischen Lernräumen</b> auf den Button <control>Und-/Oder-Verbindung erstellen</control>.</p>
+                    <img src="imageManualWorkshopHiglightedAddConnection.png" alt="Hervorgehobener Button Und-/Oder-Verbindung erstellen" width="200" thumbnail="true" />
+                    <note>
+                        <p>Die Und-/Oder-Verbindung erscheint mit der Standardeinstellung <control>Oder</control>.</p>
+                        <img src="imageManualWorkshopAddedAndOrConnectionHighlighted.png" alt="Hervorgehobene Und-/Oder-Verbindung in der Lernpfadansicht" width="200" thumbnail="true" />
+                    </note>
+                </step>
+                <step>
+                    <p>Klicken Sie auf den <control>Umschalter</control> der <control>Und-/Oder-Verbindung</control>. Der <control>Umschalter</control> wechselt nun auf <control>Und</control>.</p>
+                    <img src="imageManualWorkshopAndConnection.png" alt="Verbindungselement umgestellt auf Und" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Fahren Sie mit der Maus über den grauen Hintergrundbereich der <control>Und-Verbindung</control> und ziehen Sie die <control>Und-Verbindung</control> unter die Lernräume <control>Autorentool</control> und <control>Moodle und 3D-Lernumgebung</control>.</p>
+                    <img src="imagesManualWorkshopCorrectLocationAndConnection.png" alt="Position der Und-Verbindung" width="200" thumbnail="true" />
+                    <warning>
+                        <p>Die Und-Verbindung lässt sich durch Klicken und Ziehen auf den <control>Umschalter</control> nicht bewegen.</p>
+                    </warning>
+                    <warning>
+                        <p>Die <control>Und-Verbindung</control> muss unterhalb der zu verbindenden Räume platziert werden. Die Struktur des Lernpfads würde sonst nicht mehr funktionieren.</p>
+                    </warning>
+                </step>
+                <step>
+                    <p>Klicken Sie nun auf den orangefarbenen Button <control>Plus</control> am Lernraum <control>Autorentool</control>, halten Sie die linke Maustaste gedrückt und ziehen Sie den nun erscheinenden Pfeil auf die <control>Und-Verbindung</control>.</p>
+                    <img src="imageManualWorkshopLearningRoomFocused.png" alt="Lernraum mit orangem Plus-Button" width="200" thumbnail="true" />
+                    <tip>
+                        <p>Sie können die linke Maustaste loslassen, wenn die <control>Und-Verbindung</control> mit einem orangefarbenen Kasten hervorgehoben wird.</p>
+                        <img src="imageManualWorkshopPullConnectionArrow.png" alt="Hervorgehobene Und-Verbindung" width="200" thumbnail="true" />
+                    </tip>
+                </step>
+                <step>
+                    <p>Wiederholen Sie Schritt 4 für den Lernraum <control>Moodle und 3D-Lernumgebung</control> und verbinden Sie diesen ebenfalls mit der zuvor erstellten <control>Und-Verbindung</control>.</p>
+                    <warning>
+                        <p>Erstellen Sie keine zweite <control>Und-Verbindung</control></p>
+                    </warning>
+                    <img src="imageManualWorkshopLearningPathwayCreated.png" alt="Fertig erstellte Verbindungen zu logischen Verknüpfung der Lernräume" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern. </p>
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich einen Lernpfad zwischen Lernräumen erstellt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </chapter>
+
+    <chapter title="Gestalten eines neuen Lernraums" id="GestaltenEinesNeuenLernraums">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>
+                    <list type="alpha-lower">
+                        <li>Sie erstellen einen neuen Lernraum und vergeben diesem Metadaten.</li>
+                        <li>Danach erstellen Sie ein Storyelement und fügen diesem Story-Texte hinzu.</li>
+                        <li>Abschließend erstellen Sie ein Lernelement mit den dazugehörigen Metadaten.</li>
+                    </list>
+                </control>
+            </def>
+        </deflist>
+            <procedure title="a. Erstellen eines neuen Lernraums" id="erstellenEinesNeuenLernraums">
+                <step>
+                    <p>Klicken Sie auf den Button <control>Neu</control> im linken Bereich <control>Lernraum bearbeiten</control>.</p>
+                    <img src="imageManualWorkshopNewLearningSpaceHighlighted.png" alt="Hervorgehobener Neu-Button im Lernraum bearbeiten Bereich" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Füllen Sie nun die untenstehenden fehlenden Metadaten in den Kategorien <control>Allgemein, Abschlussbedingung</control> und <control>Beschreibung</control> aus.</p>
+                    <p>Name:</p><code-block>Abschluss</code-block>
+                    <p>Abschlussbedingung:</p><code-block>1</code-block>
+                    <p>Beschreibung:</p><code-block>Das AdLer-Team kommt zum Jour fixe zusammen und Lukas präsentiert den Inhalt des Workshops.</code-block>
+                    <img src="imageManualWorkshopFillInLearningSpaceMetadataHighlighted.png" alt="Hervorgehobener Lernraum erstellen Bereich" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den Button <control>OK</control> im unteren Bereich des geöffneten linken Tabs <control>Lernraum bearbeiten</control>.</p>
+                    <img src="imageManualWorkshopOKButtonHighlighted.png" alt="Hervorgehobener OK-Button, im Lernraum erstellen Bereich" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Gehen Sie nun im rechten Bereich zum Tab <b>Verbindungen zwischen Lernräumen</b> und ziehen Sie den neu erstellten Lernraum <b>Abschluss</b> an die, wie im untenstehenden Bild angezeigte, Stelle.</p>
+                    <img src="imageManualWorkshopDraggedLearningSpaceInPathwayView.png" alt="Im Lernpfad korrekt platzierter Lernraum." width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Verbinden Sie die <control>Und-Verbindung</control> mit dem Lernraum <control>Abschluss</control> mithilfe des orangefarbenen Buttons <control>Plus</control> an der <control>Und-Verbindung</control>.</p>
+                    <tip>Das Verbinden von Lernräumen und Und-/Oder-Verbindungen haben Sie bereits in Schritt 4 des Kapitels <a href="#verbindenVonLernraeumenLernpfad">Verbinden von Lernräumen (Lernpfad)</a> durchgeführt.</tip>
+                    <img src="imageManualWorkshopDraggedLearningPathToRoomAbschluss.png" alt="Im Lernpfad korrekt platzierter Lernraum mit Lernpfadverbindung." width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern.</p>
+                    <img src="imageManualWorkshopOpenedLearningSpaceAbschluss.png" alt="Leerer, neu erstellter Lernraum" width="200" thumbnail="true" />
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich einen neuen Lernraum erstellt und diesen mit den anderen Lernräumen verbunden.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+            <procedure title="b. Erstellen eines Storyelements" id="erstellenEinesStoryElements">
+                <step>
+                    <p>Klicken Sie auf den Slot, welcher sich im <control>Lernraum-Editor</control> auf der linken Seite befindet.</p>
+                    <img src="imageManualWorkshopAddStoryElementHighlightedButton.png" alt="Hervorgehobener Storyelement Slot im Lernraum Editor" width="200" thumbnail="true" />
+                    <tip>Die Position des zu klickenden Slots ist im beigefügten Bild dieses Handlungsschritts zu sehen.</tip>
+                </step>
+                <step>
+                    <p>Kopieren Sie den untenstehenden Namen und tragen Sie diesen im geöffneten Tab <control>Storyelement erstellen</control> in das Feld <b>Name</b> ein.</p>
+                    <p>Name:</p><code-block>Es war mir eine Freude</code-block>
+                    <img src="imageManualWorkshopCreateStoryElementFormHighlighted.png" alt="Hervorgehobener Bereich Storyelement erstellen" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <p>Klicken Sie auf den Button <control>Plus</control> in der Kategorie <control>Story</control> und tragen Sie in den erscheinenden Textblock (Slide) den untenstehenden Story-Text ein.</p>
+                    <p>Story-Text - Slide 1:</p><code-block>Es war mir eine Freude, Ihnen das Projekt AdLer vorzustellen.</code-block>
+                    <img src="imageManualWorkshopAddStoryHighlightedButton.png" alt="Hervorgehobener Plus-Button zum Erstellen eines Story-Textes" width="200" thumbnail="true" />
+                    <note>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock (Slide) mit max. 550 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button <b>Plus</b> weitere Textblöcke (Slides) hinzugefügt werden.</note>
+                </step>
+                <step>
+                    <p>Wiederholen Sie den vorherigen Schritt 3 für die beiden restlichen Story-Texte.</p>
+                    <p>Story-Text - Slide 2:</p><code-block>Ich glaube, ich deute Ihre Blicke richtig und sehe entzückte Gesichter. Wie schön! Glückliche Gäste - glücklicher Gastgeber.</code-block>
+                    <p>Story-Text - Slide 3:</p><code-block>Gehaben Sie sich wohl und herzlichsten Dank für Ihren Besuch!</code-block>
+                    <tip>Insgesamt handelt es sich um drei Story-Texte, die jeweils in einen Story-Textblock eingefügt werden. Kopieren Sie pro Slide also nur den jeweiligen Teil des Zellentexts.</tip>
+                </step>
+                <step>
+                    <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den Button <control>OK</control> im unteren Bereich des geöffneten Tabs <control>Storyelement erstellen</control>.</p>
+                    <img src="imageManualWorkshopCreateStoryElementOkButtonHighlighted.png" alt="Hervorgehobener OK-Button, im Storyelement erstellen Bereich" width="200" thumbnail="true" />
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern.</p>
+                    <img src="imageManualWorkshopStoryElementAdded.png" alt="Ungespeicherte Änderungen nach Erstellen eines Storyelements" width="200" thumbnail="true" />
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich ein Storyelement in den neu erstellten Lernraum eingefügt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+            <procedure title="c. Erstellen eines weiteren Lernelements" id="erstellenEinesWeiterenLernElements">
+                <step>
+                    <p>Erstellen Sie ein letztes Lernelement im Lernraum <control>Abschluss</control> und tragen Sie die untenstehenden Metadaten ein.</p>
+                    <p>Name:</p><code-block>Vielen Dank</code-block>
+                    <p>Punkte:</p><code-block>1</code-block>
+                    <p>Arbeitsaufwand:</p><code-block>1</code-block>
+                    <p>Schwierigkeitsgrad:</p><code-block>Keine Angabe</code-block>
+                    <p>Beschreibung:</p><code-block>Es ist Mittwoch. Das Jour fixe steht an. Die AdLer-Projektbeteiligten vom Standort Aschaffenburg sind zusammen gekommen, um Lukas bei dessen Präsentation zu lauschen.</code-block>
+                    <tip>Gehen Sie bei der Erstellung des Lernelements wie in Kapitel <a href="#erstellenVonDreiLernelementen">"Erstellen von drei Lernelementen"</a> vor.</tip>
+                </step>
+                <step>
+                    <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
+                    <p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu speichern.</p>
+                    <img src="imageManualWorkshopLearningWorldFinished.png" alt="Gespeicherte Änderungen nach dem Erstellen des letzten Lernelements" width="200" thumbnail="true" />
+                </step>
+                <tip>Ihre Änderungen an der Lernwelt wurden nun gespeichert.</tip>
+                <note>
+                    <control>
+                        <p>Sie haben erfolgreich ein Lernelement in den neu erstellten Lernraum eingefügt.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+    </chapter>
+            <note>
+                <control>
+                    <p>Sie haben die Lernwelt erfolgreich fertiggestellt.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+            <tip>
+                <p>Fahren Sie nun mit dem <a href="manualWorkshopUploadLearningWorld.topic">Hochladen der Lernwelt</a> fort.</p>
+            </tip>
+</topic>

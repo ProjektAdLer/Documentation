@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Inkscape Tutorial Hervorhebungen erstellen" id="manualInkscapeTutorialHighlighting">
+    <show-structure for="chapter, procedure" depth="2"/>
+
+    <chapter title="Einfügen einer Hervorhebung in einem Screenshot für die AdLer Dokumentation mit Inkscape" id="EinfuegenEinerHervorhebungInEinemScreenshotFuerDieAdLerDokumentationInInkscape">
+
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Sie erstellen eine in der AdLer Dokumentation nutzbare .png Datei und exportieren diese. Zusätzlich speichern Sie die offenen Daten der Datei als .svg Datei im AdLer Dokumentationsrepository ab.</control>
+            </def>
+        </deflist>
+
+        <tip>
+            <p>Diese Handlungsanweisung geht davon aus, dass Sie Inkscape auf ihrem Computer installiert haben. Falls Sie dies nicht haben, laden und installieren Sie Inkscape unter folgendem Link herunter und installieren das Programm auf Ihrem Computer: <a href="https://inkscape.org/release/inkscape-1.3.2/">https://inkscape.org/release/inkscape-1.3.2/</a></p>
+        </tip>
+
+        <procedure title="Öffnen der Datei in Inkscape" id="OeffnenDerDateiInInkscape">
+            <step>
+                <p>Öffnen Sie Inkscape.</p>
+            </step>
+            <step>
+                <p>Klicken Sie auf Datei > Öffnen oder drücken Sie die Tastenkombination <control>STRG + O</control> (Windows)</p>
+                <img src="imageManualInkscapeTutorialHighlightingOpenFile.png" alt="Öffnen einer Datei in Inkscape" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Wählen Sie im folgenden Betriebssystemdialog Ihre gewünschte Datei aus und bestätigen Sie ihre Auswahl mit dem <control>Öffnen-Button</control></p>
+                <img src="imageManualInkscapeTutorialHighlightingOpenFileDialog.png" alt="Betriebssystemdialog Wähle zu öffnende Datei" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Wählen Sie die Optionen im nun geöffneten Inkscape-Dialogfenster, wie auf dem folgenden Screenshot dargestellt.</p>
+                <img src="imageManualInkscapeTutorialHighlightingBitmapImportDialog.png" alt="Inkscape Dialog png Bitmap Bildimport" width="200" thumbnail="true" />
+            </step>
+            <note>
+                <control>
+                    <p>Sie haben Ihr Bild erfolgreich in Inkscape importiert.</p>
+                    <img src="imageManualInkscapeTutorialHighlightingAddRectangle.png" alt="Importiertes Bild in Inkscape" width="200" thumbnail="true" />
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+
+        <procedure title="Einfügen der Hervorhebung" id="EinfuegenDerHervorhebung">
+            <step>
+                <p>Klicken Sie auf das <control>rote Rechtecksymbol</control>, in der Werkzeugleiste, im linken Teil der Programmoberfläche</p>
+                <img src="imageManualInkscapeTutorialHighlightingAddRectangle.png" alt="Inkscape Programmoberfläche" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Ziehen Sie ein Rechteck, welches in allen Richtungen etwas größer ist, als ihr eingefügtes Bild.</p>
+                <img src="imageManualInkscapeTutorialHighlightingAddedRectangle.png" alt="Gezogenes Rechteck" width="200" thumbnail="true" />
+                <tip>Durch das größere Erstellen des Rechtecks kann zu einem späteren Zeitpunkt besser nachjustiert oder Fehler verbessert werden.</tip>
+            </step>
+            <step>
+                <p>Tippen Sie die benötigte Farbe in das Farbauswahlfeld im Reiter <control>Füllung</control> im rechten Teil der Programmoberfläche ein. Der benötigte Farbcode lautet: <control><a>#172d4d <img src="https://readme-swatches.vercel.app/172d4d" alt="#172d4d"/></a></control>
+                </p>
+                <img src="imageManualInkscapeTutorialHighlightingTypeColor.png" alt="Farbwert eingeben" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Tippen Sie die benötigte Transparenz von 60 % in das Transparenzeingabefeld <control>(A)</control> im Reiter <control>Füllung</control> im rechten Teil der Programmoberfläche ein.</p>
+                <img src="imageManualInkscapeTutorialHighlightingTypeOpacity.png" alt="Transparenzwert eingeben" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Fügen Sie ein zweites Rechteck, an der hervorzuhebenden Stelle ein.</p>
+                <img src="imageManualInkscapeTutorialHighlightingAddSecondRectangle.png" alt="Zweites Rechteck erstellen" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Geben Sie einen Eckenradius von 10px für das kleinere Rechteck ein.</p>
+                <img src="imageManualInkscapeTutorialHighlightingTypeInCornerRadius.png" alt="Eckenradius des kleinen Rechtecks eingeben" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Wählen Sie das Auswahlwerkzeug in der Werkzeugleiste im linken Teil der Programmoberfläche aus.</p>
+                <img src="imageManualInkscapeTutorialHighlightingClickArrow.png" alt="Auswahlwerkzeug auswählen" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Halten Sie die <control>SHIFT-Taste</control> gedrückt und wählen Sie mit der linken Maustaste die beiden erstellten Rechtecke aus.</p>
+                <img src="imageManualInkscapeTutorialHighlightingChooseBothRectangles.png" alt="Beide Rechtecke auswählen" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Klicken Sie auf <control>Pfad > Differenz</control> oder betätigen Sie die Tastenkombination <control>STRG + -, um das kleinere vom größeren Rechteck abzuziehen.</control></p>
+                <img src="imageManualInkscapeTutorialHighlightingSubstractUpperRectangle.png" alt="Kleineres Rechteck vom größeren Rechteck abziehen" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Wählen Sie im rechten Bereich der Arbeitsfläche, im Reiter <control>Füllung und Kontur</control> den Reiter <control>Farbe der Kontur</control>.</p>
+                <img src="imageManualInkscapeTutorialHighlightingChooseFillAndContour.png" alt="Füllung und Kontur wählen" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Wählen Sie dort nun die Schaltfläche <control>Keine-Farbe-Button</control>.</p>
+                <img src="imageManualInkscapeTutorialHighlightingChooseNoContour.png" alt="Auswählen von Keine-Farbe-Button für Kontur" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Öffnen Sie in ihrem Betriebssystem ihren Datei-Explorer und navigieren Sie in das AdLer Dokumentationsrepository. Öffnen Sie dort den Pfad AdLerDokumentation/Writerside/images. Dort befindet sich die Datei <control>imageManualArrow.svg</control>. Klicken Sie mit der linken Maustaste auf diese Datei und ziehen Sie sie mit gedrückter linker Maustaste in den Arbeitsbereich von Inkscape. Lassen Sie nun die linke Maustaste los.</p>
+                <img src="imageManualInkscapeTutorialHighlightingChooseArrowFile.png" alt="Datei imageManualArrow auswählen und importieren" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Treffen Sie die im folgenden Bild sichtbaren Einstellungen und klicken anschließend auf den <control>OK-Button</control>.</p>
+                <img src="imageManualInkscapeTutorialHighlightingImportArrowDialog.png" alt="Inkscape Import Dialog SVG einlesen" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Klicken Sie auf den <control>Button mit dem Schlosssymbol</control> zwischen den Eingabefeldern zu B (Breite) und H (Höhe) des Pfeils im oberen Bereich der Programmoberfläche.</p>
+                <tip>Das angewählte Schlosssymbol gewährleistet die Beibehaltung des ursprünglichen Seitenverhältnisses des Pfeils, beim Ändern der Größe.</tip>
+                <img src="imageManualInkscapeTutorialHighlightingWidthHeight.png" alt="Festsetzen des Seitenverhältnisses" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Geben Sie nun eine Höhe von 250px in das Eingabefeld H (Höhe) ein.</p>
+                <img src="imageManualInkscapeTutorialHighlightingSetHeight.png" alt="Eingabe der neuen Höhe des Pfeils" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Positionieren Sie den Pfeil nun so, dass die Pfeilspitze auf das zuvor ausgeschnittene, abgerundete Rechteck zeigt.</p>
+                <img src="imageManualInkscapeTutorialHighlightingRepositionArrow.png" alt="Positionieren des Pfeils" width="200" thumbnail="true" />
+            </step>
+            <note>
+                <control>
+                    <p>Sie haben erfolgreich eine Grafik mit Standardhervorhebung eines Bereichs für die AdLer Dokumentation erstellt.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+
+        <procedure title="Exportieren der Grafik" id="exportierenDerGrafik">
+            <step>
+                <p>Klicken Sie auf den Reiter Datei im oberen Menüband der Anwendung. Im aufgeklappten Menü klicken Sie auf <control>Exportieren...</control>.</p>
+                <tip>Im rechten Bereich der Programmoberfläche öffnet sich nun der Exportieren-Dialog von Inkscape.</tip>
+                <img src="imageManualInkscapeTutorialHighlightingClickExport.png" alt="Datei > Exportieren auswählen" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Klicken Sie auf den Button <control>Seite</control>, um den Export auf die Seite zu begrenzen.</p>
+                <tip>Hierdurch exportieren Sie nur die Größe des Screenshots. Beim Import wurde die Größe des Screenshots automatisch als Seitengröße festgelegt. So wird das über den Rand ragende Rechteck nicht exportiert.</tip>
+                <img src="imageManualInkscapeTutorialHighlightingClickExportSite.png" alt="Seite auswählen" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Überprüfen Sie nun, dass die Einstellungen, denen im folgenden Bild entsprechen. Klicken Sie danach auf den <control>Exportieren-Button</control></p>
+                <tip>Die genaue Höhe und Breite der exportierten Grafik kann bei Ihnen abweichend sein. Dies entsteht durch mögliche unterschiedliche Bildschirmauflösungen oder unterschiedlich großen Bereichen, die der jeweilige Screenshot abdeckt.</tip>
+                <img src="imageManualInkscapeTutorialHighlightingClickExportButton.png" alt="Seite auswählen" width="200" thumbnail="true" />
+            </step>
+            <note>
+                <control>
+                    <p>Sie haben erfolgreich eine Grafik mit Standardhervorhebung eines Bereichs für die AdLer Dokumentation exportiert.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+
+        <procedure title="Speichern der offenen Daten" id="speichernDerOffenenDaten">
+            <step>
+                <p>Klicken Sie auf den Reiter Datei im oberen Menüband der Anwendung. Klicken Sie dann auf <control>Speichern unter ...</control></p>
+                <img src="imageManualInkscapeTutorialHighlightingSaveAs.png" alt="Datei > Speichern unter ... auswählen" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Wählen Sie im nun erschienenen Systemdialog folgenden Speicherort aus: IhrAdLerDokumentationsrepository/AdLerDokumentation/Writerside/images.</p>
+                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter ..." width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Vergeben Sie nun einen Dateinamen nach der <a href="Benutzerdoku-BestPractices.topic#benennung_dateien">Dateinamenkonvention</a> der AdLer Dokumentation.</p>
+                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter ..." width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Wählen Sie nun den Dateityp <control>Inkscape-SVG(*.svg)</control> aus.</p>
+                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter ..." width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Speichern Sie die Datei nun mit einem Klick auf den <control>Speichern-Button</control> ab.</p>
+                <img src="imageManualInkscapeTutorialHighlightingSaveAsSystemDialog.png" alt="Systemdialog Speichern unter ..." width="200" thumbnail="true" />
+            </step>
+            <note>
+                <control>
+                    <p>Sie haben erfolgreich die offenen Daten im images Ordner der AdLer Dokumentation gespeichert.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+
+    </chapter>
+</topic>

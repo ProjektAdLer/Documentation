@@ -1,3 +1,0 @@
-# Projektantrag AdLer
-
-Start typing here...

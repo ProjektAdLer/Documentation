@@ -1,14 +1,14 @@
 # Funktionale Anforderung Plugin
 
-# Definition:
+## Definition:
 
 Das Plugin muss
 
 Das Plugin muss fähig sein
 
 
-# Akzeptanzkriterien:
+## Akzeptanzkriterien:
 
 
-# Aktivitätsdiagramm:
+## Aktivitätsdiagramm:
 

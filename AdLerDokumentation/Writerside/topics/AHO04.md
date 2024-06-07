@@ -12,4 +12,5 @@ Lernraums zu bearbeiten.
 
 ## Aktivitätsdiagramm:
 
+![imageAktivitätsdiagrammLernzielEditierenOhneEingabeunterstützung](imageAktivitätsdiagrammLernzielEditierenOhneEingabeunterstützung.png)
 

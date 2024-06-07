@@ -1,5 +1,7 @@
 name: Build and publish main to Github Pages
 on:
+  # schedule:
+  #   - cron: '*/10 * * * *'
   push:
     branches:
       - main
@@ -12,14 +14,18 @@ permissions:
 
 jobs:
   call-requirement-script:
+    if: github.actor != 'requirements-updater[bot]'
     uses: ProjektAdler/Documentation/.github/workflows/requirementScript.yml@main
     secrets: inherit
+
   call-build:
+    if: github.actor != 'requirements-updater[bot]'
     needs: call-requirement-script
     uses: ProjektAdler/Documentation/.github/workflows/build.yml@main
     secrets: inherit
 
   deploy:
+    if: github.actor != 'requirements-updater[bot]'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

@@ -5,40 +5,36 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="In 3D-Lernumgebung anmelden " id="ManualEngine-In-3D-Lernumgebung-anmelden">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <a href="ManualEngine_Startmenü.topic">Produktbeschreibung Startmenü</a>
+
+    <procedure title="Login" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <p>Hier wird das Ziel der Handlung beschrieben</p>
+                <p>Als Nutzer in die 3D-Lernumgebung anmelden.</p>
             </def>
         </deflist>
 
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Sie sind nicht angemeldet.</li>
+                <li>Sie befinden sich im <a href="ManualEngine_Startmenü.topic">Startmenü</a>.</li>
+            </list>
+        </tip>
 
-        <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>
-                Hier wird ein Zwischenergebnis beschrieben
-            </note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step>
+            <p>Geben Sie Ihren Nutzernamen in das <control>Nutzername-Eingabefeld</control> ein.</p>
         </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+            <p>Geben Sie Ihr Passwort in das <control>Passwort-Eingabefeld</control> ein.</p>
         </step>
-        <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
+        <step>
+            <p>Klicken Sie auf den <control>Login-Button</control> neben den Eingabefeldern.</p>
+            <tip>Sollte der Login nicht funktionieren, erscheint ein Hinweisfeld <control>Login fehlgeschlagen. Bitte überprüfen sie Ihre Eingaben.</control>
+            Überprüfen Sie Ihre Login-Eingaben und versuchen Sie es erneut.</tip>
+        </step>
+        <note>
+            <format style="bold">&#10004; Sie sind nun angemeldet und sehen den Text "Login erfolgreich!".</format>
+        </note>
     </procedure>
 </topic>

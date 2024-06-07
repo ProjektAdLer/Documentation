@@ -14,4 +14,4 @@ Lernpfad-Bedingung gelöscht.
 
 ## Aktivitätsdiagramm
 
-
+![imageAktivitätsdiagrammLernpfadBedingungLöschen](imageAktivitätsdiagrammLernpfadBedingungLöschen.png)

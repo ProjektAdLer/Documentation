@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Dateinamen der Lernwelt anzeigen" id="ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Startseite</a>.</p>
+
+    <procedure type="steps" title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Eine Lernwelt aus dem Autorentool löschen.</p>
+            </def>
+        </deflist>
+
+        <note>
+            <p>Erstellte und importierte Lernwelten werden auf der <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Startseite</a> in einer Übersicht aufgelistet.</p>
+            <img src="imageManualAuthoringLernweltUebersichtCallout.png" alt="LernweltenUebersichtCallout" width="200" thumbnail="true"/>
+        </note>
+        <tip>Voraussetzung:
+            <p>Es existiert mindestens eine Lernwelt im Autorentool und wird in der Übersicht der Startseite angezeigt.</p>
+        </tip>
+
+        <step>
+            <p>Klicken Sie auf den Button <control>Dateinamen anzeigen</control>.</p>
+            <img src="imageManualAuthoringLernweltDateinamenAnzeigenButtonCallout.png" alt="LernweltenDateinamenCallout" width="200" thumbnail="true"/>
+            <tip>Sobald die Maus über den Button fährt, wird ein zusätzlicher Hover-Text "Den gesamten Namen der .awf-Datei anzeigen" angezeigt.</tip>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben erfolgreich die Anzeige des Dateinamens zu den Lernwelten aktiviert.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+        <tip>
+            <p>Der Dateiname wird in den als weißes Rechteck dargestellten Lernwelten unterhalb des Namens angezeigt. Mit einem erneuten Klick auf den Button verschwindet die Anzeige des Dateinamens wieder.</p>
+            <img src="imageManualAuthoringLernweltUebersichtMitDateinamenCallout.png" alt="LernweltenUebersichtMitDateinamenCallout" width="200" thumbnail="true"/>
+        </tip>
+    </procedure>
+</topic>

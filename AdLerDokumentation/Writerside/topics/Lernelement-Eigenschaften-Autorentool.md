@@ -1,13 +1,3 @@
 # Lernelement Eigenschaften
 
-Die folgenden erforderlichen Eigenschaften müssen angegeben werden:
-- [Lernelementname](AWA9001.md)
-- Externes Lernmaterial
-
-Die folgenden optionalen Eigenschaften können angepasst werden:
-- Punkte
-- Arbeitsaufwand
-- Schwierigkeitsgrad
-- 3D-Darstellung
-- Lernziele
-- Beschreibung
+Für Lernelemente müssen [](AWA9006.md) angegeben werden. Außerdem können [](AWA9007.md) angepasst werden.

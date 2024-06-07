@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernwelt öffnen" id="ManualAuthoringBedienungStartseiteLernweltOeffnen">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Startseite</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Eine Lernwelt zur weiteren Bearbeitung oder Veröffentlichung öffnen.</p>
+            </def>
+        </deflist>
+
+        <note>
+        <p>Erstellte und importierte Lernwelten werden auf der <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Startseite</a> in einer Übersicht aufgelistet.</p>
+        <img src="imageManualAuthoringLernweltUebersichtCallout.png" alt="LernweltenUebersichtCallout" width="200" thumbnail="true"/>
+        </note>
+
+        <tip>Voraussetzung:
+            <list>
+                <li>
+                    <p>Entweder wird eine neue Lernwelt erstellt (dann öffnet sich die Lernwelt nach Erstellung automatisch).</p>
+                </li>
+                <li>
+                    <p>Oder es existiert mindestens eine Lernwelt im Autorentool und wird in der Übersicht der Startseite angezeigt.</p>
+                </li>
+            </list>
+        </tip>
+
+        <step>
+            <p>Fahren Sie mit der Maus über die zu öffnende Lernwelt.</p>
+            <img src="imageManualAuthoringLernweltOeffnenCallout.png" alt="LernwelOeffnenCallout" width="200" thumbnail="true"/>
+            <tip>Sobald die Maus über die als weißes Rechteck dargestellte Lernwelt fährt, erscheint ein zusätzlicher Button <control>Öffnen</control> auf dem Rechteck.</tip>
+        </step>
+        <step>
+            <p>Klicken Sie auf den Button <control>Öffnen</control>.</p>
+            <img src="imageManualAuthoringLernweltOeffnenButtonCallout.png" alt="LernwelOeffnenButtonCallout" width="200" thumbnail="true"/>
+            <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Lernwelt öffnen" wird angezeigt.</tip>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben die Lernwelt erfolgreich geöffnet.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+        <tip>Nach dem Klicken des Buttons werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Bearbeitung dieser Lernwelt beginnen können.</tip>
+    </procedure>
+</topic>

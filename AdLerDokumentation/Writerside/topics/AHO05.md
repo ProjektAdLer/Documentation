@@ -11,4 +11,5 @@ Das Autorentool muss Lehrenden die Möglichkeit bieten, ein Lernziel eines Lernr
 
 ## Aktivitätsdiagramm:
 
+![imageAktivitätsdiagrammLernzielLöschen](imageAktivitätsdiagrammLernzielLöschen.png)
 

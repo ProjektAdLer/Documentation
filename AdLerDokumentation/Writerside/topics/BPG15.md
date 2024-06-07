@@ -4,7 +4,7 @@
 
 # Definition:
 
-Das Backend muss die Einzelheiten zu einem [Adaptivitätselement](Adaptivitätsaufgabe-GE.md) ausgeben.
+Das Backend muss die Einzelheiten zu einem [Adaptivitätselement](Adaptivitätsaufgabe-GE.md) in einer Lernwelt ausgeben.
 
 
 # Akzeptanzkriterien:

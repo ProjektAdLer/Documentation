@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Startseite" id="ManualAuthoringSoftwarekomponentenStartseite">
+
+    <chapter title="Übersicht" id="bezeichnung_produktteil">
+        <p>Bei Start des Autorentools wird als erste Ansicht stets die Startseite angezeigt. Auf dieser werden alle erstellten und importierten Lernwelten aufgeführt.</p>
+    <img src="imageManualAuthoringStartseiteCallout.png" alt="StartseiteCallout"/>
+        <table>
+            <tr>
+                <td>ID</td>
+                <td>Bezeichnung</td>
+                <td>Beschreibung</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Lernwelten nach Änderungsdatum sortieren</td>
+                <td>Sortiert die erstellten und importierten Lernwelten nach ihrem Änderungsdatum.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lernwelten alphanumerisch sortieren</td>
+                <td>Sortiert die erstellten und importierten Lernwelten alphanumerisch.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dateinamen anzeigen</td>
+                <td>Zeigt zusätzlich den Dateinamen der erstellten und importierten Lernwelten an.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Lernwelt erstellen-Button</td>
+                <td>Öffnet ein Fenster zum Erstellen einer neuen Lernwelt.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Lernwelt importieren-Button</td>
+                <td>Öffnet den Dateimanager zum Importieren einer bereits existierenden Lernwelt-Datei.</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Informationssymbol</td>
+                <td>Enthält zusätzliche Informationen zum Öffnen einer Lernwelt.</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Erstellte oder importierte Lernwelt</td>
+                <td>Darstellung von bereits erstellten und importierten Lernwelten in einer Übersicht.</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Lernwelt-Namen</td>
+                <td>Zeigt den Namen der erstellten oder importierten Lernwelt an.</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Änderungsdatum der Lernwelt</td>
+                <td>Zeigt das Änderungsdatum der erstellten oder importierten Lernwelt an.</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Lernwelt löschen-Button</td>
+                <td>Löscht die erstellte oder importierte Lernwelt aus dem Autorentool.</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Lernwelt öffnen-Button</td>
+                <td>Öffnet die erstellte oder importierte Lernwelt.</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Hover-Text</td>
+                <td>Enthält zusätzliche Informationen.</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Scrollbar</td>
+                <td>Zeigt alle erstellten und importierten Lernwelten an.</td>
+            </tr>
+        </table>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
+        <list>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic">Lernwelt erstellen</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltImportieren.topic">Lernwelt importieren</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltSortieren.topic">Lernwelt sortieren</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic">Lernwelt öffnen</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteLernweltLoeschen.topic">Lernwelt löschen</a></li>
+            <li><a href="ManualAuthoringBedienungStartseiteDateinamenDerLernweltAnzeigen.topic">Dateinamen der Lernwelt anzeigen</a></li>
+        </list>
+    </chapter>
+</topic>

@@ -13,36 +13,46 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
+      - name: Generate App token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.REQ_UPDATER_APP_ID }}
+          private-key: ${{ secrets.REQ_UPDATER_APP_KEY }}
       # Checkout the main repository
       - name: Checkout Main Repo
         uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
         with:
           path: Documentation
+          ref: ${{ github.ref }}
+          persist-credentials: false
 
       # Checkout additional repositories at the same level as the main repo
       - name: Checkout 2D_3D_AdLer Repo
         uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
         with:
           repository: ProjektAdLer/2D_3D_AdLer
           path: 2D_3D_AdLer
 
       - name: Checkout Autorentool Repo
         uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
         with:
           repository: ProjektAdLer/Autorentool
           path: Autorentool
 
       - name: Checkout AdLerBackend Repo
         uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
         with:
           repository: ProjektAdLer/AdLerBackend
           path: AdLerBackend
-
-      - name: Execute tree command
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y tree
-          tree -L 4
 
       # Install Node.js and run the script
       - name: Set up Node.js
@@ -63,7 +73,13 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Automated commit by GitHub Actions" || echo "No changes to commit"
-          git push
+          git commit -m "Updated requirements" || echo "No changes to commit"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ steps.generate-token.outputs.token }}
+          repository: ${{ env.GITHUB_REPOSITORY }}
+          directory: Documentation
+          branch: ${{ github.ref }}

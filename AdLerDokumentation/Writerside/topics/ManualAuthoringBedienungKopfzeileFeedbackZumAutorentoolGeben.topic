@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Feedback zum Autorentool geben" id="ManualAuthoringBedienungKopfzeileFeedbackZumAutorentoolGeben">
+
+    <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Rückmeldung zur Umsetzung des Autorentools im Gesamten geben.</p>
+            </def>
+        </deflist>
+
+
+        <step><p>Klicken Sie in der Kopfzeile mit der Maus auf den Button <control>?</control>.</p>
+            <img src="imageManualAuthoringStartseiteHilfeButtonCallout.png" alt="HilfeButtonCallout" width="200" thumbnail="true"/>
+            <tip>Es öffnet sich eine Menü mit mehreren Optionen.
+                <img src="imageManualAuthoringStartseiteMenueCallout.png" alt="HilfeMenueCallout" width="200" thumbnail="true"/>
+            </tip>
+        </step>
+
+        <step><p>Klicken Sie auf die Option <control>Feedback geben</control>.</p>
+            <img src="imageManualAuthoringStartseiteFeedbackButtonCallout.png" alt="AllgemeinesFeedbackButtonCallout" width="200" thumbnail="true"/>
+            <tip>Es öffnet sich ein Browserfenster mit einer Umfrage. Mit dieser Umfrage können Sie am Ende der Nutzung des Autorentools ein allgemeines Feedback zum Autorentool geben.</tip>
+            <img src="imageManualAuthoringStartseiteAllgemeinesFeedbackCallout.png" alt="AllgemeinesFeedbackCallout" width="200" thumbnail="true"/>
+        </step>
+        <note>
+            <p>Sie haben erfolgreich Feedback zum Autorentool im Gesamten gegeben.</p>
+            <p>&#10004;</p>
+        </note>
+    </procedure>
+</topic>

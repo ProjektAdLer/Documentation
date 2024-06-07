@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernwelt öffnen " id="ManualEngine-Lernwelt-oeffnen" help-id="ManualEngine-Lernwelt-öffnen">
+
+    <procedure title="" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist sorted="desc">
+            <def title="&#127937; Ziel der Handlung">
+                <p>Eine <a href="Lernwelt-GE.md">Lernwelt</a> auswählen und das <a href="ManualEngine-Lernraummenü.topic">Lernraum-Menü</a> öffnen.</p>
+            </def>
+        </deflist>
+
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Das <a href="ManualEngine-Lernweltmenue.topic">Lernwelt-Menü</a> ist geöffnet.</li>
+            </list>
+        </tip>
+
+        <step>
+            <p>Wählen Sie die gewünschte Lernwelt aus der Listenansicht aus.</p>
+            <img alt="imageManualEngine_LernweltAuswählen.png" src="imageManualEngine_LernweltAuswählen.png" />
+            <note>Eine bereits abgeschlossene Lernwelt wird durch einen grünen Haken gekennzeichnet.
+                <img src="imageManualEngine_LernweltAbgeschlossen.png" alt="Image Manual Engine Lernwelt Abgeschlossen" width="50"/>
+            </note>
+            <note>Die Detailinformationen zu der ausgewählten Lernwelt erscheinen im Bereich rechts.</note>
+        </step>
+        <step>
+            <p>Öffnen Sie die Lernwelt über den <control>Lernwelt öffnen</control>-Button</p>
+            <img alt="imageManualEngine_LernweltOeffnen.png" src="imageManualEngine_LernweltOeffnen.png" />
+        </step>
+        <note>
+            <format style="bold">&#10004; Das <a href="ManualEngine-Lernraummenü.topic">Lernraum-Menü</a> ist geöffnet.</format>
+        </note>
+    </procedure>
+</topic>

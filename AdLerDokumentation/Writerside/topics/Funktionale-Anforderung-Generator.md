@@ -1,10 +1,6 @@
 # Funktionale Anforderung Generator
 
-
-
-
-
-# Definition:
+## Definition:
 
 Der Generator muss Lehrenden die Möglichkeit bieten,
 
@@ -15,9 +11,9 @@ Der Generator muss fähig sein
 Als lehrende Person möchte ich
 
 
-# Akzeptanzkriterien:
+## Akzeptanzkriterien:
 
 
-# Aktivitätsdiagramm:
+## Aktivitätsdiagramm:
 
 

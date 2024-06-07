@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Betrachten der Lernwelt in Moodle" id="manualWorkshopSubscribeToLearningWorld">
+
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>Mit dieser Schritt-für-Schritt-Anleitung melden Sie sich im AdLer-Moodle an, um die erstellte Lernwelt als Moodle-Kurs betrachten zu können.</control>
+        </def>
+    </deflist>
+    <show-structure for="chapter, procedure" depth="2"/>
+    <chapter title="Anmelden in das AdLer-Moodle" default-state="expanded">
+        <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung1">
+            <step>
+                <p>Öffnen Sie Ihren bevorzugten Browser.</p>
+                <tip>Falls durch die vorangegangenen Schritte in der Anleitung <a href="manualWorkshopUploadLearningWorld.topic">"Hochladen einer Lernwelt"</a> bereits ein Browserfenster geöffnet wurde, können Sie den ersten Schritt überspringen.</tip>
+            </step>
+            <step>
+                <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://moodle.projekt-adler.eu" target="_blank">https://moodle.projekt-adler.eu</a> Oder öffnen Sie Moodle über den Button <control>In Moodle Öffnen</control> im zuvor erschienenen Pop-Up im Autorentool.</p>
+                <img src="imageManualWorkshopUploadLearningWorldSuceeded.png" alt="Hochladen erfolgreich Pop-Up Fenster" width="200" thumbnail="true" />
+                <note>Sie befinden sich nun auf der Anmeldeseite des AdLer-Moodle.</note>
+            </step>
+            <step>
+                <p>Klicken Sie im nun geöffneten Browserfenster im rechten oberen Bereich auf den Button <control>Log in</control>.</p>
+                <img src="imageManualWorkshopSubscribeToLearningWorldMoodleHomescreenNotLoggedInWithArrow.png" alt="Home Screen des AdLer Moodles ohne Login" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Geben Sie im nun erscheinenden Fenster Ihre Anmeldedaten ein.</p>
+                <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops ausgegeben. Sie finden das Schema der Anmeldedaten zusätzlich auf der Workshop Webseite der Projekt AdLer Homepage.</tip>
+                <warning>Ihre Anmeldedaten sind nicht dieselben, die sie im Autorentool genutzt haben um sich zum Hochladen der Lernwelt anzumelden!</warning>
+                <img src="imageManualWorkshopMoodleLoginFormWithData.png" alt="Moodle Login Formular" width="200" thumbnail="true"/>
+                <tip>Die Anmeldedaten im Bild sind nur zu Anschauungszwecken. Geben Sie bitte Ihre eigenen Anmeldedaten ein.</tip>
+            </step>
+            <step>
+                <p>Klicken Sie nun auf den Button <control>Log in</control>.</p>
+                <img src="imageManualWorkshopMoodleLoginFormWithDataFocusLoginButton.png" alt="Moodle Login Formular mit Fokus auf den Login Button" width="200" thumbnail="true"/>
+            </step>
+            <note>
+                <control>
+                    <p>Sie sind nun erfolgreich im AdLer-Moodle angemeldet.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+    </chapter>
+    <chapter title="Einschreiben in die 3D-Lernwelt" id="einschreibenInEineLernwelt">
+        <procedure>
+            <tip>Sie befinden sich nach der Anmeldung in Moodle in der Standardansicht. Sollten Sie sich direkt im Fenster des Moodle Kurses befinden, welches einen Button <control>Enroll me</control> aufweist, dann starten Sie bei Schritt 3.</tip>
+            <img src="imageManualWorkshopLoggedInToMoodleDefaultPage.png" alt="Standardansicht nach der Anmeldung in Moodle" width="200" thumbnail="true"/>
+            <step>
+                <p>Klicken Sie im oberen linken Bereich auf die Option <control>Home</control>.</p>
+                <img src="imageManualWorkshopLoggedInToMoodleDefaultPageWithArrow.png" alt="Pfeil der auf den Eintrag Home in der Standardansicht zeigt" width="200" thumbnail="true"/>
+                <note>Ihnen werden nun alle verfügbaren Moodle-Kurse angezeigt.</note>
+            </step>
+            <step>
+                <p>Wählen Sie nun den Moodle-Kurs zu Ihrer erstellten Lernwelt mit einem Klick aus.</p>
+                <img src="imageManualWorkshopAvailableCoursesWithArrow.png" alt="Pfeil der auf einen beispielhaft auszuwählenden Kurs zeigt" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <tip>Hat der Kurs, in den Sie sich einschreiben möchten, keinen Einschreibeschlüssel, fahren Sie bitte mit Schritt 4 fort.</tip>
+                <p>Klicken Sie in das Eingabefeld und geben Sie den Einschreibeschlüssel für die ausgewählte Lernwelt ein.</p>
+                <img src="imageManualWorkshopEnrollInputSelfEnrolmentKeyWithArrow.png" alt="Hervorhebung des Eingabefelds des Einschreibeschlüssels." width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Klicken Sie nun auf den Button <control>Enrol me</control>.</p>
+                <img src="imageManualWorkshopEnrollIEnrollMeButtonWithArrow.png" alt="Hervorhebung des Enroll-me Buttons" width="200" thumbnail="true"/>
+                <tip>Der ausgewählte Moodle-Kurs wird nun im AdLer-Moodle angezeigt.
+                    <img src="imageManualWorkshopMoodleCourseDefaultPage.png" alt="Anzeige des Moodle Kurses" width="200" thumbnail="true"/>
+                </tip>
+            </step>
+            <note>
+                <control>
+                    <p>Sie haben sich erfolgreich im AdLer-Moodle in die Lernwelt eingeschrieben.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+        <tip>
+            <p>Fahren Sie nun mit der Anleitung <a href="manualWorkshopLoginToEngine.topic">"Betrachten der Lernwelt in der 3D-Lernumgebung"</a> fort.</p>
+        </tip>
+    </chapter>
+</topic>

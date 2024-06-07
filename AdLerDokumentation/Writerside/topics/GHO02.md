@@ -10,4 +10,4 @@ Der Generator muss eine [ATF](ATF-GE.md) Objekt-Struktur in eine Datei serialisi
 
 ## Aktivitätsdiagramm:
 
-
+![imageAktivitätsdiagrammATFSerialisieren](imageAktivitätsdiagrammATFSerialisieren.png)

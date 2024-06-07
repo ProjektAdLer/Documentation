@@ -1,20 +1,13 @@
 # Spielerdaten erlangen
 
+## Definition:
 
-
-# Definition:
-
-Das Backend muss fähig sein die Spielerbezogene Daten zu erlangen.
+Das Backend muss fähig sein, unter Angabe des Tokens die Spielerdaten zu erlangen.
 
 ## Anmerkung
 Diese Anforderung wurde zwar an das System gestellt, jedoch verarbeiten die anderen Systeme diese momentan nicht.
 
+## Akzeptanzkriterien:
+- Das Backend gibt die Spielerdaten zurück.
 
-# Akzeptanzkriterien:
-Liste der momentanen Spielerdaten:
-- Geschlecht (enum: Männlich, Weiblich)
-- Hintergrundfarbe der Welt
-- ID des Spielers
-
-# Aktivitätsdiagramm:
 
