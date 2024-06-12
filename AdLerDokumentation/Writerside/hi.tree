@@ -522,7 +522,27 @@
             <toc-element topic="Software-Design-Backend.md"/>
         </toc-element>
         <toc-element topic="Plugin-BG.md">
-            <toc-element topic="Funktionale-Anforderungen-Plugin.md"/>
+            <toc-element topic="Funktionale-Anforderungen-Plugin.md">
+                <toc-element topic="M_Backup.md">
+                    <toc-element topic="MVP2.md"/>
+                    <toc-element topic="MVP1.md"/>
+                </toc-element>
+                <toc-element topic="M_UI.md">
+                    <toc-element topic="Adaptivitätselement.md">
+                    </toc-element>
+                    <toc-element topic="Raumlogik.md">
+                    </toc-element>
+                </toc-element>
+                <toc-element topic="M_API.md">
+                    <toc-element topic="MVP9.md"/>
+                    <toc-element topic="MVP8.md"/>
+                    <toc-element topic="MVP7.md"/>
+                    <toc-element topic="MVP6.md"/>
+                    <toc-element topic="MVP5.md"/>
+                    <toc-element topic="MVP4.md"/>
+                    <toc-element topic="MVP3.md"/>
+                </toc-element>
+            </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Plugin.md"/>
             <toc-element topic="SBOM-Plugin.md"/>
             <toc-element topic="Schnittstellen-Plugin.md"/>
