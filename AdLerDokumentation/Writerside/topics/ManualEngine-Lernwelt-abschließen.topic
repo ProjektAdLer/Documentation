@@ -13,13 +13,16 @@
         </deflist>
 
         <tip>
-            <p>Eine Lernwelt gilt als abgeschlossen, wenn alle darin enthaltenen Lernräume abgeschlossen sind. Die abgeschlossenen Räume werden mit einem grünen Haken gekennzeichnet.</p>
+            <p>Eine Lernwelt gilt als abgeschlossen, wenn alle darin enthaltenen Lernräume abgeschlossen sind. Die
+                abgeschlossenen Räume werden mit einem grünen Haken gekennzeichnet.</p>
 
             <p>Übersicht der Lernräume im Lernweltmenü:</p>
-            <img src="imageManualEngine_LernweltAbgeschlossen_UebersichtRaume.png" alt="Übersicht abgeschlossener Lernräume" width="500"/>
+            <img src="imageManualEngine_LernweltAbgeschlossen_UebersichtRaume.png"
+                 alt="Übersicht abgeschlossener Lernräume" width="500"/>
 
             <p>Bei Abschluss der Lernwelt erscheint folgender Dialog:</p>
-            <img src="imageManualEngine_LernweltAbgeschlossenDialog.png" alt="Lernwelt abgeschlossen Dialog" width="250"/>
+            <img src="imageManualEngine_LernweltAbgeschlossenDialog.png" alt="Lernwelt abgeschlossen Dialog"
+                 width="250"/>
         </tip>
 
         <step><p>Wählen Sie eine Lernwelt aus.</p>
@@ -30,11 +33,16 @@
         </step>
         <step><p><a href="ManualEngine-Lernraum-öffnen.topic">Öffnen Sie den Lernraum.</a></p>
         </step>
-        <step><p><a href="ManualEngine-Lernraum-abschließen.topic">Schließen Sie den Lernraum ab.</a> Erledigen Sie dazu ausreichend Aufgaben um die erforderliche Punktezahl zum Abschluss zu erreichen.</p>
+        <step><p><a href="ManualEngine-Lernraum-abschließen.topic">Schließen Sie den Lernraum ab.</a> Erledigen Sie dazu
+            ausreichend Aufgaben um die erforderliche Punktezahl zum Abschluss zu erreichen.</p>
         </step>
         <step><p>Wiederholen Sie Schritte 3-5 für alle Lernräume der Lernwelt.</p>
         </step>
 
-        <note><format style="bold">&#10004; Der Lernraum wurde durch abschließen aller Lernräume erfolgreich abgeschlossen.</format></note>
+        <note>
+            <format style="bold">&#10004; Der Lernraum wurde durch Abschließen aller Lernräume erfolgreich
+                abgeschlossen.
+            </format>
+        </note>
     </procedure>
 </topic>

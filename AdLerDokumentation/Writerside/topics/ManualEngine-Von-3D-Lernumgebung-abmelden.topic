@@ -23,11 +23,15 @@
         </tip>
 
         <step>
-            <p>Klicken Sie auf den <control>Ausloggen-Button</control></p>
+            <p>Klicken Sie auf den
+                <control>Ausloggen-Button</control>
+                in der rechten unteren Ecke des Startmenüs
+            </p>
             <img src="imageManualEngine_StartmenueLogout.png" alt="240507__Startmenü_Ausloggen.png" width="300"/>
         </step>
         <note>
-            <format style="bold">&#10004; Sie sind nun abgemeldet und sehen im Startmenü die Login-Eingabefelder.</format>
+            <format style="bold">&#10004; Sie sind nun abgemeldet und sehen im Startmenü die Login-Eingabefelder.
+            </format>
         </note>
     </procedure>
 </topic>

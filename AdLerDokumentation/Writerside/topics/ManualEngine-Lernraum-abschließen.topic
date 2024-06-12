@@ -12,6 +12,12 @@
             </def>
         </deflist>
 
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Sie befinden sich im <a href="ManualEngine-Lernraummenü.topic">Lernraummenü</a>.</li>
+            </list>
+        </tip>
 
         <step><p>Wählen Sie einen Lernraum aus.</p>
         </step>
@@ -32,6 +38,8 @@
             </list>
         </step>
 
-        <note><format style="bold">&#10004; Der Lernraum wurde abgeschlossen.</format></note>
+        <note>
+            <format style="bold">&#10004; Der Lernraum wurde abgeschlossen.</format>
+        </note>
     </procedure>
 </topic>

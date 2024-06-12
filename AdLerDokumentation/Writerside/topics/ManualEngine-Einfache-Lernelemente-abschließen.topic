@@ -8,7 +8,8 @@
     <procedure title="Einfache Elemente abschließen" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <p>Ein einfaches Lernelement (Text, Bild, Video) öffnen und schließen.</p>
+                <p>Ein einfaches <a href="ManualEngine-Lernraum-Lernelement.topic">Lernelement</a> (Text, Bild, Video)
+                    öffnen und schließen.</p>
             </def>
         </deflist>
 
@@ -22,6 +23,11 @@
             <note>Das Fenster schließt sich.</note>
         </step>
 
-        <note><format style="bold">&#10004; Das einfache Lernelement wurde geöffnet, betrachtet und geschlossen.</format></note>
+        <note>
+            <format style="bold">&#10004;
+                <p>Das einfache Lernelement wurde geöffnet, betrachtet und geschlossen.</p>
+                <p>Die entsprechende Punktezahl wurde dem Lernfortschritt hinzugefügt. </p>
+            </format>
+        </note>
     </procedure>
 </topic>
