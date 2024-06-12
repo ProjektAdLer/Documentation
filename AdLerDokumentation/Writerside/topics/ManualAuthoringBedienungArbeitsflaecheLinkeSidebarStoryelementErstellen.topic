@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Storyelement erstellen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumen.topic">Angaben zu Storyelementen</a>.</p>
+
+    <procedure type="steps" title="Storyelement erstellen" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>In einer geöffneten Lernwelt ein Storyelement erstellen.</p>
+            </def>
+        </deflist>
+        <step>
+            <p>Klicken Sie auf den Tab <control>Angaben zu Lernräumen</control>.</p>
+            <img src="imageManualAuthoringLernraumErstellenTab.png" alt="LernraumErstellenTab" width="200" thumbnail="true"/>
+        </step>
+        <tip>
+            <p>Wenn Sie einen bereits existierenden Lernraum bearbeiten, wird im oberen Bereich ein zusätzlicher Button <control>NEU</control> angezeigt. Über diesen kann ebenfalls ein neuer Lernraum erstellt werden.</p>
+            <img src="imageManualAuthoringLernraumErstellenButton.png" alt="LernraumErstellenButton" width="200" thumbnail="true"/>
+            <p>Der Button wird ausschließlich im Bearbeitungsmodus eines bereits existierenden Lernraums angezeigt.</p>
+        </tip>
+    </procedure>
+
+
+
+    <procedure title="Metadaten zum Lernraum" id="MetadatenZuLernraum">
+        <step>Machen Sie Angaben zum Lernraum.
+            <p><control>Erforderliche Angaben:</control></p>
+                <tabs>
+                    <tab id="allgemeines_lernraum" title="Allgemein">
+                        <procedure type="choices" id="allgemeines_tab_lernraum" title="Allgemein">
+                            <step>
+                                <p>Vergeben Sie im ersten Textfeld einen Namen für den Lernraum.</p>
+                                <img src="imageManualAuthoringLernraumErstellenNeueLernwelt.png" alt="LernraumErstellenInNeuerLernwelt" width="200" thumbnail="true"/>
+                                <warning>
+                                    <p>Für den Namen des Lernraums gelten bestimmte Regeln --> siehe <a href="AWA9005.md">Erforderliche Eigenschaften für Lernraum</a>.</p>
+                                </warning>
+                            </step>
+                        </procedure>
+                    </tab>
+                    <tab id="abschlussbedingung_lernraum" title="Abschlussbedingung">
+                        <procedure type="choices" id="abschlussbedingung_tab_lernraum" title="Abschlussbedingung">
+                            <step>
+                                <p>Tragen Sie eine maximal zu erreichende Punktzahl für diesen Lernraum ein.</p>
+                                <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                <tip>
+                                    <p>Im Rahmen der Abschlussbedingung wird definiert, mit welcher maximalen Punktzahl ein Lernraum als erfolgreich abgeschlossen gilt. Die Angabe der maximalen Punktzahl sollte im Nachgang zur Erstellung der im Lernraum platzierten Elemente erfolgen, da sich erst im Anschluss daran die benötigte Punktzahl bestimmen lässt. <a href="AWA9005.md">Brauche ich vielleicht noch</a>.</p>
+                                </tip>
+                            </step>
+                        </procedure>
+                    </tab>
+                    <tab id="grundriss_lernraum" title="Grundriss">
+                        <procedure type="choices" id="grundriss_tab_lernraum" title="Grundriss">
+                            <warning>
+                                <p>Die Kategorie <control>Grundriss</control> steht ausschließlich im Bearbeitungsmodus (<control>Lernraum bearbeiten</control>) zur Verfügung, d.h. diese wird erst angezeigt, sobald ein Lernraum erstellt wurde und die Anzeige in den Bearbeitungsmodus wechselt. <a href="AWA9005.md">Erforderliche Eigenschaften für Lernraum</a>.</p>
+                            </warning>
+                            <tip>
+                                <p>Mit dem Grundriss wird die Form des Lernraums und die Anzahl an verfügbaren Slots für das Platzieren von Elementen festgelegt. Der Grundriss mit <control>6</control> verfügbaren Slots ist standardmäßig eingestellt.</p>
+                                <p>Insgesamt stehen fünf Grundrisse zur Auswahl:</p>
+                                <list>
+                                    <li>Rechteckiger Grundriss mit 6 Slots</li>
+                                    <li>Rechteckiger Grundriss mit 8 Slots</li>
+                                    <li>L-Form mit 10 Slots</li>
+                                    <li>T-Form mit 13 Slots</li>
+                                    <li>D-Form mit 15 Slots</li>
+                                </list>
+                            </tip>
+                            <step>
+                                <p>Legen Sie einen Grundriss für diesen Lernraum fest.</p>
+                                <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                <tip>
+                                    <p>Positionieren Sie die Maus über das Grundriss-Icon. Es erscheint zunächst eine vergrößerte Ansicht des Grundrisses in 2D, und nachfolgend eine Ansicht des Grundrisses in 3D.</p>
+                                    <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                </tip>
+                            </step>
+                        </procedure>
+                    </tab>
+                    <tab id="thema_lernraum" title="Thema">
+                        <procedure type="choices" id="theme_tab_lernraum" title="Thema">
+                            <tip>
+                                <p>Mit dem Thema wird das Aussehen des Raumes und seiner Umgebung festgelegt. Das Thema <control>Campus Aschaffenburg</control> ist standardmäßig eingestellt.</p>
+                                <p>Insgesamt stehen vier Themen zur Auswahl:</p>
+                                <list>
+                                    <li>Campus Aschaffenburg</li>
+                                    <li>Campus Kempten</li>
+                                    <li>Spielhalle</li>
+                                    <li>Vorstadt</li>
+                                </list>
+                            </tip>
+                            <step>
+                                <p>Legen Sie ein Thema für diesen Lernraum fest.</p>
+                                <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                            </step>
+                        </procedure>
+                    </tab>
+                </tabs>
+
+        <p><control>Optionale Angaben:</control></p>
+            <tabs>
+                <tab id="lernziele_lernraum" title="Lernziele">
+                    <procedure id="lernziele_tab_lernraum" title="Lernziele zum Lernraum">
+                        <step>
+                            <p>Formulieren Sie ein oder mehrere Lernziele für Ihren Lernraum.</p>
+                            <img src="imageManualAuthoringLernweltErstellenLernzieleCallout.png" alt="LernzieleCallout" width="200" thumbnail="true"/>
+                        </step>
+                    </procedure>
+                </tab>
+                <tab id="beschreibung_lernraum" title="Beschreibung">
+                    <procedure id="beschreibung_tab_lernraum" title="Beschreibung zum Lernraum">
+                        <step>
+                            <p>Beschreiben Sie das Thema Ihres Lernraums.</p>
+                            <img src="imageManualAuthoringLernweltErstellenBeschreibungCallout.png" alt="BeschreibungCallout" width="200" thumbnail="true"/>
+                        </step>
+                    </procedure>
+                </tab>
+            </tabs>
+        </step>
+
+        <step>
+            <p>Bestätigen Sie Ihre Angaben zum Lernraum mit einem Klick auf den Button <b>OK</b>.</p>
+            <img src="imageManualAuthoringStartseiteLernweltErstellenOKButtonCallout.png" alt="OKButton" width="200" thumbnail="true"/>
+        </step>
+    </procedure>
+    <note>
+        <control>
+            <p>Sie haben erfolgreich einen neuen Lernraum erstellt.</p>
+            <p>&#10004;</p>
+        </control>
+    </note>
+</topic>
