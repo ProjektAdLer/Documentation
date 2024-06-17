@@ -34,9 +34,9 @@
                         <procedure type="choices" id="allgemeines_tab_storyelement" title="Allgemein">
                             <step>
                                 <p>Vergeben Sie im ersten Textfeld einen Namen für das Storyelement.</p>
-                                <img src="imageManualAuthoringLernraumErstellenNeueLernwelt.png" alt="LernraumErstellenInNeuerLernwelt" width="200" thumbnail="true"/>
+                                <img src="imageManualAuthoringStoryelementErstellenAllgemein.png" alt="StoryelementErstellenAllgemein" width="200" thumbnail="true"/>
                                 <warning>
-                                    <p>Für den Namen des Lernelements gelten bestimmte Regeln --> siehe <a href="Autorentool-Storyelement-ErforderlicheEigenschaften.md">Erforderliche Eigenschaften für Storyelement</a>.</p>
+                                    <p>Für den Namen des Storyelements gelten bestimmte Regeln --> siehe <a href="Autorentool-Storyelement-ErforderlicheEigenschaften.md">Erforderliche Eigenschaften für Storyelement</a>.</p>
                                 </warning>
                             </step>
                         </procedure>
@@ -45,10 +45,9 @@
                         <procedure type="choices" id="storytext_tab_storyelement" title="Storytext">
                             <step>
                                 <p>Klicken Sie auf den Button <control>Plus</control>.</p>
-                                <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                <img src="imageManualAuthoringStoryelementErstellenStorytext.png" alt="StoryelementErstellenStorytextButton" width="200" thumbnail="true"/>
                                 <tip>
                                     <p>Es erscheint ein Textblock (Slide).</p>
-                                    <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
                                 </tip>
                                 <warning>
                                     <p>Für den Storytext zur Story gelten bestimmte Regeln --> siehe <a href="Autorentool-Storyelement-ErforderlicheEigenschaften.md">Erforderliche Eigenschaften für Storyelement</a>.</p>
@@ -56,9 +55,9 @@
                             </step>
                             <step>
                                 <p>Formulieren Sie in dem Textblock einen Text für das Storyelement.</p>
-                                <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                <img src="imageManualAuthoringStoryelementErstellenStorytextTextblock.png" alt="StoryelementErstellenStorytext" width="200" thumbnail="true"/>
                                 <tip>
-                                    <p>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock (Slide) mit max. 550 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button Plus weitere Textblöcke (Slides) hinzugefügt werden.</p>
+                                    <p>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock (Slide) mit max. 550 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button <control>Plus</control> weitere Textblöcke (Slides) hinzugefügt werden.</p>
                                 </tip>
                             </step>
                         </procedure>
@@ -71,15 +70,15 @@
                             <tip>
                                 <p>Für jeden Lernraum können zwei Storyelemente eingesetzt werden, die jeweils an der Tür des Grundrisses platziert werden. Eines für das Intro und eines für das Outro. Standardmäßig ist der erste, in der Auflistung aufgeführte, NPC ausgewählt.</p>
                                 <p>Insgesamt stehen drei NPCs zur Auswahl:</p>
-                                <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                <img src="imageManualAuthoringStoryelementAuswahlNPC.png" alt="StoryelementAuswahlNPC" width="200" thumbnail="true"/>
                             </tip>
                             <step>
                                 <p>Legen Sie einen NPC für dieses Storyelement fest.</p>
-                                <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                <img src="imageManualAuthoringStoryelementErstellen3DDarstellung.png" alt="StoryelementErstellen3DDarstellung" width="200" thumbnail="true"/>
                                 <note>Sie können für das Intro-Storyelement und das Outro-Storyelement jeweils den gleichen oder unterschiedliche NPCs wählen.</note>
                                 <tip>
                                     <p>Positionieren Sie die Maus über das NPC-Icon. Sobald die Maus über dem Icon liegt, erscheint zusätzlich ein grauer Hintergrund. Darüber hinaus erscheint eine vergrößerte Ansicht des NPCs.</p>
-                                    <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
+                                    <img src="imageManualAuthoringStoryelementErstellen3DDarstellungHover.png" alt="StoryelementErstellen3DDarstellungHover" width="200" thumbnail="true"/>
                                 </tip>
                             </step>
                         </procedure>
@@ -89,7 +88,7 @@
 
         <step>
             <p>Bestätigen Sie Ihre Angaben zum Storyelement mit einem Klick auf den Button <b>OK</b>.</p>
-            <img src="imageManualAuthoringStartseiteLernweltErstellenOKButtonCallout.png" alt="OKButton" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringStoryelementErstellenOKButton.png" alt="StoryelementErstellenOKButton" width="200" thumbnail="true"/>
         </step>
     </procedure>
     <note>
