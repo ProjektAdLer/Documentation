@@ -65,7 +65,7 @@
                     <tab id="3ddarstellung_storyelement" title="3D-Darstellung">
                         <procedure type="choices" id="3ddarstellung_tab_storyelement" title="3D-Darstellung">
                             <note>
-                                <p>Mit der Kategorie <control>3D-Darstellung</control> kann das Aussehen eines Non-Player-Characters (NPCs) ausgewählt werden. Dieser repräsentiert das Storyelement und erzählt die von Ihnen im Textblock formulierte Geschichte. Näheres zur Darstellung des Storyelements in der 3D-Lernumgebung finden Sie hier: <a href="ManualEngine-Lernraum-Story-Elemente.topic"></a>.</p>
+                                <p>Mit der Kategorie <control>3D-Darstellung</control> kann das Aussehen eines <a href="NPC-GE.md">Nicht-Spieler-Charakters (NPCs)</a> ausgewählt werden. Dieser repräsentiert das Storyelement und erzählt die von Ihnen im Textblock formulierte Geschichte. Näheres zur Darstellung des Storyelements in der 3D-Lernumgebung finden Sie hier: <a href="ManualEngine-Lernraum-Story-Elemente.topic"></a>.</p>
                             </note>
                             <tip>
                                 <p>Für jeden Lernraum können zwei Storyelemente eingesetzt werden, die jeweils an der Tür des Grundrisses platziert werden. Eines für das Intro und eines für das Outro. Standardmäßig ist der erste, in der Auflistung aufgeführte, NPC ausgewählt.</p>

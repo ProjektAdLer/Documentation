@@ -34,7 +34,7 @@
                     <procedure type="choices" id="allgemeines_tab_adaptivitaetselement" title="Allgemein">
                         <step>
                             <p>Tragen Sie allgemeine Metadaten zur Ihrem Adaptivitätselement ein:</p>
-                            <img src="imageManualAuthoringLernweltErstellenAllgemeinesCallout.png" alt="AllgemeinesCallout" width="200" thumbnail="true"/>
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenAllgemein.png" alt="AdaptivitaetselementErstellenAllgemeinesCallout" width="200" thumbnail="true"/>
                         </step>
                         <step><b>Name</b>
                             <p>Vergeben Sie im ersten Textfeld einen Namen für Ihr Adaptivitätselement.</p>
@@ -53,43 +53,25 @@
                 <tab id="aufgaben_adaptivitaetselement" title="Aufgaben">
                     <procedure type="choices" id="aufgaben_tab_adaptivitaetselement" title="Aufgaben">
                         <step>
-                            <p>Suchen Sie in der Auflistung das für das Lernelement vorgesehene externe Lernmaterial und klicken Sie dieses an.</p>
-                            <img src="imageManualAuthoringLernraumErstellenAbschlussbedingung.png" alt="LernraumAbschlussbedingung" width="200" thumbnail="true"/>
-                            <tip>
-                                <p>Hilfestellungen:</p>
-                                <list>
-                                    <li>Bei der Suche nach dem externen Lernmaterial kann die Suchleiste genutzt werden.</li>
-                                    <li>Darüber hinaus kann der angegebene Typ des externen Lernmaterials bei der Suche unterstützen.</li>
-                                    <li>Zudem wird der gesamte Name des externen Lernmaterials angezeigt, wenn Sie mit der Maus über den sichtbaren Teil des Namens fahren.</li>
-                                </list>
-                            </tip>
+                            <p>Klicken Sie auf den Button <control>Aufgaben hinzufügen</control>.</p>
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenAufgaben.png" alt="AdaptivitaetselementErstellenAufgaben" width="200" thumbnail="true"/>
+                            <note>
+                                <p>Wie Aufgaben von Adaptivitätselementen gestaltet sind, erfahren Sie unter <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAufgabeHinzufuegen.topic">Aufgaben hinzufügen</a>.</p>
+                            </note>
                         </step>
                     </procedure>
                 </tab>
                 <tab id="3ddarstellung_adaptivitaetselement" title="3D-Darstellung">
                     <procedure type="choices" id="3ddarstellung_tab_adaptivitaetselement" title="3D-Darstellung">
                         <note>
-                            <p>Lernelemente werden innerhalb der Lernräume in der 3D-Lernumgebung als Mobiliar dargestellt. Dieses kann in der Kategorie <control>3D-Darstellung</control> ausgewählt werden. Näheres zur Darstellung des Lernelements in der 3D-Lernumgebung finden Sie hier: <a href="ManualEngine-Lernraum-Lernelement.topic"></a>.</p>
+                            <p>Adaptivitätselemente werden in der 3D-Lernumgebung als <a href="NPC-GE.md">Nicht-Spieler-Charakter (NPC)</a> dargestellt. Im Fall des Adaptivitätselements wird der NPC stets als Roboter repräsentiert und ist somit standardmäßig eingestellt. In der Kategorie <control>3D-Darstellung</control> wird dieser aufgeführt. Näheres zur Darstellung des Adaptivitätselements in der 3D-Lernumgebung finden Sie hier: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"></a>.</p>
                         </note>
-                        <tip>
-                            <p>Standardmäßig ist eine zufällige Auswahl eines Mobiliars ausgewählt.</p>
-                            <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
-                        </tip>
                         <step>
-                            <p>Legen Sie ein Mobiliar für dieses Lernelement fest.</p>
-                            <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
-                            <note>Reihenfolge der 3D-Darstellung passt sich an Themes an.</note>
+                            <p>Klicken Sie auf die Kategorie <control>3D-Darstellung</control>, um sich den Roboter genauer anzusehen.</p>
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellen3DDarstellung.png" alt="Adaptivitaetselement3DDarstellung" width="200" thumbnail="true"/>
                             <tip>
-                                <p>Positionieren Sie die Maus über das NPC-Icon. Es erscheint eine vergrößerte Ansicht des NPCs in 2D.</p>
-                                <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
-                            </tip>
-                        </step>
-                        <step>
-                            <p>Legen Sie einen Grundriss für diesen Lernraum fest.</p>
-                            <img src="imageManualAuthoringLernraumErstellenGrundrisse.png" alt="LernraumGrundrisse" width="200" thumbnail="true"/>
-                            <tip>
-                                <p>Positionieren Sie die Maus über das Mobiliar-Icon. Sobald die Maus über dem Icon liegt, erscheint zusätzlich ein grauer Hintergrund. Darüber hinaus erscheint eine vergrößerte Ansicht der 3D-Darstellung des Mobiliars.</p>
-                                <img src="imageManualAuthoringLernraumErstellenGrundrisseVorschau.png" alt="LernraumGrundrisseVorschau" width="200" thumbnail="true"/>
+                                <p>Positionieren Sie die Maus über das NPC-Icon. Sobald die Maus über dem Icon liegt, erscheint zusätzlich ein grauer Hintergrund. Darüber hinaus erscheint eine vergrößerte Ansicht des Roboters.</p>
+                                <img src="imageManualAuthoringAdaptivitaetselementErstellen3DDarstellungHover.png" alt="Adaptivitaetselement3DDarstellungHover" width="200" thumbnail="true"/>
                             </tip>
                         </step>
                     </procedure>
@@ -102,7 +84,7 @@
                     <procedure id="lernziele_tab_adaptivitaetselement" title="Lernziele zum Adaptivitätselement">
                         <step>
                             <p>Formulieren Sie ein oder mehrere Lernziele für Ihr Adaptivitätselement.</p>
-                            <img src="imageManualAuthoringLernraumErstellenLernziele.png" alt="LernraumLernziele" width="200" thumbnail="true"/>
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenLernziele.png" alt="AdaptivitaetselementErstellenLernziele" width="200" thumbnail="true"/>
                         </step>
                     </procedure>
                 </tab>
@@ -110,7 +92,7 @@
                     <procedure id="beschreibung_tab_adaptivitaetselement" title="Beschreibung zum Adaptivitätselement">
                         <step>
                             <p>Beschreiben Sie das Thema Ihres Adaptivitätselement.</p>
-                            <img src="imageManualAuthoringLernraumErstellenBeschreibung.png" alt="LernraumBeschreibung" width="200" thumbnail="true"/>
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenBeschreibung.png" alt="AdaptivitaetselementErstellenBeschreibung" width="200" thumbnail="true"/>
                         </step>
                     </procedure>
                 </tab>
@@ -119,7 +101,7 @@
 
         <step>
             <p>Bestätigen Sie Ihre Angaben zum Adaptivitätselement mit einem Klick auf den Button <b>OK</b>.</p>
-            <img src="imageManualAuthoringLernraumErstellenOKButton.png" alt="LernraumOKButton" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringAdaptivitaetselementErstellenOKButton.png" alt="AdaptivitaetselementErstellenOKButton" width="200" thumbnail="true"/>
         </step>
     </procedure>
     <note>

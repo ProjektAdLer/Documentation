@@ -657,6 +657,14 @@
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/>
                             <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAufgabeHinzufuegen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarFrageHinzufuegen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarKommentarHinzufuegen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVerweisHinzufuegen.topic"/>
+                            <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/>
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialSuchen.topic"/>
