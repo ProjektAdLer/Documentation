@@ -131,9 +131,7 @@
         </chapter>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic">Lernraum erstellen</a></li>
         </list>
     </chapter>
 
