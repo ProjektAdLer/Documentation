@@ -18,11 +18,11 @@
         </deflist>
         <step>
             <p>Klicken Sie auf den Tab <control>Angaben zu Lernräumen</control>.</p>
-            <img src="imageManualAuthoringLernraumErstellenTab.png" alt="LernraumErstellenTab" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringAngabenZuLernelementenTab.png" alt="LernelementErstellenTab" width="200" thumbnail="true"/>
         </step>
         <tip>
             <p>Wenn Sie einen bereits existierenden Lernraum bearbeiten, wird im oberen Bereich ein zusätzlicher Button <control>NEU</control> angezeigt. Über diesen kann ebenfalls ein neuer Lernraum erstellt werden.</p>
-            <img src="imageManualAuthoringLernraumErstellenButton.png" alt="LernraumErstellenButton" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLernelementErstellenNeuButton.png" alt="LernelementErstellenNeuButton" width="200" thumbnail="true"/>
             <p>Der Button wird somit ausschließlich im Bearbeitungsmodus eines bereits existierenden Lernraums angezeigt.</p>
         </tip>
     </procedure>
