@@ -17,7 +17,7 @@
             über die Eingangs-/Ausgangstüren innerhalb der 3D-Lernwelt wechseln.</p>
 
         <tabs>
-            <tab id="change-doors" title="Türen">
+            <tab id="change-doors" title="Tueren">
                 <procedure>
                     <tip>
                         <p>Voraussetzungen:</p>
@@ -64,7 +64,7 @@
                     </step>
                 </procedure>
             </tab>
-            <tab id="change-menu" title="Menü">
+            <tab id="change-menu" title="Menue">
                 <procedure>
                     <tip>
                         <p>Voraussetzungen:</p>

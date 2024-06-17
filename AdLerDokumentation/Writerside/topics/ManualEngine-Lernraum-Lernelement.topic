@@ -145,7 +145,9 @@
 
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
-            <li><a href="ManualEngine-Interaktive-Inhalte-öffnen.topic"/></li>
+            <li><a href="ManualEngine-Interaktive-Inhalte-öffnen.topic" instance="!hi"/>
+                <if instance="hi">Interaktive Inhalte öffnen</if>
+            </li>
             <li><a href="ManualEngine-Einfache-Lernelemente-abschließen.topic"/></li>
             <li><a href="ManualEngine-H5P-Lernelemente-abschließen.topic"/></li>
         </list>

@@ -118,4 +118,16 @@
         <description>Created after removal of "Spielerdaten-Eigenschaften-Backend" from AdLerDokumentation</description>
         <accepts>Spielerdaten-Eigenschaften-Backend.html</accepts>
     </rule><rule></rule><rule></rule><rule></rule><rule></rule><rule></rule>
+    <rule id="5931e2cb">
+        <description>Created after removal of "Moodle" from AdLerDokumentation</description>
+        <accepts>ManualMoodle-Moodle.html</accepts>
+    </rule>
+    <rule id="22c30568">
+        <description>Created after removal of "3D-Lernumgebung" from AdLerDokumentation</description>
+        <accepts>ManualEngine-3D-Lernumgebung.html</accepts>
+    </rule>
+    <rule id="3a436b7c">
+        <description>Created after removal of "Interaktive Inhalte öffnen " from AdLerDokumentation</description>
+        <accepts>ManualEngine-Interaktive-Inhalte-öffnen.html</accepts>
+    </rule>
 </rules>

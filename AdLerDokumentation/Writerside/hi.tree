@@ -728,36 +728,32 @@
             <toc-element topic="Handreichung-Didaktik-BD.md"/>
         </toc-element>
         <toc-element topic="Lernende-BD.md">
-            <toc-element topic="ManualMoodle-Moodle.topic"/>
-            <toc-element topic="ManualEngine-3D-Lernumgebung.topic">
-                <toc-element topic="ManualEngine-Leistungsbeschreibung.topic"/>
-                <toc-element topic="ManualEngine_Softwarekomponenten.topic">
-                    <toc-element topic="ManualEngine_Startmenü.topic"/>
-                    <toc-element topic="ManualEngine-Lernweltmenue.topic"/>
-                    <toc-element topic="ManualEngine-Lernraummenü.topic"/>
-                    <toc-element topic="ManualEngine-Lernraum-allgemein.topic"/>
-                    <toc-element topic="ManualEngine-Lernraum-Lernelement.topic"/>
-                    <toc-element topic="ManualEngine-Lernraum-Adaptivitätselement.topic"/>
-                    <toc-element topic="ManualEngine-Lernraum-Story-Elemente.topic"/>
-                    <toc-element topic="Lernraum-Navigationsmenü.topic"/>
-                    <toc-element topic="ManualEngine-Hilfe-Menü.topic"/>
-                </toc-element>
-                <toc-element topic="ManualEngine-3D-Lernumgebung-bedienen.topic">
-                    <toc-element topic="ManualEngine-In-3D-Lernumgebung-anmelden.topic"/>
-                    <toc-element topic="ManualEngine-Von-3D-Lernumgebung-abmelden.topic"/>
-                    <toc-element topic="ManualEngine-Lernwelt-oeffnen.topic"/>
-                    <toc-element topic="ManualEngine-Lernwelt-abschließen.topic"/>
-                    <toc-element topic="ManualEngine-Lernraum-öffnen.topic"/>
-                    <toc-element topic="ManualEngine-Lernraum-abschließen.topic"/>
-                    <toc-element topic="ManualEngine-Lernraum-wechseln.topic"/>
-                    <toc-element topic="ManualEngine-Avatar-steuern.topic"/>
-                    <toc-element topic="ManualEngine-Interaktive-Inhalte-öffnen.topic"/>
-                    <toc-element topic="ManualEngine-Einfache-Lernelemente-abschließen.topic"/>
-                    <toc-element topic="ManualEngine-H5P-Lernelemente-abschließen.topic"/>
-                    <toc-element topic="ManualEngine-Adaptivitätselement-bedienen.topic"/>
-                    <toc-element topic="ManualEngine-Story-Elemente-bedienen.topic"/>
-                    <toc-element topic="ManualEngine-Bug-Report-senden.topic"/>
-                </toc-element>
+            <toc-element topic="ManualEngine-Leistungsbeschreibung.topic"/>
+            <toc-element topic="ManualEngine_Softwarekomponenten.topic">
+                <toc-element topic="ManualEngine_Startmenü.topic"/>
+                <toc-element topic="ManualEngine-Lernweltmenue.topic"/>
+                <toc-element topic="ManualEngine-Lernraummenü.topic"/>
+                <toc-element topic="ManualEngine-Lernraum-allgemein.topic"/>
+                <toc-element topic="ManualEngine-Lernraum-Lernelement.topic"/>
+                <toc-element topic="ManualEngine-Lernraum-Adaptivitätselement.topic"/>
+                <toc-element topic="ManualEngine-Lernraum-Story-Elemente.topic"/>
+                <toc-element topic="Lernraum-Navigationsmenü.topic"/>
+                <toc-element topic="ManualEngine-Hilfe-Menü.topic"/>
+            </toc-element>
+            <toc-element topic="ManualEngine-3D-Lernumgebung-bedienen.topic">
+                <toc-element topic="ManualEngine-In-3D-Lernumgebung-anmelden.topic"/>
+                <toc-element topic="ManualEngine-Von-3D-Lernumgebung-abmelden.topic"/>
+                <toc-element topic="ManualEngine-Lernwelt-oeffnen.topic"/>
+                <toc-element topic="ManualEngine-Lernwelt-abschließen.topic"/>
+                <toc-element topic="ManualEngine-Lernraum-öffnen.topic"/>
+                <toc-element topic="ManualEngine-Lernraum-abschließen.topic"/>
+                <toc-element topic="ManualEngine-Lernraum-wechseln.topic"/>
+                <toc-element topic="ManualEngine-Avatar-steuern.topic"/>
+                <toc-element topic="ManualEngine-Einfache-Lernelemente-abschließen.topic"/>
+                <toc-element topic="ManualEngine-H5P-Lernelemente-abschließen.topic"/>
+                <toc-element topic="ManualEngine-Adaptivitätselement-bedienen.topic"/>
+                <toc-element topic="ManualEngine-Story-Elemente-bedienen.topic"/>
+                <toc-element topic="ManualEngine-Bug-Report-senden.topic"/>
             </toc-element>
         </toc-element>
         <toc-element topic="Administrierende-BD.md"/>
