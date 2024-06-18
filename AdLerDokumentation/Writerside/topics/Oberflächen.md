@@ -36,7 +36,6 @@
 - Computermaus und Tastatur
 - Touchpad
 
-
 # Rahmenbedingungen für die Gestaltung der Benutzungsoberfläche
 **Die Nutzung des Autorentools muss auf folgenden Endgeräten möglich sein.**
 
