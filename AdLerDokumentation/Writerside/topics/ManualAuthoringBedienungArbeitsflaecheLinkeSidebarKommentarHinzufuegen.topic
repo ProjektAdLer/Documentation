@@ -5,38 +5,35 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Kommentar hinzufügen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarKommentarHinzufuegen">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuFragen.topic">Angaben zu Fragen</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuKommentaren.topic">Angaben zu Kommentaren</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Hier wird das Ziel der Handlung beschrieben</control>
+                <control>Ziel der Handlung</control>
+                <p>Einer Frage, die innerhalb der Aufgabe eines Adaptivitätselements erstellt wurde, einen Kommentar hinzufügen.</p>
             </def>
         </deflist>
-
-
-        <step><p>Führen Sie den ersten Schritt durch </p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
+        <warning>
+            <p>Zu einer Frage können Sie entweder einen Kommentar formulieren <control>oder</control> einen Verweis zu einem Lernelement oder einem externen Lernmaterial geben.</p>
+        </warning>
+        <tip>Die Lernenden bekommen den Kommentar in der 3D-Lernumgebung dann angezeigt, wenn sie die Frage innerhalb eines Adaptivitätselements falsch beantwortet haben.</tip>
+        <step><p>Klicken Sie auf den Button <control>Kommentar</control>.</p>
             <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
         </step>
-        <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+        <step><p>Tragen Sie in dem sich nun öffnenden Fenster in dem Textfeld einen Kommentar ein.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+
         </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+        <step><p>Bestätigen Sie Ihren formulierten Kommentar mit einem Klick auf den Button <control>OK</control>.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben der Frage innerhalb eines Adaptivitätselements erfolgreich einen Kommentar hinzugefügt.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
     </procedure>
 </topic>
