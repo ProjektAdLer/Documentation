@@ -1,6 +1,5 @@
 # GUI
 
-
 # Bedienkonzepte (Anforderungen an die Bedienung des Autorentools)
 
 **Ein Lernraum muss in drei Klicks erstellt sein.**
