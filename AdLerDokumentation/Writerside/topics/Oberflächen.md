@@ -33,7 +33,7 @@
 
 **Die Bedienung des Autorentools muss mit folgenden Eingabegeräten möglich sein.**
 
-- Computermaus und Tastatur
+- Maus und Tastatur
 - Touchpad
 
 # Rahmenbedingungen für die Gestaltung der Benutzungsoberfläche
