@@ -31,7 +31,8 @@
 2.	Klick: Lernmaterial in der Auflistung suchen und das Lösch-Button in der Floating Toolbar anwählen.
 3.	Klick: Löschen bestätigen.
 
-### Die Bedienung des Autorentools muss mit folgenden Eingabegeräten möglich sein.
+**Die Bedienung des Autorentools muss mit folgenden Eingabegeräten möglich sein.**
+
 - Computermaus und Tastatur
 - Touchpad
 
