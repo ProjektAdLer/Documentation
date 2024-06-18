@@ -103,9 +103,11 @@
             <tabs>
                 <tab id="lernziele_lernraum" title="Lernziele">
                     <procedure id="lernziele_tab_lernraum" title="Lernziele zum Lernraum">
-                        <step>
-                            <p>Formulieren Sie ein oder mehrere Lernziele für Ihren Lernraum.</p>
+                        <step><p>Klicken Sie im auf den Button <control>Lernziel-Formulierung</control>.</p>
                             <img src="imageManualAuthoringLernraumErstellenLernziele.png" alt="LernraumLernziele" width="200" thumbnail="true"/>
+                        </step>
+                        <step>
+                            <p>Wählen Sie, ob Sie das Lernziel <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielMitEingabeunterstuetzungFormulieren.topic">  mit Eingabeunterstützung </a> oder <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielOhneEingabeunterstuetzungFormulieren.topic"> selbst formulieren </a> möchten.</p>
                         </step>
                     </procedure>
                 </tab>
