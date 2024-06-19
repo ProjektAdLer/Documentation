@@ -130,4 +130,16 @@
         <description>Created after removal of "Interaktive Inhalte öffnen " from AdLerDokumentation</description>
         <accepts>ManualEngine-Interaktive-Inhalte-öffnen.html</accepts>
     </rule>
+    <rule id="10122bad">
+        <description>Created after removal of "Zweck" from AdLerDokumentation</description>
+        <accepts>Zweck.html</accepts>
+    </rule>
+    <rule id="5bca114b">
+        <description>Created after removal of "Benutzerdokumentation" from AdLerDokumentation</description>
+        <accepts>Benutzerdokumentation-Templates.html</accepts>
+    </rule>
+    <rule id="21fa2c7e">
+        <description>Created after removal of "Schnittstellen" from AdLerDokumentation</description>
+        <accepts>Schnittstellen-Backend.html</accepts>
+    </rule>
 </rules>
