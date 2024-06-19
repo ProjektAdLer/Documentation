@@ -1,9 +1,6 @@
 # Systemkontext
 
 ### Systemkontext des Projekts AdLer
-
-Der Systemkontext des Projekts AdLer umfasst verschiedene externe Systeme und Schnittstellen, Nutzer und Stakeholder, Geschäftsprozesse und Anwendungsfälle, die technische Umgebung und Infrastruktur, regulatorische und rechtliche Rahmenbedingungen sowie nicht-funktionale Anforderungen.
-
 #### Externe Systeme und Schnittstellen
 AdLer soll in bestehende Learning Management Systeme (LMS) wie Moodle integriert werden können. Schnittstellen zu externen Autorentools wie H5P sind ebenfalls vorgesehen.
 
