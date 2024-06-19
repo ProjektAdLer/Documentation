@@ -23,8 +23,8 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Die Wartungsdokumentation muss
-            die <a href="Dokumentation-GE.md"></a> sein, die zum Betreiben 
+            Die Wartungsdokumentation ist
+            die <a href="Dokumentation-GE.md"></a>, die zum Betreiben 
             des <a href="AdLer-System.md">Adler-Systems</a> erforderlich ist.
         </td>
     </tr>  

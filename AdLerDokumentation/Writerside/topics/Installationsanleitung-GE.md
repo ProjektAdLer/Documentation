@@ -21,7 +21,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary">
-            Die Installationsanleitung muss die <a href="Dokumentation-GE.md"></a> sein, 
+            Die Installationsanleitung ist die <a href="Dokumentation-GE.md"></a>, 
             die zur Installation des <a href="AdLer-System-GE.md">AdLer-Systems</a> 
             erforderlich ist.</td>
     </tr>  

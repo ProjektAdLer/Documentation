@@ -22,7 +22,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Die Testdokumentation muss die <a href="Dokumentation-GE.md"></a>  sein, 
+            Die Testdokumentation ist die <a href="Dokumentation-GE.md"></a>, 
             die zum Testen des <a href="AdLer-System.md">AdLer-Systems</a>
             erforderlich ist.
         </td>

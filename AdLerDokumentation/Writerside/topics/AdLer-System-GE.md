@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary">Im <a href="AdLer-Projekt-GE.md"></a> muss das AdLer-System das Softwaresystem sein,
+        <td id="summary">Im <a href="AdLer-Projekt-GE.md"></a> ist das AdLer-System das Softwaresystem,
             welches sich aus den folgenden <a href="Betrachtungsgegenstand-GE.md">Betrachtungsgegenständen</a> 
             zusammensetzt:
             <a href="Autorentool-BG.md"></a>, 

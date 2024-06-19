@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Der Betrachtungsgegenstand muss die Einheit sein, an die die Anforderung gestellt wird. 
+        <td id="summary" >Der Betrachtungsgegenstand ist die Einheit, an die die Anforderung gestellt werden kann. 
             Der Betrachtungsgegenstand kann somit beispielsweise über eine genannte Funktionalität 
             verfügen und diese bereitstellen. Zudem kann der Betrachtungsgegenstand 
             über die geforderte Eigenschaft verfügen und diese ebenfalls bereitstellen.</td>
