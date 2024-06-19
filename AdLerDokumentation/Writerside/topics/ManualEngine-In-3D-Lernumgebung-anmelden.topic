@@ -22,19 +22,35 @@
             </list>
         </tip>
 
+        <img src="imageManualEngine_startmenu_nologin_hightlight.png" alt="Login Eingabemaske"/>
+
         <step>
-            <p>Geben Sie Ihren Nutzernamen in das <control>Nutzername-Eingabefeld</control> ein.</p>
+            <p>Geben Sie Ihren Nutzernamen in das
+                <control>Nutzername-Eingabefeld</control>
+                ein.
+            </p>
         </step>
         <step>
-            <p>Geben Sie Ihr Passwort in das <control>Passwort-Eingabefeld</control> ein.</p>
+            <p>Geben Sie Ihr Passwort in das
+                <control>Passwort-Eingabefeld</control>
+                ein.
+            </p>
         </step>
         <step>
-            <p>Klicken Sie auf den <control>Login-Button</control> neben den Eingabefeldern.</p>
-            <tip>Sollte der Login nicht funktionieren, erscheint ein Hinweisfeld <control>Login fehlgeschlagen. Bitte überprüfen sie Ihre Eingaben.</control>
-            Überprüfen Sie Ihre Login-Eingaben und versuchen Sie es erneut.</tip>
+            <p>Klicken Sie auf den
+                <control>Login-Button</control>
+                neben den Eingabefeldern.
+            </p>
+            <tip>Sollte der Login nicht funktionieren, erscheint ein Hinweisfeld
+                <control>Login fehlgeschlagen. Bitte überprüfen sie Ihre Eingaben.</control>
+                Überprüfen Sie Ihre Login-Eingaben und versuchen Sie es erneut.<img
+                        src="imageManualEngine_startmenu_errorlogin_highlight.png" alt="Login fehlgeschlagen Warnung"/>
+            </tip>
         </step>
         <note>
-            <format style="bold">&#10004; Sie sind nun angemeldet und sehen den Text "Login erfolgreich!".</format>
+            <format style="bold">&#10004; Sie sind nun angemeldet und sehen den Text "Login erfolgreich!", sowie einen
+                Ausloggen-Button unten rechts.<img src="imageManualEngine_startmenu_login_highlight.png"
+                                                   alt="Login erfolgreich"/></format>
         </note>
     </procedure>
 </topic>

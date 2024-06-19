@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Frage hinzufügen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarFrageHinzufuegen">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgaben.topic">Angaben zu Aufgaben</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuFragen.topic">Angaben zu Fragen</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Einer Aufgabe, die innerhalb eines Adaptivitätselements erstellt wurde, eine Frage hinzufügen.</p>
+            </def>
+        </deflist>
+        <tip>Innerhalb einer Aufgabe können Sie maximal drei Fragen erstellen. Diese sollten einen unterschiedlichen Schwierigkeitsgrad aufweisen. Insgesamt stehen Ihnen mit der Formulierung einer <control>einfachen Frage</control>, <control>mittelschweren Frage</control> und <control>schweren Frage</control> drei Schwierigkeitsniveaus zur Verfügung.</tip>
+        <step><p>Klicken Sie auf den Button mit der gewählten Schwierigkeit.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <step><p>Formulieren Sie in dem sich nun öffnenden Fenster im oberen Textfeld den Fragetext.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <step><p>Klicken Sie auf den Button <control>Multiple-Choice</control>, falls Sie von einer Multiple-Choice-Frage zu einer Single-Choice-Frage wechseln möchten.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <tip>
+                <p>Standardmäßig ist <control>Multiple-Choice</control> eingestellt.</p>
+                <list>
+                    <li>Bei Single-Choice-Fragen ist nur eine Antwort richtig.</li>
+                    <li>Bei Multiple-Choice-Fragen können mehrere Antworten richtig sein.</li>
+                </list>
+            </tip>
+        </step>
+        <step><p>Tragen Sie die möglichen Antworten zu Ihrer Frage ein.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <step><p>Klicken Sie auf <control>Antworten hinzufügen</control>, falls Sie weitere Antwortmöglichkeiten formulieren möchten.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <step><p>Klicken Sie auf den Button <control>Erstellen</control>.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <tip>Sie gelangen nach diesem Klick erneut auf die Ansicht mit der erstellten Aufgabe. Ihre Frage ist nun über eine Vorschau-Ansicht einsehbar. Darüber hinaus wurde diese Frage als <control>zu lösende Frage</control> festgelegt. Näheres dazu erfahren Sie hier: <a href="Handreichung-Didaktik-BD.md"/>.
+                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            </tip>
+            <p>Optional: Entfernen Sie das Häkchen bei <control>Pflichtaufgabe</control>, wenn die Lernenden diese Aufgabe <control>nicht</control> verpflichtend bearbeiten sollen.</p>
+            <tip>Das Kästchen ist standardmäßig bei erstellter Frage angewählt und kann bei Bedarf abgewählt werden.</tip>
+        </step>
+        <step><p>Erstellen Sie im nächsten Schritt einen Kommentar oder einen Verweis zu Ihrer Frage --> näheres dazu erfahren Sie unter <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarKommentarHinzufuegen.topic">Kommentar hinzufügen</a> und <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVerweisHinzufuegen.topic">Verweis hinzufügen</a>.</p>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben der Aufgabe eines Adaptivitätselements erfolgreich eine Frage hinzugefügt.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+</topic>

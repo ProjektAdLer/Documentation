@@ -8,30 +8,97 @@
     <procedure title="" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist sorted="desc">
             <def title="&#127937; Ziel der Handlung">
-                <p>Einen anderen <a href="Lernraum-GE.md">Lernraum</a> aus der <a href="Lernwelt-GE.md">Lernwelt</a> auswählen und in der 3D-Ansicht öffnen.</p>
+                <p>Einen anderen <a href="Lernraum-GE.md">Lernraum</a> aus der <a href="Lernwelt-GE.md">Lernwelt</a>
+                    auswählen und in der 3D-Ansicht öffnen.</p>
             </def>
         </deflist>
 
-        <tip>
-            <p>Voraussetzungen:</p>
-            <list>
-                <li>Ein Lernraum einer Lernwelt ist geöffnet</li>
-                <li>Das Lernwelt-Navigationsmenü ist geöffnet. Siehe: <a href="Lernraum-Navigationsmenü.topic">Lernraum-Navigationsmenü</a></li>
-            </list>
-        </tip>
+        <p>Sie können den Lernraum über das <a href="Lernraum-Navigationsmenü.topic">Lernwelt-Navigationsmenü</a> oder
+            über die Eingangs-/Ausgangstüren innerhalb der 3D-Lernwelt wechseln.</p>
 
-        <step>
-            <p>Öffnen Sie das Lernraum-Menü über den <control>Lernraum-Menü</control>-Button des <control>Lernraum-Navigationsmenüs</control></p>
-            <note>
-                Sie haben den Lernraum verlassen und befinden sich nun im <a href="ManualEngine-Lernraummenü.topic">Lernraum-Menü</a>.
-            </note>
-        </step>
-        <step>
-            <p>Öffnen Sie einen Lernraum. Siehe: <a href="ManualEngine-Lernraum-öffnen.topic">Lernraum öffnen</a></p>
-        </step>
+        <tabs>
+            <tab id="change-doors" title="Tueren">
+                <procedure>
+                    <tip>
+                        <p>Voraussetzungen:</p>
+                        <list>
+                            <li>Ein Lernraum einer Lernwelt ist geöffnet</li>
+                        </list>
+                    </tip>
+                    <step>
+                        <p>Klicken Sie auf die Ein- oder Ausgangstüre um den Lernraum zu wechseln oder zu verlassen.</p>
+                        <tip>
+                            <p>Über die Eingangstüre können Sie in vorherige Räume wechseln, über die Ausgangstüre zu
+                                nachfolgenden Räumen.</p>
+                        </tip>
+                        <img src="imageManualEngine_LernraumDoorsCallouts.png" alt="Türen Callout"/>
+                        <table>
+                            <tr>
+                                <td>ID</td>
+                                <td>Bezeichnung</td>
+                                <td>Beschreibung</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Eingangstüre</td>
+                                <td>Öffnet bei Klick ein Menü zum Wechseln oder Verlassen des Lernraums</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ausgangstüre</td>
+                                <td>Öffnet bei Klick ein Menü zum Wechseln oder Verlassen des Lernraums</td>
+                            </tr>
+                        </table>
+                        <note>
+                            Es öffnet sich ein Auswahlmenü mit einer Liste an Wechsel-Möglichkeiten.
+                            <img src="imageManualEngine_LernraumDoorsMenu.png" alt="Türen Menü"/>
+                        </note>
+                    </step>
+                    <step>
+                        <p>Wählen Sie eine der Optionen aus dem geöffneten Auswahlmenü. Wählen Sie den ersten Eintrag um
+                            zum Lernwelt-Menü zurückzukehren.</p>
+                        <tip>
+                            <p>Sie können nur bereits freigeschaltete Lernräume auswählen. Gesperrte Lernräume werden
+                                durch ein Schloss-Symbol markiert.</p>
+                        </tip>
+                    </step>
+                </procedure>
+            </tab>
+            <tab id="change-menu" title="Menue">
+                <procedure>
+                    <tip>
+                        <p>Voraussetzungen:</p>
+                        <list>
+                            <li>Ein Lernraum einer Lernwelt ist geöffnet</li>
+                            <li>Das Lernwelt-Navigationsmenü ist geöffnet. Siehe: <a
+                                    href="Lernraum-Navigationsmenü.topic">Lernraum-Navigationsmenü</a></li>
+                        </list>
+                    </tip>
+                    <step>
+                        <p>Öffnen Sie das Lernraum-Menü über den
+                            <control>Lernraum-Menü</control>
+                            -Button des
+                            <control>Lernraum-Navigationsmenüs</control>
+                        </p>
+                        <note>
+                            Sie haben den Lernraum verlassen und befinden sich nun im <a
+                                href="ManualEngine-Lernraummenü.topic">Lernraum-Menü</a>.
+                        </note>
+                    </step>
+                    <step>
+                        <p>Öffnen Sie einen Lernraum. Siehe: <a href="ManualEngine-Lernraum-öffnen.topic">Lernraum
+                            öffnen</a></p>
+                    </step>
+                </procedure>
+            </tab>
+        </tabs>
+
         <note>
-            <format style="bold">&#10004; Der Lernraum wurde verlassen und der neu ausgewählte Lernraum startet in der 3D-Ansicht.</format>
-            <img alt="imageManualEngine-LearningSpace-ViewOnStart.png" src="imageManualEngine-LearningSpace-ViewOnStart.png" />
+            <format style="bold">&#10004; Der Lernraum wurde verlassen und der neu ausgewählte Lernraum startet in der
+                3D-Ansicht.
+            </format>
+            <img alt="imageManualEngine-LearningSpace-ViewOnStart.png"
+                 src="imageManualEngine-LearningSpace-ViewOnStart.png"/>
         </note>
     </procedure>
 </topic>

@@ -117,7 +117,7 @@
                     <p>Wiederholen Sie nun die Schritte 7-12, um den zweiten benötigten Link als externes Lernmaterial anzulegen. Die dafür notwendigen Informationen finden Sie untenstehend.</p>
                     <tip>
                     <p>Name für den Link:</p><code-block>Vielen Dank</code-block>
-                    <p>Link:</p><code-block>https://www.youtube.com/watch?v=utNBG19HYa8</code-block>
+                    <p>Link:</p><code-block>https://www.youtube.com/watch?v=gG0RuXkE7ps</code-block>
                     </tip>
                 </step>
                 <note>
@@ -165,7 +165,11 @@
                     <note>Das Lernelement erscheint im Grundriss in dem Lernelement-Slot, den Sie zu Beginn ausgewählt hatten.</note>
                 </step>
                 <step>
-                    <warning>Für den nachfolgenden Schritt wählen Sie jeweils einen weiteren freien Lernelement-Slot im Grundriss aus. Wenn Sie keinen Slot auswählen und ein neues Lernelement erstellen, erscheint Ihr erstelltes Lernelement unterhalb des Grundrisses in dem Bereich <control>Alle unplatzierten Elemente</control>. Von dort aus können Sie das erstellte Lernelement in einem freien Lernelement-Slot platzieren.</warning>
+                    <warning>
+                        <p>Für den nachfolgenden Schritt wählen Sie jeweils einen weiteren freien Lernelement-Slot im Grundriss aus. Wenn Sie keinen Slot auswählen und ein neues Lernelement erstellen, erscheint Ihr erstelltes Lernelement unterhalb des Grundrisses in dem Bereich <control>Alle unplatzierten Elemente</control>. Von dort aus können Sie das erstellte Lernelement in einem freien Lernelement-Slot platzieren.</p>
+                    </warning>
+                    <img src="imageManualWorkshopElementInUnplacedElements.png" alt="Lernelemente per Drag and Drop in den Lernraum ziehen" width="200" thumbnail="true" />
+                    <img src="imageManualWorkshopDragAndDropFromUnplacedElements.png" alt="Lernelemente per Drag and Drop in den Lernraum ziehen" width="200" thumbnail="true" />
                     <p>Wiederholen Sie nun Schritt 2-7 dieses Kapitels <control>Erstellen von drei Lernelementen</control> und fügen Sie den restlichen freien Lernelement-Slots die zwei weiteren Lernelemente zu.</p>
                     <tip>Entnehmen Sie untenstehend die Informationen zu den Metadaten der beiden Lernelemente.
                         <p><b>Zweites Lernelement:</b></p>

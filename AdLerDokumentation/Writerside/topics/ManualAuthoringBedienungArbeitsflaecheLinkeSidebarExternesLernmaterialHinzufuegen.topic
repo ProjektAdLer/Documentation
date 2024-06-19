@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Externes Lernmaterial hinzufügen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic">Externes Lernmaterial hinzufügen</a>.</p>
+
+    <procedure type="steps" title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>In Autorentool externes Lernmaterial hinzufügen, um Lernelemente erstellen zu können.</p>
+            </def>
+        </deflist>
+        <step>
+            <p>Klicken Sie auf den Tab <control>Externes Lernmaterial hinzufügen</control>.</p>
+            <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>Fügen Sie entweder Dateien oder Links zu Videos hinzu.</p>
+            <tabs>
+                <tab id="externes_lernmaterial_datei" title="Datei hinzufügen">
+                    <procedure type="choices" id="datei_externes_lernmaterial" title="Datei hinzufügen">
+                        <step>
+                            <p>Nutzen Sie für das Hinzufügen von Dateien die Dropzone.</p>
+                            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                            <p>Es gibt zwei Möglichkeiten, über die Dropzone Dateien hinzuzufügen:</p>
+                            <list>
+                                <li>Klicken Sie auf die <control>Dropzone</control>, suchen Sie in dem sich öffnenden Dateimanager die Dateien, die in das Autorentool geladen werden sollen und klicken Sie diese an. Bestätigen Sie Ihre Angabe mit einem Klick auf den Button <control>Öffnen</control>.</li>
+                                <li>Suchen Sie im Dateimanager die Dateien, die in das Autorentool geladen werden sollen und ziehen Sie diese per Drag and Drop in die Dropzone.
+                                </li>
+                            </list>
+                            <note>Sie können der Dropzone einzelne Dateien oder ZIP-Ordner mit den jeweiligen Dateien hinzufügen.</note>
+                            <tip>Falls Sie eine Datei hinzufügen, die bereits im Autorentool abgelegt ist, werden Sie über ein Dialogfenster darüber informiert.
+                            </tip>
+                            <warning>Im Autorentool werden nur bestimmte <a href="AWA9018.md">Dateieformate</a> unterstützt.</warning>
+                        </step>
+                    </procedure>
+                </tab>
+                <tab id="externes_lernmaterial_link" title="Link hinzufügen">
+                    <procedure type="choices" id="link_externes_lernmaterial" title="Link hinzufügen">
+                        <tip>Video-Dateiformate wie .mp4 werden nicht unterstützt, stattdessen können Videos über Links hinzugefügt werden.</tip>
+                        <step><p>Klicken Sie auf die Kategorie <control>Link hinzufügen</control>.</p>
+                            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                        </step>
+                        <step><p>Vergeben Sie einen Namen für den Link.</p>
+                            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                            <tip>Das Vergeben eines Namens hilft dabei, den Link im späteren Verlauf schneller wiederzufinden.</tip>
+                        </step>
+                        <step><p>Tragen Sie den Link zum entsprechenden Video ein.</p>
+                            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                            <warning>Achten Sie darauf, vor dem Link das Protokoll <control>http://</control> oder <control>https://</control> anzugeben.</warning>
+                        </step>
+                        <step>
+                            <p>Bestätigen Sie Ihre Angaben zum Link mit einem Klick auf den Button <b>OK</b>.</p>
+                            <img src="imageManualAuthoringLernraumErstellenOKButton.png" alt="LernraumOKButton" width="200" thumbnail="true"/>
+                        </step>
+                    </procedure>
+                </tab>
+            </tabs>
+        </step>
+
+    </procedure>
+    <note>
+        <control>
+            <p>Sie haben erfolgreich externes Lernmaterial hinzugefügt.</p>
+            <p>&#10004;</p>
+        </control>
+    </note>
+</topic>

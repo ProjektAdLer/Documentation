@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Verweis hinzufügen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVerweisHinzufuegen">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuFragen.topic">Angaben zu Fragen</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuVerweisen.topic">Angaben zu Verweisen</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Einer Frage, die innerhalb der Aufgabe eines Adaptivitätselements erstellt wurde, einen Verweis hinzufügen.</p>
+            </def>
+        </deflist>
+        <warning>
+            <p>Zu einer Frage können Sie entweder einen Kommentar formulieren <control>oder</control> einen Verweis zu einem Lernelement oder einem externen Lernmaterial geben.</p>
+        </warning>
+        <tip>Die Lernenden bekommen den Verweis in der 3D-Lernumgebung dann angezeigt, wenn sie die Frage innerhalb eines Adaptivitätselements falsch beantwortet haben.</tip>
+        <step><p>Klicken Sie auf den Button <control>Verweis</control>.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <step>
+            <p>Machen Sie Angaben zu dem von Ihnen gewählten Verweis.</p>
+            <warning>
+                <p>Zu einer Frage können Sie entweder einen Verweis zu einem Lernelement <control>oder</control> einen Verweis zu einem externen Lernmaterial geben.</p>
+            </warning>
+                <tabs>
+                    <tab id="verweis_lernelement_frage" title="Verweis auf ein Lernelement">
+                        <procedure type="choices" id="verweis_lernelement_adaptivitaetselement" title="Verweis auf ein Lernelement">
+                            <step><p>Tragen Sie optional in dem sich nun öffnenden Fenster in dem Textfeld einen Hinweistext zum Verweis ein.</p>
+                                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                            </step>
+                            <step><p>Suchen Sie aus der Auflistung aller bereits erstellten Lernelemente das Lernelement heraus, auf das Sie in dieser Frage verweisen möchten.</p>
+                                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                                <tip>Nutzen Sie die Suchfunktion, um das gewünschte Lernelement schnell und einfach zu finden.</tip>
+                            </step>
+                        </procedure>
+                    </tab>
+                    <tab id="verweis_lernmaterial_frage" title="Verweis auf ein externes Lernmaterial">
+                        <procedure type="choices" id="verweis_lernmaterial_adaptivitaetselement" title="Verweis auf ein externes Lernmaterial">
+                            <step><p>Tragen Sie optional in dem sich nun öffnenden Fenster in dem Textfeld einen Hinweistext zum Verweis ein.</p>
+                                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                            </step>
+                            <step><p>Suchen Sie aus der Auflistung aller bereits in das Autorentool geladenen externen Lernmaterialien das Lernmaterial heraus, auf das Sie in dieser Frage verweisen möchten.</p>
+                                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                                <tip>Nutzen Sie die Suchfunktion, um das gewünschte externe Lernmaterial schnell und einfach zu finden.</tip>
+                            </step>
+                        </procedure>
+                    </tab>
+                </tabs>
+        </step>
+        <step><p>Bestätigen Sie Ihren Verweis mit einem Klick auf den Button <control>OK</control>.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben der Frage innerhalb eines Adaptivitätselements erfolgreich einen Verweis hinzugefügt.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+</topic>

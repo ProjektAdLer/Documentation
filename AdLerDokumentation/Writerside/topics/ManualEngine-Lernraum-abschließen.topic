@@ -12,6 +12,12 @@
             </def>
         </deflist>
 
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Sie befinden sich im <a href="ManualEngine-Lernraummenü.topic">Lernraummenü</a>.</li>
+            </list>
+        </tip>
 
         <step><p>Wählen Sie einen Lernraum aus.</p>
         </step>
@@ -26,12 +32,16 @@
         <step><p>Schließen Sie ausreichend Lernelemente zum Erreichen der erforderlichen Punktezahl ab.</p>
             <list>
                 <li><a href="ManualEngine-Einfache-Lernelemente-abschließen.topic"/></li>
-                <li><a href="ManualEngine-Interaktive-Inhalte-öffnen.topic"/></li>
+                <li><a href="ManualEngine-Interaktive-Inhalte-öffnen.topic" instance="!hi"/>
+                    <if instance="hi">Interaktive Inhalte öffnen</if>
+                </li>
                 <li><a href="ManualEngine-Story-Elemente-bedienen.topic"/></li>
                 <li><a href="ManualEngine-H5P-Lernelemente-abschließen.topic"/></li>
             </list>
         </step>
 
-        <note><format style="bold">&#10004; Der Lernraum wurde abgeschlossen.</format></note>
+        <note>
+            <format style="bold">&#10004; Der Lernraum wurde abgeschlossen.</format>
+        </note>
     </procedure>
 </topic>

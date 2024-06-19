@@ -87,10 +87,10 @@
         <list>
             <li>Letzte Aktion rückgängig machen</li>
             <li>Aktion wiederholen</li>
-            <li>Feedback zur Benutzungsoberfläche geben</li>
+            <li><a href="ManualAuthoringBedienungKopfzeileFeedbackZurBenutzungsoberflaecheGeben.topic">Feedback zur Benutzungsoberfläche geben</a></li>
             <li>Sprache des Autorentools ändern</li>
-            <li>Feedback zum Autorentool geben</li>
-            <li>Technischen Fehler melden</li>
+            <li><a href="ManualAuthoringBedienungKopfzeileFeedbackZumAutorentoolGeben.topic">Feedback zum Autorentool geben</a></li>
+            <li><a href="ManualAuthoringBedienungKopfzeileTechnischenFehlerMelden.topic">Technischen Fehler melden</a></li>
             <li>Zur AdLer-Projektseite gehen</li>
             <li>Autorentool schließen</li>
         </list>

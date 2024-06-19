@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Kommentar hinzufügen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarKommentarHinzufuegen">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuFragen.topic">Angaben zu Fragen</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuKommentaren.topic">Angaben zu Kommentaren</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Einer Frage, die innerhalb der Aufgabe eines Adaptivitätselements erstellt wurde, einen Kommentar hinzufügen.</p>
+            </def>
+        </deflist>
+        <warning>
+            <p>Zu einer Frage können Sie entweder einen Kommentar formulieren <control>oder</control> einen Verweis zu einem Lernelement oder einem externen Lernmaterial geben.</p>
+        </warning>
+        <tip>Die Lernenden bekommen den Kommentar in der 3D-Lernumgebung dann angezeigt, wenn sie die Frage innerhalb eines Adaptivitätselements falsch beantwortet haben.</tip>
+        <step><p>Klicken Sie auf den Button <control>Kommentar</control>.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <step><p>Tragen Sie in dem sich nun öffnenden Fenster in dem Textfeld einen Kommentar ein.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+
+        </step>
+        <step><p>Bestätigen Sie Ihren formulierten Kommentar mit einem Klick auf den Button <control>OK</control>.</p>
+            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben der Frage innerhalb eines Adaptivitätselements erfolgreich einen Kommentar hinzugefügt.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+</topic>

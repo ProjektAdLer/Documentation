@@ -1,6 +1,6 @@
 # Babylon Scene Management
 
-Im Folgenden werden die Komponenten des Szenenmanagments für Babylon-Szenen in der AdLer Engine im Detail erläutert.
+Im Folgenden werden die Komponenten des Szenenmanagments für [Babylon](Babylon-js-Engine.md)-Szenen in der AdLer Engine im Detail erläutert.
 
 ![imageBabylonSceneManagement.jpg](imageBabylonSceneManagement.jpg)
 

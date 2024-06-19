@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Storyelement erstellen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuStoryelementen.topic">Angaben zu Storyelementen</a>.</p>
+
+    <procedure type="steps" title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>In einer geöffneten Lernwelt ein Storyelement über die linke Sidebar erstellen.</p>
+            </def>
+        </deflist>
+        <step>
+            <p>Klicken Sie auf den Tab <control>Angaben zu Storyelementen</control>.</p>
+            <img src="imageManualAuthoringAngabenZuStoryelementenTab.png" alt="StoryelementErstellenTab" width="200" thumbnail="true"/>
+        </step>
+        <tip>
+            <p>Wenn Sie ein bereits existierendes Storyelement bearbeiten, wird im oberen Bereich ein zusätzlicher Button <control>NEU</control> angezeigt. Über diesen kann ebenfalls ein neues Storyelement erstellt werden.</p>
+            <img src="imageManualAuthoringStoryelementErstellenNeuButton.png" alt="StoryelementErstellenNeuButton" width="200" thumbnail="true"/>
+            <p>Der Button wird ausschließlich im Bearbeitungsmodus eines bereits existierenden Storyelements angezeigt.</p>
+        </tip>
+    </procedure>
+
+    <procedure title="Metadaten zum Storyelement" id="MetadatenZuStoryelement">
+        <step>Machen Sie Angaben zum Storyelement.
+            <p><control>Erforderliche Angaben:</control></p>
+                <tabs>
+                    <tab id="allgemeines_storyelement" title="Allgemein">
+                        <procedure type="choices" id="allgemeines_tab_storyelement" title="Allgemein">
+                            <step>
+                                <p>Vergeben Sie im ersten Textfeld einen Namen für das Storyelement.</p>
+                                <img src="imageManualAuthoringStoryelementErstellenAllgemein.png" alt="StoryelementErstellenAllgemein" width="200" thumbnail="true"/>
+                                <warning>
+                                    <p>Für den Namen des Storyelements gelten bestimmte Regeln --> siehe <a href="Autorentool-Storyelement-ErforderlicheEigenschaften.md">Erforderliche Eigenschaften für Storyelement</a>.</p>
+                                </warning>
+                            </step>
+                        </procedure>
+                    </tab>
+                    <tab id="storytext_storyelement" title="Storytext">
+                        <procedure type="choices" id="storytext_tab_storyelement" title="Storytext">
+                            <step>
+                                <p>Klicken Sie auf den Button <control>Plus</control>.</p>
+                                <img src="imageManualAuthoringStoryelementErstellenStorytext.png" alt="StoryelementErstellenStorytextButton" width="200" thumbnail="true"/>
+                                <tip>
+                                    <p>Es erscheint ein Textblock (Slide).</p>
+                                </tip>
+                                <warning>
+                                    <p>Für den Storytext zur Story gelten bestimmte Regeln --> siehe <a href="Autorentool-Storyelement-ErforderlicheEigenschaften.md">Erforderliche Eigenschaften für Storyelement</a>.</p>
+                                </warning>
+                            </step>
+                            <step>
+                                <p>Formulieren Sie in dem Textblock einen Text für das Storyelement.</p>
+                                <img src="imageManualAuthoringStoryelementErstellenStorytextTextblock.png" alt="StoryelementErstellenStorytext" width="200" thumbnail="true"/>
+                                <tip>
+                                    <p>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock (Slide) mit max. 550 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button <control>Plus</control> weitere Textblöcke (Slides) hinzugefügt werden.</p>
+                                </tip>
+                            </step>
+                        </procedure>
+                    </tab>
+                    <tab id="3ddarstellung_storyelement" title="3D-Darstellung">
+                        <procedure type="choices" id="3ddarstellung_tab_storyelement" title="3D-Darstellung">
+                            <note>
+                                <p>Mit der Kategorie <control>3D-Darstellung</control> kann das Aussehen eines <a href="NPC-GE.md">Nicht-Spieler-Charakters (NPCs)</a> ausgewählt werden. Dieser repräsentiert das Storyelement und erzählt die von Ihnen im Textblock formulierte Geschichte. Näheres zur Darstellung des Storyelements in der 3D-Lernumgebung finden Sie hier: <a href="ManualEngine-Lernraum-Story-Elemente.topic"></a>.</p>
+                            </note>
+                            <tip>
+                                <p>Für jeden Lernraum können zwei Storyelemente eingesetzt werden, die jeweils an der Tür des Grundrisses platziert werden. Eines für das Intro und eines für das Outro. Standardmäßig ist der erste, in der Auflistung aufgeführte, NPC ausgewählt.</p>
+                                <p>Insgesamt stehen drei NPCs zur Auswahl:</p>
+                                <img src="imageManualAuthoringStoryelementAuswahlNPC.png" alt="StoryelementAuswahlNPC" width="200" thumbnail="true"/>
+                            </tip>
+                            <step>
+                                <p>Legen Sie einen NPC für dieses Storyelement fest.</p>
+                                <img src="imageManualAuthoringStoryelementErstellen3DDarstellung.png" alt="StoryelementErstellen3DDarstellung" width="200" thumbnail="true"/>
+                                <note>Sie können für das Intro-Storyelement und das Outro-Storyelement jeweils den gleichen oder unterschiedliche NPCs wählen.</note>
+                                <tip>
+                                    <p>Positionieren Sie die Maus über das NPC-Icon. Sobald die Maus über dem Icon liegt, erscheint zusätzlich ein grauer Hintergrund. Darüber hinaus erscheint eine vergrößerte Ansicht des NPCs.</p>
+                                    <img src="imageManualAuthoringStoryelementErstellen3DDarstellungHover.png" alt="StoryelementErstellen3DDarstellungHover" width="200" thumbnail="true"/>
+                                </tip>
+                            </step>
+                        </procedure>
+                    </tab>
+                </tabs>
+        </step>
+
+        <step>
+            <p>Bestätigen Sie Ihre Angaben zum Storyelement mit einem Klick auf den Button <b>OK</b>.</p>
+            <img src="imageManualAuthoringStoryelementErstellenOKButton.png" alt="StoryelementErstellenOKButton" width="200" thumbnail="true"/>
+        </step>
+    </procedure>
+    <note>
+        <control>
+            <p>Sie haben erfolgreich ein neues Storyelement erstellt.</p>
+            <p>&#10004;</p>
+        </control>
+    </note>
+</topic>
