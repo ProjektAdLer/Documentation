@@ -4,7 +4,7 @@
 
 <instance-profile id="hi"
                   name="AdLerDokumentation"
-                  start-page="Spezifikation.md">
+                  start-page="AdLer.md">
 
     <toc-element topic="AdLer.md">
         <toc-element topic="Architektur.md"/>
