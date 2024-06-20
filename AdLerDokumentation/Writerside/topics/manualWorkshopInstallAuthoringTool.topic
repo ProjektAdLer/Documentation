@@ -32,6 +32,38 @@
             <tab id="windows" title="Windows">
                 <p>Klicken Sie auf die Datei mit der Dateiendung <control>.exe</control>.</p>
                 <img src="imageManualWorkshopDownloadAuthoringToolWin.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
+                <procedure title="Download des Autorentools mit Microsoft Edge" collapsible="true">
+                    <tip>Falls Sie nicht Microsoft Edge als Browser verwenden, springen Sie zum Punkt <a href="manualWorkshopInstallAuthoringTool.topic#installation-windows1011"><control>Installieren des Autorentools unter Windows 10/11</control></a></tip>
+                    <warning>
+                        <p>Bei der Benutzung des Microsoft Edge Browsers wird die heruntergeladene Datei nicht als .exe Datei abgelegt, da Microsoft die Datei als nicht vertrauenswürdig einstuft. Befolgen Sie diese Schritte, um die Datei nutzbar zu machen</p>
+                    </warning>
+                    <step>
+                        <img src="imageManualWorkshopDownloadProblemEdge-1.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                        <p>Klicken Sie auf den <control>Button mit den drei nebeneinander angeordneten Punkten</control></p>
+                    </step>
+                    <step>
+                        <img src="imageManualWorkshopDownloadProblemEdge-2.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                        <p>
+                            Klicken Sie auf <control>Beibehalten</control>.
+                        </p>
+                    </step>
+                    <step>
+                        <img src="imageManualWorkshopDownloadProblemEdge-3.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                        <p>
+                            Klicken Sie auf <control>Mehr anzeigen</control>.
+                        </p>
+                    </step>
+                    <step>
+                        <img src="imageManualWorkshopDownloadProblemEdge-4.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                        <p>
+                            Klicken Sie auf <control>Trotzdem beibehalten</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-5.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                    <note>
+                        Die Datei ist nun nutzbar. Sie können mit der Anleitung fortfahren.
+                    </note>
+                </procedure>
             </tab>
             <tab id="macOS" title="macOS">
                 <p>Klicken Sie auf die Datei mit der Dateiendung <control>.dmg</control>.</p>
@@ -54,7 +86,7 @@
         </note>
     </procedure>
     <tabs>
-        <tab title="Installation Windows 10/11">
+        <tab title="Installation Windows 10/11" id="installation-windows1011">
             <procedure title="Installieren des Autorentools unter Windows 10/11">
                 <step>
                     <p>Öffnen Sie den Ordner, in dem Sie die Installationsdatei heruntergeladen haben.</p>

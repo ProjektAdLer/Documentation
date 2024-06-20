@@ -2,27 +2,29 @@
 
 ## AdLer-Engine Styleguide
 
-Dieser **Styleguide** beschreibt die in der Kommunikation und Umsetzung des AdLer-Projekts zu verwendenden Farben, Typografie, textliche Ansprache von Rezipienten und der Verwendung des Logos.
+Dieser **Styleguide** beschreibt die in der Umsetzung der AdLer-Engine zu verwendenden Farben, Typografie, textliche Ansprache von Rezipienten und der Verwendung des Logos.
 
 ### Farben
 
 #### Farbenzuordnung AdLerEngine
 
-        babylonbg: #33334d - Babylon Default Hintergrundfarbe
-        blacktrans: rgba(0,0,0,0.5) - Schwarz mit 50% Transparenz zur Abdunklung der Hintergründe von Modals
-        whitetrans: rgba(255,255,255,0.3) - Weiß mit 30% Transparenz
-        adlerblue: #a1c8e5 - Blau
-        adlerdarkblue: #172d4d - Dunkelblau
-        adlergreen: #59b347 - Grün
-        buttonbgblue: #e9f2fa - Hintergrundfarbe für Buttons
-        buttonpressedblue: #ace8fc - Hintergrundfarbe für Buttons im Zustand nachdem sie geklickt wurden
-        adlertextgrey: #111111 - Textfarbe
-        adlerbuttonlocked: #b9bfc6 - Farbe zur Kennzeichnung nicht benutzbarer Buttons
-        adlerdeactivatedtext: #e9e9e9 - Textfarbe für Texte in nicht benutzbaren Buttons
-        adlerbggradientfrom: #a1c8e5 - Startfarbe (Blau) des Hintergrundverlaufs der Menüs
-        adlerbggradientto: #e2eaf2 - Zielfarbe (Hellblau) des Hintergrundverlaufs der Menüs
-        nodehandlecolor: #e9d6b3 - Farbe der einzelnen Nodes in der Graphansicht des Lernweltmenüs
-        adleroceanblue: #45a0e5 - Farbe zur Hervorhebung von Links
+| Name                 | HEX / RGB Code | Beschreibung                           |
+|----------------------|----------|----------------------------------------|
+| babylonbg:           | #33334d | Babylon Default Hintergrundfarbe       |
+| blacktrans           | rgba(0,0,0,0.5) | Schwarz mit 50% Transparenz zur Abdunklung der Hintergründe von Modals
+| whitetrans           | rgba(255,255,255,0.3) | Weiß mit 30% Transparenz
+| adlerblue            | #a1c8e5 | Blau
+| adlerdarkblue        | #172d4d | Dunkelblau
+| adlergreen           | #59b347 | Grün
+| buttonbgblue         | #e9f2fa | Hintergrundfarbe für Buttons
+| buttonpressedblue    | #ace8fc | Hintergrundfarbe für Buttons im Zustand nachdem sie geklickt wurden
+| adlertextgrey        | #111111 | Textfarbe
+| adlerbuttonlocked    | #b9bfc6 | Farbe zur Kennzeichnung nicht benutzbarer Buttons
+| adlerdeactivatedtext | #e9e9e9 | Textfarbe für Texte in nicht benutzbaren Buttons
+| adlerbggradientfrom  | #a1c8e5 | Startfarbe (Blau) des Hintergrundverlaufs der Menüs
+| adlerbggradientto    | #e2eaf2 | Zielfarbe (Hellblau) des Hintergrundverlaufs der Menüs
+| nodehandlecolor      | #e9d6b3 | Farbe der einzelnen Nodes in der Graphansicht des Lernweltmenüs
+| adleroceanblue       | #45a0e5 | Farbe zur Hervorhebung von Links
 
 ### Typografie
 
