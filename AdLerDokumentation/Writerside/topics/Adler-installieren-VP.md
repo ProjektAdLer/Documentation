@@ -1,5 +1,3 @@
-## todo: glossar links
-
 # AdLer installieren
 
 Dieser Leitfaden beschreibt die Installation von AdLer auf einem Linux-Server.
