@@ -470,7 +470,6 @@
                 <toc-element topic="Gesamtarchitektur-Engine.md"/>
                 <toc-element topic="Entities-Engine.md"/>
             </toc-element>
-            <toc-element topic="Schnittstellen-Engine.md"/>
             <toc-element topic="SBOM-Engine.md"/>
         </toc-element>
         <toc-element topic="Backend-BG.md">
