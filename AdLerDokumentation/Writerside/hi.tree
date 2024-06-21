@@ -749,6 +749,8 @@
                         <toc-element topic="ManualAuthoringBedienungKopfzeileTechnischenFehlerMelden.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileZurAdLerProjektseiteGehen.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileLernzieleBetrachten.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileMoodleKurseLoeschen.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileAutorentoolSchließen.topic"/>
                     </toc-element>

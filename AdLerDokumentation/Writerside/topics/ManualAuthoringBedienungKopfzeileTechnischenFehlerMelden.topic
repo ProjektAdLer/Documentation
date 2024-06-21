@@ -6,8 +6,10 @@
        title="Technischen Fehler melden" id="ManualAuthoringBedienungKopfzeileTechnischenFehlerMelden">
 
     <show-structure for="chapter, procedure" depth="2"/>
-    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic">Kopfzeile auf der Startseite</a> und
-        <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.</p>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic">Kopfzeile auf der
+        Startseite</a> und
+        <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.
+    </p>
 
     <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
@@ -17,18 +19,34 @@
             </def>
         </deflist>
 
-        <step><p>Klicken Sie in der Kopfzeile mit der Maus auf den Button <control>?</control>.</p>
-              <img src="imageManualAuthoringStartseiteHilfeButtonCallout.png" alt="HilfeButtonCallout" width="200" thumbnail="true"/>
+        <step>
+            <p>Klicken Sie in der Kopfzeile mit der Maus auf den Button
+                <control>?</control>
+                .
+                <img src="imageManualAuthoringStartseiteHilfeButtonCallout.png" alt="HilfeButtonCallout" width="200"
+                     thumbnail="true" style="block"/>
+            </p>
             <tip>Es öffnet sich eine Menü mit mehreren Optionen.
-                <img src="imageManualAuthoringStartseiteMenueCallout.png" alt="HilfeMenueCallout" width="200" thumbnail="true"/>
+                <img src="imageManualAuthoringStartseiteMenueCallout.png" alt="HilfeMenueCallout" width="200"
+                     thumbnail="true"/>
             </tip>
         </step>
 
-        <step><p>Klicken Sie auf die Option <control>Technischen Fehler melden</control>.</p>
-            <img src="imageManualAuthoringStartseiteTechnischerFehlerButtonCallout.png" alt="TechnischerFehlerButtonCallout" width="200" thumbnail="true"/>
-            <tip>Es öffnet sich ein Browserfenster mit einem Formular, in dem Angaben zum aufgetretenen Fehler vorgenommen werden können.</tip>
-            <img src="imageManualAuthoringStartseiteTechnischerFehlerCallout.png" alt="TechnischerFehlerCallout" width="200" thumbnail="true"/>
-            <warning>Füllen Sie das Formular so präzise wie möglich aus, damit der aufgetretene Fehler bestmöglich nachvollzogen und von unserer Seite aus schnellst möglich behoben werden kann.</warning>
+        <step>
+            <p>Klicken Sie auf die Option
+                <control>Technischen Fehler melden</control>
+                .
+                <img src="imageManualAuthoringStartseiteTechnischerFehlerButtonCallout.png"
+                     alt="TechnischerFehlerButtonCallout" width="200" thumbnail="true" style="block"/>
+            </p>
+            <tip>Es öffnet sich ein Browserfenster mit einem Formular, in dem Angaben zum aufgetretenen Fehler
+                vorgenommen werden können.
+                <img src="imageManualAuthoringStartseiteTechnischerFehlerCallout.png" alt="TechnischerFehlerCallout"
+                     width="200" thumbnail="true"/>
+            </tip>
+            <warning>Füllen Sie das Formular so präzise wie möglich aus, damit der aufgetretene Fehler bestmöglich
+                nachvollzogen und von unserer Seite aus schnellst möglich behoben werden kann.
+            </warning>
         </step>
         <note>
             <p>Sie haben erfolgreich einen technischen Fehler im Autorentools gemeldet.</p>

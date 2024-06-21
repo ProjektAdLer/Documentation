@@ -5,38 +5,65 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Moodle-Kurse löschen" id="ManualAuthoringBedienungKopfzeileMoodleKurseLoeschen">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic">Kopfzeile auf der
+        Startseite</a> und
+        <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.
+    </p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Hier wird das Ziel der Handlung beschrieben</control>
+                <control>Ziel der Handlung</control>
+                <p>Löschen eines bereits erstellten Moodle-Kurses - welcher einer AdLer Lernwelt entspricht - vom
+                    Server.</p>
             </def>
         </deflist>
 
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Sie sind im Autorentool mit Ihrem Account angemeldet. Siehe: <a
+                        href="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/></li>
+                <li>Sie haben bereits mindestens eine Lernwelt veröffentlicht. Siehe: <a
+                        href="ManualAuthoringBedienungKopfzeileLernweltVeroeffentlichen.topic"/></li>
+            </list>
+        </tip>
 
-        <step><p>Führen Sie den ersten Schritt durch </p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step><p>Klicken Sie auf den Benutzer-Button (Symbol: Personen-Avatar)
+            <img src="imageManualAuthoringKopfzeileAktionBenutzer.png"
+                 alt="Benutzer Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" style="block"/>
+        </p>
+            <note>&#10004; Das Administrations-PopUp-Fenster wird geöffnet.
+                <img src="imageManualAuthoringKopfzeileAdministration.png" alt="Administrations-PopUp" width="200"
+                     thumbnail="true" style="block"/>
+            </note>
         </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
+            <p>Im unteren Bereich des Administrations-PopUp-Fensters sehen sie alle bereits erstellten und zugleich
+                veröffentlichten Kurse. Zum Löschen klicken Sie auf den
+                <control>Moodle-Kurs löschen</control>
+                -Button (Symbol: Papierkorb) neben dem jeweiligen Moodle Kurs.
+                <img src="imageManualAuthoringKopfzeileAdministrationKursLoeschen.png"
+                     alt="ZurStartseiteWechselnCallout" width="200" thumbnail="true" style="block"/>
+            </p>
+            <note>&#10004; Ein Bestätigungsdialog erscheint.
+                <img src="imageManualAuthoringKopfzeileAdministrationKursLoeschenBestaetigung.png"
+                     alt="Bestätigungsdialog Kurs Löschen" width="200" thumbnail="true" style="block"/>
+            </note>
+        </step>
+        <step>
+            <p>Drücken Sie den
+                <control>Ja</control>
+                -Button des angezeigten Bestätigungsdialoges um den entsprechenden Moodle-Kurs endgültig und
+                unwiderruflich zu löschen. Sie können alternativ den Dialog durch klicken des
+                <control>Abbrechen</control>
+                -Buttons ohne Löschung beenden.
             </p>
         </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+
+        <note>
+            <control>&#10004; Der ausgewählte Moodle-Kurs wurde unwiderruflich vom Server gelöscht.</control>
+        </note>
     </procedure>
 </topic>

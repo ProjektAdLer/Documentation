@@ -92,9 +92,9 @@
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><a href="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/></li>
+            <li><a href="ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.topic"/></li>
+            <li><a href="ManualAuthoringBedienungKopfzeileMoodleKurseLoeschen.topic"/></li>
         </list>
     </chapter>
 </topic>

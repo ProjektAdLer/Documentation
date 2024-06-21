@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernziel-Übersicht betrachten" id="ManualAuthoringBedienungKopfzeileLernzieleBetrachten">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der
+        Arbeitsfläche</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Alle definierten Lernziele der aktuell geöffnet Lernwelt betrachten.</p>
+            </def>
+        </deflist>
+
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Eine Lernwelt ist derzeitig geöffnet.</li>
+            </list>
+        </tip>
+
+        <step>
+            <p>Klicken Sie auf den
+                <control>Lernziele dieser Lernwelt</control>
+                -Button (Symbol: Zielscheibe)
+                <img src="imageManualAuthoringKopfzeileAktionLernziele.png"
+                     alt="Hervorgehobener Lernziele-Button in der Kopfzeile des Autorentools"
+                     width="200" thumbnail="true" style="block"/>
+            </p>
+            <note>&#10004; Das Lernziel-PopUp-Fenster wird geöffnet. Dieses enthält alle Lernziele aufgeteilt nach
+                Lernräumen.
+                <img src="imageManualAuthoringKopfzeileLernzielUebersichtFenster.png"
+                     alt="Lernziele-PopUp Fenster" width="200" thumbnail="true" style="block"/>
+            </note>
+        </step>
+        <step>
+            <p>Sie können nun das Fenster über den
+                <control>X</control>
+                -Button schließen.
+            </p>
+        </step>
+
+        <note>
+            <control>&#10004; Sie haben erfolgreich die Lernziel Übersicht dieser Lernwelt geöffnet.</control>
+        </note>
+    </procedure>
+</topic>
