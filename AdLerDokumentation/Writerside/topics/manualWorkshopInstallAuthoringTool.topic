@@ -33,7 +33,7 @@
                 <p>Klicken Sie auf die Datei mit der Dateiendung <control>.exe</control>.</p>
                 <img src="imageManualWorkshopDownloadAuthoringToolWin.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
                 <procedure title="Download des Autorentools mit Microsoft Edge" collapsible="true">
-                    <tip>Falls Sie nicht Microsoft Edge als Browser verwenden, springen Sie zum Punkt <a href="manualWorkshopInstallAuthoringTool.topic#installation-windows1011"><control>Installieren des Autorentools unter Windows 10/11</control></a></tip>
+                    <tip>Falls Sie Microsoft Edge nicht als Ihren Browser verwenden, springen Sie zum Punkt <a href="manualWorkshopInstallAuthoringTool.topic#installation-windows1011"><control>Installieren des Autorentools unter Windows 10/11</control></a></tip>
                     <warning>
                         <p>Bei der Benutzung des Microsoft Edge Browsers wird die heruntergeladene Datei nicht als .exe Datei abgelegt, da Microsoft die Datei als nicht vertrauenswürdig einstuft. Befolgen Sie diese Schritte, um die Datei nutzbar zu machen</p>
                     </warning>
