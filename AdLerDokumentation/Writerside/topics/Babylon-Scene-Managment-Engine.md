@@ -2,10 +2,6 @@
 
 Im Folgenden werden die Komponenten des Szenenmanagments für [Babylon](Babylon-js-Engine.md)-Szenen in der AdLer Engine im Detail erläutert.
 
-![imageBabylonSceneManagement.jpg](imageBabylonSceneManagement.jpg)
-
-![imageBabylonSceneInitialization.jpg](imageBabylonSceneInitialization.jpg)
-
 ## BabylonCanvas
 
 Der BabylonCanvas ist eine React-Komponente, über die sich eine Babylon-Szene in die übergreifende Ract-Struktur einbinden lässt.
@@ -50,3 +46,11 @@ Auf der anderen Seite definiert die AbstractSceneDefinition die privaten Methode
 
 - **preTasks-Array**: Array mit synchronen oder asynchronen Funktionen, die void zurückgeben; werden nach Reihenfolge im Array ausgeführt bevor die Szene initialisiert wird
 - **initializeScene-Methode**: abstrakte Methode, in der die Szene befüllt wird; hier werden Builder aufgerufen und Babylon-Komponenten, wie Kameras und Lichter, instantiiert
+
+## Diagramme
+
+
+
+![imageBabylonSceneInitialization.jpg](imageBabylonSceneInitialization.jpg)
+
+![imageBabylonSceneManagement.jpg](imageBabylonSceneManagement.jpg)
