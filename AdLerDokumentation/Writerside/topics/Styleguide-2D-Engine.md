@@ -26,20 +26,6 @@ Dieser **Styleguide** beschreibt die in der Umsetzung der AdLer-Engine zu verwen
 | nodehandlecolor      | #e9d6b3 | Farbe der einzelnen Nodes in der Graphansicht des Lernweltmenüs
 | adleroceanblue       | #45a0e5 | Farbe zur Hervorhebung von Links
 
-### Typografie
-
-Um die Verbindung des Projekts zu den Partnerhochschulen sichtbar zu machen, wird die Schriftfamilie [**Roboto**](https://fonts.google.com/specimen/Roboto?query=Roboto) verwendet. Es ist die Standardschriftart der **TH-Aschaffenburg**. Sie ist optisch, der von der **HS Kempten** verwendeten Schrift **Source Sans Pro**, ähnlich. **Roboto** ist eine klare, serifenlose und gut auf allen Endgeräten und Medien lesbare Schrift. Zur Strukturierung und Abgrenzung von Überschriften zu Fließtext, nutzen wir den Kontrast zwischen den Schriftschnitten **Regular** und **Black**.
-
-Weitere Typographiekonventionen:
-
-- 1,5 facher Zeilenabstand
-- Roboto Regular 12pt (Fließtext)
-    - Erlaubte Hervorhebungen im Text: **Fettdruck** und Kursiv
-    - Die Hervorhebung unterstrichen ist Hyperlinks vorbehalten
-- Roboto Black 24pt (Dokumententitel)
-- Roboto Black 18pt (Überschrift Ebene 1)
-- Roboto Black 14pt (Überschrift Ebene 2)
-
 ### Texte
 #### Ansprache der Rezipienten
 Das AdLer-Projekt steht für ein inklusives Miteinander aller Menschen ein. Aus diesem Grund verwenden wir in der textlichen Ansprache von Personen, eine neutrale Sprache. Aus Lehrern wird Lehrende, aus Studenten wird Studierende. Ist die Bildung eines Worts mit der Endung „-ende“ nicht möglich, so wird im zweiten Schritt geprüft, ob sich eine Ansprache mit dem Anhang „-person/en“ realisieren lässt (Bsp.: **Lehrpersonen**).
