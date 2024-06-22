@@ -12,7 +12,7 @@
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Eine Lernwelt aus dem Autorentool löschen.</p>
+                <p>Die einzelnen Dateinamen der geladenen Lernwelten anzeigen.</p>
             </def>
         </deflist>
 

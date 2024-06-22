@@ -20,7 +20,7 @@
         </warning>
         <tip>Die Lernenden bekommen den Verweis in der 3D-Lernumgebung dann angezeigt, wenn sie die Frage innerhalb eines Adaptivitätselements falsch beantwortet haben.</tip>
         <step><p>Klicken Sie auf den Button <control>Verweis</control>.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeVerweisButton.png" alt="Aufgabenübersicht: Verweis hinzufügen Button bei einer erstellten Frage" width="200" thumbnail="true"/>
         </step>
         <step>
             <p>Machen Sie Angaben zu dem von Ihnen gewählten Verweis.</p>
@@ -31,10 +31,10 @@
                     <tab id="verweis_lernelement_frage" title="Verweis auf ein Lernelement">
                         <procedure type="choices" id="verweis_lernelement_adaptivitaetselement" title="Verweis auf ein Lernelement">
                             <step><p>Tragen Sie optional in dem sich nun öffnenden Fenster in dem Textfeld einen Hinweistext zum Verweis ein.</p>
-                                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisHinweis.png" alt="Verweis hinzufügen: Hinweis Textfeld" width="200" thumbnail="true"/>
                             </step>
                             <step><p>Suchen Sie aus der Auflistung aller bereits erstellten Lernelemente das Lernelement heraus, auf das Sie in dieser Frage verweisen möchten.</p>
-                                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisLernelement.png" alt="Verweis hinzufügen: Lernelemente auswählen" width="200" thumbnail="true"/>
                                 <tip>Nutzen Sie die Suchfunktion, um das gewünschte Lernelement schnell und einfach zu finden.</tip>
                             </step>
                         </procedure>
@@ -42,10 +42,10 @@
                     <tab id="verweis_lernmaterial_frage" title="Verweis auf ein externes Lernmaterial">
                         <procedure type="choices" id="verweis_lernmaterial_adaptivitaetselement" title="Verweis auf ein externes Lernmaterial">
                             <step><p>Tragen Sie optional in dem sich nun öffnenden Fenster in dem Textfeld einen Hinweistext zum Verweis ein.</p>
-                                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisLernelementExternHinweis.png" alt="Verweis hinzufügen: Hinweis Textfeld" width="200" thumbnail="true"/>
                             </step>
                             <step><p>Suchen Sie aus der Auflistung aller bereits in das Autorentool geladenen externen Lernmaterialien das Lernmaterial heraus, auf das Sie in dieser Frage verweisen möchten.</p>
-                                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisLernelementExternLernelement.png" alt="Verweis hinzufügen: Externe Lernelemente auswählen" width="200" thumbnail="true"/>
                                 <tip>Nutzen Sie die Suchfunktion, um das gewünschte externe Lernmaterial schnell und einfach zu finden.</tip>
                             </step>
                         </procedure>
@@ -53,7 +53,7 @@
                 </tabs>
         </step>
         <step><p>Bestätigen Sie Ihren Verweis mit einem Klick auf den Button <control>OK</control>.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisOkButton.png" alt="Verweis hinzufügen: Ok Button unten rechts" width="200" thumbnail="true"/>
         </step>
         <note>
             <control>

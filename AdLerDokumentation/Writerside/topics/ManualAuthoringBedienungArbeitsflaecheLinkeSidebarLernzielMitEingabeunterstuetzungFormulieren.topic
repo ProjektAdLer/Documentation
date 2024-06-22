@@ -15,34 +15,34 @@
                 <p>Ein Lernziel zu einem Lernraum mithilfe der Eingabeunterstützung formulieren.</p>
             </def>
         </deflist>
-        <note>Sie können die Eingabeunterstützung in deutscher Sprache nutzen oder in die englische Sprache wechseln, um ein Lernziel in englischer Sprache zu formulieren. Standardmäßig ist die deutsche Sprache eingestellt.</note>
+        <note>Sie können die Eingabeunterstützung in deutscher Sprache nutzen oder in die englische <a href="ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern.topic"> Sprache wechseln</a>, um ein Lernziel in englischer Sprache zu formulieren. Standardmäßig ist die deutsche Sprache eingestellt.</note>
         <step><p>Klicken Sie auf den Button <control>Eingabeunterstützung</control>.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungFensterUnterstuetzungButton.png" alt="Lernziel-Formulierung Fenster mit hervorgehobenem Eingabeunterstützung Button" width="200" thumbnail="true"/>
         </step>
         <step><p>Wählen Sie in dem sich nun öffnenden Fenster in dem ersten Auswahlbereich die <control>Taxonomiestufe</control>, der Ihr Lernziel zugeordnet werden soll.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungTaxonomie.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Taxonomie" width="200" thumbnail="true"/>
             <tip>Informationen zur Eingabeunterstützung und seinem Aufbau erhalten Sie hier: <a href="Handreichung-Didaktik-BD.md"></a></tip>
         </step>
         <step><p>Tragen Sie im Textfeld zu <control>Was? (Thema)</control> das Thema Ihres Lernziels ein.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungThema.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Thema" width="200" thumbnail="true"/>
         </step>
         <step><p>Wählen Sie im nächsten Auswahlbereich das passende <control>Verb der Sichtbarkeit</control> zu Ihrem Lernziel aus oder formulieren Sie ein eigenes Verb.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungVerb.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Verb der Sichtbarkeit" width="200" thumbnail="true"/>
             <tip>Die Auswahl der Verben in der Auflistung orientiert sich an der zuvor gewählten Taxonomiestufe.</tip>
         </step>
         <step><p>Tragen Sie im Textfeld zu <control>Womit?</control> zu Ihrem Lernziel ein, mit welchen theoretischen oder praktischen Werkzeugen Lernende ihre Handlungen ausführen.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungWomit.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Womit" width="200" thumbnail="true"/>
         </step>
         <step><p>Tragen Sie im Textfeld zu <control>Wozu?</control> zu Ihrem Lernziel ein, zu welchem Sinn und Zweck die Lerneinheit konzipiert wurde.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungWozu.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Wozu" width="200" thumbnail="true"/>
         </step>
         <step><tip>Das formulierte Lernziel wird in einer Vorschau-Ansicht im unteren Bereich des Fensters angezeigt.</tip>
             <p>Bestätigen Sie Ihr formuliertes Lernziel mit einem Klick auf den Button <control>Erstellen</control>.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungErstellenButton.png" alt="Lernziel-Formulierung mit Eingabeunterstützung mit hervorgehobenem Erstellen Button" width="200" thumbnail="true"/>
             <tip>
                 <p>Nach Erstellen des Lernziels werden Sie auf das vorherige Fenster zurückgeleitet und können darüber ein neues Lernziel mit oder ohne Eingabeunterstützung formulieren.</p>
                 <p>Alle erstellten Lernziele zum Lernraum werden darüber hinaus untenstehend angezeigt. Über diese Ansicht können Sie die erstellten Lernziele bei Bedarf bearbeiten oder löschen.</p>
-                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUebersichtFenster.png" alt="Lernziel-Formulierung Fenster mit hinzugefügtem Lernziel" width="200" thumbnail="true"/>
             </tip>
         </step>
         <note>

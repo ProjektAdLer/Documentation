@@ -16,17 +16,17 @@
             </def>
         </deflist>
         <step><p>Klicken Sie auf den Button <control>Lernziel selbst formulieren</control>.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungFensterSelbstButton.png" alt="Lernziel-Formulierung Fenster mit hervorgehobenem Selbst Formulieren Button" width="200" thumbnail="true"/>
         </step>
         <step><p>Tragen Sie in dem sich nun öffnenden Fenster in dem Textfeld Ihr Lernziel ein.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungSelbstFeld.png" alt="Lernziel-Formulierung SelbstFenster mit hervorgehobenem Lernziel Textfeld" width="200" thumbnail="true"/>
         </step>
         <step><p>Bestätigen Sie Ihr formuliertes Lernziel mit einem Klick auf den Button <control>Erstellen</control>.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungSelbstErstellenButton.png" alt="Lernziel-Formulierung Selbst Fenster mit hervorgehobenem Erstellen Button" width="200" thumbnail="true"/>
             <tip>
                 <p>Nach Erstellen des Lernziels werden Sie auf das vorherige Fenster zurückgeleitet und können darüber ein neues Lernziel mit oder ohne Eingabeunterstützung formulieren.</p>
                 <p>Alle erstellten Lernziele zum Lernraum werden darüber hinaus untenstehend angezeigt. Über diese Ansicht können Sie die erstellten Lernziele bei Bedarf bearbeiten oder löschen.</p>
-                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUebersichtFenster.png" alt="Lernziel-Formulierung Fenster mit hinzugefügtem Lernziel" width="200" thumbnail="true"/>
             </tip>
         </step>
         <note>
