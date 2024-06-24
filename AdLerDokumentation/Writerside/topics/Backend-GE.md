@@ -23,7 +23,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary">Das Backend bezeichnet den Teil einer Software, der nicht direkt vom Endnutzer interagiert wird. Es umfasst Server, Datenbanken und die serverseitige Logik, die Datenverarbeitung, Speicherung und die Kommunikation zwischen dem Frontend und der Datenbank steuert.
-    Bei AdLer steuert das Backend zum und vom <a href="Autorentool-GE.md"></a>, bietet die einzige Schnittstelle für die <a href="Engine-GE.md"></a> sowie die Kommunikation mit dem <a href="Learning-Management-System-GE.md"></a>.
+    Bei AdLer steuert das Backend die Kommunikation zum und vom <a href="Autorentool-GE.md"></a>, dient als die einzige Schnittstelle für die <a href="Engine-GE.md"></a> und übernimmt die Kommunikation mit dem <a href="Learning-Management-System-GE.md"></a>.
 </td>
     </tr>  
     <tr>

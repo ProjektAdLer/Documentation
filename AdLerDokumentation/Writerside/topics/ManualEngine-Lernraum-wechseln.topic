@@ -31,7 +31,10 @@
                             <p>Über die Eingangstüre können Sie in vorherige Räume wechseln, über die Ausgangstüre zu
                                 nachfolgenden Räumen.</p>
                         </tip>
-                        <img src="imageManualEngine_LernraumDoorsCallouts.png" alt="Türen Callout"/>
+
+                        <p>
+                            <img src="imageManualEngine_LernraumDoorsCallouts.png" alt="Türen Callout" style="block"/>
+                        </p>
                         <table>
                             <tr>
                                 <td>ID</td>

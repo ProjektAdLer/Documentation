@@ -4,8 +4,14 @@
 
 <instance-profile id="hi"
                   name="AdLerDokumentation"
-                  start-page="Spezifikation.md">
+                  start-page="AdLer.md">
 
+    <toc-element topic="AdLer.md">
+        <toc-element topic="Architektur.md"/>
+        <toc-element topic="Systemkontext.md"/>
+        <toc-element topic="Marktanforderungen.md"/>
+        <toc-element topic="Styleguide-AdLer.md"/>
+    </toc-element>
     <toc-element topic="Spezifikation.md">
         <toc-element topic="AdLer-System.md">
             <toc-element topic="Schnittstellen.md">
@@ -13,11 +19,6 @@
                     <toc-element topic="Model-Bezeichnungen-ATF.md"/>
                 </toc-element>
             </toc-element>
-            <toc-element topic="Styleguide-AdLer.md"/>
-            <toc-element topic="Zweck.md"/>
-            <toc-element topic="Marktanforderungen.md"/>
-            <toc-element topic="Systemkontext.md"/>
-            <toc-element topic="Architektur.md"/>
         </toc-element>
         <toc-element topic="Autorentool-BG.md">
             <toc-element topic="Auflistung-der-Anforderungen-Autorentool.md"/>
@@ -469,7 +470,6 @@
                 <toc-element topic="Gesamtarchitektur-Engine.md"/>
                 <toc-element topic="Entities-Engine.md"/>
             </toc-element>
-            <toc-element topic="Schnittstellen-Engine.md"/>
             <toc-element topic="SBOM-Engine.md"/>
         </toc-element>
         <toc-element topic="Backend-BG.md">
@@ -518,7 +518,6 @@
             </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Backend.md"/>
             <toc-element topic="SBOM-Backend.md"/>
-            <toc-element topic="Schnittstellen-Backend.md"/>
             <toc-element topic="Software-Architektur-Backend.md"/>
             <toc-element topic="Software-Design-Backend.md"/>
         </toc-element>
@@ -530,11 +529,21 @@
                 </toc-element>
                 <toc-element topic="M_UI.md">
                     <toc-element topic="Adaptivitätselement.md">
+                        <toc-element topic="MVP19.md"/>
+                        <toc-element topic="MVP18.md"/>
+                        <toc-element topic="MVP17.md"/>
+                        <toc-element topic="MVP16.md"/>
+                        <toc-element topic="MVP15.md"/>
+                        <toc-element topic="MVP14.md"/>
                     </toc-element>
                     <toc-element topic="Raumlogik.md">
+                        <toc-element topic="MVP13.md"/>
+                        <toc-element topic="MVP12.md"/>
                     </toc-element>
                 </toc-element>
                 <toc-element topic="M_API.md">
+                    <toc-element topic="MVP11.md"/>
+                    <toc-element topic="MVP10.md"/>
                     <toc-element topic="MVP9.md"/>
                     <toc-element topic="MVP8.md"/>
                     <toc-element topic="MVP7.md"/>
@@ -546,38 +555,20 @@
             </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Plugin.md"/>
             <toc-element topic="SBOM-Plugin.md"/>
-            <toc-element topic="Schnittstellen-Plugin.md"/>
+            <toc-element topic="Schnittstellen-Plugin.md">
+                <toc-element topic="MVP-API9.md"/>
+                <toc-element topic="MVP-API8.md"/>
+                <toc-element topic="MVP-API7.md"/>
+                <toc-element topic="MVP-API6.md"/>
+                <toc-element topic="MVP-API5.md"/>
+                <toc-element topic="MVP-API4.md"/>
+                <toc-element topic="MVP-API3.md"/>
+                <toc-element topic="MVP-API2.md"/>
+                <toc-element topic="MVP-API1.md"/>
+            </toc-element>
             <toc-element topic="Software-Architektur-Plugin.md"/>
             <toc-element topic="Software-Design-Plugin.md"/>
         </toc-element>
-        <toc-element topic="Templates.md">
-            <toc-element topic="Templates-Benutzerdoku.topic">
-                <toc-element topic="Benutzerdoku-Template-Leistungsbeschreibung.topic"/>
-                <toc-element topic="Benutzerdoku-Template-Produkbeschreibung.topic"/>
-                <toc-element topic="Benutzerdoku-Template-Handlungsanweisung.topic"/>
-            </toc-element>
-            <toc-element topic="Glossar-Templates.md">
-                <toc-element topic="Glossareintrag-Template.md"/>
-            </toc-element>
-            <toc-element topic="Spezifikation-Templates.md">
-                <toc-element topic="Autorentool-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Autorentool.md"/>
-                </toc-element>
-                <toc-element topic="Generator-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Generator.md"/>
-                </toc-element>
-                <toc-element topic="Engine-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Engine.md"/>
-                </toc-element>
-                <toc-element topic="Backend-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Backend.md"/>
-                </toc-element>
-                <toc-element topic="Plugin-Templates.md">
-                    <toc-element topic="Funktionale-Anforderung-Plugin.md"/>
-                </toc-element>
-            </toc-element>
-        </toc-element>
-        <toc-element topic="Benutzerdokumentation-Templates.md"/>
     </toc-element>
     <toc-element topic="Benutzerdokumentation.md">
         <toc-element topic="Lehrende-BD.md">
@@ -758,6 +749,8 @@
                         <toc-element topic="ManualAuthoringBedienungKopfzeileTechnischenFehlerMelden.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileZurAdLerProjektseiteGehen.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.topic"/>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileLernzieleBetrachten.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileMoodleKurseLoeschen.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileAutorentoolSchließen.topic"/>
                     </toc-element>
@@ -796,7 +789,10 @@
                 <toc-element topic="ManualEngine-Bug-Report-senden.topic"/>
             </toc-element>
         </toc-element>
-        <toc-element topic="Administrierende-BD.md"/>
+        <toc-element topic="Administrierende-BD.md">
+            <toc-element topic="Moodle-aktualisieren-VP.md"/>
+            <toc-element topic="Adler-installieren-VP.md"/>
+        </toc-element>
         <toc-element topic="Entwickelnde-BD.md">
             <toc-element topic="EntwickelndeBenutzerdokumentation.md">
                 <toc-element topic="Benutzerdoku-BestPractices.topic"/>
@@ -896,9 +892,11 @@
         <toc-element topic="Q.md"/>
         <toc-element topic="R.md">
             <toc-element topic="REST.md"/>
+            <toc-element topic="Release-Set-VP.md"/>
         </toc-element>
         <toc-element topic="S.md">
             <toc-element topic="Storyelement-GE.md"/>
+            <toc-element topic="Section-VP.md"/>
             <toc-element topic="Spezifikation-GE.md"/>
         </toc-element>
         <toc-element topic="T.md">
@@ -916,5 +914,32 @@
         <toc-element topic="X.md"/>
         <toc-element topic="Y.md"/>
         <toc-element topic="Z.md"/>
+    </toc-element>
+    <toc-element topic="Templates.md">
+        <toc-element topic="Templates-Benutzerdoku.topic">
+            <toc-element topic="Benutzerdoku-Template-Leistungsbeschreibung.topic"/>
+            <toc-element topic="Benutzerdoku-Template-Produkbeschreibung.topic"/>
+            <toc-element topic="Benutzerdoku-Template-Handlungsanweisung.topic"/>
+        </toc-element>
+        <toc-element topic="Glossar-Templates.md">
+            <toc-element topic="Glossareintrag-Template.md"/>
+        </toc-element>
+        <toc-element topic="Spezifikation-Templates.md">
+            <toc-element topic="Autorentool-Templates.md">
+                <toc-element topic="Funktionale-Anforderung-Autorentool.md"/>
+            </toc-element>
+            <toc-element topic="Generator-Templates.md">
+                <toc-element topic="Funktionale-Anforderung-Generator.md"/>
+            </toc-element>
+            <toc-element topic="Engine-Templates.md">
+                <toc-element topic="Funktionale-Anforderung-Engine.md"/>
+            </toc-element>
+            <toc-element topic="Backend-Templates.md">
+                <toc-element topic="Funktionale-Anforderung-Backend.md"/>
+            </toc-element>
+            <toc-element topic="Plugin-Templates.md">
+                <toc-element topic="Funktionale-Anforderung-Plugin.md"/>
+            </toc-element>
+        </toc-element>
     </toc-element>
 </instance-profile>

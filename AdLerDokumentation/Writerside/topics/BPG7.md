@@ -8,3 +8,6 @@ Das Backend muss den Nutzern die Möglichkeit bieten, sich mit ihren Zugangsdate
 
 - Das Backend gibt ein [UserToken](UserToken.md) zurück, wenn die Anmeldedaten korrekt sind.
 - Das Backend gibt eine Fehlermeldung aus, wenn die Anmeldedaten nicht korrekt sind.
+
+## Diagramm
+![Authentifizierung.png](Authentifizierung.png)

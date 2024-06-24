@@ -20,9 +20,9 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary">Administrierende müssen die Benutzenden sein,
+        <td id="summary">Administrierende sind die Benutzenden ,
             die das <a href="AdLer-System.md"></a>
-            in Betrieb nehmen.</td>
+            in Betrieb nehmen und verwalten.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>

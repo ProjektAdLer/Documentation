@@ -12,3 +12,4 @@ Das Backend muss für Lernelemente die Dateiquelle ausgeben.
 
 ## Aktivitätsdiagramm:
 
+![GetElementSource.png](GetElementSource.png)

@@ -5,38 +5,94 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Auf AdLer-Server anmelden" id="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic">Kopfzeile auf der
+        Startseite</a> und
+        <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.
+    </p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Hier wird das Ziel der Handlung beschrieben</control>
+                <control>Ziel der Handlung</control>
+                <p>Benutzer-Anmeldung auf dem AdLer-Server um Inhalte zu ändern.</p>
+                <tip><p>Damit Sie Ihre im Autorentool erstellte Lernwelt Ihren Studierenden als 3D-Lernumgebung zur
+                    Verfügung stellen, bearbeiten, sowie löschen können, ist eine Anmeldung auf dem AdLer-Server
+                    notwendig.</p></tip>
             </def>
         </deflist>
 
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Sie sind nicht angemeldet. Siehe: <a
+                        href="ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.topic"/></li>
+            </list>
+        </tip>
 
-        <step><p>Führen Sie den ersten Schritt durch </p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step>
+            <p>Klicken Sie auf den
+                <control>Einloggen auf AdLer-Server</control>
+                -Button (Symbol: Personen-Avatar)
+                <img src="imageManualWorkshopHighlightedAdministrationButton.png"
+                     alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools"
+                     width="200" thumbnail="true" style="block"/>
+            </p>
+            <note>&#10004; Das Administrations-PopUp-Fenster wird geöffnet. Siehe: <a
+                    href="ManualAuthoringSoftwarekomponentenKopfzeileLoginAufAdLerServer.topic"/>
+                <img src="imageManualWorkshopLoginToAdLerServerAuthoringTool.png"
+                     alt="Anmeldeformular zur Anmeldung auf dem AdLer Server im Autorentool" width="200"
+                     thumbnail="true" style="block"/>
+            </note>
         </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
+            <p>Füllen Sie die Eingabefelder der Login-Eingabemaske mit den Ihnen gegebenen Login-Daten aus.
+                <img src="imageManualWorkshopLoginToAdLerServerAuthoringToolMarkedLogin.png"
+                     alt="Anmeldeformular zur Anmeldung auf dem AdLer Server im Autorentool markiert" width="200"
+                     thumbnail="true" style="block"/>
+            </p>
+            <tip>
+                <p>Folgende Felder sind unbedingt auszufüllen, wenden Sie sich bei Fragen oder Unstimmigkeiten an Ihren
+                    Administrator:</p>
+                <list>
+                    <li><p>AdLer API-URL: Die Internetdresse, unter welcher Ihr AdLer Server per Programm-Schnittstelle
+                        erreichbar ist</p></li>
+                    <li><p>Benutzername: Ihr mit AdLer verbundene Moodle Benutzername</p></li>
+                    <li><p>Passwort: Ihr individuelles Passwort Ihres zuvor eingegebenen Moodle Accounts</p>
+                        <list>
+                            <li>
+                                <p>Sollten Sie Ihr Passwort vergessen haben, können Sie dieses ganz einfach durch
+                                    klicken des
+                                    <control>Passwort vergessen?</control>
+                                    -Buttons zurücksetzen.
+                                </p>
+                            </li>
+                        </list>
+                    </li>
+                </list>
+            </tip>
+        </step>
+        <step>
+            <p>Klicken Sie auf den Button
+                <control>Anmelden</control>
+                .
+                <img src="imageManualWorkshopLoginToAdLerServerAuthoringToolHighlightedAnmeldenButton.png"
+                     alt="Hervorgehobener Anmelden-Button im Anmeldeformular" width="200" thumbnail="true"
+                     style="block"/>
             </p>
         </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+
+        <step>
+            <p>Sie können das nun angezeigte Fenster über den Button
+                <control>X</control>
+                im oberen, rechten Eck des Pop-Up-Fensters, schließen.
+                <img src="imageManualWorkshopLoginToAdLerServerSuccessful.png"
+                     alt="Erfolgreiche Anmeldung auf dem AdLer-Server" width="200" thumbnail="true" style="block"/>
+            </p>
+        </step>
+
+        <note>
+            <control>&#10004; Sie haben sich erfolgreich auf dem AdLer-Server angemeldet.</control>
+        </note>
     </procedure>
 </topic>

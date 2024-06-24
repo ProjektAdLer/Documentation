@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Endanwender müssen die Anwender sein, 
+        <td id="summary" >Endanwender sind die Anwender, 
         die das AdLer-System im Betrieb verwenden:
         <a href="Lehrende-GE.md"></a>
         <a href="Lernende-GE.md"></a></td>

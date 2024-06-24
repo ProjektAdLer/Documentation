@@ -5,103 +5,51 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Lernwelt archivieren" id="ManualAuthoringBedienungKopfzeileLernweltArchivieren">
 
-    <show-structure for="chapter, procedure" depth="3"/>
-    <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Softwarekomponenten: Startseite</a>
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der
+        Arbeitsfläche</a>.</p>
 
     <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Eine neue Lernwelt erstellen und diese Lernwelt mit Metadaten und weiteren Informationen versehen.</p>
+                <p>Eine erstellte Lernwelt archivieren und lokal zur späteren Weiterverwendung abspeichern.</p>
             </def>
         </deflist>
 
-        <step>
-            <p>Klicken Sie auf den Button <b>Neu</b>.</p>
-            <img src="imageManualAuthoringStartseiteLernweltErstellenButtonCallout.png" alt="LernweltErstellenButtonCallout" width="200" thumbnail="true"/>
-            <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Neue Lernwelt erstellen" wird angezeigt.</tip>
-            <note>Im linken Bereich des Fensters erscheint ein weiteres Dialogfenster zur Angabe von Metadaten und weiteren Informationen.</note>
-        </step>
-
-        <step>Machen Sie Angaben zur Lernwelt
-        <tabs>
-            <tab id="erforderlich_lernwelt" title="Erforderlich">
-                <procedure id="erforderliche_angaben_lernwelt" title="Erforderliche Angaben">
-                    <step>
-                        <p>Vergeben Sie im ersten Textfeld einen Namen für die Lernwelt.</p>
-                        <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
-                        <warning>
-                            <p>Für den Namen der Lernwelt gelten bestimmte Regeln --> siehe <a href="ASN0023.md">Erforderliche Eigenschaften für Lernwelt</a>.</p>
-                        </warning>
-                    </step>
-                </procedure>
-            </tab>
-
-            <tab id="optional_lernwelt" title="Optional">
-                <procedure id="optionale_angaben_lernwelt" title="Optionale Angaben">
-                        <tabs>
-                            <tab id="allgemeines_lernwelt" title="Allgemein">
-                            <procedure type="choices" id="allgemeines_tab_lernwelt" title="Allgemeines">
-                                <step>
-                                    <p>Tragen Sie allgemeine Metadaten zur Ihrer Lernwelt ein:</p>
-                                    <img src="imageManualAuthoringLernweltErstellenAllgemeinesCallout.png" alt="AllgemeinesCallout" width="200" thumbnail="true"/>
-                                </step>
-                                <step><b>Kurzname</b>
-                                    <p>Geben Sie den Kurznamen für Ihre Lernwelt an.</p>
-                                </step>
-                                <step><b>Autorenschaft</b>
-                                    <p>Geben Sie die Personen an, die an der Erstellung und Gestaltung dieser Lernwelt beteiligt sind.</p>
-                                </step>
-                                <step><b>Sprache</b>
-                                    <p>Geben Sie die Sprache in den von Ihnen verwendeten Lernmaterialien (Video, Text usw.) an.</p>
-                                </step>
-                                <step><b>Link zur Evaluation</b>
-                                    <p>Tragen Sie eine URL zu Ihrem Evaluationsbogen ein.</p>
-                                    <tip>Wenn Sie Ihre Lernwelt anhand der Lernenden testen möchten, können Sie hier eine URL eintragen. Diese wird den Lernenden in der 3D-Lernumgebung angezeigt, sodass sie über die 3D-Lernumgebung an Ihrer Umfrage teilnehmen können.</tip>
-                                </step>
-                            </procedure>
-                            </tab>
-                            <tab id="einschreibemethode_lernwelt" title="Einschreibemethode">
-                                <procedure id="einschreibemethode_tab_lernwelt" title="Einschreibemethode">
-                                    <step>
-                                        <p>Tragen Sie einen Einschreibeschlüssel zu Ihrer Lernwelt ein, wenn Sie den Zugriff zu dieser einschränken möchten.</p>
-                                        <img src="imageManualAuthoringLernweltErstellenEinschreibemethodeCallout.png" alt="EinschreibemethodeCallout" width="200" thumbnail="true"/>
-                                        <tip>Wenn Sie nichts in das Feld eintragen, können sich alle Lernenden selbst in die Lernwelt einschreiben.</tip>
-                                    </step>
-                                </procedure>
-                            </tab>
-                            <tab id="lernziele_lernwelt" title="Lernziele">
-                                <procedure id="lernziele_tab_lernwelt" title="Lernziele zur Lernwelt">
-                                    <step>
-                                        <p>Formulieren Sie ein oder mehrere Lernziele für Ihre Lernwelt.</p>
-                                        <img src="imageManualAuthoringLernweltErstellenLernzieleCallout.png" alt="LernzieleCallout" width="200" thumbnail="true"/>
-                                    </step>
-                                </procedure>
-                            </tab>
-                            <tab id="beschreibung_lernwelt" title="Beschreibung">
-                                <procedure id="beschreibung_tab_lernwelt" title="Beschreibung zur Lernwelt">
-                                    <step>
-                                        <p>Beschreiben Sie das Thema Ihrer Lernwelt.</p>
-                                        <img src="imageManualAuthoringLernweltErstellenBeschreibungCallout.png" alt="BeschreibungCallout" width="200" thumbnail="true"/>
-                                    </step>
-                                </procedure>
-                            </tab>
-                        </tabs>
-                </procedure>
-            </tab>
-        </tabs>
-        </step>
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Eine Lernwelt ist geöffnet oder wurde neu erstellt. Siehe: <a
+                        href="ManualAuthoringBedienungStartseiteLernweltImportieren.topic"/>, <a
+                        href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>, <a
+                        href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic"/></li>
+            </list>
+        </tip>
 
         <step>
-            <p>Bestätigen Sie Ihre Angaben zur Lernwelt mit einem Klick auf den Button <b>OK</b>.</p>
-            <img src="imageManualAuthoringStartseiteLernweltErstellenOKButtonCallout.png" alt="OKButton" width="200" thumbnail="true"/>
+            <p>Drücken Sie den Archivieren-Button in der Kopfzeile (Symbol: Box mit Pfeil nach unten).
+                <img src="imageManualAuthoringKopfzeileAktionArchivieren.png"
+                     alt="Archivieren Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
+                     style="block"/>
+            </p>
         </step>
+        <step>
+            <p>Vergeben Sie einen Dateinamen.
+                <img src="imageManualAuthoringKopfzeileArchivierenDateisystemDateiname.png"
+                     alt="Dateiname Eingabefeld im Datei Explorer des Systems" width="200" thumbnail="true"
+                     style="block"/>
+            </p>
+        </step>
+        <step>
+            <p>Drücken Sie den Speichern-Button.
+                <img src="imageManualAuthoringKopfzeileArchivierenDateisystemSpeichern.png"
+                     alt="Speichern Button im Datei Explorer des Systems" width="200" thumbnail="true" style="block"/>
+            </p>
+        </step>
+
         <note>
-            <control>
-                <p>Sie haben erfolgreich eine neue Lernwelt erstellt.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben die Lernwelt erfolgreich lokal gespeichert.</control>
         </note>
-        <tip>Nach Erstellen der neuen Lernwelt werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Ausgestaltung dieser Lernwelt beginnen können.</tip>
     </procedure>
 </topic>

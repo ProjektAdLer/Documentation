@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Lernende müssen die Personen sein, die die <a href="Engine-GE.md"></a>
+        <td id="summary" >Lernende sind die Personen, die die <a href="Engine-GE.md"></a>
         im Betrieb verwenden.</td>
     </tr>  
     <tr>

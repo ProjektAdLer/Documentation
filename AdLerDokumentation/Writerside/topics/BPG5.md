@@ -12,4 +12,5 @@ Das Backend muss den Lernenden die Möglichkeit bieten, die von ihnen eingeschri
 - Die Lernwelt ist im LMS verfügbar
 - Die Lernwelt ist auf der DB verfügbar
 
-Start typing here...
+## Aktivitätsdiagramm
+![GetCoursesForUser.png](GetCoursesForUser.png)

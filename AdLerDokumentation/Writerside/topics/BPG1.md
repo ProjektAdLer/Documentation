@@ -11,3 +11,6 @@ Das Backend muss dem Dozenten die Möglichkeit bieten, eine Lernwelt hochzuladen
 - Die Lernwelt wird im LMS erstellt.
 - Dateien, die in der Lernwelt referenziert werden, werden gespeichert
 
+## Aktivitätsdiagramm
+
+![Aktivität Lernwelt erstellen.png](Aktivität_Lernwelt_erstellen.png)

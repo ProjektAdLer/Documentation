@@ -5,38 +5,51 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Lernziel mit Eingabeunterstützung formulieren" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielMitEingabeunterstuetzungFormulieren">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuLernraeumenLernzielFormulierung.topic">Lernziel-Formulierung</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuLernraeumenLernzielFormulierungMitEingabeunterstuetzung.topic">Lernziel-Formulierung mit Eingabeunterstützung</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Hier wird das Ziel der Handlung beschrieben</control>
+                <control>Ziel der Handlung</control>
+                <p>Ein Lernziel zu einem Lernraum mithilfe der Eingabeunterstützung formulieren.</p>
             </def>
         </deflist>
-
-
-        <step><p>Führen Sie den ersten Schritt durch </p>
+        <note>Sie können die Eingabeunterstützung in deutscher Sprache nutzen oder in die englische <a href="ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern.topic"> Sprache wechseln</a>, um ein Lernziel in englischer Sprache zu formulieren. Standardmäßig ist die deutsche Sprache eingestellt.</note>
+        <step><p>Klicken Sie auf den Button <control>Eingabeunterstützung</control>.</p>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungFensterUnterstuetzungButton.png" alt="Lernziel-Formulierung Fenster mit hervorgehobenem Eingabeunterstützung Button" width="200" thumbnail="true"/>
         </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
+        <step><p>Wählen Sie in dem sich nun öffnenden Fenster in dem ersten Auswahlbereich die <control>Taxonomiestufe</control>, der Ihr Lernziel zugeordnet werden soll.</p>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungTaxonomie.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Taxonomie" width="200" thumbnail="true"/>
+            <tip>Informationen zur Eingabeunterstützung und seinem Aufbau erhalten Sie hier: <a href="Handreichung-Didaktik-BD.md"></a></tip>
         </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
+        <step><p>Tragen Sie im Textfeld zu <control>Was? (Thema)</control> das Thema Ihres Lernziels ein.</p>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungThema.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Thema" width="200" thumbnail="true"/>
         </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
+        <step><p>Wählen Sie im nächsten Auswahlbereich das passende <control>Verb der Sichtbarkeit</control> zu Ihrem Lernziel aus oder formulieren Sie ein eigenes Verb.</p>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungVerb.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Verb der Sichtbarkeit" width="200" thumbnail="true"/>
+            <tip>Die Auswahl der Verben in der Auflistung orientiert sich an der zuvor gewählten Taxonomiestufe.</tip>
         </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step><p>Tragen Sie im Textfeld zu <control>Womit?</control> zu Ihrem Lernziel ein, mit welchen theoretischen oder praktischen Werkzeugen Lernende ihre Handlungen ausführen.</p>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungWomit.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Womit" width="200" thumbnail="true"/>
         </step>
-        <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+        <step><p>Tragen Sie im Textfeld zu <control>Wozu?</control> zu Ihrem Lernziel ein, zu welchem Sinn und Zweck die Lerneinheit konzipiert wurde.</p>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungWozu.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Wozu" width="200" thumbnail="true"/>
         </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+        <step><tip>Das formulierte Lernziel wird in einer Vorschau-Ansicht im unteren Bereich des Fensters angezeigt.</tip>
+            <p>Bestätigen Sie Ihr formuliertes Lernziel mit einem Klick auf den Button <control>Erstellen</control>.</p>
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungErstellenButton.png" alt="Lernziel-Formulierung mit Eingabeunterstützung mit hervorgehobenem Erstellen Button" width="200" thumbnail="true"/>
+            <tip>
+                <p>Nach Erstellen des Lernziels werden Sie auf das vorherige Fenster zurückgeleitet und können darüber ein neues Lernziel mit oder ohne Eingabeunterstützung formulieren.</p>
+                <p>Alle erstellten Lernziele zum Lernraum werden darüber hinaus untenstehend angezeigt. Über diese Ansicht können Sie die erstellten Lernziele bei Bedarf bearbeiten oder löschen.</p>
+                <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUebersichtFenster.png" alt="Lernziel-Formulierung Fenster mit hinzugefügtem Lernziel" width="200" thumbnail="true"/>
+            </tip>
+        </step>
+        <note>
+            <control>
+                <p>Sie haben erfolgreich ein Lernziel zu einem Lernraum mithilfe der Eingabeunterstützung erstellt.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
     </procedure>
 </topic>

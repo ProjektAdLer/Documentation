@@ -25,7 +25,7 @@
 <list type="decimal">
     <li><p>Klicken Sie in der Kopfzeile auf den Button.</p>
         <img src="imageManualAuthoringZurStartseiteWechselnButtonCallout.png" alt="ZurStartseiteWechselnCallout" width="200" thumbnail="true"/>
-        <tip>Sobald die Maus über den Button fährt, wird ein zusätzlicher Hover-Text "Meine Lernwelten" wird angezeigt.</tip>
+        <tip>Sobald die Maus über den Button fährt, wird ein zusätzlicher Hover-Text "Meine Lernwelten" angezeigt.</tip>
         <note>Die Ansicht der Arbeitsfläche wird verlassen und stattdessen die Ansicht der Startseite angezeigt.
             <img src="imageManualAuthoringStartseiteWechselCallout.png" alt="StartseiteCallout" width="200" thumbnail="true"/>
         </note>

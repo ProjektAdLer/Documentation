@@ -9,3 +9,5 @@ Das Backend muss in der Lage sein, sich mit einem [LMS](Learning-Management-Syst
 
 ## Akzeptanzkriterien:
  - Die Authentifizierung erfolgt über das, vom LMS bereitgestellte, Webseiten-Token.
+
+![IsUserAdmin.png](IsUserAdmin.png)

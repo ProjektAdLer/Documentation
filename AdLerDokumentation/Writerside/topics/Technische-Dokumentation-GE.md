@@ -22,10 +22,10 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Die technische Dokumentation muss die <a href="Dokumentation-GE.md"></a>  sein,
-            um das <a href="AdLer-System.md"></a> zu entwickeln, 
+            Die technische Dokumentation ist die <a href="Dokumentation-GE.md"></a>,
+            welche genutzt werden kann, um das <a href="AdLer-System.md"></a> zu entwickeln, 
             in Betrieb zu nehmen und zu betreiben. 
-            Dazu gehören: 
+            Beispiele: 
             <a href="Installationsanleitung-GE.md"></a> , 
             <a href="Wartungsdokumentation-GE.md"></a> , 
             <a href="Testdokumentation-GE.md"></a> , 

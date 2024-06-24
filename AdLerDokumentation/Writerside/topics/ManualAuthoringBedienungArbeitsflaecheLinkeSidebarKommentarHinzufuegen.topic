@@ -20,14 +20,14 @@
         </warning>
         <tip>Die Lernenden bekommen den Kommentar in der 3D-Lernumgebung dann angezeigt, wenn sie die Frage innerhalb eines Adaptivitätselements falsch beantwortet haben.</tip>
         <step><p>Klicken Sie auf den Button <control>Kommentar</control>.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageKommentarButton.png" alt="Aufgabenübersicht: Kommentar hinzufügen Button bei einer erstellten Frage" width="200" thumbnail="true"/>
         </step>
         <step><p>Tragen Sie in dem sich nun öffnenden Fenster in dem Textfeld einen Kommentar ein.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageKommentarFeld.png" alt="Kommentar erstellen: Kommentar Eingabefeld" width="200" thumbnail="true"/>
 
         </step>
         <step><p>Bestätigen Sie Ihren formulierten Kommentar mit einem Klick auf den Button <control>OK</control>.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageKommentarOkButton.png" alt="Kommentar erstellen: Ok Button unten rechts" width="200" thumbnail="true"/>
         </step>
         <note>
             <control>

@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Die Benutzerdokumentation muss eine
+        <td id="summary" >Die Benutzerdokumentation ist die
             detaillierte Dokumentation für die <a href="Endanwender-GE.md"></a>,
             die das <a href="AdLer-System-GE.md"></a> im laufenden Betrieb verwenden sein. 
             Niedrigste Vorkenntnisse müssen vorausgesetzt werden. 

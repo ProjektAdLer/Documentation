@@ -17,13 +17,13 @@
         </deflist>
         <tip>Innerhalb einer Aufgabe können Sie maximal drei Fragen erstellen. Diese sollten einen unterschiedlichen Schwierigkeitsgrad aufweisen. Insgesamt stehen Ihnen mit der Formulierung einer <control>einfachen Frage</control>, <control>mittelschweren Frage</control> und <control>schweren Frage</control> drei Schwierigkeitsniveaus zur Verfügung.</tip>
         <step><p>Klicken Sie auf den Button mit der gewählten Schwierigkeit.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageSchwierigkeitButton.png" alt="Aufgabenübersicht: Schwierigkeit Einfach Button" width="200" thumbnail="true"/>
         </step>
         <step><p>Formulieren Sie in dem sich nun öffnenden Fenster im oberen Textfeld den Fragetext.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFragetext.png" alt="Frage erstellen: Fragetext Eingabefeld" width="200" thumbnail="true"/>
         </step>
         <step><p>Klicken Sie auf den Button <control>Multiple-Choice</control>, falls Sie von einer Multiple-Choice-Frage zu einer Single-Choice-Frage wechseln möchten.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageMultipleChoiceButton.png" alt="Frage erstellen: Multiple/Single Choice Toggle Button" width="200" thumbnail="true"/>
             <tip>
                 <p>Standardmäßig ist <control>Multiple-Choice</control> eingestellt.</p>
                 <list>
@@ -33,17 +33,18 @@
             </tip>
         </step>
         <step><p>Tragen Sie die möglichen Antworten zu Ihrer Frage ein.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeAntworten.png" alt="Frage erstellen: Antwortfelder" width="200" thumbnail="true"/>
         </step>
         <step><p>Klicken Sie auf <control>Antworten hinzufügen</control>, falls Sie weitere Antwortmöglichkeiten formulieren möchten.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeAntwortenHinzufügen.png" alt="Frage erstellen: Antworten hinzufügen Button unter den Antworten" width="200" thumbnail="true"/>
         </step>
         <step><p>Klicken Sie auf den Button <control>Erstellen</control>.</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeErstellenButton.png" alt="Frage erstellen: Erstellen Button unten rechts" width="200" thumbnail="true"/>
         </step>
         <step>
             <tip>Sie gelangen nach diesem Klick erneut auf die Ansicht mit der erstellten Aufgabe. Ihre Frage ist nun über eine Vorschau-Ansicht einsehbar. Darüber hinaus wurde diese Frage als <control>zu lösende Frage</control> festgelegt. Näheres dazu erfahren Sie hier: <a href="Handreichung-Didaktik-BD.md"/>.
-                <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageHinzugefuegt.png" alt="Aufgabenübersicht" width="200" thumbnail="true"/>
+                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageHinzugefuegtVorschau.png" alt="Aufgabenübersicht mit Fragenvorschau bei hovern auf Augensymbol" width="200" thumbnail="true"/>
             </tip>
             <p>Optional: Entfernen Sie das Häkchen bei <control>Pflichtaufgabe</control>, wenn die Lernenden diese Aufgabe <control>nicht</control> verpflichtend bearbeiten sollen.</p>
             <tip>Das Kästchen ist standardmäßig bei erstellter Frage angewählt und kann bei Bedarf abgewählt werden.</tip>

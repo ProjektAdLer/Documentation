@@ -21,10 +21,9 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Die Spezifikation muss eine Sammlung von Anforderungen des 
-            <a href="Betrachtungsgegenstand-GE.md">Betrachtungsgegenstandes</a> sein.
+            Die Spezifikation ist eine Sammlung von Anforderungen eines oder mehreren 
+            <a href="Betrachtungsgegenstand-GE.md">Betrachtungsgegenstände</a>.
             Eine Spezifikation beschreibt im Kern „Was“ ein Betrachtungsgegenstand können muss.
-            Kurz: Die Spezifikation ist die Dokumentation der Anforderungen.
         </td>
     </tr>  
     <tr>
