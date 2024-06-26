@@ -12,13 +12,14 @@ Dieser Leitfaden beschreibt die Installation von AdLer auf einem Linux-Server.
 ### Kenntnisse
 - Kenntnisse in der Bedienung eines Linux-Servers.
 - Docker-Kenntnisse.
+- Grundlegende Netzwerkkenntnisse 
 
 **Hinweis:** Für die Installation und den sicheren/stabilen Betrieb von AdLer sind diese Kenntnisse zwingend erforderlich.
 Diese werden im folgenden als bekannt vorausgesetzt.
 
 ## Überblick
 Das gesamte Setup besteht aus zwei Docker Compose Projekten:
-- [Traefik](https://traefik.io/traefik/) als reverse-Proxy
+- [Traefik](https://traefik.io/traefik/) als [reverse-Proxy](https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/)
 - Die AdLer Umgebung
 
 ## Setup
@@ -30,15 +31,28 @@ Das gesamte Setup besteht aus zwei Docker Compose Projekten:
 - Docker Netzwerk zur Kommunikation zwischen Treafik und den AdLer-Containern für den Zugriff aus dem Internet erstellen: `docker network create --gateway 172.16.2.1 --subnet 172.16.2.0/24 traefik_gateway`
 
 ## Traefik
+Traefik übernimmt die Funktion unseres Reverse-Proxy und ermöglicht es uns, dass alle AdLer-Services auf dem gleichen Server
+auf Port 80 auf unterschiedlichen Domains erreichbar sind:
+
+> Sofern Sie in ihrem Setup keinen Reverse-Proxy benötigen oder wünschen (z.B. nur lokalen Zugriff über interne IP und Ports)
+oder bereits einen anderen Reverse-Proxy eingerichtet haben, können Sie das Setup dahingehend anpassen, in dem sie
+diesen Konfigurationsschritt überspringen.
+{style='note'}
+
+![](https://www.plantuml.com/plantuml/png/VOynJyKm38Jt_0ehUzkX6mEgK1S6DYH651AtH4riv3f8_7jQeY1uUdgRp_hETvvsTQ8b9-CJbm2Ff2Y4QeW3mhCuNE9MnHDpI5Zd1-Stf535EB--uDkEyea2RWSxpjtlmfg4Yu8oI5pV5K8Kz1gPJ8k2hhjlIN07-ITcS1znG5eZOV_5HG9d5wdtd4r3JrljTBXijLsmzY_SIf_qSVqc-k-bWx_Qn1ep8OMIqpS0)
+- Wir verwenden Traefik in einem eigenen Docker-Compose Projekt um den Reverse-Proxy und die Services, welche an diesen angeschlossen sind,
+  unabhängig voneinander verwalten zu können.
+- Die eigentliche Konfiguration der (Sub-)Domains ist in [.env](#env) gegeben.
+
 In einem eigenen Ordner müssen die folgenden beiden Dateien erstellt werden:
 
 
 ´traefik.yml´:
 `<EMAIL>` durch die eigene E-Mail-Adresse ersetzen.
-## TODO: traefik.yml erklären
 ```yaml
 providers:
   docker:
+    #nicht alle Docker Container per default erreichbar machen
     exposedByDefault: false
     network: traefik_gateway
 
@@ -54,19 +68,24 @@ entrypoints:
   websecure:
     address: :443
 
+#diese Section regelt automatische Zertifikatvergabe 
+#durch Lets Encrypt.
+#sofern ein eigenes Zertifikat vorhanden ist, kann stattdessen dieses
+#verwendet werden (siehe Traefik Dokumentation)
 certificatesresolvers:
   le:
     acme:
-      email: <EMAIL>
+      email: <EMAIL> #ersetzen
       storage: /acme/acme.json
       tlschallenge: true
-accessLog:
+      
+accessLog: #optional
   filePath: "/accesslogs/access.log"
 
 log:
   level: WARN
 
-http:
+http: #optional, verhindert web scraping durch Suchmaschinen
   middlewares:
     add-robots-headers:
       headers:
@@ -78,7 +97,6 @@ http:
 ```
 
 
-// TODO: docker-compose.yml erklären
 `docker-compose.yml`:
 ```yaml
 services:
@@ -88,7 +106,6 @@ services:
     networks:
       default:
       traefik_gateway:
-        ipv4_address: 172.16.2.100
     ports:
      - "80:80"
      - "443:443"
@@ -101,14 +118,18 @@ services:
 
 networks:
   default:
-    ipam:
-      driver: default
-      config:
-        - subnet: "172.45.0.0/24"
   traefik_gateway:
     name: traefik_gateway
     external: true
 ```
+
+Nun muss noch das `traefik_gateway` Netzwerk manuell in Docker erstellt werden: 
+```Shell
+docker network create -d bridge traefik_gateway
+```
+> Dieses separat definierte Netzwerk ist erforderlich, um die getrennten Docker Compose Stacks miteinander zu verbinden
+> und hat zusätzlich den Vorteil, dass wir den Zugriff von Traefik auf Container, zu diesen kein Zugriff von außen 
+> möglich sein sollte (bspw. Datenbanken), verhindern können.
 
 Traefik kann nun mit `docker-compose up -d` gestartet werden.
 
