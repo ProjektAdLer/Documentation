@@ -32,19 +32,16 @@
 3.	Klick: Löschen bestätigen.
 
 **Die Bedienung des Autorentools muss mit folgenden Eingabegeräten möglich sein.**
-
 - Computermaus und Tastatur
 - Touchpad
 
 # Rahmenbedingungen für die Gestaltung der Benutzungsoberfläche
 **Die Nutzung des Autorentools muss auf folgenden Endgeräten möglich sein.**
-
 ### Endgeräte:
 - PCs (Windows, Linux, macOS)
 - Laptops (Windows, Linux, macOS)
 
 **Die Benutzungsoberfläche des Autorentools muss hinsichtlich der Breite in folgenden Formatbereichen liegen (die Höhe unterliegt an keiner Stelle festen Pixelwerten und wächst automatisch mit).**
-
 ### Formatbereiche:
 - 640px (sm)
 - 768px (md)
@@ -58,7 +55,6 @@
 - 3700px (3700p)
 
 **Das Farbkonzept des Autorentools muss folgende Farben aufweisen.**
-
 ### Farben:
 
 - babylonbg: "#33334d"
@@ -138,7 +134,6 @@
   - adlergreybright: "#fafafa"
 
 **Die Schrift im Autorentool muss folgende Größe aufweisen.**
-
 ### Schriftgrößen:
 
 - 12px (text-xs)
@@ -152,8 +147,10 @@
 # Bedienelemente (mittels Software visualisierte Objekte)
 
 **Der Standard-Button des Autorentools muss die folgenden Eigenschaften aufweisen.**
-
 ### Standard-Button
+
+![](imageAuthoringToolOberflaechenStandardButton.png)
+
 - Höhe: 32px 
 - Schriftfarbe: "rgb (23,45,77)" (adlerdarkblue-300) -> Verweis auf Farbe 
 - Hintergrundfarbe: "rgb (184,210,229)" (adlerblue-200) -> Verweis auf Farbe 
@@ -162,24 +159,34 @@
 - Text: mittig gelayoutet
 
 **Folgende Button basieren auf dem Standard-Button und weisen abweichende Eigenschaften auf:**
-
 ### Bestätigungs-Button:
+
+![](imageAuthoringToolOberflaechenBestaetigungsButton.png)
+
 - Icon: Haken
 - Icon-Farbe: rgb (11,186,131)
 - Text: OK
 
 ### Neu-Button:
+
+![](imageAuthoringToolOberflaechenNeuButton.png)
+
 - Icon: Plus 
 - Icon-Farbe: adlerdarkblue (Verweis)
 - Text: NEU 
 
 ### Reset-Button:
+
+![](imageAuthoringToolOberflaechenResetButton.png)
+
 - Schriftfarbe: "rgb(128,128,128)" (adlergrey-500) -> Verweis auf Farbe 
 - Hintergrundfarbe: "#e9e9e9" (adlerdeactivated) -> Verweis auf Farbe
 
 **Der Standard-Button im Header des Autorentools muss die folgenden Eigenschaften aufweisen.**
-
 ### Standard-Button im Header:
+
+![](imageAuthoringToolOberflaechenHeaderStandardButton.png)
+
 - Höhe: 32px 
 - Breite: 32px 
 - Rahmenradius: 8px 
@@ -188,15 +195,19 @@
 - Disabled-Hintergrundfarbe: "#e9f2fa" (buttonbgblue) -> Verweis auf Farbe
 
 **Folgender Button basiert auf dem Standard-Button im Header und weist abweichende Eigenschaften auf.**
-
 ### Veröffentlichen-Button:
+
+![](imageAuthoringToolOberflaechenVeroeffentlichenButton.png)
+
 - Hintergrundfarbe: "rgb(229,197,138)" (adlergold-400) -> Verweis auf Farbe 
 - Hover-Schriftfarbe: "rgb(23,45,77)" (adlerdarkblue-300) -> Verweis auf Farbe 
 - Hover-Hintergrundfarbe: " rgb(229,181,92)" (adlergold-600) -> Verweis auf Farbe 
 
 **Die Breite der Registerkarten des Autorentools (linke und rechte Sidebar) muss orientierend an der Breite des Autorentools folgende Eigenschaften aufweisen (die Höhe unterliegt an keiner Stelle festen Pixelwerten und wächst automatisch mit).**
-
 ### Registerkarte:
+
+![](imageAuthoringToolOberflaechenRegisterkarte.png){height="400"}
+
 - Breite der Registerkarte bei Breite X des Autorentools 
 - 350px bei 640px (sm)
 - 350px bei 768px (md)
@@ -210,8 +221,10 @@
 - 600px bei 3700px (3700p)
 
 **Die Element-Karte/Slots im Autorentool muss orientierend an der Breite des Autorentools folgende Eigenschaften aufweisen.**
-
 ### Element-Karte/Slots:
+
+![](imageAuthoringToolOberflaechenElementKarteSlots.png)
+
 - Breite der Element-Karte/Slots bei Breite X des Autorentools 
 - 72px bei 640px (sm)
 - 72px bei 768px (md)
@@ -237,8 +250,10 @@
 - 55px bei 3700px (3700p)
 
 **Die Benutzungsoberfläche des Autorentools enthält die folgenden Meldungen:**
-
 ### Eigenschaften der Standard-Meldung (im Autorentool = Aktualisierungsmeldung):
+
+![](imageAuthoringToolOberflaechenStandardmeldung.png)
+
 - Schriftfarbe: weiß
 - Platzierung: rechter oberer Bildschirmrand 
 - Schließen-Icon: X 
@@ -247,19 +262,26 @@
 - Position des Zusatz-Icons: links vom Text positioniert
 
 **Weitere Meldungen, die auf der Standard-Meldung basieren und abweichende Eigenschaften besitzen:**
-
 ### Fehlermeldungen
+
+![](imageAuthoringToolOberflaechenFehlermeldung.png)
+
 - Farbgebung: rgb(244,67,54)  rot 
 - Zusatz-Icon: Kreis mit Ausrufezeichen
 ### Warnmeldungen
+
+![](imageAuthoringToolOberflaechenWarnmeldung.png)
+
 - Farbgebung: rgb(225,152,0)  gelb 
 - Zusatz-Icon: Dreieck mit Ausrufezeichen
-### Bestätigungsmeldungen 
+### Bestätigungsmeldungen
+
+![](imageAuthoringToolOberflaechenBestaetigungsmeldung.png)
+
 - Farbgebung: rgb(0,200,83)  grün 
 - Zusatz-Icon: Kreis mit Haken
 
 **Die Sortierung der Elemente innerhalb der hierarchischen Darstellung des Autorentools muss standardmäßig wie folgt sein.**
-
 ## Sortierung
 
 - Oberste Position: Eingangs-Storyelement (wenn vorhanden)
@@ -271,8 +293,9 @@
 **Die Sortierung der unplatzierten Elemente muss standardmäßig nach Änderungsdatum sein.**
 
 **Die Gestaltung der erstellten und importierten Lernwelt (Lernwelt-Karte) auf der Startseite muss wie folgt sein.**
-
 ### Lernwelt-Karte
+
+![](imageAuthoringToolOberflaechenLernweltKarte.png)
 
 - Höhe: 160px 
 - Breite: 240px 
@@ -290,16 +313,15 @@
 - Position des Hintergrund-Icons: rechts unten positioniert
 
 **Die Gestaltung der linken und rechten Sidebar muss wie folgt sein.**
-
 ### Linke und Rechte Sidebar
+
+![](imageAuthoringToolOberflaechenRegisterkarte.png){height="400"}
 
 - Rahmendicke: 8px 
 - Hintergrundfarbe: adlergrey-300 (Verweis)
 
 **Der Erstellungsdialog zu Lernwelt/Lernraum/Storyelement/Lernelement/Adaptivitätselement in der linken Sidebar muss standardmäßig wie folgt sein.**
-
 ## Standard
-
 ### Überschrift:
 - Schriftgröße bis 1535px Bildschirmbreite: 16px
 - Schriftgröße ab 1535px Bildschirmbreite: 20px
@@ -324,14 +346,15 @@
 
 
 **Die Gestaltung des Grundrisses im mittleren Fenster muss wie folgt sein:**
-
 ### Grundriss:
+
+![](imageAuthoringToolOberflaechenGrundrissMittleresFenster.png)
+
 - Rahmendicke: 0.2 (4px)
 - Rahmenfarbe: adlergrey-200 (Verweis)
 - Hintergrundfarbe: buttonbgblue (Verweis)
 
 **Die Farbe der Icons muss wie folgt sein:**
-
 ### Erlaubte Farben:
 - adlergold-500 (Verweis)
 - adlerdarkblue-300 (Verweis)
@@ -339,8 +362,10 @@
 - buttonbgblue (Verweis)
 
 **Die Gestaltung der Elementkarten muss wie folgt sein.**
-
 ### Elementkarten
+
+![](imageAuthoringToolOberflaechenElementkarten.png)
+
 - Hintergrundfarbe: adlerdeactivatedtext (Verweis)
 - Rahmenfarbe: adlergrey-200 (Verweis)
 - Rahmendicke: 2px
