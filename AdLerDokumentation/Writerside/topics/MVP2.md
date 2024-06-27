@@ -2,7 +2,7 @@
 
 ## Definition:
 
-Bei einem Backup-Wiederherstellungsprozess müssen die Plugins die Daten des jeweiligen Plugins aus dem Backup extrahieren.
+Sobald ein Moodle-Backup wiederhergestellt wird, müssen die Plugins die Daten des jeweiligen Plugins aus dem Backup extrahieren.
 
 
 ## Akzeptanzkriterien:

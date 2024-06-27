@@ -2,7 +2,7 @@
 
 ## Definition:
 
-Bei einem Backup-Prozess müssen die Plugins alle persistierten Daten des jeweiligen Plugins in das Moodle-Backup integrieren.
+Sobald ein Moodle-Backup erstellt wird, müssen die Plugins alle persistierten Daten des jeweiligen Plugins in das Moodle-Backup integrieren.
 
 
 ## Akzeptanzkriterien:

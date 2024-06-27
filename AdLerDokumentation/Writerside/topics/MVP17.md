@@ -2,7 +2,7 @@
 
 ## Definition:
 
-Die Plugins müssen im Adaptivitätselement, welches der Lernende geöffnet hat, den aktuellen Status des Lernelements anzeigen.
+Die Plugins müssen in einem geöffneten Adaptivitätselement, den aktuellen Status des Lernelements anzeigen.
 
 
 ## Akzeptanzkriterien:
