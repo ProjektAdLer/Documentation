@@ -14,8 +14,8 @@ Beantwortet eine Frage eines Adaptivitäts-Lernelements.
 
 ## Antwort:
 
-- `data`
-    - `module`
+- `data`: Objekt
+    - `module`: Objekt
         - `module_id`: String (Optional) - Modul-ID des Adaptivitätsmoduls
         - `instance_id`: String (Optional) - Instanz-ID des Adaptivitätsmoduls
         - `status`: String - Status des Moduls, einer von correct, incorrect, notAttempted

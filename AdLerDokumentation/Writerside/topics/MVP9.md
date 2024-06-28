@@ -7,7 +7,7 @@ Die Plugins müssen eine Schnittstelle für Lernende bieten, um Ergebnisse von H
 
 
 ## Akzeptanzkriterien:
-
+TODO
 
 ## Aktivitätsdiagramm:
 

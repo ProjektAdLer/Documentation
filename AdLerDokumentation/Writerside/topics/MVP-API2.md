@@ -13,7 +13,7 @@ Ruft Details für alle Fragen in einem Lernelement ab.
 
 ## Antwort:
 
-- `data`
+- `data`: Objekt
     - `questions`: Liste von Objekten
         - `uuid`: String - UUID der Frage
         - `status`: String - Status der Frage, einer von correct, incorrect, notAttempted

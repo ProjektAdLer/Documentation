@@ -2,7 +2,7 @@
 
 ## Definition:
 
-Das Plugin muss Lernelemente in noch nicht freigespielten Räumen für Lernende ausblenden. 
+Wenn ein Lernender einen Raum noch nicht freigespielt hat, dann müssen die Plugins den Raum ausblenden.
 
 
 ## Akzeptanzkriterien:
