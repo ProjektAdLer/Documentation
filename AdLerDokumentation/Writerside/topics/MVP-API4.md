@@ -11,6 +11,6 @@ Lädt einen Adler-Kurs hoch (als <a href="MBZ-GE.md" />-Datei).
 
 ## Antwort:
 
-- `data`
+- `data`: Objekt
     - `course_id`: Int - ID des neu erstellten Kurses
     - `course_fullname`: String - Vollständiger Name des neu erstellten Kurses. Dieser Wert kann von dem in mbz angegebenen abweichen. Wenn ein Name bereits existiert, benennt Moodle den Kurs um.

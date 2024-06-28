@@ -11,7 +11,7 @@ Ruft Details für alle Aufgaben in einem Lernelement ab.
 
 ## Antwort:
 
-- `data`
+- `data`: Objekt
     - `tasks`: Liste von Objekten
         - `uuid`: String - UUID der Aufgabe
         - `status`: String - Status der Aufgabe, einer von correct, incorrect, notAttempted
