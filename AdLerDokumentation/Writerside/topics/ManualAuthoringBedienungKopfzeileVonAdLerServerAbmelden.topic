@@ -15,29 +15,28 @@
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Benutzer-Abmeldung von dem AdLer-Server.</p>
+                <p>Als Benutzer vom AdLer-Server abmelden.</p>
                 <tip><p>Um sich mit einem anderen Account anzumelden, ist zuvor eine Abmeldung erforderlich.</p></tip>
             </def>
         </deflist>
 
         <tip>
-            <p>Voraussetzungen:</p>
+            <p>Voraussetzung:</p>
             <list>
                 <li>Sie sind angemeldet. Siehe: <a
-                        href="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/></li>
+                        href="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/>.</li>
             </list>
         </tip>
 
         <step>
-            <p>Klicken Sie auf den
-                <control>Benutzer</control>
-                -Button (Symbol: Personen-Avatar)
+            <p>Klicken Sie auf den Button
+                <control>Einloggen auf den AdLer-Server</control> (Symbol: Personen-Avatar).
                 <img src="imageManualWorkshopHighlightedAdministrationButton.png"
                      alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools"
                      width="200" thumbnail="true" style="block"/>
             </p>
-            <note>&#10004; Das Administrations-PopUp-Fenster wird geöffnet. Siehe: <a
-                    href="ManualAuthoringSoftwarekomponentenKopfzeileLoginAufAdLerServer.topic"/>
+            <note>Es öffnet sich ein Pop-up-Fenster mit dem Titel <control>Administration</control>. Siehe: <a
+                    href="ManualAuthoringSoftwarekomponentenKopfzeileLoginAufAdLerServer.topic"/>.
                 <img src="imageManualAuthoringKopfzeileAdministration.png"
                      alt="Administrations-PopUp wenn Nutzer angemeldet" width="200" thumbnail="true" style="block"/>
             </note>
@@ -51,9 +50,9 @@
             </p>
         </step>
         <step>
-            <p>Sie können nun das Fenster über den
+            <p>Sie können nun das Fenster über den Button
                 <control>X</control>
-                -Button schließen.
+                schließen.
             </p>
         </step>
 

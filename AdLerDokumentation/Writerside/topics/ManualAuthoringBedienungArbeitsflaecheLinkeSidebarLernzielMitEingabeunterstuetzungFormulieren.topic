@@ -21,7 +21,7 @@
         </step>
         <step><p>Wählen Sie in dem sich nun öffnenden Fenster in dem ersten Auswahlbereich die <control>Taxonomiestufe</control>, der Ihr Lernziel zugeordnet werden soll.</p>
             <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungTaxonomie.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Taxonomie" width="200" thumbnail="true"/>
-            <tip>Informationen zur Eingabeunterstützung und seinem Aufbau erhalten Sie hier: <a href="Handreichung-Didaktik-BD.md"></a></tip>
+            <tip>Informationen zur Eingabeunterstützung und seinem Aufbau erhalten Sie hier: <a href="Handreichung-Didaktik-BD.md"></a>.</tip>
         </step>
         <step><p>Tragen Sie im Textfeld zu <control>Was? (Thema)</control> das Thema Ihres Lernziels ein.</p>
             <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUnterstuetzungThema.png" alt="Lernziel-Formulierung mit Eingabeunterstützung: Thema" width="200" thumbnail="true"/>
@@ -46,10 +46,7 @@
             </tip>
         </step>
         <note>
-            <control>
-                <p>Sie haben erfolgreich ein Lernziel zu einem Lernraum mithilfe der Eingabeunterstützung erstellt.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben erfolgreich ein Lernziel zu einem Lernraum mithilfe der Eingabeunterstützung erstellt.</control>
         </note>
     </procedure>
 </topic>

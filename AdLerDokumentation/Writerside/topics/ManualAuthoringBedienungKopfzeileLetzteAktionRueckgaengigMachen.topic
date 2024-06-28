@@ -20,9 +20,9 @@
         </deflist>
 
         <tip>
-            <p>Voraussetzungen:</p>
+            <p>Voraussetzung:</p>
             <list>
-                <li>Es wurde zuvor mindestens eine Interaktion getätigt</li>
+                <li>Es wurde zuvor mindestens eine Interaktion getätigt.</li>
             </list>
         </tip>
 
@@ -31,7 +31,7 @@
                 <procedure>
                     <step>
                         <p>
-                            Drücken Sie den Rückgängig-Button in der Kopfzeile (Symbol: Pfeil nach links).
+                            Drücken Sie in der Kopfzeile den Button <control>Rückgängig</control> (Symbol: Pfeil nach links).
                             <img src="imageManualAuthoringKopfzeileAktionRueckgaengig.png"
                                  alt="Rückgängig Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
                                  style="block"/>
@@ -78,7 +78,7 @@
             <list>
                 <li><p>Sie können mehrere Aktionen hintereinander rückgängig machen.</p></li>
                 <li><p>Sie können eine rückgängig gemachte Aktion wiederherstellen, indem Sie diese wiederholen. Siehe:
-                    <a href="ManualAuthoringBedienungKopfzeileAktionWiederholen.topic"/></p></li>
+                    <a href="ManualAuthoringBedienungKopfzeileAktionWiederholen.topic"/>.</p></li>
             </list>
         </tip>
 

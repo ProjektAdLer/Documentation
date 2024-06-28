@@ -30,10 +30,7 @@
             <tip>Sobald die Maus über den Button fährt, wird ein zusätzlicher Hover-Text "Den gesamten Namen der .awf-Datei anzeigen" angezeigt.</tip>
         </step>
         <note>
-            <control>
-                <p>Sie haben erfolgreich die Anzeige des Dateinamens zu den Lernwelten aktiviert.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben erfolgreich die Anzeige des Dateinamens zu den Lernwelten aktiviert.</control>
         </note>
         <tip>
             <p>Der Dateiname wird in den als weißes Rechteck dargestellten Lernwelten unterhalb des Namens angezeigt. Mit einem erneuten Klick auf den Button verschwindet die Anzeige des Dateinamens wieder.</p>

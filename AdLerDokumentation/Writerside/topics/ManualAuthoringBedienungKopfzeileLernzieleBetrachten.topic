@@ -13,40 +13,38 @@
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Alle definierten Lernziele der aktuell geöffnet Lernwelt betrachten.</p>
+                <p>Alle definierten Lernziele zu Lernräumen einer aktuell geöffnet Lernwelt betrachten.</p>
             </def>
         </deflist>
 
         <tip>
-            <p>Voraussetzungen:</p>
+            <p>Voraussetzung:</p>
             <list>
-                <li>Eine Lernwelt ist derzeitig geöffnet.</li>
+                <li>Eine Lernwelt ist geöffnet.</li>
             </list>
         </tip>
 
         <step>
-            <p>Klicken Sie auf den
-                <control>Lernziele dieser Lernwelt</control>
-                -Button (Symbol: Zielscheibe)
+            <p>Klicken Sie auf den Button
+                <control>Lernziele dieser Lernwelt</control> (Symbol: Zielscheibe).
                 <img src="imageManualAuthoringKopfzeileAktionLernziele.png"
                      alt="Hervorgehobener Lernziele-Button in der Kopfzeile des Autorentools"
                      width="200" thumbnail="true" style="block"/>
             </p>
-            <note>&#10004; Das Lernziel-PopUp-Fenster wird geöffnet. Dieses enthält alle Lernziele aufgeteilt nach
-                Lernräumen.
+            <note>Es öffnet sich ein Pop-up-Fenster. Dieses enthält alle Lernziele, aufgeteilt nach den
+                Lernräumen der Lernwelt.
                 <img src="imageManualAuthoringKopfzeileLernzielUebersichtFenster.png"
                      alt="Lernziele-PopUp Fenster" width="200" thumbnail="true" style="block"/>
             </note>
         </step>
         <step>
-            <p>Sie können nun das Fenster über den
-                <control>X</control>
-                -Button schließen.
+            <p>Sie können nun das Fenster über den Button
+                <control>X</control> schließen.
             </p>
         </step>
 
         <note>
-            <control>&#10004; Sie haben erfolgreich die Lernziel Übersicht dieser Lernwelt geöffnet.</control>
+            <control>&#10004; Sie haben erfolgreich die Übersicht zu den Lernzielen aller Lernräume einer geöffneten Lernwelt geöffnet.</control>
         </note>
     </procedure>
 </topic>

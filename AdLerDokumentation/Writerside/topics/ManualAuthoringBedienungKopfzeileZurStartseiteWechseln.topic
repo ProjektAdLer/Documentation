@@ -32,8 +32,7 @@
     </li>
 </list>
     <note>
-        <p>Sie sind erfolgreich von der Arbeitsfläche auf die Startseite des Autorentools gewechselt.</p>
-        <p>&#10004;</p>
+        <control>&#10004; Sie sind erfolgreich von der Arbeitsfläche auf die Startseite des Autorentools gewechselt.</control>
     </note>
 </procedure>
 </topic>

@@ -43,10 +43,7 @@
             <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Lernwelt öffnen" wird angezeigt.</tip>
         </step>
         <note>
-            <control>
-                <p>Sie haben die Lernwelt erfolgreich geöffnet.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben die Lernwelt erfolgreich geöffnet.</control>
         </note>
         <tip>Nach dem Klicken des Buttons werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Bearbeitung dieser Lernwelt beginnen können.</tip>
     </procedure>

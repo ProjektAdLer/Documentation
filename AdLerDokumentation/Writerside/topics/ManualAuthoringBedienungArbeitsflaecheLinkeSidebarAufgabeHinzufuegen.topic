@@ -26,10 +26,7 @@
 
         </step>
         <note>
-            <control>
-                <p>Sie haben dem Adaptivitätselement erfolgreich eine Aufgabe hinzugefügt.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben dem Adaptivitätselement erfolgreich eine Aufgabe hinzugefügt.</control>
         </note>
     </procedure>
 </topic>

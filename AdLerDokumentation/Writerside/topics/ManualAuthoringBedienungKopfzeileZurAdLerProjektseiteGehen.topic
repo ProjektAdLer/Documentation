@@ -20,23 +20,23 @@
         </deflist>
 
         <step>
-            <p>Klicken Sie auf den Hilfe-Button (Symbol: Fragezeichen)
+            <p>Klicken Sie in der Kopfzeile mit der Maus auf den Button <control>?</control>.
                 <img src="imageManualAuthoringKopfzeileAktionHilfe.png"
                      alt="Hilfe Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" style="block"/>
             </p>
-            <note>&#10004; Ein Untermenü wird angezeigt.</note>
+            <note>Ein Untermenü wird angezeigt.</note>
         </step>
         <step>
             <p>Wählen Sie den letzten Listeneintrag
                 <control>Über AdLer</control>
-                und klicken Sie auf diesen
+                und klicken Sie auf diesen.
                 <img src="imageManualAuthorinKopfzeileProjektseite.png" alt="Über Adler Button im Kontextdialog Hilfe"
                      width="200" thumbnail="true" style="block"/>
             </p>
         </step>
 
         <note>
-            <control>&#10004; Die AdLer Projektwebseite öffnet sich in Ihrem Standardwebbrowser.</control>
+            <control>&#10004; Die AdLer-Projektwebseite öffnet sich in Ihrem Standardwebbrowser.</control>
             <img src="imageManualAuthorinKopfzeileProjektseiteWeb.png" alt="Vorschau AdLer-Webseite" width="200"
                  thumbnail="true" style="block"/>
         </note>

@@ -65,9 +65,6 @@
 
     </procedure>
     <note>
-        <control>
-            <p>Sie haben erfolgreich externes Lernmaterial hinzugefügt.</p>
-            <p>&#10004;</p>
-        </control>
+        <control>&#10004; Sie haben erfolgreich externes Lernmaterial hinzugefügt.</control>
     </note>
 </topic>

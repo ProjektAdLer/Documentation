@@ -47,8 +47,7 @@
             </tip>
         </step>
         <note>
-            <p>Sie haben erfolgreich Feedback zum Autorentool im Gesamten gegeben.</p>
-            <p>&#10004;</p>
+            <control>&#10004; Sie haben erfolgreich Feedback zum Autorentool im Gesamten gegeben.</control>
         </note>
     </procedure>
 </topic>

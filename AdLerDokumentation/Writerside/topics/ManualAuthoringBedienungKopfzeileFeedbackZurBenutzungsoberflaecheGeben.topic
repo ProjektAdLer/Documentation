@@ -61,11 +61,9 @@
         <tip>Sie können während der Nutzung des Autorentools mehrfach Rückmeldung zur Benutzungsoberfläche des
             Autorentools geben.
         </tip>
-        <note>
-            <control>
-                <p>Sie haben erfolgreich Feedback zur Benutzungsoberfläche des Autorentools gegeben.</p>
-                <p>&#10004;</p>
-            </control>
-        </note>
+            <note>
+                <control>&#10004; Sie haben erfolgreich Feedback zur Benutzungsoberfläche des Autorentools gegeben.
+                </control>
+            </note>
     </procedure>
 </topic>
