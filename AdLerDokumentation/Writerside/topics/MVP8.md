@@ -6,7 +6,3 @@ Die Plugins müssen eine Schnittstelle für Lernende bieten, um ihre erreichten 
 
 
 ## Akzeptanzkriterien:
-
-
-## Aktivitätsdiagramm:
-

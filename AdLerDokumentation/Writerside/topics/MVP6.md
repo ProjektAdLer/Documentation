@@ -7,7 +7,3 @@ Die Plugins müssen eine Schnittstelle bieten, um Moodle IDs anhand einer eindeu
 
 ## Akzeptanzkriterien:
 - Die eindeutige ID wird in Form von UUIDs implementiert. 
-
-
-## Aktivitätsdiagramm:
-

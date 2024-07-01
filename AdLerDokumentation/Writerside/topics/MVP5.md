@@ -7,6 +7,3 @@ Die Plugins müssen eine Schnittstelle bieten, um Details aller Adaptivitätsauf
 ## Akzeptanzkriterien:
 - Anfrage: Modul-ID oder Instanz-ID als Parameter
 - Rückgabe: Abschlusszustand als bool
-
-## Aktivitätsdiagramm:
-
