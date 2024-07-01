@@ -6,6 +6,3 @@ Die Plugins müssen eine Schnittstelle bieten, um eine Adaptivitätsfrage zu bea
 
 ## Akzeptanzkriterien:
 - Die Schnittstelle muss den aktualisierten Abschlusszustand der Frage, Aufgabe und des Adaptivitätselements zurückgeben.
-
-## Aktivitätsdiagramm:
-

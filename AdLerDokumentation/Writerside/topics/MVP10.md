@@ -7,6 +7,3 @@ Die Plugins müssen eine Schnittstelle für Lernende bieten, um Lernelemente ohn
 
 ## Akzeptanzkriterien:
 TODO
-
-## Aktivitätsdiagramm:
-
