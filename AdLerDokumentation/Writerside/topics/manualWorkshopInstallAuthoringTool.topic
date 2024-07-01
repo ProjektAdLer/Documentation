@@ -22,7 +22,6 @@
             <tip>Sie befinden sich nun auf der GitHub-Seite "Releases", auf der alle Versionen des AdLer-Autorentools aufgeführt werden. Die aktuellste Version wird ganz oben angezeigt.</tip>
         </step>
         <step>
-            Test
             <p>Wählen Sie nun unter dem Punkt <control>Assets</control>, die Datei aus, welche für Ihr System passend ist und laden Sie diese herunter.</p>
         </step>
         <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
