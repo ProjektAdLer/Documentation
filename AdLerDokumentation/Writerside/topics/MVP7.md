@@ -6,3 +6,5 @@ Die Plugins müssen eine Schnittstelle für Lernende bieten, um ihre Punkte von 
 
 
 ## Akzeptanzkriterien:
+- Parameter: Liste von Kurs-ID
+- Rückgabe: Liste von Modul-ID und Punkte Paaren
