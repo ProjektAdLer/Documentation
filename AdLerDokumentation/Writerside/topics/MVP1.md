@@ -7,6 +7,4 @@ Sobald ein Moodle-Backup erstellt wird, müssen die Plugins alle persistierten D
 
 ## Akzeptanzkriterien:
 - Die Backups müssen den Moodle-Vorgaben entsprechen (siehe [Moodle Backup](https://docs.moodle.org/dev/Backup_2.0_for_developers)).
-
-## Aktivitätsdiagramm:
-
+- Das Backup entspricht [unserer Spezifikation](https://wiki.projekt-adler.eu/de/MoodlePlugin/mbz-format)

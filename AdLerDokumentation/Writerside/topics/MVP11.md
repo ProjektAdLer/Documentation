@@ -7,7 +7,5 @@ Die Plugins müssen eine Schnittstelle bieten, um eine Welt hochzuladen.
 
 ## Akzeptanzkriterien:
 - Nur Lehrende dürfen Welten hochladen.
-- Die Schnittstelle gibt die ID und den Namen der neuen Welt zurück.
-- Die Schnittstelle muss einen Modus bieten, in welchem nur die Berechtigungen geprüft werden. (Dryrun)
-
-## Aktivitätsdiagramm:
+- Rückgabe: ID und Namen der neuen Welt
+- Parameter: Welt-Datei, Testmodus (keine Änderungen am System werden durchgeführt).

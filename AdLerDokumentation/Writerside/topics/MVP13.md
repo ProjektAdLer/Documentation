@@ -7,7 +7,3 @@ Die Plugins müssen dem Lernenden anzeigen, welche Voraussetzungen zu erfüllen 
 
 ## Akzeptanzkriterien:
 - Bei nicht freigespielten Lernräumen wird dem Lernenden ein Hinweis angezeigt, welche Bedingung er erfüllen muss.
-
-
-## Aktivitätsdiagramm:
-

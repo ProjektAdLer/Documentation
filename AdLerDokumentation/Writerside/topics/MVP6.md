@@ -2,12 +2,9 @@
 
 ## Definition:
 
-Die Plugins müssen eine Schnittstelle bieten, um Moodle IDs anhand einer eindeutigen ID abzufragen
+Die Plugins müssen eine Schnittstelle bieten, um Moodle IDs anhand einer UUID abzufragen
 
 
 ## Akzeptanzkriterien:
-- Die eindeutige ID wird in Form von UUIDs implementiert. 
-
-
-## Aktivitätsdiagramm:
-
+- Parameter: Liste von Elementgruppen aus Kurs-ID, Elementtyp und UUID
+- Rückgabe: Liste von Elementgruppen aus Kurs-ID, Elementtyp, UUID, Context-ID und Moodle-ID

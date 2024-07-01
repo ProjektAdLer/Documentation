@@ -7,6 +7,3 @@ Die Plugins müssen im Adaptivitätselement den aktuellen Status jeder Frage im 
 
 ## Akzeptanzkriterien:
 - Wurde die Frage bereits mindestens einmal richtig beantwortet, wird dem Lernenden dies angezeigt.
-
-## Aktivitätsdiagramm:
-

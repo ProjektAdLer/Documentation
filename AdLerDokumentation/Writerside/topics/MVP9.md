@@ -7,7 +7,5 @@ Die Plugins müssen eine Schnittstelle für Lernende bieten, um Ergebnisse von H
 
 
 ## Akzeptanzkriterien:
-
-
-## Aktivitätsdiagramm:
-
+- Parameter: Events der H5P Elemente
+- Rückgabe: Erreichte AdLer-Punktzahl

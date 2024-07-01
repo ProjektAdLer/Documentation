@@ -6,7 +6,5 @@ Die Plugins müssen eine Schnittstelle für Lernende bieten, um Lernelemente ohn
 
 
 ## Akzeptanzkriterien:
-
-
-## Aktivitätsdiagramm:
-
+- Einfache Lernelemente ohne Note können abgeschlossen werden.
+- Rückgabe AdLer-Punktzahl

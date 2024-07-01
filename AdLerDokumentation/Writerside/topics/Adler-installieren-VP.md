@@ -203,7 +203,7 @@ Es werden die folgenden Anwendungen gestartet:
 Es ist ein Proxy (bspw. ein SSH-Proxy) auf den Server notwendig.
 - Datenbanken für Moodle und das Backend
 
-Abgehen von den Versionen der Images (siehe Abschnitt [Updates](#updates)) müssen in der Regel keine Änderungen an der `docker-compose.yml` vorgenommen werden.
+Abgesehen von den Versionen der Images (siehe Abschnitt [Updates](#updates)) müssen in der Regel keine Änderungen an der `docker-compose.yml` vorgenommen werden.
 
 ### Updates
 Der einfachste Weg Updates einzuspielen, ist es die jeweils aktuelle [docker-compose.yml](https://github.com/ProjektAdLer/deployment-adler-prod/blob/main/docker-compose.yml) herunterzuladen.
