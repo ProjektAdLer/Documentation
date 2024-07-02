@@ -26,7 +26,7 @@
             welche genutzt werden kann, um das <a href="AdLer-System.md"></a> zu entwickeln, 
             in Betrieb zu nehmen und zu betreiben. 
             Beispiele: 
-            <a href="Installationsanleitung-GE.md"></a> , 
+            Installationsanleitung, 
             <a href="Wartungsdokumentation-GE.md"></a> , 
             <a href="Testdokumentation-GE.md"></a> , 
             <a href="Spezifikation-GE.md"></a> , 

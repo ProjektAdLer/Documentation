@@ -147,4 +147,8 @@
             <![CDATA[Created after removal of "<ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.md>" from AdLerDokumentation]]></description>
         <accepts>ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.html</accepts>
     </rule>
+    <rule id="a20b21">
+        <description>Created after removal of "Installationsanleitung" from AdLerDokumentation</description>
+        <accepts>Installationsanleitung-GE.html</accepts>
+    </rule>
 </rules>
