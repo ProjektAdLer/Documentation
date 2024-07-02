@@ -1,5 +1,9 @@
 # Administration in Moodle
 
+## Wichtige Hinweise für Moodle-Administratoren
+- Moodle Administratoren dürfen keine AdLer [Kurse](Lernwelt-GE.md) in Moodle löschen. Dies wird derzeit nicht
+  unterstützt.
+
 ## Nutzer verwalten
 
 ### Nutzer anlegen
@@ -45,7 +49,3 @@ Nutzer können ganz normal in Moodle gelöscht werden
 > außer es wird ein neuer Lehrenden-Account erstellt, der dies in der jeweiligen [Kurskategorie](Kurskategorie-VP.md)
 > kann.
 > {style='warning'}
-
-## Wichtige Hinweise für Moodle-Administratoren
-- Moodle Administratoren dürfen keine AdLer [Kurse](Lernwelt-GE.md) in Moodle löschen. Dies wird derzeit nicht
-unterstützt.
