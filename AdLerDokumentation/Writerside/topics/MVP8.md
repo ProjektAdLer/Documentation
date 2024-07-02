@@ -6,5 +6,5 @@ Die Plugins müssen eine Schnittstelle für Lernende bieten, um ihre erreichten 
 
 
 ## Akzeptanzkriterien:
-- Es wird eine Liste von modul-IDs akzeptiert
-- Es wird eine Liste von Modul-ID und Punkte Paaren zurückgegeben
+- Es wird eine Liste von [Modul-IDs](module-id-moodle-VP.md) akzeptiert
+- Es wird eine Liste von [Modul-ID](module-id-moodle-VP.md) und Punkte Paaren zurückgegeben

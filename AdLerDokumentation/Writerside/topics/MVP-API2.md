@@ -8,8 +8,8 @@ Ruft Details für alle Fragen in einem Lernelement ab.
 ## Parameter:
 
 - `module` (Erforderlich) - Eines der sub-Attribute ist erforderlich
-    - `module_id`: String (Optional) - Modul-ID des Adaptivitätsmoduls
-    - `instance_id`: String (Optional) - Instanz-ID des Adaptivitätsmoduls
+    - `module_id`: String (Optional) - [Modul-ID](module-id-moodle-VP.md) des Adaptivitätsmoduls
+    - `instance_id`: String (Optional) - [Instanz-ID](instance-id-moodle-VP.md) des Adaptivitätsmoduls
 
 ## Antwort:
 

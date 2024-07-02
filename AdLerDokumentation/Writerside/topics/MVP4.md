@@ -6,5 +6,5 @@ Die Plugins müssen eine Schnittstelle bieten, um Details aller Adaptivitätsfra
 
 
 ## Akzeptanzkriterien:
-- Anfrage: Modul-ID oder Instanz-ID des Adaptivitätsmoduls
+- Anfrage: [Modul-ID](module-id-moodle-VP.md) oder [Instanz-ID](instance-id-moodle-VP.md) des Adaptivitätsmoduls
 - Rückgabe: Abschlusszustand der Fragen
