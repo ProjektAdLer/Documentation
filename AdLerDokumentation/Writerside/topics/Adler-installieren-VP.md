@@ -34,9 +34,12 @@ Das gesamte Setup besteht aus zwei Docker Compose Projekten:
 Traefik übernimmt die Funktion unseres Reverse-Proxy und ermöglicht es uns, dass alle AdLer-Services auf dem gleichen Server
 auf Port 80 auf unterschiedlichen Domains erreichbar sind:
 
-> Sofern Sie in ihrem Setup keinen Reverse-Proxy benötigen oder wünschen (z.B. nur lokalen Zugriff über interne IP und Ports)
-oder bereits einen anderen Reverse-Proxy eingerichtet haben, können Sie das Setup dahingehend anpassen, in dem sie
-diesen Konfigurationsschritt überspringen.
+> Sofern Sie bereits einen anderen Reverse-Proxy eingerichtet haben, können Sie das Setup dahingehend anpassen, indem
+Sie diesen Konfigurationsschritt überspringen. Möchten Sie eine lokale Testumgebung aufsetzen (nur lokalen 
+Zugriff über interne IP und Ports), dann verwenden Sie unsere [Entwicklerumgebung](https://github.com/ProjektAdLer/AdlerDevelopmentEnvironment/tree/main/non-moodle).
+> 
+> Eine Nutzung im LAN ist mit diesem Guide nicht ohne weiteres möglich. Hierzu siehe 
+[diesen Abschnitt der Dokumentation der Testumgebung](https://github.com/ProjektAdLer/AdlerDevelopmentEnvironment/tree/main/non-moodle#hostname).
 {style='note'}
 
 ![](https://www.plantuml.com/plantuml/png/VOynJyKm38Jt_0ehUzkX6mEgK1S6DYH651AtH4riv3f8_7jQeY1uUdgRp_hETvvsTQ8b9-CJbm2Ff2Y4QeW3mhCuNE9MnHDpI5Zd1-Stf535EB--uDkEyea2RWSxpjtlmfg4Yu8oI5pV5K8Kz1gPJ8k2hhjlIN07-ITcS1znG5eZOV_5HG9d5wdtd4r3JrljTBXijLsmzY_SIf_qSVqc-k-bWx_Qn1ep8OMIqpS0)
@@ -203,35 +206,8 @@ Es werden die folgenden Anwendungen gestartet:
 Es ist ein Proxy (bspw. ein SSH-Proxy) auf den Server notwendig.
 - Datenbanken für Moodle und das Backend
 
-Abgesehen von den Versionen der Images (siehe Abschnitt [Updates](#updates)) müssen in der Regel keine Änderungen an der `docker-compose.yml` vorgenommen werden.
-
-### Updates
-Der einfachste Weg Updates einzuspielen, ist es die jeweils aktuelle [docker-compose.yml](https://github.com/ProjektAdLer/deployment-adler-prod/blob/main/docker-compose.yml) herunterzuladen.
-Bis zum Ende der Projektlaufzeit spiegelt diese jeweils den Stand wider, welchen wir in der Produktion nutzen und somit als stabil erachten.
-Danach wird es keine offiziellen Updates, auch nicht von den einzelnen Komponenten, mehr geben.
-
-Nach dem Aktualisieren der `docker-compose.yml` muss AdLer mit `docker-compose down && docker-compose up -d` neu gestartet werden.
-
-**Hinweis:** Bevor ein Update eingespielt wird sollte ein [Backup](#backup) der AdLer-Instanz angelegt werden.
-
-**Achtung bei Updates von Moodle:**
-Moodle kann nicht durch Ändern des Wertes von `MOODLE_VERSION` aktualisiert werden. 
-Somit wird moodle auch nicht automatisch aktualisiert, wenn die `docker-compose.yml` aktualisiert wird.
-Hierfür siehe [Moodle-Update](Moodle-aktualisieren-VP.md).
-
-#### Manuelle Updates
-Für alle Anwendungen, außer Moodle, muss das jeweilige Image in der `docker-compose.yml` aktualisiert werden und 
-AdLer mit `docker-compose down && docker-compose up -d` neu gestartet werden.
-Für das Update von Moodle siehe [Moodle-Update](Moodle-aktualisieren-VP.md).
-Beim Ändern der Versionen muss die Kompatibilität der Versionen untereinander beachtet werden.
-Diese sind für jedes Teilprojekt in der entsprechenden Readme dokumentiert.
-
-- **Update des Frontends**: Im [Frontend Projekt](https://github.com/ProjektAdLer/2D_3D_AdLer) die benötigte Backend-Version nachschauen.
-Die Abhängigkeiten der neuen Backend-Version sind dann ebenfalls zu beachten.
-- **Update des Backends**: Im [Backend Projekt](https://github.com/ProjektAdLer/AdLerBackend) die unterstützte Moodle-Plugin-Version nachschauen.
-Die Abhängigkeiten der neuen Moodle-Plugin-Version sind dann ebenfalls zu beachten.
-Im Backend ist auch die unterstützte Version des Autorentools dokumentiert.
-- **Update von Moodle**: siehe [Moodle-Update](Moodle-aktualisieren-VP.md).
+Abgesehen von den Versionen der Images (siehe Abschnitt [Updates](AdLer-aktualisieren-VP.md#adler-aktualisieren)) müssen 
+in der Regel keine Änderungen an der `docker-compose.yml` vorgenommen werden.
 
 ## Backup
 Um ein Backup der AdLer Instanz zu erstellen, kann wie folgt vorgegangen werden:

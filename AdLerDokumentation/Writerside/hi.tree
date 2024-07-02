@@ -804,7 +804,7 @@
             </toc-element>
         </toc-element>
         <toc-element topic="Administrierende-BD.md">
-            <toc-element topic="Moodle-aktualisieren-VP.md"/>
+            <toc-element topic="AdLer-aktualisieren-VP.md"/>
             <toc-element topic="Adler-installieren-VP.md"/>
         </toc-element>
         <toc-element topic="Entwickelnde-BD.md">
