@@ -2,6 +2,8 @@
 
 Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefügt.
 
+Stand 03.07.2024 hat das Projekt 205 Unittests
+
 [//]: # (Script-Start)
 | Requirement | Anzahl an Tests | Dateien |
 | --- | --- | --- |
