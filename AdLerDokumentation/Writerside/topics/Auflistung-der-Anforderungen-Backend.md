@@ -13,7 +13,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Erstellte Lernwelten anzeigen (BPG3)](BPG3.md) | **0** | - |
 | [Funktionen auf einem LMS ausführen (BPG18)](BPG18.md) | **0** | - |
 | [H5P abspeichern (BPG20)](BPG20.md) | **0** | - |
-| [H5P herunterladen (BPG21)](BPG21.md) | **0** | - |
+| [H5P herunterladen (BPG21)](BPG21.md) | 4 | [UnzipMiddlewareTest.cs:28](https://github.com/ProjektAdLer/AdLerBackend/blob/main/AdLerBackend.API.UnitTests/MIddleware/UnzipMiddlewareTest.cs#L28)<br/>[UnzipMiddlewareTest.cs:42](https://github.com/ProjektAdLer/AdLerBackend/blob/main/AdLerBackend.API.UnitTests/MIddleware/UnzipMiddlewareTest.cs#L42)<br/>[UnzipMiddlewareTest.cs:76](https://github.com/ProjektAdLer/AdLerBackend/blob/main/AdLerBackend.API.UnitTests/MIddleware/UnzipMiddlewareTest.cs#L76)<br/>[UnzipMiddlewareTest.cs:102](https://github.com/ProjektAdLer/AdLerBackend/blob/main/AdLerBackend.API.UnitTests/MIddleware/UnzipMiddlewareTest.cs#L102) |
 | [Lernelement Bewertungsstatus ausgeben (BPG16)](BPG16.md) | **0** | - |
 | [Lernelemente auswerten (BPG13)](BPG13.md) | **0** | - |
 | [Lernelemente bearbeiten (BPG12)](BPG12.md) | **0** | - |
