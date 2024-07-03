@@ -72,7 +72,7 @@ function findFilesWithIds(files) {
     return __awaiter(this, void 0, void 0, function* () {
         var _a, e_1, _b, _c;
         // Updated regex to allow optional spaces around 'ANF-ID' and inside the brackets
-        const idRegex = /\/\/\s*ANF-ID:\s*\[([A-Z0-9,\s]+)\]/;
+        const idRegex = /(\/\/|#)\s*ANF-ID:\s*\[([A-Z0-9,\s]+)\]/g;
         let filesWithIds = [];
         for (const file of files) {
             try {

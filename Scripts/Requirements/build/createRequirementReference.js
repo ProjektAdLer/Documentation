@@ -20,7 +20,7 @@ function Main() {
         const generatorIds = allRequirementsInfos.filter(({ id }) => id.startsWith('G'));
         const engineIds = allRequirementsInfos.filter(({ id }) => id.startsWith('E'));
         const authoringToolReferences = yield (0, ParseUnitTests_1.parseUnitTests)(autorentoolIds, '../../../Autorentool/', ['Test'], ['.cs']);
-        const backendReferences = yield (0, ParseUnitTests_1.parseUnitTests)(backendIds, '../../../AdLerBackend/', ['.UnitTest'], ['.cs']);
+        const backendReferences = yield (0, ParseUnitTests_1.parseUnitTests)(backendIds, '../../../AdLerBackend/', ['.UnitTest', 'Test'], ['.cs']);
         const generatorReferences = yield (0, ParseUnitTests_1.parseUnitTests)(generatorIds, '../../../Autorentool/', ['Test'], ['.cs']);
         const engineReferences = yield (0, ParseUnitTests_1.parseUnitTests)(engineIds, '../../../2D_3D_AdLer/', ['test'], ['.test.ts', '.test.tsx']);
         (0, WriteRequirementsToListing_1.writeRequirementsToListing)(backendReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md', 'AdLerBackend');

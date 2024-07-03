@@ -19,7 +19,7 @@ async function Main(): Promise<void> {
   const backendReferences = await getUnitTestsForRequirements(
     backendIds,
     '../../../AdLerBackend/',
-    ['.UnitTest'],
+    ['.UnitTest', 'Test'],
     ['.cs']
   );
   const generatorReferences = await getUnitTestsForRequirements(
