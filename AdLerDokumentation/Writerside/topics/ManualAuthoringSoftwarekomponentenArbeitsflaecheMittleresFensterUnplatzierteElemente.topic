@@ -43,9 +43,11 @@
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementLoeschen.topic"/> </p></li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementOeffnen.topic"/> </p></li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementFiltern.topic"/> </p></li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementSuchen.topic"/> </p></li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementInGrundrissPlatzieren.topic"/> </p></li>
         </list>
     </chapter>
 </topic>

@@ -8,7 +8,7 @@
     <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Hier wird das Ziel der Handlung beschrieben</control>
+                <control>Unplatzierte Elemente über die Suchfunktion suchen.</control>
             </def>
         </deflist>
 

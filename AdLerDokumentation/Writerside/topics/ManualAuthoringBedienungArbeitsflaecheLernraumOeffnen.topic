@@ -6,5 +6,74 @@
        title="Lernraum öffnen" id="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen"
        help-id="ManualAuthoringArbeitsfläche-Rechte-Sidebar;ManualAuthoringBedienungArbeitsfläche-Rechte-Sidebar;ManualAuthoringBedienungArbeitsflaecheRechteSidebar">
 
-    <p>Start typing here...</p>
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Öffnen eines Lernraums.</p>
+            </def>
+        </deflist>
+
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Eine Lernwelt ist geöffnet. Siehe: <a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/></p></li>
+                <li><p>Es wurde mindestens ein Lernraum in die Lernwelt eingefügt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/></p></li>
+            </list>
+
+        </tip>
+        <tabs>
+        <tab id="verbidnungsansicht" title="Verbindungsansicht">
+            <tip>Voraussetzungen:
+                <list>
+                    <li><p>Sie befinden sich in der Verbindungsansicht. Siehe: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"/></p></li>
+                </list>
+            </tip>
+            <tabs>
+                <tab id="verbidnungsansicht_doppelklick" title="Doppelklick">
+                    <procedure>
+                        <step>
+                            <p>Klicken Sie doppelt mit der linken Maustaste auf einen Lernraum in der rechten Seitenleiste.
+                                <img src="imageManualAuthoringRechteSidebarLernraumCallout.png"
+                                     alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                        </step>
+                    </procedure>
+                </tab>
+                <tab id="verbidnungsansicht_rechtsklick" title="Kontextmenü">
+                    <procedure>
+                        <step>
+                            <p>Klicken Sie zweimal mit der rechten Maustaste auf einen Lernraum in der rechten
+                            Seitenleiste.
+                            <img src="imageManualAuthoringRechteSidebarLernraumCallout.png"
+                                 alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                            <note>&#10004;
+                                <p>Ein Kontextmenü wird geöffnet.
+                                    <img src="imageManualAuthoringRechteSidebarLernraumVerbidnungKontextdialogCallout.png"
+                                         alt="Rechtsklickmenü Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                            </note>
+                        </step>
+                        <step><p>Klicken Sie auf den obersten Menüeintrag <control>Open</control></p></step>
+                    </procedure>
+                </tab>
+            </tabs>
+        </tab>
+            <tab id="hierarchieansicht" title="Hierarchieansicht">
+                <tip>Voraussetzungen:
+                    <list>
+                        <li><p>Sie befinden sich in der Hierarchieansicht. Siehe: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"/></p></li>
+                    </list>
+                </tip>
+                <procedure>
+                    <step>
+                        <p>Klicken Sie mit der linken Maustaste auf den Titel eines Lernraums.
+                            <img src="imageManualAuthoringRechteSidebarLernraumHierarchieCallout.png"
+                                 alt="Titel eines Lernraums in der Hierarchieansicht" width="200" thumbnail="true" style="block"/></p>
+                    </step>
+                </procedure>
+            </tab>
+        </tabs>
+
+        <note>
+            <control>&#10004; Sie haben erfolgreich einen Lernraum geöffnet. Dieser wird im <a href="ManualAuthoringSoftwarekomponentenMittleresFenster.topic">mittleren Fenster</a> angezeigt.</control>
+        </note>
+    </procedure>
 </topic>

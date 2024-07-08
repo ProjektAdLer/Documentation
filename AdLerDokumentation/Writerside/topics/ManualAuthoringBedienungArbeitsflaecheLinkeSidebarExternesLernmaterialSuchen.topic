@@ -3,7 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Externes Lernmaterial suchen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialSuchen">
+       title="Externes Lernmaterial suchen"
+       id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialSuchen">
 
     <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
@@ -13,31 +14,32 @@
             </def>
         </deflist>
 
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>
+                    <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab"
+                         width="200" thumbnail="true" style="block"/></p></li>
+                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/></p></li>
+            </list>
+        </tip>
 
-        <step><p>Führen Sie den ersten Schritt durch </p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
-        </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+            <p>Geben Sie Suchparameter in die Suchleiste der Kategorie <control>Hinzugefügtes Lernmaterial</control> ein.</p>
+            <tip>
+                <list>
+                    <li><p>Suchparameter können der Name des Lernelements oder dessen Dateiendung (Typ) sein.</p></li>
+                    <li>Die Suche wird automatisch durchgeführt, bereits während Sie eine Eingabe treffen.</li>
+                </list>
+            </tip>
+            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialSuchfeld.png" alt="ExternesLernmaterialTabSuchfeld" width="200"
+                 thumbnail="true" style="block"/>
         </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+
+        <note>
+            <control>&#10004; Sie haben ein externes Lernmaterial über das Suchfeld gesucht und Ihnen wurde das Ergebnis
+                in der darunter liegenden Auswahl angezeigt.
+                <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialSuchergebnis.png" alt="ExternesLernmaterialTabSuchergebnis"
+                     width="200" thumbnail="true" style="block"/></control>
+        </note>
     </procedure>
 </topic>

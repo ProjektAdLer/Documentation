@@ -5,38 +5,39 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Element bearbeiten" id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementOeffnen">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Hier wird das Ziel der Handlung beschrieben</control>
+                <control>Ein Element aus dem Lernraum bearbeiten.</control>
             </def>
         </deflist>
 
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li><p>Es ist ein Lernraum geöffnet. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/> </p></li>
+                <li><p>Es ist mindestens ein Lernelement dem Lernraum hinzugefügt. </p></li>
+            </list>
+        </tip>
 
-        <step><p>Führen Sie den ersten Schritt durch </p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step>
+            <p>Klicken Sie mit der rechten Maustaste auf ein Lernelement des Lernraums.
+                <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                     alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+            <note>&#10004; Ein Kontextdialog wird geöffnet.
+                <img src="imageManualAuthoringmittleresFensterElementAuswaehlenKontextdialog.png"
+                     alt="Rechtsklickmenü Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></note>
         </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+            <p>Klicken Sie auf den <control>Edit</control>-Button. Dies ist der mittlere Listeneintrag.
+                <img src="imageManualAuthoringmittleresFensterElementAuswaehlenKontextdialogFocus.png"
+                     alt="Rechtsklickmenü Lernelement im Lernraum" width="75" thumbnail="true" style="block"/></p>
+            <note>&#10004; In der linken Seitenleiste wird der <control>Lernelement bearbeiten</control>-Tab geöffnet.</note>
         </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+        <step>
+            <p>Bearbeiten und speichern Sie das Lernelement. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAngabenZuLernelementen.topic"/> </p>
+        </step>
+
+        <note><control>&#10004; Sie haben erfolgreich das ausgewählte Element aus dem Lernraum bearbeitet.</control></note>
     </procedure>
 </topic>
