@@ -39,7 +39,6 @@ Das gesamte Setup besteht aus zwei Docker Compose Projekten:
   - [API/Backend](Backend-GE.md) (hier: `api.projekt-adler.eu`)
   - Moodle (hier: `moodle.projekt-adler.eu`)
   - [Frontend](Engine-BG.md) (hier: `engine.projekt-adler.eu`)
-- Docker Netzwerk zur Kommunikation zwischen Treafik und den AdLer-Containern für den Zugriff aus dem Internet erstellen: `docker network create --gateway 172.16.2.1 --subnet 172.16.2.0/24 traefik_gateway`
 
 ## Traefik
 Traefik übernimmt die Funktion unseres Reverse-Proxy und ermöglicht es uns, dass alle AdLer-Services auf dem gleichen Server
