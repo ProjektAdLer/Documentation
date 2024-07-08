@@ -3,11 +3,12 @@
 ## Wichtige Hinweise für Moodle-Administratoren
 - Moodle Administratoren dürfen keine AdLer [Kurse](Lernwelt-GE.md) in Moodle löschen. Dies wird derzeit nicht
   unterstützt.
+- Moodle Administratoren müssen den Abschnitt [Nutzer löschen](#nutzer-l-schen) beachten, wenn sie Nutzer in Moodle löschen.
 
 ## Nutzer verwalten
 
 ### Nutzer anlegen
-Accounts für studierende in AdLer unterscheiden sich nicht von Accounts für Studierende in Moodle.#
+Accounts für studierende in AdLer unterscheiden sich nicht von Accounts für Studierende in Moodle.
 Daher ist hierfür die Moodle-Dokumentation zu Rate zu ziehen: 
 [Nutzerkonto anlegen](https://docs.moodle.org/404/de/Nutzerkonten_anlegen), 
 [Nutzer/in neu anlegen](https://docs.moodle.org/404/de/Nutzer/in_neu_anlegen)
@@ -45,7 +46,6 @@ Nutzer können ganz normal in Moodle gelöscht werden
 > Dies sollte bei der regulären Nutzung aber keine Probleme verursachen
 > {style='note'}
  
-> Beim Löschen von Lehrenden-Accounts ist zu beachten, dass seine [Kurse](Lernwelt-GE.md) nicht gelöscht werden können,
-> außer es wird ein neuer Lehrenden-Account erstellt, der dies in der jeweiligen [Kurskategorie](Kurskategorie-VP.md)
-> kann.
+> Beim Löschen von Lehrenden-Accounts ist zu beachten, dass seine [Kurse](Lernwelt-GE.md) dann nicht mehr fehlerfrei 
+> gelöscht werden können.
 > {style='warning'}

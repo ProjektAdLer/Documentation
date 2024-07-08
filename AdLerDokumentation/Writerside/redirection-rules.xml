@@ -151,4 +151,8 @@
         <description>Created after removal of "Installationsanleitung" from AdLerDokumentation</description>
         <accepts>Installationsanleitung-GE.html</accepts>
     </rule>
+    <rule id="7819dfe">
+        <description>Created after removal of "Software Design" from AdLerDokumentation</description>
+        <accepts>Software-Design-Plugin.html</accepts>
+    </rule>
 </rules>

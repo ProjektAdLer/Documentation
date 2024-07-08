@@ -585,7 +585,6 @@
                 <toc-element topic="MVP-API1.md"/>
             </toc-element>
             <toc-element topic="Software-Architektur-Plugin.md"/>
-            <toc-element topic="Software-Design-Plugin.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="Benutzerdokumentation.md">

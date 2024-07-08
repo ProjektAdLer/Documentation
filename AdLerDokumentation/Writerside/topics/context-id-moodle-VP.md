@@ -7,7 +7,7 @@
 
 |                              | Beschreibung                                                                                                                                       |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Begriff                      | module id                                                                                                                                          |
+| Begriff                      | context id                                                                                                                                         |
 | Englischer Begriff           |                                                                                                                                                    |
 | Definition                   | <p id="summary">Dies ist eine Begrifflichkeit aus der Moodle-Domäne. Diese ID ist eine Art "Gott ID" und kann so ziemlich alles referenzieren.</p> |
 | Siehe auch                   |                                                                                                                                                    |
