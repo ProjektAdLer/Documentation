@@ -155,4 +155,8 @@
         <description>Created after removal of "Software Design" from AdLerDokumentation</description>
         <accepts>Software-Design-Plugin.html</accepts>
     </rule>
+    <rule id="13b012be">
+        <description>Created after removal of "Nicht funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Nicht-funktionale-Anforderungen-Plugin.html</accepts>
+    </rule>
 </rules>
