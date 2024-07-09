@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="GUI" id="GraphicalUserInterface_AuthoringTool">
+    <show-structure for="procedure" depth="1"/>
+    <title>GUI</title>
+
+    <procedure type="choices" title="Bedienkonzepte" id="bedienkonzepte-anforderungen-an-die-bedienung-des-autorentools">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Hier werden die Anforderungen an die Bedienung des Autorentools beschrieben.</control>
+            </def>
+        </deflist>
+
+        <step>
+            <p><control>Ein Lernraum muss in drei Klicks erstellt sein.</control></p>
+        <list type="decimal">
+            <li>Klick: Tab „Angaben zum Lernraum“ anwählen</li>
+            <li>Klick: Neuem Lernraum einen Namen vergeben</li>
+            <li>Klick: Lernraum bestätigen</li>
+        </list>
+        </step>
+        <step>
+            <p><control>Ein Lernelement muss in vier Klicks erstellt sein.</control></p>
+                <list type="decimal">
+                    <li>Klick: Tab „Angaben zu Lernelementen“ anwählen</li>
+                    <li>Klick: Neuem Lernelement einen Namen vergeben</li>
+                    <li>Klick: Lernelement ein externes Lernmaterial zuweisen</li>
+                    <li>Klick: Lernelement bestätigen</li>
+                </list>
+        </step>
+        <step>
+            <p><control>Ein Storyelement muss in vier Klicks erstellt sein.</control></p>
+                <list type="decimal">
+                    <li>Klick: Tab „Angaben zu Storyelementen“ anwählen</li>
+                    <li>Klick: Neuem Storyelement einen Namen vergeben</li>
+                    <li>Klick: Textblock mit Story-Inhalt befüllen</li>
+                    <li>Klick: Storyelement bestätigen</li>
+                </list>
+        </step>
+        <step>
+            <p><control>Ein Adaptivitätselement muss in sieben Klicks erstellt sein.</control></p>
+                <list type="decimal">
+                    <li>Klick: Tab „Angaben zu Adaptivitätselementen“ anwählen</li>
+                    <li>Klick: Neuem Adaptivitätselement einen Namen vergeben</li>
+                    <li>Klick: Eine Aufgabe hinzufügen</li>
+                    <li>Klick: Eine Frage zur Aufgabe erstellen</li>
+                    <li>Klick: Adaptivitätselement bestätigen</li>
+                </list>
+        </step>
+        <step>
+            <p><control>Ein externes Lernmaterial muss in drei Klicks gelöscht sein.</control></p>
+                <list type="decimal">
+                    <li>Klick: Tab „Externes Lernmaterial“ anwählen</li>
+                    <li>Klick: Lernmaterial in der Auflistung suchen und den Löschen-Button in der erscheinenden Toolbar
+                        anwählen</li>
+                    <li>Klick: Löschen bestätigen</li>
+                </list>
+        </step>
+        <step>
+            <p><control>Die Bedienung des Autorentools muss mit folgenden Eingabegeräten möglich sein.</control></p>
+                <list>
+                    <li>Computermaus und Tastatur</li>
+                    <li>Touchpad</li>
+                </list>
+        </step>
+</procedure>
+
+<procedure type="choices" title="Rahmenbedingungen" id="rahmenbedingungen">
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>Hier werden die Rahmenbedingungen für die Gestaltung der Benutzungsoberfläche beschrieben.</control>
+        </def>
+    </deflist>
+
+    <step>
+        <p>
+            <control>Die Nutzung des Autorentools muss auf folgenden Endgeräten möglich sein.</control>
+        </p>
+        <p><u>Endgeräte:</u></p>
+            <list>
+                <li>PCs (Windows, Linux, macOS)</li>
+                <li>Laptops (Windows, Linux, macOS)</li>
+            </list>
+    </step>
+    <step>
+        <p>
+            <control>Die Benutzungsoberfläche des Autorentools muss hinsichtlich der Breite in folgenden
+                    Formatbereichen liegen.</control>
+        </p>
+        <tip>Die Höhe unterliegt an keiner Stelle festen Pixelwerten und wächst
+            automatisch mit.</tip>
+    <p><u>Formatbereiche:</u></p>
+            <list>
+                <li>640px (sm)</li>
+                <li>768px (md)</li>
+                <li>1024px (lg)</li>
+                <li>1280px (xl)</li>
+                <li>1536px (2xl)</li>
+                <li>1700px (3xl)</li>
+                <li>1900px (1080p)</li>
+                <li>2500px (2500p)</li>
+                <li>3000px (3000p)</li>
+                <li>3700px (3700p)</li>
+            </list>
+    </step>
+    <step>
+            <p>
+                <control>Das Farbkonzept des Autorentools muss folgende Farben aufweisen.</control>
+            </p>
+        <p><u>Farben:</u></p>
+            <list>
+                <li>babylonbg: &quot;#33334d&quot;</li>
+                <li>blacktrans:
+                    <list>
+                        <li>100: &quot;rgba(0,0,0,0.1)&quot;</li>
+                        <li>200: &quot;rgba(0,0,0,0.2)&quot;</li>
+                        <li>300: &quot;rgba(0,0,0,0.3)&quot;</li>
+                        <li>400: &quot;rgba(0,0,0,0.4)&quot;</li>
+                        <li>500: &quot;rgba(0,0,0,0.5)&quot;</li>
+                        <li>600: &quot;rgba(0,0,0,0.6)&quot;</li>
+                        <li>700: &quot;rgba(0,0,0,0.7)&quot;</li>
+                        <li>800: &quot;rgba(0,0,0,0.8)&quot;</li>
+                        <li>900: &quot;rgba(0,0,0,0.9)“</li>
+                    </list>
+                </li>
+                <li>adlerblue:
+                    <list>
+                        <li>100: &quot;rgb(207,220,229)&quot;</li>
+                        <li id="adlerblue-200">200: &quot;rgb(184,210,229)&quot;</li>
+                        <li>300: &quot;rgb(161,200,229)&quot;</li>
+                        <li>400: &quot;rgb(138,190,229)&quot;</li>
+                        <li>500: &quot;rgb(115,180,229)&quot;</li>
+                        <li>600: &quot;rgb(92,170,229)&quot;</li>
+                        <li>700: &quot;rgb(69,160,229)&quot; -&gt; <i>Default</i></li>
+                        <li>800: &quot;rgb(46,150,229)&quot;</li>
+                        <li>900: &quot;rgb(23,140,229)&quot;</li>
+                    </list>
+                </li>
+                <li>adlerdarkblue:
+                    <list>
+                        <li>100: &quot;rgb(8,35,77)&quot;</li>
+                        <li>200: &quot;rgb(15,40,77)&quot;</li>
+                        <li id="adlerdarkblue-300">300: &quot;rgb(23,45,77)&quot; -&gt; <i>Default</i></li>
+                        <li>400: &quot;rgb(31,49,77)&quot;</li>
+                        <li>500: &quot;rgb(38,54,77)&quot;</li>
+                        <li id="adlerdarkblue-600">600: &quot;rgb(46,58,77)&quot;</li>
+                        <li>700: &quot;rgb(54,63,77)&quot;</li>
+                        <li>800: &quot;rgb(61,67,77)&quot;</li>
+                        <li>900: &quot;rgb(69,72,77)&quot;</li>
+                    </list>
+                </li>
+                <li>adlergold:
+                    <list>
+                        <li>100: &quot;rgb(229,221,207)&quot;</li>
+                        <li>200: &quot;rgb(229,213,184)&quot;</li>
+                        <li>300: &quot;rgb(229,205,161)&quot;</li>
+                        <li id="adlergold-400">400: &quot;rgb(229,197,138)&quot;</li>
+                        <li id="adlergold-500">500: &quot;rgb(229,189,115)&quot; -&gt; <i>Default</i></li>
+                        <li id="adlergold-600">600: &quot;rgb(229,181,92)“</li>
+                        <li>700: &quot;rgb(229,173,69)&quot;</li>
+                        <li>800: &quot;rgb(229,165,46)&quot;</li>
+                        <li>900: &quot;rgb(229,157,23)&quot;</li>
+                    </list>
+                </li>
+                <li>adlerbrown:
+                    <list>
+                        <li>100: &quot;rgb(77,32,8)&quot;</li>
+                        <li>200: &quot;rgb(77,37,15)&quot;</li>
+                        <li>300: &quot;rgb(77,42,23)&quot; -&gt; <i>Default</i></li>
+                        <li>400: &quot;rgb(77,47,31)&quot;</li>
+                        <li>500: &quot;rgb(77,52,38)&quot;</li>
+                        <li>600: &quot;rgb(77,57,46)&quot;</li>
+                        <li>700: &quot;rgb(77,62,54)&quot;</li>
+                        <li>800: &quot;rgb(77,67,61)&quot;</li>
+                        <li>900: &quot;rgb(77,72,69)&quot;</li>
+                    </list>
+                </li>
+                <li>adlergreen: &quot;#009900&quot;</li>
+                <li>adlergrey:
+                    <list>
+                        <li id="adlergrey-100">100: &quot;rgb(230,230,230)&quot;</li>
+                        <li id="adlergrey-200">200: &quot;rgb(204,204,204)&quot;</li>
+                        <li id="adlergrey-300">300: &quot;rgb(179,179,179)&quot;</li>
+                        <li>400: &quot;rgb(153,153,153)&quot;</li>
+                        <li id="adlergrey-500">500: &quot;rgb(128,128,128)&quot; -&gt; <i>Default</i></li>
+                        <li>600: &quot;rgb(102,102,102)&quot;</li>
+                        <li>700: &quot;rgb(77,77,77)&quot;</li>
+                        <li id="adlergrey-800">800: &quot;rgb(51,51,51)&quot;</li>
+                        <li>900: &quot;rgb(26,26,26)&quot;</li>
+                        <li id="adlerdeactivated">adlerdeactivated: &quot;#e9e9e9&quot;</li>
+                        <li id="buttonbgblue">buttonbgblue: &quot;#e9f2fa&quot;</li>
+                        <li>buttonpressedblue: &quot;#ace8fc&quot;</li>
+                        <li id="adlertextgrey">adlertextgrey: &quot;#111111&quot;</li>
+                        <li>adlerbuttonlocked: &quot;#b9bfc6&quot;</li>
+                        <li id="adlerdeactivatedtext">adlerdeactivatedtext: &quot;#e9e9e9&quot;</li>
+                        <li>adlerbggradientfrom: &quot;#a1c8e5&quot;</li>
+                        <li>adlerbggradientto: &quot;#e2eaf2&quot;</li>
+                        <li>nodehandlecolor: &quot;#e9d6b3&quot;</li>
+                        <li>adlerbronze: &quot;#bf8970&quot;</li>
+                        <li id="adlerbgbright">adlerbgbright: &quot;#f6f6f6&quot;</li>
+                        <li>formerror: &quot;rgb(244,67,54)&quot;</li>
+                        <li>adlergreybright: &quot;#fafafa&quot;</li>
+                    </list>
+                </li>
+            </list>
+</step>
+    <step>
+            <p>
+                <control>Die Schrift im Autorentool muss folgende Größe aufweisen.</control>
+            </p>
+        <p><u>Schriftgrößen:</u></p>
+            <list>
+                <li>12px (text-xs)</li>
+                <li>14px (text-sm) -&gt; <i>Default bei Bildschirmbreite &lt; 1536px</i></li>
+                <li>16px (text-base) -&gt; <i>Default bei Bildschirmbreite &gt; 1536px</i></li>
+                <li>18px (text-lg)</li>
+                <li>20px (text-xl)</li>
+                <li>24px (text-2xl)</li>
+            </list>
+    </step>
+    </procedure>
+
+        <procedure type="choices" title="Bedienelemente"
+                 id="bedienelemente-mittels-software-visualisierte-objekte">
+            <deflist type="compact" sorted="desc">
+                <def title="&#127937;">
+                    <control>Hier werden die Bedienelemente beschrieben. Bei diesen handelt es sich um die visualisierten Objekte.</control>
+                </def>
+            </deflist>
+            <step>
+            <p>
+                <control>Der Standard-Button des Autorentools muss die folgenden Eigenschaften aufweisen.</control>
+            </p>
+            <p><u>Standard-Button:</u></p>
+                <img src="imageAuthoringToolOberflaechenStandardButton.png" alt=""/>
+                <list>
+                    <li>Höhe: 32px</li>
+                    <li>Schriftfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
+                    <li>Hintergrundfarbe: <a href="#adlerblue-200" alt="">adlerblue-200</a></li>
+                    <li>Hover-Schriftfarbe: <a href="#buttonbgblue" alt="">buttonbgblue</a></li>
+                    <li>Hover-Hintergrundfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
+                    <li>Text: mittig gelayoutet</li>
+                </list>
+                <p>
+                    <control>Folgende Button basieren auf dem Standard-Button und weisen abweichende Eigenschaften
+                        auf:
+                    </control>
+                </p>
+
+    <p id="Bestaetigungs-Button"><u>Bestätigungs-Button:</u></p>
+                <img src="imageAuthoringToolOberflaechenBestaetigungsButton.png" alt=""/>
+                <list>
+                    <li>Icon: Haken</li>
+                    <li>Icon-Farbe: rgb (11,186,131)</li>
+                    <li>Text: OK</li>
+                </list>
+            <p id="Neu-Button"><u>Neu-Button:</u></p>
+                <img src="imageAuthoringToolOberflaechenNeuButton.png" alt=""/>
+                <list>
+                    <li>Icon: Plus</li>
+                    <li>Icon-Farbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
+                    <li>Text: NEU</li>
+                </list>
+
+            <p><u>Reset-Button:</u></p>
+                <img src="imageAuthoringToolOberflaechenResetButton.png" alt=""/>
+                <list>
+                    <li>Schriftfarbe: <a href="#adlergrey-500" alt="">adlergrey-500</a></li>
+                    <li>Hintergrundfarbe: <a href="#adlerdeactivated" alt="">adlerdeactivated</a></li>
+                </list>
+            </step>
+            <step>
+                <p>
+                    <control>Der Standard-Button im Header des Autorentools muss die folgenden Eigenschaften
+                        aufweisen.
+                    </control>
+                </p>
+            <p><u>Standard-Button im Header:</u></p>
+                <img src="imageAuthoringToolOberflaechenHeaderStandardButton.png" alt=""/>
+                <list>
+                    <li>Höhe: 32px</li>
+                    <li>Breite: 32px</li>
+                    <li>Rahmenradius: 8px</li>
+                    <li>Schriftschnitt: 700 (bold)</li>
+                    <li>Schriftfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
+                    <li>Disabled-Hintergrundfarbe: <a href="#buttonbgblue" alt="">buttonbgblue</a></li>
+                </list>
+                <p>
+                    <control>Folgender Button basiert auf dem Standard-Button im Header und weist abweichende
+                        Eigenschaften auf.
+                    </control>
+                </p>
+            <p><u>Veröffentlichen-Button:</u></p>
+                <img src="imageAuthoringToolOberflaechenVeroeffentlichenButton.png" alt=""/>
+                <list>
+                    <li>Hintergrundfarbe: <a href="#adlergold-400" alt="">adlergold-400</a></li>
+                    <li>Hover-Schriftfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
+                    <li>Hover-Hintergrundfarbe: <a href="#adlergold-600" alt="">adlergold-600</a></li>
+                </list>
+            </step>
+            <step>
+                <p>
+                    <control>Die Breite der Tabs des Autorentools (linke und rechte Sidebar) muss - orientierend
+                        an der Breite des Autorentools - folgende Eigenschaften aufweisen.
+                    </control>
+                </p>
+                <tip>Die Höhe unterliegt an keiner Stelle festen Pixelwerten und wächst automatisch mit.</tip>
+
+            <p><u>Tab:</u></p>
+                <img src="imageAuthoringToolOberflaechenRegisterkarte.png" alt="" height="400"/>
+                <p>Breite der Tabs bei Breite X des Autorentools:</p>
+                <list>
+                    <li>350px bei 640px (sm)</li>
+                    <li>350px bei 768px (md)</li>
+                    <li>350px bei 1024px (lg)</li>
+                    <li>350px bei 1280px (xl)</li>
+                    <li>400px bei 1536px (2xl)</li>
+                    <li>400px bei 1700px (3xl)</li>
+                    <li>450px bei 1900px (1080p)</li>
+                    <li>600px bei 2500px (2500p)</li>
+                    <li>600px bei 3000px (3000p)</li>
+                    <li>600px bei 3700px (3700p)</li>
+                </list>
+        </step>
+        <step>
+                <p>
+                    <control>Die Element-Karte/Slots im Autorentool muss orientierend an der Breite des Autorentools
+                        folgende Eigenschaften aufweisen.
+                    </control>
+                </p>
+
+            <p><u>Element-Karte/Slots:</u></p>
+                <img src="imageAuthoringToolOberflaechenElementKarteSlots.png" alt=""/>
+            <p>Breite der Element-Karte/Slots bei Breite X des Autorentools:</p>
+                <list>
+                    <li>72px bei 640px (sm)</li>
+                    <li>72px bei 768px (md)</li>
+                    <li>72px bei 1024px (lg)</li>
+                    <li>72px bei 1280px (xl)</li>
+                    <li>85px bei 1536px (2xl)</li>
+                    <li>88px bei 1700px (3xl)</li>
+                    <li>100px bei 1900px (1080p)</li>
+                    <li>145px bei 2500px (2500p)</li>
+                    <li>145px bei 3000px (3000p)</li>
+                    <li>145px bei 3700px (3700p)</li>
+                </list>
+            </step>
+        <step>
+            <p>Höhe der Element-Karte/Slots bei Breite X des Autorentools:</p>
+                <list>
+                    <li>40px bei 640px (sm)</li>
+                    <li>40px bei 768px (md)</li>
+                    <li>40px bei 1024px (lg)</li>
+                    <li>40px bei 1280px (xl)</li>
+                    <li>50px bei 1536px (2xl)</li>
+                    <li>50px bei 1700px (3xl)</li>
+                    <li>50px bei 1900px (1080p)</li>
+                    <li>55px bei 2500px (2500p)</li>
+                    <li>55px bei 3000px (3000p)</li>
+                    <li>55px bei 3700px (3700p)</li>
+                </list>
+        </step>
+        <step>
+                <p>
+                    <control>Die Benutzungsoberfläche des Autorentools enthält die folgenden Meldungen:</control>
+                </p>
+
+            <p><u>Eigenschaften der Standard-Meldung (im Autorentool = Aktualisierungsmeldung):</u></p>
+                <img src="imageAuthoringToolOberflaechenStandardmeldung.png" alt=""/>
+                <list>
+                    <li>Schriftfarbe: weiß</li>
+                    <li>Platzierung: rechter oberer Bildschirmrand</li>
+                    <li>Schließen-Icon: X</li>
+                    <li>Position des Schließen-Icons: rechts vom Text positioniert</li>
+                    <li>Zusatz-Icon: Textblock</li>
+                    <li>Position des Zusatz-Icons: links vom Text positioniert</li>
+                </list>
+                <p>
+                    <control>Weitere Meldungen, die auf der Standard-Meldung basieren und abweichende Eigenschaften
+                        besitzen:
+                    </control>
+                </p>
+            <p><u>Fehlermeldungen:</u></p>
+                    <img src="imageAuthoringToolOberflaechenFehlermeldung.png" alt=""/>
+                    <list>
+                        <li>Farbgebung: rgb(244,67,54) -&gt; rot</li>
+                        <li>Zusatz-Icon: Kreis mit Ausrufezeichen</li>
+                    </list>
+
+            <p><u>Warnmeldungen:</u></p>
+                <img src="imageAuthoringToolOberflaechenWarnmeldung.png" alt=""/>
+                <list>
+                    <li>Farbgebung: rgb(225,152,0) -&gt; gelb</li>
+                    <li>Zusatz-Icon: Dreieck mit Ausrufezeichen</li>
+                </list>
+            <p><u>Bestätigungsmeldungen:</u></p>
+                <img src="imageAuthoringToolOberflaechenBestaetigungsmeldung.png" alt=""/>
+                <list>
+                    <li>Farbgebung: rgb(0,200,83) -&gt; grün</li>
+                    <li>Zusatz-Icon: Kreis mit Haken</li>
+                </list>
+        </step>
+                <step>
+                <p>
+                    <control>Die Sortierung der Elemente innerhalb der hierarchischen Darstellung des Autorentools muss
+                        standardmäßig wie folgt sein.
+                    </control>
+                </p>
+
+                    <p><u>Sortierung der Elemente innerhalb der hierarchischen Darstellung:</u></p>
+                    <img src="imageAuthoringToolOberflaechenSortierungLernelementeHierarchie.png" alt="" height="400"/>
+            <list>
+                <li>Oberste Position: Eingangs-Storyelement (wenn vorhanden)</li>
+                <li>Dazwischen: Lernelemente und Adaptivitätselemente</li>
+                <li>Unterste Position: Ausgangs-Storyelement (wenn vorhanden)</li>
+            </list>
+                </step>
+            <step>
+            <p>
+                <control>Die Sortierung des externen Lernmaterials in der Auflistung muss alphanumerisch sein.</control>
+            </p>
+                <p><u>Sortierung des externen Lernmaterials:</u></p>
+                <img src="imageAuthoringToolOberflaechenSortierungLernmaterial.png" alt="" height="400"/>
+        </step>
+            <step>
+                    <p>
+                <control>Die Sortierung der erstellten Lernwelten in der Übersicht muss standardmäßig nach
+                    Änderungsdatum sein.
+                </control>
+                    </p>
+                <p><u>Sortierung der erstellten Lernwelten:</u></p>
+                <img src="imageAuthoringToolOberflaechenSortierungLernwelten.png" alt=""/>
+        </step>
+            <step>
+                    <p>
+                <control>Die Sortierung der unplatzierten Elemente muss standardmäßig nach Änderungsdatum sein.
+                </control>
+            </p>
+                <p><u>Sortierung der unplatzierten Elemente:</u></p>
+                <img src="imageAuthoringToolOberflaechenSortierungLernelementeUnplatziert.png" alt=""/>
+                </step>
+    <step>
+            <p>
+                <control>Die Gestaltung der erstellten und importierten Lernwelt (Lernwelt-Karte) auf der Startseite
+                    muss wie folgt sein.
+                </control>
+            </p>
+        <p><u>Lernwelt-Karte:</u></p>
+                <img src="imageAuthoringToolOberflaechenLernweltKarte.png" alt=""/>
+                <list>
+                    <li>Höhe: 160px</li>
+                    <li>Breite: 240px</li>
+                    <li>Schließen-Icon: X</li>
+                    <li>Position des Schließen-Icons: rechts oben positioniert</li>
+                    <li>Position des Namens der Lernwelt: linksbündig, mittig</li>
+                    <li>Schriftschnitt: 700 (bold)</li>
+                    <li>Schriftgröße des Namens bis 1535px Bildschirmbreite: 16px</li>
+                    <li>Schriftgröße des Namens ab 1535px Bildschirmbreite: 18px</li>
+                    <li>Position des Änderungsdatums: linksbündig unterhalb des Namens</li>
+                    <li>Schriftgröße des Änderungsdatums bis 1535px Bildschirmbreite: 12px</li>
+                    <li>Schriftgröße des Änderungsdatums ab 1535px Bildschirmbreite: 14px</li>
+                    <li>Hintergrund-Icon: Lernwelt, Transparenz: 0.1</li>
+                    <li>Größe des Hintergrund-Icons: 96px</li>
+                    <li>Position des Hintergrund-Icons: rechts unten positioniert</li>
+                </list>
+    </step>
+    <step>
+                <p>
+                    <control>Die Gestaltung der linken und rechten Sidebar muss wie folgt sein.</control>
+                </p>
+
+    <p><u>Linke und Rechte Sidebar:</u></p>
+                <img src="imageAuthoringToolOberflaechenRegisterkarte.png" alt="" height="400"/>
+                <list>
+                    <li>Rahmendicke: 8px</li>
+                    <li>Hintergrundfarbe: <a href="#adlergrey-300" alt="">adlergrey-300</a></li>
+                </list>
+            </step>
+    <step>
+                <p>
+                    <control>Der Erstellungsdialog zu Lernwelt/Lernraum/Storyelement/Lernelement/Adaptivitätselement in
+                        der linken Sidebar muss standardmäßig wie folgt sein.
+                    </control>
+                </p>
+
+    <p><control>Standard</control></p>
+            <p><u>Überschrift:</u></p>
+                <list>
+                    <li>Schriftgröße bis 1535px Bildschirmbreite: 16px</li>
+                    <li>Schriftgröße ab 1535px Bildschirmbreite: 20px</li>
+                    <li>Schriftfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
+                    <li>Hintergrund: <a href="#adlerbgbright" alt="">adlerbgbright</a></li>
+                    <li>Position des Rahmens: unten</li>
+                    <li>Rahmendicke: 2px</li>
+                    <li>Rahmenfarbe: <a href="#adlergrey-100" alt="">adlergrey-100</a></li>
+                </list>
+
+            <p><u>Infotext:</u></p>
+                <list>
+                    <li>Text: * Erforderliche Angabe (bei deutscher Spracheinstellung)</li>
+                    <li>Textfarbe: <a href="#adlergrey-200" alt="">adlergrey-200</a></li>
+                    <li>Textgröße: 12px</li>
+                    <li>Position des Textes: links oben</li>
+                </list>
+
+        <p><u>Abschnitt:</u></p>
+                <list>
+                    <li>Schriftfarbe: <a href="#adlergrey-800" alt="">adlergrey-800</a></li>
+                    <li>Schriftdicke: 700 (bold)</li>
+                    <li>Schriftgröße bis 1535px Bildschirmbreite: 16px</li>
+                    <li>Schriftgröße ab 1535px Bildschirmbreite: 18px</li>
+                </list>
+        <p><u><a href="#Bestaetigungs-Button" alt="">Bestätigungs-Button:</a></u></p>
+                <p>-&gt; Beim Bearbeitungsdialog wird zusätzlich oberhalb der Abschnitte und unterhalb des Infotexts ein
+                    <a href="#Neu-Button">Neu-Button</a> angezeigt.</p>
+    </step>
+            <step>
+                <p>
+                    <control>Die Gestaltung des Grundrisses im mittleren Fenster muss wie folgt sein.</control>
+                </p>
+        <p><u>Grundriss:</u></p>
+                <img src="imageAuthoringToolOberflaechenGrundrissMittleresFenster.png" alt=""/>
+                <list>
+                    <li>Rahmendicke: 0.2 (4px)</li>
+                    <li>Rahmenfarbe: <a href="#adlergrey-200" alt="">adlergrey-200</a></li>
+                    <li>Hintergrundfarbe: <a href="#buttonbgblue" alt="">buttonbgblue</a></li>
+                </list>
+            </step>
+            <step>
+                <p>
+                    <control>Die Farbe der Icons muss wie folgt sein.</control>
+                </p>
+        <p><u>Erlaubte Farben:</u></p>
+                <list>
+                    <li><a href="#adlergold-500" alt="">adlergold-500</a></li>
+                    <li><a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
+                    <li><a href="#adlerdarkblue-600" alt="">adlerdarkblue-600</a></li>
+                    <li><a href="#buttonbgblue" alt="">buttonbgblue</a></li>
+                </list>
+            </step>
+            <step>
+                <p>
+                    <control>Die Gestaltung der Elementkarten muss wie folgt sein.</control>
+                </p>
+        <p><u>Elementkarten:</u></p>
+                <img src="imageAuthoringToolOberflaechenElementkarten.png" alt=""/>
+                <list>
+                    <li>Hintergrundfarbe: <a href="#adlerdeactivatedtext" alt="">adlerdeactivatedtext</a></li>
+                    <li>Rahmenfarbe: <a href="#adlergrey-200" alt="">adlergrey-200</a></li>
+                    <li>Rahmendicke: 2px</li>
+                    <li>Rahmenradius: 8px</li>
+                    <li>Element-Icon: Storyelement, Adaptivitätselement, Video, Text, H5P oder Bild</li>
+                    <li>Position des Element-Icons: oben mittig</li>
+                    <li>Größe des Element-Icons bis 1535px Bildschirmbreite: 24px</li>
+                    <li>Größe des Element-Icons ab 1535px Bildschirmbreite: 28px</li>
+                    <li>Schriftgröße vom Namen des Elements bis 1535px Bildschirmbreite: 8px</li>
+                    <li>Schriftgröße vom Namen des Elements ab 1535px Bildschirmbreite: 12px</li>
+                    <li>Schriftdicke: 700 (bold)</li>
+                    <li>Schriftfarbe vom Namen des Elements: <a href="#adlertextgrey" alt="">adlertextgrey</a></li>
+                    <li>Position vom Namen des Elements: linksbündig, mittig</li>
+                    <li>Hintergrundfarbe des Zusatzkästchens: #b9c0ca</li>
+                    <li>Rahmenfarbe des Zusatzkästchens: #8b96a7</li>
+                    <li>Rahmendicke: 2px</li>
+                    <li>Rahmenradius: 6px</li>
+                    <li>Position vom Zusatzkästchen: unten mittig</li>
+                    <li>Schriftfarbe der Punkte: <a href="#adlertextgrey" alt="">adlertextgrey</a></li>
+                    <li>Schriftdicke der Punkte: 700 (bold)</li>
+                    <li>Schriftgröße von den Punkten des Elements bis 1535px Bildschirmbreite: 8px</li>
+                    <li>Schriftgröße von den Punkten des Elements ab 1535px Bildschirmbreite: 12px</li>
+                    <li>Position der Punkte: rechts innerhalb des Zusatzkästchens</li>
+                </list>
+
+            <p><u>Zusatzinformationen beim Lernelement:</u></p>
+                <list>
+                    <li>Icongröße des Schwierigkeitsgrads bis 1535px Bildschirmbreite: 12px</li>
+                    <li>Icongröße des Schwierigkeitsgrads ab 1535px Bildschirmbreite: 16px</li>
+                    <li>Position des Schwierigkeitsgrads: links innerhalb des Zusatzkästchens</li>
+                </list>
+            </step>
+    </procedure>
+</topic>
