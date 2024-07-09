@@ -253,8 +253,6 @@
                 </toc-element>
             </toc-element>
             <toc-element topic="Nicht-funktionale-Anforderungen-Autorentool.md">
-                <toc-element topic="ASE8.md"/>
-                <toc-element topic="Andere.md"/>
                 <toc-element topic="GraphicalUserInterface_AuthoringTool.topic"/>
             </toc-element>
             <toc-element topic="SBOM-Autorentool.md"/>
