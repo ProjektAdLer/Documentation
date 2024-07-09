@@ -190,6 +190,10 @@
                         <li>700: &quot;rgb(77,77,77)&quot;</li>
                         <li id="adlergrey-800">800: &quot;rgb(51,51,51)&quot;</li>
                         <li>900: &quot;rgb(26,26,26)&quot;</li>
+                    </list>
+                </li>
+                    <li>Weitere Farben:
+                        <list>
                         <li id="adlerdeactivated">adlerdeactivated: &quot;#e9e9e9&quot;</li>
                         <li id="buttonbgblue">buttonbgblue: &quot;#e9f2fa&quot;</li>
                         <li>buttonpressedblue: &quot;#ace8fc&quot;</li>
@@ -203,7 +207,7 @@
                         <li id="adlerbgbright">adlerbgbright: &quot;#f6f6f6&quot;</li>
                         <li>formerror: &quot;rgb(244,67,54)&quot;</li>
                         <li>adlergreybright: &quot;#fafafa&quot;</li>
-                    </list>
+                        </list>
                 </li>
             </list>
 </step>
@@ -238,10 +242,10 @@
                 <img src="imageAuthoringToolOberflaechenStandardButton.png" alt=""/>
                 <list>
                     <li>Höhe: 32px</li>
-                    <li>Schriftfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
-                    <li>Hintergrundfarbe: <a href="#adlerblue-200" alt="">adlerblue-200</a></li>
-                    <li>Hover-Schriftfarbe: <a href="#buttonbgblue" alt="">buttonbgblue</a></li>
-                    <li>Hover-Hintergrundfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
+                    <li>Schriftfarbe: <a href="#adlerdarkblue-300" summary="rgb(23,45,77)" alt="">adlerdarkblue-300</a></li>
+                    <li>Hintergrundfarbe: <a href="#adlerblue-200" summary="rgb(184,210,229)" alt="">adlerblue-200</a></li>
+                    <li>Hover-Schriftfarbe: <a href="#buttonbgblue" summary="#e9f2fa" alt="">buttonbgblue</a></li>
+                    <li>Hover-Hintergrundfarbe: <a href="#adlerdarkblue-300" summary="rgb(23,45,77)" alt="">adlerdarkblue-300</a></li>
                     <li>Text: mittig gelayoutet</li>
                 </list>
                 <p>
@@ -261,15 +265,15 @@
                 <img src="imageAuthoringToolOberflaechenNeuButton.png" alt=""/>
                 <list>
                     <li>Icon: Plus</li>
-                    <li>Icon-Farbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
+                    <li>Icon-Farbe: <a href="#adlerdarkblue-300" summary="rgb(23,45,77)" alt="">adlerdarkblue-300</a></li>
                     <li>Text: NEU</li>
                 </list>
 
             <p><u>Reset-Button:</u></p>
                 <img src="imageAuthoringToolOberflaechenResetButton.png" alt=""/>
                 <list>
-                    <li>Schriftfarbe: <a href="#adlergrey-500" alt="">adlergrey-500</a></li>
-                    <li>Hintergrundfarbe: <a href="#adlerdeactivated" alt="">adlerdeactivated</a></li>
+                    <li>Schriftfarbe: <a href="#adlergrey-500" summary="rgb(128,128,128)" alt="">adlergrey-500</a></li>
+                    <li>Hintergrundfarbe: <a href="#adlerdeactivated" summary="#e9e9e9" alt="">adlerdeactivated</a></li>
                 </list>
             </step>
             <step>
@@ -285,8 +289,8 @@
                     <li>Breite: 32px</li>
                     <li>Rahmenradius: 8px</li>
                     <li>Schriftschnitt: 700 (bold)</li>
-                    <li>Schriftfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
-                    <li>Disabled-Hintergrundfarbe: <a href="#buttonbgblue" alt="">buttonbgblue</a></li>
+                    <li>Schriftfarbe: <a href="#adlerdarkblue-300" summary="rgb(23,45,77)" alt="">adlerdarkblue-300</a></li>
+                    <li>Disabled-Hintergrundfarbe: <a href="#buttonbgblue" summary="#e9f2fa" alt="">buttonbgblue</a></li>
                 </list>
                 <p>
                     <control>Folgender Button basiert auf dem Standard-Button im Header und weist abweichende
@@ -296,9 +300,9 @@
             <p><u>Veröffentlichen-Button:</u></p>
                 <img src="imageAuthoringToolOberflaechenVeroeffentlichenButton.png" alt=""/>
                 <list>
-                    <li>Hintergrundfarbe: <a href="#adlergold-400" alt="">adlergold-400</a></li>
-                    <li>Hover-Schriftfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
-                    <li>Hover-Hintergrundfarbe: <a href="#adlergold-600" alt="">adlergold-600</a></li>
+                    <li>Hintergrundfarbe: <a href="#adlergold-400" summary="rgb(229,197,138)" alt="">adlergold-400</a></li>
+                    <li>Hover-Schriftfarbe: <a href="#adlerdarkblue-300" summary="rgb(23,45,77)" alt="">adlerdarkblue-300</a></li>
+                    <li>Hover-Hintergrundfarbe: <a href="#adlergold-600" summary="rgb(229,181,92)" alt="">adlergold-600</a></li>
                 </list>
             </step>
             <step>
@@ -476,7 +480,7 @@
                 <img src="imageAuthoringToolOberflaechenRegisterkarte.png" alt="" height="400"/>
                 <list>
                     <li>Rahmendicke: 8px</li>
-                    <li>Hintergrundfarbe: <a href="#adlergrey-300" alt="">adlergrey-300</a></li>
+                    <li>Hintergrundfarbe: <a href="#adlergrey-300" summary="rgb(179,179,179)" alt="">adlergrey-300</a></li>
                 </list>
             </step>
     <step>
@@ -491,31 +495,31 @@
                 <list>
                     <li>Schriftgröße bis 1535px Bildschirmbreite: 16px</li>
                     <li>Schriftgröße ab 1535px Bildschirmbreite: 20px</li>
-                    <li>Schriftfarbe: <a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
-                    <li>Hintergrund: <a href="#adlerbgbright" alt="">adlerbgbright</a></li>
+                    <li>Schriftfarbe: <a href="#adlerdarkblue-300" summary="rgb(23,45,77)" alt="">adlerdarkblue-300</a></li>
+                    <li>Hintergrund: <a href="#adlerbgbright" summary="#f6f6f6" alt="">adlerbgbright</a></li>
                     <li>Position des Rahmens: unten</li>
                     <li>Rahmendicke: 2px</li>
-                    <li>Rahmenfarbe: <a href="#adlergrey-100" alt="">adlergrey-100</a></li>
+                    <li>Rahmenfarbe: <a href="#adlergrey-100" summary="rgb(230,230,230)" alt="">adlergrey-100</a></li>
                 </list>
 
             <p><u>Infotext:</u></p>
                 <list>
                     <li>Text: * Erforderliche Angabe (bei deutscher Spracheinstellung)</li>
-                    <li>Textfarbe: <a href="#adlergrey-200" alt="">adlergrey-200</a></li>
+                    <li>Textfarbe: <a href="#adlergrey-200" summary="rgb(204,204,204)" alt="">adlergrey-200</a></li>
                     <li>Textgröße: 12px</li>
                     <li>Position des Textes: links oben</li>
                 </list>
 
         <p><u>Abschnitt:</u></p>
                 <list>
-                    <li>Schriftfarbe: <a href="#adlergrey-800" alt="">adlergrey-800</a></li>
+                    <li>Schriftfarbe: <a href="#adlergrey-800" summary="rgb(51,51,51)" alt="">adlergrey-800</a></li>
                     <li>Schriftdicke: 700 (bold)</li>
                     <li>Schriftgröße bis 1535px Bildschirmbreite: 16px</li>
                     <li>Schriftgröße ab 1535px Bildschirmbreite: 18px</li>
                 </list>
-        <p><u><a href="#Bestaetigungs-Button" alt="">Bestätigungs-Button:</a></u></p>
+        <p><u><a href="#Bestaetigungs-Button" summary="Bestätigungs-Button" alt="">Bestätigungs-Button:</a></u></p>
                 <p>-&gt; Beim Bearbeitungsdialog wird zusätzlich oberhalb der Abschnitte und unterhalb des Infotexts ein
-                    <a href="#Neu-Button">Neu-Button</a> angezeigt.</p>
+                    <a href="#Neu-Button" alt="" summary="Neu-Button">Neu-Button</a> angezeigt.</p>
     </step>
             <step>
                 <p>
@@ -525,8 +529,8 @@
                 <img src="imageAuthoringToolOberflaechenGrundrissMittleresFenster.png" alt=""/>
                 <list>
                     <li>Rahmendicke: 0.2 (4px)</li>
-                    <li>Rahmenfarbe: <a href="#adlergrey-200" alt="">adlergrey-200</a></li>
-                    <li>Hintergrundfarbe: <a href="#buttonbgblue" alt="">buttonbgblue</a></li>
+                    <li>Rahmenfarbe: <a href="#adlergrey-200" summary="rgb(204,204,204)" alt="">adlergrey-200</a></li>
+                    <li>Hintergrundfarbe: <a href="#buttonbgblue" summary="#e9f2fa" alt="">buttonbgblue</a></li>
                 </list>
             </step>
             <step>
@@ -535,10 +539,10 @@
                 </p>
         <p><u>Erlaubte Farben:</u></p>
                 <list>
-                    <li><a href="#adlergold-500" alt="">adlergold-500</a></li>
-                    <li><a href="#adlerdarkblue-300" alt="">adlerdarkblue-300</a></li>
-                    <li><a href="#adlerdarkblue-600" alt="">adlerdarkblue-600</a></li>
-                    <li><a href="#buttonbgblue" alt="">buttonbgblue</a></li>
+                    <li><a href="#adlergold-500" summary="rgb(229,189,115)" alt="">adlergold-500</a></li>
+                    <li><a href="#adlerdarkblue-300" summary="rgb(23,45,77)" alt="">adlerdarkblue-300</a></li>
+                    <li><a href="#adlerdarkblue-600" summary="rgb(46,58,77)" alt="">adlerdarkblue-600</a></li>
+                    <li><a href="#buttonbgblue" summary="#e9f2fa" alt="">buttonbgblue</a></li>
                 </list>
             </step>
             <step>
@@ -548,8 +552,8 @@
         <p><u>Elementkarten:</u></p>
                 <img src="imageAuthoringToolOberflaechenElementkarten.png" alt=""/>
                 <list>
-                    <li>Hintergrundfarbe: <a href="#adlerdeactivatedtext" alt="">adlerdeactivatedtext</a></li>
-                    <li>Rahmenfarbe: <a href="#adlergrey-200" alt="">adlergrey-200</a></li>
+                    <li>Hintergrundfarbe: <a href="#adlerdeactivatedtext" summary="#e9e9e9" alt="">adlerdeactivatedtext</a></li>
+                    <li>Rahmenfarbe: <a href="#adlergrey-200" summary="rgb(204,204,204)" alt="">adlergrey-200</a></li>
                     <li>Rahmendicke: 2px</li>
                     <li>Rahmenradius: 8px</li>
                     <li>Element-Icon: Storyelement, Adaptivitätselement, Video, Text, H5P oder Bild</li>
@@ -559,14 +563,14 @@
                     <li>Schriftgröße vom Namen des Elements bis 1535px Bildschirmbreite: 8px</li>
                     <li>Schriftgröße vom Namen des Elements ab 1535px Bildschirmbreite: 12px</li>
                     <li>Schriftdicke: 700 (bold)</li>
-                    <li>Schriftfarbe vom Namen des Elements: <a href="#adlertextgrey" alt="">adlertextgrey</a></li>
+                    <li>Schriftfarbe vom Namen des Elements: <a href="#adlertextgrey" summary="#111111" alt="">adlertextgrey</a></li>
                     <li>Position vom Namen des Elements: linksbündig, mittig</li>
                     <li>Hintergrundfarbe des Zusatzkästchens: #b9c0ca</li>
                     <li>Rahmenfarbe des Zusatzkästchens: #8b96a7</li>
                     <li>Rahmendicke: 2px</li>
                     <li>Rahmenradius: 6px</li>
                     <li>Position vom Zusatzkästchen: unten mittig</li>
-                    <li>Schriftfarbe der Punkte: <a href="#adlertextgrey" alt="">adlertextgrey</a></li>
+                    <li>Schriftfarbe der Punkte: <a href="#adlertextgrey" summary="#111111" alt="">adlertextgrey</a></li>
                     <li>Schriftdicke der Punkte: 700 (bold)</li>
                     <li>Schriftgröße von den Punkten des Elements bis 1535px Bildschirmbreite: 8px</li>
                     <li>Schriftgröße von den Punkten des Elements ab 1535px Bildschirmbreite: 12px</li>
