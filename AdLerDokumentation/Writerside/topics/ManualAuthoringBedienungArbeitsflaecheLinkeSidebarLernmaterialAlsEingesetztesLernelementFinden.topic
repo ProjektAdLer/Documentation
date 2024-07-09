@@ -6,6 +6,9 @@
        title="Lernmaterial als eingesetztes Lernelement finden"
        id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernmaterialAlsEingesetztesLernelementFinden">
 
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic">Externes Lernmaterial</a>.</p>
+
+    <show-structure for="chapter, procedure" depth="4"/>
     <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">

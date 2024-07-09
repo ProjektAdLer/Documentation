@@ -30,7 +30,7 @@
 
         <tabs>
             <tab id="undo-header" title="Kopfzeile">
-                <procedure>
+                <procedure title="Kopfzeile">
                     <step>
                         <p>Drücken Sie in der Kopfzeile den Button <control>Wiederholen</control> (Symbol: Pfeil nach rechts).
                             <img src="imageManualAuthoringKopfzeileAktionWiederholen.png"
@@ -41,7 +41,7 @@
                 </procedure>
             </tab>
             <tab id="undo-menu" title="Menüband">
-                <procedure>
+                <procedure title="Menüband">
                     <step>
                         <p>Wählen Sie die Kategorie
                             <control>Edit</control>
@@ -63,7 +63,7 @@
                 </procedure>
             </tab>
             <tab id="undo-shortcut" title="Tastenkombination">
-                <procedure>
+                <procedure title="Tastenkombination">
                     <step>
                         <p>Drücken Sie die Tastenkombination
                             <control>Strg</control>

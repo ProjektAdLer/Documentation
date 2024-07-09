@@ -6,7 +6,7 @@
        title="Externes Lernmaterial hinzufügen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen">
 
     <show-structure for="chapter, procedure" depth="4"/>
-    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic">Externes Lernmaterial hinzufügen</a>.</p>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic">Externes Lernmaterial</a>.</p>
 
     <procedure type="steps" title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">

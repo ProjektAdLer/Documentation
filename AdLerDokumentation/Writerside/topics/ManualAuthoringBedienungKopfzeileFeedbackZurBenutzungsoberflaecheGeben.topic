@@ -42,7 +42,7 @@
                 <tab id="Arbeitsflaeche-Autorentool" title="...Arbeitsfläche des Autorentools">
                     <list type="decimal">
                         <li>Klicken Sie in der Kopfzeile mit der Maus auf den Button
-                            <control> Tester-Feedback</control>
+                            <control>Tester-Feedback</control>
                             .
                             <img src="imageManualAuthoringFeedbackBenutzungsoberflaecheArbeitsflaecheButtonCallout.png"
                                  alt="BenutzungsoberflaecheArbeitsflaecheFeedbackButtonCallout" width="200"

@@ -43,10 +43,10 @@
             </note>
         </step>
         <step>
-
+            <p>Im Zusammenhang mit der Veröffentlichung einer Lernwelt sind zwei Zustände der Lernwelt möglich:</p>
             <tabs>
                 <tab title="Neue Lernwelt">
-                    <procedure>
+                    <procedure title="Neue Lernwelt">
                         <step>
                             <p>Drücken Sie auf den Button
                                 <control>Hochladen</control>, um die ausgewählte Lernwelt in Moodle hochzuladen. Drücken Sie alternativ den
@@ -59,7 +59,7 @@
                     </procedure>
                 </tab>
                 <tab title="Vorhandene Lernwelt">
-                    <procedure>
+                    <procedure title="Vorhandene Lernwelt">
                         <step>
                             <p>Drücken Sie auf den Button
                                 <control>Lernwelt ersetzen</control>, um die ausgewählte Lernwelt in Moodle hochzuladen und die vorhandene somit zu
