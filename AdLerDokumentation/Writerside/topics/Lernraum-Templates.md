@@ -9,10 +9,10 @@ Hier können bestehende Templates verändert, oder weitere Templates zugefügt w
 
 Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benötigt:
 
-- **Name:** Der Name des Templates ist in der LearningSpaceTemplateType.ts (unter Types, zu finden neben den Templates) angegeben und wird unter LearningSpaceTemplatesLookup referenziert.
+- **Name:** Der Name des Templates ist in der LearningSpaceTemplateType.ts (unter Types, zu finden neben den Templates) angegeben und wird unter LearningSpaceTemplatesLookup referenziert.\
 ***Beispiel:*** LearningSpaceTemplateType.L 
 
-- **CornerPoints**: Array von Eckpunkten des Raumes in Form ihrer X-/Y-Koordinaten.
+- **CornerPoints**: Array von Eckpunkten des Raumes in Form ihrer X-/Y-Koordinaten.\
   ***Beispiel:***
 ```yaml 
 [ 
@@ -23,7 +23,7 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
 ]
 ``` 
 
-- Walls: Array von Wänden die angezeigt werden sollen, von Eckpunktindex zu Eckpunktindex.
+- Walls: Array von Wänden die angezeigt werden sollen, von Eckpunktindex zu Eckpunktindex.\
   ***Beispiel:***
 ```yaml
 [
@@ -31,7 +31,7 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
   { start: 2, end: 3 }
 ]
 ```
-- ElementSlots: Array von Lernelement-Slots in Form ihrer X-/Y-Koordinaten, sowie die Rotation in Grad die den reingeladenen Objekten mitgegeben wird.
+- ElementSlots: Array von Lernelement-Slots in Form ihrer X-/Y-Koordinaten, sowie die Rotation in Grad die den reingeladenen Objekten mitgegeben wird.\
   ***Beispiel:***
 ```yaml
 [
@@ -48,7 +48,7 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
 ]
 ```
 
-- EntryDoor: Object mit Position und Rotation der Eingangstür.
+- EntryDoor: Object mit Position und Rotation der Eingangstür.\
   ***Beispiel:***
 ```yaml
 {
@@ -56,7 +56,7 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
   orientation: { rotation: 90 },
 }
 ```
-- ExitDoor: Object mit Position und Rotation der Ausgangstür.
+- ExitDoor: Object mit Position und Rotation der Ausgangstür.\
   ***Beispiel:***
 ```yaml
 {
@@ -64,7 +64,7 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
   orientation: { rotation: 0 },
 }
 ```
-- Windows: Array von Objekten mit der Position und Rotation von Fenster.
+- Windows: Array von Objekten mit der Position und Rotation von Fenster.\
   ***Beispiel:***
 ```yaml
 [
@@ -78,7 +78,7 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
   },
 ]
 ```
-- PlayerSpawnPoint: Objekt mit der Startposition und Rotation des Spielcharakters
+- PlayerSpawnPoint: Objekt mit der Startposition und Rotation des Spielcharakters.\
   ***Beispiel:***
 ```yaml
 {
@@ -86,7 +86,7 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
   orientation: { rotation: 0 },
 }
 ```
-- IntroStoryElementIdlePoint: Objekt mit der Start-und-Idle Position und Rotation des Intro Storyelements.
+- IntroStoryElementIdlePoint: Objekt mit der Start-und-Idle Position und Rotation des Intro Storyelements.\
   ***Beispiel:***
 ```yaml
 {
@@ -94,7 +94,7 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
   orientation: { rotation: 315 },
 }
 ```
-- OutroStoryElementIdlePoint: Objekt mit der Start-und-Idle Position und Rotation des Outro Storyelements.
+- OutroStoryElementIdlePoint: Objekt mit der Start-und-Idle Position und Rotation des Outro Storyelements.\
   ***Beispiel:***
 ```yaml
 {
@@ -104,8 +104,10 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
 ```
 
 ## Beispiel eines Schemas zur Raumerstellung
+
 *Notiz: Hier fehlen noch die zwingend erforderlichen Intro und Outro Storyelement Punkte. Diese können sich irgendwo im Raum befinden.*
 ![Beispiel eines Schemas zur Raumerstellung](imageEngineSampleTemplate.png)
+
 ## Anmerkungen
 
 - vgl: [Lernraum Template Glossar Eintrag](Lernraum-Template-GE.md)
