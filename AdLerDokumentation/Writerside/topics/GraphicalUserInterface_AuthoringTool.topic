@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="GUI" id="GraphicalUserInterface_AuthoringTool">
     <show-structure for="procedure" depth="1"/>
-    <title>GUI</title>
+    <title>Grafische Benutzungsoberfläche (GUI)</title>
 
     <procedure type="choices" title="Bedienkonzepte" id="bedienkonzepte-anforderungen-an-die-bedienung-des-autorentools">
         <deflist type="compact" sorted="desc">

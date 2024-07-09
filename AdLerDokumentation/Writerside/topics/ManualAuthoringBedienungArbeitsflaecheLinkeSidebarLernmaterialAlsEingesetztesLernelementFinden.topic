@@ -10,34 +10,32 @@
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Anzahl und Verwendungsort der Vorkommen eines spezifischen externen Lernelements anzeigen.</p>
+                <p>Anzahl und Verwendungsort eines externen Lernmaterials anzeigen lassen (wie häufig bereits eingesetzt? in welchem Lernraum? als welches Lernelement?).</p>
             </def>
         </deflist>
 
         <tip>Voraussetzungen:
             <list>
-                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>
+                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>.
                     <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab"
                          width="200" thumbnail="true" style="block"/></p></li>
-                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/></p></li>
+                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/>.</p></li>
             </list>
         </tip>
 
         <step>
             <p>Im Abschnitt <control>Hinzugefügtes Lernmaterial</control>
-                sehen Sie neben dem Auswahlkästchen einen blauen Kreis mit einer Zahl, falls das Lernmaterial mindestens
-                ein Vorkommen in einem Lernmaterial hat. Fahren Sie mit dem Mauszeiger darüber.
+                sehen Sie neben dem Auswahlkästchen einen blauen Kreis mit einer Zahl (Tooltipp). Wird dieses angezeigt, ist das externe Lernmaterial mindestens einmal in Form eines Lernelements in einer Lernwelt enthalten. Fahren Sie mit dem Mauszeiger darüber.
             </p>
             <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialVorkommenUebersicht.png" alt="ExternesLernmaterialTabVorkommenButton"
                  width="200" thumbnail="true" style="block"/>
-            <note>&#10004; Ein Tooltip Fenster erscheint in welchem Sie die Lernwelten und Lernelemente aufgelistet
-                bekommen, in welchen dieses Lernmaterial verwendet wird.
+            <note>Ein Tooltipp erscheint, in welchem die Lernwelten und Lernelemente aufgelistet werden, in welchen das externe Lernmaterial verwendet wird.
                 <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialVorkommenDetails.png" alt="ExternesLernmaterialTabVorkommenDetails"
                      width="200" thumbnail="true" style="block"/></note>
-        <tip>Das angezeigte Tooltip-Fenster schließt sich automatisch, sobald Sie ihren Mauszeiger aus diesem herausbewegen.</tip>
+        <tip>Der Tooltipp schließt sich automatisch, sobald der Mauszeiger nicht mehr über dem Tooltipp liegt.</tip>
         </step>
         <note>
-            <control>&#10004; Sie haben erfolgreich die Verwendungsorte eines spezifischen externen Lernmaterials angezeigt. </control>
+            <control>&#10004; Sie haben sich erfolgreich die Anzahl und Verwendungsorte eines spezifischen externen Lernmaterials angezeigen lassen.</control>
         </note>
     </procedure>
 </topic>

@@ -10,33 +10,31 @@
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Ein externes Lernelement zur Vorschau in einem externen Programm öffnen.</p>
+                <p>Ein externes Lernmaterial zur Vorschau in einem externen Programm öffnen.</p>
             </def>
         </deflist>
 
         <tip>Voraussetzungen:
             <list>
-                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>
+                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>.
                     <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab"
                          width="200" thumbnail="true" style="block"/></p></li>
-                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/></p></li>
+                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/>.</p></li>
             </list>
         </tip>
 
         <step><p>Fahren Sie mit dem Mauszeiger über ein hinzugefügtes Lernmaterial.</p>
-            <note>&#10004;
-                <p>Ein Tooltip-Menü erscheint in der
-                    <control>Typ-Spalte</control>
+            <note><p>Eine Toolbar mit drei Symbolen für drei Funktionen erscheint.
                     <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipAktionen.png" alt="ExternesLernmaterialTabTooltipAktionen"
                          width="200" thumbnail="true" style="block"/></p>
             </note>
         </step>
         <step>
-            <p>Im Tooltip-Menü drücken Sie nun auf den <control>Datei/Link als Vorschau anzeigen lassen</control>-Button (Symbol: Auge).
+            <p>Klicken Sie in der Toolbar auf den Button <control>Datei/Link als Vorschau anzeigen lassen</control> (Symbol: Auge).
                 <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipAktionenMenueAuge.png" alt="ExternesLernmaterialTabTooltipAktionenAnzeigen"
                      width="100" thumbnail="true" style="block"/>
             </p>
-            <note>&#10004; Die ausgewählte Datei wird in einem externen Programm - bspw. dem Webbrowser oder der Bildanzeige - angezeigt.</note>
+            <note>Die ausgewählte Datei wird in einem externen Programm - bspw. dem Webbrowser oder der Bildanzeige - angezeigt.</note>
             <tip>
                 <p>Sollten Sie kein passendes Programm zum Öffnen der Datei als Standardapplikation konfiguriert haben,
                     erscheint ein Systemdialog zur Auswahl bzw. Installation eines passenden Programms.
@@ -46,7 +44,7 @@
         </step>
 
         <note>
-            <control>&#10004; Sie haben erfolgreich die Vorschau eines Lernmaterials angezeigt.</control>
+            <control>&#10004; Sie haben erfolgreich ein externes Lernmaterial zur Vorschau in einem externen Programm geöffnet.</control>
         </note>
     </procedure>
 </topic>

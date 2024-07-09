@@ -159,4 +159,8 @@
         <description>Created after removal of "Nicht funktionale Anforderungen" from AdLerDokumentation</description>
         <accepts>Nicht-funktionale-Anforderungen-Plugin.html</accepts>
     </rule>
+    <rule id="48af3a42">
+        <description>Created after removal of "Nutzung AdLer" from AdLerDokumentation</description>
+        <accepts>Nutzung-AdLer-BD.html</accepts>
+    </rule>
 </rules>

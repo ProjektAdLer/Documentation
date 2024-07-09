@@ -10,47 +10,47 @@
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Ein neues Lernelement mit einem externen Lernelement erstellen.</p>
+                <p>Ein in das Autorentool geladenes externes Lernmaterial als <a
+                        href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"> unplatziertes Lernelement</a> bereitstellen.</p>
             </def>
         </deflist>
 
         <tip>Voraussetzungen:
             <list>
-                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>
+                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>.
                     <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab"
                          width="200" thumbnail="true" style="block"/></p></li>
-                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/></p></li>
+                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/>.</p></li>
             </list>
         </tip>
 
         <step><p>Fahren Sie mit dem Mauszeiger über ein hinzugefügtes Lernmaterial.</p>
-            <note>&#10004;
-                <p>Ein Tooltip-Menü erscheint in der
-                    <control>Typ-Spalte</control>
+            <note>
+                <p>Eine Toolbar mit drei Symbolen für drei Funktionen erscheint.
                     <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipAktionen.png"
                          alt="ExternesLernmaterialTabTooltipAktionen"
                          width="200" thumbnail="true" style="block"/></p>
             </note>
         </step>
         <step>
-            <p>Im Tooltip-Menü drücken Sie nun auf den <control>Neues Lernelement erstellen</control>-Button (Symbol: Plus).
+            <p>Klicken Sie in der Toolbar auf den Button <control>Neues Lernelement erstellen</control> (Symbol: Plus).
                 <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipAktionenMenuePlus.png"
                      alt="ExternesLernmaterialTabTooltipHinzufuegen"
                      width="100" thumbnail="true" style="block"/>
             </p>
-            <note>&#10004;
-                <p>Der <control>Lernelement erstellen</control> Tab wird geöffnet und das zuvor ausgewählte externe Lernelement ist automatisch
-                    ausgewählt. <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipNeuErstellen.png"
+            <note>
+                <p>Der Tab <control>Lernelement erstellen</control> wird geöffnet und das zuvor ausgewählte externe Lernmaterial ist automatisch in der Kategorie <control>Externes Lernmaterial</control> ausgewählt.<img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipNeuErstellen.png"
                                      alt="LernelementErstellenTab" width="200" thumbnail="true" style="block"/></p>
             </note>
         </step>
 
         <step>
             Fügen Sie die restlichen benötigten Informationen hinzu. Siehe: <a
-                href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>
+                href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>.
         </step>
         <note>
-            <control>&#10004; Sie haben erfolgreich ein neues Lernelement mit einem externen Lernmaterial erstellt..</control>
+            <control>&#10004; Sie haben erfolgreich ein externes Lernmaterial als <a
+                    href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"> unplatziertes Lernelement</a> bereitgestellt.</control>
         </note>
     </procedure>
 </topic>

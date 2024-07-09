@@ -16,15 +16,15 @@
 
         <tip>Voraussetzungen:
             <list>
-                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>
+                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>.
                     <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab"
                          width="200" thumbnail="true" style="block"/></p></li>
-                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/></p></li>
+                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/>.</p></li>
             </list>
         </tip>
 
         <step>
-            <p>Geben Sie Suchparameter in die Suchleiste der Kategorie <control>Hinzugefügtes Lernmaterial</control> ein.</p>
+            <p>Geben Sie Suchparameter in die Suchleiste im Abschnitt <control>Hinzugefügtes Lernmaterial</control> ein.</p>
             <tip>
                 <list>
                     <li><p>Suchparameter können der Name des Lernelements oder dessen Dateiendung (Typ) sein.</p></li>
