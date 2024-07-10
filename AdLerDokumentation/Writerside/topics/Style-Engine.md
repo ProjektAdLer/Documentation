@@ -1,12 +1,12 @@
 # Style
 
-
 ## 2D Style Anforderungen
 
 - Die verwendete Schriftfamilie muss an allen Stellen [**Roboto**](https://fonts.google.com/specimen/Roboto?query=Roboto) sein.
 - Innerhalb von Fließtexten muss der Zeilenabstand 1.5 fach sein, und die Schriftgröße 12pt sein.
 - Überschriften müssen Roboto Black 14pt, 18pt oder 24pt, je nach Ebene, sein.
 - Die verwendete Sprache muss soweit möglich neutral gehalten sein.
+
 
 ## 3D Style Anforderungen
 

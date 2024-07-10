@@ -56,10 +56,7 @@
             <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisOkButton.png" alt="Verweis hinzufügen: Ok Button unten rechts" width="200" thumbnail="true"/>
         </step>
         <note>
-            <control>
-                <p>Sie haben der Frage innerhalb eines Adaptivitätselements erfolgreich einen Verweis hinzugefügt.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben der Frage innerhalb eines Adaptivitätselements erfolgreich einen Verweis hinzugefügt.</control>
         </note>
     </procedure>
 </topic>

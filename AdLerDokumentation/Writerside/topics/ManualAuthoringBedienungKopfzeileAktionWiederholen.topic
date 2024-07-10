@@ -20,19 +20,19 @@
         </deflist>
 
         <tip>
-            <p>Voraussetzungen:</p>
+            <p>Voraussetzung:</p>
             <list>
                 <li>Eine Aktion oder Eingabe wurde zuvor rückgängig gemacht. Siehe: <a
-                        href="ManualAuthoringBedienungKopfzeileLetzteAktionRueckgaengigMachen.topic"/></li>
+                        href="ManualAuthoringBedienungKopfzeileLetzteAktionRueckgaengigMachen.topic"/>.</li>
             </list>
         </tip>
 
 
         <tabs>
             <tab id="undo-header" title="Kopfzeile">
-                <procedure>
+                <procedure title="Kopfzeile">
                     <step>
-                        <p>Drücken Sie den Wiederholen-Button in der Kopfzeile (Symbol: Pfeil nach rechts).
+                        <p>Drücken Sie in der Kopfzeile den Button <control>Wiederholen</control> (Symbol: Pfeil nach rechts).
                             <img src="imageManualAuthoringKopfzeileAktionWiederholen.png"
                                  alt="Wiederholen Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
                                  style="block"/>
@@ -41,7 +41,7 @@
                 </procedure>
             </tab>
             <tab id="undo-menu" title="Menüband">
-                <procedure>
+                <procedure title="Menüband">
                     <step>
                         <p>Wählen Sie die Kategorie
                             <control>Edit</control>
@@ -63,7 +63,7 @@
                 </procedure>
             </tab>
             <tab id="undo-shortcut" title="Tastenkombination">
-                <procedure>
+                <procedure title="Tastenkombination">
                     <step>
                         <p>Drücken Sie die Tastenkombination
                             <control>Strg</control>

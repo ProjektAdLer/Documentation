@@ -59,10 +59,7 @@
             </tabs>
         </step>
         <note>
-            <control>
-                <p>Sie haben die Lernwelt erfolgreich sortiert.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben die Lernwelt erfolgreich sortiert.</control>
         </note>
     </procedure>
 </topic>

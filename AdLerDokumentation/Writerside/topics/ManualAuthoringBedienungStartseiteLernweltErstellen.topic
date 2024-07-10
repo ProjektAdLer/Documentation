@@ -97,10 +97,7 @@
     </procedure>
 
     <note>
-        <control>
-            <p>Sie haben erfolgreich eine neue Lernwelt erstellt.</p>
-            <p>&#10004;</p>
-        </control>
+        <control>&#10004; Sie haben erfolgreich eine neue Lernwelt erstellt.</control>
     </note>
     <tip>Nach Erstellen der neuen Lernwelt werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Ausgestaltung dieser Lernwelt beginnen können.</tip>
 </topic>

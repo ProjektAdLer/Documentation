@@ -147,4 +147,25 @@
             <![CDATA[Created after removal of "<ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.md>" from AdLerDokumentation]]></description>
         <accepts>ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.html</accepts>
     </rule>
+    <rule id="a20b21">
+        <description>Created after removal of "Installationsanleitung" from AdLerDokumentation</description>
+        <accepts>Installationsanleitung-GE.html</accepts>
+    </rule>
+    <rule id="7819dfe">
+        <description>Created after removal of "Software Design" from AdLerDokumentation</description>
+        <accepts>Software-Design-Plugin.html</accepts>
+    </rule>
+    <rule id="13b012be">
+        <description>Created after removal of "Nicht funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Nicht-funktionale-Anforderungen-Plugin.html</accepts>
+    </rule>
+    <rule id="48af3a42">
+        <description>Created after removal of "Nutzung AdLer" from AdLerDokumentation</description>
+        <accepts>Nutzung-AdLer-BD.html</accepts>
+    </rule>
+    <rule id="525735fe">
+        <description>Created after removal of "Lernwelt Automatisch Persistieren 2" from AdLerDokumentation
+        </description>
+        <accepts>ASE8.html</accepts>
+    </rule>
 </rules>

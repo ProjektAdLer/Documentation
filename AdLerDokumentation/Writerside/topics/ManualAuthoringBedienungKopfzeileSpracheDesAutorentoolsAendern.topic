@@ -21,7 +21,7 @@
 
 
         <step>
-            <p>Klicken Sie auf das Symbol mit dem Kürzel der gewünschten Sprache in der Kopfzeile.
+            <p>Klicken Sie in der Kopfzeile auf das Symbol mit dem Kürzel der gewünschten Sprache <control>DE</control> oder <control>EN</control>.
                 <img src="imageManualAuthoringKopfzeileAktionSprache.png"
                      alt="Sprach-Icons in der Kopfzeile des Autorentools, Deutsch aktiv" width="200" thumbnail="true"
                      style="block"/>
@@ -36,6 +36,7 @@
                 <li><p>DE: Deutsch</p></li>
                 <li><p>EN: Englisch</p></li>
             </list>
+            <p>Standardmäßig ist die deutsche Sprache ausgewählt.</p>
         </tip>
 
         <note>

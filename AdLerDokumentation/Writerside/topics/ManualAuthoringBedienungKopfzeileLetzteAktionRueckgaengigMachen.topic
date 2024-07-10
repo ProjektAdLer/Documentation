@@ -20,18 +20,18 @@
         </deflist>
 
         <tip>
-            <p>Voraussetzungen:</p>
+            <p>Voraussetzung:</p>
             <list>
-                <li>Es wurde zuvor mindestens eine Interaktion getätigt</li>
+                <li>Es wurde zuvor mindestens eine Interaktion getätigt.</li>
             </list>
         </tip>
 
         <tabs>
             <tab id="undo-header" title="Kopfzeile">
-                <procedure>
+                <procedure title="Kopfzeile">
                     <step>
                         <p>
-                            Drücken Sie den Rückgängig-Button in der Kopfzeile (Symbol: Pfeil nach links).
+                            Drücken Sie in der Kopfzeile den Button <control>Rückgängig</control> (Symbol: Pfeil nach links).
                             <img src="imageManualAuthoringKopfzeileAktionRueckgaengig.png"
                                  alt="Rückgängig Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
                                  style="block"/>
@@ -40,7 +40,7 @@
                 </procedure>
             </tab>
             <tab id="undo-menu" title="Menüband">
-                <procedure>
+                <procedure title="Menüband">
                     <step>
                         <p>Wählen Sie die Kategorie
                             <control>Edit</control>
@@ -62,7 +62,7 @@
                 </procedure>
             </tab>
             <tab id="undo-shortcut" title="Tastenkombination">
-                <procedure>
+                <procedure title="Tastenkombination">
                     <step>
                         <p>Drücken Sie die Tastenkombination
                             <control>Strg</control>
@@ -78,7 +78,7 @@
             <list>
                 <li><p>Sie können mehrere Aktionen hintereinander rückgängig machen.</p></li>
                 <li><p>Sie können eine rückgängig gemachte Aktion wiederherstellen, indem Sie diese wiederholen. Siehe:
-                    <a href="ManualAuthoringBedienungKopfzeileAktionWiederholen.topic"/></p></li>
+                    <a href="ManualAuthoringBedienungKopfzeileAktionWiederholen.topic"/>.</p></li>
             </list>
         </tip>
 

@@ -49,8 +49,10 @@ Auf der anderen Seite definiert die AbstractSceneDefinition die privaten Methode
 
 ## Diagramme
 
-
+Die folgenden beiden Diagramme bilden die Interaktionen der oben beschriebenen Klassen/Komponenten ab.
 
 ![imageBabylonSceneInitialization.jpg](imageBabylonSceneInitialization.jpg)
+
+Die im Klassendiagramm abgebildete _Presentation Class_ ist ein Platzhalter für eine beliebige andere Klasse der AdLer Engine, die über den Scene Presenter mit der Babylon-Szene interagiert. Sie erhält, genauso wie der Babylon Canvas,  Zugang zum Scene Presenter über die Scene Presenter Factory-Methode der Dependency Injection.
 
 ![imageBabylonSceneManagement.jpg](imageBabylonSceneManagement.jpg)

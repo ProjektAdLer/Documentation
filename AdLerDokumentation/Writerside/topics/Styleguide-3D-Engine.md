@@ -98,5 +98,5 @@ Je nach Theme kann es sinnvoll sein mehrere Darstellungen eines Objekts innerhal
 |  ![](imageStyleguideVendingMachine1.png) | ![](imageStyleguideVendingMachine2.png)  | ![](imageStyleguideVendingMachine3.png)  |
 |---|---|---|
 
-Zu guter Letzt ist es wichtig das die Objekte von mehreren Winkeln aus erkennbar sind, da nicht klar ist in welcher Ausrichtung sie später in der Lernwelt platziert werden.
+Zu guter Letzt ist es wichtig, dass die Objekte von mehreren Winkeln aus erkennbar sind, da nicht klar ist in welcher Ausrichtung sie später in der Lernwelt platziert werden.
 Oben sehen sie ein negatives Beispiel für diese Regel in Form des Objektes "Verkaufs-Automat".

@@ -33,10 +33,7 @@
             <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelgrauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Lernwelt löschen" wird angezeigt.</tip>
         </step>
         <note>
-            <control>
-                <p>Sie haben die Lernwelt erfolgreich gelöscht.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben die Lernwelt erfolgreich gelöscht.</control>
         </note>
         <tip>Die Lernwelt wird aus der Übersicht entfernt.</tip>
     </procedure>

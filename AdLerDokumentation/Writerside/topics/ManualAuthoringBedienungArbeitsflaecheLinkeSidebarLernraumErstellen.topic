@@ -128,9 +128,6 @@
         </step>
     </procedure>
     <note>
-        <control>
-            <p>Sie haben erfolgreich einen neuen Lernraum erstellt.</p>
-            <p>&#10004;</p>
-        </control>
+        <control>&#10004; Sie haben erfolgreich einen neuen Lernraum erstellt.</control>
     </note>
 </topic>

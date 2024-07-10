@@ -15,8 +15,7 @@
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Löschen eines bereits erstellten Moodle-Kurses - welcher einer AdLer Lernwelt entspricht - vom
-                    Server.</p>
+                <p>Löschen eines bereits erstellten Moodle-Kurses vom AdLer-Server. Ein Moodle-Kurs entspricht einer AdLer-Lernwelt.</p>
             </def>
         </deflist>
 
@@ -24,46 +23,43 @@
             <p>Voraussetzungen:</p>
             <list>
                 <li>Sie sind im Autorentool mit Ihrem Account angemeldet. Siehe: <a
-                        href="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/></li>
+                        href="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/>.</li>
                 <li>Sie haben bereits mindestens eine Lernwelt veröffentlicht. Siehe: <a
-                        href="ManualAuthoringBedienungKopfzeileLernweltVeroeffentlichen.topic"/></li>
+                        href="ManualAuthoringBedienungKopfzeileLernweltVeroeffentlichen.topic"/>.</li>
             </list>
         </tip>
 
-        <step><p>Klicken Sie auf den Benutzer-Button (Symbol: Personen-Avatar)
+        <step><p>Klicken Sie auf den Button <control>Einloggen auf den AdLer-Server</control> (Symbol: Personen-Avatar).
             <img src="imageManualAuthoringKopfzeileAktionBenutzer.png"
                  alt="Benutzer Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" style="block"/>
         </p>
-            <note>&#10004; Das Administrations-PopUp-Fenster wird geöffnet.
+            <note>Es öffnet sich ein Pop-up-Fenster mit dem Titel <control>Administration</control>.
                 <img src="imageManualAuthoringKopfzeileAdministration.png" alt="Administrations-PopUp" width="200"
                      thumbnail="true" style="block"/>
             </note>
         </step>
         <step>
-            <p>Im unteren Bereich des Administrations-PopUp-Fensters sehen sie alle bereits erstellten und zugleich
-                veröffentlichten Kurse. Zum Löschen klicken Sie auf den
-                <control>Moodle-Kurs löschen</control>
-                -Button (Symbol: Papierkorb) neben dem jeweiligen Moodle Kurs.
+            <p>Im unteren Bereich des Pop-up-Fensters sehen Sie alle bereits erstellten und somit
+                veröffentlichten Kurse. Zum Löschen klicken Sie auf den Button
+                <control>Moodle-Kurs löschen</control> (Symbol: Papierkorb) neben dem jeweiligen Moodle-Kurs.
                 <img src="imageManualAuthoringKopfzeileAdministrationKursLoeschen.png"
                      alt="ZurStartseiteWechselnCallout" width="200" thumbnail="true" style="block"/>
             </p>
-            <note>&#10004; Ein Bestätigungsdialog erscheint.
+            <note>Ein Bestätigungsdialog erscheint.
                 <img src="imageManualAuthoringKopfzeileAdministrationKursLoeschenBestaetigung.png"
                      alt="Bestätigungsdialog Kurs Löschen" width="200" thumbnail="true" style="block"/>
             </note>
         </step>
         <step>
-            <p>Drücken Sie den
-                <control>Ja</control>
-                -Button des angezeigten Bestätigungsdialoges um den entsprechenden Moodle-Kurs endgültig und
-                unwiderruflich zu löschen. Sie können alternativ den Dialog durch klicken des
-                <control>Abbrechen</control>
-                -Buttons ohne Löschung beenden.
+            <p>Drücken Sie den Button
+                <control>Ja</control> des angezeigten Bestätigungsdialoges, um den entsprechenden Moodle-Kurs endgültig und
+                unwiderruflich zu löschen. Sie können alternativ den Dialog durch Klicken des Buttons
+                <control>Abbrechen</control> ohne Löschung beenden.
             </p>
         </step>
 
         <note>
-            <control>&#10004; Der ausgewählte Moodle-Kurs wurde unwiderruflich vom Server gelöscht.</control>
+            <control>&#10004; Der ausgewählte Moodle-Kurs wurde unwiderruflich vom AdLer-Server gelöscht.</control>
         </note>
     </procedure>
 </topic>

@@ -3,40 +3,42 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Lernziele von Lernraum einsehen" id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterLernzielevonLernraumEinsehen">
+       title="Lernziele von Lernraum einsehen"
+       id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterLernzielevonLernraumEinsehen">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic">Lernraum-Editor</a>.</p>
+
+    <show-structure for="chapter, procedure" depth="4"/>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Hier wird das Ziel der Handlung beschrieben</control>
+                <control>Ziel der Handlung</control>
+                <p>Lernziele eines geöffneten Lernraums einsehen.</p>
             </def>
         </deflist>
 
+        <tip>Voraussetzung:
+            <p>Ein Lernraum ist im mittleren Fenster geöffnet. Siehe: <a
+                    href="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>.</p>
+        </tip>
 
-        <step><p>Führen Sie den ersten Schritt durch </p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step>
+            <p>Klicken Sie auf den Button <control>Lernziele dieses Lernraums</control> (Symbol: Zielscheibe).
+                <img src="imageManualAuthoringmittleresFensterUebersichtLernzieleButtonCallout.png"
+                     alt="LernzielÜbersicht" width="200" thumbnail="true" style="block"/></p>
+            <note>
+                <p>Das Fenster <control>Lernziel-Übersicht</control> wird geöffnet. In diesem sind alle Lernziele des aktuellen Lernraums aufgelistet.
+                    <img src="imageManualAuthoringmittleresFensterLernzielUebersicht.png"
+                         alt="LernzielÜbersicht" width="200" thumbnail="true" style="block"/></p>
+            </note>
         </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+            Schließen Sie das Fenster <control>Lernziel-Übersicht</control> durch Klicken des Buttons <control>X</control>.
         </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+
+        <note>
+            <control>&#10004; Sie haben erfolgreich die Lernziele eines geöffneten Lernraums eingesehen.</control>
+        </note>
     </procedure>
 </topic>

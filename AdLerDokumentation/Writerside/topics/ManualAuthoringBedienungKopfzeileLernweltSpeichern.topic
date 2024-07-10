@@ -41,8 +41,7 @@
                  thumbnail="true"/>
         </tip>
         <note>
-            <p>Sie haben Ihre Lernwelt mit Ihren Änderungen erfolgreich gespeichert.</p>
-            <p>&#10004;</p>
+            <control>&#10004; Sie haben Ihre Lernwelt mit Ihren Änderungen erfolgreich gespeichert.</control>
         </note>
     </procedure>
 </topic>

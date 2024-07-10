@@ -1,4 +1,4 @@
-# Section
+# Section (Moodle-Domäne)
 
 <link-summary rel="summary"/>
 <card-summary rel="summary"/>

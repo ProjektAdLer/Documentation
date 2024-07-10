@@ -42,7 +42,7 @@
             <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeErstellenButton.png" alt="Frage erstellen: Erstellen Button unten rechts" width="200" thumbnail="true"/>
         </step>
         <step>
-            <tip>Sie gelangen nach diesem Klick erneut auf die Ansicht mit der erstellten Aufgabe. Ihre Frage ist nun über eine Vorschau-Ansicht einsehbar. Darüber hinaus wurde diese Frage als <control>zu lösende Frage</control> festgelegt. Näheres dazu erfahren Sie hier: <a href="Handreichung-Didaktik-BD.md"/>.
+            <tip>Sie gelangen nach diesem Klick erneut auf die Ansicht mit der erstellten Aufgabe. Ihre Frage ist nun über eine <control>Vorschau</control> einsehbar. Darüber hinaus wurde diese Frage als <control>zu lösende Frage</control> festgelegt. Näheres dazu erfahren Sie hier: <a href="Handreichung-Didaktik-BD.md"/>.
                 <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageHinzugefuegt.png" alt="Aufgabenübersicht" width="200" thumbnail="true"/>
                 <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageHinzugefuegtVorschau.png" alt="Aufgabenübersicht mit Fragenvorschau bei hovern auf Augensymbol" width="200" thumbnail="true"/>
             </tip>
@@ -52,10 +52,7 @@
         <step><p>Erstellen Sie im nächsten Schritt einen Kommentar oder einen Verweis zu Ihrer Frage --> näheres dazu erfahren Sie unter <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarKommentarHinzufuegen.topic">Kommentar hinzufügen</a> und <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVerweisHinzufuegen.topic">Verweis hinzufügen</a>.</p>
         </step>
         <note>
-            <control>
-                <p>Sie haben der Aufgabe eines Adaptivitätselements erfolgreich eine Frage hinzugefügt.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben der Aufgabe eines Adaptivitätselements erfolgreich eine Frage hinzugefügt.</control>
         </note>
     </procedure>
 </topic>

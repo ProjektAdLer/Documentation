@@ -49,8 +49,7 @@
             </warning>
         </step>
         <note>
-            <p>Sie haben erfolgreich einen technischen Fehler im Autorentools gemeldet.</p>
-            <p>&#10004;</p>
+            <control>&#10004; Sie haben erfolgreich einen technischen Fehler im Autorentools gemeldet.</control>
         </note>
     </procedure>
 </topic>

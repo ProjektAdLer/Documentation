@@ -34,7 +34,7 @@ async function findPotentialTestFiles(
 // Finds files with specified IDs and records their line numbers and the IDs themselves.
 async function findFilesWithIds(files: string[]): Promise<UnitTestInfos[]> {
   // Updated regex to allow optional spaces around 'ANF-ID' and inside the brackets
-  const idRegex = /\/\/\s*ANF-ID:\s*\[([A-Z0-9,\s]+)\]/;
+  const idRegex = /[#\/]+\s*ANF-ID:\s*\[([A-Z0-9,\s]+)\]/;
   let filesWithIds: UnitTestInfos[] = [];
 
   for (const file of files) {

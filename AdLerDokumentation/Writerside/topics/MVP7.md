@@ -6,7 +6,5 @@ Die Plugins müssen eine Schnittstelle für Lernende bieten, um ihre Punkte von 
 
 
 ## Akzeptanzkriterien:
-
-
-## Aktivitätsdiagramm:
-
+- Parameter: Liste von Kurs-IDs
+- Rückgabe: Liste von [Modul-ID](module-id-moodle-VP.md) und Punkte Paaren

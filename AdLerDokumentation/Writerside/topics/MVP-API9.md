@@ -1,7 +1,7 @@
 # local_adler_get_element_ids_by_uuids
 
 ## Beschreibung:
-Gibt Kontext- und Datenbank-IDs für <a href="Section-VP.md">Sections</a> / Kursmodule mit gegebenen UUIDs und Kurs-IDs zurück.
+Gibt Kontext- und Datenbank-IDs für [Sections](Section-VP.md) / [Kursmodule](modul-moodle-VP.md) mit gegebenen UUIDs und Kurs-IDs zurück.
 
 ## Parameter:
 

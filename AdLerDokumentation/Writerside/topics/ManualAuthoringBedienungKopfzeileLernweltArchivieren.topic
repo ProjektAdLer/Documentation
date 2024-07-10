@@ -18,7 +18,7 @@
         </deflist>
 
         <tip>
-            <p>Voraussetzungen:</p>
+            <p>Voraussetzung:</p>
             <list>
                 <li>Eine Lernwelt ist geöffnet oder wurde neu erstellt. Siehe: <a
                         href="ManualAuthoringBedienungStartseiteLernweltImportieren.topic"/>, <a
@@ -28,7 +28,7 @@
         </tip>
 
         <step>
-            <p>Drücken Sie den Archivieren-Button in der Kopfzeile (Symbol: Box mit Pfeil nach unten).
+            <p>Drücken Sie in der Kopfzeile den Button <control>Lernwelt als ZIP-Datei archivieren</control> (Symbol: Box mit Pfeil nach unten).
                 <img src="imageManualAuthoringKopfzeileAktionArchivieren.png"
                      alt="Archivieren Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
                      style="block"/>
@@ -42,7 +42,7 @@
             </p>
         </step>
         <step>
-            <p>Drücken Sie den Speichern-Button.
+            <p>Drücken Sie den Button <control>Speichern</control>.
                 <img src="imageManualAuthoringKopfzeileArchivierenDateisystemSpeichern.png"
                      alt="Speichern Button im Datei Explorer des Systems" width="200" thumbnail="true" style="block"/>
             </p>

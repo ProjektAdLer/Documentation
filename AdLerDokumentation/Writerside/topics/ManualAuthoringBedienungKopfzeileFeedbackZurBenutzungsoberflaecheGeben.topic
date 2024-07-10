@@ -42,7 +42,7 @@
                 <tab id="Arbeitsflaeche-Autorentool" title="...Arbeitsfläche des Autorentools">
                     <list type="decimal">
                         <li>Klicken Sie in der Kopfzeile mit der Maus auf den Button
-                            <control> Tester-Feedback</control>
+                            <control>Tester-Feedback</control>
                             .
                             <img src="imageManualAuthoringFeedbackBenutzungsoberflaecheArbeitsflaecheButtonCallout.png"
                                  alt="BenutzungsoberflaecheArbeitsflaecheFeedbackButtonCallout" width="200"
@@ -61,11 +61,9 @@
         <tip>Sie können während der Nutzung des Autorentools mehrfach Rückmeldung zur Benutzungsoberfläche des
             Autorentools geben.
         </tip>
-        <note>
-            <control>
-                <p>Sie haben erfolgreich Feedback zur Benutzungsoberfläche des Autorentools gegeben.</p>
-                <p>&#10004;</p>
-            </control>
-        </note>
+            <note>
+                <control>&#10004; Sie haben erfolgreich Feedback zur Benutzungsoberfläche des Autorentools gegeben.
+                </control>
+            </note>
     </procedure>
 </topic>

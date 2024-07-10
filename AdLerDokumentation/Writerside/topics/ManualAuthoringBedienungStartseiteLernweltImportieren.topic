@@ -33,10 +33,7 @@
             <tip>Existiert bereits eine Lernwelt mit dem gleichen Namen im Autorentool, wird der importierten Lernwelt eine fortlaufende Nummer (Nr.) hinzugefügt.</tip>
         </step>
         <note>
-            <control>
-                <p>Sie haben erfolgreich eine Lernwelt importiert.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben erfolgreich eine Lernwelt importiert.</control>
         </note>
         <tip>Nach Importieren der Lernwelt werden Sie automatisch in die <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> des Autorentools geleitet, in der Sie mit der Bearbeitung dieser Lernwelt beginnen können.</tip>
     </procedure>

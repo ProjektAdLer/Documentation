@@ -5,8 +5,5 @@ Die Plugins müssen eine Schnittstelle bieten, um Details aller Adaptivitätsauf
 
 
 ## Akzeptanzkriterien:
-- Die Schnittstelle muss die Möglichkeit bieten, entweder die Modul-ID oder die Instanz-ID des Adaptivitätsmoduls anzugeben.
-- Die Schnittstelle muss den Abschlusszustand der Aufgaben zurückgeben.
-
-## Aktivitätsdiagramm:
-
+- Anfrage: [Modul-ID](module-id-moodle-VP.md) oder [Instanz-ID](instance-id-moodle-VP.md) als Parameter
+- Rückgabe: Abschlusszustand als bool

@@ -30,10 +30,7 @@
             </tip>
         </step>
         <note>
-            <control>
-                <p>Sie haben erfolgreich ein selbst formuliertes Lernziel zu einem Lernraum erstellt.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben erfolgreich ein selbst formuliertes Lernziel zu einem Lernraum erstellt.</control>
         </note>
     </procedure>
 </topic>

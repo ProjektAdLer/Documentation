@@ -48,9 +48,14 @@ Das AdLer-Projekt steht für ein inklusives Miteinander aller Menschen ein. Aus 
 Wir stellen den Nutzer in den Mittelpunkt der Entwicklung unserer Anwendung. Auch das geschriebene Wort soll nutzerzentriert sein. Wir verwenden Sprache, die so einfach wie möglich und gleichzeitig so detailliert wie nötig ist. Kurze prägnante Sätze, optische Hervorhebungen zur Leitung der Aufmerksamkeit des Nutzers, Verwendung von Aufzählungen mit Bulletpoints oder nummerierten Aufzählungen, wo möglich.
 
 #### Verwendung des/der Logos
-Das Logo ist in seinen verschiedenen Ausführungen auf der Cloud zu finden. Nach Möglichkeit sollten zur Bildschirmdarstellung die Vektorgrafiken (.svg) bevorzugt genutzt werden, da diese unendlich skalierbar sind. Ist dies nicht möglich werden die Pixeldateien (.png) verwendet.
+Das Logo ist in seinen verschiedenen Ausführungen auf der [AdLer Cloud (Interner Link)](https://cloud.projekt-adler.eu/f/4344) zu finden. Nach Möglichkeit sollten zur Bildschirmdarstellung die Vektorgrafiken (.svg) bevorzugt genutzt werden, da diese unendlich skalierbar sind. Ist dies nicht möglich werden die Pixeldateien (.png) verwendet.
 
-## Linksammlung UI Guidelines
+1. AdLer Logo ist zur allgemeinen Verwendung in der Kommunikation des AdLer Projekts
+2. AdLer Logo 3D ist zur Verwendung innerhalb von 3D-Umgebungen
+3. AdLer Logo Animation ist zur Verwendung in Intros und Outros von Videos
+4. AdLer Logo long ist zur Verwendung an Stellen, an denen das AdLer Logo durch die quadratische Form zu klein und schlecht erkennbar werden würde
+
+## Linksammlung Inspiration UI Guidelines
 
 -   [2D UI | Decentraland](https://docs.decentraland.org/development-guide/onscreen-ui/)
 -   [CORPORATE PROFILE - XTOPIA\_UI\_Guideline.pdf](https://developers.xtopia.io/clients/XTOPIA_Developers_0DA0F184-BC10-43F1-9346-83655F63F9B8/contentms/img/doc/XTOPIA_UI_Guideline.pdf)
