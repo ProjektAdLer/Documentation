@@ -27,13 +27,12 @@
             <tip>Freie Slots werden durch ein Plus gekennzeichnet.</tip>
                 <img src="imageManualAuthoringMittleresFensterLernelementErstellen.png"
                      alt="Lernelement Feld Callout" width="200" thumbnail="true" style="block"/>
-            <warning>Lernelemente können nur in Slots innerhalb des Grundrisses positioniert werden. Über die beiden Slots, die sich außerhalb des Grundrisses an den beiden Türen (Ein- und Ausgänge) befinden, werden Storyelemente hinzugefügt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterStoryelementErstellen.topic"/>.</warning>
+            <tip>Lernelemente können nur in Slots innerhalb des Grundrisses positioniert werden. Über die beiden Slots, die sich außerhalb des Grundrisses an den beiden Türen (Ein- und Ausgänge) befinden, werden Storyelemente hinzugefügt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterStoryelementErstellen.topic"/>.</tip>
             <note>In der linken Sidebar öffnet sich der Tab <control>Lernelement erstellen</control>.</note>
         </step>
         <step>
             <p>Erstellen Sie nun das Lernelement in der linken Sidebar. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>.</p>
         </step>
-
         <note><control>&#10004; Sie haben erfolgreich ein neues Lernelement erstellt. Dieses wurde nach Klicken des Buttons <control>Ok</control> automatisch dem ausgewählten Slot im Lernraum hinzugefügt.</control>
             <img src="imageManualAuthoringMittleresFensterLernelementErstellen.png"
                  alt="Lernelement Feld Callout" width="200" thumbnail="true" style="block"/>

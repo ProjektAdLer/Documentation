@@ -30,7 +30,8 @@
             <p>Geben Sie Suchparameter in die Suchleiste im Abschnitt <control>Hinzugefügtes Lernmaterial</control> ein.</p>
             <tip>
                 <list>
-                    <li><p>Suchparameter können der Name des Lernelements oder dessen Dateiendung (Typ) sein.</p></li>
+                    <li>Suchparameter können der Name des Lernelements oder dessen Dateiendung (Typ) sein.</li>
+                    <li>Die Suche erfolgt unabhängig von Groß- und Kleinschreibung.</li>
                     <li>Die Suche wird automatisch durchgeführt, bereits während Sie eine Eingabe treffen.</li>
                 </list>
             </tip>

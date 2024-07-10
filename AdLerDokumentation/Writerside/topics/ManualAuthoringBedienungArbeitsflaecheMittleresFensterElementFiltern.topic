@@ -5,38 +5,122 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Element filtern" id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementFiltern">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic">Unplatzierte Elemente</a>.</p>
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Unplatzierte Elemente nach verschiedenen Kriterien filtern.</control>
             </def>
         </deflist>
 
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li><p>Es ist ein Lernraum geöffnet. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>.</p></li>
+                <li><p>Es sind mindestens zwei unterschiedliche Elemente (Adaptivitätselement, Lernelement oder Storyelement) erstellt.</p></li>
+                <li><p>Die Elemente sind noch keinem Grundriss zugeordnet und liegen noch im Bereich der unplatzierten Elemente.</p></li>
+            </list>
+        </tip>
+        <step><p>Filtern Sie die unplatzierten Elemente, um bestimmte Elemente schneller finden zu können.</p>
+            <tip>Für das Filtern von unplatzierten Elementen sind drei Möglichkeiten vorhanden. Diese werden als Symbole dargestellt.
+                <img src="imageManualAuthoringmittleresFensterElementAuswaehlenKontextdialogFocus.png"
+                     alt="Rechtsklickmenü Lernelement im Lernraum" width="75" thumbnail="true" style="block"/>
+            </tip>
+            <p><control>Filtern nach...</control></p>
+        <tabs>
+            <tab id="filtern_art-" title="...Art des Elements">
+                <procedure title="Art des Elements">
+                    <note>Mit der Filteroption <control>Art des Elements</control> können die unterschiedlichen Elemente gefiltert werden:
+                        <list>
+                            <li>Alle --> ist standardmäßig ausgewählt</li>
+                            <li>Lernelement</li>
+                            <li>Adaptivitätselement</li>
+                            <li>Storyelement</li>
+                        </list>
+                    </note>
+                    <step>
+                        <p>Klicken Sie auf den Button <control>Art des Elements</control> (Symbol: E).
+                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                    </step>
+                    <step>
+                        <p>Wählen Sie die gewünschte Filterauswahl aus.
+                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                    </step>
+                    <tip>
+                        <p>Es werden lediglich die Elemente angezeigt, die entsprechend der Filteroption.</p>
+                        <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                             alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
+                        <p><i>In diesem Beispiel: Nur die Elemente der Art <control>Adaptivitätselement</control></i>.</p>
+                    </tip>
+                </procedure>
+            </tab>
+            <tab id="filtern_typ-" title="...Typ des Elements">
+                <procedure title="Typ des Elements">
+                    <note>Mit der Filteroption <control>Typ des Elements</control> können die unterschiedlichen Elemente gefiltert werden:
+                        <list>
+                            <li>Alle --> ist standardmäßig ausgewählt</li>
+                            <li>Text</li>
+                            <li>Bild</li>
+                            <li>Video</li>
+                            <li>H5P</li>
+                            <li>Adaptivitätselement</li>
+                            <li>Storyelement</li>
+                        </list>
+                    </note>
+                    <step>
+                        <p>Klicken Sie auf den Button <control>Typ des Elements</control> (Symbol: Gebirge mit Sonne).
+                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                    </step>
+                    <step>
+                        <p>Wählen Sie die gewünschte Filterauswahl aus.
+                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                    </step>
+                    <tip>
+                        <p>Es werden lediglich die Elemente angezeigt, die entsprechend der Filteroption.</p>
+                        <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                             alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
+                        <p><i>In diesem Beispiel: Nur die Elemente des Typs <control>Text</control></i>.</p>
+                    </tip>
+                </procedure>
+            </tab>
+            <tab id="filtern_schwierigkeit-" title="...Schwierigkeit des Elements">
+                <procedure title="Schwierigkeit des Elements">
+                    <note>Mit der Filteroption <control>Schwierigkeit des Elements</control> können die unterschiedlichen Elemente gefiltert werden:
+                        <list>
+                            <li>Alle --> ist standardmäßig ausgewählt</li>
+                            <li>Keine Angabe</li>
+                            <li>Leicht</li>
+                            <li>Mittelschwer</li>
+                            <li>Schwer</li>
+                        </list>
+                    </note>
+                    <step>
+                        <p>Klicken Sie auf den Button <control>Schwierigkeit des Elements</control> (Symbol: Sterne).
+                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                    </step>
+                    <step>
+                        <p>Wählen Sie die gewünschte Filterauswahl aus.
+                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                    </step>
+                    <tip>
+                        <p>Es werden lediglich die Elemente angezeigt, die entsprechend der Filteroption.</p>
+                        <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                             alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
+                        <p><i>In diesem Beispiel: Nur die Elemente der Schwierigkeit <control>schwer</control></i>.</p>
+                    </tip>
+                </procedure>
+            </tab>
+        </tabs>
+        </step>
 
-        <step><p>Führen Sie den ersten Schritt durch </p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
-        </step>
-        <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
-        </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+        <note><control>&#10004; Sie haben die unplatzierten Elemente erfolgreich gefiltert.</control></note>
     </procedure>
 </topic>

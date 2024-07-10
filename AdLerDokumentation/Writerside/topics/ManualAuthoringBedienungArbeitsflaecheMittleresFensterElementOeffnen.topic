@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Element bearbeiten" id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementOeffnen">
 
-    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic">Lernraum-Editor</a>.</p>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic">Lernraum-Editor</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic">Unplatzierte Elemente</a>.</p>
 
     <show-structure for="chapter, procedure" depth="4"/>
 
@@ -62,7 +62,9 @@
         <step>
             <p>Bearbeiten und speichern Sie das Element (Adaptivitätselement, Lernelement oder Storyelement). Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAngabenZuAdaptivitaetselementen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAngabenZuLernelementen.topic"/> oder <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAngabenZuStoryelementen.topic"/>.</p>
         </step>
-
+        <tip>Das hier beschriebene Vorgehen zum Bearbeiten eines Elements im Bereich <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic"><control>Lernraum-Editor</control></a> ist auf die gleiche Weise auch im Bereich <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>Unplatzierte Elemente</control></a> möglich.
+            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></tip>
         <note><control>&#10004; Sie haben erfolgreich den Bearbeitungsmodus für ein ausgewähltes Element (Adaptivitätselement, Lernelement oder Storyelement) über den Grundriss eines Lernraums aktiviert.</control></note>
     </procedure>
 </topic>

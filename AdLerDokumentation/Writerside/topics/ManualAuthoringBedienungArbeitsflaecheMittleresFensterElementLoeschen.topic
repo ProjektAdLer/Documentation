@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Element löschen" id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementLoeschen">
 
-    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic">Lernraum-Editor</a>.</p>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic">Lernraum-Editor</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic">Unplatzierte Elemente</a>.</p>
 
     <show-structure for="chapter, procedure" depth="4"/>
 
@@ -37,7 +37,9 @@
                 <img src="imageManualAuthoringmittleresFensterElementAuswaehlenKontextdialogFocus.png"
                      alt="Rechtsklickmenü Lernelement im Lernraum" width="75" thumbnail="true" style="block"/></p>
         </step>
-
+        <tip>Das hier beschriebene Vorgehen zum Löschen eines Elements im Bereich <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic"><control>Lernraum-Editor</control></a> ist auf die gleiche Weise auch im Bereich <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>Unplatzierte Elemente</control></a> möglich.
+            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></tip>
         <note><control>&#10004; Sie haben erfolgreich das ausgewählte Element (Adaptivitätselement, Lernelement oder Storyelement) aus dem Lernraum entfernt.</control>
             <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
                  alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
