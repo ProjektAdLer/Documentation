@@ -14,50 +14,50 @@ const ParseUnitTests_1 = require("./ParseUnitTests");
 const WriteRequirementsToListing_1 = require("./WriteRequirementsToListing");
 // Updated configuration structure to support different repos for plugins
 const REPO_CONFIGS = [
-    {
-        idPrefix: 'A',
-        outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md',
-        folders: [
-            {
-                repoName: 'Autorentool',
-                testFolder: '../../../Autorentool/',
-                fileExtensions: ['.cs'],
-            },
-        ],
-    },
-    {
-        idPrefix: 'B',
-        outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md',
-        folders: [
-            {
-                repoName: 'AdLerBackend',
-                testFolder: '../../../AdLerBackend/',
-                fileExtensions: ['.cs'],
-            },
-        ],
-    },
-    {
-        idPrefix: 'G',
-        outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md',
-        folders: [
-            {
-                repoName: 'Autorentool',
-                testFolder: '../../../Autorentool/',
-                fileExtensions: ['.cs'],
-            },
-        ],
-    },
-    {
-        idPrefix: 'E',
-        outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md',
-        folders: [
-            {
-                repoName: '2D_3D_AdLer',
-                testFolder: '../../../2D_3D_AdLer/',
-                fileExtensions: ['.test.ts', '.test.tsx'],
-            },
-        ],
-    },
+    // {
+    //   idPrefix: 'A',
+    //   outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md',
+    //   folders: [
+    //     {
+    //       repoName: 'Autorentool',
+    //       testFolder: '../../../Autorentool/',
+    //       fileExtensions: ['.cs'],
+    //     },
+    //   ],
+    // },
+    // {
+    //   idPrefix: 'B',
+    //   outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md',
+    //   folders: [
+    //     {
+    //       repoName: 'AdLerBackend',
+    //       testFolder: '../../../AdLerBackend/',
+    //       fileExtensions: ['.cs'],
+    //     },
+    //   ],
+    // },
+    // {
+    //   idPrefix: 'G',
+    //   outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md',
+    //   folders: [
+    //     {
+    //       repoName: 'Autorentool',
+    //       testFolder: '../../../Autorentool/',
+    //       fileExtensions: ['.cs'],
+    //     },
+    //   ],
+    // },
+    // {
+    //   idPrefix: 'E',
+    //   outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md',
+    //   folders: [
+    //     {
+    //       repoName: '2D_3D_AdLer',
+    //       testFolder: '../../../2D_3D_AdLer/',
+    //       fileExtensions: ['.test.ts', '.test.tsx'],
+    //     },
+    //   ],
+    // },
     {
         idPrefix: 'M',
         outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Plugins.md',
@@ -65,22 +65,22 @@ const REPO_CONFIGS = [
             {
                 repoName: 'MoodlePluginAvailability',
                 testFolder: '../../../plugins/MoodlePluginAvailability/',
-                fileExtensions: ['.php'],
+                fileExtensions: ['.php', '.feature'],
             },
             {
                 repoName: 'MoodlePluginLocal',
                 testFolder: '../../../plugins/MoodlePluginLocal/',
-                fileExtensions: ['.php'],
+                fileExtensions: ['.php', '.feature'],
             },
             {
                 repoName: 'MoodlePluginLocalLogging',
                 testFolder: '../../../plugins/MoodlePluginLocalLogging/',
-                fileExtensions: ['.php'],
+                fileExtensions: ['.php', '.feature'],
             },
             {
                 repoName: 'MoodlePluginModAdleradaptivity',
                 testFolder: '../../../plugins/MoodlePluginModAdleradaptivity/',
-                fileExtensions: ['.php'],
+                fileExtensions: ['.php', '.feature'],
             },
         ],
     },

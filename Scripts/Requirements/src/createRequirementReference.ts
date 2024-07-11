@@ -5,50 +5,50 @@ import { RequirementInfo, OutputStructure } from './Types';
 
 // Updated configuration structure to support different repos for plugins
 const REPO_CONFIGS = [
-  {
-    idPrefix: 'A',
-    outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md',
-    folders: [
-      {
-        repoName: 'Autorentool',
-        testFolder: '../../../Autorentool/',
-        fileExtensions: ['.cs'],
-      },
-    ],
-  },
-  {
-    idPrefix: 'B',
-    outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md',
-    folders: [
-      {
-        repoName: 'AdLerBackend',
-        testFolder: '../../../AdLerBackend/',
-        fileExtensions: ['.cs'],
-      },
-    ],
-  },
-  {
-    idPrefix: 'G',
-    outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md',
-    folders: [
-      {
-        repoName: 'Autorentool',
-        testFolder: '../../../Autorentool/',
-        fileExtensions: ['.cs'],
-      },
-    ],
-  },
-  {
-    idPrefix: 'E',
-    outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md',
-    folders: [
-      {
-        repoName: '2D_3D_AdLer',
-        testFolder: '../../../2D_3D_AdLer/',
-        fileExtensions: ['.test.ts', '.test.tsx'],
-      },
-    ],
-  },
+  // {
+  //   idPrefix: 'A',
+  //   outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md',
+  //   folders: [
+  //     {
+  //       repoName: 'Autorentool',
+  //       testFolder: '../../../Autorentool/',
+  //       fileExtensions: ['.cs'],
+  //     },
+  //   ],
+  // },
+  // {
+  //   idPrefix: 'B',
+  //   outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md',
+  //   folders: [
+  //     {
+  //       repoName: 'AdLerBackend',
+  //       testFolder: '../../../AdLerBackend/',
+  //       fileExtensions: ['.cs'],
+  //     },
+  //   ],
+  // },
+  // {
+  //   idPrefix: 'G',
+  //   outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md',
+  //   folders: [
+  //     {
+  //       repoName: 'Autorentool',
+  //       testFolder: '../../../Autorentool/',
+  //       fileExtensions: ['.cs'],
+  //     },
+  //   ],
+  // },
+  // {
+  //   idPrefix: 'E',
+  //   outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md',
+  //   folders: [
+  //     {
+  //       repoName: '2D_3D_AdLer',
+  //       testFolder: '../../../2D_3D_AdLer/',
+  //       fileExtensions: ['.test.ts', '.test.tsx'],
+  //     },
+  //   ],
+  // },
   {
     idPrefix: 'M',
     outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Plugins.md',
