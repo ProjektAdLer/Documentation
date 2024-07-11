@@ -1,7 +1,7 @@
 # Lernraum Templates
 
 ## Inhalte
-Im Code sind die 3D Grundrisse die vom Autoren übergeben werden als sogenanntes “Learning Space Template” abgespeichert.
+Im Code sind die 3D Grundrisse die vom Autoren übergeben werden als sogenanntes “[Learning Space Template](Lernraum-Template-GE.md)” abgespeichert.
 
 Templates sind im Projektordner unter folgendem Pfad zu finden: 
 src/Components/Core/Domain/LearningSpaceTemplates
