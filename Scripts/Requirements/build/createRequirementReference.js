@@ -12,21 +12,100 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const GetAllRequirements_1 = require("./GetAllRequirements");
 const ParseUnitTests_1 = require("./ParseUnitTests");
 const WriteRequirementsToListing_1 = require("./WriteRequirementsToListing");
+// Updated configuration structure to support multiple folders per project
+const REPO_CONFIGS = [
+    {
+        idPrefix: 'A',
+        outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md',
+        repoName: 'Autorentool',
+        folders: [
+            {
+                testFolder: '../../../Autorentool/',
+                testIdentifiers: ['Test'],
+                fileExtensions: ['.cs'],
+            },
+        ],
+    },
+    {
+        idPrefix: 'B',
+        outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md',
+        repoName: 'AdLerBackend',
+        folders: [
+            {
+                testFolder: '../../../AdLerBackend/',
+                testIdentifiers: ['.UnitTest', 'Test'],
+                fileExtensions: ['.cs'],
+            },
+        ],
+    },
+    {
+        idPrefix: 'G',
+        outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md',
+        repoName: 'Autorentool',
+        folders: [
+            {
+                testFolder: '../../../Autorentool/',
+                testIdentifiers: ['Test'],
+                fileExtensions: ['.cs'],
+            },
+        ],
+    },
+    {
+        idPrefix: 'E',
+        outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md',
+        repoName: '2D_3D_AdLer',
+        folders: [
+            {
+                testFolder: '../../../2D_3D_AdLer/',
+                testIdentifiers: ['test'],
+                fileExtensions: ['.test.ts', '.test.tsx'],
+            },
+        ],
+    },
+];
+// Process a single folder within a project
+function processFolder(filteredIds, folder) {
+    return __awaiter(this, void 0, void 0, function* () {
+        return (0, ParseUnitTests_1.parseUnitTests)(filteredIds, folder.testFolder, folder.testIdentifiers, folder.fileExtensions);
+    });
+}
+// Merge multiple OutputStructures into one
+function mergeOutputStructures(structures) {
+    return structures.reduce((merged, current) => {
+        Object.entries(current).forEach(([id, data]) => {
+            if (!merged[id]) {
+                merged[id] = Object.assign({}, data);
+            }
+            else {
+                merged[id].unitTests = [...merged[id].unitTests, ...data.unitTests];
+            }
+        });
+        return merged;
+    }, {});
+}
+// Process a single project (which may have multiple folders)
+function processProject(allRequirementsInfos, config) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const filteredIds = allRequirementsInfos.filter(({ id }) => id.startsWith(config.idPrefix));
+        // Process each folder and collect the results
+        const folderResults = yield Promise.all(config.folders.map((folder) => processFolder(filteredIds, folder)));
+        // Merge results from all folders
+        const mergedReferences = mergeOutputStructures(folderResults);
+        // Write the merged results to the output file
+        yield (0, WriteRequirementsToListing_1.writeRequirementsToListing)(mergedReferences, config.outputFile, config.repoName);
+    });
+}
 function Main() {
     return __awaiter(this, void 0, void 0, function* () {
-        const allRequirementsInfos = yield (0, GetAllRequirements_1.GetAllReqInfos)();
-        const autorentoolIds = allRequirementsInfos.filter(({ id }) => id.startsWith('A'));
-        const backendIds = allRequirementsInfos.filter(({ id }) => id.startsWith('B'));
-        const generatorIds = allRequirementsInfos.filter(({ id }) => id.startsWith('G'));
-        const engineIds = allRequirementsInfos.filter(({ id }) => id.startsWith('E'));
-        const authoringToolReferences = yield (0, ParseUnitTests_1.parseUnitTests)(autorentoolIds, '../../../Autorentool/', ['Test'], ['.cs']);
-        const backendReferences = yield (0, ParseUnitTests_1.parseUnitTests)(backendIds, '../../../AdLerBackend/', ['.UnitTest', 'Test'], ['.cs']);
-        const generatorReferences = yield (0, ParseUnitTests_1.parseUnitTests)(generatorIds, '../../../Autorentool/', ['Test'], ['.cs']);
-        const engineReferences = yield (0, ParseUnitTests_1.parseUnitTests)(engineIds, '../../../2D_3D_AdLer/', ['test'], ['.test.ts', '.test.tsx']);
-        (0, WriteRequirementsToListing_1.writeRequirementsToListing)(backendReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md', 'AdLerBackend');
-        (0, WriteRequirementsToListing_1.writeRequirementsToListing)(authoringToolReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md', 'Autorentool');
-        (0, WriteRequirementsToListing_1.writeRequirementsToListing)(engineReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md', '2D_3D_AdLer');
-        (0, WriteRequirementsToListing_1.writeRequirementsToListing)(generatorReferences, '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md', 'Autorentool');
+        try {
+            const allRequirementsInfos = yield (0, GetAllRequirements_1.GetAllReqInfos)();
+            // Process all projects concurrently
+            yield Promise.all(REPO_CONFIGS.map((config) => processProject(allRequirementsInfos, config)));
+            console.log('All requirements processed successfully.');
+        }
+        catch (error) {
+            console.error('An error occurred:', error);
+        }
     });
 }
 Main();
