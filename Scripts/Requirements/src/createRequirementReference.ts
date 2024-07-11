@@ -56,22 +56,22 @@ const REPO_CONFIGS = [
       {
         repoName: 'MoodlePluginAvailability',
         testFolder: '../../../plugins/MoodlePluginAvailability/',
-        fileExtensions: ['.php'],
+        fileExtensions: ['.php', '.feature'],
       },
       {
         repoName: 'MoodlePluginLocal',
         testFolder: '../../../plugins/MoodlePluginLocal/',
-        fileExtensions: ['.php'],
+        fileExtensions: ['.php', '.feature'],
       },
       {
         repoName: 'MoodlePluginLocalLogging',
         testFolder: '../../../plugins/MoodlePluginLocalLogging/',
-        fileExtensions: ['.php'],
+        fileExtensions: ['.php', '.feature'],
       },
       {
         repoName: 'MoodlePluginModAdleradaptivity',
         testFolder: '../../../plugins/MoodlePluginModAdleradaptivity/',
-        fileExtensions: ['.php'],
+        fileExtensions: ['.php', '.feature'],
       },
     ],
   },
