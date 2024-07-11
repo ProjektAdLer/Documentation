@@ -10,7 +10,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 | [Adaptivitätsfragen beantworten (MVP18)](MVP18.md) | **0** | - |
 | [Backup erstellen (MVP1)](MVP1.md) | **0** | - |
 | [Backup wiederherstellen (MVP2)](MVP2.md) | **0** | - |
-| [Bedingung zum Freispielen von Räumen anzeigen (MVP13)](MVP13.md) | **0** | - |
+| [Bedingung zum Freispielen von Räumen anzeigen (MVP13)](MVP13.md) | 1 | [log_rotation_task_test.php:15](https://github.com/ProjektAdLer/MoodlePluginLocal/blob/main/ogging/tests/task/log_rotation_task_test.php#L15) |
 | [Details der Adaptivitätsaufgaben abfragen (MVP5)](MVP5.md) | **0** | - |
 | [Details der Adaptivitätsfragen abfragen (MVP4)](MVP4.md) | **0** | - |
 | [Einfaches Lernelement abgeben (MVP10)](MVP10.md) | **0** | - |
