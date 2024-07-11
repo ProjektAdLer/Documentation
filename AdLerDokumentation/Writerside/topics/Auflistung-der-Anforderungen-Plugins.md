@@ -5,7 +5,7 @@ Hier werden automatisch die Anforderungen aus dem Anforderungsdokument eingefüg
 [//]: # (Script-Start)
 | Requirement | Anzahl an Tests | Dateien |
 | --- | --- | --- |
-| [Adaptivitätselement in Moodle anzeigen (MVP14)](MVP14.md) | 1 | [backup__adler_plugin_test.php:41](https://github.com/ProjektAdLer/MoodlePluginLocal/blob/main/tests/backup/moodle2/backup__adler_plugin_test.php#L41) |
+| [Adaptivitätselement in Moodle anzeigen (MVP14)](MVP14.md) | **0** | - |
 | [Adaptivitätsfrage beantworten (MVP3)](MVP3.md) | **0** | - |
 | [Adaptivitätsfragen beantworten (MVP18)](MVP18.md) | **0** | - |
 | [Backup erstellen (MVP1)](MVP1.md) | **0** | - |
