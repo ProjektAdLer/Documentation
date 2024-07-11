@@ -28,51 +28,51 @@
                 <tab id="lernelement_adaptiviaetselement-platzieren" title="...Adaptivitäts- und Lernelementen">
                     <procedure title="Adaptivitäts- und Lernelemente platzieren">
                         <note>Adaptivitätselemente und Lernelemente können nur in <a href="Lernelement-Slot-GE.md">Slots</a> innerhalb des Grundrisses positioniert werden. Die Anzahl der Slots variiert je nach gewähltem Grundriss des Lernraums --> siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic">Grundriss</a>.
-                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                            <img src="imageManualAuthoringUnplatzierteElementeSlots.png"
                                  alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
                         </note>
                         <step>
                             <p>Klicken Sie auf das Element, das in dem Grundriss platziert werden soll und ziehen Sie dieses per Drag und Drop in den gewünschten <a href="Lernelement-Slot-GE.md">Slot</a>.
-                                <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                                <img src="imageManualAuthoringUnplatzierteElementeSlotZiehen.png"
                                      alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
                         </step>
                         <tip>
                             <p>Sobald Sie das Element in den Slot ziehen, wird dieser Slot vergrößert und mit einem grünen Hintergrund dargestellt.</p>
-                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                            <img src="imageManualAuthoringUnplatzierteElementeSlotZiehenGruen.png"
                                  alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
                             <p>Ein Element kann auch in einen Slot gezogen werden, in dem bereits ein anderes Element platziert ist. Das zuvor platzierte Element wird dann automatisch im Bereich <control>Unplatzierte Elemente</control> abgelegt.</p>
                         </tip>
                         <warning>Wenn Sie ein Adaptivitäts- oder Lernelement in einen Slot außerhalb des Grundrisses ziehen, welcher für Storyelemente vorgesehen ist, wird dieser Slot vergrößert und mit rotem Hintergrund dargestellt.
-                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                            <img src="imageManualAuthoringUnplatzierteElementeSlotZiehenRot.png"
                                  alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></warning>
                     </procedure>
                 </tab>
                 <tab id="storyelemente-platzieren" title="...Storyelementen">
                     <procedure title="Storyelemente platzieren">
                         <note>Storyelemente können nur in <a href="Lernelement-Slot-GE.md">Slots</a> außerhalb des Grundrisses positioniert werden. Für jeden Lernraum stehen zwei Slots für Storyelemente zur Verfügung. Die Slots befinden sich an den beiden Türen eines Lernraums (Ein- und Ausgänge).
-                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                            <img src="imageManualAuthoringUnplatzierteElementeSlotsStory.png"
                                  alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
                         </note>
                         <step>
                             <p>Klicken Sie auf das Element, das in dem Grundriss platziert werden soll und ziehen Sie dieses per Drag und Drop in den gewünschten <a href="Lernelement-Slot-GE.md">Slot</a>.
-                                <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                                <img src="imageManualAuthoringUnplatzierteStoryelementeSlotZiehen.png"
                                      alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
                         </step>
                         <tip>
                             <p>Sobald Sie das Element in den Slot ziehen, wird dieser Slot vergrößert und mit einem grünen Hintergrund dargestellt.</p>
-                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                            <img src="imageManualAuthoringUnplatzierteStoryelementeSlotZiehenGruen.png"
                                  alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
                             <p>Ein Element kann auch in einen Slot gezogen werden, in dem bereits ein anderes Element platziert ist. Das zuvor platzierte Element wird dann automatisch im Bereich <control>Unplatzierte Elemente</control> abgelegt.</p>
                         </tip>
                         <warning>Wenn Sie ein Storyelement in einen Slot innerhalb des Grundrisses ziehen, welcher für Adaptivitäts- oder Lernelemente vorgesehen ist, wird dieser Slot vergrößert und mit rotem Hintergrund dargestellt.
-                            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                            <img src="imageManualAuthoringUnplatzierteStoryelementeSlotZiehenRot.png"
                                  alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></warning>
                     </procedure>
                 </tab>
             </tabs>
 
-    <tip>Die hier beschriebenen Schritte zum Platzieren von unplatzierten Elementen in einem Grundriss gelten ebenso für das Ablegen von platzierten Elementen in dem Bereich <control>Alle unplatzierten Elemente</control>.
-        <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+    <tip>Die hier beschriebenen Schritte zum Platzieren von unplatzierten Elementen in einem Grundriss gelten ebenso für das Ablegen von platzierten Elementen in den Bereich <control>Alle unplatzierten Elemente</control>.
+        <img src="imageManualAuthoringUnplatzierteElementeSlotWegziehen.png"
              alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></tip>
         <note><control>&#10004; Sie haben erfolgreich ein Element in einem Grundriss platziert.</control></note>
     </procedure>
