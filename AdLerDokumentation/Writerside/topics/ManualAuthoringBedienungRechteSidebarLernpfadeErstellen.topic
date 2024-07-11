@@ -6,38 +6,45 @@
        title="Lernpfad erstellen" id="ManualAuthoringBedienungRechteSidebarLernpfadeErstellen"
        help-id="ManualAuthoringLernräume-verbinden;ManualAuthoringBedienungRechteSidebarLernräume-verbinden;ManualAuthoringBedienungRechteSidebarLernraeumeVerbinden">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Hier wird das Ziel der Handlung beschrieben</control>
+                <control>Ziel der Handlung</control>
+                <p>Einen Lernpfad zwischen Elementen in der <a href="ManualAuthoringSoftwarekomponentenRechteSidebar.topic">rechten Seitenleiste</a> erstellen.</p>
             </def>
         </deflist>
 
 
-        <step><p>Führen Sie den ersten Schritt durch </p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Eine Lernwelt ist geöffnet. Siehe: <a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>.</p></li>
+                <li><p>Es wurde mindestens ein Lernraum innerhalb dieser Lernwelt erstellt oder importiert. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>(über die linke Sidebar), <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>(über die rechte Sidebar).</p></li>
+            </list>
+        </tip>
+        <p>Zwischen Lernräumen und Bedingungen können in der rechten Sidebar über den Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> Lernpfade bzw. Verbindungen zwischen Lernräumen stellt werden.</p>
 
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <step>
+            <warning><p>Für eine korrekte Lernpfaderstellung muss sich das zu verbindende Element unter dem Element befinden, mit welchem verbunden wird.</p></warning>
+            <p>Klicken Sie mit der linken Maustaste auf das Plus-Symbol im gelben Kreis am unteren Ende des Lernraums oder der Bedingung, welchen/welche Sie mit einem Nachfolgenden, bisher unverbundenen Element, verbinden möchten.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenCallout.png"
+                     alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/>
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenSlotCallout.png"
+                     alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
         </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+            <p>Mit gedrückter linker Maustaste ziehen Sie eine Verbindung zwischen den beiden Elementen. Dazu ziehen Sie den Pfeil in das nächste zu verbindende Element hinein.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenZiehen.png"
+                     alt="Rechtsklickmenü Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
         </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+        <step>
+            <p>Lassen Sie die Maustaste los, um die Verbindung zu erstellen.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenVerbinden.png"
+                     alt="Rechtsklickmenü Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+        </step>
+        <tip>
+            <p>Ein Lernraum kann nur eine gleichzeitige Eingangs-Verbindung haben. Sollten Sie einen bereits verbundenen Lernraum verbinden wollen, so müssen Sie die Verbindung zuvor löschen. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheBedienungLernpfadeLoeschen.topic"/> </p>
+        </tip>
+
+        <note><control>&#10004; Sie haben erfolgreich einen Lernpfad erstellt.</control></note>
     </procedure>
 </topic>

@@ -5,5 +5,28 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="AdLer-System" id="ManualAuthoringAdLer-System" help-id="ManualAuthoringAutorentoolAdLer-System">
 
-    <p>Start typing here...</p>
+    <img src="240327_Infografik_Webseite-min.png" alt="Überblick des AdLer Gesamtsystems"/>
+    <p><a href="ManualAuthoringFeatures-auf-einen-Blick.topic">Autorentool</a> (Programm zur AdLer Kurs-Erstellung):</p>
+    <list>
+        <li>Erstellung von Lernwelten (= Kurse)</li>
+        <li>Erstellen von Lernräumen (= Themengebiete)</li>
+        <li>Erstellen von Storyelementen (= Erzähldialoge, um eine Einführung zu erstellen)</li>
+        <li>Erstellen von Lernelementen (= Lernmaterial, wie Texte, Bilder, Videos, h5p Elemente)</li>
+        <li>Erstellen von Adaptivitätselementen (= Multiple-Choice-Fragen mit unterschiedlichen Schwierigkeiten)</li>
+        <li>Verknüpfung von Lernräumen in einen Lernpfad</li>
+        <li>Auswählen der 3D-Darstellungsweise (Grundriss, Umgebung, 3D-Modelle)</li>
+        <li>Bereitstellen der Kurse für Lernende in Moodle und der ansprechenden 3D-Lernumgebung</li>
+    </list>
+    <p>Moodle (Backend für die online Verwaltung und Bereitstellung von Kursen):</p>
+    <list>
+        <li>Kurse aus dem Autorentool werden in Moodle hochgeladen.</li>
+        <li>Diese Moodle-Kurse können von Lernenden angesehen und die Elemente bearbeitet werden.</li>
+    </list>
+    <p><a href="ManualEngine-Leistungsbeschreibung.topic">3D-Lernumgebung</a> (ansprechende Darstellung von Kursen unter Betrachtung des Gamification-Aspektes):</p>
+    <list>
+        <li>Kurse aus dem Autorentool werden in Moodle hochgeladen und können hier zusätzlich zur 2D-Darstellung in Moodle als ansprechende 3D-Umgebung angezeigt werden.</li>
+        <li>Diese 3D-Lernumgebungen können von Lernenden angesehen und die Elemente bearbeitet werden.</li>
+        <li>Lernende können einen sich für einen der von den Lehrenden bereitgestellten Lernpfaden entscheiden.</li>
+    </list>
+
 </topic>

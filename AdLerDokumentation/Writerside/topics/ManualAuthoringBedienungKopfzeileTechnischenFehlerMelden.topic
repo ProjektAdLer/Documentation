@@ -34,8 +34,7 @@
 
         <step>
             <p>Klicken Sie auf die Option
-                <control>Technischen Fehler melden</control>
-                .
+                <control>Technischen Fehler melden</control>.
                 <img src="imageManualAuthoringStartseiteTechnischerFehlerButtonCallout.png"
                      alt="TechnischerFehlerButtonCallout" width="200" thumbnail="true" style="block"/>
             </p>
@@ -45,7 +44,7 @@
                      width="200" thumbnail="true"/>
             </tip>
             <warning>Füllen Sie das Formular so präzise wie möglich aus, damit der aufgetretene Fehler bestmöglich
-                nachvollzogen und von unserer Seite aus schnellst möglich behoben werden kann.
+                nachvollzogen und von unserer Seite aus schnellst möglich behoben werden kann. Weiterführende Infos zu den zu treffenden Angaben finden Sie hier: <a href="ManualEngine-Bug-Report-senden.topic"/>
             </warning>
         </step>
         <note>
