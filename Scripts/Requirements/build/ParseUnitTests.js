@@ -86,7 +86,12 @@ function findFilesWithIds(files) {
                             .split(',')
                             .map((id) => id.trim())
                             .forEach((id) => {
-                            filesWithIds.push({ id, file, lineNumber });
+                            filesWithIds.push({
+                                id,
+                                file,
+                                lineNumber,
+                                repoName: '',
+                            });
                         });
                     }
                 }

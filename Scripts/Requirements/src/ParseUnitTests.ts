@@ -43,7 +43,12 @@ async function findFilesWithIds(files: string[]): Promise<UnitTestInfos[]> {
           .split(',')
           .map((id) => id.trim())
           .forEach((id) => {
-            filesWithIds.push({ id, file, lineNumber });
+            filesWithIds.push({
+              id,
+              file,
+              lineNumber,
+              repoName: '',
+            });
           });
       }
     }

@@ -3,7 +3,7 @@ import * as path from 'path';
 import { OutputStructure, UnitTestInfos } from './Types';
 
 // Generate a markdown table from the requirements and their associated tests
-function generateMarkdownTable(requirementsWithTests: OutputStructure, repoName: string): string {
+function generateMarkdownTable(requirementsWithTests: OutputStructure): string {
   const tableHeader = ['| Requirement | Anzahl an Tests | Dateien |', '| --- | --- | --- |'];
 
   const tableRows = Object.values(requirementsWithTests)
@@ -13,7 +13,7 @@ function generateMarkdownTable(requirementsWithTests: OutputStructure, repoName:
       const testCount = unitTests.length;
       // Highlight test count with bold if it's zero
       const testCountDisplay = testCount === 0 ? `**${testCount}**` : `${testCount}`;
-      const files = testCount === 0 ? '-' : unitTests.map((test) => formatFileLink(test, repoName)).join('<br/>');
+      const files = testCount === 0 ? '-' : unitTests.map((test) => formatFileLink(test)).join('<br/>');
       return `| [${title} (${id})](${id}.md) | ${testCountDisplay} | ${files} |`;
     });
 
@@ -21,17 +21,16 @@ function generateMarkdownTable(requirementsWithTests: OutputStructure, repoName:
 }
 
 // Format a file link for the markdown table
-function formatFileLink(test: UnitTestInfos, repoName: string): string {
+function formatFileLink(test: UnitTestInfos & { repoName: string }): string {
   // Remove repo name and backslashes from the file path
-  const filePath = test.file.substring(test.file.indexOf(repoName) + repoName.length + 1).replace(/\\/g, '/');
-  const repoPath = `https://github.com/ProjektAdLer/${repoName}/blob/main/${filePath}#L${test.lineNumber}`;
+  const filePath = test.file.substring(test.file.indexOf(test.repoName) + test.repoName.length + 1).replace(/\\/g, '/');
+  const repoPath = `https://github.com/ProjektAdLer/${test.repoName}/blob/main/${filePath}#L${test.lineNumber}`;
   return `[${path.basename(test.file)}:${test.lineNumber}](${repoPath})`;
 }
 
 export async function writeRequirementsToListing(
   requirementsWithTests: OutputStructure,
-  filePath: string,
-  repoName: string
+  filePath: string
 ): Promise<void> {
   try {
     let content = await fs.readFile(filePath, 'utf8');
@@ -39,8 +38,7 @@ export async function writeRequirementsToListing(
     const insertPosition = content.indexOf(marker) + marker.length;
 
     // Generate the new content and insert it after the marker
-    const updatedContent =
-      content.slice(0, insertPosition) + '\n' + generateMarkdownTable(requirementsWithTests, repoName);
+    const updatedContent = content.slice(0, insertPosition) + '\n' + generateMarkdownTable(requirementsWithTests);
 
     await fs.writeFile(filePath, updatedContent);
     console.log('File written successfully');

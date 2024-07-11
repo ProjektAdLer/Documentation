@@ -3,14 +3,14 @@ import { parseUnitTests } from './ParseUnitTests';
 import { writeRequirementsToListing } from './WriteRequirementsToListing';
 import { RequirementInfo, OutputStructure } from './Types';
 
-// Updated configuration structure to support multiple folders per project
+// Updated configuration structure to support different repos for plugins
 const REPO_CONFIGS = [
   {
     idPrefix: 'A',
     outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Autorentool.md',
-    repoName: 'Autorentool',
     folders: [
       {
+        repoName: 'Autorentool',
         testFolder: '../../../Autorentool/',
         fileExtensions: ['.cs'],
       },
@@ -19,9 +19,9 @@ const REPO_CONFIGS = [
   {
     idPrefix: 'B',
     outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Backend.md',
-    repoName: 'AdLerBackend',
     folders: [
       {
+        repoName: 'AdLerBackend',
         testFolder: '../../../AdLerBackend/',
         fileExtensions: ['.cs'],
       },
@@ -30,9 +30,9 @@ const REPO_CONFIGS = [
   {
     idPrefix: 'G',
     outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Generator.md',
-    repoName: 'Autorentool',
     folders: [
       {
+        repoName: 'Autorentool',
         testFolder: '../../../Autorentool/',
         fileExtensions: ['.cs'],
       },
@@ -41,9 +41,9 @@ const REPO_CONFIGS = [
   {
     idPrefix: 'E',
     outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Engine.md',
-    repoName: '2D_3D_AdLer',
     folders: [
       {
+        repoName: '2D_3D_AdLer',
         testFolder: '../../../2D_3D_AdLer/',
         fileExtensions: ['.test.ts', '.test.tsx'],
       },
@@ -52,23 +52,26 @@ const REPO_CONFIGS = [
   {
     idPrefix: 'M',
     outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Plugins.md',
-    repoName: 'MoodlePluginLocal',
     folders: [
       {
+        repoName: 'MoodlePluginAvailability',
         testFolder: '../../../plugins/MoodlePluginAvailability/',
-        fileExtensions: ['.php', '.php'],
+        fileExtensions: ['.php'],
       },
       {
+        repoName: 'MoodlePluginLocal',
         testFolder: '../../../plugins/MoodlePluginLocal/',
-        fileExtensions: ['.php', '.php'],
+        fileExtensions: ['.php'],
       },
       {
+        repoName: 'MoodlePluginLocalLogging',
         testFolder: '../../../plugins/MoodlePluginLocalLogging/',
-        fileExtensions: ['.php', '.php'],
+        fileExtensions: ['.php'],
       },
       {
+        repoName: 'MoodlePluginModAdleradaptivity',
         testFolder: '../../../plugins/MoodlePluginModAdleradaptivity/',
-        fileExtensions: ['.php', '.php'],
+        fileExtensions: ['.php'],
       },
     ],
   },
@@ -79,7 +82,12 @@ async function processFolder(
   filteredIds: RequirementInfo[],
   folder: (typeof REPO_CONFIGS)[0]['folders'][0]
 ): Promise<OutputStructure> {
-  return parseUnitTests(filteredIds, folder.testFolder, folder.fileExtensions);
+  const parsedTests = await parseUnitTests(filteredIds, folder.testFolder, folder.fileExtensions);
+  // Add repoName to each UnitTestInfos
+  Object.values(parsedTests).forEach((req) => {
+    req.unitTests = req.unitTests.map((test) => ({ ...test, repoName: folder.repoName }));
+  });
+  return parsedTests;
 }
 
 // Merge multiple OutputStructures into one
@@ -107,7 +115,7 @@ async function processProject(allRequirementsInfos: RequirementInfo[], config: (
   const mergedReferences = mergeOutputStructures(folderResults);
 
   // Write the merged results to the output file
-  await writeRequirementsToListing(mergedReferences, config.outputFile, config.repoName);
+  await writeRequirementsToListing(mergedReferences, config.outputFile);
 }
 
 async function Main(): Promise<void> {
