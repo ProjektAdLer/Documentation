@@ -27,11 +27,11 @@
         <step>
             <p>Klicken Sie mit der linken Maustaste auf den <control>Und-/Oder-Verbindung</control>-Button (Symbol: Plus).
                 <img src="imageManualAuthoringRechteSidebarLernraumBedingungErstellenCallout.png"
-                     alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                     alt="Erstellen Button hervorgehoben" width="200" thumbnail="true" style="block"/></p>
             <note>
                 <p>Die Verbindung wurde der Ansicht im linken oberen Eck hinzugefügt. Sie erscheint mit der Standardeinstellung <control>Oder</control>.
                 <img src="imageManualAuthoringRechteSidebarLernraumBedingungErstellt.png"
-                     alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                     alt="hinzufeügte hervorgehobene Bedingung" width="200" thumbnail="true" style="block"/></p>
             </note>
         </step>
         <step>
@@ -40,7 +40,7 @@
             <note>
                 <p>Die Verbindung wurde in den Lernpfad eingefügt.
                     <img src="imageManualAuthoringRechteSidebarLernraumBedingungEingebunden.png"
-                         alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                         alt="Bedingung im Lernpfad" width="200" thumbnail="true" style="block"/></p>
             </note>
         </step>
 

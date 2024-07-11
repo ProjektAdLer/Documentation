@@ -24,11 +24,11 @@
         <step>
             <p>Klicken Sie mit der rechten Maustaste doppelt auf die Bedingung.
                 <img src="imageManualAuthoringRechteSidebarLernraumBedingungEingebunden.png"
-                     alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                     alt="Bedingung im Lernpfad" width="200" thumbnail="true" style="block"/></p>
             <note>
                 <p>Ein Rechtsklick-Kontextmenü wird geöffnet.
                     <img src="imageManualAuthoringRechteSidebarLernraumBedingungLoeschenKontextdialog.png"
-                         alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                         alt="geöffnetes Rechtsklickmenü der Bedingung" width="200" thumbnail="true" style="block"/></p>
             </note>
         </step>
         <step>

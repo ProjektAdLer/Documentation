@@ -26,14 +26,14 @@
         <step>
             <p>Klicken Sie mit der linken Maustaste auf den Toggle-Button innerhalb der Bedingung.
                 <img src="imageManualAuthoringRechteSidebarLernraumBedingungEingebunden.png"
-                     alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/>
+                     alt="Oder-Bedingung" width="200" thumbnail="true" style="block"/>
                 <img src="imageManualWorkshopAndConnection.png"
-                     alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                     alt="Hervorgehobener Toggle-Button der Bedingung" width="200" thumbnail="true" style="block"/></p>
             <tip><p>Der aktuelle Zustand wird neben dem Button in Textform angezeigt.</p></tip>
             <note>
                 <p>Die Verbindung wurde geändert.
                     <img src="imageManualAuthoringRechteSidebarLernraumBedingungEingebundenZustandUnd.png"
-                         alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                         alt="Und-Bedingung" width="200" thumbnail="true" style="block"/></p>
             </note>
         </step>
 

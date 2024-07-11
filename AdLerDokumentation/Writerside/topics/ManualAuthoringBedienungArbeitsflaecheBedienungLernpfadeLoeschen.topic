@@ -26,17 +26,17 @@
         <step>
             <p>Klicken Sie mit der linken Maustaste auf einen Lernpfad, welchen Sie entfernen möchten, um diesen auszuwählen.
                 <img src="imageManualAuthoringRechteSidebarLernraumPfadMarkiert.png"
-                     alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                     alt="Pfeil des Lernpfads fett hervorgehoben" width="200" thumbnail="true" style="block"/></p>
             <note><p>Der ausgewählte Pfad wird breiter.</p></note>
         </step>
         <step>
             <p>Klicken Sie doppelt mit der linken Maustaste auf das Minus-Symbol im schwarzen Kreis am oberen Ende eines Elements, um den Lernpfad zu löschen.
                 <img src="imageManualAuthoringRechteSidebarLernraumPfadLoeschenCallout.png"
-                     alt="Rechtsklickmenü Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                     alt="markierter Minus Button" width="200" thumbnail="true" style="block"/></p>
         </step>
 
         <note><control>&#10004; Sie haben erfolgreich einen Lernpfad gelöscht.
             <img src="imageManualAuthoringRechteSidebarLernraumKeinPfad.png"
-                 alt="Rechtsklickmenü Verbindungsansicht" width="200" thumbnail="true" style="block"/></control></note>
+                 alt="gelöschter Lernpfad" width="200" thumbnail="true" style="block"/></control></note>
     </procedure>
 </topic>

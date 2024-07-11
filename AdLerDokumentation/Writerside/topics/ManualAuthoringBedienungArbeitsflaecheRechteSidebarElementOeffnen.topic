@@ -7,37 +7,39 @@
        help-id="ManualAuthoringBedienungArbeitsflaecheRechteSidebarStoryelementOeffnen">
 
     <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumen.topic">Angaben zu Lernräumen</a>.</p>
+
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Hier wird das Ziel der Handlung beschrieben</control>
+                <control>Ziel der Handlung</control>
+                <p>Die Angaben eines bereits erstellten Lernelements aus der <a href="ManualAuthoringSoftwarekomponentenRechteSidebar.topic">rechten Seitenleiste</a> heraus bearbeiten.</p>
             </def>
         </deflist>
 
 
-        <step><p>Führen Sie den ersten Schritt durch </p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
-
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>&#10004; Hier wird ein Zwischenergebnis beschrieben</note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Eine Lernwelt ist geöffnet. Siehe: <a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>.</p></li>
+                <li><p>Es wurde mindestens ein Lernraum innerhalb dieser Lernwelt erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>(über die linke Sidebar), <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>(über die rechte Sidebar).</p></li>
+                <li><p>Es wurde mindestens ein Element erstellt und dem Grundriss hinzugefügt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterLernelementErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterStoryelementErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementInGrundrissPlatzieren.topic"/> </p></li>
+            </list>
+        </tip>
+        <p>Ein Lernelement kann in der rechten Sidebar über den Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> bearbeitet werden.</p>
+        <step>
+            <p>Klappen Sie den Lernraum in der hierarchischen Ansicht auf durch Klicken des linken Aufklappen-Buttons (Symbol: >) mit der linken Maustaste.
+                <img src="imageManualAuthoringRechteSidebarLernelementBearbeitenAufklappenCallout.png"
+                     alt="Lernraum in der hierarchischen Ansicht mit hervorgehobenem Titel eines Lernelements" width="200" thumbnail="true" style="block"/></p>
         </step>
         <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
+            <p>Klicken Sie mit der linken Maustaste auf den Titel eines der angezeigten Kindelemente.
+                <img src="imageManualAuthoringRechteSidebarLernelementBearbeitenTitelCallout.png"
+                     alt="Lernraum in der hierarchischen Ansicht mit hervorgehobenem Titel eines Lernelements" width="200" thumbnail="true" style="block"/></p>
+        <note>In der linken Seitenleiste öffnet sich der Lern-/Story-/Adaptivitäts-Element Bearbeiten Tab.</note>
         </step>
-        <note><control>&#10004; Hier wird das Ergebnis der Handlung beschrieben</control></note>
+        <step>
+            <p>Bearbeiten Sie die Angaben zu dem Element in der linken Seitenleiste. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/> </p>
+        </step>
+
+        <note><control>&#10004; Sie haben erfolgreich die Angaben zu einem Element des Lernraums bearbeitet.</control></note>
     </procedure>
 </topic>
