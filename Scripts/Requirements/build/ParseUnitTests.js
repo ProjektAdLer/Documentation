@@ -44,18 +44,17 @@ const fsPromises = __importStar(require("fs/promises"));
 const path = __importStar(require("path"));
 const readline = __importStar(require("readline"));
 const fs_1 = require("fs");
-function findPotentialTestFiles(dir, testFileIdentifiers, expectedFileExtensions) {
+function findPotentialTestFiles(dir, expectedFileExtensions) {
     return __awaiter(this, void 0, void 0, function* () {
         const entries = yield fsPromises.readdir(dir, { withFileTypes: true });
         const files = yield Promise.all(entries.map((entry) => __awaiter(this, void 0, void 0, function* () {
             const fullPath = path.join(dir, entry.name);
             if (entry.isDirectory()) {
                 // Recursively search subdirectories
-                return findPotentialTestFiles(fullPath, testFileIdentifiers, expectedFileExtensions);
+                return findPotentialTestFiles(fullPath, expectedFileExtensions);
             }
             // Check if the file matches any of the identifiers and extensions
-            if (testFileIdentifiers.some((id) => fullPath.toLowerCase().includes(id.toLowerCase())) &&
-                expectedFileExtensions.some((ext) => fullPath.toLowerCase().endsWith(ext.toLowerCase()))) {
+            if (expectedFileExtensions.some((ext) => fullPath.toLowerCase().endsWith(ext.toLowerCase()))) {
                 return [fullPath];
             }
             return [];
@@ -113,9 +112,9 @@ function mapFilesToRequirements(reqInfos, unitTestInfos) {
         return output;
     }, {});
 }
-function parseUnitTests(reqInfos, unitTestFolder, testFileIdentifiers, expectedFileExtensions) {
+function parseUnitTests(reqInfos, unitTestFolder, expectedFileExtensions) {
     return __awaiter(this, void 0, void 0, function* () {
-        const potentialTestFiles = yield findPotentialTestFiles(unitTestFolder, testFileIdentifiers, expectedFileExtensions);
+        const potentialTestFiles = yield findPotentialTestFiles(unitTestFolder, expectedFileExtensions);
         const filesWithIds = yield findFilesWithIds(potentialTestFiles);
         return mapFilesToRequirements(reqInfos, filesWithIds);
     });

@@ -4,24 +4,17 @@ import * as readline from 'readline';
 import { createReadStream } from 'fs';
 import { OutputStructure, RequirementInfo, UnitTestInfos } from './Types';
 
-async function findPotentialTestFiles(
-  dir: string,
-  testFileIdentifiers: string[],
-  expectedFileExtensions: string[]
-): Promise<string[]> {
+async function findPotentialTestFiles(dir: string, expectedFileExtensions: string[]): Promise<string[]> {
   const entries = await fsPromises.readdir(dir, { withFileTypes: true });
   const files = await Promise.all(
     entries.map(async (entry) => {
       const fullPath = path.join(dir, entry.name);
       if (entry.isDirectory()) {
         // Recursively search subdirectories
-        return findPotentialTestFiles(fullPath, testFileIdentifiers, expectedFileExtensions);
+        return findPotentialTestFiles(fullPath, expectedFileExtensions);
       }
       // Check if the file matches any of the identifiers and extensions
-      if (
-        testFileIdentifiers.some((id) => fullPath.toLowerCase().includes(id.toLowerCase())) &&
-        expectedFileExtensions.some((ext) => fullPath.toLowerCase().endsWith(ext.toLowerCase()))
-      ) {
+      if (expectedFileExtensions.some((ext) => fullPath.toLowerCase().endsWith(ext.toLowerCase()))) {
         return [fullPath];
       }
       return [];
@@ -73,10 +66,9 @@ function mapFilesToRequirements(reqInfos: RequirementInfo[], unitTestInfos: Unit
 export async function parseUnitTests(
   reqInfos: RequirementInfo[],
   unitTestFolder: string,
-  testFileIdentifiers: string[],
   expectedFileExtensions: string[]
 ): Promise<OutputStructure> {
-  const potentialTestFiles = await findPotentialTestFiles(unitTestFolder, testFileIdentifiers, expectedFileExtensions);
+  const potentialTestFiles = await findPotentialTestFiles(unitTestFolder, expectedFileExtensions);
   const filesWithIds = await findFilesWithIds(potentialTestFiles);
   return mapFilesToRequirements(reqInfos, filesWithIds);
 }

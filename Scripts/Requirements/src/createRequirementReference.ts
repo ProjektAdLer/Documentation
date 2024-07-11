@@ -12,7 +12,6 @@ const REPO_CONFIGS = [
     folders: [
       {
         testFolder: '../../../Autorentool/',
-        testIdentifiers: ['Test'],
         fileExtensions: ['.cs'],
       },
     ],
@@ -24,7 +23,6 @@ const REPO_CONFIGS = [
     folders: [
       {
         testFolder: '../../../AdLerBackend/',
-        testIdentifiers: ['.UnitTest', 'Test'],
         fileExtensions: ['.cs'],
       },
     ],
@@ -36,7 +34,6 @@ const REPO_CONFIGS = [
     folders: [
       {
         testFolder: '../../../Autorentool/',
-        testIdentifiers: ['Test'],
         fileExtensions: ['.cs'],
       },
     ],
@@ -48,8 +45,30 @@ const REPO_CONFIGS = [
     folders: [
       {
         testFolder: '../../../2D_3D_AdLer/',
-        testIdentifiers: ['test'],
         fileExtensions: ['.test.ts', '.test.tsx'],
+      },
+    ],
+  },
+  {
+    idPrefix: 'M',
+    outputFile: '../../AdLerDokumentation/Writerside/topics/Auflistung-der-Anforderungen-Plugins.md',
+    repoName: 'MoodlePluginLocal',
+    folders: [
+      {
+        testFolder: '../../../plugins/MoodlePluginAvailability/',
+        fileExtensions: ['.php', '.php'],
+      },
+      {
+        testFolder: '../../../plugins/MoodlePluginLocal/',
+        fileExtensions: ['.php', '.php'],
+      },
+      {
+        testFolder: '../../../plugins/MoodlePluginLocalLogging/',
+        fileExtensions: ['.php', '.php'],
+      },
+      {
+        testFolder: '../../../plugins/MoodlePluginModAdleradaptivity/',
+        fileExtensions: ['.php', '.php'],
       },
     ],
   },
@@ -60,7 +79,7 @@ async function processFolder(
   filteredIds: RequirementInfo[],
   folder: (typeof REPO_CONFIGS)[0]['folders'][0]
 ): Promise<OutputStructure> {
-  return parseUnitTests(filteredIds, folder.testFolder, folder.testIdentifiers, folder.fileExtensions);
+  return parseUnitTests(filteredIds, folder.testFolder, folder.fileExtensions);
 }
 
 // Merge multiple OutputStructures into one

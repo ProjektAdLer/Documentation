@@ -16,7 +16,7 @@ exports.GetAllReqInfos = void 0;
 const promises_1 = __importDefault(require("fs/promises"));
 const path_1 = __importDefault(require("path"));
 const TOPICS_DIRECTORY = '../../AdLerDokumentation/Writerside/topics';
-const FILENAME_REGEX = /^[a-zA-Z]{3}.*\d\.md$/;
+const FILENAME_REGEX = /^[A-Z]{3}\d+\.md$/;
 const MARKDOWN_TITLE_PREFIX = '# ';
 function GetAllReqInfos() {
     return __awaiter(this, void 0, void 0, function* () {
