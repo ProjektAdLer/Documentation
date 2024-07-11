@@ -27,17 +27,16 @@
             <tip>
                 <list>
                     <li>Suchparameter ist der Name des unplatzierten Elements.</li>
-                    <li>Die Suche erfolgt unabhängig von Groß- und Kleinschreibung.</li>
                     <li>Die Suche wird automatisch durchgeführt, bereits während Sie eine Eingabe treffen.</li>
                 </list>
             </tip>
-            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialSuchfeld.png" alt="ExternesLernmaterialTabSuchfeld" width="200"
+            <img src="imageManualAuthoringUnplatzierteElementeSuchen.png" alt="UnplatzierteElementeSuchen" width="200"
                  thumbnail="true" style="block"/>
         </step>
         <note>
             <control>&#10004; Sie haben ein unplatziertes Element über das Suchfeld gesucht und Ihnen wurde das Ergebnis
                 in der darunter liegenden Auswahl angezeigt.
-                <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialSuchergebnis.png" alt="ExternesLernmaterialTabSuchergebnis"
+                <img src="imageManualAuthoringUnplatzierteElementeSuchenErgebnis.png" alt="UnplatzierteElementeSuchergebnis"
                      width="200" thumbnail="true" style="block"/></control>
         </note>
     </procedure>

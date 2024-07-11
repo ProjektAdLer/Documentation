@@ -26,7 +26,7 @@
         <step><p>Filtern Sie die unplatzierten Elemente, um bestimmte Elemente schneller finden zu können.</p>
             <tip>Für das Filtern von unplatzierten Elementen sind drei Möglichkeiten vorhanden. Diese werden als Symbole dargestellt.
                 <img src="imageManualAuthoringUnplatzierteElementeFiltern.png"
-                     alt="Rechtsklickmenü Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
+                     alt="UnplatzierteElementeFiltern" width="200" thumbnail="true" style="block"/>
             </tip>
             <p><control>Filtern nach...</control></p>
         <tabs>
@@ -43,17 +43,17 @@
                     <step>
                         <p>Klicken Sie auf den Button <control>Art des Elements</control> (Symbol: E).
                             <img src="imageManualAuthoringUnplatzierteElementeFilternArt.png"
-                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                                 alt="UnplatzierteElementeFilternArt" width="200" thumbnail="true" style="block"/></p>
                     </step>
                     <step>
                         <p>Wählen Sie die gewünschte Filterauswahl aus.
                             <img src="imageManualAuthoringUnplatzierteElementeFilternArtOptionen.png"
-                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                                 alt="UnplatzierteElementeFilternArtOptionen" width="200" thumbnail="true" style="block"/></p>
                     </step>
                     <tip>
                         <p>Es werden lediglich die Elemente angezeigt, die entsprechend der Filteroption.</p>
                         <img src="imageManualAuthoringUnplatzierteElementeFilternArtErgebnis.png"
-                             alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
+                             alt="UnplatzierteElementeFilternArtErgebnis" width="200" thumbnail="true" style="block"/>
                         <p><i>In diesem Beispiel: Nur die Elemente der Art <control>Adaptivitätselement</control></i>.</p>
                     </tip>
                 </procedure>
@@ -74,17 +74,17 @@
                     <step>
                         <p>Klicken Sie auf den Button <control>Typ des Elements</control> (Symbol: Gebirge mit Sonne).
                             <img src="imageManualAuthoringUnplatzierteElementeFilternTyp.png"
-                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                                 alt="UnplatzierteElementeFilternTyp" width="200" thumbnail="true" style="block"/></p>
                     </step>
                     <step>
                         <p>Wählen Sie die gewünschte Filterauswahl aus.
                             <img src="imageManualAuthoringUnplatzierteElementeFilternTypOptionen.png"
-                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                                 alt="UnplatzierteElementeFilternTypOptionen" width="200" thumbnail="true" style="block"/></p>
                     </step>
                     <tip>
                         <p>Es werden lediglich die Elemente angezeigt, die entsprechend der Filteroption.</p>
                         <img src="imageManualAuthoringUnplatzierteElementeFilternTypErgebnis.png"
-                             alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
+                             alt="UnplatzierteElementeFilternTypErgebnis" width="200" thumbnail="true" style="block"/>
                         <p><i>In diesem Beispiel: Nur die Elemente des Typs <control>Text</control></i>.</p>
                     </tip>
                 </procedure>
@@ -103,17 +103,17 @@
                     <step>
                         <p>Klicken Sie auf den Button <control>Schwierigkeit des Elements</control> (Symbol: Sterne).
                             <img src="imageManualAuthoringUnplatzierteElementeFilternSchwierigkeit.png"
-                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                                 alt="UnplatzierteElementeFilternSchwierigkeit" width="200" thumbnail="true" style="block"/></p>
                     </step>
                     <step>
                         <p>Wählen Sie die gewünschte Filterauswahl aus.
                             <img src="imageManualAuthoringUnplatzierteElementeFilternSchwierigkeitOptionen.png"
-                                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                                 alt="UnplatzierteElementeFilternSchwierigkeitOptionen" width="200" thumbnail="true" style="block"/></p>
                     </step>
                     <tip>
                         <p>Es werden lediglich die Elemente angezeigt, die entsprechend der Filteroption.</p>
                         <img src="imageManualAuthoringUnplatzierteElementeFilternSchwierigkeitErgebnis.png"
-                             alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/>
+                             alt="UnplatzierteElementeFilternSchwierigkeitErgebnis" width="200" thumbnail="true" style="block"/>
                         <p><i>In diesem Beispiel: Nur die Elemente der Schwierigkeit <control>schwer</control></i>.</p>
                     </tip>
                 </procedure>
