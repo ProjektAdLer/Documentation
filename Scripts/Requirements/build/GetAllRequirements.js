@@ -65,3 +65,4 @@ function extractTitle(content) {
     }
     return 'No title found';
 }
+//# sourceMappingURL=GetAllRequirements.js.map
