@@ -810,6 +810,7 @@
         <toc-element topic="Entwickelnde-BD.md">
             <toc-element
                     topic="Technischer-Leitfaden-Branch-Erstellung-und-Bearbeitung-in-der-ProjektAdLer-Dokumentation.md"/>
+            <toc-element topic="ManualAuthoringEinrichtenUndKompilieren.md"/>
             <toc-element topic="EntwickelndeBenutzerdokumentation.md">
                 <toc-element topic="Benutzerdoku-BestPractices.topic"/>
             </toc-element>
