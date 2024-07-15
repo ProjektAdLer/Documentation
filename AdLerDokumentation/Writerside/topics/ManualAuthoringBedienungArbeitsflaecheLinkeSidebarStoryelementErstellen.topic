@@ -89,6 +89,11 @@
         <step>
             <p>Bestätigen Sie Ihre Angaben zum Storyelement mit einem Klick auf den Button <b>OK</b>.</p>
             <img src="imageManualAuthoringStoryelementErstellenOKButton.png" alt="StoryelementErstellenOKButton" width="200" thumbnail="true"/>
+            <tip>
+                <p>Mit Bestätigen der Angaben zum neuen Storyelement wird nachfolgend automatisch das erstellte Storyelement im mittleren Fenster im Bereich der <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>Unplatzierten Elemente</control></a> angezeigt (siehe Screenshot). Darüber hinaus wird das erstellte Storyelement zusätzlich in der rechten Sidebar in dem  Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> aufgeführt.</p>
+                <img src="imageManualAuthoringStoryelementErstellenErfolgreich.png"
+                     alt="StoryelementErstellenErfolgreich" width="200" thumbnail="true" style="block"/>
+            </tip>
         </step>
     </procedure>
     <note>

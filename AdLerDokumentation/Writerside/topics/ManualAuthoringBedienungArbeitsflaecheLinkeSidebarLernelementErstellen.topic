@@ -81,7 +81,7 @@
                             <warning>
                                 <p>Wurde noch kein externes Lernmaterial in das Autorentool geladen, erscheint an dieser Position eine Meldung.</p>
                                 <img src="imageManualAuthoringLernelementErstellenKeinLernmaterial.png" alt="LernelementKeinExternesLernmaterial" width="200" thumbnail="true"/>
-                                <p>Mit Klick auf diese Meldung werden Sie automatisch zum Tab <control>Externes Lernmaterial</control> geleitet, wo Sie das Hinzufügen von Lernmaterial durchführen können.</p>
+                                <p>Mit Klick auf diese Meldung werden Sie automatisch zum Tab <control>Externes Lernmaterial</control> geleitet, wo Sie das <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic">Hinzufügen von Lernmaterial</a> durchführen können.</p>
                                 <img src="imageManualAuthoringExternesLernmaterialOhneLernmaterial.png" alt="ExternesLernmaterialTabOhneLernmaterial" width="200" thumbnail="true"/>
                             </warning>
                         </step>
@@ -129,6 +129,11 @@
         <step>
             <p>Bestätigen Sie Ihre Angaben zum Lernelement mit einem Klick auf den Button <b>OK</b>.</p>
             <img src="imageManualAuthoringLernelementErstellenOKButton.png" alt="LernelementOKButton" width="200" thumbnail="true"/>
+            <tip>
+                <p>Mit Bestätigen der Angaben zum neuen Lernelement wird nachfolgend automatisch das erstellte Lernelement im mittleren Fenster im Bereich der <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>Unplatzierten Elemente</control></a> angezeigt (siehe Screenshot). Darüber hinaus wird das erstellte Lernelement zusätzlich in der rechten Sidebar in dem  Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> aufgeführt.</p>
+                <img src="imageManualAuthoringLernelementErstellenErfolgreich.png"
+                     alt="LernelementErstellenErfolgreich" width="200" thumbnail="true" style="block"/>
+            </tip>
         </step>
     </procedure>
     <note>

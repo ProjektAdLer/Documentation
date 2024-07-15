@@ -125,6 +125,11 @@
         <step>
             <p>Bestätigen Sie Ihre Angaben zum Lernraum mit einem Klick auf den Button <b>OK</b>.</p>
             <img src="imageManualAuthoringLernraumErstellenOKButton.png" alt="LernraumOKButton" width="200" thumbnail="true"/>
+            <tip>
+                <p>Mit Bestätigen der Angaben zum neuen Lernraum wird nachfolgend automatisch der Grundriss dieses Lernraums im mittleren Fenster im Bereich des <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic"><control>Lernraum-Editors</control></a> angezeigt (siehe Screenshot). Darüber hinaus wird der erstellte Lernraum zusätzlich in der rechten Sidebar in den beiden Tabs <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> (siehe Screenshot) und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> aufgeführt.</p>
+                <img src="imageManualAuthoringLernraumErstellenErfolgreich.png"
+                     alt="LernraumErstellenErfolgreich" width="200" thumbnail="true" style="block"/>
+            </tip>
         </step>
     </procedure>
     <note>

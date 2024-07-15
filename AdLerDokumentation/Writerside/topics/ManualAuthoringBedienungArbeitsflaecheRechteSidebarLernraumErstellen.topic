@@ -21,7 +21,8 @@
                 <step><p>Klicken Sie auf den Button, um in der <a href="ManualAuthoringSoftwarekomponentenLinkeSidebar.topic">linken Sidebar</a> den Tab <control>Angaben zu Lernräumen</control> zu öffnen.</p>
                     <img src="imageManualAuthoringLernraumErstellenRechteSidebarButton.png" alt="LernraumErstellenButtonRechteSidebar" width="200" thumbnail="true"/>
                 </step>
-        <step><p>Befolgen Sie die weiteren Schritte der Bedienung <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic">Lernraum erstellen</a>. </p>
+        <step><p>Befolgen Sie die weiteren Schritte der Bedienung <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic">Lernraum erstellen</a>.</p>
         </step>
+        <note><control>&#10004; Sie haben erfolgreich das Erstellen eines neuen Lernraums eingeleitet.</control></note>
     </procedure>
 </topic>

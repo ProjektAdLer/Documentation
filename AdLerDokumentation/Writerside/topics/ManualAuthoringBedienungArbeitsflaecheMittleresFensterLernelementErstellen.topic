@@ -33,9 +33,7 @@
         <step>
             <p>Erstellen Sie nun das Lernelement in der linken Sidebar. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>.</p>
         </step>
-        <note><control>&#10004; Sie haben erfolgreich ein neues Lernelement erstellt. Dieses wurde nach Klicken des Buttons <control>Ok</control> automatisch dem ausgewählten Slot im Lernraum hinzugefügt.</control>
-            <img src="imageManualAuthoringMittleresFensterLernelementErstellen.png"
-                 alt="Lernelement Feld Callout" width="200" thumbnail="true" style="block"/>
+        <note><control>&#10004; Sie haben erfolgreich das Erstellen eines neuen Lernelements eingeleitet.</control>
         </note>
     </procedure>
 </topic>
