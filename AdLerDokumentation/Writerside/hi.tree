@@ -723,7 +723,7 @@
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementLoeschen.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementOeffnen.topic"/>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementBearbeiten.topic"/>
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementFiltern.topic"/>
                             <toc-element
@@ -736,7 +736,6 @@
                                     topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>
                             <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumLoeschen.topic"/>
                             <toc-element topic="ManualAuthoringBedienungRechteSidebarLernpfadeErstellen.topic"/>
                             <toc-element
@@ -747,7 +746,7 @@
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarBedingungLoeschen.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarElementOeffnen.topic"/>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarElementBearbeiten.topic"/>
                         </toc-element>
                     </toc-element>
                     <toc-element topic="ManualAuthoringBedienungKopfzeile.topic">

@@ -7,13 +7,13 @@
        help-id="ManualAuthoringArbeitsfläche-Mittleres-Fenster;ManualAuthoringBedienungArbeitsfläche-Mittleres-Fenster;ManualAuthoringBedienungArbeitsflaecheMittleresFenster">
 
     <show-structure for="chapter, procedure" depth="2"/>
-    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumen.topic">Angaben zu Lernräumen</a>.</p>
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Verbindungen zwischen Lernräumen</a>.</p>
 
     <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Einen Lernraum aus der <a href="ManualAuthoringSoftwarekomponentenRechteSidebar.topic">rechten Seitenleiste</a> heraus löschen.</p>
+                <p>In der <a href="ManualAuthoringSoftwarekomponentenRechteSidebar.topic">rechten Sidebar</a> einen Lernraum über den Tab <control>Verbindungen zwischen Lernräumen</control> löschen.</p>
             </def>
         </deflist>
 
@@ -28,7 +28,7 @@
 
         <tabs>
             <tab title="Kontextmenü">
-                <procedure>
+                <procedure id="kontextmenu" title="Kontextmenü">
                     <step>
                         <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf einen Lernraum.
                             <img src="imageManualAuthoringRechteSidebarLernraumCallout.png"
@@ -44,10 +44,10 @@
                     </step>
                 </procedure>
             </tab>
-            <tab title="UI-Button">
-                <procedure>
+            <tab title="Button">
+                <procedure type="steps" id="button" title="Button">
                     <step>
-                        <p>Klicken Sie mit der linken Maustaste doppelt auf den <control>X</control>-Button eines Lernraums.
+                        <p>Klicken Sie mit der linken Maustaste doppelt auf den Button <control>X</control> eines Lernraums.
                             <img src="imageManualAuthoringRechteSidebarLernraumLoeschenXButtonCallout.png"
                                  alt="Rechtsklickmenü Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
                     </step>

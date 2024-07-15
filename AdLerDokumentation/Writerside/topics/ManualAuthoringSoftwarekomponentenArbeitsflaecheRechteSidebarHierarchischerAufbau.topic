@@ -56,9 +56,10 @@
                 <td>Listet die in einem Lernraum platzierten Elemente auf. Für das Storyelement stehen in jedem Lernraum-Grundriss zwei Slots zur Verfügung. Das Eingangs-Storyelement wird in der hierarchischen Ansicht stets als erstes aufgeführt. Das Ausgangs-Storyelement ist in der hierarchischen Ansicht immer an letzter Stelle. </td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
-            <li><a href="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarElementBearbeiten.topic"/></li>
         </list>
     </chapter>
 </topic>

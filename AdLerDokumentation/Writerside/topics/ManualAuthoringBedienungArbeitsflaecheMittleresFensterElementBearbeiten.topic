@@ -3,7 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Element bearbeiten" id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementOeffnen">
+       title="Element bearbeiten" id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementBearbeiten"
+       help-id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementOeffnen">
 
     <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic">Lernraum-Editor</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic">Unplatzierte Elemente</a>.</p>
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Element bearbeiten" id="ManualAuthoringBedienungArbeitsflaecheRechteSidebarElementBearbeiten"
+       help-id="ManualAuthoringBedienungArbeitsflaecheRechteSidebarStoryelementOeffnen;ManualAuthoringBedienungArbeitsflaecheRechteSidebarElementOeffnen">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic">Hierarchischer Aufbau der Lernwelt</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Den Bearbeitungsmodus zu einem bereits erstellten Element (Storyelement, Lernelement oder Adaptivitätselement) von der <a href="ManualAuthoringSoftwarekomponentenRechteSidebar.topic">rechten Sidebar</a> aus aktivieren.</p>
+            </def>
+        </deflist>
+
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Eine Lernwelt ist geöffnet. Siehe: <a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>.</p></li>
+                <li><p>Es wurde mindestens ein Lernraum innerhalb dieser Lernwelt erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>(über die linke Sidebar), <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>(über die rechte Sidebar).</p></li>
+                <li><p>Es wurde mindestens ein Element erstellt und dem Grundriss hinzugefügt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterLernelementErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterStoryelementErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementInGrundrissPlatzieren.topic"/>.</p></li>
+            </list>
+        </tip>
+        <p>Ein Lernelement kann in der rechten Sidebar über den Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> bearbeitet werden.</p>
+        <step>
+            <p>Klicken Sie mit der linken Maustaste auf den Aufklappen-Button (Symbol: >) neben dem Lernraum-Titel.
+                <img src="imageManualAuthoringRechteSidebarLernelementBearbeitenAufklappenCallout.png"
+                     alt="Lernraum in der hierarchischen Ansicht mit hervorgehobenem Titel eines Lernelements" width="200" thumbnail="true" style="block"/></p>
+        </step>
+        <step>
+            <p>Klicken Sie mit der linken Maustaste auf den Titel eines der angezeigten Elements innerhalb des Lernraums.
+                <img src="imageManualAuthoringRechteSidebarLernelementBearbeitenTitelCallout.png"
+                     alt="Lernraum in der hierarchischen Ansicht mit hervorgehobenem Titel eines Lernelements" width="200" thumbnail="true" style="block"/></p>
+            <tip>Welcher Tab in der linken Sidebar geöffnet wird, ist davon abhängig,  welches Element (Adaptivitätselement, Lernelement oder Storyelement) angeklickt wurde.
+                <list>
+                    <li>Adaptivitätselement = Tab <control>Angaben zu Adaptivitätselementen</control> öffnet sich.</li>
+                    <li>Lernelement = Tab <control>Angaben zu Lernelementen</control> öffnet sich.</li>
+                    <li>Storyelement = Tab <control>Angaben zu Storyelementen</control> öffnet sich.</li>
+                </list>
+            </tip>
+        </step>
+        <step>
+            <p>Bearbeiten Sie die Angaben zu dem Element in der linken Seitenleiste. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/>. </p>
+        </step>
+
+        <note><control>&#10004; Sie haben erfolgreich den Bearbeitungsmodus zu einem erstellten Element aktiviert.</control></note>
+    </procedure>
+</topic>

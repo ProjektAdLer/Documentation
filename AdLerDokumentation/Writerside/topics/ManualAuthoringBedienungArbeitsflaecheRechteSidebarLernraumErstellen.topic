@@ -6,7 +6,7 @@
        title="Lernraum erstellen" id="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen">
 
     <show-structure for="chapter, procedure" depth="4"/>
-    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Verbindungen zwischen Lernräumen</a>.</p>
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Verbindungen zwischen Lernräumen</a>.</p>
 
     <procedure title="Übersicht" id="LernraumErstellenRechteSidebar">
         <deflist type="compact" sorted="desc">
