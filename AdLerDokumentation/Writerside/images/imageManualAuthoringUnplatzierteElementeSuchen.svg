@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 986">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #172d4d;
+      }
+
+      .cls-3 {
+        fill: #eee;
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        opacity: .6;
+      }
+    </style>
+  </defs>
+  <image width="1916" height="985" transform="" xlink:href="../../Screenshots_Autorentool/Bedienung/ManualAuthoringUnplatzierteElementeFiltern.png"/>
+  <g class="cls-4">
+    <path class="cls-2" d="M0,0v986h1920V0H0ZM1394,835c0,8.3-6.7,15-15,15h-169c-8.3,0-15-6.7-15-15v-12c0-8.3,6.7-15,15-15h169c8.3,0,15,6.7,15,15v12Z"/>
+  </g>
+  <g>
+    <rect id="PfeilDokumentation" class="cls-1" x="1098.3" y="650.1" width="62.7" height="180" transform="translate(-194.4 1006.2) rotate(-44.6)"/>
+    <g>
+      <path class="cls-3" d="M1060.3,689.5l19.8-19.5,97.3,98.7,6.5-6.5,6.3,39.3-39.1-6.8,6.6-6.5-97.4-98.8h0Z"/>
+      <path class="cls-2" d="M1150,795.9c-.2-.2-.3-.4-.4-.6-.2-.6,0-1.2.4-1.6l5.4-5.4-96.3-97.7c-.6-.6-.6-1.6,0-2.3l19.8-19.5c.6-.6,1.6-.6,2.3,0l96.3,97.7,5.4-5.4c.4-.4,1.1-.6,1.6-.4.6.2,1,.7,1.1,1.3l6.2,39.2c0,.5,0,1-.5,1.4s-.9.5-1.4.4l-39.2-6.8c-.3,0-.6-.2-.9-.4ZM1062.6,689.5l96.3,97.7c.6.6.6,1.6,0,2.3l-4.4,4.3,33.9,5.9-5.4-34-4.4,4.3c-.6.6-1.6.6-2.3,0l-96.3-97.7-17.5,17.2Z"/>
+    </g>
+  </g>
+</svg>

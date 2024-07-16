@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 986">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .6;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #172d4d;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #eee;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image width="1917" height="985" transform="translate(0 1)" xlink:href="../Screenshots_Autorentool/Softwarekomponenten/ManualAuthoringStartseite2.png"/>
+  <path class="cls-1" d="M0,0v986h1920V0H0ZM963,145c0,8.3-6.7,15-15,15h-139c-8.3,0-15-6.7-15-15v-35c0-8.3,6.7-15,15-15h139c8.3,0,15,6.7,15,15v35Z"/>
+  <g>
+    <rect id="PfeilDokumentation" class="cls-2" x="589" y="96" width="180" height="62.7"/>
+    <g>
+      <path class="cls-4" d="M594.3,141.2v-27.8h138.7v-9.2l32.4,23.1-32.3,23.1v-9.2h-138.8Z"/>
+      <path class="cls-3" d="M733.1,152c-.3,0-.5,0-.7-.2-.5-.3-.9-.8-.9-1.4v-7.7h-137.2c-.9,0-1.6-.7-1.6-1.6v-27.8c0-.9.7-1.6,1.6-1.6h137.2v-7.7c0-.6.3-1.1.9-1.4.5-.3,1.2-.2,1.7.1l32.3,23.1c.4.3.7.8.7,1.3s-.3,1-.7,1.3l-32.3,23.1c-.3.2-.6.3-.9.3ZM595.9,139.6h137.2c.9,0,1.6.7,1.6,1.6v6.2l28-20-28-20v6.1c0,.9-.7,1.6-1.6,1.6h-137.2v24.6Z"/>
+    </g>
+  </g>
+</svg>

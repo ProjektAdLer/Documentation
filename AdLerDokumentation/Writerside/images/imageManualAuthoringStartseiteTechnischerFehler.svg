@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 986">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2b2a33;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #172d4d;
+        opacity: .6;
+      }
+    </style>
+  </defs>
+  <image width="1917" height="984" transform="translate(2)" xlink:href="../../Screenshots_Autorentool/Bedienung/ManualAuthoringTechnischerFehlerButton.png"/>
+  <path class="cls-2" d="M1809,0c8.3,0,15,6.7,15,15v17c0,8.3-6.7,15-15,15h-24c-8.3,0-15-6.7-15-15V15c0-8.3,6.7-15,15-15H2v986h1918V0h-111ZM1809,192c0,8.3-6.7,15-15,15h-196c-8.3,0-15-6.7-15-15v-22c0-8.3,6.7-15,15-15h196c8.3,0,15,6.7,15,15v22Z"/>
+  <image width="1909" height="979" transform="translate(97 67) scale(.9)" xlink:href="../../Screenshots_Autorentool/Bedienung/ManualAuthoringTechnischerFehler.png"/>
+  <rect class="cls-1" x="102" y="102" width="1097" height="23"/>
+</svg>

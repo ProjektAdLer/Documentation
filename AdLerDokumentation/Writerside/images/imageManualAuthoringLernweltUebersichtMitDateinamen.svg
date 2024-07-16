@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 986">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .6;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #172d4d;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #eee;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image width="1918" height="985" transform="translate(0 1)" xlink:href="../../Screenshots_Autorentool/Bedienung/ManualAuthoringLernweltDateinamenAnzeigen.png"/>
+  <path class="cls-1" d="M.1.9v985.1h1919.9V.9H.1ZM1600.2,914.1c0,8.3-6.7,15-15,15H328.9c-8.3,0-15-6.7-15-15V281.7c0-8.3,6.7-15,15-15h1256.3c8.3,0,15,6.7,15,15v632.4Z"/>
+  <g>
+    <rect id="PfeilDokumentation" class="cls-2" x="214.4" y="262.2" width="62.7" height="180" transform="translate(-107.3 596.7) rotate(-89.8)"/>
+    <g>
+      <path class="cls-4" d="M161.1,365.7v-27.7c.1,0,138.8.5,138.8.5v-9.2s32.4,23.2,32.4,23.2l-32.4,23v-9.2s-138.7-.5-138.7-.5h0Z"/>
+      <path class="cls-3" d="M299.8,377c-.3,0-.5,0-.7-.2-.5-.3-.9-.8-.9-1.4v-7.7s-137.1-.5-137.1-.5c-.9,0-1.6-.7-1.6-1.6v-27.7c.1-.9.8-1.6,1.7-1.6l137.2.5v-7.7c0-.6.4-1.1.9-1.4.5-.3,1.2-.2,1.7.1l32.2,23.2c.4.3.7.8.7,1.3s-.3,1-.7,1.3l-32.4,23c-.3.2-.6.3-.9.3ZM162.7,364.1l137.2.5c.9,0,1.6.7,1.6,1.6v6.2s28-19.9,28-19.9l-27.9-20.1v6.1c0,.9-.7,1.6-1.6,1.6l-137.2-.5v24.6Z"/>
+    </g>
+  </g>
+</svg>
