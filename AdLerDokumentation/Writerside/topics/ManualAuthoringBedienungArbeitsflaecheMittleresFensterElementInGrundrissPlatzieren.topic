@@ -18,7 +18,8 @@
         <tip>
             <p>Voraussetzungen:</p>
             <list>
-                <li><p>Es ist ein Lernraum geöffnet. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>.</p></li>
+                <li><p>Ein Lernraum ist im mittleren Fenster geöffnet. Siehe: <a
+                        href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>.</p></li>
                 <li><p>Sie haben mindestens ein unplatziertes Element (Adaptivitätselement, Lernelement oder Storyelement) erstellt.</p></li>
             </list>
         </tip>

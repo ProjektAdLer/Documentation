@@ -19,8 +19,8 @@
             <p>Zu einer Frage können Sie entweder einen Kommentar formulieren <control>oder</control> einen Verweis zu einem Lernelement oder einem externen Lernmaterial geben.</p>
         </warning>
         <tip>Die Lernenden bekommen den Verweis in der 3D-Lernumgebung dann angezeigt, wenn sie die Frage innerhalb eines Adaptivitätselements falsch beantwortet haben.</tip>
-        <step><p>Klicken Sie auf den Button <control>Verweis</control>.</p>
-            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeVerweisButton.png" alt="Aufgabenübersicht: Verweis hinzufügen Button bei einer erstellten Frage" width="200" thumbnail="true"/>
+        <step><p>Klicken Sie auf den Button <control>Verweis</control>.
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeVerweisButton.png" alt="Aufgabenübersicht: Verweis hinzufügen Button bei einer erstellten Frage" width="200" thumbnail="true"/></p>
         </step>
         <step>
             <p>Machen Sie Angaben zu dem von Ihnen gewählten Verweis.</p>
@@ -30,30 +30,30 @@
                 <tabs>
                     <tab id="verweis_lernelement_frage" title="Verweis auf ein Lernelement">
                         <procedure type="choices" id="verweis_lernelement_adaptivitaetselement" title="Verweis auf ein Lernelement">
-                            <step><p>Tragen Sie optional in dem sich nun öffnenden Fenster in dem Textfeld einen Hinweistext zum Verweis ein.</p>
-                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisHinweis.png" alt="Verweis hinzufügen: Hinweis Textfeld" width="200" thumbnail="true"/>
+                            <step><p>Tragen Sie optional in dem sich nun öffnenden Fenster in dem Textfeld einen Hinweistext zum Verweis ein.
+                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisHinweis.png" alt="Verweis hinzufügen: Hinweis Textfeld" width="200" thumbnail="true"/></p>
                             </step>
-                            <step><p>Suchen Sie aus der Auflistung aller bereits erstellten Lernelemente das Lernelement heraus, auf das Sie in dieser Frage verweisen möchten.</p>
-                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisLernelement.png" alt="Verweis hinzufügen: Lernelemente auswählen" width="200" thumbnail="true"/>
+                            <step><p>Suchen Sie aus der Auflistung aller bereits erstellten Lernelemente das Lernelement heraus, auf das Sie in dieser Frage verweisen möchten.
+                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisLernelement.png" alt="Verweis hinzufügen: Lernelemente auswählen" width="200" thumbnail="true"/></p>
                                 <tip>Nutzen Sie die Suchfunktion, um das gewünschte Lernelement schnell und einfach zu finden.</tip>
                             </step>
                         </procedure>
                     </tab>
                     <tab id="verweis_lernmaterial_frage" title="Verweis auf ein externes Lernmaterial">
                         <procedure type="choices" id="verweis_lernmaterial_adaptivitaetselement" title="Verweis auf ein externes Lernmaterial">
-                            <step><p>Tragen Sie optional in dem sich nun öffnenden Fenster in dem Textfeld einen Hinweistext zum Verweis ein.</p>
-                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisLernelementExternHinweis.png" alt="Verweis hinzufügen: Hinweis Textfeld" width="200" thumbnail="true"/>
+                            <step><p>Tragen Sie optional in dem sich nun öffnenden Fenster in dem Textfeld einen Hinweistext zum Verweis ein.
+                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisLernelementExternHinweis.png" alt="Verweis hinzufügen: Hinweis Textfeld" width="200" thumbnail="true"/></p>
                             </step>
-                            <step><p>Suchen Sie aus der Auflistung aller bereits in das Autorentool geladenen externen Lernmaterialien das Lernmaterial heraus, auf das Sie in dieser Frage verweisen möchten.</p>
-                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisLernelementExternLernelement.png" alt="Verweis hinzufügen: Externe Lernelemente auswählen" width="200" thumbnail="true"/>
+                            <step><p>Suchen Sie aus der Auflistung aller bereits in das Autorentool geladenen externen Lernmaterialien das Lernmaterial heraus, auf das Sie in dieser Frage verweisen möchten.
+                                <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisLernelementExternLernelement.png" alt="Verweis hinzufügen: Externe Lernelemente auswählen" width="200" thumbnail="true"/></p>
                                 <tip>Nutzen Sie die Suchfunktion, um das gewünschte externe Lernmaterial schnell und einfach zu finden.</tip>
                             </step>
                         </procedure>
                     </tab>
                 </tabs>
         </step>
-        <step><p>Bestätigen Sie Ihren Verweis mit einem Klick auf den Button <control>OK</control>.</p>
-            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisOkButton.png" alt="Verweis hinzufügen: Ok Button unten rechts" width="200" thumbnail="true"/>
+        <step><p>Bestätigen Sie Ihren Verweis mit einem Klick auf den Button <control>OK</control>.
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageVerweisOkButton.png" alt="Verweis hinzufügen: Ok Button unten rechts" width="200" thumbnail="true"/></p>
         </step>
         <note>
             <control>&#10004; Sie haben der Frage innerhalb eines Adaptivitätselements erfolgreich einen Verweis hinzugefügt.</control>

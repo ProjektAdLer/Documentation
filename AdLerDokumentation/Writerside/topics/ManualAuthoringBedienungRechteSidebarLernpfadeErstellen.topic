@@ -13,40 +13,71 @@
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
-                <p>Mithilfe eines Lernpfads eine Verbindung zwischen Lernräumen oder Lernräumen und Bedingungen herstellen.</p>
+                <p>Mehrere Lernräume miteinander verbinden, um einen <a href="Lernpfad-XZ.md">Lernpfad</a> zu gestalten.</p>
             </def>
         </deflist>
 
         <tip>Voraussetzungen:
             <list>
                 <li><p>Eine Lernwelt ist geöffnet. Siehe: <a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>.</p></li>
-                <li><p>Es wurde mindestens ein Lernraum innerhalb dieser Lernwelt erstellt oder importiert. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>(über die linke Sidebar), <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>(über die rechte Sidebar).</p></li>
+                <li><p>Es wurden mindestens zwei Lernräume innerhalb dieser Lernwelt erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>(über die linke Sidebar), <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>(über die rechte Sidebar).</p></li>
             </list>
         </tip>
-        <p>In der rechten Sidebar können über den Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> Verbindungen zwischen Lernräumen hergestellt werden. Darüber hinaus können über sog. Und-/Oder-Verbindungen auch komplexere Abhängigkeiten hergestellt werden. Die Verbindungen werden als Lernpfade bezeichnet.</p>
+        <p>In der rechten Sidebar können über den Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> Lernräume miteinander verknüpft werden.</p>
 
+        <tabs>
+            <tab id="moegliche_lernpfade" title="Mögliche Verbindungen">
+                <procedure>
+                <p>
+                Ein vorangestellter Lernraum kann mit zwei nachfolgenden Lernräumen verbunden werden.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadZiehenErfolgreicherPfad.png" alt="erfolgreiches Ziehen eines Lernpfads" width="200" thumbnail="true" style="block"/></p>
+                </procedure>
+            </tab>
+            <tab id="nicht_moegliche_lernpfade" title="Keine möglichen Verbindungen">
+                <procedure>
+                <p>Mehrere vorangestellte Lernräume können <control>nicht</control> mit einem nachfolgenden Lernraum verbunden werden.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadZiehenErfolglos.png" alt="erfolgloses Ziehen eines Lernpfads" width="200" thumbnail="true" style="block"/></p>
+                </procedure>
+            </tab>
+        </tabs>
+
+        <step><p>Ordnen Sie die Lernräume in Ihrer gewünschten Abfolge an.
+            <img src="imageManualAuthoringRechteSidebarLernraumAnordnungCallout.png"
+                 alt="LernraumAnordnung" width="200" thumbnail="true" style="block"/></p>
+            <tip>Beachten Sie, dass die Abfolge von oben nach unten ist. D.h. Lernräume, die den Lernenden zuerst zur Verfügung gestellt werden sollen, werden oben platziert und Lernräume, die erst im späteren Verlauf zugänglich sein sollen, werden unterhalb platziert.</tip>
+        </step>
         <step>
-            <warning><p>Für eine korrekte Lernpfaderstellung muss sich das zu verbindende Element unter dem Element befinden, mit welchem verbunden wird.</p></warning>
-            <p>Klicken Sie mit der linken Maustaste auf das Plus-Symbol im gelben Kreis am unteren Ende des Lernraums oder der Bedingung, welchen/welche Sie mit einem Nachfolgenden, bisher unverbundenen Element, verbinden möchten.
+            <p>Klicken Sie mit der linken Maustaste beim oberhalb platzierten Lernraum auf den gelben Kreis mit Plus-Symbol.
                 <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenCallout.png"
                      alt="markierter Plus Button" width="200" thumbnail="true" style="block"/>
                 <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenSlotCallout.png"
                      alt="markierter Plus Button" width="200" thumbnail="true" style="block"/></p>
         </step>
         <step>
-            <p>Mit gedrückter linker Maustaste ziehen Sie eine Verbindung zwischen den beiden Elementen. Dazu ziehen Sie den Pfeil in das nächste zu verbindende Element hinein.
+            <p>Halten Sie die Maustaste weiterhin gedrückt und ziehen Sie den automatisch erzeugten grauen Pfeil in Richtung des unterhalb liegenden Lernraums.
                 <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenZiehen.png"
-                     alt="Pfeil wird von Element 1 auf Element 2 gezogen gezogen" width="200" thumbnail="true" style="block"/></p>
+                     alt="Pfeil wird von Lernraum 1 auf Lernraum 2 gezogen" width="200" thumbnail="true" style="block"/></p>
+            <tip>
+                <p>Sobald Sie mit dem grauen Pfeil in die Nähe des gewünschten Lernraums gelangen, wird der Lernraum gelb umrandet und die Verbindung kann hergestellt werden.
+                    <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenZiehenErfolgreich.png"
+                         alt="Pfeil wurde erfolgreich von Lernraum 1 auf Lernraum 2  gezogen" width="200" thumbnail="true" style="block"/></p>
+            </tip>
         </step>
         <step>
             <p>Lassen Sie die Maustaste los, um die Verbindung zu erstellen.
                 <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenVerbinden.png"
-                     alt="Element 1 und Element 2 sind verbunden durch einen Lernpfad" width="200" thumbnail="true" style="block"/></p>
+                     alt="Lernraum 1 und Lernraum 2 sind verbunden" width="200" thumbnail="true" style="block"/></p>
+            <tip>
+                <p>Sobald die Verbindung zwischen den beiden Lernräumen hergestellt wurde, erscheint am unterhalb positionierten Lernraum ein blauer Kreis mit Minus-Symbol.
+                    <img src="imageManualAuthoringRechteSidebarLernraumPfadLoeschenCallout.png"
+                         alt="markierter Minus Button" width="200" thumbnail="true" style="block"/>
+                </p>
+            </tip>
         </step>
         <tip>
-            <p>Ein Lernraum kann nur eine gleichzeitige Eingangs-Verbindung haben. Sollten Sie einen bereits verbundenen Lernraum verbinden wollen, so müssen Sie die Verbindung zuvor löschen. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheBedienungLernpfadeLoeschen.topic"/> </p>
+            <p>Das Vorgehen zum Ziehen von Verbindungen zwischen Lernräumen in linearer Abfolge gilt ebenso zum Ziehen von Verbindungen, die zusätzliche <a href="ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen.topic">Und-/Oder-Bedingungen</a> enthalten und dadurch komplexere Abhängigkeiten zwischen Lernräumen schaffen.<img src="imageManualAuthoringRechteSidebarLernraumBedingungEingebunden.png"
+                    alt="Bedingung im Lernpfad" width="200" thumbnail="true" style="block"/></p>
         </tip>
-
-        <note><control>&#10004; Sie haben erfolgreich einen Lernpfad erstellt.</control></note>
+        <note><control>&#10004; Sie haben erfolgreich eine Verbindung zwischen den beiden Lernräumen hergestellt.</control></note>
     </procedure>
 </topic>

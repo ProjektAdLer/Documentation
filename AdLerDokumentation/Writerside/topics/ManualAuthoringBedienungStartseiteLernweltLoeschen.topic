@@ -24,12 +24,12 @@
             <p>Es existiert mindestens eine Lernwelt im Autorentool und wird in der Übersicht der Startseite angezeigt.</p>
         </tip>
         <step>
-            <p>Suchen Sie in der Übersicht die als weißes Rechteck dargestellte und zu löschende Lernwelt.</p>
-            <img src="imageManualAuthoringLernweltOeffnenCallout.png" alt="LernwelOeffnenCallout" width="200" thumbnail="true"/>
+            <p>Suchen Sie in der Übersicht die als weißes Rechteck dargestellte und zu löschende Lernwelt.
+            <img src="imageManualAuthoringLernweltOeffnenCallout.png" alt="LernwelOeffnenCallout" width="200" thumbnail="true"/></p>
         </step>
         <step>
-            <p>Klicken Sie auf den - auf der Lernwelt platzierten - Button <control>X</control>.</p>
-            <img src="imageManualAuthoringLernweltLoeschenButtonCallout.png" alt="LernweltLoeschenButtonCallout" width="200" thumbnail="true"/>
+            <p>Klicken Sie auf den - auf der Lernwelt platzierten - Button <control>X</control>.
+            <img src="imageManualAuthoringLernweltLoeschenButtonCallout.png" alt="LernweltLoeschenButtonCallout" width="200" thumbnail="true"/></p>
             <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelgrauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Lernwelt löschen" wird angezeigt.</tip>
         </step>
         <note>

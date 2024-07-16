@@ -17,8 +17,8 @@
             </def>
         </deflist>
         <step>
-            <p>Klicken Sie auf den Tab <control>Angaben zu Lernräumen</control>.</p>
-            <img src="imageManualAuthoringAngabenZuLernelementenTab.png" alt="LernelementErstellenTab" width="200" thumbnail="true"/>
+            <p>Klicken Sie auf den Tab <control>Angaben zu Lernräumen</control>.
+            <img src="imageManualAuthoringAngabenZuLernelementenTab.png" alt="LernelementErstellenTab" width="200" thumbnail="true"/></p>
         </step>
         <tip>
             <p>Wenn Sie einen bereits existierenden Lernraum bearbeiten, wird im oberen Bereich ein zusätzlicher Button <control>NEU</control> angezeigt. Über diesen kann ebenfalls ein neuer Lernraum erstellt werden.</p>
@@ -34,8 +34,8 @@
                 <tab id="allgemeines_lernraum" title="Allgemein">
                     <procedure type="choices" id="allgemeines_tab_lernraum" title="Allgemein">
                         <step>
-                            <p>Vergeben Sie im ersten Textfeld einen Namen für den Lernraum.</p>
-                            <img src="imageManualAuthoringLernraumErstellenName.png" alt="LernraumName" width="200" thumbnail="true"/>
+                            <p>Vergeben Sie im ersten Textfeld einen Namen für den Lernraum.
+                            <img src="imageManualAuthoringLernraumErstellenName.png" alt="LernraumName" width="200" thumbnail="true"/></p>
                             <warning>
                                 <p>Für den Namen des Lernraums gelten bestimmte Regeln --> siehe <a href="AWA9005.md">Erforderliche Eigenschaften für Lernraum</a>.</p>
                             </warning>
@@ -45,8 +45,8 @@
                 <tab id="abschlussbedingung_lernraum" title="Abschlussbedingung">
                     <procedure type="choices" id="abschlussbedingung_tab_lernraum" title="Abschlussbedingung">
                         <step>
-                            <p>Tragen Sie eine maximal zu erreichende Punktzahl für diesen Lernraum ein.</p>
-                            <img src="imageManualAuthoringLernraumErstellenAbschlussbedingung.png" alt="LernraumAbschlussbedingung" width="200" thumbnail="true"/>
+                            <p>Tragen Sie eine maximal zu erreichende Punktzahl für diesen Lernraum ein.
+                            <img src="imageManualAuthoringLernraumErstellenAbschlussbedingung.png" alt="LernraumAbschlussbedingung" width="200" thumbnail="true"/></p>
                             <tip>
                                 <p>Im Rahmen der Abschlussbedingung wird definiert, mit welcher maximalen Punktzahl ein Lernraum als erfolgreich abgeschlossen gilt. Die Angabe der maximalen Punktzahl sollte im Nachgang zur Erstellung der im Lernraum platzierten Elemente erfolgen, da sich erst im Anschluss daran die benötigte Punktzahl bestimmen lässt.</p>
                             </tip>
@@ -70,8 +70,8 @@
                             </list>
                         </tip>
                         <step>
-                            <p>Legen Sie einen Grundriss für diesen Lernraum fest.</p>
-                            <img src="imageManualAuthoringLernraumErstellenGrundrisse.png" alt="LernraumGrundrisse" width="200" thumbnail="true"/>
+                            <p>Legen Sie einen Grundriss für diesen Lernraum fest.
+                            <img src="imageManualAuthoringLernraumErstellenGrundrisse.png" alt="LernraumGrundrisse" width="200" thumbnail="true"/></p>
                             <tip>
                                 <p>Positionieren Sie die Maus über das Grundriss-Icon. Sobald die Maus über dem Icon liegt, erscheint zusätzlich ein grauer Hintergrund. Darüber hinaus erscheint eine vergrößerte Slide-Ansicht mit zwei nacheinander gezeigten Bildern. Zunächst wird eine vergrößerte Ansicht des Grundrisses in 2D gezeigt, im zweiten Bild erfolgt eine Ansicht des Grundrisses in 3D. Der Wechsel zwischen den Bildern läuft automatisch ab.</p>
                                 <img src="imageManualAuthoringLernraumErstellenGrundrisseVorschau.png" alt="LernraumGrundrisseVorschau" width="200" thumbnail="true"/>
@@ -92,8 +92,8 @@
                             </list>
                         </tip>
                         <step>
-                            <p>Legen Sie ein Thema für diesen Lernraum fest.</p>
-                            <img src="imageManualAuthoringLernraumErstellenThema.png" alt="LernraumTheme" width="200" thumbnail="true"/>
+                            <p>Legen Sie ein Thema für diesen Lernraum fest.
+                            <img src="imageManualAuthoringLernraumErstellenThema.png" alt="LernraumTheme" width="200" thumbnail="true"/></p>
                         </step>
                     </procedure>
                 </tab>
@@ -103,8 +103,8 @@
             <tabs>
                 <tab id="lernziele_lernraum" title="Lernziele">
                     <procedure id="lernziele_tab_lernraum" title="Lernziele zum Lernraum">
-                        <step><p>Klicken Sie im auf den Button <control>Lernziel-Formulierung</control>.</p>
-                            <img src="imageManualAuthoringLernraumErstellenLernziele.png" alt="LernraumLernziele" width="200" thumbnail="true"/>
+                        <step><p>Klicken Sie im auf den Button <control>Lernziel-Formulierung</control>.
+                            <img src="imageManualAuthoringLernraumErstellenLernziele.png" alt="LernraumLernziele" width="200" thumbnail="true"/></p>
                         </step>
                         <step>
                             <p>Wählen Sie, ob Sie das Lernziel <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielMitEingabeunterstuetzungFormulieren.topic">  mit Eingabeunterstützung </a> oder <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielOhneEingabeunterstuetzungFormulieren.topic"> selbst formulieren </a> möchten.</p>
@@ -114,8 +114,8 @@
                 <tab id="beschreibung_lernraum" title="Beschreibung">
                     <procedure id="beschreibung_tab_lernraum" title="Beschreibung zum Lernraum">
                         <step>
-                            <p>Beschreiben Sie das Thema Ihres Lernraums.</p>
-                            <img src="imageManualAuthoringLernraumErstellenBeschreibung.png" alt="LernraumBeschreibung" width="200" thumbnail="true"/>
+                            <p>Beschreiben Sie das Thema Ihres Lernraums.
+                            <img src="imageManualAuthoringLernraumErstellenBeschreibung.png" alt="LernraumBeschreibung" width="200" thumbnail="true"/></p>
                         </step>
                     </procedure>
                 </tab>
@@ -123,8 +123,8 @@
         </step>
 
         <step>
-            <p>Bestätigen Sie Ihre Angaben zum Lernraum mit einem Klick auf den Button <b>OK</b>.</p>
-            <img src="imageManualAuthoringLernraumErstellenOKButton.png" alt="LernraumOKButton" width="200" thumbnail="true"/>
+            <p>Bestätigen Sie Ihre Angaben zum Lernraum mit einem Klick auf den Button <b>OK</b>.
+            <img src="imageManualAuthoringLernraumErstellenOKButton.png" alt="LernraumOKButton" width="200" thumbnail="true"/></p>
             <tip>
                 <p>Mit Bestätigen der Angaben zum neuen Lernraum wird nachfolgend automatisch der Grundriss dieses Lernraums im mittleren Fenster im Bereich des <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic"><control>Lernraum-Editors</control></a> angezeigt (siehe Screenshot). Darüber hinaus wird der erstellte Lernraum zusätzlich in der rechten Sidebar in den beiden Tabs <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> (siehe Screenshot) und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> aufgeführt.</p>
                 <img src="imageManualAuthoringLernraumErstellenErfolgreich.png"

@@ -3,8 +3,9 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Lernelement erstellen"
-       id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLernelementErstellen">
+       title="Externes Lernmaterial als Lernelement bereitstellen"
+       id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLernelementBereitstellen"
+       help-id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLernelementErstellen">
 
     <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic">Externes Lernmaterial</a>.</p>
 
@@ -42,7 +43,7 @@
                      width="100" thumbnail="true" style="block"/>
             </p>
             <note>
-                <p>Der Tab <control>Lernelement erstellen</control> wird geöffnet und das zuvor ausgewählte externe Lernmaterial ist automatisch in der Kategorie <control>Externes Lernmaterial</control> ausgewählt.<img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipNeuErstellen.png"
+                <p>Der Tab <control>Lernelement erstellen</control> wird geöffnet und das zuvor ausgewählte externe Lernmaterial ist automatisch in der Kategorie <control>Externes Lernmaterial</control> ausgewählt. <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipNeuErstellen.png"
                                      alt="LernelementErstellenTab" width="200" thumbnail="true" style="block"/></p>
             </note>
         </step>

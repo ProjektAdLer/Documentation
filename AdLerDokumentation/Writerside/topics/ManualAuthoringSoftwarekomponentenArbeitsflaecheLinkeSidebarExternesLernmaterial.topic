@@ -25,7 +25,7 @@
             <tr>
                 <td>1</td>
                 <td>Dropzone</td>
-                <td>Öffnet ein Dateimanager, in dem die hinzuzufügenden Dateien gesucht werden können. Zudem können Dateien auch per Drag&Drop hinzugefügt werden.</td>
+                <td>Öffnet ein Dateimanager, in dem die hinzuzufügenden Dateien gesucht werden können. Zudem können Dateien auch per Drag and Drop hinzugefügt werden.</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -146,7 +146,7 @@
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialSuchen.topic"/></li>
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernmaterialAlsEingesetztesLernelementFinden.topic"/></li>
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVorschauDesLernmaterialsAnzeigen.topic"/></li>
-            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLernelementErstellen.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLernelementBereitstellen.topic"/></li>
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLoeschen.topic"/></li>
         </list>
     </chapter>

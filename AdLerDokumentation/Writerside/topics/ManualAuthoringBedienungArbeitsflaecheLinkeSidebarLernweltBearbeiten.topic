@@ -20,12 +20,12 @@
         <tip>Eine Lernwelt kann erst bearbeitet werden, wenn diese geöffnet wurde und Sie sich in der <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> befinden.</tip>
 
         <step>
-            <p>Klicken Sie auf den Tab <control>Angaben zur Lernwelt</control>.</p>
-            <img src="imageManualAuthoringLernweltBearbeiten.png" alt="LernweltBearbeitenTab" width="200" thumbnail="true"/>
+            <p>Klicken Sie auf den Tab <control>Angaben zur Lernwelt</control>.
+            <img src="imageManualAuthoringLernweltBearbeiten.png" alt="LernweltBearbeitenTab" width="200" thumbnail="true"/></p>
         </step>
         <step>
-            <p>Bearbeiten Sie die Lernwelt, indem Sie die <a href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic">Metadaten zur Lernwelt</a> ändern.</p>
-            <img src="imageManualAuthoringLernweltBearbeitenTab.png" alt="LernweltBearbeiten" width="200" thumbnail="true"/>
+            <p>Bearbeiten Sie die Lernwelt, indem Sie die <a href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic">Metadaten zur Lernwelt</a> ändern.
+            <img src="imageManualAuthoringLernweltBearbeitenTab.png" alt="LernweltBearbeiten" width="200" thumbnail="true"/></p>
         </step>
     </procedure>
 </topic>

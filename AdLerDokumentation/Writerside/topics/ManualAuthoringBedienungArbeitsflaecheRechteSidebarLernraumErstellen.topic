@@ -18,8 +18,8 @@
                 <tip>In einer geöffneten Lernwelt kann über einen Button im Tab <control>Verbindungen zwischen Lernräumen</control> der Tab <control>Angaben zu Lernräumen</control> in der linken Sidebar geöffnet werden, um einen neuen Lernraum zu erstellen.
                     <img src="imageManualAuthoringLernraumButton.png" alt="LernraumErstellenButton" width="100" thumbnail="true"/>
                 </tip>
-                <step><p>Klicken Sie auf den Button, um in der <a href="ManualAuthoringSoftwarekomponentenLinkeSidebar.topic">linken Sidebar</a> den Tab <control>Angaben zu Lernräumen</control> zu öffnen.</p>
-                    <img src="imageManualAuthoringLernraumErstellenRechteSidebarButton.png" alt="LernraumErstellenButtonRechteSidebar" width="200" thumbnail="true"/>
+                <step><p>Klicken Sie auf den Button, um in der <a href="ManualAuthoringSoftwarekomponentenLinkeSidebar.topic">linken Sidebar</a> den Tab <control>Angaben zu Lernräumen</control> zu öffnen.
+                    <img src="imageManualAuthoringLernraumErstellenRechteSidebarButton.png" alt="LernraumErstellenButtonRechteSidebar" width="200" thumbnail="true"/></p>
                 </step>
         <step><p>Befolgen Sie die weiteren Schritte der Bedienung <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic">Lernraum erstellen</a>.</p>
         </step>

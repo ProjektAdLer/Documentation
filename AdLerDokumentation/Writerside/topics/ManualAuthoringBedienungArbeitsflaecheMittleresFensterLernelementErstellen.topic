@@ -19,14 +19,15 @@
         <warning>Adaptivitätselemente können nicht über den Grundriss erstellt werden. Diese werden ausschließlich über den Tab <control>Angaben zu Adaptivitätselementen</control> erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/>.</warning>
         <tip>
             <p>Voraussetzung:</p>
-            <p>Es ist ein Lernraum geöffnet. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>.</p>
+            <p>Ein Lernraum ist im mittleren Fenster geöffnet. Siehe: <a
+                    href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>.</p>
         </tip>
 
         <step>
             <p>Klicken Sie auf einen freien Slot innerhalb des Grundrisses.</p>
-            <tip>Freie Slots werden durch ein Plus gekennzeichnet.</tip>
+            <tip>Freie Slots werden durch ein Plus gekennzeichnet.
                 <img src="imageManualAuthoringMittleresFensterLernelementErstellen.png"
-                     alt="Lernelement Feld Callout" width="200" thumbnail="true" style="block"/>
+                     alt="Lernelement Feld Callout" width="200" thumbnail="true" style="block"/></tip>
             <tip>Lernelemente können nur in Slots innerhalb des Grundrisses positioniert werden. Über die beiden Slots, die sich außerhalb des Grundrisses an den beiden Türen (Ein- und Ausgänge) befinden, werden Storyelemente hinzugefügt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterStoryelementErstellen.topic"/>.</tip>
             <note>In der linken Sidebar öffnet sich der Tab <control>Lernelement erstellen</control>.</note>
         </step>

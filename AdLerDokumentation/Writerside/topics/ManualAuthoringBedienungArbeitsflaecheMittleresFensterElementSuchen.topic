@@ -18,20 +18,21 @@
         <tip>
             <p>Voraussetzungen:</p>
             <list>
-                <li><p>Es ist ein Lernraum geöffnet. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>.</p></li>
+                <li><p>Ein Lernraum ist im mittleren Fenster geöffnet. Siehe: <a
+                        href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>.</p></li>
                 <li><p>Sie haben mindestens ein unplatziertes Element (Adaptivitätselement, Lernelement oder Storyelement) erstellt.</p></li>
             </list>
         </tip>
 
-        <step><p>Geben Sie Suchparameter in die Suchleiste im Abschnitt Hinzugefügtes Lernmaterial ein.</p>
+        <step><p>Geben Sie Suchparameter in die Suchleiste im Abschnitt Hinzugefügtes Lernmaterial ein.
+            <img src="imageManualAuthoringUnplatzierteElementeSuchen.png" alt="UnplatzierteElementeSuchen" width="200"
+                 thumbnail="true" style="block"/></p>
             <tip>
                 <list>
                     <li>Suchparameter ist der Name des unplatzierten Elements.</li>
                     <li>Die Suche wird automatisch durchgeführt, bereits während Sie eine Eingabe treffen.</li>
                 </list>
             </tip>
-            <img src="imageManualAuthoringUnplatzierteElementeSuchen.png" alt="UnplatzierteElementeSuchen" width="200"
-                 thumbnail="true" style="block"/>
         </step>
         <note>
             <control>&#10004; Sie haben ein unplatziertes Element über das Suchfeld gesucht und Ihnen wurde das Ergebnis

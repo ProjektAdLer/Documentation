@@ -27,7 +27,9 @@
         </tip>
 
         <step>
-            <p>Geben Sie Suchparameter in die Suchleiste im Abschnitt <control>Hinzugefügtes Lernmaterial</control> ein.</p>
+            <p>Geben Sie Suchparameter in die Suchleiste im Abschnitt <control>Hinzugefügtes Lernmaterial</control> ein.
+                <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialSuchfeld.png" alt="ExternesLernmaterialTabSuchfeld" width="200"
+                     thumbnail="true" style="block"/></p>
             <tip>
                 <list>
                     <li>Suchparameter können der Name des Lernelements oder dessen Dateiendung (Typ) sein.</li>
@@ -35,8 +37,6 @@
                     <li>Die Suche wird automatisch durchgeführt, bereits während Sie eine Eingabe treffen.</li>
                 </list>
             </tip>
-            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialSuchfeld.png" alt="ExternesLernmaterialTabSuchfeld" width="200"
-                 thumbnail="true" style="block"/>
         </step>
 
         <note>
