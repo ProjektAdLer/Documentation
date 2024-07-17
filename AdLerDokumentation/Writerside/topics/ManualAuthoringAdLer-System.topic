@@ -13,11 +13,11 @@
     <img src="240327_Infografik_Webseite-min.png" alt="Überblick des AdLer Gesamtsystems"/>
 
     <p><control><a href="ManualAuthoringFeatures-auf-einen-Blick.topic">Autorentool</a></control></p>
-    <p>Mit dem AdLer-Autorentool können Lehrende eigene Lernwelten als digitale Version von Lehrveranstaltungen bzw. Lehreinheiten anlegen, individuell ausgestalten und im späteren Verlauf den Lernenden innerhalb der AdLer-3D-Lernumgebung oder dem dedizierten AdLer-Moodle zur Verfügung stellen.</p>
-    <p>Durch das Einbinden einer Story zur Lernwelt und der Auswahl unterschiedlicher Grundrisse und Themes für die einzelnen Lernräume innerhalb der Lernwelt bietet das Autorentool die Möglichkeit, Lernwelten vielseitig zu gestalten.</p>
+    <p>Mit dem AdLer-Autorentool können Lehrende eigene <a href="Lernwelt-GE.md">Lernwelten</a> als digitale Version von Lehrveranstaltungen bzw. Lehreinheiten anlegen, individuell ausgestalten und im späteren Verlauf den Lernenden innerhalb der AdLer-3D-Lernumgebung oder dem dedizierten AdLer-Moodle zur Verfügung stellen.</p>
+    <p>Durch das Einbinden einer Story zur Lernwelt und der Auswahl unterschiedlicher Grundrisse und <a href="Theme-GE.md">Themes</a> für die einzelnen <a href="Lernraum-GE.md">Lernräume</a> innerhalb der Lernwelt bietet das Autorentool die Möglichkeit, Lernwelten vielseitig zu gestalten.</p>
     <video src="ManualAuthoringAdLerSystemAutorentoolPreview.mp4" alt="Autorentool Preview" width="650"/>
     <p>Lehrende können Lernenden mit Auswahl an unterschiedlichen multimedialen Inhalten (Texte, H5Ps, Bilder, Videos) verschiedene Handlungs- und Interaktionsmöglichkeiten innerhalb der Lernräume zur Verfügung stellen.</p>
-    <p>Auf die individuellen Bedürfnisse der Lernenden können Lehrende eingehen, indem sie in ihren Lernwelten Adaptivitätselemente mit unterschiedlichen Schwierigkeitsgraden und verschiedene Lernpfade zum Abschließen der Lernwelten bereitstellen.</p>
+    <p>Auf die individuellen Bedürfnisse der Lernenden können Lehrende eingehen, indem sie in ihren Lernwelten Adaptivitätselemente mit unterschiedlichen Schwierigkeitsgraden und verschiedene <a href="Lernpfad-XZ.md">Lernpfade</a> zum Abschließen der Lernwelten bereitstellen.</p>
     <p><control><a href="ManualEngine-Leistungsbeschreibung.topic">3D-Lernumgebung</a></control></p>
     <p>Während im AdLer-Autorentool eine Lernwelt in 2D gestaltet wird, wird sie den Lernenden in der AdLer-3D-Lernumgebung als 3D-Lernwelt zur Verfügung gestellt.</p>
     <p>Lernende durchlaufen die einzelnen Lernräume innerhalb der Lernwelt mit einem Avatar und interagieren mit verschiedenen Story-Charakteren.</p>
