@@ -4,24 +4,23 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Features auf einen Blick" id="ManualAuthoringFeatures-auf-einen-Blick">
-    <chapter title="Produktbezeichnung" id="produktbezeichnung">
-    <p>Lehrende und Kursadministrierende können mit dem AdLer Autorentool in einfacher, strukturierter und geführter Weise
-        ansprechende 3D-Lernumgebungen erstellen, gestalten, in 2D einsehen, bearbeiten und auf Moodle hochladen.
-        Die Kurse können anschließend auf Moodle oder in der AdLer <a href="ManualEngine-Leistungsbeschreibung.topic">3D-Lernumgebung</a> eingesehen werden.</p>
+    <chapter title="Übersicht" id="produktbezeichnung">
+    <p>Lehrende können mit dem AdLer-Autorentool in einfacher und strukturierter Weise
+        Lernwelten erstellen, gestalten, in 2D einsehen, bearbeiten und auf den AdLer-Server hochladen.
+        Diese Lernwelten können anschließend auf dem dedizierten AdLer-Moodle oder in der AdLer <a href="ManualEngine-Leistungsbeschreibung.topic">3D-Lernumgebung</a> eingesehen werden.</p>
     <p>Kernfunktionalitäten des Produkts:</p>
     <list>
-        <li>3D-Lerwelten können erstellt, bearbeitet, gespeichert, exportiert und auf Moodle hochgeladen werden.</li>
-        <li>Zu den Daten von Lernwelten zählen: Name, Autoren, Zugangsschlüssel, Lernziele, Kursbeschreibung, Grundriss</li>
-        <li>Lernräume der Lernwelten können erstellt, bearbeitet, gespeichert, importiert und in einen Lernpfad eingefügt werden.</li>
-        <li>Zu den Daten von Lernräumen zählen: Name, Abschlusskriterien, Thema, Lernziele, Raumbeschreibung</li>
-        <li>Lernräume können folgende Elemente enthalten: Story-, Lern-, Adaptivitätselemente</li>
-        <li>Lernelemente können erstellt, bearbeitet und mit externem Lernmaterial versehen werden.</li>
-        <li>Individuelle Lernpfade können durch intuitive Verbindungen in einer Graphenansicht erstellt werden.</li>
-        <li>Elementen können Punkte, Schwierigkeit und Zeitaufwand hinzugefügt werden.</li>
-        <li>Alle erstellten Lernwelten werden auf der Startseite dargestellt.</li>
-        <li>AdLer-Moodle-Kurse können in den Kontoeinstellungen gelöscht werden.</li>
-        <li>Durch die Export-Funktion können die Lernwelten und -räume archiviert und zwischen Lehrenden ausgetauscht werden.</li>
-        <li>Unterstützung mehrerer Programm-Sprachen: Deutsch, Englisch</li>
+        <li>Eigenständiges Erstellen von dreidimensionalen Lernwelten.</li>
+        <li>Auswahl an unterschiedlichen Lernräumen mit verschiedenen Themes und Grundrissen.</li>
+        <li>Erzählen einer Geschichte innerhalb der Lernwelt mithilfe von Storyelementen.</li>
+        <li>Einbetten von multimedialen Inhalten in Form von Lernelementen.</li>
+        <li>Ermöglichen von individuellem Lernen mit dem Adaptivitätselement.</li>
+        <li>Gestaltung individueller Lernpfade durch komplexe Verbindungen zwischen Lernräumen mithilfe von Und-/Oder-Bedingungen.</li>
+        <li>Präzises Formulieren von Lernzielen zu Lernräumen mithilfe einer integrierten Eingabeunterstützung.</li>
+        <li>Gebündelte Darstellung aller erstellten und importierten Lernwelten auf der Startseite.</li>
+        <li>Löschen von AdLer-Moodle-Kursen in den Kontoeinstellungen.</li>
+        <li>Archivieren von Lernwelten zum Austausch der Daten zwischen Lehrenden.</li>
+        <li>Unterstützung mehrerer Programmsprachen: Deutsch, Englisch.</li>
     </list>
     </chapter>
 </topic>
