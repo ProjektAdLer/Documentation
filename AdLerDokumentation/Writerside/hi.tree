@@ -539,6 +539,7 @@
             <toc-element topic="Software-Design-Backend.md"/>
         </toc-element>
         <toc-element topic="Plugin-BG.md">
+            <toc-element topic="Auflistung-der-Anforderungen-Plugins.md"/>
             <toc-element topic="Funktionale-Anforderungen-Plugin.md">
                 <toc-element topic="Setup-Administration-MVP.md">
                     <toc-element topic="MVP21.md"/>
@@ -660,57 +661,39 @@
                     <toc-element topic="ManualAuthoringBedienungArbeitsflaeche.topic">
                         <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebar.topic">
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAngabenZurLernwelt.topic">
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernweltBearbeiten.topic"/>
-                            </toc-element>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernweltBearbeiten.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAngabenZumLernraum.topic">
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielMitEingabeunterstuetzungFormulieren.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielOhneEingabeunterstuetzungFormulieren.topic"/>
-                            </toc-element>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAngabenZuStoryelementen.topic">
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic"/>
-                            </toc-element>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielMitEingabeunterstuetzungFormulieren.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAngabenZuLernelementen.topic">
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>
-                            </toc-element>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielOhneEingabeunterstuetzungFormulieren.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAngabenZuAdaptivitaetselementen.topic">
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAufgabeHinzufuegen.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarFrageHinzufuegen.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarKommentarHinzufuegen.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVerweisHinzufuegen.topic"/>
-                            </toc-element>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterial.topic">
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialSuchen.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernmaterialAlsEingesetztesLernelementFinden.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVorschauDesLernmaterialsAnzeigen.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLernelementErstellen.topic"/>
-                                <toc-element
-                                        topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLoeschen.topic"/>
-                            </toc-element>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAufgabeHinzufuegen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarFrageHinzufuegen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarKommentarHinzufuegen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVerweisHinzufuegen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialSuchen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernmaterialAlsEingesetztesLernelementFinden.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVorschauDesLernmaterialsAnzeigen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLernelementBereitstellen.topic"/>
+                            <toc-element
+                                    topic="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLoeschen.topic"/>
                         </toc-element>
                         <toc-element topic="ManualAuthoringBedienungArbeitsflaecheMittleresFenster.topic">
                             <toc-element
@@ -722,7 +705,7 @@
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementLoeschen.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementOeffnen.topic"/>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementBearbeiten.topic"/>
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementFiltern.topic"/>
                             <toc-element
@@ -735,7 +718,6 @@
                                     topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>
-                            <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>
                             <toc-element topic="ManualAuthoringBedienungArbeitsflaecheLernraumLoeschen.topic"/>
                             <toc-element topic="ManualAuthoringBedienungRechteSidebarLernpfadeErstellen.topic"/>
                             <toc-element
@@ -746,7 +728,7 @@
                             <toc-element
                                     topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarBedingungLoeschen.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarElementOeffnen.topic"/>
+                                    topic="ManualAuthoringBedienungArbeitsflaecheRechteSidebarElementBearbeiten.topic"/>
                         </toc-element>
                     </toc-element>
                     <toc-element topic="ManualAuthoringBedienungKopfzeile.topic">
@@ -759,8 +741,7 @@
                         <toc-element
                                 topic="ManualAuthoringBedienungKopfzeileFeedbackZurBenutzungsoberflaecheGeben.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern.topic"/>
-                        <toc-element topic="ManualAuthoringBedienungKopfzeileFeedbackZumAutorentoolGeben.topic">
-                        </toc-element>
+                        <toc-element topic="ManualAuthoringBedienungKopfzeileFeedbackZumAutorentoolGeben.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileTechnischenFehlerMelden.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileZurAdLerProjektseiteGehen.topic"/>
                         <toc-element topic="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/>
@@ -808,6 +789,9 @@
             <toc-element topic="Adler-installieren-VP.md"/>
         </toc-element>
         <toc-element topic="Entwickelnde-BD.md">
+            <toc-element
+                    topic="Technischer-Leitfaden-Branch-Erstellung-und-Bearbeitung-in-der-ProjektAdLer-Dokumentation.md"/>
+            <toc-element topic="ManualAuthoringEinrichtenUndKompilieren.md"/>
             <toc-element topic="EntwickelndeBenutzerdokumentation.md">
                 <toc-element topic="Benutzerdoku-BestPractices.topic"/>
             </toc-element>
@@ -881,6 +865,7 @@
         <toc-element topic="Kurskategorie-VP.md"/>
         <toc-element topic="L.md">
             <toc-element topic="Lernmaterial-GE.md"/>
+            <toc-element topic="Lernpfad-XZ.md"/>
             <toc-element topic="Lernelement-GE.md"/>
             <toc-element topic="Lernelement-Slot-GE.md"/>
             <toc-element topic="Lernwelt-GE.md"/>

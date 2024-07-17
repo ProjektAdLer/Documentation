@@ -19,14 +19,15 @@
         <warning>Adaptivitätselemente können nicht über den Grundriss erstellt werden. Diese werden ausschließlich über den Tab <control>Angaben zu Adaptivitätselementen</control> erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/>.</warning>
         <tip>
             <p>Voraussetzung:</p>
-            <p>Es ist ein Lernraum geöffnet. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLernraumOeffnen.topic"/>.</p>
+            <p>Ein Lernraum ist im mittleren Fenster geöffnet. Siehe: <a
+                    href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>.</p>
         </tip>
 
         <step>
             <p>Klicken Sie auf einen freien Slot außerhalb des Grundrisses (Ein- und Ausgänge).</p>
-            <tip>Freie Slots werden durch ein Plus gekennzeichnet.</tip>
+            <tip>Freie Slots werden durch ein Plus gekennzeichnet.
                 <img src="imageManualAuthoringMittleresFensterStoryelementErstellen.png"
-                     alt="Storyelement Feld Callout" width="200" thumbnail="true" style="block"/>
+                     alt="Storyelement Feld Callout" width="200" thumbnail="true" style="block"/></tip>
             <tip>Storyelemente können nur in Slots außerhalb des Grundrisses (Ein- und Ausgänge) positioniert werden. Über die Slots, die sich innerhalb des Grundrisses befinden, werden Lern- und Adaptivitätselemente hinzugefügt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterLernelementErstellen.topic"/>(über das mittlere Fenster), <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>(über die linke Sidebar) und <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/>.</tip>
             <note>In der linken Sidebar öffnet sich der Tab <control>Storyelement erstellen</control>.</note>
         </step>
@@ -34,9 +35,6 @@
             <p>Erstellen Sie nun das Storyelement in der linken Sidebar. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic"/>.</p>
         </step>
 
-        <note><control>&#10004; Sie haben erfolgreich ein neues Storyelement erstellt. Dieses wurde nach Klicken des Buttons <control>Ok</control> automatisch dem ausgewählten Slot im Lernraum hinzugefügt.</control>
-            <img src="imageManualAuthoringMittleresFensterStoryelementErstellen.png"
-                 alt="Storyelement Feld Callout" width="200" thumbnail="true" style="block"/>
-        </note>
+        <note><control>&#10004; Sie haben erfolgreich das Erstellen eines neuen Storyelements eingeleitet.</control></note>
     </procedure>
 </topic>

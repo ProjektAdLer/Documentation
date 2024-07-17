@@ -16,8 +16,8 @@
             </def>
         </deflist>
         <step>
-            <p>Klicken Sie auf den Tab <control>Angaben zu Adaptivitätselementen</control>.</p>
-            <img src="imageManualAuthoringAngabenZuAdaptivitaetselementenTab.png" alt="AdaptivitaetselementErstellenTab" width="200" thumbnail="true"/>
+            <p>Klicken Sie auf den Tab <control>Angaben zu Adaptivitätselementen</control>.
+            <img src="imageManualAuthoringAngabenZuAdaptivitaetselementenTab.png" alt="AdaptivitaetselementErstellenTab" width="200" thumbnail="true"/></p>
         </step>
         <tip>
             <p>Wenn Sie ein bereits existierendes Adaptivitätselement bearbeiten, wird im oberen Bereich ein zusätzlicher Button <control>NEU</control> angezeigt. Über diesen kann ebenfalls ein neues Adaptivitätselement erstellt werden.</p>
@@ -33,8 +33,8 @@
                 <tab id="allgemeines_adaptivitaetselement" title="Allgemein">
                     <procedure type="choices" id="allgemeines_tab_adaptivitaetselement" title="Allgemein">
                         <step>
-                            <p>Tragen Sie allgemeine Metadaten zur Ihrem Adaptivitätselement ein:</p>
-                            <img src="imageManualAuthoringAdaptivitaetselementErstellenAllgemein.png" alt="AdaptivitaetselementErstellenAllgemeinesCallout" width="200" thumbnail="true"/>
+                            <p>Tragen Sie allgemeine Metadaten zur Ihrem Adaptivitätselement ein:
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenAllgemein.png" alt="AdaptivitaetselementErstellenAllgemeinesCallout" width="200" thumbnail="true"/></p>
                         </step>
                         <step><b>Name</b>
                             <p>Vergeben Sie im ersten Textfeld einen Namen für Ihr Adaptivitätselement.</p>
@@ -53,8 +53,8 @@
                 <tab id="aufgaben_adaptivitaetselement" title="Aufgaben">
                     <procedure type="choices" id="aufgaben_tab_adaptivitaetselement" title="Aufgaben">
                         <step>
-                            <p>Klicken Sie auf den Button <control>Aufgaben hinzufügen</control>.</p>
-                            <img src="imageManualAuthoringAdaptivitaetselementErstellenAufgaben.png" alt="AdaptivitaetselementErstellenAufgaben" width="200" thumbnail="true"/>
+                            <p>Klicken Sie auf den Button <control>Aufgaben hinzufügen</control>.
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenAufgaben.png" alt="AdaptivitaetselementErstellenAufgaben" width="200" thumbnail="true"/></p>
                             <note>
                                 <p>Wie Aufgaben von Adaptivitätselementen gestaltet sind, erfahren Sie unter <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAufgabeHinzufuegen.topic">Aufgaben hinzufügen</a>.</p>
                             </note>
@@ -67,8 +67,8 @@
                             <p>Adaptivitätselemente werden in der 3D-Lernumgebung als <a href="NPC-GE.md">Nicht-Spieler-Charakter (NPC)</a> dargestellt. Im Fall des Adaptivitätselements wird der NPC stets als Roboter repräsentiert und ist somit standardmäßig eingestellt. In der Kategorie <control>3D-Darstellung</control> wird dieser aufgeführt. Näheres zur Darstellung des Adaptivitätselements in der 3D-Lernumgebung finden Sie hier: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"></a>.</p>
                         </note>
                         <step>
-                            <p>Klicken Sie auf die Kategorie <control>3D-Darstellung</control>, um sich den Roboter genauer anzusehen.</p>
-                            <img src="imageManualAuthoringAdaptivitaetselementErstellen3DDarstellung.png" alt="Adaptivitaetselement3DDarstellung" width="200" thumbnail="true"/>
+                            <p>Klicken Sie auf die Kategorie <control>3D-Darstellung</control>, um sich den Roboter genauer anzusehen.
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellen3DDarstellung.png" alt="Adaptivitaetselement3DDarstellung" width="200" thumbnail="true"/></p>
                             <tip>
                                 <p>Positionieren Sie die Maus über das NPC-Icon. Sobald die Maus über dem Icon liegt, erscheint zusätzlich ein grauer Hintergrund. Darüber hinaus erscheint eine vergrößerte Ansicht des Roboters.</p>
                                 <img src="imageManualAuthoringAdaptivitaetselementErstellen3DDarstellungHover.png" alt="Adaptivitaetselement3DDarstellungHover" width="200" thumbnail="true"/>
@@ -82,16 +82,16 @@
                 <tab id="lernziele_adaptivitaetselement" title="Lernziele">
                     <procedure id="lernziele_tab_adaptivitaetselement" title="Lernziele zum Adaptivitätselement">
                         <step>
-                            <p>Formulieren Sie ein oder mehrere Lernziele für Ihr Adaptivitätselement.</p>
-                            <img src="imageManualAuthoringAdaptivitaetselementErstellenLernziele.png" alt="AdaptivitaetselementErstellenLernziele" width="200" thumbnail="true"/>
+                            <p>Formulieren Sie ein oder mehrere Lernziele für Ihr Adaptivitätselement.
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenLernziele.png" alt="AdaptivitaetselementErstellenLernziele" width="200" thumbnail="true"/></p>
                         </step>
                     </procedure>
                 </tab>
                 <tab id="beschreibung_adaptivitaetselement" title="Beschreibung">
                     <procedure id="beschreibung_tab_adaptivitaetselement" title="Beschreibung zum Adaptivitätselement">
                         <step>
-                            <p>Beschreiben Sie das Thema Ihres Adaptivitätselement.</p>
-                            <img src="imageManualAuthoringAdaptivitaetselementErstellenBeschreibung.png" alt="AdaptivitaetselementErstellenBeschreibung" width="200" thumbnail="true"/>
+                            <p>Beschreiben Sie das Thema Ihres Adaptivitätselement.
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenBeschreibung.png" alt="AdaptivitaetselementErstellenBeschreibung" width="200" thumbnail="true"/></p>
                         </step>
                     </procedure>
                 </tab>
@@ -99,8 +99,13 @@
         </step>
 
         <step>
-            <p>Bestätigen Sie Ihre Angaben zum Adaptivitätselement mit einem Klick auf den Button <b>OK</b>.</p>
-            <img src="imageManualAuthoringAdaptivitaetselementErstellenOKButton.png" alt="AdaptivitaetselementErstellenOKButton" width="200" thumbnail="true"/>
+            <p>Bestätigen Sie Ihre Angaben zum Adaptivitätselement mit einem Klick auf den Button <b>OK</b>.
+            <img src="imageManualAuthoringAdaptivitaetselementErstellenOKButton.png" alt="AdaptivitaetselementErstellenOKButton" width="200" thumbnail="true"/></p>
+            <tip>
+                <p>Mit Bestätigen der Angaben zum neuen Adaptivitätselement wird nachfolgend automatisch das erstellte Adaptivitätselement im mittleren Fenster im Bereich der <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>Unplatzierten Elemente</control></a> angezeigt (siehe Screenshot). Darüber hinaus wird das erstellte Adaptivitätselement zusätzlich in der rechten Sidebar in dem  Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> aufgeführt.</p>
+                <img src="imageManualAuthoringAdaptivitaetselementErstellenErfolgreich.png"
+                     alt="AdaptivitaetselementErstellenErfolgreich" width="200" thumbnail="true" style="block"/>
+            </tip>
         </step>
     </procedure>
     <note>

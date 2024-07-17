@@ -30,7 +30,7 @@
                 <td>Bestätigt die Angaben zum Kommentar.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarKommentarHinzufuegen.topic">Kommentar hinzufügen</a></li>
         </list>

@@ -15,14 +15,14 @@
                 <p>Ein Lernziel zu einem Lernraum formulieren, ohne die Eingabeunterstützung zu verwenden.</p>
             </def>
         </deflist>
-        <step><p>Klicken Sie auf den Button <control>Lernziel selbst formulieren</control>.</p>
-            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungFensterSelbstButton.png" alt="Lernziel-Formulierung Fenster mit hervorgehobenem Selbst Formulieren Button" width="200" thumbnail="true"/>
+        <step><p>Klicken Sie auf den Button <control>Lernziel selbst formulieren</control>.
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungFensterSelbstButton.png" alt="Lernziel-Formulierung Fenster mit hervorgehobenem Selbst Formulieren Button" width="200" thumbnail="true"/></p>
         </step>
-        <step><p>Tragen Sie in dem sich nun öffnenden Fenster in dem Textfeld Ihr Lernziel ein.</p>
-            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungSelbstFeld.png" alt="Lernziel-Formulierung SelbstFenster mit hervorgehobenem Lernziel Textfeld" width="200" thumbnail="true"/>
+        <step><p>Tragen Sie in dem sich nun öffnenden Fenster in dem Textfeld Ihr Lernziel ein.
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungSelbstFeld.png" alt="Lernziel-Formulierung SelbstFenster mit hervorgehobenem Lernziel Textfeld" width="200" thumbnail="true"/></p>
         </step>
-        <step><p>Bestätigen Sie Ihr formuliertes Lernziel mit einem Klick auf den Button <control>Erstellen</control>.</p>
-            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungSelbstErstellenButton.png" alt="Lernziel-Formulierung Selbst Fenster mit hervorgehobenem Erstellen Button" width="200" thumbnail="true"/>
+        <step><p>Bestätigen Sie Ihr formuliertes Lernziel mit einem Klick auf den Button <control>Erstellen</control>.
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungSelbstErstellenButton.png" alt="Lernziel-Formulierung Selbst Fenster mit hervorgehobenem Erstellen Button" width="200" thumbnail="true"/></p>
             <tip>
                 <p>Nach Erstellen des Lernziels werden Sie auf das vorherige Fenster zurückgeleitet und können darüber ein neues Lernziel mit oder ohne Eingabeunterstützung formulieren.</p>
                 <p>Alle erstellten Lernziele zum Lernraum werden darüber hinaus untenstehend angezeigt. Über diese Ansicht können Sie die erstellten Lernziele bei Bedarf bearbeiten oder löschen.</p>

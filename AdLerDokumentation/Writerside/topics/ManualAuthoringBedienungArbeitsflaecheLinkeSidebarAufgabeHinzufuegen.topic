@@ -15,12 +15,12 @@
                 <p>Einem Adaptivitätselement eine Aufgabe hinzufügen.</p>
             </def>
         </deflist>
-        <step><p>Klicken Sie auf den Button <control>Plus</control>, um eine Aufgabe zu erstellen.</p>
-            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeHinzufuegenPlus.png" alt="Adaptivitaetselement Aufgabe Erstellen: Plus Button an der linken Seite" width="200" thumbnail="true"/>
+        <step><p>Klicken Sie auf den Button <control>Plus</control>, um eine Aufgabe zu erstellen.
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeHinzufuegenPlus.png" alt="Adaptivitaetselement Aufgabe Erstellen: Plus Button an der linken Seite" width="200" thumbnail="true"/></p>
             <tip>Es erscheint eine Zeile zum Anlegen der Aufgabe. Mit jedem Klick auf den - unterhalb der Zeile erscheinenden - Button <control>Plus</control> können weitere Aufgaben hinzugefügt werden.</tip>
         </step>
-        <step><p>Vergeben Sie einen Namen für die erstellte Aufgabe.</p>
-            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeNameGeben.png" alt="Adaptivitaetselement Aufgabe Erstellen: Name Textfeld" width="200" thumbnail="true"/>
+        <step><p>Vergeben Sie einen Namen für die erstellte Aufgabe.
+            <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeNameGeben.png" alt="Adaptivitaetselement Aufgabe Erstellen: Name Textfeld" width="200" thumbnail="true"/></p>
         </step>
         <step><p>Erstellen Sie im nächsten Schritt eine Frage zu Ihrer Aufgabe --> näheres dazu erfahren Sie unter <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarFrageHinzufuegen.topic">Frage hinzufügen</a>.</p>
 

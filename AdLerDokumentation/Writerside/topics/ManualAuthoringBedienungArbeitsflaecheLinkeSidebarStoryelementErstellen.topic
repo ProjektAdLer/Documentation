@@ -16,8 +16,8 @@
             </def>
         </deflist>
         <step>
-            <p>Klicken Sie auf den Tab <control>Angaben zu Storyelementen</control>.</p>
-            <img src="imageManualAuthoringAngabenZuStoryelementenTab.png" alt="StoryelementErstellenTab" width="200" thumbnail="true"/>
+            <p>Klicken Sie auf den Tab <control>Angaben zu Storyelementen</control>.
+            <img src="imageManualAuthoringAngabenZuStoryelementenTab.png" alt="StoryelementErstellenTab" width="200" thumbnail="true"/></p>
         </step>
         <tip>
             <p>Wenn Sie ein bereits existierendes Storyelement bearbeiten, wird im oberen Bereich ein zusätzlicher Button <control>NEU</control> angezeigt. Über diesen kann ebenfalls ein neues Storyelement erstellt werden.</p>
@@ -33,8 +33,8 @@
                     <tab id="allgemeines_storyelement" title="Allgemein">
                         <procedure type="choices" id="allgemeines_tab_storyelement" title="Allgemein">
                             <step>
-                                <p>Vergeben Sie im ersten Textfeld einen Namen für das Storyelement.</p>
-                                <img src="imageManualAuthoringStoryelementErstellenAllgemein.png" alt="StoryelementErstellenAllgemein" width="200" thumbnail="true"/>
+                                <p>Vergeben Sie im ersten Textfeld einen Namen für das Storyelement.
+                                <img src="imageManualAuthoringStoryelementErstellenAllgemein.png" alt="StoryelementErstellenAllgemein" width="200" thumbnail="true"/></p>
                                 <warning>
                                     <p>Für den Namen des Storyelements gelten bestimmte Regeln --> siehe <a href="Autorentool-Storyelement-ErforderlicheEigenschaften.md">Erforderliche Eigenschaften für Storyelement</a>.</p>
                                 </warning>
@@ -44,8 +44,8 @@
                     <tab id="storytext_storyelement" title="Storytext">
                         <procedure type="choices" id="storytext_tab_storyelement" title="Storytext">
                             <step>
-                                <p>Klicken Sie auf den Button <control>Plus</control>.</p>
-                                <img src="imageManualAuthoringStoryelementErstellenStorytext.png" alt="StoryelementErstellenStorytextButton" width="200" thumbnail="true"/>
+                                <p>Klicken Sie auf den Button <control>Plus</control>.
+                                <img src="imageManualAuthoringStoryelementErstellenStorytext.png" alt="StoryelementErstellenStorytextButton" width="200" thumbnail="true"/></p>
                                 <tip>
                                     <p>Es erscheint ein Textblock (Slide).</p>
                                 </tip>
@@ -54,8 +54,8 @@
                                 </warning>
                             </step>
                             <step>
-                                <p>Formulieren Sie in dem Textblock einen Text für das Storyelement.</p>
-                                <img src="imageManualAuthoringStoryelementErstellenStorytextTextblock.png" alt="StoryelementErstellenStorytext" width="200" thumbnail="true"/>
+                                <p>Formulieren Sie in dem Textblock einen Text für das Storyelement.
+                                <img src="imageManualAuthoringStoryelementErstellenStorytextTextblock.png" alt="StoryelementErstellenStorytext" width="200" thumbnail="true"/></p>
                                 <tip>
                                     <p>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock (Slide) mit max. 550 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button <control>Plus</control> weitere Textblöcke (Slides) hinzugefügt werden.</p>
                                 </tip>
@@ -73,8 +73,8 @@
                                 <img src="imageManualAuthoringStoryelementAuswahlNPC.png" alt="StoryelementAuswahlNPC" width="200" thumbnail="true"/>
                             </tip>
                             <step>
-                                <p>Legen Sie einen NPC für dieses Storyelement fest.</p>
-                                <img src="imageManualAuthoringStoryelementErstellen3DDarstellung.png" alt="StoryelementErstellen3DDarstellung" width="200" thumbnail="true"/>
+                                <p>Legen Sie einen NPC für dieses Storyelement fest.
+                                <img src="imageManualAuthoringStoryelementErstellen3DDarstellung.png" alt="StoryelementErstellen3DDarstellung" width="200" thumbnail="true"/></p>
                                 <note>Sie können für das Intro-Storyelement und das Outro-Storyelement jeweils den gleichen oder unterschiedliche NPCs wählen.</note>
                                 <tip>
                                     <p>Positionieren Sie die Maus über das NPC-Icon. Sobald die Maus über dem Icon liegt, erscheint zusätzlich ein grauer Hintergrund. Darüber hinaus erscheint eine vergrößerte Ansicht des NPCs.</p>
@@ -87,8 +87,13 @@
         </step>
 
         <step>
-            <p>Bestätigen Sie Ihre Angaben zum Storyelement mit einem Klick auf den Button <b>OK</b>.</p>
-            <img src="imageManualAuthoringStoryelementErstellenOKButton.png" alt="StoryelementErstellenOKButton" width="200" thumbnail="true"/>
+            <p>Bestätigen Sie Ihre Angaben zum Storyelement mit einem Klick auf den Button <b>OK</b>.
+            <img src="imageManualAuthoringStoryelementErstellenOKButton.png" alt="StoryelementErstellenOKButton" width="200" thumbnail="true"/></p>
+            <tip>
+                <p>Mit Bestätigen der Angaben zum neuen Storyelement wird nachfolgend automatisch das erstellte Storyelement im mittleren Fenster im Bereich der <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>Unplatzierten Elemente</control></a> angezeigt (siehe Screenshot). Darüber hinaus wird das erstellte Storyelement zusätzlich in der rechten Sidebar in dem  Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> aufgeführt.</p>
+                <img src="imageManualAuthoringStoryelementErstellenErfolgreich.png"
+                     alt="StoryelementErstellenErfolgreich" width="200" thumbnail="true" style="block"/>
+            </tip>
         </step>
     </procedure>
     <note>

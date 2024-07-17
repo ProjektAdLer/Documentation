@@ -16,8 +16,8 @@
             </def>
         </deflist>
         <step>
-            <p>Klicken Sie auf den Tab <control>Externes Lernmaterial hinzufügen</control>.</p>
-            <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab" width="200" thumbnail="true"/>
+            <p>Klicken Sie auf den Tab <control>Externes Lernmaterial hinzufügen</control>.
+            <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab" width="200" thumbnail="true"/></p>
         </step>
         <step>
             <p>Fügen Sie entweder Dateien oder Links zu Videos hinzu.</p>
@@ -25,8 +25,8 @@
                 <tab id="externes_lernmaterial_datei" title="Datei hinzufügen">
                     <procedure type="choices" id="datei_externes_lernmaterial" title="Datei hinzufügen">
                         <step>
-                            <p>Nutzen Sie für das Hinzufügen von Dateien die Dropzone.</p>
-                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeDropzone.png" alt="Externes Lernmaterial hinzufügen über die hervorgehobene Dropzone" width="200" thumbnail="true"/>
+                            <p>Nutzen Sie für das Hinzufügen von Dateien die Dropzone.
+                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeDropzone.png" alt="Externes Lernmaterial hinzufügen über die hervorgehobene Dropzone" width="200" thumbnail="true"/></p>
                             <p>Es gibt zwei Möglichkeiten, über die Dropzone Dateien hinzuzufügen:</p>
                             <list>
                                 <li>Klicken Sie auf die <control>Dropzone</control>, suchen Sie in dem sich öffnenden Dateimanager die Dateien, die in das Autorentool geladen werden sollen und klicken Sie diese an. Bestätigen Sie Ihre Angabe mit einem Klick auf den Button <control>Öffnen</control>.</li>
@@ -43,20 +43,20 @@
                 <tab id="externes_lernmaterial_link" title="Link hinzufügen">
                     <procedure type="choices" id="link_externes_lernmaterial" title="Link hinzufügen">
                         <tip>Video-Dateiformate wie .mp4 werden nicht unterstützt, stattdessen können Videos über Links hinzugefügt werden.</tip>
-                        <step><p>Klicken Sie auf die Kategorie <control>Link hinzufügen</control>.</p>
-                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkHinzufuegenButton.png" alt="Link hinzufügen: Ausklappen Button" width="200" thumbnail="true"/>
+                        <step><p>Klicken Sie auf die Kategorie <control>Link hinzufügen</control>.
+                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkHinzufuegenButton.png" alt="Link hinzufügen: Ausklappen Button" width="200" thumbnail="true"/></p>
                         </step>
-                        <step><p>Vergeben Sie einen Namen für den Link.</p>
-                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkName.png" alt="Link hinzufügen: Name Textfeld" width="200" thumbnail="true"/>
+                        <step><p>Vergeben Sie einen Namen für den Link.
+                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkName.png" alt="Link hinzufügen: Name Textfeld" width="200" thumbnail="true"/></p>
                             <tip>Das Vergeben eines Namens hilft dabei, den Link im späteren Verlauf schneller wiederzufinden.</tip>
                         </step>
-                        <step><p>Tragen Sie den Link zum entsprechenden Video ein.</p>
-                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkURL.png" alt="Link hinzufügen: Link Textfeld" width="200" thumbnail="true"/>
+                        <step><p>Tragen Sie den Link zum entsprechenden Video ein.
+                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkURL.png" alt="Link hinzufügen: Link Textfeld" width="200" thumbnail="true"/></p>
                             <warning>Achten Sie darauf, vor dem Link das Protokoll <control>http://</control> oder <control>https://</control> anzugeben.</warning>
                         </step>
                         <step>
-                            <p>Bestätigen Sie Ihre Angaben zum Link mit einem Klick auf den Button <b>OK</b>.</p>
-                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkOkButton.png" alt="Link hinzufügen: OK Button" width="200" thumbnail="true"/>
+                            <p>Bestätigen Sie Ihre Angaben zum Link mit einem Klick auf den Button <b>OK</b>.
+                            <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkOkButton.png" alt="Link hinzufügen: OK Button" width="200" thumbnail="true"/></p>
                         </step>
                     </procedure>
                 </tab>

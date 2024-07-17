@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Element bearbeiten" id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementBearbeiten"
+       help-id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementOeffnen">
+
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic">Lernraum-Editor</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic">Unplatzierte Elemente</a>.</p>
+
+    <show-structure for="chapter, procedure" depth="4"/>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Den Bearbeitungsmodus eines Elements (Adaptivitätselement, Lernelement oder Storyelement) über den Grundriss eines Lernraums aktiviert.</control>
+            </def>
+        </deflist>
+
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li><p>Ein Lernraum ist im mittleren Fenster geöffnet. Siehe: <a
+                        href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>.</p></li>
+                <li><p>Es ist mindestens ein Element (Adaptivitätselement, Lernelement oder Storyelement) dem Lernraum hinzugefügt.</p></li>
+            </list>
+        </tip>
+
+    <tabs>
+    <tab id="mittleresfenster_doppelklick" title="Einfacher Klick">
+        <procedure title="Einfacher Klick">
+        <step>
+            <p>Klicken Sie auf ein Element (Adaptivitätselement, Lernelement oder Storyelement) im Lernraum.
+                <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                     alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+        </step>
+        </procedure>
+    </tab>
+        <tab id="mittleresfenster_rechtsklick" title="Kontextmenü">
+            <procedure title="Kontextmenü">
+                <step>
+                    <p>Klicken Sie mit der rechten Maustaste auf ein Element (Adaptivitätselement, Lernelement oder Storyelement) im Lernraum.
+                        <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                             alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></p>
+                    <note>Ein Kontextdialog wird geöffnet.
+                        <img src="imageManualAuthoringmittleresFensterElementAuswaehlenKontextdialog.png"
+                             alt="Rechtsklickmenü Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></note>
+                </step>
+                <step>
+                    <p>Klicken Sie auf den Button <control>Edit</control>. Dies ist der mittlere Listeneintrag.
+                        <img src="imageManualAuthoringmittleresFensterElementAuswaehlenKontextdialogFocus.png"
+                             alt="Rechtsklickmenü Lernelement im Lernraum" width="75" thumbnail="true" style="block"/></p>
+                </step>
+            </procedure>
+        </tab>
+    </tabs>
+        <tip>Welcher Tab in der linken Sidebar geöffnet wird, ist davon abhängig,  welches Element (Adaptivitätselement, Lernelement oder Storyelement) angeklickt wurde.
+            <list>
+                <li>Adaptivitätselement = Tab <control>Angaben zu Adaptivitätselementen</control> öffnet sich.</li>
+                <li>Lernelement = Tab <control>Angaben zu Lernelementen</control> öffnet sich.</li>
+                <li>Storyelement = Tab <control>Angaben zu Storyelementen</control> öffnet sich.</li>
+            </list>
+        </tip>
+        <step>
+            <p>Passen Sie die Angaben zum Element an und speichern Sie dieses (Adaptivitätselement, Lernelement oder Storyelement). Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic"/>, <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/> oder <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/>.</p>
+        </step>
+        <tip>Das hier beschriebene Vorgehen zum Bearbeiten eines Elements im Bereich <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic"><control>Lernraum-Editor</control></a> ist auf die gleiche Weise auch im Bereich <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>Unplatzierte Elemente</control></a> möglich.
+            <img src="imageManualAuthoringmittleresFensterElementAuswaehlen.png"
+                 alt="Lernelement im Lernraum" width="200" thumbnail="true" style="block"/></tip>
+        <note><control>&#10004; Sie haben erfolgreich den Bearbeitungsmodus für ein ausgewähltes Element (Adaptivitätselement, Lernelement oder Storyelement) über den Grundriss eines Lernraums aktiviert.</control></note>
+    </procedure>
+</topic>

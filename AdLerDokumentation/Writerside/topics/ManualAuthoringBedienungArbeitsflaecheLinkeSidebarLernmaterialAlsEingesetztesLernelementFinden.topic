@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Lernmaterial als eingesetztes Lernelement finden"
+       title="Externes Lernmaterial als eingesetztes Lernelement finden"
        id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernmaterialAlsEingesetztesLernelementFinden">
 
     <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic">Externes Lernmaterial</a>.</p>
@@ -29,9 +29,8 @@
         <step>
             <p>Im Abschnitt <control>Hinzugefügtes Lernmaterial</control>
                 sehen Sie neben dem Auswahlkästchen einen blauen Kreis mit einer Zahl (Tooltipp). Wird dieses angezeigt, ist das externe Lernmaterial mindestens einmal in Form eines Lernelements in einer Lernwelt enthalten. Fahren Sie mit dem Mauszeiger darüber.
-            </p>
             <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialVorkommenUebersicht.png" alt="ExternesLernmaterialTabVorkommenButton"
-                 width="200" thumbnail="true" style="block"/>
+                 width="200" thumbnail="true" style="block"/></p>
             <note>Ein Tooltipp erscheint, in welchem die Lernwelten und Lernelemente aufgelistet werden, in welchen das externe Lernmaterial verwendet wird.
                 <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialVorkommenDetails.png" alt="ExternesLernmaterialTabVorkommenDetails"
                      width="200" thumbnail="true" style="block"/></note>

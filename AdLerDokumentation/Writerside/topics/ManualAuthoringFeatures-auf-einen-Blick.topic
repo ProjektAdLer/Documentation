@@ -4,14 +4,23 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Features auf einen Blick" id="ManualAuthoringFeatures-auf-einen-Blick">
-    <chapter title="Produktbezeichnung" id="produktbezeichnung">
-    <img src="" alt="Logo des Produkts"/>
-    <p>Zielgruppe und Zweck des Produkts in einem oder wenigen Sätzen.</p>
+    <chapter title="Übersicht" id="produktbezeichnung">
+    <p>Lehrende können mit dem AdLer-Autorentool in einfacher und strukturierter Weise
+        Lernwelten erstellen, gestalten, in 2D einsehen, bearbeiten und auf den AdLer-Server hochladen.
+        Diese Lernwelten können anschließend auf dem dedizierten AdLer-Moodle oder in der AdLer <a href="ManualEngine-Leistungsbeschreibung.topic">3D-Lernumgebung</a> eingesehen werden.</p>
     <p>Kernfunktionalitäten des Produkts:</p>
     <list>
-        <li>Feature 1</li>
-        <li>Feature 2</li>
-        <li>Feature 3</li>
+        <li>Eigenständiges Erstellen von dreidimensionalen Lernwelten.</li>
+        <li>Auswahl an unterschiedlichen Lernräumen mit verschiedenen Themes und Grundrissen.</li>
+        <li>Erzählen einer Geschichte innerhalb der Lernwelt mithilfe von Storyelementen.</li>
+        <li>Einbetten von multimedialen Inhalten in Form von Lernelementen.</li>
+        <li>Ermöglichen von individuellem Lernen mit dem Adaptivitätselement.</li>
+        <li>Gestaltung individueller Lernpfade durch komplexe Verbindungen zwischen Lernräumen mithilfe von Und-/Oder-Bedingungen.</li>
+        <li>Präzises Formulieren von Lernzielen zu Lernräumen mithilfe einer integrierten Eingabeunterstützung.</li>
+        <li>Gebündelte Darstellung aller erstellten und importierten Lernwelten auf der Startseite.</li>
+        <li>Löschen von AdLer-Moodle-Kursen in den Kontoeinstellungen.</li>
+        <li>Archivieren von Lernwelten zum Austausch der Daten zwischen Lehrenden.</li>
+        <li>Unterstützung mehrerer Programmsprachen: Deutsch, Englisch.</li>
     </list>
     </chapter>
 </topic>

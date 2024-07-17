@@ -84,11 +84,9 @@
                 <td>Öffnet eine Dropdown-Liste zur Auswahl der Taxonomiestufe (nach Krathwohl und Anderson).</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielMitEingabeunterstuetzungFormulieren.topic">Lernziel mit Eingabeunterstützung formulieren</a></li>
         </list>
     </chapter>
 </topic>

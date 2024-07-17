@@ -18,8 +18,8 @@
             </def>
         </deflist>
         <step>
-            <p>Klicken Sie auf den Button <b>Neu</b>.</p>
-            <img src="imageManualAuthoringStartseiteLernweltErstellenButtonCallout.png" alt="LernweltErstellenButtonCallout" width="200" thumbnail="true"/>
+            <p>Klicken Sie auf den Button <b>Neu</b>.
+            <img src="imageManualAuthoringStartseiteLernweltErstellenButtonCallout.png" alt="LernweltErstellenButtonCallout" width="200" thumbnail="true"/></p>
             <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Neue Lernwelt erstellen" wird angezeigt.</tip>
             <note>Im linken Bereich des Fensters erscheint ein weiteres Dialogfenster zur Angabe von Metadaten.
                 <img src="imageManualAuthoringStartseiteLernweltErstellenCallout.png" alt="LernweltErstellenCallout" width="200" thumbnail="true"/>
@@ -44,8 +44,8 @@
                 <tab id="allgemeines_lernwelt" title="Allgemein">
                     <procedure type="choices" id="allgemeines_tab_lernwelt" title="Allgemein">
                         <step>
-                            <p>Tragen Sie allgemeine Metadaten zur Ihrer Lernwelt ein:</p>
-                            <img src="imageManualAuthoringLernweltErstellenAllgemeinesCallout.png" alt="AllgemeinesCallout" width="200" thumbnail="true"/>
+                            <p>Tragen Sie allgemeine Metadaten zur Ihrer Lernwelt ein:
+                            <img src="imageManualAuthoringLernweltErstellenAllgemeinesCallout.png" alt="AllgemeinesCallout" width="200" thumbnail="true"/></p>
                         </step>
                         <step><b>Kurzname</b>
                             <p>Geben Sie den Kurznamen für Ihre Lernwelt an.</p>
@@ -65,8 +65,8 @@
                 <tab id="einschreibemethode_lernwelt" title="Einschreibemethode">
                     <procedure id="einschreibemethode_tab_lernwelt" title="Einschreibemethode">
                         <step>
-                            <p>Tragen Sie einen Einschreibeschlüssel zu Ihrer Lernwelt ein, wenn Sie den Zugriff zu dieser einschränken möchten.</p>
-                            <img src="imageManualAuthoringLernweltErstellenEinschreibemethodeCallout.png" alt="EinschreibemethodeCallout" width="200" thumbnail="true"/>
+                            <p>Tragen Sie einen Einschreibeschlüssel zu Ihrer Lernwelt ein, wenn Sie den Zugriff zu dieser einschränken möchten.
+                            <img src="imageManualAuthoringLernweltErstellenEinschreibemethodeCallout.png" alt="EinschreibemethodeCallout" width="200" thumbnail="true"/></p>
                             <tip>Wenn Sie nichts in das Feld eintragen, können sich alle Lernenden selbst in die Lernwelt einschreiben.</tip>
                         </step>
                     </procedure>
@@ -74,16 +74,16 @@
                 <tab id="lernziele_lernwelt" title="Lernziele">
                     <procedure id="lernziele_tab_lernwelt" title="Lernziele zur Lernwelt">
                         <step>
-                            <p>Formulieren Sie ein oder mehrere Lernziele für Ihre Lernwelt.</p>
-                            <img src="imageManualAuthoringLernweltErstellenLernzieleCallout.png" alt="LernzieleCallout" width="200" thumbnail="true"/>
+                            <p>Formulieren Sie ein oder mehrere Lernziele für Ihre Lernwelt.
+                            <img src="imageManualAuthoringLernweltErstellenLernzieleCallout.png" alt="LernzieleCallout" width="200" thumbnail="true"/></p>
                         </step>
                     </procedure>
                 </tab>
                 <tab id="beschreibung_lernwelt" title="Beschreibung">
                     <procedure id="beschreibung_tab_lernwelt" title="Beschreibung zur Lernwelt">
                         <step>
-                            <p>Beschreiben Sie das Thema Ihrer Lernwelt.</p>
-                            <img src="imageManualAuthoringLernweltErstellenBeschreibungCallout.png" alt="BeschreibungCallout" width="200" thumbnail="true"/>
+                            <p>Beschreiben Sie das Thema Ihrer Lernwelt.
+                            <img src="imageManualAuthoringLernweltErstellenBeschreibungCallout.png" alt="BeschreibungCallout" width="200" thumbnail="true"/></p>
                         </step>
                     </procedure>
                 </tab>
@@ -91,8 +91,8 @@
         </step>
 
         <step>
-            <p>Bestätigen Sie Ihre Angaben zur Lernwelt mit einem Klick auf den Button <b>OK</b>.</p>
-            <img src="imageManualAuthoringStartseiteLernweltErstellenOKButtonCallout.png" alt="OKButton" width="200" thumbnail="true"/>
+            <p>Bestätigen Sie Ihre Angaben zur Lernwelt mit einem Klick auf den Button <b>OK</b>.
+            <img src="imageManualAuthoringStartseiteLernweltErstellenOKButtonCallout.png" alt="OKButton" width="200" thumbnail="true"/></p>
         </step>
     </procedure>
 

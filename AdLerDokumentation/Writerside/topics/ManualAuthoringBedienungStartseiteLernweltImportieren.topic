@@ -20,16 +20,16 @@
             <p>Die zu importierende Lernwelt liegt als ZIP-Datei ab --> siehe <a href="">Lernwelt archivieren</a>.</p>
         </tip>
 
-        <step><p>Klicken Sie auf den Button <b>Importieren.</b></p>
-            <img src="imageManualAuthoringStartseiteLernweltImportierenButtonCallout.png" alt="LernweltImportierenButtonCallout" width="200" thumbnail="true"/>
+        <step><p>Klicken Sie auf den Button <b>Importieren.</b>
+            <img src="imageManualAuthoringStartseiteLernweltImportierenButtonCallout.png" alt="LernweltImportierenButtonCallout" width="200" thumbnail="true"/></p>
             <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Lernwelt als ZIP-Datei importieren (z.B. von anderem Rechner oder aus Sicherheitskopie)" wird angezeigt.</tip>
             <note>Es öffnet sich der Dateimanager, über den die Lernwelt als ZIP-Datei gesucht werden kann.</note>
         </step>
-        <step><p>Markieren Sie die zu importierende Lernwelt im Dateimanager.</p>
-            <img src="imageManualAuthoringStartseiteLernweltImportierenDateipfadCallout.png" alt="LernweltImportierenDateipfadCallout" width="200" thumbnail="true"/>
+        <step><p>Markieren Sie die zu importierende Lernwelt im Dateimanager.
+            <img src="imageManualAuthoringStartseiteLernweltImportierenDateipfadCallout.png" alt="LernweltImportierenDateipfadCallout" width="200" thumbnail="true"/></p>
         </step>
-        <step><p>Bestätigen Sie Ihre Angabe mit einem Klick auf den Button <b>Öffnen.</b></p>
-            <img src="imageManualAuthoringStartseiteLernweltImportierenDateiOeffnenCallout.png" alt="LernweltImportierenDateiOeffnenCallout" width="200" thumbnail="true"/>
+        <step><p>Bestätigen Sie Ihre Angabe mit einem Klick auf den Button <b>Öffnen.</b>
+            <img src="imageManualAuthoringStartseiteLernweltImportierenDateiOeffnenCallout.png" alt="LernweltImportierenDateiOeffnenCallout" width="200" thumbnail="true"/></p>
             <tip>Existiert bereits eine Lernwelt mit dem gleichen Namen im Autorentool, wird der importierten Lernwelt eine fortlaufende Nummer (Nr.) hinzugefügt.</tip>
         </step>
         <note>

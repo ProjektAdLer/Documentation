@@ -6,7 +6,7 @@
        title="Lernraum erstellen" id="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen">
 
     <show-structure for="chapter, procedure" depth="4"/>
-    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Verbindungen zwischen Lernräumen</a>.</p>
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Verbindungen zwischen Lernräumen</a>.</p>
 
     <procedure title="Übersicht" id="LernraumErstellenRechteSidebar">
         <deflist type="compact" sorted="desc">
@@ -18,10 +18,11 @@
                 <tip>In einer geöffneten Lernwelt kann über einen Button im Tab <control>Verbindungen zwischen Lernräumen</control> der Tab <control>Angaben zu Lernräumen</control> in der linken Sidebar geöffnet werden, um einen neuen Lernraum zu erstellen.
                     <img src="imageManualAuthoringLernraumButton.png" alt="LernraumErstellenButton" width="100" thumbnail="true"/>
                 </tip>
-                <step><p>Klicken Sie auf den Button, um in der <a href="ManualAuthoringSoftwarekomponentenLinkeSidebar.topic">linken Sidebar</a> den Tab <control>Angaben zu Lernräumen</control> zu öffnen.</p>
-                    <img src="imageManualAuthoringLernraumErstellenRechteSidebarButton.png" alt="LernraumErstellenButtonRechteSidebar" width="200" thumbnail="true"/>
+                <step><p>Klicken Sie auf den Button, um in der <a href="ManualAuthoringSoftwarekomponentenLinkeSidebar.topic">linken Sidebar</a> den Tab <control>Angaben zu Lernräumen</control> zu öffnen.
+                    <img src="imageManualAuthoringLernraumErstellenRechteSidebarButton.png" alt="LernraumErstellenButtonRechteSidebar" width="200" thumbnail="true"/></p>
                 </step>
-        <step><p>Befolgen Sie die weiteren Schritte der Bedienung <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic">Lernraum erstellen</a>. </p>
+        <step><p>Befolgen Sie die weiteren Schritte der Bedienung <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic">Lernraum erstellen</a>.</p>
         </step>
+        <note><control>&#10004; Sie haben erfolgreich das Erstellen eines neuen Lernraums eingeleitet.</control></note>
     </procedure>
 </topic>

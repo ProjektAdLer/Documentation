@@ -33,13 +33,13 @@
         </tip>
 
         <step>
-            <p>Fahren Sie mit der Maus über die zu öffnende Lernwelt.</p>
-            <img src="imageManualAuthoringLernweltOeffnenCallout.png" alt="LernwelOeffnenCallout" width="200" thumbnail="true"/>
+            <p>Fahren Sie mit der Maus über die zu öffnende Lernwelt.
+                <img src="imageManualAuthoringLernweltOeffnenCallout.png" alt="LernwelOeffnenCallout" width="200" thumbnail="true"/></p>
             <tip>Sobald die Maus über die als weißes Rechteck dargestellte Lernwelt fährt, erscheint ein zusätzlicher Button <control>Öffnen</control> auf dem Rechteck.</tip>
         </step>
         <step>
-            <p>Klicken Sie auf den Button <control>Öffnen</control>.</p>
-            <img src="imageManualAuthoringLernweltOeffnenButtonCallout.png" alt="LernwelOeffnenButtonCallout" width="200" thumbnail="true"/>
+            <p>Klicken Sie auf den Button <control>Öffnen</control>.
+            <img src="imageManualAuthoringLernweltOeffnenButtonCallout.png" alt="LernwelOeffnenButtonCallout" width="200" thumbnail="true"/></p>
             <tip>Sobald die Maus über den Button fährt, wird dieser mit einem dunkelblauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Lernwelt öffnen" wird angezeigt.</tip>
         </step>
         <note>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 986">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #172d4d;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        opacity: .6;
+      }
+    </style>
+  </defs>
+  <image width="1917" height="985" transform="" xlink:href="../../Screenshots_Autorentool/Bedienung/ManualAuthoringStoryelementErstellen3DDarstellung.png"/>
+  <g class="cls-2">
+    <path class="cls-1" d="M0,0v986h1920V0H0ZM494,778c0,8.3-6.7,15-15,15h-75c-8.3,0-15-6.7-15-15v-29c0-8.3,6.7-15,15-15h75c8.3,0,15,6.7,15,15v29Z"/>
+  </g>
+</svg>

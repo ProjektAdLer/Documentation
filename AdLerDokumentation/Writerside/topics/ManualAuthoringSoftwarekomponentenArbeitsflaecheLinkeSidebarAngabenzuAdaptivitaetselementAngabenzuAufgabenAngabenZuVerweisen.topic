@@ -55,7 +55,7 @@
                 <td>Bestätigt die Angaben zum Verweis.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVerweisHinzufuegen.topic">Verweis hinzufügen</a></li>
         </list>
