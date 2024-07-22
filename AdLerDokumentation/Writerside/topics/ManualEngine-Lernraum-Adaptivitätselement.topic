@@ -9,7 +9,7 @@
         <p>
             <a href="Adaptivitätselement-GE.md">Adaptivitätselemente</a> unterstützen Sie im individuellen Lernprozess,
             indem sie
-            Aufgaben mit unterschiedlichen Schwierigkeitsgraden geben und bei nicht erfolgreichem Abschluss Hinweise
+            Aufgaben mit unterschiedlichen Schwierigkeitsgraden stellen und bei nicht erfolgreichem Abschluss Hinweise
             anbieten.
         </p>
         <p>
@@ -24,8 +24,8 @@
             </p>
             <table>
                 <tr>
-                    <td>Icon 3D Ansicht</td>
-                    <td>Icon 2D Ansicht</td>
+                    <td>Icon 3D-Ansicht</td>
+                    <td>Icon 2D-Ansicht</td>
                 </tr>
                 <tr>
                     <td><img src="imageManualEngine_LernelementIconAdaptiv.png" alt="Lernelement_Icon_Adaptiv"
@@ -37,7 +37,7 @@
         </tip>
         <!--img src="imageManualEngine_AdaptivitaetselementFlow.png" alt="AdaptivitaetselementFlow" height="800"/-->
         <p>
-            Auf der ersten Ebene können Sie eine Aufgabe auswählen. Siehe <a href="Adaptivitätsaufgabe-GE.md"/>
+            Auf der ersten Ebene können Sie eine Aufgabe auswählen (Siehe <a href="Adaptivitätsaufgabe-GE.md"/>).
         </p>
         <img src="imageManualEngine_QuizStep1Callouts.png" alt="Quiz Callouts 1"/>
         <table>
@@ -58,7 +58,7 @@
             </tr>
             <tr>
                 <td>3</td>
-                <td>Schließen-Button</td>
+                <td><control>Schließen</control>-Button</td>
                 <td>Bei Klick wird das Fenster geschlossen</td>
             </tr>
             <tr>
@@ -70,18 +70,18 @@
                 <td>5</td>
                 <td>Zustände der Schwierigkeitsgrade</td>
                 <td>Hier wird angezeigt, welche Schwierigkeiten erforderlich zum Abschluss sind und inwiefern diese
-                    bereits bearbeitet wurden. Siehe: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"/></td>
+                    bereits bearbeitet wurden (Siehe: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"/>).</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>Titel des Themas</td>
-                <td>Zeigt den Titel des Themas an. Bei Klick öffnet sich die Schwierigkeitsauswahl des Themas.</td>
+                <td>Zeigt den Titel des Themas an. Bei Klick öffnet sich die Schwierigkeitsauswahl für das Thema.</td>
             </tr>
             <tr>
                 <td>7</td>
                 <td>Zustände der Aufgaben</td>
                 <td>Hier wird angezeigt, welche Aufgaben erforderlich zum Abschluss sind und inwiefern diese bereits
-                    bearbeitet wurden. Siehe: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"/></td>
+                    bearbeitet wurden (Siehe: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"/>).</td>
             </tr>
             <tr>
                 <td>8</td>
@@ -90,7 +90,7 @@
             </tr>
         </table>
         <p>
-            In der zweiten Ebene können verfügbare Schwierigkeiten und Hinweise zu der Aufgabe ausgewählt werden.
+            In der zweiten Ebene können verfügbare Schwierigkeiten und Hinweise zu der Aufgabe ausgewählt werden:
         </p>
         <img src="imageManualEngine_QuizStep2Callouts.png" alt="Quiz Callouts 2"/>
         <table>
@@ -101,8 +101,8 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Zurück-Button</td>
-                <td>Wechselt bei Klick zur vorherigen Ansicht.</td>
+                <td><control>Zurück</control>-Button</td>
+                <td>Wechselt bei Klick zur vorherigen Ansicht</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -111,7 +111,7 @@
             </tr>
             <tr>
                 <td>3</td>
-                <td>Schließen-Button</td>
+                <td><control>Schließen</control>-Button</td>
                 <td>Bei Klick wird das Fenster geschlossen</td>
             </tr>
             <tr>
@@ -123,23 +123,23 @@
                 <td>5</td>
                 <td>Zustände der Schwierigkeitsgrade</td>
                 <td>Hier wird angezeigt, welche Schwierigkeiten erforderlich zum Abschluss sind und inwiefern diese
-                    bereits bearbeitet wurden. Siehe: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"/></td>
+                    bereits bearbeitet wurden (Siehe: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"/>).</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>Titel des Themas</td>
-                <td>Zeigt den Titel des Themas an. Bei Klick öffnet sich die Schwierigkeitsauswahl des Themas.</td>
+                <td>Zeigt den Titel des Themas an. Bei Klick öffnet sich die Schwierigkeitsauswahl für das Thema.</td>
             </tr>
             <tr>
                 <td>7</td>
                 <td>Zustände der Aufgaben</td>
                 <td>Hier wird angezeigt, welche Aufgaben erforderlich zum Abschluss sind und inwiefern diese bereits
-                    bearbeitet wurden. Siehe: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"/></td>
+                    bearbeitet wurden (Siehe: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"/>).</td>
             </tr>
             <tr>
                 <td>8</td>
                 <td>Hinweis-Button</td>
-                <td>Zeigt bei Klick Hinweise an.</td>
+                <td>Zeigt bei Klick Hinweise an</td>
             </tr>
             <tr>
                 <td>9</td>
@@ -148,8 +148,8 @@
             </tr>
         </table>
         <p>
-            Auf der dritten Ebene werden die Fragen gestellt und Hinweise angezeigt. Siehe <a
-                href="Adaptivitätsfrage-GE.md"/>, <a href="Adaptivitätshinweis-GE.md"/>
+            Auf der dritten Ebene werden die Fragen gestellt und Hinweise angezeigt (Siehe <a
+                href="Adaptivitätsfrage-GE.md"/>, <a href="Adaptivitätshinweis-GE.md"/>):
         </p>
         <img src="imageManualEngine_QuizStep3Callouts.png" alt="Quiz Callouts 3"/>
         <table>
@@ -160,8 +160,8 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Zurück-Button</td>
-                <td>Wechselt bei Klick zur vorherigen Ansicht.</td>
+                <td><control>Zurück</control>-Button</td>
+                <td>Wechselt bei Klick zur vorherigen Ansicht</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -170,7 +170,7 @@
             </tr>
             <tr>
                 <td>3</td>
-                <td>Schließen-Button</td>
+                <td><control>Schließen</control>-Button</td>
                 <td>Bei Klick wird das Fenster geschlossen</td>
             </tr>
             <tr>
@@ -185,11 +185,11 @@
             </tr>
             <tr>
                 <td>6</td>
-                <td>"Antworten abgeben"-Button</td>
+                <td><control>Antworten-abgeben</control>-Button</td>
                 <td>Bei Klick werden die ausgewählten Antworten abgegeben und überprüft.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen:</p>
         <list>
             <li><a href="ManualEngine-Adaptivitätselement-bedienen.topic"/></li>
         </list>

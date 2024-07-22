@@ -6,7 +6,7 @@
        title="Hilfe-Menü" id="ManualEngine-Hilfe-Menü">
 
     <chapter title="Produktbeschreibung" id="bezeichnung_produktteil">
-        <p>Über das Hilfe-Menü können die AdLer Bedienungsanleitung aufgerufen und Fehler gemeldet werden.</p>
+        <p>Über das Hilfe-Menü können die AdLer-Bedienungsanleitung aufgerufen und Fehler gemeldet werden.</p>
         <note>Das Hilfe-Menü kann durch Klick auf den Fragezeichen-Button aufgerufen werden.
             <img src="imageManualEngine_HilfeMenueOeffnen.png" alt="Image Manual Engine Hilfe Menue Oeffnen" width="50"/>
         </note>
@@ -19,26 +19,26 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td><control>AdLer Engine Bedienungsanleitung</control> Button</td>
-                <td>Öffnet bei Klick die AdLer Engine Bedienungsanleitung</td>
+                <td>Button <control>AdLer Engine Bedienungsanleitung</control></td>
+                <td>Öffnet bei Klick die AdLer-Engine-Bedienungsanleitung</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td><control>Bug Report</control> Button</td>
+                <td>Button <control>Bug Report</control></td>
                 <td>Öffnet bei Klick das Bug-Report-Formular zum Melden von Fehlern</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td><control>Log Export für Bug Report</control> Button</td>
+                <td>Button <control>Log Export für Bug Report</control> </td>
                 <td>Speichert bei Klick eine Log-Datei der AdLer-Session für den Bug-Report</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Schließen Button</td>
+                <td><control>Schließen</control>-Button</td>
                 <td>Schließt bei Klick das Hilfe-Menü</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen:</p>
         <list>
             <li><a href="ManualEngine-Bug-Report-senden.topic"/></li>
         </list>

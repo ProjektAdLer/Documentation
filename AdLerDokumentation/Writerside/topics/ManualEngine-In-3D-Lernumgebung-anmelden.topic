@@ -9,8 +9,8 @@
 
     <procedure title="Login" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
-            <def title="&#127937;">
-                <p>Als Nutzer in die 3D-Lernumgebung anmelden.</p>
+            <def title="&#127937; Ziel der Handlung">
+                <p>Als Nutzer in der 3D-Lernumgebung anmelden.</p>
             </def>
         </deflist>
 
@@ -42,7 +42,7 @@
                 neben den Eingabefeldern.
             </p>
             <tip>Sollte der Login nicht funktionieren, erscheint ein Hinweisfeld
-                <control>Login fehlgeschlagen. Bitte überprüfen sie Ihre Eingaben.</control>
+                <control>"Login fehlgeschlagen. Bitte überprüfen sie Ihre Eingaben."</control>
                 Überprüfen Sie Ihre Login-Eingaben und versuchen Sie es erneut.<img
                         src="imageManualEngine_startmenu_errorlogin_highlight.png" alt="Login fehlgeschlagen Warnung"/>
             </tip>

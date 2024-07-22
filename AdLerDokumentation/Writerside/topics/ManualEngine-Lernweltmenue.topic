@@ -6,7 +6,7 @@
        title="Lernweltmenü" id="ManualEngine-Lernweltmenue" help-id="ManualEngine-Lernweltmenü">
 
     <chapter title="Produktbeschreibung" id="bezeichnung_produktteil">
-        <p>Eine Übersicht und Beschreibung der auswählbaren Lernwelten.</p>
+        <p>Eine Übersicht und Beschreibung der auswählbaren Lernwelten:</p>
         <img src="imageManualEngine_CalloutsLernwerltmenue.png" alt="240502_Callouts_Lernweltmenü.png"/>
         <table>
             <tr>
@@ -16,42 +16,42 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Startmenü-Button</td>
+                <td><control>Startmenü</control>-Button</td>
                 <td>Öffnet bei Klick das Startmenü</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Lernwelt-Button</td>
-                <td>Öffnet bei Klick Detailansicht zu einer Lernwelt</td>
+                <td><control>Lernwelt</control>-Button</td>
+                <td>Öffnet bei Klick die Detailansicht einer Lernwelt</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Bezeichnung Lernwelt</td>
+                <td>Bezeichnung der Lernwelt</td>
                 <td>Stellt den Namen der Lernwelt dar</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Beschreibung Lernwelt</td>
+                <td>Beschreibung der Lernwelt</td>
                 <td>Stellt die Beschreibung der Lernwelt dar</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>"Lernwelt öffnen"-Button</td>
+                <td><control>Lernwelt-öffnen</control>-Button</td>
                 <td>Öffnet bei Klick das Lernraummenü der ausgewählten Lernwelt</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Hilfe-Menü-Button</td>
+                <td><control>Hilfe-Menü</control>-Button</td>
                 <td>Öffnet bei Klick das Hilfe-Menü</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Lernräume Übersicht</td>
+                <td>Übersicht der Lernräume</td>
                 <td>Stellt den Lernraum-Namen und erfolgreichen Abschluss (grüner Haken) dar</td>
             </tr>
             <tr>
                 <td>8</td>
-                <td>Auflistung Lernziele</td>
+                <td>Auflistung der Lernziele</td>
                 <td>Stellt ein oder mehrere Lernziele untereinander dar </td>
             </tr>
         </table>

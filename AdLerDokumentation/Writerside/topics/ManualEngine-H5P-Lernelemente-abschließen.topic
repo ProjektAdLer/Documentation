@@ -7,7 +7,7 @@
 
     <procedure title="H5P-Elemente abschließen" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
-            <def title="&#127937;">
+            <def title="&#127937; Ziel der Handlung">
                 <p><a href="H5P-GE.md">H5P-Elemente</a> öffnen und vollständig abschließen.</p>
             </def>
         </deflist>
@@ -17,7 +17,7 @@
             <img src="imageManualEngine_h5p_step01.png" alt="H5P_01" width="500"/>
             <note>Ein H5P-Fenster öffnet sich im Lernraum.</note>
         </step>
-        <step><p>H5P-Elemente bearbeiten: Befolgen Sie die angezeigten Anweisungen, meistens das Auswählen von Antworten
+        <step><p>H5P-Elemente bearbeiten: Befolgen Sie die angezeigten Anweisungen, etwa durch das Auswählen von Antworten
             und drücken eines Weiter-Buttons.</p>
             <tip>H5P-Lernelemente können aus verschiedenen Medientypen bestehen, bspw. Präsentationsfolien, Videos,
                 Audios, Online-Quellen, Zusammenfassungen, Multiple-/Single-Choice-Aufgaben, Lückentexte,
@@ -29,14 +29,14 @@
         </step>
         <step>
             <p>Einsehen der Ergebnisse: Am Ende jeder Aufgabe oder Aufgabenfolge können Sie Ihre Ergebnisse einsehen.
-                Sollten Sie Fehler gemacht haben können Sie die Aufgaben jederzeit wiederholen ("Retry"-Button) oder die
+                Sollten Sie Fehler gemacht haben, können Sie die Aufgaben jederzeit wiederholen ("Retry"-Button) oder die
                 Lösungen einsehen ("Show Solutions"-Button).</p>
             <img src="imageManualEngine_h5p_step05.png" alt="H5P_05" width="500"/>
             <warning>
                 <p>Zur Anrechnung der erzielten Punkte ist es zwingend erforderlich die Ergebnis-Seite (Summary)
                     aufzurufen, erst dann ist ein vollständiger Abschluss möglich.</p>
                 <p>Sollte keine Ergebnis-Seite im H5P-Lernelement eingebaut sein, ist diese auch nicht zum Abschluss
-                    erforderlich. Dies ist meist bei Elementen ohne Interaktion der Fall, wie bspw. dem Ansehen eines
+                    erforderlich. Dies ist meist bei Elementen ohne Interaktion der Fall, wie bspw. beim Ansehen eines
                     Dokumentes ohne Fragen.</p>
             </warning>
         </step>

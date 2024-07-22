@@ -6,8 +6,8 @@
        title="Lernraummenü" id="ManualEngine-Lernraummenü">
 
     <chapter title="Produktbeschreibung" id="bezeichnung_produktteil">
-        <p>Im Lernraummenü erhält der Lernende eine Übersicht über die gesamte Lernwelt und den aktuellen Lernfortschritt.
-        In diesem Menü werden Informationen zu einzelnen Lernräumen angezeigt und Lernräume geöffnet.</p>
+        <p>Im Lernraummenü erhalten Lernende eine Übersicht über die gesamte Lernwelt und den aktuellen Lernfortschritt.
+        In diesem Menü werden Informationen zu einzelnen Lernräumen angezeigt und Lernräume geöffnet.</p> [//]: # (TODO: RR: Verlinkungen der Begriffe, z.B. Lernende zum Glossar ?)
         <img alt="imageManualEngine-230326_Callouts_Lernraummenue.png" src="imageManualEngine-230326_Callouts_Lernraummenue.png"/>
         <table>
             <tr>
@@ -17,91 +17,92 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Startmenü-Button</td>
+                <td><control>Startmenü</control>-Button</td>
                 <td>Öffnet bei Klick das Startmenü</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Lernweltmenü-Button</td>
+                <td><control>Lernweltmenü</control>-Button</td>
                 <td>Öffnet bei Klick das Lernweltmenü</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Lernpfad-Darstellung-Switch-Button</td>
+                <td><control>Lernpfad-Darstellung</control>-Button (Switch)</td>
                 <td>Ändert bei Klick die Ansicht zwischen Listen- und Graphansicht des Lernpfads</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Lernraum-Button freigeschaltet</td>
+                <td><control>Lernraum</control>-Button (freigeschaltet)</td>
                 <td>Öffnet bei Klick die Detailansicht zu einem betretbaren Lernraum</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Lernraum-Button abgeschlossen</td>
+                <td><control>Lernraum</control>-Button (abgeschlossen)</td>
                 <td>Öffnet bei Klick die Detailansicht zu einem abgeschlossenen Lernraum</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Bezeichnung Lernwelt</td>
+                <td>Bezeichnung der Lernwelt</td>
                 <td>Stellt den Namen der Lernwelt dar</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Bezeichnung Lernraum</td>
+                <td>Bezeichnung des Lernraums</td>
                 <td>Stellt den Namen des Lernraums dar</td>
             </tr>
             <tr>
                 <td>8</td>
-                <td>Beschreibung Lernraum</td>
+                <td>Beschreibung des Lernraums</td>
                 <td>Stellt die Beschreibung des Lernraums dar</td>
             </tr>
             <tr>
                 <td>9</td>
-                <td>"Lernraum betreten"-Button</td>
-                <td>Öffnet bei Klick den aktuell ausgewählten Lernraum (Lernraum-Button mit blauem Hintergrund)</td>
+                <td><control>Lernraum-betreten</control>-Button</td>
+                <td>Öffnet bei Klick den aktuell ausgewählten Lernraum (<control>Lernraum</control>-Button mit blauem Hintergrund)</td>
             </tr>
             <tr>
                 <td>10</td>
-                <td>Hilfe-Menü-Button</td>
+                <td><control>Hilfe-Menü</control>-Button</td>
                 <td>Öffnet bei Klick das Hilfe-Menü</td>
             </tr>
             <tr>
                 <td>11</td>
-                <td>Graphenansicht Bedienfeld</td>
-                <td>Hiermit kann der Lernpfad vergrößert, verkleinert und ins Bild eingepasst werden</td>
+                <td>Graphenansicht des Bedienfelds</td>
+                <td>Hiermit kann der Lernpfad vergrößert, verkleinert und ins Bild eingepasst werden.</td>
             </tr>
             <tr>
                 <td>12</td>
                 <td>Logische Verknüpfung im Lernpfad</td>
                 <td>
-                    <p>Ausgangspfade von Lernräumen können mit logischen Operatoren verarbeitet werden. </p>
-                    <p>Es gibt <control>"UND"</control>- und <control>"ODER"</control>-Verknüpfungen </p>
-                    <p>In diesem Beispiel ist der Abschluss Lernraum erst verfügbar wenn die beiden vorherigen Räume abgeschlossen wurden </p>
+                    <p>Ausgangspfade von Lernräumen können mit logischen Operatoren verarbeitet werden.</p>
+                    <p>Es gibt <control>"UND"</control>- und <control>"ODER"</control>-Verknüpfungen.</p>
+                    <p>In diesem Beispiel ist der Lernraum "Abschluss" erst verfügbar, wenn die beiden vorherigen Räume abgeschlossen wurden.</p>
                 </td>
             </tr>
             <tr>
                 <td>13</td>
-                <td>Lernraum-Button gesperrt</td>
-                <td><p>Informationen zu diesem Lernraum können bereits betrachtet werden. </p><p> Es ist noch nicht möglich den Lernraum zu starten. Zuerst müssen die vorherigen Lernräume abgeschlossen sein.</p></td>
+                <td><control>Lernraum</control>-Button (gesperrt)</td>
+                <td><p>Informationen zu diesem Lernraum können bereits betrachtet werden. </p><p>Es ist aber noch nicht möglich, den Lernraum zu starten. Zuerst müssen die vorherigen Lernräume abgeschlossen sein.</p></td>
             </tr>
             <tr>
                 <td>14</td>
-                <td>Lernraum-Abschluss-Voraussetzungen</td>
-                <td>Darstellung der erforderlichen Punktzahl zum Abschluss des Lernraums und der maximal erreichbare Punktzahl im Lernraum</td>
+                <td>Voraussetzungen für den Abschluss des Lernraums</td>
+                <td>Darstellung der erforderlichen Punktzahl zum Abschluss des aktuell ausgewählten Lernraums und der maximal erreichbaren Punktzahl in diesem Lernraum</td>
             </tr>
             <tr>
                 <td>15</td>
-                <td>Lernelemente Übersicht</td>
-                <td>Darstellung der einzelnen Lernelemente des Lernraums mit folgenden Informationen
+                <td>Übersicht der Lernelemente</td>
+                <td>Darstellung der einzelnen Lernelemente des aktuell ausgewählten Lernraums mit folgenden Informationen:
                     <list>
                         <li>Lernelement-Typ</li>
                         <li>Lernelement-Name</li>
-                        <li>Erhaltene Punkte im Lernelement</li>
-                        <li>Maximal erreichbare Punkte im Lernelement</li>
+                        <li>Bisher im Lernelement erhaltene Punkte </li>
+                        <li>Maximal im Lernelement erreichbare Punkte </li>
                     </list></td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen:</p>
+        [//]: # (TODO: RR: Verlinkungen ergänzen)
         <list>
             <li>Lernwelt abschließen</li>
             <li>Lernraum öffnen</li>

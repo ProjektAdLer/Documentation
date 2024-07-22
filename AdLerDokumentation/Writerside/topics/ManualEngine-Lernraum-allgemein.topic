@@ -8,7 +8,7 @@
     <chapter title="Lernraum" id="bezeichnung_produktteil">
         <p>
             Die 3D-Darstellung eines Lernraums stellt alle Lernelemente als 3D-Modelle dar.
-            Der Benutzer kann diese mit Hilfe seines Avatars ansteuern und diese anschließend bearbeiten.
+            Die Lernenden können diese mit Hilfe ihres Avatars ansteuern und diese anschließend bearbeiten.
         </p>
     <img src="imageManualEngine_LernraumAllgemeinCallouts.png" alt="Screenshot Lernraum mit Callouts"/>
         <table>
@@ -19,7 +19,7 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Titel Lernraum</td>
+                <td>Titel des Lernraums</td>
                 <td>Titel und Symbol des Lernraums</td>
             </tr>
             <tr>
@@ -30,17 +30,17 @@
             <tr>
                 <td>3</td>
                 <td>Erhaltene und erforderliche Punktzahl</td>
-                <td>Links stehen die bisher erhaltenen Punkte, rechts die mindestens erforderlichen zum Abschluss des Lernraums.</td>
+                <td>Links stehen die bisher erhaltenen Punkte, rechts die zum Abschluss des Lernraums mindestens erforderlichen Punkte .</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Fortschrittsanzeige</td>
-                <td>Zeigt den Fortschritt in Prozent an. </td>
+                <td>Zeigt den Fortschritt in Prozent an </td>
             </tr>
             <tr>
                 <td>5</td>
                 <td><a href="Lernraum-Navigationsmenü.topic"/></td>
-                <td>Bei Klick öffnet sich das Lernraum-Navigationsmenü</td>
+                <td>Bei Klick öffnet sich das Lernraum-Navigationsmenü.</td>
             </tr>
             <tr>
                 <td>6</td>
@@ -70,10 +70,10 @@
             <tr>
                 <td>11</td>
                 <td><a href="ManualEngine-Lernraum-Lernelement.topic">Lernelement</a></td>
-                <td>Dies sind Lernelemente innerhalb des Lernraums. Bei Klick öffnet sich dieses.</td>
+                <td>Dies sind Lernelemente innerhalb des Lernraums. Bei Klick auf ein Lernelement öffnet sich dieses.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen:</p>
         <list>
             <li><a href="ManualEngine-Lernraum-öffnen.topic"/></li>
             <li><a href="ManualEngine-Lernraum-wechseln.topic"/></li>

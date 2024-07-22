@@ -7,7 +7,7 @@
 
     <procedure title="Einfache Elemente abschließen" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
-            <def title="&#127937;">
+            <def title="&#127937; Ziel der Handlung">
                 <p>Ein einfaches <a href="ManualEngine-Lernraum-Lernelement.topic">Lernelement</a> (Text, Bild, Video)
                     öffnen und schließen.</p>
             </def>
