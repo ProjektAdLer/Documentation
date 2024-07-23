@@ -338,6 +338,7 @@
 
             <p><u>Element-Karte/Slots:</u></p>
                 <img src="imageAuthoringToolOberflaechenElementKarteSlots.png" alt=""/>
+            [//]: # (TODO: RR: Dieser Button hat einen schlechten Kontrast, daher ev. nicht barrierefrei)
             <p>Breite der Element-Karte/Slots bei Breite X des Autorentools:</p>
                 <list>
                     <li>72px bei 640px (sm)</li>
@@ -410,7 +411,7 @@
                 <step>
                 <p>
                     <control>Die Sortierung der Elemente innerhalb der hierarchischen Darstellung des Autorentools muss
-                        standardmäßig wie folgt sein.
+                        standardmäßig wie folgt sein:
                     </control>
                 </p>
 
@@ -449,7 +450,7 @@
     <step>
             <p>
                 <control>Die Gestaltung der erstellten und importierten Lernwelt (Lernwelt-Karte) auf der Startseite
-                    muss wie folgt sein.
+                    muss wie folgt sein:
                 </control>
             </p>
         <p><u>Lernwelt-Karte:</u></p>
@@ -473,7 +474,7 @@
     </step>
     <step>
                 <p>
-                    <control>Die Gestaltung der linken und rechten Sidebar muss wie folgt sein.</control>
+                    <control>Die Gestaltung der linken und rechten Sidebar muss wie folgt sein:</control>
                 </p>
 
     <p><u>Linke und Rechte Sidebar:</u></p>
@@ -486,7 +487,7 @@
     <step>
                 <p>
                     <control>Der Erstellungsdialog zu Lernwelt/Lernraum/Storyelement/Lernelement/Adaptivitätselement in
-                        der linken Sidebar muss standardmäßig wie folgt sein.
+                        der linken Sidebar muss standardmäßig wie folgt sein:
                     </control>
                 </p>
 
@@ -504,7 +505,7 @@
 
             <p><u>Infotext:</u></p>
                 <list>
-                    <li>Text: * Erforderliche Angabe (bei deutscher Spracheinstellung)</li>
+                    <li>Text: "* Erforderliche Angabe" (bei deutscher Spracheinstellung)</li>
                     <li>Textfarbe: <a href="#adlergrey-200" summary="rgb(204,204,204)" alt="">adlergrey-200</a></li>
                     <li>Textgröße: 12px</li>
                     <li>Position des Textes: links oben</li>
@@ -523,7 +524,7 @@
     </step>
             <step>
                 <p>
-                    <control>Die Gestaltung des Grundrisses im mittleren Fenster muss wie folgt sein.</control>
+                    <control>Die Gestaltung des Grundrisses im mittleren Fenster muss wie folgt sein:</control>
                 </p>
         <p><u>Grundriss:</u></p>
                 <img src="imageAuthoringToolOberflaechenGrundrissMittleresFenster.png" alt=""/>
@@ -535,7 +536,7 @@
             </step>
             <step>
                 <p>
-                    <control>Die Farbe der Icons muss wie folgt sein.</control>
+                    <control>Die Farbe der Icons muss wie folgt sein:</control>
                 </p>
         <p><u>Erlaubte Farben:</u></p>
                 <list>
@@ -547,7 +548,7 @@
             </step>
             <step>
                 <p>
-                    <control>Die Gestaltung der Elementkarten muss wie folgt sein.</control>
+                    <control>Die Gestaltung der Elementkarten muss wie folgt sein:</control>
                 </p>
         <p><u>Elementkarten:</u></p>
                 <img src="imageAuthoringToolOberflaechenElementkarten.png" alt=""/>
