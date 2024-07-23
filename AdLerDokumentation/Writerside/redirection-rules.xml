@@ -168,4 +168,8 @@
         </description>
         <accepts>ASE8.html</accepts>
     </rule>
+    <rule id="20a442a6">
+        <description>Created after removal of "Storyelement" from AdLerDokumentation</description>
+        <accepts>Storyelement-Didaktik-GE.html</accepts>
+    </rule>
 </rules>

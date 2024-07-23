@@ -21,7 +21,14 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Bei einem Storyelement handelt es sich um ein spezielles <a href="Lernelement-GE.md"></a>, welches kein
+            Ein Storyelement ist ein grundlegender Bestandteil einer Erzählung, der zur Entwicklung der Handlung, 
+            Charaktere oder des Settings beiträgt. Zu den typischen Storyelementen gehören Plot, Charaktere, Schauplatz, 
+            Konflikt und Auflösung. Diese Elemente arbeiten zusammen, um eine kohärente und fesselnde Geschichte zu schaffen, 
+            die die Leser oder Zuschauer in die Erzählung eintauchen lässt. 
+            In verschiedenen Medien wie Literatur, Film und Videospielen sind Storyelemente entscheidend, 
+            um das Interesse und die emotionale Bindung des Publikums zu fördern. 
+            Ein gut durchdachtes Storyelement kann die Tiefe und Komplexität einer Geschichte erheblich bereichern.<br/>
+            Im AdLer System handelt es sich bei einem Storyelement um ein spezielles <a href="Lernelement-GE.md"></a>, welches kein
             <a href="Lernmaterial-GE.md"></a> beinhaltet, sondern stattdessen Texte enthält, die den 
             <a href="Lernende-GE.md">Lernenden</a> entweder bei Betreten oder Verlassen eines 
             <a href="Lernraum-GE.md">Lernraums</a> angezeigt werden. Mittels dieser Elemente soll 
@@ -47,6 +54,6 @@
     </tr>
    <tr>
         <td>Quelle</td>
-        <td></td>
+        <td>Hillmayer, M. (2022). Zwischen Spiel und Story: <i>Mimetische Strukturen im Computerspiel</i>. Transcript Verlag.</td>
     </tr>
 </table>

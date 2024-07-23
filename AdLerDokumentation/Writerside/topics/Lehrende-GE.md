@@ -21,7 +21,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Lehrende sind die Personen, die das <a href="Autorentool-GE.md"></a>
+            Lehrende sind die Personen, die das <a href="Autorentool-GE.md">Autorentool</a>
             im Betrieb verwenden.
         </td>
     </tr>  
