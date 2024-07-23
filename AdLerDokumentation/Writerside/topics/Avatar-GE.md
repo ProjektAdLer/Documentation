@@ -20,11 +20,14 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Der Avatar ist die 3D-Repräsentation des <a href="Lernende-GE.md">Lernenden</a> in den begehbaren <a href="Lernraum-GE.md">Lernräumen</a> der <a href="Engine-GE.md"></a>.</td>
+        <td id="summary">
+            Der Avatar ist die 3D-Repräsentation des <a href="Lernende-GE.md">Lernenden</a> 
+            in den begehbaren <a href="Lernraum-GE.md">Lernräumen</a> der <a href="Engine-GE.md"></a>.
+        </td>
     </tr>  
     <tr>
         <td>Siehe auch</td>
-        <td><a href="Lernende-GE.md"></a></td>
+        <td><a href="Lernende-GE.md"/>, <a href="Avatar-in-Spielen-GE.md"/></td>
     </tr>
     <tr>
         <td>Akronym</td>

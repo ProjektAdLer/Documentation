@@ -752,7 +752,23 @@
                     </toc-element>
                 </toc-element>
             </toc-element>
-            <toc-element topic="Handreichung-Didaktik-BD.md"/>
+            <toc-element topic="Handreichung-Didaktik-BD.md">
+                <toc-element topic="Didaktik-Zielgruppen-BD.md"/>
+                <toc-element topic="Didaktik-Microlearning-BD.md"/>
+                <toc-element topic="Didaktik-Autorentool-BD.md">
+                    <toc-element topic="Didaktik-Autorentool-Game-Design-Elemente-BD.md"/>
+                    <toc-element topic="Didaktik-Autorentool-Lernziele.md"/>
+                    <toc-element topic="Didaktik-Autorentool-Adaptivitaetselement-BD.md"/>
+                </toc-element>
+                <toc-element topic="Didaktik-3D-Lernumgebung-BD.md">
+                    <toc-element topic="Didaktik-Lernumgebung-Game-Design-Elemente-BD.md"/>
+                    <toc-element topic="Didaktik-Lernumgebung-Lernziele-BD.md"/>
+                    <toc-element topic="Didaktik-Lernumgebung-Adaptivitaetselemente-BD.md"/>
+                    <toc-element topic="Didaktik-Lernumgebung-Unterstuetzung-Kompetenzentwicklung-Pausen-BD.md"/>
+                </toc-element>
+                <toc-element topic="Didaktik-Grenzen-von-AdLer-BD.md"/>
+                <toc-element topic="Didaktik-Literaturverzeichnis-BD.md"/>
+            </toc-element>
         </toc-element>
         <toc-element topic="Lernende-BD.md">
             <toc-element topic="ManualEngine-Leistungsbeschreibung.topic"/>
@@ -818,6 +834,8 @@
     </toc-element>
     <toc-element topic="Glossar.md">
         <toc-element topic="A.md">
+            <toc-element topic="Avatar-in-Spielen-GE.md"/>
+            <toc-element topic="Adaptivitaet-in-der-Bildung-GE.md"/>
             <toc-element topic="Adaptivitätsaufgabe-GE.md"/>
             <toc-element topic="Adaptivitätselement-GE.md"/>
             <toc-element topic="Adaptivitätsfrage-GE.md"/>
@@ -835,6 +853,7 @@
             <toc-element topic="Betrachtungsgegenstand-GE.md"/>
         </toc-element>
         <toc-element topic="C.md">
+            <toc-element topic="Constructive-Alignment-GE.md"/>
             <toc-element topic="context-id-moodle-VP.md"/>
             <toc-element topic="CRUDSP-GE.md"/>
             <toc-element topic="Cutscene-GE.md"/>
@@ -850,20 +869,27 @@
             <toc-element topic="Entwickelnde-GE.md"/>
             <toc-element topic="Externes-Lernelement-GE.md"/>
         </toc-element>
-        <toc-element topic="F.md"/>
+        <toc-element topic="F.md">
+            <toc-element topic="Flow-erleben-GE.md"/>
+            <toc-element topic="Flipped-Teaching-GE.md"/>
+        </toc-element>
         <toc-element topic="G.md">
+            <toc-element topic="Game-based-Learning-GE.md"/>
             <toc-element topic="Generator-GE.md"/>
         </toc-element>
         <toc-element topic="H.md">
             <toc-element topic="H5P-GE.md"/>
         </toc-element>
         <toc-element topic="I.md">
+            <toc-element topic="Immersionseffekte-GE.md"/>
             <toc-element topic="instance-id-moodle-VP.md"/>
         </toc-element>
         <toc-element topic="J.md"/>
         <toc-element topic="K.md"/>
         <toc-element topic="Kurskategorie-VP.md"/>
         <toc-element topic="L.md">
+            <toc-element topic="Lernpausen-GE.md"/>
+            <toc-element topic="Lernmotivation-GE.md"/>
             <toc-element topic="Lernmaterial-GE.md"/>
             <toc-element topic="Lernpfad-XZ.md"/>
             <toc-element topic="Lernelement-GE.md"/>
@@ -876,6 +902,7 @@
             <toc-element topic="Lernende-GE.md"/>
         </toc-element>
         <toc-element topic="M.md">
+            <toc-element topic="Multiplayer-GE.md"/>
             <toc-element topic="modul-moodle-VP.md"/>
             <toc-element topic="module-id-moodle-VP.md"/>
             <toc-element topic="MBZ-GE.md"/>
@@ -898,11 +925,14 @@
             <toc-element topic="Release-Set-VP.md"/>
         </toc-element>
         <toc-element topic="S.md">
+            <toc-element topic="Serious-Games-GE.md"/>
             <toc-element topic="Storyelement-GE.md"/>
             <toc-element topic="Section-VP.md"/>
             <toc-element topic="Spezifikation-GE.md"/>
         </toc-element>
         <toc-element topic="T.md">
+            <toc-element topic="Taxonomie-nach-Anderson-und-Krathwohl-GE.md"/>
+            <toc-element topic="Taxonomie-nach-Bloom-GE.md"/>
             <toc-element topic="Theme-GE.md"/>
             <toc-element topic="Technische-Dokumentation-GE.md"/>
             <toc-element topic="Testdokumentation-GE.md"/>
