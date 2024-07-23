@@ -161,8 +161,7 @@
             <img src="imageManualDidaktik_Abbildung_Beispiel Eingabeunterstützung für Lernziele_Autorentool.JPG" alt="Beispiel eines leeren Lernziel-Eingabeunterstützungs-Fensters im Autorentool" width="675"/>
             <br/>
             <p>In folgendem Video ist ein praktisches Beispiel für Eingabeunterstützung für Lernziele im Autorentool zu sehen. </p>
-            <p><i>Video nicht verfügbar</i></p>
-            <!--video src="videoManualDidaktik_" alt="Beispiel-Video für Lernziele mit Eingabeunterstützung" preview-src="videoManualDidaktik_" width="675"/-->
+            <video src="videoManualDidaktik_Lernziele_Autorentool.mp4" alt="Beispiel-Video für Lernziele mit Eingabeunterstützung" preview-src="videoManualDidaktik_Lernziele_Autorentool.png" width="675"/>
         </procedure>
     </chapter>
 </chapter>
