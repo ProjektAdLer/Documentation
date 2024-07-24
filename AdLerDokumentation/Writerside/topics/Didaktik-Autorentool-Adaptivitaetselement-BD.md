@@ -11,7 +11,7 @@
             Dafür entwickelte er eine Lehrstrategie, bei der Inhalte in Einheiten präsentiert und durch formative Bewertungen begleitet werden. 
             Das Feedback aus diesen Bewertungen zeigt, ob und welche Korrekturen im Unterricht notwendig sind, die dann umgesetzt werden, 
             um Wissenslücken zu schließen. Mit dieser Methode kam Bloom (1984) zu dem Ergebnis, dass individuelle Lehre 
-            (<i>„one to one teaching“</i>), aufgrund der Möglichkeit auf den Fortschritt und die Bedürfnisse der einzelnen Lernenden einzugehen, 
+            (<i>„one to one teaching“</i>) aufgrund der Möglichkeit auf den Fortschritt und die Bedürfnisse der einzelnen Lernenden einzugehen, 
             Vorteile gegenüber herkömmlicher Lehre (<i>„one size fits all“</i>) bietet. 
             Im aktuellen Diskurs wird adaptives Lernen als aufstrebende pädagogische und technologische Innovation im Hochschulbereich angesehen 
             <a href="Didaktik-Literaturverzeichnis-BD.md#15-New-Media-Consortium-2018">(New Media Consortium, 2018)</a>. 
@@ -42,7 +42,7 @@
     <chapter title="Bedeutung des Wissenstands" id="Didaktik-Wissensstand" collapsible="true" default-state="expanded">
         <p>
             Das AdLer-System misst mit Hilfe des Adaptivitätselements (ADAPE) den <b>Wissensstand der Lernenden</b>. 
-            Dies geschieht, indem das ADAPLE für die Single-/Multiple-Choice misst, ob eine Frage falsch oder richtig beantwortet wurde. 
+            Dies geschieht, indem das ADAPE für die Single-/Multiple-Choice misst, ob eine Frage falsch oder richtig beantwortet wurde. 
         </p>
         <p>
             Der Wissensstand wird als zentraler und oftmals einziger modellierter Aspekt in der Umsetzung von Adaptivität beleuchtet. 
@@ -64,7 +64,7 @@
     <chapter title="Arten des individuellen Lernens" id="Didaktik-Arten-individuelles-Lernen" collapsible="true" default-state="expanded">
         <p>
             Das ADAPE wurde spezifisch für AdLer entwickelt, um die Technik der adaptiven Inhaltspräsentation umzusetzen und 
-            kann im Autorentool mit einer bereitgestellten Benutzeroberfläche selbst erstellt werden. 
+            kann im Autorentool mit einer bereitgestellten Benutzungsoberfläche selbst erstellt werden. 
             In diesem Element können mehrere Aufgaben zu einem Thema gebündelt werden. 
             Bei diesen Aufgaben kann auch eingestellt werden, ob sie verpflichtend oder freiwillig sind.
         </p>
@@ -85,44 +85,43 @@
                     Es gibt also keine Shuffle-Funktion, sodass bei erneutem Öffnen des ADAPE die Aufgaben 
                     immer in der gleichen Reihenfolge dargestellt werden. 
                     Lösen Lernende einen leichten oder mittelschweren Schwierigkeitsgrad richtig, 
-                    dann werden sie per Nachricht ermutigt auch die bzw. den schweren Schwierigkeitsgrad ebenfalls zu bearbeiten, 
+                    dann werden sie per Nachricht ermutigt auch den schweren Schwierigkeitsgrad zu bearbeiten, 
                     um ihr Wissen auf einem höheren Niveau zu überprüfen. 
                     Dennoch bieten die leichteren Aufgaben den Lernenden die Möglichkeit, das eigene Wissen zu testen und 
-                    erste Erfolge zu erzielen. Darüber hinaus ermöglicht es die Auswahl verschiedener Schwierigkeitsgrade den Lernenden, 
+                    erste Erfolge zu erzielen. Darüber hinaus ermöglicht die Auswahl verschiedener Schwierigkeitsgrade es den Lernenden, 
                     ihre Fähigkeiten von Anfang an zu demonstrieren. Wenn also der schwierigste Schwierigkeitsgrad zuerst bearbeitet wird, 
                     entfällt die Notwendigkeit, die einfacheren Stufen zu durchlaufen. <br/>
-                    Siehe: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernelementen.topic"/>
+                    Siehe: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernelementen.topic"/>.
                 </p>
             </def>
             <def title="Hilfreiche Informationen" id="Lernen-Informationen">
                 <p>
                     Lehrende können für jeden der Schwierigkeitsgrade einen Kommentar mit einer inhaltlichen Information hinterlegen. 
-                    Diese Informationen steht im Lernraum normalweise nicht zur Verfügung und wird dem/der Studierenden nur angezeigt, 
+                    Diese Information steht im Lernraum normalweise nicht zur Verfügung und wird dem/der Lernenden nur angezeigt, 
                     wenn die zugehörige Aufgabe falsch beantwortet wurde. 
                     Außerdem kann für jeden dieser Schwierigkeitsgrade ein Verweis auf inhaltliche Informationen hinterlegt werden. 
-                    Hier gibt es zwei Optionen: Zum einen den internen Verweis, auf ein Lernelement, 
-                    welches bereits in einem Lernraum abgebildet ist und zum anderen den externen Verweis auf Lernmaterial, 
+                    Hier gibt es zwei Optionen: Zum einen den internen Verweis auf ein Lernelement, 
+                    welches bereits in einem Lernraum abgebildet ist und zum anderen den Verweis auf ein externes Lernmaterial, 
                     welches zusätzlich zur Verfügung gestellt wird, allerdings bisher nicht in einem Lernraum abgebildet wird. 
                     Diese Hinweise sollten möglichst spezifisch sein und genau das Wissen vermitteln oder referenzieren, 
                     welches die Lernenden zum Lösen der Aufgabe benötigen. 
                     Da die Lernenden nicht mit Informationen überladen werden sollten, kann von Lehrenden entweder ein 
                     Kommentar oder ein Verweis dem jeweiligen Schwierigkeitsgrad der Aufgabe hinterlegt werden. 
-                    Die Kombination aus beidem ist nicht möglich. Wird weder noch hinterlegt, wird den Lernenden empfohlen 
+                    Die Kombination aus beidem ist nicht möglich. Wird weder ein Kommentar noch ein Verweis hinterlegt, wird den Lernenden empfohlen 
                     sich an leichteren Schwierigkeitsgraden zu versuchen.<br/>
                     Siehe: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuVerweisen.topic"/>,
-                    <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuKommentaren.topic"/>
+                    <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuKommentaren.topic"/>.
                 </p>
             </def>
         </deflist>
         <p>
-            Die Lernenden können beliebig oft die verschiedenen Schwierigkeitsgrade der Aufgaben öffnen und immer wieder neu beantworten. 
-            Oder sich beliebig oft die Kommentare/Verweise anschauen. 
+            Die Lernenden können beliebig oft die verschiedenen Schwierigkeitsgrade der Aufgaben öffnen und immer wieder neu beantworten oder sich beliebig oft die Kommentare/Verweise anschauen. 
             Wenn eine Aufgabe allerdings richtig beantwortet wurde, dann wird dies entsprechend visuell kenntlich gemacht. 
             Ebenso wird es visuell kenntlich gemacht, wenn die Aufgabe falsch beantwortet wurde.
         </p>
         <p>
-            Wird das ADAPE nach der Bearbeitung von Aufgaben geschlossen und irgendwann später wieder ge&ouml;ffnet, 
-            dann wird der Fortschritt gespeichert und die visuellen Markierungen sind auch weiterhin sichtbar damit 
+            Wird das ADAPE nach der Bearbeitung von Aufgaben geschlossen und zu einem späteren Zeitpunkt wieder ge&ouml;ffnet, 
+            dann wird der Fortschritt gespeichert und die visuellen Markierungen sind auch weiterhin sichtbar, damit 
             die Lernenden den Überblick behalten können.
         </p>
     </chapter>
@@ -172,7 +171,7 @@
             </list>
         </tip>
         <p>In folgender Abbildung ist ein praktisches Beispiel für das Adaptivitätselement im Autorentool abgebildet.</p>
-        <img src="imageManualDidaktik_Abbildung_Adaptivitätselement _Autorentool.JPG" alt="Beispiel eines Adaptivitätselements im Autorentool" width="675"/>
+        <img src="imageManualDidaktik_Abbildung_Adaptivitätselement _Autorentool.JPG" alt="Beispiel eines Adaptivitätselements im Autorentool" width="675" thumbnail="true"/>
         <br/>
         <p>In folgendem Video ist ein praktisches Beispiel für das Adaptivitätselement im Autorentool zu sehen.</p>
         <video src="videoManualDidaktik_Adaptivitätselement_Autorentool.mp4" alt="Beispiel-Video eines Adaptivitätselements im Autorentool" preview-src="videoManualDidaktik_Adaptivitätselement_Autorentool.png" width="675"/>

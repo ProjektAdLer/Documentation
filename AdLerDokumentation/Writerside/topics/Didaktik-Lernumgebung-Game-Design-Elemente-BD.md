@@ -2,25 +2,25 @@
 
 <show-structure/>
 <p>
-    Durch die Verwendung der 3D-Lernumgebung soll v.a. die <a href="Lernmotivation-GE.md">Motivation</a> der Studierenden adressiert werden. 
+    Durch die Verwendung der 3D-Lernumgebung soll v.a. die <a href="Lernmotivation-GE.md">Motivation</a> der Lernenden angesprochen werden. 
     Dazu soll das <a href="Game-based-Learning-GE.md">Game-based Learning</a> adressiert werden, 
     indem verschiedene Spielelemente und -mechaniken in AdLer genutzt werden. 
 </p>
 <p>
-    In AdLer wurden deswegen bisher zwei Aspekte umgesetzt:
+    In AdLer wurden deshalb bisher zwei Aspekte umgesetzt:
 </p>
 <list>
     <li>
         <p>
-            Die 3D-Lernumgebung kann mittels eines <a href="Avatar-GE.md"><b>Avatars</b></a> betreten werden. 
-            Dieser dient als Fortbewegungsmittel, damit sich der/die Studierende durch den Lernraum navigieren können 
-            und selbstständig die bereitgestellten <a href="Lernelement-GE.md">Lernelemente</a> öffnen und bearbeiten kann.
+            Lernräume in der 3D-Lernumgebung können mittels eines <a href="Avatar-GE.md"><b>Avatars</b></a> betreten werden. 
+            Dieser dient als Fortbewegungsmittel, damit Lernende durch den Lernraum navigieren  
+            und selbstständig die bereitgestellten <a href="Lernelement-GE.md">Lernelemente</a> öffnen und bearbeiten können.
         </p>
     </li>
     <li>
         <p>
             Mit Hilfe des <a href="Storyelement-GE.md"><b>Storyelements</b></a> hat der/die Lehrende die Möglichkeit 
-            im Autorentool ein narratives Spielelement zu konzipieren und den Studierenden in den Lernräumen zur Verfügung zu stellen. 
+            im Autorentool ein narratives Spielelement zu konzipieren und den Lernenden in den Lernräumen zur Verfügung zu stellen. 
             Mit Hilfe dieses Storyelements kann der/die Lehrende die Rolle eines Autors/einer Autorin einnehmen und eine 
             individuelle Geschichte erzählen, welche z.B. zu dem fachlichen Kontext passt und somit einen narrativen Rahmen 
             für die verwendeten <a href="Lernelement-GE.md">Lernelemente</a> bietet.
@@ -42,7 +42,7 @@
         </list>
     </tip>
     <p>In folgender Abbildung ist ein praktisches Beispiel für das Storyelement in der 3D-Lernumgebung abgebildet. </p>
-    <img src="imageManualDidaktik_Abbildung_Storyelement_3D-Lernumgebung.JPG" alt="Beispiel eines Storyelements in der Lernumgebung" width="675"/>
+    <img src="imageManualDidaktik_Abbildung_Storyelement_3D-Lernumgebung.JPG" alt="Beispiel eines Storyelements in der Lernumgebung" width="675" thumbnail="true"/>
     <br/>
     <p>In folgendem Video ist ein praktisches Beispiel für das Storyelement in der 3D-Lernumgebung zu sehen. </p>
     <video src="videoManualDidaktik_Storyelement_3D-Lernumgebung.mp4" alt="Beispiel-Video eines Storyelements in der Lernumgebung" preview-src="videoManualDidaktik_Storyelement_3D-Lernumgebung.png" width="675"/>

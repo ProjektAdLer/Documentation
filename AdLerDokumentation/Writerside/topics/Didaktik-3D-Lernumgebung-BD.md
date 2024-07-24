@@ -1,7 +1,7 @@
 # 3D-Lernumgebung
 
 <show-structure/>
-<chapter title="Die 3D-Lernumgebung für Studierende">
+<chapter title="Die 3D-Lernumgebung für Lernende">
 <p>
     Die <a href="ManualEngine-Leistungsbeschreibung.topic">3D-Lernumgebung</a> hat verschiedene Funktionen, welche in der 
     <a href="Lernende-BD.md">Handreichung zur Bedienung der 3D-Lernumgebung</a> vorgestellt und erklärt werden.<br/>

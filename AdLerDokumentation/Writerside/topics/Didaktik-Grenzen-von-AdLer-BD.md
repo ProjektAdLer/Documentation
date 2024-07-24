@@ -1,8 +1,9 @@
 # Grenzen von AdLer
 
 <show-structure/>
-<p id="Grenzen">
-    AdLer bietet die im Nutzerhandbuch beschriebenen Möglichkeiten, um eine 3D-Lernumgebung mit Hilfe des AdLer-Autorentools zu erstellen.<br/>
+<chapter title="Grenzen" >
+<p>
+    AdLer bietet die in der Benutzerdokumentation beschriebenen Möglichkeiten, um eine 3D-Lernwelt mit Hilfe des AdLer-Autorentools zu erstellen.<br/>
     Ebenso soll jedoch auch bewusst auf Funktionen hingewiesen werden, welche mit AdLer <u>nicht</u> adressiert werden können. 
     Dies soll geschehen, damit keine falschen Erwartungen an die Software entstehen:
 </p>
@@ -21,7 +22,8 @@
             So können beispielsweise H5P-Elemente mit der Software <a href="https://lumi.education/de/">„Lumi-Education“</a> 
             (eine kostenlose Version „Lumi-Free“ ist verfügbar) erstellt werden und dann in das AdLer-Autorentool hochgeladen und verwendet werden. 
             Ebenso existiert kostenlose und kostenpflichtige Software für die Erstellung von Videos, Abbildungen und Texten, 
-            welche dann als Lernmaterial in Form von Lernelementen in AdLer verwendet werden können.
+            welche dann als externes Lernmaterial in Form von Lernelementen in AdLer verwendet werden können.
         </p>
     </li>
 </list>
+</chapter>

@@ -1,18 +1,18 @@
-# Lernziele - Eingabeunterstützung für Lernziele
+# Lernziele - Eingabeunterstützung für Lernziele von Lernräumen
 
 <show-structure/>
 <chapter title="Formulierung von Lernzielen" id="Didaktik-Formulierung-von-Lernzielen" collapsible="true" default-state="expanded">
     <chapter title="Einführung in Lernziele" id="Didaktik-Einfuehrung-Lernziele" collapsible="true" default-state="expanded">
         <p>
-            Im Zusammenhang mit der kompetenzorientierten Hochschullehre und dem damit verbundenen Perspektivwechsel 
-            "Shift from Teaching to Learning" und der Fokussierung auf die Studierendenzentrierung, 
+            Im Zusammenhang mit der kompetenzorientierten Hochschullehre, dem damit verbundenen Perspektivwechsel 
+            "Shift from Teaching to Learning" und der Fokussierung auf die Studierendenzentrierung 
             haben Lernziele große Aufmerksamkeit erlangt.
         </p>
         <p>
             Gemäß des 
-            <a href="Constructive-Alignment-GE.md">„Constructive Alignment“</a>, sind Lernziele mit den Lehr-Lern-Aktivitäten und 
+            <a href="Constructive-Alignment-GE.md">„Constructive Alignment“</a> sind Lernziele mit den Lehr-Lern-Aktivitäten und 
             den Prüfungen eng verknüpft. In der Praxis bedeutet dies, dass die Lehr-Lern-Aktivitäten so gestaltet werden müssen, 
-            dass die Lernenden die beabsichtigten Ziele erreichen können und die Prüfungen die Erreichung dieser Ziele genau bewerten müssen.
+            dass die Lernenden die beabsichtigten Ziele erreichen können und anhand von Prüfungen die Erreichung dieser Ziele genau bewertet werden kann.
         </p>
         <p>
             Folglich ist es von Vorteil, den Planungsprozess mit dem Fokus auf die Lernziele zu beginnen. <br/>
@@ -22,7 +22,7 @@
             Bei der Verwendung von Lernzielen liegt der Schwerpunkt des Lehransatzes nicht auf den in einer Lehrveranstaltung behandelten 
             Inhalten (Input), sondern auf dem, was die Lernenden am Ende gelernt haben sollten (Outcome) 
             <a href="Didaktik-Literaturverzeichnis-BD.md#6-Bachmann-2014">(Bachmann, 2014)</a>. 
-            Somit nehmen die Lernenden eine zentrale Rolle ein, und die Lehrenden gestalten Lernumgebungen, 
+            Somit nehmen die Lernenden eine zentrale Rolle ein und die Lehrenden gestalten Lernwelten, 
             die auf das Erreichen bestimmter Ergebnisse ausgerichtet sind. Durch diesen Perspektivwechsel werden Fachinhalte und 
             fachspezifischer Unterricht nicht obsolet, sondern aus einer lernzentrierten Sichtweise heraus neu kontextualisiert 
             <a href="Didaktik-Literaturverzeichnis-BD.md#9-Reis-2013">(Reis, 2013)</a>. 
@@ -36,14 +36,15 @@
     <chapter title="Vorteile von Lernzielen" id="Didaktik-Vorteile-Lernziele" collapsible="true" default-state="expanded">
         <p>
             Die Formulierung von Lernzielen hat folgende Vorteile: <br/>
-            Zum einen wird die Lehrkraft ermutigt, die Grundlage für einen lernendenzentrierten Unterricht zu schaffen, 
-            indem sie sich bewusst mit der Formulierung von Lernzielen auseinandersetzt und diese reflektiert. <br/>
-            Andererseits ist es für einen lernendenzentrierten Unterricht auch entscheidend, dass die Lernenden 
-            die definierten Lernziele annehmen und sich aktiv mit ihnen auseinandersetzen. <br/>
-            Gut konzipierte Lernziele können die Transparenz erhöhen und das Engagement der Lernenden positiv beeinflussen. 
-            Sie dienen als Ausgangspunkt für die Lernenden, um ihren Lernprozess effektiver und selbstbestimmter zu gestalten.
+            <list>
+                <li>Zum einen wird die/der Lehrende ermutigt, die Grundlage für einen lernendenzentrierten Unterricht zu schaffen, 
+            indem sie/er sich bewusst mit der Formulierung von Lernzielen auseinandersetzt und diese reflektiert.</li>
+            <li>Andererseits ist es für einen lernendenzentrierten Unterricht auch entscheidend, dass die Lernenden 
+            die definierten Lernziele annehmen und sich aktiv mit ihnen auseinandersetzen.</li>
+            </list>
         </p>
-    </chapter>
+        <p>Gut konzipierte Lernziele können die Transparenz erhöhen und das Engagement der Lernenden positiv beeinflussen. 
+            Sie dienen als Ausgangspunkt für die Lernenden, um ihren Lernprozess effektiver und selbstbestimmter zu gestalten.</p>
 </chapter>
 
 <chapter title="Wie werden die Lernziele formuliert?" id="Didaktik-wie-werden-Lernziele-formuliert" collapsible="true" default-state="expanded">
@@ -55,9 +56,16 @@
             schlägt nicht nur geeignete Verben für die Formulierung von Lernzielen vor, 
             sondern differenziert auch zwischen kognitiven Anforderungen der Lernziele. 
             Die Taxonomiestufen nach Anderson und Krathwohl sind: <br/>
-            Erinnern, Verstehen, Anwenden, Analysieren, Beurteilen, Gestalten.<br/>
-            Bei der konkreten Formulierung von Lernzielen sollte auf folgende Punkte geachtet werden:
+        <list>            
+            <li>Erinnern,</li>
+            <li>Verstehen, </li>
+            <li>Anwenden, </li>
+            <li>Analysieren, </li>
+            <li>Beurteilen, </li>
+            <li>Gestalten.</li>
+        </list>
         </p>
+        <p>Bei der konkreten Formulierung von Lernzielen sollte auf folgende Punkte geachtet werden:</p>
         <list type="alpha-lower">
             <li>
                 <p>Lernziele werden als Lernaktivität aus der Perspektive des Lernenden formuliert.</p>
@@ -72,9 +80,9 @@
                 auf der Seite der Handlungsstandards verwendet werden, Verben der Sichtbarkeit sind. </p>
             </li>
             <li>
-                <p>Die Lernziele sollten auch überprüfbar sein. 
-                Dies bedeutet, dass der Aussagesatz, wenn er in einen Imperativsatz umgewandelt wird, 
-                in eine Prüfungsaufgabe umgewandelt werden können sollte. </p>
+                <p>Die Lernziele sollten überprüfbar sein. 
+                Dies bedeutet, dass die Möglichkeit bestehen sollte, den Aussagesatz, wenn er in einen Imperativsatz umgewandelt wird, 
+                in eine Prüfungsaufgabe umzuwandeln. </p>
             </li>
             <li>
                 <p>Jedes Lernziel ist mit einem Lernprozess verbunden, 
@@ -102,8 +110,8 @@
             <def title="Wozu" id="Lernziel-Struktur-Wozu">
                 <p>Das "Wozu" gibt einen Einblick in den Sinnhorizont, für den die Lerneinheit konzipiert wurde. 
                 Es beschreibt, wozu die Lernenden die erworbenen Fähigkeiten, Fertigkeiten oder Kompetenzen nach dem Kurs brauchen werden. 
-                Das "Wozu" wird nicht als Teil der Prüfung im Sinne des „Constructive Alignment“ betrachtet.
-                <a href="Didaktik-Literaturverzeichnis-BD.md#10-Wunderlich-2016">(Wunderlich &amp; Szczyrba, 2016)</a></p>
+                Das "Wozu" wird nicht als Teil der Prüfung im Sinne des „Constructive Alignment“ betrachtet
+                <a href="Didaktik-Literaturverzeichnis-BD.md#10-Wunderlich-2016">(Wunderlich &amp; Szczyrba, 2016)</a>.</p>
             </def>
         </deflist>
     </chapter>
@@ -113,7 +121,7 @@
     <p>
         Zur Formulierung von Lernzielen bietet das AdLer-Autorentool eine Eingabeunterstützung, 
         welche den Lehrenden eine Eingabemaske zur Verfügung stellt, um nach der 
-        <a href="#Lernziele-Hilfsmittel">„Was-Womit-Wozu“-Struktur</a> hochwertige Lernziele zu formulieren.
+        <a href="#Lernziele-Hilfsmittel">„Was-Womit-Wozu“-Struktur</a> hochwertige Lernziele zu formulieren. Aktuell steht diese Unterstützung ausschließlich für die Lernziele von Lernräumen zur Verfügung.
     </p>
     <p>
         In einem ersten Schritt werden die Lehrenden aufgefordert, die geeignete Taxonomiestufe für das angestrebte Lernziel zu bestimmen. 
@@ -127,7 +135,7 @@
         sich Gedanken über die konkreten Lerninhalte zu machen, die im Kontext des Kompetenzerwerbs der Lernenden angesprochen werden sollen. 
         Dabei steht den Lehrenden ein Textfeld zur Verfügung, um die vorgegebene Einleitung <i>„Sie können…“</i> fortzusetzen. <br/>
         Darauf folgt die obligatorische Festlegung des <i>"Verbs der Sichtbarkeit"</i>. 
-        Bei der Auswahl des geeigneten Verbs erhalten die Lehrende zusätzliche Unterstützung in Form einer Liste geeigneter Verben, 
+        Bei der Auswahl des geeigneten Verbs erhalten die Lehrenden zusätzliche Unterstützung in Form einer Liste geeigneter Verben, 
         die mit der gewählten Taxonomiestufe übereinstimmen. Wurde vorher keine Taxonomiestufe festgelegt, 
         werden alle verfügbaren Verben gesammelt angeboten, allerdings ohne Zuordnung zur jeweiligen Taxonomiestufe. 
         Die Lehrenden haben auch die Möglichkeit, ein eigenes <i>"Verb der Sichtbarkeit"</i> zu formulieren. 
@@ -141,7 +149,7 @@
         bieten den Lehrenden zusätzliche Textfelder, um das Lernziel genauer und granularer zu verfeinern.
     </p>
     <p>
-        Ein integriertes Vorschaufenster im unteren Teil der AdLer-Eingabehilfe ermöglicht es den Lehrenden, 
+        Ein integriertes Vorschaufenster im unteren Teil der AdLer-Eingabeunterstützung ermöglicht es den Lehrenden, 
         das soeben formulierte Lernziel schnell und direkt zu überprüfen. 
         <img src="imageManualDidaktik_Abbildung_leere Eingabeunterstützung für Lernziele_Autorentool.JPG" alt="Beispiel eines leeren Lernziel-Eingabeunterstützung im Autorentool" width="250" style="block" thumbnail="true"/>
     </p>
@@ -157,11 +165,12 @@
                     </li>
                 </list>
             </tip>
-            <p>In folgender Abbildung ist ein praktisches Beispiel für Eingabeunterstützung für Lernziele im Autorentool abgebildet. </p>
-            <img src="imageManualDidaktik_Abbildung_Beispiel Eingabeunterstützung für Lernziele_Autorentool.JPG" alt="Beispiel eines leeren Lernziel-Eingabeunterstützungs-Fensters im Autorentool" width="675"/>
+            <p>In folgender Abbildung ist ein praktisches Beispiel zur Eingabeunterstützung für Lernziele im Autorentool abgebildet. </p>
+            <img src="imageManualDidaktik_Abbildung_Beispiel Eingabeunterstützung für Lernziele_Autorentool.JPG" alt="Beispiel eines leeren Lernziel-Eingabeunterstützungs-Fensters im Autorentool" width="675" thumbnail="true"/>
             <br/>
-            <p>In folgendem Video ist ein praktisches Beispiel für Eingabeunterstützung für Lernziele im Autorentool zu sehen. </p>
+            <p>In folgendem Video ist ein praktisches Beispiel zur Eingabeunterstützung für Lernziele im Autorentool zu sehen. </p>
             <video src="videoManualDidaktik_Lernziele_Autorentool.mp4" alt="Beispiel-Video für Lernziele mit Eingabeunterstützung" preview-src="videoManualDidaktik_Lernziele_Autorentool.png" width="675"/>
         </procedure>
     </chapter>
+</chapter>
 </chapter>

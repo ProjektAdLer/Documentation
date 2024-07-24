@@ -12,7 +12,7 @@
 <chapter title="Microlearning in AdLer" id="Microlearning-in-AdLer" collapsible="true" default-state="expanded">
 <p>
     AdLer bietet eine gute Basis, um Microlearning in einer digitalen Lernumgebung zu strukturieren und umzusetzen. 
-    Dazu stehen die drei Strukturierungs-Ebenenen 
+    Dazu stehen die drei Strukturierungs-Ebenen 
     <a href="Lernwelt-GE.md">Lernwelt</a>, 
     <a href="Lernraum-GE.md">Lernraum</a> und 
     <a href="Lernelement-GE.md">Lernelement</a> zur Verfügung:
@@ -42,8 +42,8 @@
     <a href="ManualAuthoringBedienungRechteSidebarLernpfadeErstellen.topic">Lernpfade</a> zu konzipieren. 
     Diese können von den Lehrenden genutzt werden, um die Lernräume in eine bestimmte Reihenfolge zu bringen oder 
     verschiedene Lernwege zur Verfügung zu stellen.
-    Ebenso existiert eine UND/ODER-Funktion, mit welcher man Bedingungen in einen Lernpfad integrieren kann. 
-    Siehe: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"/>
+    Ebenso existiert eine Und/Oder-Funktion, mit welcher Bedingungen in einen Lernpfad integriert werden können. 
+    Siehe: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"/>.
 </p>
 <p>
     Diese Strukturierungs-Möglichkeiten können Lehrende nutzen, um Microlearning nach ihrer Vorstellung umzusetzen. 
