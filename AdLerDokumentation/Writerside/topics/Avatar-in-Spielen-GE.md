@@ -32,7 +32,7 @@
     </tr>  
     <tr>
         <td>Siehe auch</td>
-        <td><a href="Avatar-GE.md" </td>
+        <td><a href="Avatar-GE.md"/></td>
     </tr>
     <tr>
         <td>Akronym</td>
