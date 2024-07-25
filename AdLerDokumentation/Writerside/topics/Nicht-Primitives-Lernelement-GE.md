@@ -21,7 +21,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >Nicht-primitive Lernelemente sind Lernelemente mit intrisischer Punktevergabelogik. Das heißt die Punktevergabelogik des Lernelements wird in AdLer miteinbezogen und es kann auch zur Wissensabfrage verwendet werden.
-        Beispiele für nicht-primitive Lernelemente sind manche <a href="H5P-GE.md">H5P</a>-Lernelement und das <a href="Adaptivitätselement-GE.md"></a></td>
+        Beispiele für nicht-primitive Lernelemente sind manche <a href="H5P-GE.md">H5P</a>-Lernelement und das <a href="Adaptivitätselement-GE.md">Adaptivitätselement</a>.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>

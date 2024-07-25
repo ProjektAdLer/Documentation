@@ -20,8 +20,8 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Der <a href="Betrachtungsgegenstand-GE.md"></a>
-            <a href="Generator-BG.md"></a> 
+            Der <a href="Betrachtungsgegenstand-GE.md">Betrachtungsgegenstand</a>
+            <a href="Generator-BG.md">Generator</a> 
             des <a href="AdLer-System-GE.md">AdLer-Systems</a> 
             ist für die Generierung 
             der immersiven 3D Lernwelten zuständig.</td>

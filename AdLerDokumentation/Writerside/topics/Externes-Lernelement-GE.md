@@ -21,7 +21,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Ein externes Lernelement ist ein <a href="Lernelement-GE.md">Lernelement</a> welches <a href="Lernmaterial-GE.md"></a> beinhaltet und 
+            Ein externes Lernelement ist ein <a href="Lernelement-GE.md">Lernelement</a> welches <a href="Lernmaterial-GE.md">Lernmaterial</a> beinhaltet und 
             im Kontext eines <a href="Adaptivitätsaufgabe-GE.md">Adaptivitätselements</a> als <a href="Adaptivitätshinweis-GE.md">Hinweis</a> angezeigt wird.
         </td>
     </tr>  

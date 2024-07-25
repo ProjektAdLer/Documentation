@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Eine Lernraum Template definiert den räumlichen Aufbau eines Lernraumes in der 3D-Lernumgebung. Dazu gehören u.A. die Eckpunkte des Räumes, Positionen/Rotation von Fenstern und Türen, und Position/Rotation der <a href="Lernelement-Slot-GE.md">Lernelement Slots</a>.</td>
+        <td id="summary" >Ein Lernraum Template definiert den räumlichen Aufbau eines Lernraumes in der 3D-Lernumgebung. Dazu gehören u.A. die Eckpunkte des Räumes, Positionen/Rotation von Fenstern und Türen, und Position/Rotation der <a href="Lernelement-Slot-GE.md">Lernelement Slots</a>.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>
