@@ -1,3 +1,4 @@
+<show-structure for="chapter,procedure" depth="3"/>
 # Styleguide 2D
 
 ## 3D-Lernumgebung 2D(UI) Styleguide
@@ -60,6 +61,51 @@ Um Icons einheitlich gestalten zu können, soll sich an folgende Konventionen ge
 - Bei Schriften immer ***Roboto Black*** verwenden
 - Die ***Form*** des Icons soll den ***verfügbaren Raum***, so gut wie möglich ***ausnutzen***
 - Das Icon ***muss*** für die Verwendung in der AdLer-Engine und im Autorentool auch in ***sehr kleiner Größe*** erkennbar sein, sprich der Detailgrad sollte im Rahmen bleiben und sich auf eine einfache Erkennbarkeit konzentriert werden.
+
+### Nutzung von SVG Icons in der AdLer-Engine
+Um SVG-Dateien sicher zu nutzen, müssen diese vorher komprimiert werden.
+
+Dabei werden unnötige Informationen aus der Datei entfernt. Dies führt zum einen dazu, dass die Datei kleiner wird, zum anderen entfernt die Komprimierung von SVG Dateien allerdings auch einige XML-Features, welche von uns nicht genutzt werden und unsere Engine zum Absturz bringen würden.
+
+**Deshalb ist es zwingend notwendig, dass SVG Dateien vor dem Nutzen komprimiert (oder auch minified) werden.**
+
+Dazu nutzen das Visual Studio Code Plugin <a href="https://github.com/1000ch/vscode-svgo" alt="SVGO GitHub Repo">SVGO</a>. Durchsuchen nach "SVGO" kann es als Visual Studio Code Erweiterung installiert werden.
+
+#### Nutzung
+- SVG File ins Projekt laden (src/Assets/icons)
+- SVG File in Visual Studio Code öffnen
+- Rechtsklick im SVG-Code
+- "svgo: Format current SVG file" auswählen
+- SVG speichern
+  -> Das SVG sollte nun benutzbar sein und korrekt sowie ohne Fehlermeldung angezeigt werden
+
+Zur Referenz und für zukünftige Suchen, ist hier eine Beispielhafte Fehlermeldung, welche entsteht, wenn die Komprimierung von SVG Dateien nicht durchgeführt wird:
+
+> SyntaxError: unknown: Namespace tags are not supported by default. React's JSX doesn't support namespace tags. You can set `throwIfNamespace: false` to bypass this warning.
+{.is-danger}
+
+#### Nutzen der Icons im Code
+Um die Assets im Code zu nutzen, sollen sie in den /src/Assets/ Ordner gezogen werden.
+Danach können sie durch `import` in den code mit einbezogen werden:
+
+```Typescript
+import fullscreenIcon from "../../../../../Assets/icons/fullscreen-icon.svg";
+// Hier wird das logo importiert
+
+export default function MenuBar() {
+  const loadWorldController = new LoadWorldController();
+
+  return (
+    <StyledContainer className="flex flex-col ml-0">
+      <StyledButton>
+        <img className="w-6 lg:w-10" src={fullscreenIcon}></img>
+					// Hier kann es dann wie eine Variable genutzt werden
+      </StyledButton>
+    </StyledContainer>
+  );
+}
+```
+Anmerkung: Es kann sein, dass beim Importieren des Logos mittels `import` die IntelliSense-Funktion der IDE nicht funktioniert. Davon bitte nicht irritieren lassen.
 
 ### Anwendungsnavigation in AdLer
 

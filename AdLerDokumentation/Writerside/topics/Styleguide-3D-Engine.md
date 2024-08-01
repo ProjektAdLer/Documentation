@@ -1,3 +1,4 @@
+<show-structure for="chapter,procedure" depth="3"/>
 # Styleguide 3D
 
 
@@ -20,7 +21,7 @@ Beachten sie das diese Punkte sich manchmal auch gegenseitig ausschließen,
 hierbei sollten sie zuerst abwägen ob sie die obersten Punkte "**Low-Poly**" und "**Vereinfachte Erkennbarkeit**"
 immernoch erfüllen.
 
-#### Inspirationen
+### Inspirationen
 
 Inspirationen für die verschiedenen Objekte können sie Beispielsweise aus folgenden Spielen ziehen:
 
