@@ -11,20 +11,20 @@ Dieser **Styleguide** beschreibt die in der Umsetzung der AdLer-Engine zu verwen
 | Name                 | HEX / RGB Code        | Beschreibung                                                           |
 |----------------------|-----------------------|------------------------------------------------------------------------|
 | babylonbg:           | #33334d               | Babylon Default Hintergrundfarbe                                       |
-| blacktrans           | rgba(0,0,0,0.5)       | Schwarz mit 50% Transparenz zur Abdunklung der Hintergründe von Modals 
-| whitetrans           | rgba(255,255,255,0.3) | Weiß mit 30% Transparenz                                               
-| adlerblue            | #a1c8e5               | Blau                                                                   
-| adlerdarkblue        | #172d4d               | Dunkelblau                                                             
-| adlergreen           | #59b347               | Grün                                                                   
-| buttonbgblue         | #e9f2fa               | Hintergrundfarbe für Buttons                                           
-| buttonpressedblue    | #ace8fc               | Hintergrundfarbe für Buttons im Zustand nachdem sie geklickt wurden    
-| adlertextgrey        | #111111               | Textfarbe                                                              
-| adlerbuttonlocked    | #b9bfc6               | Farbe zur Kennzeichnung nicht benutzbarer Buttons                      
-| adlerdeactivatedtext | #e9e9e9               | Textfarbe für Texte in nicht benutzbaren Buttons                       
-| adlerbggradientfrom  | #a1c8e5               | Startfarbe (Blau) des Hintergrundverlaufs der Menüs                    
-| adlerbggradientto    | #e2eaf2               | Zielfarbe (Hellblau) des Hintergrundverlaufs der Menüs                 
-| nodehandlecolor      | #e9d6b3               | Farbe der einzelnen Nodes in der Graphen Ansicht des Lernweltmenüs     
-| adleroceanblue       | #45a0e5               | Farbe zur Hervorhebung von Links                                       
+| blacktrans           | rgba(0,0,0,0.5)       | Schwarz mit 50% Transparenz zur Abdunklung der Hintergründe von Modals |
+| whitetrans           | rgba(255,255,255,0.3) | Weiß mit 30% Transparenz                                               |
+| adlerblue            | #a1c8e5               | Blau                                                                   |
+| adlerdarkblue        | #172d4d               | Dunkelblau                                                             |
+| adlergreen           | #59b347               | Grün                                                                   |
+| buttonbgblue         | #e9f2fa               | Hintergrundfarbe für Buttons                                           |
+| buttonpressedblue    | #ace8fc               | Hintergrundfarbe für Buttons im Zustand nachdem sie geklickt wurden    |
+| adlertextgrey        | #111111               | Textfarbe                                                              |
+| adlerbuttonlocked    | #b9bfc6               | Farbe zur Kennzeichnung nicht benutzbarer Buttons                      |
+| adlerdeactivatedtext | #e9e9e9               | Textfarbe für Texte in nicht benutzbaren Buttons                       |
+| adlerbggradientfrom  | #a1c8e5               | Startfarbe (Blau) des Hintergrundverlaufs der Menüs                    |
+| adlerbggradientto    | #e2eaf2               | Zielfarbe (Hellblau) des Hintergrundverlaufs der Menüs                 |
+| nodehandlecolor      | #e9d6b3               | Farbe der einzelnen Nodes in der Graphen Ansicht des Lernweltmenüs     |
+| adleroceanblue       | #45a0e5               | Farbe zur Hervorhebung von Links                                       |
 | iconfillcolor        | #cfd8e5               | Icon Füllfarbe                                                         |
 
 ### Texte
@@ -60,3 +60,9 @@ Um Icons einheitlich gestalten zu können, soll sich an folgende Konventionen ge
 - Bei Schriften immer ***Roboto Black*** verwenden
 - Die ***Form*** des Icons soll den ***verfügbaren Raum***, so gut wie möglich ***ausnutzen***
 - Das Icon ***muss*** für die Verwendung in der AdLer-Engine und im Autorentool auch in ***sehr kleiner Größe*** erkennbar sein, sprich der Detailgrad sollte im Rahmen bleiben und sich auf eine einfache Erkennbarkeit konzentriert werden.
+
+### Anwendungsnavigation in AdLer
+
+Überblick über die Navigation zwischen den einzelnen Teilen der 3D-Lernumgebung und den Menüs der Anwendung.
+
+![Beispiel Icon "Bild"](imageStyleguide2DSoftwareSchnittstellenLernumgebung.png){width="300" thumbnail="true"}
