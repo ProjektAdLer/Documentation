@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernziele von Lernraum einsehen"
+       id="ManualAuthoringBedienungArbeitsflaecheMittleresFensterLernzielevonLernraumEinsehen">
+
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic">Lernraum-Editor</a>.</p>
+
+    <show-structure for="chapter, procedure" depth="4"/>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Lernziele eines geöffneten Lernraums einsehen.</p>
+            </def>
+        </deflist>
+
+        <tip>Voraussetzung:
+            <p>Ein Lernraum ist im mittleren Fenster geöffnet. Siehe: <a
+                    href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>.</p>
+        </tip>
+
+        <step>
+            <p>Klicken Sie auf den Button <control>Lernziele dieses Lernraums</control> (Symbol: Zielscheibe).
+                <img src="imageManualAuthoringmittleresFensterUebersichtLernzieleButtonCallout.png"
+                     alt="LernzielÜbersicht" width="200" thumbnail="true" style="block"/></p>
+            <note>
+                <p>Das Fenster <control>Lernziel-Übersicht</control> wird geöffnet. In diesem sind alle Lernziele des aktuellen Lernraums aufgelistet.
+                    <img src="imageManualAuthoringmittleresFensterLernzielUebersicht.png"
+                         alt="LernzielÜbersicht" width="200" thumbnail="true" style="block"/></p>
+            </note>
+        </step>
+        <step>
+            Schließen Sie das Fenster <control>Lernziel-Übersicht</control> durch Klicken des Buttons <control>X</control>.
+        </step>
+
+        <note>
+            <control>&#10004; Sie haben erfolgreich die Lernziele eines geöffneten Lernraums eingesehen.</control>
+        </note>
+    </procedure>
+</topic>

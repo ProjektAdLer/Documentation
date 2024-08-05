@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 986">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .6;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #172d4d;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #eee;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image width="1916" height="984" transform="" xlink:href="../../Screenshots_Autorentool/Bedienung/ManualAuthoringStoryelementErstellenErfolgreich.png"/>
+  <path class="cls-1" d="M0,0v986h1920V0H0ZM1412,956c0,8.3-6.7,15-15,15h-872c-8.3,0-15-6.7-15-15v-163c0-8.3,6.7-15,15-15h872c8.3,0,15,6.7,15,15v163Z"/>
+  <g>
+    <rect id="PfeilDokumentation" class="cls-2" x="1250.4" y="747.4" width="180" height="62.7" transform="translate(-119 1301.4) rotate(-49.9)"/>
+    <g>
+      <path class="cls-4" d="M1384.4,705.1l21.2,17.9-89.4,106,7,5.9-38.5,9.9,3.2-39.6,7.1,6,89.4-106.1h0Z"/>
+      <path class="cls-3" d="M1286.6,804.2c.2-.2.4-.3.6-.4.6-.2,1.2-.1,1.6.3l5.8,4.9,88.4-104.9c.6-.7,1.6-.8,2.2-.2l21.2,17.9c.7.6.8,1.6.2,2.2l-88.4,104.9,5.8,4.9c.5.4.7,1,.5,1.6-.1.6-.6,1-1.2,1.2l-38.5,9.8c-.5.1-1,0-1.4-.3s-.6-.8-.6-1.3l3.2-39.6c0-.3.2-.7.4-.9ZM1384.6,707.3l-88.4,104.9c-.6.7-1.6.8-2.2.2l-4.7-4-2.7,34.3,33.3-8.5-4.7-4c-.7-.6-.8-1.6-.2-2.2l88.4-104.9-18.8-15.8Z"/>
+    </g>
+  </g>
+</svg>

@@ -92,14 +92,20 @@
                 <td>13</td>
                 <td>Schließen-Button</td>
                 <td>Schließt das Fenster, in dem alle für Lernräume formulierten Lernziele angezeigt werden.</td>
-                <td>Arbeitsfläche</td>
+                <td>Startseite und Arbeitsfläche</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><a href="ManualAuthoringBedienungKopfzeileZurStartseiteWechseln.topic">Zur Startseite wechseln</a></li>
+            <li><a href="ManualAuthoringBedienungKopfzeileLernweltSpeichern.topic">Lernwelt speichern</a></li>
+            <li><a href="ManualAuthoringBedienungKopfzeileLernweltArchivieren.topic">Lernwelt archivieren</a></li>
+            <li><a href="ManualAuthoringBedienungKopfzeileLernweltVeroeffentlichen.topic">Lernwelt veröffentlichen</a></li>
+            <li><a href="ManualAuthoringBedienungKopfzeileFeedbackZurBenutzungsoberflaecheGeben.topic">Feedback zur Benutzungsoberfläche geben</a></li>
+            <li><a href="ManualAuthoringBedienungKopfzeileLernzieleBetrachten.topic"/> </li>
+            <li><a href="ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern.topic"/></li>
+            <li><a href="ManualAuthoringBedienungKopfzeileAutorentoolSchließen.topic"/></li>
+            <li><a href="ManualAuthoringSoftwarekomponentenKopfzeileLoginAufAdLerServer.topic"/></li>
         </list>
     </chapter>
 </topic>

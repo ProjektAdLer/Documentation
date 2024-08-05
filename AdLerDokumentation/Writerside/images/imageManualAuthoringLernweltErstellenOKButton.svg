@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 986">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .6;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #172d4d;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #eee;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image width="1918" height="983" transform="" xlink:href="../Screenshots_Autorentool/Bedienung/ManualAuthoringLernweltErstellenOKButton.png"/>
+  <path class="cls-1" d="M0,0v986h1920V0H0ZM432,634c0,8.3-6.7,15-15,15h-56c-8.3,0-15-6.7-15-15v-31c0-8.3,6.7-15,15-15h56c8.3,0,15,6.7,15,15v31Z"/>
+  <g>
+    <rect id="PfeilDokumentation" class="cls-2" x="468.7" y="639.1" width="62.7" height="180" transform="translate(-369.1 567.1) rotate(-45)"/>
+    <g>
+      <path class="cls-4" d="M569.7,779.2l-19.6,19.6-98-98-6.5,6.5-6.6-39.2,39.2,6.5-6.5,6.5,98.1,98.1h0Z"/>
+      <path class="cls-3" d="M479.3,673.4c.2.2.3.4.4.6.2.6,0,1.2-.4,1.6l-5.4,5.4,97,97c.6.6.6,1.6,0,2.3l-19.6,19.6c-.6.6-1.6.6-2.3,0l-97-97-5.4,5.4c-.4.4-1,.6-1.6.4-.6-.2-1-.7-1.1-1.3l-6.5-39.2c0-.5,0-1,.4-1.4s.9-.5,1.4-.4l39.2,6.5c.3,0,.6.2.9.4ZM567.5,779.2l-97-97c-.6-.6-.6-1.6,0-2.3l4.4-4.4-33.9-5.6,5.6,33.9,4.3-4.3c.6-.6,1.6-.6,2.3,0l97,97,17.4-17.4Z"/>
+    </g>
+  </g>
+</svg>

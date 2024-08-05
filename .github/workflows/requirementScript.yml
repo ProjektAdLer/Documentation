@@ -19,6 +19,7 @@ jobs:
         with:
           app-id: ${{ secrets.REQ_UPDATER_APP_ID }}
           private-key: ${{ secrets.REQ_UPDATER_APP_KEY }}
+
       # Checkout the main repository
       - name: Checkout Main Repo
         uses: actions/checkout@v2
@@ -54,6 +55,39 @@ jobs:
           repository: ProjektAdLer/AdLerBackend
           path: AdLerBackend
 
+      # Checkout Moodle plugins into the "plugins" subdir
+      - name: Checkout MoodlePluginLocal Repo
+        uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+        with:
+          repository: ProjektAdLer/MoodlePluginLocal
+          path: plugins/MoodlePluginLocal
+
+      - name: Checkout MoodlePluginLocalLogging Repo
+        uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+        with:
+          repository: ProjektAdLer/MoodlePluginLocalLogging
+          path: plugins/MoodlePluginLocalLogging
+
+      - name: Checkout MoodlePluginModAdleradaptivity Repo
+        uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+        with:
+          repository: ProjektAdLer/MoodlePluginModAdleradaptivity
+          path: plugins/MoodlePluginModAdleradaptivity
+
+      - name: Checkout MoodlePluginAvailability Repo
+        uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+        with:
+          repository: ProjektAdLer/MoodlePluginAvailability
+          path: plugins/MoodlePluginAvailability
+
       # Install Node.js and run the script
       - name: Set up Node.js
         uses: actions/setup-node@v2
@@ -76,6 +110,7 @@ jobs:
           git commit -m "Updated requirements" || echo "No changes to commit"
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+
       - name: Push
         uses: ad-m/github-push-action@master
         with:

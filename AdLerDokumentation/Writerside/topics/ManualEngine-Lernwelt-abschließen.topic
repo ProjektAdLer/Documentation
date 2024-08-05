@@ -5,40 +5,44 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Lernwelt abschließen" id="ManualEngine-Lernwelt-abschließen">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <procedure title="Lernwelt abschließen" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <p>Hier wird das Ziel der Handlung beschrieben</p>
+                <p>Eine Lernwelt abschließen.</p>
             </def>
         </deflist>
 
+        <tip>
+            <p>Eine Lernwelt gilt als abgeschlossen, wenn alle darin enthaltenen Lernräume abgeschlossen sind. Die
+                abgeschlossenen Räume werden mit einem grünen Haken gekennzeichnet.</p>
 
-        <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
+            <p>Übersicht der Lernräume im Lernweltmenü:</p>
+            <img src="imageManualEngine_LernweltAbgeschlossen_UebersichtRaume.png"
+                 alt="Übersicht abgeschlossener Lernräume" width="500"/>
+
+            <p>Bei Abschluss der Lernwelt erscheint folgender Dialog:</p>
+            <img src="imageManualEngine_LernweltAbgeschlossenDialog.png" alt="Lernwelt abgeschlossen Dialog"
+                 width="250"/>
+        </tip>
+
+        <step><p>Wählen Sie eine Lernwelt aus.</p>
         </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
+        <step><p><a href="ManualEngine-Lernwelt-oeffnen.topic">Öffnen Sie die Lernwelt.</a></p>
         </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
+        <step><p>Wählen Sie einen Lernraum aus.</p>
+        </step>
+        <step><p><a href="ManualEngine-Lernraum-öffnen.topic">Öffnen Sie den Lernraum.</a></p>
+        </step>
+        <step><p><a href="ManualEngine-Lernraum-abschließen.topic">Schließen Sie den Lernraum ab.</a> Erledigen Sie dazu
+            ausreichend Aufgaben um die erforderliche Punktezahl zum Abschluss zu erreichen.</p>
+        </step>
+        <step><p>Wiederholen Sie Schritte 3-5 für alle Lernräume der Lernwelt.</p>
         </step>
 
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>
-                Hier wird ein Zwischenergebnis beschrieben
-            </note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
-        </step>
-        <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
-        </step>
-        <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
+        <note>
+            <format style="bold">&#10004; Der Lernraum wurde durch Abschließen aller Lernräume erfolgreich
+                abgeschlossen.
+            </format>
+        </note>
     </procedure>
 </topic>

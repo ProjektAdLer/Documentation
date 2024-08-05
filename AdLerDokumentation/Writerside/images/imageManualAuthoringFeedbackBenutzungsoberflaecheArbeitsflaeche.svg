@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 986">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #172d4d;
+        opacity: .6;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <image width="1919" height="983" transform="translate(2)" xlink:href="../../Screenshots_Autorentool/Softwarekomponenten/ManualAuthoringArbeitsfläche2.png"/>
+  <path class="cls-1" d="M1628.3,0c8.3,0,15,6.7,15,15v18c0,8.3-6.7,15-15,15h-146.8c-8.3,0-15-6.7-15-15V15c0-8.3,6.7-15,15-15H2v986h1918V0h-291.7Z"/>
+  <rect class="cls-2" x="455" y="44" width="998" height="930" rx="15" ry="15"/>
+  <image width="876" height="798" transform="translate(463 60) scale(1.1)" xlink:href="../../Screenshots_Autorentool/Bedienung/ManualAuthoringArbeitsflaecheBenutzungsoberflaeche.png"/>
+</svg>

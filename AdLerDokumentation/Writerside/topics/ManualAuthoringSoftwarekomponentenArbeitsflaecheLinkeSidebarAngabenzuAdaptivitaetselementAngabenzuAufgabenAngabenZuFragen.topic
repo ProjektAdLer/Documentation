@@ -60,11 +60,9 @@
                 <td>Löscht hinzugefügte Antwortmöglichkeiten</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarFrageHinzufuegen.topic">Frage hinzufügen</a></li>
         </list>
     </chapter>
 </topic>

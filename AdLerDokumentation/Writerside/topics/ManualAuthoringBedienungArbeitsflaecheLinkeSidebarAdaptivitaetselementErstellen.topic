@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Adaptivitätselement erstellen" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuAdaptivitaetselementen.topic">Angaben zu Adaptivitätselementen</a>.</p>
+
+    <procedure type="steps" title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>In einer geöffneten Lernwelt ein Adaptivitätselement über die linke Sidebar erstellen.</p>
+            </def>
+        </deflist>
+        <step>
+            <p>Klicken Sie auf den Tab <control>Angaben zu Adaptivitätselementen</control>.
+            <img src="imageManualAuthoringAngabenZuAdaptivitaetselementenTab.png" alt="AdaptivitaetselementErstellenTab" width="200" thumbnail="true"/></p>
+        </step>
+        <tip>
+            <p>Wenn Sie ein bereits existierendes Adaptivitätselement bearbeiten, wird im oberen Bereich ein zusätzlicher Button <control>NEU</control> angezeigt. Über diesen kann ebenfalls ein neues Adaptivitätselement erstellt werden.</p>
+            <img src="imageManualAuthoringAdaptivitaetselementErstellenNeuButton.png" alt="AdaptivitaetselementErstellenNeuButton" width="200" thumbnail="true"/>
+            <p>Der Button wird somit ausschließlich im Bearbeitungsmodus eines bereits existierenden Adaptivitätselements angezeigt.</p>
+        </tip>
+    </procedure>
+
+    <procedure title="Metadaten zum Adaptivitätselement" id="MetadatenZuAdaptivitätselement">
+        <step>Machen Sie Angaben zum Adaptivitätselement.
+            <p><control>Erforderliche Angaben</control></p>
+            <tabs>
+                <tab id="allgemeines_adaptivitaetselement" title="Allgemein">
+                    <procedure type="choices" id="allgemeines_tab_adaptivitaetselement" title="Allgemein">
+                        <step>
+                            <p>Tragen Sie allgemeine Metadaten zur Ihrem Adaptivitätselement ein:
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenAllgemein.png" alt="AdaptivitaetselementErstellenAllgemeinesCallout" width="200" thumbnail="true"/></p>
+                        </step>
+                        <step><b>Name</b>
+                            <p>Vergeben Sie im ersten Textfeld einen Namen für Ihr Adaptivitätselement.</p>
+                            <warning>
+                                <p>Für den Namen des Adaptivitätselements gelten bestimmte Regeln --> siehe <a href="AWA9001.md">Erforderliche Eigenschaften für Adaptivitätselement</a>.</p>
+                            </warning>
+                        </step>
+                        <step><b>Punkte</b>
+                            <p>Tragen Sie die Punkte für das Adaptivitätselement ein.</p>
+                        </step>
+                        <step><b>Arbeitsaufwand (min)</b>
+                            <p>Geben Sie die von Ihnen geschätzte Zeit an, die für die Bearbeitung des Adaptivitätselement notwendig ist.</p>
+                        </step>
+                    </procedure>
+                </tab>
+                <tab id="aufgaben_adaptivitaetselement" title="Aufgaben">
+                    <procedure type="choices" id="aufgaben_tab_adaptivitaetselement" title="Aufgaben">
+                        <step>
+                            <p>Klicken Sie auf den Button <control>Aufgaben hinzufügen</control>.
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenAufgaben.png" alt="AdaptivitaetselementErstellenAufgaben" width="200" thumbnail="true"/></p>
+                            <note>
+                                <p>Wie Aufgaben von Adaptivitätselementen gestaltet sind, erfahren Sie unter <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAufgabeHinzufuegen.topic">Aufgaben hinzufügen</a>.</p>
+                            </note>
+                        </step>
+                    </procedure>
+                </tab>
+                <tab id="3ddarstellung_adaptivitaetselement" title="3D-Darstellung">
+                    <procedure type="choices" id="3ddarstellung_tab_adaptivitaetselement" title="3D-Darstellung">
+                        <note>
+                            <p>Adaptivitätselemente werden in der 3D-Lernumgebung als <a href="NPC-GE.md">Nicht-Spieler-Charakter (NPC)</a> dargestellt. Im Fall des Adaptivitätselements wird der NPC stets als Roboter repräsentiert und ist somit standardmäßig eingestellt. In der Kategorie <control>3D-Darstellung</control> wird dieser aufgeführt. Näheres zur Darstellung des Adaptivitätselements in der 3D-Lernumgebung finden Sie hier: <a href="ManualEngine-Adaptivitätselement-bedienen.topic"></a>.</p>
+                        </note>
+                        <step>
+                            <p>Klicken Sie auf die Kategorie <control>3D-Darstellung</control>, um sich den Roboter genauer anzusehen.
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellen3DDarstellung.png" alt="Adaptivitaetselement3DDarstellung" width="200" thumbnail="true"/></p>
+                            <tip>
+                                <p>Positionieren Sie die Maus über das NPC-Icon. Sobald die Maus über dem Icon liegt, erscheint zusätzlich ein grauer Hintergrund. Darüber hinaus erscheint eine vergrößerte Ansicht des Roboters.</p>
+                                <img src="imageManualAuthoringAdaptivitaetselementErstellen3DDarstellungHover.png" alt="Adaptivitaetselement3DDarstellungHover" width="200" thumbnail="true"/>
+                            </tip>
+                        </step>
+                    </procedure>
+                </tab>
+            </tabs>
+            <p><control>Optionale Angaben</control></p>
+            <tabs>
+                <tab id="lernziele_adaptivitaetselement" title="Lernziele">
+                    <procedure id="lernziele_tab_adaptivitaetselement" title="Lernziele zum Adaptivitätselement">
+                        <step>
+                            <p>Formulieren Sie ein oder mehrere Lernziele für Ihr Adaptivitätselement.
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenLernziele.png" alt="AdaptivitaetselementErstellenLernziele" width="200" thumbnail="true"/></p>
+                        </step>
+                    </procedure>
+                </tab>
+                <tab id="beschreibung_adaptivitaetselement" title="Beschreibung">
+                    <procedure id="beschreibung_tab_adaptivitaetselement" title="Beschreibung zum Adaptivitätselement">
+                        <step>
+                            <p>Beschreiben Sie das Thema Ihres Adaptivitätselement.
+                            <img src="imageManualAuthoringAdaptivitaetselementErstellenBeschreibung.png" alt="AdaptivitaetselementErstellenBeschreibung" width="200" thumbnail="true"/></p>
+                        </step>
+                    </procedure>
+                </tab>
+            </tabs>
+        </step>
+
+        <step>
+            <p>Bestätigen Sie Ihre Angaben zum Adaptivitätselement mit einem Klick auf den Button <b>OK</b>.
+            <img src="imageManualAuthoringAdaptivitaetselementErstellenOKButton.png" alt="AdaptivitaetselementErstellenOKButton" width="200" thumbnail="true"/></p>
+            <tip>
+                <p>Mit Bestätigen der Angaben zum neuen Adaptivitätselement wird nachfolgend automatisch das erstellte Adaptivitätselement im mittleren Fenster im Bereich der <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>Unplatzierten Elemente</control></a> angezeigt (siehe Screenshot). Darüber hinaus wird das erstellte Adaptivitätselement zusätzlich in der rechten Sidebar in dem  Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> aufgeführt.</p>
+                <img src="imageManualAuthoringAdaptivitaetselementErstellenErfolgreich.png"
+                     alt="AdaptivitaetselementErstellenErfolgreich" width="200" thumbnail="true" style="block"/>
+            </tip>
+        </step>
+    </procedure>
+    <note>
+        <control>&#10004; Sie haben erfolgreich ein neues Adaptivitätselement erstellt.</control>
+    </note>
+</topic>

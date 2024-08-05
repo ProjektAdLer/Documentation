@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Externes Lernmaterial als Lernelement bereitstellen"
+       id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLernelementBereitstellen"
+       help-id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLernelementErstellen">
+
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic">Externes Lernmaterial</a>.</p>
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Ein in das Autorentool geladenes externes Lernmaterial als <a
+                        href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"> unplatziertes Lernelement</a> bereitstellen.</p>
+            </def>
+        </deflist>
+
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>.
+                    <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab"
+                         width="200" thumbnail="true" style="block"/></p></li>
+                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/>.</p></li>
+            </list>
+        </tip>
+
+        <step><p>Fahren Sie mit dem Mauszeiger über ein hinzugefügtes Lernmaterial.</p>
+            <note>
+                <p>Eine Toolbar mit drei Symbolen für drei Funktionen erscheint.
+                    <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipAktionen.png"
+                         alt="ExternesLernmaterialTabTooltipAktionen"
+                         width="200" thumbnail="true" style="block"/></p>
+            </note>
+        </step>
+        <step>
+            <p>Klicken Sie in der Toolbar auf den Button <control>Neues Lernelement erstellen</control> (Symbol: Plus).
+                <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipAktionenMenuePlus.png"
+                     alt="ExternesLernmaterialTabTooltipHinzufuegen"
+                     width="100" thumbnail="true" style="block"/>
+            </p>
+            <note>
+                <p>Der Tab <control>Lernelement erstellen</control> wird geöffnet und das zuvor ausgewählte externe Lernmaterial ist automatisch in der Kategorie <control>Externes Lernmaterial</control> ausgewählt. <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipNeuErstellen.png"
+                                     alt="LernelementErstellenTab" width="200" thumbnail="true" style="block"/></p>
+            </note>
+        </step>
+
+        <step>
+            Fügen Sie die restlichen benötigten Informationen hinzu. Siehe: <a
+                href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic"/>.
+        </step>
+        <note>
+            <control>&#10004; Sie haben erfolgreich ein externes Lernmaterial als <a
+                    href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"> unplatziertes Lernelement</a> bereitgestellt.</control>
+        </note>
+    </procedure>
+</topic>

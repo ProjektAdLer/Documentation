@@ -111,11 +111,13 @@
                 <td>Schließt das Fenster, in dem alle für den Lernraum formulierten Lernziele angezeigt werden.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterLernzielevonLernraumEinsehen.topic"/> </p></li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterLernelementErstellen.topic"/> </p></li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterStoryelementErstellen.topic"/> </p></li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementLoeschen.topic"/> </p></li>
+            <li><p><a href="ManualAuthoringBedienungArbeitsflaecheMittleresFensterElementBearbeiten.topic"/> </p></li>
         </list>
     </chapter>
 </topic>

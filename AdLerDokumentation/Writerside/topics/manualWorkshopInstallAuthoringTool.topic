@@ -13,28 +13,64 @@
     <procedure title="Herunterladen des Autorentools">
         <step>
             <p>Öffnen Sie Ihren bevorzugten Browser.</p>
+            <warning>
+                <p>Nutzen Sie <control>nicht</control> den Browser <control>Safari</control> für das Herunterladen des Autorentools. Die von Safari heruntergeladene Datei ist nicht nutzbar.</p>
+            </warning>
         </step>
         <step>
-            <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a></p>
+            <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a>.</p>
             <tip>Sie befinden sich nun auf der GitHub-Seite "Releases", auf der alle Versionen des AdLer-Autorentools aufgeführt werden. Die aktuellste Version wird ganz oben angezeigt.</tip>
         </step>
         <step>
-            <p>Wählen Sie nun unter dem Punkt Assets, die Datei aus, welche für ihr System passend ist und laden Sie diese herunter.</p>
-            <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
+            <p>Wählen Sie nun unter dem Punkt <control>Assets</control>, die Datei aus, welche für Ihr System passend ist und laden Sie diese herunter.</p>
         </step>
-        <step><p>Im folgenden sehen Sie eine Auflistung, welche Datei sie für welches Betriebssystem herunterladen müssen, um das Autorentool installieren zu können.</p>
-        </step>
+        <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
+        <tip>
+            <p>Im folgenden sehen Sie eine Auflistung, welche Datei Sie für welches Betriebssystem herunterladen müssen, um das Autorentool installieren zu können.</p>
+        </tip>
         <tabs>
             <tab id="windows" title="Windows">
-                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.exe</control></p>
+                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.exe</control>.</p>
                 <img src="imageManualWorkshopDownloadAuthoringToolWin.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
+                <procedure title="Download des Autorentools mit Microsoft Edge" collapsible="true">
+                    <tip>Falls Sie Microsoft Edge nicht als Ihren Browser verwenden, springen Sie zum Punkt <a href="manualWorkshopInstallAuthoringTool.topic#installation-windows1011"><control>Installieren des Autorentools unter Windows 10/11</control></a></tip>
+                    <warning>
+                        <p>Bei der Benutzung des Microsoft Edge Browsers wird die heruntergeladene Datei nicht als .exe Datei abgelegt, da Microsoft die Datei als nicht vertrauenswürdig einstuft. Befolgen Sie diese Schritte, um die Datei nutzbar zu machen</p>
+                    </warning>
+                    <img src="imageManualWorkshopDownloadProblemEdge-1.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>Klicken Sie auf den <control>Button mit den drei nebeneinander angeordneten Punkten</control></p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-2.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>
+                            Klicken Sie auf <control>Beibehalten</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-3.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>
+                            Klicken Sie auf <control>Mehr anzeigen</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-4.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>
+                            Klicken Sie auf <control>Trotzdem beibehalten</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-5.png" alt="Download Anzeige in Edge" width="200" thumbnail="true"/>
+                    <note>
+                        Die Datei ist nun nutzbar. Sie können mit der Anleitung fortfahren.
+                    </note>
+                </procedure>
             </tab>
             <tab id="macOS" title="macOS">
-                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.dmg</control></p>
+                <p>Klicken Sie auf die Datei mit der Dateiendung <control>.dmg</control>.</p>
                 <img src="imageManualWorkshopDownloadAuthoringToolMac.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
             </tab>
             <tab id="linux" title="Linux">
-                <p>Klicken Sie je nach Ihrer installierten Linux Distribution auf die passende Datei. Zum Beispiel <control>.snap</control> oder <control>.AppImage</control></p>
+                <p>Klicken Sie je nach Ihrer installierten Linux-Distribution auf die passende Datei. Zum Beispiel <control>.snap</control> oder <control>.AppImage</control>.</p>
                 <img src="imageManualWorkshopDownloadAuthoringToolLinux.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
             </tab>
         </tabs>
@@ -49,44 +85,144 @@
             </control>
         </note>
     </procedure>
-    <procedure title="Installieren des Autorentools unter Windows 10/11">
-        <step>
-            <p>Öffnen Sie den Ordner, in den Sie die Installationsdatei heruntergeladen haben.</p>
-        </step>
-        <tip>
-            <p>Standardmäßig lädt Windows Dateien in den Ordner <control>C:\Users\NameIhresPCs\Downloads</control> herunter.</p>
-        </tip>
-        <step>
-            <p>Öffnen Sie die heruntergeladene Autorentool Installationsdatei mit einem Doppelklick.</p>
-            <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
-        </step>
-        <note>
-            <control>
-                <p>Sie haben das Autorentool erfolgreich auf ihrem Windows Computer installiert.</p>
-                <p>&#10004;</p>
-            </control>
-        </note>
-    </procedure>
-    <procedure title="Installieren des Autorentools unter macOS">
-        <step>
+    <tabs>
+        <tab title="Installation Windows 10/11" id="installation-windows1011">
+            <procedure title="Installieren des Autorentools unter Windows 10/11">
+                <step>
+                    <p>Öffnen Sie den Ordner, in dem Sie die Installationsdatei heruntergeladen haben.</p>
+                </step>
+                <tip>
+                    <p>Standardmäßig lädt Windows Dateien in den Ordner <control>C:\Users\NameIhresPCs\Downloads</control> herunter.</p>
+                </tip>
+                <step>
+                    <p>Öffnen Sie die heruntergeladene Autorentool-Installationsdatei mit einem Doppelklick.</p>
+                </step>
+                <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
+                <tip>Es erscheint, die im folgenden Screenshot abgebildete Warnung. Diese erscheint, da das AdLer-Autorentool noch kein Zertifikat von Microsoft hat.</tip>
+                <img src="imageManualWorkshopAlertWindow.png" alt="Warnfenster in Windows" width="200" thumbnail="true"/>
+                <step>
+                    <p>Klicken Sie im Warnfenster auf <control>Weitere Informationen</control>.</p>
+                </step>
+                <step>
+                    <p>Klicken Sie nun auf <control>Trotzdem ausführen</control>.</p>
+                </step>
+                <img src="imageManualWorkshopInstallNevertheless.png" alt="Warnfenster in Windows mit Trotzdem installieren" width="200" thumbnail="true"/>
+                <tip>
+                    <p>Die Installation läuft nun automatisch ab. Nach der Installation sehen Sie die Standardansicht des AdLer-Autorentools.</p>
+                    <img src="imageManualWorkshopAuthoringToolDefaultAfterInstallWindows.png" alt="Standardansicht des Autorentools nach dem Öffnen auf Windows" width="200" thumbnail="true"/>
+                </tip>
+                <note>
+                    <control>
+                        <p>Sie haben das Autorentool erfolgreich auf Ihrem Windows-Computer installiert.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </tab>
+        <tab title="Installation macOS">
+            <procedure title="Installieren des Autorentools unter macOS">
+                <step>
+                    <p>Öffnen Sie den Ordner, in dem Sie die Installationsdatei heruntergeladen haben.</p>
+                </step>
+                <tip>
+                    <p>Standardmäßig lädt macOS Dateien in den Ordner <control>/Users/IhrBenutzerName/Downloads</control> herunter.</p>
+                </tip>
+                <step>
+                    <p>Öffnen Sie die heruntergeladene Datei mit einem Doppelklick.</p>
+                </step>
+                <img src="imageManualWorkshopDownloadsFolderMacOs.png" alt="Downloads Ordner macOS" width="200" thumbnail="true"/>
+                <step>
+                    <p>Klicken Sie auf das Autorentool-Logo und ziehen Sie es mit gedrückter linker Maustaste auf den Ordner <control>Applications (Programme)</control>. Lassen Sie es dort los.</p>
+                    <tip>Die Dateiendung <control>.app</control> erscheint auf Ihrem Mac möglicherweise nicht.</tip>
+                </step>
+                <img src="imageManualWorkshopDragAuthoringToolToInstall.png" alt="Installationsdialog macOS" width="200" thumbnail="true"/>
+                <step>
+                    <p>Öffnen Sie nun Ihren Finder und gehen Sie auf den Ordner <control>Programme</control>. Suchen Sie dort die Anwendung <control>AuthoringTool</control>, welche das zugehörige AdLer-Logo aufweist.</p>
+                </step>
+                <img src="imageManualWorkshopFinderPrograms.png" alt="Programme Ordner im Finder" width="200" thumbnail="true"/>
+                <step>
+                    <p>Klicken Sie nun mit der rechten Maustaste auf das Autorentool oder halten Sie die Taste <control>CTRL</control> gedrückt und klicken Sie mit der linken Maustaste.</p>
+                    <note>Das Rechtsklick-Kontextmenü erscheint.</note>
+                </step>
+                <step>
+                    <p>Klicken Sie nun auf die Option <control>Öffnen</control>.</p>
+                </step>
+                <img src="imageManualWorkshopRightClickAuthoringTool.png" alt="Rechtsklick Kontextmenü" width="200" thumbnail="true"/>
+                <step>
+                    <p>Klicken Sie im nun geöffneten Warnfenster auf den Button <control>Öffnen</control>.</p>
+                </step>
+                <img src="imageManualWorkshopPromptClickOpen.png" alt="Warnfenster" width="200" thumbnail="true"/>
+                <tip>Das Warnfenster erscheint, da das AdLer-Autorentool noch kein Zertifikat von Apple besitzt. Sie müssen diesen Prozess des Öffnens nur beim erstmaligen Öffnen durchführen.</tip>
+                <note>
+                    <p>Sie sehen nun das geöffnete Autorentool.</p>
+                    <img src="imageManualWorkshopAuthoringToolDefaultMacOs.png" alt="Standardansicht des Autorentools macOS" width="200" thumbnail="true"/>
+                </note>
 
-        </step>
-        <note>
-            <control>
-                <p>Sie haben das Autorentool erfolgreich auf ihrem Mac installiert.</p>
-                <p>&#10004;</p>
-            </control>
-        </note>
-    </procedure>
-    <procedure title="Installieren des Autorentools unter Linux">
-        <step>
-
-        </step>
-        <note>
-            <control>
-                <p>Sie haben das Autorentool erfolgreich auf ihrem Linux Computer installiert.</p>
-                <p>&#10004;</p>
-            </control>
-        </note>
-    </procedure>
+                <note>
+                    <control>
+                        <p>Sie haben das Autorentool erfolgreich auf Ihrem Mac installiert.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </tab>
+        <tab title="Installation Linux">
+            <procedure title="Installieren des Autorentools unter Linux">
+                <step>
+                    <p>Diese Schritt-für-Schritt-Anleitung ist noch nicht erstellt.</p>
+                </step>
+                <note>
+                    <control>
+                        <p>Sie haben das Autorentool erfolgreich auf Ihrem Linux-Computer installiert.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </tab>
+        <tab title="Installation Domänenrechner THAB">
+            <procedure title="Installieren des Autorentools auf Domänenrechnern der TH Aschaffenburg">
+                <step>
+                    <p>Öffnen Sie den Ordner, in den Sie die Installationsdatei heruntergeladen haben.</p>
+                    <tip>
+                        <p>Standardmäßig lädt Windows Dateien in den Ordner <control>C:\Users\NameIhresPCs\Downloads</control> herunter.</p>
+                    </tip>
+                </step>
+                <step>
+                    <p>Machen Sie einen <b>Rechtsklick</b> auf die heruntergeladene Autorentool-Installationsdatei.</p>
+                </step>
+                <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
+                <step>
+                    <p>Klicken Sie in dem nun neu erscheinenden Fenster die Option <b>Eigenschaften</b> an.</p>
+                </step>
+                <img src="imageManualWorkshopDomaenenrechnerEigenschaften.png" alt="FensterEigenschaften" width="200" thumbnail="true"/>
+                <step>
+                    <p>In dem sich nun öffnenden Fenster setzen Sie im Tab <b>Allgemein</b> unten rechts bei <b>Zulassen</b> einen Haken.</p>
+                </step>
+                <img src="imageManualWorkshopDomaenenrechnerZulassen.png" alt="ZulassenImFensterEigenschaften" width="200" thumbnail="true"/>
+                <step>
+                    <p>Bestätigen Sie Ihre Angabe mit einem Klick auf den Button <b>OK</b>.</p>
+                </step>
+                <img src="imageManualWorkshopDomaenenrechnerOKButton.png" alt="OKButtonImFensterEigenschaften" width="200" thumbnail="true"/>
+                <step>
+                    <p>Öffnen Sie die heruntergeladene Autorentool-Installationsdatei mit einem Doppelklick.</p>
+                </step>
+                <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Beispielhafter Download in Firefox unter Windows" width="200" thumbnail="true"/>
+                <tip>
+                    <p>Das Autorentool sollte nun installiert werden und sich nach der Installation automatisch öffnen.</p>
+                </tip>
+                <note>
+                    <control>
+                        <p>Sie haben das Autorentool erfolgreich auf Ihrem Windows-Domänenrechner der TH Aschaffenburg installiert.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+                <warning>
+                    <p>Alle Daten werden am Ende des Tages wieder vom PC gelöscht. Sollten Sie Ihre im Autorentool erstellte Lernwelt im Nachgang nochmals weiterbearbeiten bzw. darauf zugreifen wollen, müssen Sie den Zwischenstand Ihrer Lernwelt zwingend <a href="ManualAuthoringBedienungKopfzeileLernweltArchivieren.topic">archivieren</a> und die als ZIP-Datei gespeicherte Lernwelt auf einem externen Dateiträger sichern.</p>
+                </warning>
+            </procedure>
+        </tab>
+    </tabs>
+    <tip>
+        <p>Fahren Sie nun mit dem <a href="manualWorkshopPrepareLearningWorld.topic">Vorbereiten der Lernwelt</a> fort.</p>
+    </tip>
 </topic>

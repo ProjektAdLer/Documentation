@@ -5,40 +5,33 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Avatar steuern" id="ManualEngine-Avatar-steuern">
 
-    <procedure title="Überschrift der Handlung" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <procedure title="Avatar und Kamera steuern" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <p>Hier wird das Ziel der Handlung beschrieben</p>
+                <p>Den Avatar im 3D-Lernraum bewegen.</p>
             </def>
         </deflist>
 
+        <p>Sie können Ihren Avatar im 3D-Lernraum bewegen, indem Sie auf mit der linken Maustaste oder per Touch-Eingabe
+            auf die gewünschte Zielstelle klicken. Alternativ können Sie auf ein Lernelement klicken, der Avatar bewegt
+            sich automatisch dorthin.</p>
+        <img src="imageManualEngine_walking.png" alt="Avatar läuft zum Ziel" width="500"/>
 
-        <step><p>Führen Sie den ersten Schritt durch (nominal oder imperativ)</p>
-        </step>
-        <step><p>Führen Sie den zweiten Schritt durch</p>
-            <warning>
-                <p>Das ist ein wichtiger Hinweis/Warnung, die ein Nutzer beachten muss.</p>
-                <p>Sie steht immer vor dem zugehörigen Handlungsschritt.</p>
-            </warning>
-        </step>
-        <step><p>Führen Sie den dritten Schritt durch</p>
-            <tip>Hier gibt es eine zusätzliche Info, die nicht zwingend erforderlich ist.</tip>
-        </step>
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <p>Die Kamera bedienen</p>
+            </def>
+        </deflist>
 
-        <step><p>Führen Sie den vierten Schritt durch</p>
-            <note>
-                Hier wird ein Zwischenergebnis beschrieben
-            </note>
-        </step>
-        <step><p>Führen Sie den fünften Schritt durch</p>
-            <p>Hier wird ein Bild als Thumbnail eingebaut, um den Übersichtlichkeit zu wahren</p>
-            <img src="new_topic_options_dark.png" alt="Demo Bild" width="200" thumbnail="true"/>
-        </step>
-        <step>
-            <p>
-                Drücken Sie ein <control>konkretes Bedienelement</control> um eine etwas anzuzeigen.
-            </p>
-        </step>
-        <note><format style="bold">&#10004; Hier wird das Endergebnis beschrieben</format></note>
+        <p>Sie können die Kamera heran- und herauszoomen. Dazu nutzen Sie das Mausrad oder bei Toucheingabe die für das
+            Zoomen gängige Geste.</p>
+        <p>Sie können die Kamera bewegen. Dazu Halten Sie die rechte Maustaste gedrückt und bewegen dann die Kamera
+            durch Positionsänderung der Maus.</p>
+        <img src="imageManualEngine_zoom1.png" alt="Kamera herausgezoomt" width="500"/>
+        <img src="imageManualEngine_zoom2.png" alt="Kamera herangezoomt" width="500"/>
+
+        <note>
+            <format style="bold">&#10004; Sie haben gelernt, wie Sie den Avatar und die Kamera steuern.</format>
+        </note>
     </procedure>
 </topic>

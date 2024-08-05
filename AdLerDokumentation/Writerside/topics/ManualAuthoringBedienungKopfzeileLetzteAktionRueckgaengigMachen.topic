@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Letzte Aktion rückgängig machen" id="ManualAuthoringBedienungKopfzeileLetzteAktionRueckgaengigMachen">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic">Kopfzeile auf der
+        Startseite</a> und
+        <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.
+    </p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Die letzte Aktion oder Eingabe rückgängig machen.</p>
+            </def>
+        </deflist>
+
+        <tip>
+            <p>Voraussetzung:</p>
+            <list>
+                <li>Es wurde zuvor mindestens eine Interaktion getätigt.</li>
+            </list>
+        </tip>
+
+        <tabs>
+            <tab id="undo-header" title="Kopfzeile">
+                <procedure title="Kopfzeile">
+                    <step>
+                        <p>
+                            Drücken Sie in der Kopfzeile den Button <control>Rückgängig</control> (Symbol: Pfeil nach links).
+                            <img src="imageManualAuthoringKopfzeileAktionRueckgaengig.png"
+                                 alt="Rückgängig Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
+                                 style="block"/>
+                        </p>
+                    </step>
+                </procedure>
+            </tab>
+            <tab id="undo-menu" title="Menüband">
+                <procedure title="Menüband">
+                    <step>
+                        <p>Wählen Sie die Kategorie
+                            <control>Edit</control>
+                            aus.
+                            <img src="imageManualAuthoringTitelleisteAktionRueckgaengig.png"
+                                 alt="Rückgängig Button in der Titelleiste des Autorentools" width="200"
+                                 thumbnail="true" style="block"/>
+                        </p>
+                    </step>
+                    <step>
+                        <p>Wählen Sie den Listeneintrag
+                            <control>Undo</control>
+                            aus.
+                            <img src="imageManualAuthoringTitelleisteAktionRueckgaengigMenue.png"
+                                 alt="Rückgängig Button in der Titelleiste des Autorentools" width="200"
+                                 thumbnail="true" style="block"/>
+                        </p>
+                    </step>
+                </procedure>
+            </tab>
+            <tab id="undo-shortcut" title="Tastenkombination">
+                <procedure title="Tastenkombination">
+                    <step>
+                        <p>Drücken Sie die Tastenkombination
+                            <control>Strg</control>
+                            +
+                            <control>Z</control>
+                            .
+                        </p>
+                    </step>
+                </procedure>
+            </tab>
+        </tabs>
+        <tip>
+            <list>
+                <li><p>Sie können mehrere Aktionen hintereinander rückgängig machen.</p></li>
+                <li><p>Sie können eine rückgängig gemachte Aktion wiederherstellen, indem Sie diese wiederholen. Siehe:
+                    <a href="ManualAuthoringBedienungKopfzeileAktionWiederholen.topic"/>.</p></li>
+            </list>
+        </tip>
+
+        <note>
+            <control>&#10004; Sie haben erfolgreich eine Aktion oder Eingabe rückgängig gemacht.</control>
+        </note>
+    </procedure>
+</topic>

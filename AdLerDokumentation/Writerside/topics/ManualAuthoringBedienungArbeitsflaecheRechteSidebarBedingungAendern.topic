@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Bedingung ändern" id="ManualAuthoringBedienungArbeitsflaecheRechteSidebarBedingungAendern">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Verbindungen zwischen Lernräumen</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Ändern des Zustands einer <control>Und-/Oder-Bedingung</control>.</p>
+            </def>
+        </deflist>
+
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Eine Lernwelt ist geöffnet. Siehe: <a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>.</p></li>
+                <li><p>Es wurde mindestens ein Lernraum innerhalb dieser Lernwelt erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/> (über die linke Sidebar), <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/> (über die rechte Sidebar).</p></li>
+                <li><p>Es wurde zuvor eine Bedingung hinzugefügt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen.topic"/> .</p></li>
+            </list>
+        </tip>
+        <p><control>Und-/Oder-Bedingungen</control> können in der rechten Sidebar über den Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> zwischen <control>Und</control> und <control>Oder</control> gewechselt werden.</p>
+
+        <step>
+            <p>Klicken Sie mit der linken Maustaste auf den Umschalter (Symbol: weißer Punkt) innerhalb der Bedingung.
+                <img src="imageManualAuthoringRechteSidebarLernraumBedingungEingebunden.png"
+                     alt="Oder-Bedingung" width="200" thumbnail="true" style="block"/>
+                <img src="imageManualWorkshopAndConnection.png"
+                     alt="Hervorgehobener Toggle-Button der Bedingung" width="200" thumbnail="true" style="block"/></p>
+            <tip><p>Der aktuelle Zustand wird neben dem Button in Textform angezeigt (in diesem Beispiel: <i>Und-Bedingung</i>.</p></tip>
+            <note>
+                <p>Die Verbindung wurde geändert.
+                    <img src="imageManualAuthoringRechteSidebarLernraumBedingungEingebundenZustandUnd.png"
+                         alt="Und-Bedingung" width="200" thumbnail="true" style="block"/></p>
+            </note>
+        </step>
+
+        <note><control>&#10004; Sie haben erfolgreich eine Und-/Oder-Bedingung geändert.</control></note>
+    </procedure>
+</topic>

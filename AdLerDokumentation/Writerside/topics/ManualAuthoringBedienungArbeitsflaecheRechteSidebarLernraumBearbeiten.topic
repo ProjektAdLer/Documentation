@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernraum bearbeiten" id="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten"
+       help-id="ManualAuthoringBedienungLinkeSidebarLernraumBearbeiten;ManualAuthoringBedienungArbeitsflaecheLernraumBearbeiten">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Verbindungen zwischen Lernräumen</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic">Hierarchischer Aufbau der Lernwelt</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Den Bearbeitungsmodus zu einem bereits erstellten Lernraum von der <a href="ManualAuthoringSoftwarekomponentenRechteSidebar.topic">rechten Sidebar</a> aus aktivieren.</p>
+            </def>
+        </deflist>
+
+
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Eine Lernwelt ist geöffnet. Siehe: <a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>.</p></li>
+                <li><p>Es wurde mindestens ein Lernraum innerhalb dieser Lernwelt erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>(über die linke Sidebar), <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>(über die rechte Sidebar).</p></li>
+            </list>
+        </tip>
+        <p>Ein Lernraum kann in der rechten Sidebar über die beiden verfügbaren Tabs <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> bearbeitet werden.</p>
+        <tabs>
+            <tab id="verbindungsansicht" title="Verbindungen zwischen Lernräumen">
+                <procedure title="Verbindungen zwischen Lernräumen">
+                <tip>Voraussetzung:
+                    <list>
+                        <li><p>Sie befinden sich im Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a>.</p></li>
+                    </list>
+                </tip>
+                <tabs>
+                    <tab id="verbindungsansicht_doppelklick" title="Doppelklick">
+                        <procedure type="steps" id="doppelklick" title="Doppelklick">
+                            <step>
+                                <p>Klicken Sie mit der linken Maustaste mit einem Doppelklick auf einen Lernraum.
+                                    <img src="imageManualAuthoringRechteSidebarLernraumCallout.png"
+                                         alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/>
+                                </p>
+                            </step>
+                        </procedure>
+                    </tab>
+                    <tab id="verbindungsansicht_rechtsklick" title="Kontextmenü">
+                        <procedure id="kontextmenu" title="Kontextmenü">
+                            <step>
+                                <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf einen Lernraum.
+                                    <img src="imageManualAuthoringRechteSidebarLernraumCallout.png"
+                                         alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                                <note>
+                                    <p>Ein Kontextmenü wird geöffnet.
+                                        <img src="imageManualAuthoringRechteSidebarLernraumVerbidnungKontextdialogCallout.png"
+                                             alt="Rechtsklickmenü Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
+                                </note>
+                            </step>
+                            <step>
+                                <p>Klicken Sie auf den zweiten Menüeintrag <control>Edit</control>.</p>
+                            </step>
+                        </procedure>
+                    </tab>
+                </tabs>
+                </procedure>
+            </tab>
+            <tab id="hierarchieansicht" title="Hierarchischer Aufbau der Lernwelt">
+                <procedure type="steps" title="Hierarchischer Aufbau der Lernwelt">
+                <tip>Voraussetzung:
+                    <list>
+                        <li><p>Sie befinden sich im Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a>.</p></li>
+                    </list>
+                </tip>
+                    <step>
+                        <p>Klicken Sie mit der linken Maustaste auf den Titel oder das Symbol eines Lernraums.
+                            <img src="imageManualAuthoringRechteSidebarLernraumHierarchieCallout.png"
+                                 alt="Titel eines Lernraums in der Hierarchieansicht" width="200" thumbnail="true" style="block"/></p>
+                    </step>
+                </procedure>
+            </tab>
+        </tabs>
+        <tip>Es öffnet sich im <a href="ManualAuthoringSoftwarekomponentenMittleresFenster.topic">Mittleren Fenster</a> der entsprechende Grundriss zum Lernraum. Darüber hinaus wird in der <a href="ManualAuthoringSoftwarekomponentenLinkeSidebar.topic">linken Sidebar</a> der Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumen.topic"/> geöffnet. In diesem können nun die Angaben zum Lernraum bearbeitet werden. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>.</tip>
+        <note><control>&#10004; Sie haben erfolgreich den Bearbeitungsmodus zu einem Lernraum über die rechte Sidebar aktiviert.</control></note>
+    </procedure>
+</topic>

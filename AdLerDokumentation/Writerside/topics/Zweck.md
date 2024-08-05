@@ -1,3 +1,0 @@
-# Zweck
-
-Start typing here...

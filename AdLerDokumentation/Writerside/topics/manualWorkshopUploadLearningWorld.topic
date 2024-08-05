@@ -21,7 +21,8 @@
                 <img src="imageManualWorkshopHighlightedAdministrationButton.png" alt="Hervorgehobener Einloggen auf AdLer-Server-Button in der Kopfzeile des Autorentools" width="200" thumbnail="true" />
             </step>
             <step>
-                <p>Tragen Sie im nun geöffneten Anmeldeformular die Login-Daten ein. Sie erhalten die Anmeldedaten von der Person, die Ihren Workshop leitet.</p>
+                <p>Tragen Sie im nun geöffneten Anmeldeformular die Login-Daten ein.</p>
+                <tip>Ihre Anmeldedaten wurden Ihnen während des Workshops ausgegeben. Sie finden das Schema der Anmeldedaten zusätzlich auf der Workshop Webseite der Projekt AdLer Homepage.</tip>
                 <img src="imageManualWorkshopLoginToAdLerServerAuthoringTool.png" alt="Anmeldeformular zur Anmeldung auf dem AdLer Server im Autorentool" width="200" thumbnail="true" />
             </step>
             <step>
@@ -63,8 +64,20 @@
                 </note>
             </step>
             <step>
-                <p>Klicken Sie nun auf <control>In Moodle öffnen</control> und fahren Sie mit der Anleitung <a href="manualWorkshopSubscribeToLearningWorld.topic">"Einschreiben in eine Lernwelt"</a> fort.</p>
+                <p>Klicken Sie nun auf <control>In Moodle öffnen</control>.</p>
             </step>
+            <tip>
+                <p>Moodle öffnet sich in einem Browserfenster Ihres Standardbrowsers. Die kann im Hintergrund passieren. Überprüfen Sie ihr Browserfenster, ob sich Moodle geöffnet hat.</p>
+            </tip>
+            <note>
+                <control>
+                    <p>Sie haben Ihre Lernwelt erfolgreich auf dem AdLer-Server veröffentlicht.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
         </procedure>
+        <tip>
+            <p>Fahren Sie mit der Anleitung <a href="manualWorkshopSubscribeToLearningWorld.topic">"Betrachten der Lernwelt in Moodle"</a> fort.</p>
+        </tip>
     </chapter>
 </topic>

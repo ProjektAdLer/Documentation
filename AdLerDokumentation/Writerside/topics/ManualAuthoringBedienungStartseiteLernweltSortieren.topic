@@ -5,15 +5,21 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Lernwelt sortieren" id="ManualAuthoringBedienungStartseiteLernweltSortieren">
 
-    <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Softwarekomponenten: Startseite</a>
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Startseite</a>.</p>
 
-    <procedure id="hier_steht_die_bezeichung_der_handlungsanweisung">
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
                 <control>Ziel der Handlung</control>
                 <p>Lernwelten in der Übersicht sortieren.</p>
             </def>
         </deflist>
+
+        <note>
+            <p>Erstellte und importierte Lernwelten werden auf der <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Startseite</a> in einer Übersicht aufgelistet.</p>
+            <img src="imageManualAuthoringLernweltUebersichtCallout.png" alt="LernweltenUebersichtCallout" width="200" thumbnail="true"/>
+        </note>
 
         <tip>Voraussetzung:
             <p>Es existieren mindestens zwei Lernwelten im Autorentool.</p>
@@ -23,32 +29,37 @@
             <tip>Standardmäßig ist die Sortierung nach dem Änderungsdatum eingestellt.</tip>
             <tabs>
             <tab id="Lernwelt-AenderungsDatumSortieren" title="...nach dem Änderungsdatum">
+                <procedure id="aenderungsdatum_lernwelt" title="Nach dem Änderungsdatum sortieren">
                 <list type="decimal">
                     <li>Klicken Sie mit der Maus auf das entsprechende Symbol.
                         <img src="imageManualAuthoringStartseiteLernweltSortierenAenderungsdatumButtonCallout.png" alt="AenderungsdatumButtonCallout" width="200" thumbnail="true"/>
                         <tip>Sobald die Maus über den Button fährt, wird dieser mit einem hellgrauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Nach dem Änderungsdatum sortieren" wird angezeigt.</tip>
                     </li>
                 </list>
-                <img src="imageManualAuthoringStartseiteLernweltSortierenAenderungsdatumCallout.png" alt="AenderungsdatumCallout" width="200" thumbnail="true"/>
-                <tip>Die Sortierung orientiert sich an dem Datum, an dem die Lernwelten je zuletzt geändert wurden und passt dementsprechend die Reihenfolge an.</tip>
+                <tip>
+                    <p>Die Sortierung orientiert sich an dem Datum, an dem die Lernwelten je zuletzt geändert wurden und passt dementsprechend die Reihenfolge an.</p>
+                    <img src="imageManualAuthoringStartseiteLernweltSortierenAenderungsdatumCallout.png" alt="AenderungsdatumCallout" width="200" thumbnail="true"/>
+                </tip>
+                </procedure>
             </tab>
             <tab id="Lernwelt-AlphaNumerischSortieren" title="...alphanumerisch">
+                <procedure id="alphanumerisch_lernwelt" title="Alphanumerisch sortieren">
                 <list type="decimal">
                     <li>Klicken Sie mit der Maus auf das entsprechende Symbol.
                         <img src="imageManualAuthoringStartseiteLernweltSortierenAlphaNumerischButtonCallout.png" alt="AlphaNumerischButtonCallout" width="200" thumbnail="true"/>
                         <tip>Sobald die Maus über den Button fährt, wird dieser mit einem hellgrauen Hintergrund dargestellt und ein zusätzlicher Hover-Text "Alphanumerisch sortieren" wird angezeigt.</tip>
                     </li>
                 </list>
-                <img src="imageManualAuthoringStartseiteLernweltSortierenAlphaNumerischCallout.png" alt="AlphaNumerischCallout" width="200" thumbnail="true"/>
-                <tip>Die Sortierung orientiert sich an dem Namen der jeweiligen Lernwelten und passt dementsprechend die Reihenfolge an.</tip>
+                <tip>
+                    <p>Die Sortierung orientiert sich an dem Namen der jeweiligen Lernwelten und passt dementsprechend die Reihenfolge an.</p>
+                    <img src="imageManualAuthoringStartseiteLernweltSortierenAlphaNumerischCallout.png" alt="AlphaNumerischCallout" width="200" thumbnail="true"/>
+                </tip>
+                </procedure>
             </tab>
             </tabs>
         </step>
         <note>
-            <control>
-                <p>Sie haben die Lernwelt erfolgreich sortiert.</p>
-                <p>&#10004;</p>
-            </control>
+            <control>&#10004; Sie haben die Lernwelt erfolgreich sortiert.</control>
         </note>
     </procedure>
 </topic>

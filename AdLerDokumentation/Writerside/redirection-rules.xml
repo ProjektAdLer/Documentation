@@ -114,4 +114,62 @@
         <description>Created after removal of "Internetverlust" from AdLerDokumentation</description>
         <accepts>Internetverlust.html</accepts>
     </rule>
+    <rule id="352050f2">
+        <description>Created after removal of "Spielerdaten-Eigenschaften-Backend" from AdLerDokumentation</description>
+        <accepts>Spielerdaten-Eigenschaften-Backend.html</accepts>
+    </rule><rule></rule><rule></rule><rule></rule><rule></rule><rule></rule>
+    <rule id="5931e2cb">
+        <description>Created after removal of "Moodle" from AdLerDokumentation</description>
+        <accepts>ManualMoodle-Moodle.html</accepts>
+    </rule>
+    <rule id="22c30568">
+        <description>Created after removal of "3D-Lernumgebung" from AdLerDokumentation</description>
+        <accepts>ManualEngine-3D-Lernumgebung.html</accepts>
+    </rule>
+    <rule id="3a436b7c">
+        <description>Created after removal of "Interaktive Inhalte öffnen " from AdLerDokumentation</description>
+        <accepts>ManualEngine-Interaktive-Inhalte-öffnen.html</accepts>
+    </rule>
+    <rule id="10122bad">
+        <description>Created after removal of "Zweck" from AdLerDokumentation</description>
+        <accepts>Zweck.html</accepts>
+    </rule>
+    <rule id="5bca114b">
+        <description>Created after removal of "Benutzerdokumentation" from AdLerDokumentation</description>
+        <accepts>Benutzerdokumentation-Templates.html</accepts>
+    </rule>
+    <rule id="21fa2c7e">
+        <description>Created after removal of "Schnittstellen" from AdLerDokumentation</description>
+        <accepts>Schnittstellen-Backend.html</accepts>
+    </rule>
+    <rule id="1d9ef203">
+        <description>
+            <![CDATA[Created after removal of "<ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.md>" from AdLerDokumentation]]></description>
+        <accepts>ManualAuthoringBedienungKopfzeileVonAdLerServerAbmelden.html</accepts>
+    </rule>
+    <rule id="a20b21">
+        <description>Created after removal of "Installationsanleitung" from AdLerDokumentation</description>
+        <accepts>Installationsanleitung-GE.html</accepts>
+    </rule>
+    <rule id="7819dfe">
+        <description>Created after removal of "Software Design" from AdLerDokumentation</description>
+        <accepts>Software-Design-Plugin.html</accepts>
+    </rule>
+    <rule id="13b012be">
+        <description>Created after removal of "Nicht funktionale Anforderungen" from AdLerDokumentation</description>
+        <accepts>Nicht-funktionale-Anforderungen-Plugin.html</accepts>
+    </rule>
+    <rule id="48af3a42">
+        <description>Created after removal of "Nutzung AdLer" from AdLerDokumentation</description>
+        <accepts>Nutzung-AdLer-BD.html</accepts>
+    </rule>
+    <rule id="525735fe">
+        <description>Created after removal of "Lernwelt Automatisch Persistieren 2" from AdLerDokumentation
+        </description>
+        <accepts>ASE8.html</accepts>
+    </rule>
+    <rule id="20a442a6">
+        <description>Created after removal of "Storyelement" from AdLerDokumentation</description>
+        <accepts>Storyelement-Didaktik-GE.html</accepts>
+    </rule>
 </rules>

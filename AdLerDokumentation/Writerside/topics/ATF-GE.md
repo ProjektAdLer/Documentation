@@ -26,7 +26,7 @@
     </tr>  
     <tr>
         <td>Siehe auch</td>
-        <td></td>
+        <td><a href="AdLer-Transfer-File-ATF.md">ATF Spezifikation</a></td>
     </tr>
     <tr>
         <td>Akronym</td>

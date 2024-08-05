@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernpfad erstellen" id="ManualAuthoringBedienungRechteSidebarLernpfadeErstellen"
+       help-id="ManualAuthoringLernräume-verbinden;ManualAuthoringBedienungRechteSidebarLernräume-verbinden;ManualAuthoringBedienungRechteSidebarLernraeumeVerbinden">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Verbindungen zwischen Lernräumen</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Mehrere Lernräume miteinander verbinden, um einen <a href="Lernpfad-XZ.md">Lernpfad</a> zu gestalten.</p>
+            </def>
+        </deflist>
+
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Eine Lernwelt ist geöffnet. Siehe: <a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>.</p></li>
+                <li><p>Es wurden mindestens zwei Lernräume innerhalb dieser Lernwelt erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/>(über die linke Sidebar), <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/>(über die rechte Sidebar).</p></li>
+            </list>
+        </tip>
+        <p>In der rechten Sidebar können über den Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> Lernräume miteinander verknüpft werden.</p>
+
+        <tabs>
+            <tab id="moegliche_lernpfade" title="Mögliche Verbindungen">
+                <procedure>
+                <p>
+                Ein vorangestellter Lernraum kann mit zwei nachfolgenden Lernräumen verbunden werden.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadZiehenErfolgreicherPfad.png" alt="erfolgreiches Ziehen eines Lernpfads" width="200" thumbnail="true" style="block"/></p>
+                </procedure>
+            </tab>
+            <tab id="nicht_moegliche_lernpfade" title="Keine möglichen Verbindungen">
+                <procedure>
+                <p>Mehrere vorangestellte Lernräume können <control>nicht</control> mit einem nachfolgenden Lernraum verbunden werden.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadZiehenErfolglos.png" alt="erfolgloses Ziehen eines Lernpfads" width="200" thumbnail="true" style="block"/></p>
+                </procedure>
+            </tab>
+        </tabs>
+
+        <step><p>Ordnen Sie die Lernräume in Ihrer gewünschten Abfolge an.
+            <img src="imageManualAuthoringRechteSidebarLernraumAnordnungCallout.png"
+                 alt="LernraumAnordnung" width="200" thumbnail="true" style="block"/></p>
+            <tip>Beachten Sie, dass die Abfolge von oben nach unten ist. D.h. Lernräume, die den Lernenden zuerst zur Verfügung gestellt werden sollen, werden oben platziert und Lernräume, die erst im späteren Verlauf zugänglich sein sollen, werden unterhalb platziert.</tip>
+        </step>
+        <step>
+            <p>Klicken Sie mit der linken Maustaste beim oberhalb platzierten Lernraum auf den gelben Kreis mit Plus-Symbol.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenCallout.png"
+                     alt="markierter Plus Button" width="200" thumbnail="true" style="block"/>
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenSlotCallout.png"
+                     alt="markierter Plus Button" width="200" thumbnail="true" style="block"/></p>
+        </step>
+        <step>
+            <p>Halten Sie die Maustaste weiterhin gedrückt und ziehen Sie den automatisch erzeugten grauen Pfeil in Richtung des unterhalb liegenden Lernraums.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenZiehen.png"
+                     alt="Pfeil wird von Lernraum 1 auf Lernraum 2 gezogen" width="200" thumbnail="true" style="block"/></p>
+            <tip>
+                <p>Sobald Sie mit dem grauen Pfeil in die Nähe des gewünschten Lernraums gelangen, wird der Lernraum gelb umrandet und die Verbindung kann hergestellt werden.
+                    <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenZiehenErfolgreich.png"
+                         alt="Pfeil wurde erfolgreich von Lernraum 1 auf Lernraum 2  gezogen" width="200" thumbnail="true" style="block"/></p>
+            </tip>
+        </step>
+        <step>
+            <p>Lassen Sie die Maustaste los, um die Verbindung zu erstellen.
+                <img src="imageManualAuthoringRechteSidebarLernraumPfadHinzufuegenVerbinden.png"
+                     alt="Lernraum 1 und Lernraum 2 sind verbunden" width="200" thumbnail="true" style="block"/></p>
+            <tip>
+                <p>Sobald die Verbindung zwischen den beiden Lernräumen hergestellt wurde, erscheint am unterhalb positionierten Lernraum ein blauer Kreis mit Minus-Symbol.
+                    <img src="imageManualAuthoringRechteSidebarLernraumPfadLoeschenCallout.png"
+                         alt="markierter Minus Button" width="200" thumbnail="true" style="block"/>
+                </p>
+            </tip>
+        </step>
+        <tip>
+            <p>Das Vorgehen zum Ziehen von Verbindungen zwischen Lernräumen in linearer Abfolge gilt ebenso zum Ziehen von Verbindungen, die zusätzliche <a href="ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen.topic">Und-/Oder-Bedingungen</a> enthalten und dadurch komplexere Abhängigkeiten zwischen Lernräumen schaffen.<img src="imageManualAuthoringRechteSidebarLernraumBedingungEingebunden.png"
+                    alt="Bedingung im Lernpfad" width="200" thumbnail="true" style="block"/></p>
+        </tip>
+        <note><control>&#10004; Sie haben erfolgreich eine Verbindung zwischen den beiden Lernräumen hergestellt.</control></note>
+    </procedure>
+</topic>

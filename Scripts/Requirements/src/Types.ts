@@ -16,4 +16,5 @@ export type UnitTestInfos = {
   id: string;
   file: string;
   lineNumber: number;
+  repoName: string;
 };

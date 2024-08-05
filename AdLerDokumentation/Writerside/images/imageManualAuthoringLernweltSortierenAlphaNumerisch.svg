@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 986">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .6;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #172d4d;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #eee;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image width="1918" height="984" transform="translate(0 1)" xlink:href="../Screenshots_Autorentool/Bedienung/ManualAuthoringLernweltSortierenAlphaNumerisch.png"/>
+  <path class="cls-1" d="M.1.9v986h1921V.9H.1ZM1601.1,914.9c0,8.3-6.7,15-15,15H329.1c-8.3,0-15-6.7-15-15V281.9c0-8.3,6.7-15,15-15h1257c8.3,0,15,6.7,15,15v633Z"/>
+  <g>
+    <rect id="PfeilDokumentation" class="cls-2" x="218.2" y="239.5" width="62.7" height="180" transform="translate(-80.6 578.1) rotate(-89.8)"/>
+    <g>
+      <path class="cls-4" d="M164.9,315.4v27.7c0,0,138.6.4,138.6.4v9.2s32.4-23,32.4-23l-32.2-23.2v9.2s-138.8-.4-138.8-.4h0Z"/>
+      <path class="cls-3" d="M304.6,305.3l32.3,23.2c.4.3.7.8.7,1.3s-.2,1-.7,1.3l-32.4,23c-.5.3-1.1.4-1.7.1-.5-.3-.9-.8-.9-1.4v-7.7s-137.1-.4-137.1-.4c-.9,0-1.6-.7-1.6-1.6v-27.7c0-.9.8-1.6,1.7-1.6l137.2.4v-7.7c0-.6.4-1.1.9-1.4.2-.1.5-.2.7-.2s.7,0,.9.3ZM166.5,341.6l137.2.4c.9,0,1.6.7,1.6,1.6v6.1s28-19.9,28-19.9l-27.9-20.1v6.2c0,.9-.7,1.6-1.6,1.6l-137.2-.4v24.6Z"/>
+    </g>
+  </g>
+</svg>

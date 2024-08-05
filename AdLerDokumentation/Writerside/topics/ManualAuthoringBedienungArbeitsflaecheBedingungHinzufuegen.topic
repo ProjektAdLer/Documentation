@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Bedingung hinzufügen" id="ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen"
+       help-id="ManualAuthoringBedienungArbeitsflaecheLernraumImportieren">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zur Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Verbindungen zwischen Lernräumen</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Hinzufügen einer <control>Und-/Oder-Bedingung</control> in einen Lernpfad in der <a href="ManualAuthoringSoftwarekomponentenRechteSidebar.topic">rechten Seitenleiste</a>.</p>
+            </def>
+        </deflist>
+
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Eine Lernwelt ist geöffnet. Siehe: <a href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>.</p></li>
+                <li><p>Es wurde mindestens ein Lernraum innerhalb dieser Lernwelt erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic"/> (über die linke Sidebar), <a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/> (über die rechte Sidebar).</p></li>
+                <li><p>Es wurde zuvor mindestens eine Verbindung zwischen zwei Lernräumen hergestellt. Siehe: <a href="ManualAuthoringBedienungRechteSidebarLernpfadeErstellen.topic"/>.</p></li>
+            </list>
+        </tip>
+        <p>In der rechten Sidebar können über den Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> komplexere Verbindungen zwischen den Lernräumen hergestellt werden, indem <control>Und-/Oder-Bedingungen</control> hinzugefügt werden.</p>
+        <tip>Ingesamt stehen drei Möglichkeiten zur Verfügung:
+            <list>
+                <li>Lineare Abfolge: Die einzelnen Lernräume werden nacheinander durchlaufen. Zunächst wird <i>Lernraum A</i> durchlaufen, danach <i>Lernraum B</i> und zuletzt <i>Lernraum C</i>.</li>
+                <li>Oder-Bedingung: Die Lernenden können wählen, ob sie <i>Lernraum A</i> oder <i>Lernraum B</i> durchlaufen, um zu <i>Lernraum C</i> zu gelangen.</li>
+                <li>Und-Bedingung: Die Lernenden müssen <i>Lernraum A</i> und <i>Lernraum B</i> durchlaufen, bevor sie in <i>Lernraum C</i> gelangen.</li>
+            </list>
+        </tip>
+        <step>
+            <p>Klicken Sie mit der linken Maustaste auf den Button <control>Und-/Oder-Verbindung</control> (Symbol: Plus).
+                <img src="imageManualAuthoringRechteSidebarLernraumBedingungErstellenCallout.png"
+                     alt="Erstellen Button hervorgehoben" width="200" thumbnail="true" style="block"/></p>
+            <note>
+                <p>Die Verbindung wird im linken oberen Eck innerhalb der weißen Fläche hinzugefügt. Sie erscheint mit der Standardeinstellung <control>Oder</control>.
+                <img src="imageManualAuthoringRechteSidebarLernraumBedingungErstellt.png"
+                     alt="hinzufeügte hervorgehobene Bedingung" width="200" thumbnail="true" style="block"/></p>
+            </note>
+        </step>
+        <step>
+            <p>Klicken Sie mit der linken Maustaste auf die Bedingung und verschieben Sie diese mit gehaltener Maustaste an die passende Stelle.
+                <img src="imageManualAuthoringRechteSidebarLernraumBedingungPosition.png" alt="Bedingung im Lernpfad" width="200" thumbnail="true" style="block"/></p>
+            <warning>Die Bedingung lässt sich durch Klicken und Ziehen auf den <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic">Umschalter</a> nicht bewegen. Zum Verschieben der Bedingung müssen Sie diese im äußeren Bereich anwählen. <img src="imageManualAuthoringRechteSidebarLernraumBedingungAuswahl.png" alt="Bedingung verschieben - Auswahlbereich" width="100" thumbnail="true" style="block"/></warning>
+        </step>
+        <step>
+            <p>Zum Verbinden der Lernräume mit der Bedingung --> siehe <a href="ManualAuthoringBedienungRechteSidebarLernpfadeErstellen.topic"/>.</p>
+        </step>
+
+        <note><control>&#10004; Sie haben erfolgreich eine Und-/Oder-Bedingung hinzugefügt.</control></note>
+    </procedure>
+</topic>

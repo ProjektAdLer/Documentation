@@ -1,3 +1,3 @@
 # Funktionale Anforderungen
 
-Start typing here...
+In diesem Kapitel werden alle Anforderungen zum AdLer-Autorentool aufgeführt.

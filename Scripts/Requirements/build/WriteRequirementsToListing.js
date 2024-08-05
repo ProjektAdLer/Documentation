@@ -35,50 +35,44 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.writeRequirementsToListing = void 0;
 const fs = __importStar(require("fs/promises"));
 const path = __importStar(require("path"));
-// Function to generate the markdown table for requirements with tests.
-function generateMarkdownTable(requirementsWithTests, repoName) {
-    let table = [];
-    addTableHeader(table);
-    // Convert to array and sort by requirement title
-    const sortedRequirements = Object.values(requirementsWithTests).sort((a, b) => a.requirementInfo.title.localeCompare(b.requirementInfo.title));
-    // Populate the table rows based on the sorted array
-    sortedRequirements.forEach((requirement) => {
-        const { id, title } = requirement.requirementInfo;
-        const tests = requirement.unitTests.length;
-        const testCountDisplay = tests === 0 ? `**${tests}**` : `${tests}`;
-        const files = requirement.unitTests.map((test) => formatFileLink(test, repoName)).join('<br/>');
-        const filesDisplay = tests === 0 ? `-` : files;
-        table.push(`| [${title} (${id})](${id}.md) | ${testCountDisplay} | ${filesDisplay} |`);
+// Generate a markdown table from the requirements and their associated tests
+function generateMarkdownTable(requirementsWithTests) {
+    const tableHeader = ['| Requirement | Anzahl an Tests | Dateien |', '| --- | --- | --- |'];
+    const tableRows = Object.values(requirementsWithTests)
+        // Sort requirements alphabetically by title
+        .sort((a, b) => a.requirementInfo.title.localeCompare(b.requirementInfo.title))
+        .map(({ requirementInfo: { id, title }, unitTests }) => {
+        const testCount = unitTests.length;
+        // Highlight test count with bold if it's zero
+        const testCountDisplay = testCount === 0 ? `**${testCount}**` : `${testCount}`;
+        const files = testCount === 0 ? '-' : unitTests.map((test) => formatFileLink(test)).join('<br/>');
+        return `| [${title} (${id})](${id}.md) | ${testCountDisplay} | ${files} |`;
     });
-    return table.join('\n');
+    return [...tableHeader, ...tableRows].join('\n');
 }
-// Adds the header row to the markdown table.
-function addTableHeader(table) {
-    table.push('| Requirement | Anzahl an Tests | Dateien |');
-    table.push('| --- | --- | --- |');
-}
-// Formats the link to a file for inclusion in the markdown.
-function formatFileLink(test, repoName) {
-    // remove repo name and the backslashes from the file path
-    const filePath = test.file.substring(test.file.indexOf(repoName) + repoName.length + 1).replace(/\\/g, '/');
-    const repoPath = `https://github.com/ProjektAdLer/${repoName}/blob/main/${filePath}#L${test.lineNumber}`;
+// Format a file link for the markdown table
+function formatFileLink(test) {
+    // Remove repo name and backslashes from the file path
+    const filePath = test.file.substring(test.file.indexOf(test.repoName) + test.repoName.length + 1).replace(/\\/g, '/');
+    const repoPath = `https://github.com/ProjektAdLer/${test.repoName}/blob/main/${filePath}#L${test.lineNumber}`;
     return `[${path.basename(test.file)}:${test.lineNumber}](${repoPath})`;
 }
-function writeRequirementsToListing(requirementsWithTests, filePath, repoName) {
+function writeRequirementsToListing(requirementsWithTests, filePath) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             let content = yield fs.readFile(filePath, 'utf8');
             const marker = '[//]: # (Script-Start)';
             const insertPosition = content.indexOf(marker) + marker.length;
-            content = content.slice(0, insertPosition); // Retain content before marker
-            const markdownTable = generateMarkdownTable(requirementsWithTests, repoName);
-            content += '\n' + markdownTable;
-            yield fs.writeFile(filePath, content);
+            // Generate the new content and insert it after the marker
+            const updatedContent = content.slice(0, insertPosition) + '\n' + generateMarkdownTable(requirementsWithTests);
+            yield fs.writeFile(filePath, updatedContent);
             console.log('File written successfully');
         }
         catch (error) {
             console.error('Error writing requirements to file:', error);
+            throw error; // Re-throw the error for better error handling in the calling function
         }
     });
 }
 exports.writeRequirementsToListing = writeRequirementsToListing;
+//# sourceMappingURL=WriteRequirementsToListing.js.map

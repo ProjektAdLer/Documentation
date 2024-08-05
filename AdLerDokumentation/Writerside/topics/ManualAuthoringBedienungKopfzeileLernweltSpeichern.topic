@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernwelt speichern" id="ManualAuthoringBedienungKopfzeileLernweltSpeichern">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic">Kopfzeile auf der
+        Startseite</a> und
+        <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.
+    </p>
+
+    <procedure type="steps" title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Den aktuellen Stand einer Lernwelt speichern.</p>
+            </def>
+        </deflist>
+        <tip>Voraussetzung:
+            <p>Sie haben Änderungen an Ihrer Lernwelt vorgenommen.</p>
+        </tip>
+        <note>
+            <p>Der rote Punkt am
+                <control>Speichersymbol (Diskette)</control>
+                zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.
+            </p>
+            <img src="imageManualAuthoringSpeichernButton.png" alt="SpeichernButton" width="50" thumbnail="true"/>
+        </note>
+        <step><p>Klicken Sie auf das Speichersymbol oben links im Fenster, um Ihre ungespeicherten Änderungen zu
+            speichern.
+            <img src="imageManualAuthoringLernweltSpeichernButtonCallout.png" alt="SpeichernButtonCallout" width="200"
+                 thumbnail="true" style="block"/>
+        </p>
+        </step>
+        <tip>
+            <p>Im rechten oberen Bereich des Fensters erscheint eine Meldung, dass der Vorgang des Speicherns
+                erfolgreich war. Zudem verschwindet der rote Punkt am Speichersymbol.</p>
+            <img src="imageManualAuthoringLernweltSpeichernMeldungCallout.png" alt="SpeichernMeldungCallout" width="200"
+                 thumbnail="true"/>
+        </tip>
+        <note>
+            <control>&#10004; Sie haben Ihre Lernwelt mit Ihren Änderungen erfolgreich gespeichert.</control>
+        </note>
+    </procedure>
+</topic>

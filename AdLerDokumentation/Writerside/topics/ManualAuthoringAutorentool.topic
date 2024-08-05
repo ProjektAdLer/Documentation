@@ -5,5 +5,8 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Autorentool" id="ManualAuthoringAutorentool">
 
-    <p>Start typing here...</p>
+    <p>Dies ist die Benutzerdokumentation des AdLer-Autorentools.</p>
+    <p>Im Kapitel <a href="ManualAuthoringFeatures-auf-einen-Blick.topic"><control>Features auf einen Blick</control></a> werden die zentralen Funktionen des AdLer-Autorentools vorgestellt. Das Kapitel <a href="ManualAuthoringSoftwarekomponenten.topic"><control>Softwarekomponenten</control></a> umfasst die Beschreibung aller Komponenten, aus denen das AdLer-Autorentool besteht. Im Kapitel <a href="ManualAuthoringBedienung.topic"><control>Bedienung</control></a> werden die einzelnen Bedienschritte aufgeführt, die innerhalb des AdLer-Autorentools möglich sind.</p>
+    <img src="ManualAuthoringAdLerSystemAutorentoolPreview.png" alt="AdLer-Autorentool" width="700"/>
+
 </topic>

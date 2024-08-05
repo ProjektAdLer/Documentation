@@ -1,3 +1,0 @@
-# Nicht funktionale Anforderungen
-
-Start typing here...

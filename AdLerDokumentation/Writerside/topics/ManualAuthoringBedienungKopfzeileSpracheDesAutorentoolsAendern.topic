@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Sprache des Autorentools ändern" id="ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic">Kopfzeile auf der
+        Startseite</a> und
+        <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.
+    </p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Die Anzeigesprache des Autorentools wird geändert.</p>
+            </def>
+        </deflist>
+
+
+        <step>
+            <p>Klicken Sie in der Kopfzeile auf das Symbol mit dem Kürzel der gewünschten Sprache <control>DE</control> oder <control>EN</control>.
+                <img src="imageManualAuthoringKopfzeileAktionSprache.png"
+                     alt="Sprach-Icons in der Kopfzeile des Autorentools, Deutsch aktiv" width="200" thumbnail="true"
+                     style="block"/>
+            </p>
+        </step>
+        <tip>
+            <p>Durch hovern über das Symbol wird die entsprechende Sprache in Textform als Untertitel angezeigt.</p>
+        </tip>
+        <tip>
+            <p>Aktuell stehen Ihnen folgende Sprachen zur Auswahl:</p>
+            <list>
+                <li><p>DE: Deutsch</p></li>
+                <li><p>EN: Englisch</p></li>
+            </list>
+            <p>Standardmäßig ist die deutsche Sprache ausgewählt.</p>
+        </tip>
+
+        <note>
+            <control>&#10004; Die Anzeigesprache des Autorentools ist nun gewechselt und das entsprechende Symbol
+                hervorgehoben.
+            </control>
+            <img src="imageManualAuthoringKopfzeileAktionSprache.png"
+                 alt="Sprach-Icons in der Kopfzeile des Autorentools, Deutsch aktiv" width="200" thumbnail="true"
+                 style="block"/>
+        </note>
+    </procedure>
+</topic>

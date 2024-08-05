@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Externes Lernmaterial löschen"
+       id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialLoeschen">
+
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic">Externes Lernmaterial</a>.</p>
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Ein externes Lernmaterial aus dem Autorentool löschen.</p>
+            </def>
+        </deflist>
+
+        <tip>Voraussetzungen:
+            <list>
+                <li><p>Sie befinden sich im Tab <control>Externes Lernmaterial</control>.
+                    <img src="imageManualAuthoringAngabenExternesLernmaterialTab.png" alt="ExternesLernmaterialTab"
+                         width="200" thumbnail="true" style="block"/></p></li>
+                <li><p>Sie haben mindestens ein externes Lernmaterial hinzugefügt. Siehe <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic"/>.</p></li>
+            </list>
+        </tip>
+
+        <tabs>
+            <tab id="delete_einzelauswahl" title="Einzelauswahl">
+                <procedure title="Einzelauswahl">
+                    <step><p>Fahren Sie mit dem Mauszeiger über ein hinzugefügtes Lernmaterial.</p>
+                        <note>
+                            <p>Eine Toolbar mit drei Symbolen für drei Funktionen erscheint.
+                                <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipAktionen.png"
+                                     alt="ExternesLernmaterialTabTooltipAktionen"
+                                     width="200" thumbnail="true" style="block"/></p>
+                        </note>
+                    </step>
+                    <step>
+                        <p>Klicken Sie in der Toolbar auf den Button <control>Datei/Link löschen</control> (Symbol: Mülleimer).
+                            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipAktionenMenueTrash.png"
+                                 alt="ExternesLernmaterialTabTooltipLoeschen"
+                                 width="100" thumbnail="true" style="block"/>
+                        </p>
+                        <note>Ein Bestätigungsdialog wird angezeigt.
+                            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialTooltipLoeschenWarnung.png"
+                                alt="ExternesLernmaterialTabLoeschenWarnung"
+                                width="200" thumbnail="true" style="block"/></note>
+                        <warning>Wenn Sie eine Datei/Link löschen, welche in einer Lernwelt verwendet wird, können Sie diese
+                            Lernwelt nicht mehr generieren, bis das externe Element wieder hinzugefügt wird!
+                        </warning>
+                    </step>
+                </procedure>
+            </tab>
+            <tab id="delete_mehrfachauswahl" title="Mehrfachauswahl">
+                <procedure title="Mehrfachauswahl">
+                    <step>
+                        <p>Wählen Sie durch Klicken auf das linke Auswahlkästchen alle Lernmaterialien aus, die Sie löschen möchten.
+                            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialAuswahlLoeschenAuswahlkasten.png"
+                                 alt="ExternesLernmaterialTabLoeschenWarnung"
+                                 width="200" thumbnail="true" style="block"/></p>
+                        <tip>Durch Klicken auf den Ausklappen-Button können Sie entweder <control>Alle</control> oder nur <control>Nicht verwendetes Lernmaterial</control> auswählen.
+                            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialAuswahlOptionen.png"
+                                 alt="ExternesLernmaterialTabLoeschenWarnung"
+                                 width="200" thumbnail="true" style="block"/>
+                            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialAuswahlOptionenAnsicht.png"
+                                 alt="ExternesLernmaterialTabLoeschenWarnung"
+                                 width="200" thumbnail="true" style="block"/></tip>
+                    </step>
+                    <step>
+                        <p>Klicken Sie im Abschnitt <control>Hinzugefügtes Lernmaterial</control> auf den Button <control>Datei/Link löschen</control>.
+                            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialAuswahlLoeschenButton.png"
+                                 alt="ExternesLernmaterialTabLoeschenWarnung"
+                                 width="200" thumbnail="true" style="block"/></p>
+                        <note>Ein Bestätigungsdialog wird angezeigt.
+                            <img src="imageManualAuthoringLinkeSidebarExternesLernmaterialAuswahlLoeschenWarnung.png"
+                                 alt="ExternesLernmaterialTabLoeschenWarnung"
+                                 width="200" thumbnail="true" style="block"/></note>
+                        <warning>Wenn Sie eine Datei/Link löschen, welche in einer Lernwelt verwendet wird, können Sie diese
+                            Lernwelt nicht mehr generieren, bis das externe Element wieder hinzugefügt wird!
+                        </warning>
+                    </step>
+                </procedure>
+            </tab>
+        </tabs>
+
+        <step>
+            <p>Klicken Sie auf den Button <control>Löschen</control>, um das externe Lernmaterial aus dem Autorentool zu entfernen.
+                Drücken Sie den Button <control>Abbrechen</control> oder den Button <control>X</control>, um den Dialog ohne Löschung zu schließen.
+            </p>
+        </step>
+        <note>
+            <control>&#10004; Sie haben erfolgreich ein externes Lernmaterial aus dem Autorentool gelöscht.</control>
+        </note>
+    </procedure>
+</topic>

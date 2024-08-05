@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernwelt veröffentlichen" id="ManualAuthoringBedienungKopfzeileLernweltVeroeffentlichen">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der
+        Arbeitsfläche</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Eine lokal erstellte oder bearbeitete Lernwelt auf den AdLer-Moodle-Server hochladen und
+                    veröffentlichen.</p>
+            </def>
+        </deflist>
+
+        <tip>
+            <p>Voraussetzungen:</p>
+            <list>
+                <li>Sie sind im Autorentool mit Ihrem Account angemeldet. Siehe: <a
+                        href="ManualAuthoringBedienungKopfzeileAufAdLerServerAnmelden.topic"/>.</li>
+                <li>Eine Lernwelt ist geöffnet oder wurde neu erstellt. Siehe: <a
+                        href="ManualAuthoringBedienungStartseiteLernweltImportieren.topic"/>, <a
+                        href="ManualAuthoringBedienungStartseiteLernweltOeffnen.topic"/>, <a
+                        href="ManualAuthoringBedienungStartseiteLernweltErstellen.topic"/>.</li>
+            </list>
+        </tip>
+
+        <step>
+            <p>Drücken Sie auf den Button
+                <control>Lernwelt als Moodle Lernwelt-Datei (.mbz) veröffentlichen</control>.
+                <img src="imageManualAuthoringKopfzeileAktionHochladen.png"
+                     alt="Veröffentlichen Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
+                     style="block"/>
+            </p>
+            <note>Ein Bestätigungsdialog wird angezeigt.
+                <img src="imageManualAuthoringKopfzeileVeroeffentlichenBestaetigung.png"
+                     alt="Bestätigungsdialog Lernwelt hochladen" width="200" thumbnail="true" style="block"/>
+            </note>
+        </step>
+        <step>
+            <p>Im Zusammenhang mit der Veröffentlichung einer Lernwelt sind zwei Zustände der Lernwelt möglich:</p>
+            <tabs>
+                <tab title="Neue Lernwelt">
+                    <procedure title="Neue Lernwelt">
+                        <step>
+                            <p>Drücken Sie auf den Button
+                                <control>Hochladen</control>, um die ausgewählte Lernwelt in Moodle hochzuladen. Drücken Sie alternativ den
+                                Button <control>Abbrechen</control>, um den Bestätigungsdialog ohne Hochladen zu beenden.
+                                <img src="imageManualAuthoringKopfzeileVeroeffentlichenBestaetigung.png"
+                                     alt="Bestätigungsdialog Lernwelt hochladen" width="200" thumbnail="true"
+                                     style="block"/>
+                            </p>
+                        </step>
+                    </procedure>
+                </tab>
+                <tab title="Vorhandene Lernwelt">
+                    <procedure title="Vorhandene Lernwelt">
+                        <step>
+                            <p>Drücken Sie auf den Button
+                                <control>Lernwelt ersetzen</control>, um die ausgewählte Lernwelt in Moodle hochzuladen und die vorhandene somit zu
+                                überschreiben. Drücken Sie auf den Button
+                                <control>Kopie von Lernwelt erstellen</control>, um die Lernwelt als Kopie der vorhandenen hochzuladen - ein separater Kurs wird
+                                erstellt. Drücken Sie alternativ den Button
+                                <control>Abbrechen</control>, um den Bestätigungsdialog ohne Hochladen zu beenden.
+                                <img src="imageManualAuthoringKopfzeileVeroeffentlichenBestaetigungErsetzen.png"
+                                     alt="Auswahldialog Lernwelt ersetzen oder als Kopie speichern" width="200"
+                                     thumbnail="true" style="block"/>
+                            </p>
+                            <warning>
+                                <p>Sollten Sie die vorhandene Lernwelt ersetzen wollen, so gehen alle Daten der
+                                    bisherigen Lernwelt, einschließlich des Nutzerfortschritts, unwiderruflich
+                                    verloren.</p>
+                            </warning>
+                        </step>
+                        <step>
+                            <p>Vorhandene Lernwelt ersetzen: Drücken Sie auf den Button
+                                <control>Ja</control>, um die ausgewählte Lernwelt in Moodle hochzuladen. Drücken Sie alternativ den Button
+                                <control>Abbrechen</control>, um den Bestätigungsdialog ohne Hochladen zu beenden.
+                                <img src="imageManualAuthoringKopfzeileVeroeffentlichenBestaetigungErsetzenBestaetigung.png"
+                                     alt="Bestätigungsdialog Lernwelt ersetzen" width="200" thumbnail="true"
+                                     style="block"/>
+                            </p>
+                        </step>
+                    </procedure>
+                </tab>
+            </tabs>
+
+            <note>Eine Fortschrittsanzeige wird angezeigt.
+                <img src="imageManualAuthoringKopfzeileVeroeffentlichenBestaetigungFortschritt.png"
+                     alt="Bestätigungsdialog Fortschrittsanzeige als Balken" width="200" thumbnail="true"
+                     style="block"/>
+            </note>
+        </step>
+        <step><p>Warten Sie bis das Hochladen abgeschlossen ist. Den aktuellen Fortschritt entnehmen Sie dem angezeigten
+            Fortschrittsdialog.</p>
+            <note>Nach Abschluss des Hochladens wird Ihnen ein abschließender Bestätigungsdialog angezeigt.
+                <img src="imageManualAuthoringKopfzeileVeroeffentlichenBestaetigungErfolg.png"
+                     alt="Bestätigungsdialog Hochladen Erfolgreich" width="200" thumbnail="true" style="block"/>
+            </note>
+        </step>
+        <step>
+            <p>Schließen Sie das Fenster über den Button
+                <control>X</control> oder wählen Sie eine der folgenden angezeigten Optionen aus:
+            </p>
+            <list>
+                <li>In 3D-Lernwelt ansehen: Bei Klick öffnet sich die AdLer-3D-Lernumgebung.</li>
+                <li>In Moodle ansehen: Bei Klick öffnet sich die entsprechende Moodle-Seite.</li>
+            </list>
+        </step>
+
+        <note>
+            <control>&#10004; Eine zuvor ausgewählte Lernwelt wurde erfolgreich auf den AdLer-Server hochgeladen und
+                veröffentlicht. Die Inhalte können nun online eingesehen werden.
+            </control>
+        </note>
+    </procedure>
+</topic>

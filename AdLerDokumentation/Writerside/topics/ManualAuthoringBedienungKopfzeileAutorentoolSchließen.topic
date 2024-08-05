@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Autorentool schließen" id="ManualAuthoringBedienungKopfzeileAutorentoolSchließen">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic">Kopfzeile auf der
+        Startseite</a> und
+        <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.
+    </p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Das AdLer-Autorentool beenden.</p>
+            </def>
+        </deflist>
+
+        <warning>
+            Das Autorentool lässt sich nicht über die Titelleiste des Fensters schließen.
+        </warning>
+
+
+        <step>
+            <p>Drücken Sie den Button
+                <control>Autorentool schließen</control> (Symbol: <control>X</control>) am rechten äußeren Rand der Kopfzeile.
+                <img src="imageManualAuthoringKopfzeileAktionSchliessen.png"
+                     alt="Benutzer Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
+                     style="block"/>
+            </p>
+        </step>
+
+        <note>
+            <control>&#10004; Das Autorentool wurde erfolgreich beendet.</control>
+        </note>
+    </procedure>
+</topic>

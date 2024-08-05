@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernziel ohne Eingabeunterstützung formulieren" id="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielOhneEingabeunterstuetzungFormulieren">
+
+    <show-structure for="chapter, procedure" depth="4"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuLernraeumenLernzielFormulierung.topic">Lernziel-Formulierung</a> und <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumenLernzielFormulierungOhneEingabeunterstuetzung.topic">Lernziel-Formulierung ohne Eingabeunterstützung</a>.</p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Ein Lernziel zu einem Lernraum formulieren, ohne die Eingabeunterstützung zu verwenden.</p>
+            </def>
+        </deflist>
+        <step><p>Klicken Sie auf den Button <control>Lernziel selbst formulieren</control>.
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungFensterSelbstButton.png" alt="Lernziel-Formulierung Fenster mit hervorgehobenem Selbst Formulieren Button" width="200" thumbnail="true"/></p>
+        </step>
+        <step><p>Tragen Sie in dem sich nun öffnenden Fenster in dem Textfeld Ihr Lernziel ein.
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungSelbstFeld.png" alt="Lernziel-Formulierung SelbstFenster mit hervorgehobenem Lernziel Textfeld" width="200" thumbnail="true"/></p>
+        </step>
+        <step><p>Bestätigen Sie Ihr formuliertes Lernziel mit einem Klick auf den Button <control>Erstellen</control>.
+            <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungSelbstErstellenButton.png" alt="Lernziel-Formulierung Selbst Fenster mit hervorgehobenem Erstellen Button" width="200" thumbnail="true"/></p>
+            <tip>
+                <p>Nach Erstellen des Lernziels werden Sie auf das vorherige Fenster zurückgeleitet und können darüber ein neues Lernziel mit oder ohne Eingabeunterstützung formulieren.</p>
+                <p>Alle erstellten Lernziele zum Lernraum werden darüber hinaus untenstehend angezeigt. Über diese Ansicht können Sie die erstellten Lernziele bei Bedarf bearbeiten oder löschen.</p>
+                <img src="imageManualAuthoringLinkeSidebarLernzielFormulierungUebersichtFenster.png" alt="Lernziel-Formulierung Fenster mit hinzugefügtem Lernziel" width="200" thumbnail="true"/>
+            </tip>
+        </step>
+        <note>
+            <control>&#10004; Sie haben erfolgreich ein selbst formuliertes Lernziel zu einem Lernraum erstellt.</control>
+        </note>
+    </procedure>
+</topic>

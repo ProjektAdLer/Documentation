@@ -86,11 +86,16 @@
                 <td>Darstellung eines Lernraums. Im aktiven Zustand weist dieser einen blauen Hintergrund auf.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumErstellen.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLernraumLoeschen.topic"/></li>
+            <li><a href="ManualAuthoringBedienungRechteSidebarLernpfadeErstellen.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheBedienungLernpfadeLoeschen.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheBedingungHinzufuegen.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarBedingungAendern.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarBedingungLoeschen.topic"/></li>
         </list>
     </chapter>
 </topic>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Zur Startseite wechseln" id="ManualAuthoringBedienungKopfzeileZurStartseiteWechseln"
+       help-id="ManualAuthoringBedienungKopfzeileAufDerStartseite">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponente: <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.</p>
+
+<procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+<deflist type="compact" sorted="desc">
+    <def title="&#127937;">
+        <control>Ziel der Handlung</control>
+        <p>Von der Arbeitsfläche ausgehend zur Startseite mit der Übersicht über alle erstellten und importierten Lernwelten wechseln.</p>
+    </def>
+</deflist>
+
+    <tip>Voraussetzung:
+        <p>Sie befinden sich in der Arbeitsfläche des Autorentools und möchten zur Startseite wechseln.</p>
+    </tip>
+    <warning>Der in der Kopfzeile platzierte Button ermöglicht das Wechseln der Ansicht auf die Startseite. Aus diesem Grund erfüllt dieser auch nur in der Arbeitsfläche seinen Zweck.
+        <img src="imageManualAuthoringHomeButton.png" alt="ZurStartseiteWechselnButtonCallout" width="50" thumbnail="true"/></warning>
+<list type="decimal">
+    <li><p>Klicken Sie in der Kopfzeile auf den Button.</p>
+        <img src="imageManualAuthoringZurStartseiteWechselnButtonCallout.png" alt="ZurStartseiteWechselnCallout" width="200" thumbnail="true"/>
+        <tip>Sobald die Maus über den Button fährt, wird ein zusätzlicher Hover-Text "Meine Lernwelten" angezeigt.</tip>
+        <note>Die Ansicht der Arbeitsfläche wird verlassen und stattdessen die Ansicht der Startseite angezeigt.
+            <img src="imageManualAuthoringStartseiteWechselCallout.png" alt="StartseiteCallout" width="200" thumbnail="true"/>
+        </note>
+    </li>
+</list>
+    <note>
+        <control>&#10004; Sie sind erfolgreich von der Arbeitsfläche auf die Startseite des Autorentools gewechselt.</control>
+    </note>
+</procedure>
+</topic>

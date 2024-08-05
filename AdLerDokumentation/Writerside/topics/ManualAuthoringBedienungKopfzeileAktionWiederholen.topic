@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Aktion wiederholen" id="ManualAuthoringBedienungKopfzeileAktionWiederholen">
+
+    <show-structure for="chapter, procedure" depth="2"/>
+    <p>Zu Softwarekomponenten: <a href="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic">Kopfzeile auf der
+        Startseite</a> und
+        <a href="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic">Kopfzeile in der Arbeitsfläche</a>.
+    </p>
+
+    <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ziel der Handlung</control>
+                <p>Die letzte Aktion oder Eingabe wiederholen.</p>
+            </def>
+        </deflist>
+
+        <tip>
+            <p>Voraussetzung:</p>
+            <list>
+                <li>Eine Aktion oder Eingabe wurde zuvor rückgängig gemacht. Siehe: <a
+                        href="ManualAuthoringBedienungKopfzeileLetzteAktionRueckgaengigMachen.topic"/>.</li>
+            </list>
+        </tip>
+
+
+        <tabs>
+            <tab id="undo-header" title="Kopfzeile">
+                <procedure title="Kopfzeile">
+                    <step>
+                        <p>Drücken Sie in der Kopfzeile den Button <control>Wiederholen</control> (Symbol: Pfeil nach rechts).
+                            <img src="imageManualAuthoringKopfzeileAktionWiederholen.png"
+                                 alt="Wiederholen Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
+                                 style="block"/>
+                        </p>
+                    </step>
+                </procedure>
+            </tab>
+            <tab id="undo-menu" title="Menüband">
+                <procedure title="Menüband">
+                    <step>
+                        <p>Wählen Sie die Kategorie
+                            <control>Edit</control>
+                            aus.
+                            <img src="imageManualAuthoringTitelleisteAktionRueckgaengig.png"
+                                 alt="Wiederholen Button in der Titelleiste des Autorentools" width="200"
+                                 thumbnail="true" style="block"/>
+                        </p>
+                    </step>
+                    <step>
+                        <p>Wählen Sie den Listeneintrag
+                            <control>Redo</control>
+                            aus.
+                            <img src="imageManualAuthoringTitelleisteAktionWiederholenMenue.png"
+                                 alt="Wiederholen Button in der Titelleiste des Autorentools" width="200"
+                                 thumbnail="true" style="block"/>
+                        </p>
+                    </step>
+                </procedure>
+            </tab>
+            <tab id="undo-shortcut" title="Tastenkombination">
+                <procedure title="Tastenkombination">
+                    <step>
+                        <p>Drücken Sie die Tastenkombination
+                            <control>Strg</control>
+                            +
+                            <control>Y</control>
+                            .
+                        </p>
+                    </step>
+                </procedure>
+            </tab>
+        </tabs>
+        <tip>
+            <p>Sie können mehrere rückgängig gemachte Aktionen hintereinander wiederholen.</p>
+        </tip>
+
+        <note>
+            <control>&#10004; Sie haben erfolgreich eine Aktion oder Eingabe wiederholt.</control>
+        </note>
+    </procedure>
+</topic>

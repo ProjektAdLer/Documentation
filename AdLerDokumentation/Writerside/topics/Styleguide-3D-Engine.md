@@ -1,3 +1,4 @@
+<show-structure for="chapter,procedure" depth="3"/>
 # Styleguide 3D
 
 
@@ -20,7 +21,7 @@ Beachten sie das diese Punkte sich manchmal auch gegenseitig ausschließen,
 hierbei sollten sie zuerst abwägen ob sie die obersten Punkte "**Low-Poly**" und "**Vereinfachte Erkennbarkeit**"
 immernoch erfüllen.
 
-#### Inspirationen
+### Inspirationen
 
 Inspirationen für die verschiedenen Objekte können sie Beispielsweise aus folgenden Spielen ziehen:
 
@@ -56,12 +57,25 @@ Folgende Texturen wurden beispielsweise in den Hintergrundwelten von AdLer verwe
 |-------------------------------|-------------------------------------------|
 | _Seamless Textur für Gehwege_ | _Seamless Textur für Stein/Pflasterboden_ |
 
-Zu Guter Letzt wurden in der AdLer 3D-Umgebung aufwändigere Texturen für Wände und Boden des Lernraums um die Aufmerksamkeit des Nutzers auf den Raum zu lenken:
+In der AdLer 3D-Umgebung wurden aufwändigere Texturen für Wände und Boden des Lernraums verwendet, um die Aufmerksamkeit des Nutzers auf den Raum zu lenken:
 
 | ![](imageStyleguideBeispielWandTextur.jpg)                                    |    ![](imageStyleguideBeispielBodenTextur.jpg)                                   |
 |----------------------------------------------------|-------------------------------------------------------|
 | _Mauerwerk-Textur für Lernräume des Arcade-Themes_ | _Teppichboden-Textur für Lernräume des Arcade-Themes_ |
 
+Alle interagierbaren Elemente in der 3D-Umgebung werden über eine farbliche Umrandung hervorgehoben. Folgende Farben wurden für folgende Zustände verwendet:
+
+| ![](imageStyleguideBeispielElementHighlightFarbenInteraktionsradiusNo.png)                                       | ![](imageStyleguideBeispielElementHighlightFarbenInteraktionsradiusYes.png)                 |
+|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| _Hervorhebung nicht abgeschlossenes Lern- oder Adaptivitätselement außerhalb des Interaktionsradius des Avatars_ | _Hervorhebung nicht abgeschlossenes Lern- oder Adaptivitätselement innerhalb des Interaktionsradius des Avatars_ |
+
+| ![](imageStyleguideBeispielStoryelementHighlightFarbenInteraktionsradiusNo.png) | ![](imageStyleguideBeispielStoryelementHighlightFarbenInteraktionsradiusYes.png) |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| _Hervorhebung Storyelement außerhalb des Interaktionsradius des Avatars_        | _Hervorhebung Storyelement innerhalb des Interaktionsradius des Avatars_         |
+
+| ![](imageStyleguideBeispielElementAbgeschlossenHighlightFarbenInteraktionsradiusNo.png) | ![](imageStyleguideBeispielElementAbgeschlossenHighlightFarbenInteraktionsradiusYes.png)                   |
+|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| _Hervorhebung Lern- oder Adaptivitätselement außerhalb des Interaktionsradius des Avatars_        | _Hervorhebung abgeschlossenes Lern- oder Adaptivitätselement innerhalb des Interaktionsradius des Avatars_ |
 ## 3. Beispielbilder
 
 Im Folgenden Absatz sollen die oben genannten Punkte anhand von einigen Beispielbildern veranschaulicht werden.
@@ -98,5 +112,5 @@ Je nach Theme kann es sinnvoll sein mehrere Darstellungen eines Objekts innerhal
 |  ![](imageStyleguideVendingMachine1.png) | ![](imageStyleguideVendingMachine2.png)  | ![](imageStyleguideVendingMachine3.png)  |
 |---|---|---|
 
-Zu guter Letzt ist es wichtig das die Objekte von mehreren Winkeln aus erkennbar sind, da nicht klar ist in welcher Ausrichtung sie später in der Lernwelt platziert werden.
+Zu guter Letzt ist es wichtig, dass die Objekte von mehreren Winkeln aus erkennbar sind, da nicht klar ist in welcher Ausrichtung sie später in der Lernwelt platziert werden.
 Oben sehen sie ein negatives Beispiel für diese Regel in Form des Objektes "Verkaufs-Automat".
