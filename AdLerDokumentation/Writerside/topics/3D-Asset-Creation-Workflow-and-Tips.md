@@ -13,8 +13,8 @@ genauere Tutorials konsultieren sie am besten Video-Tutorials aus dem Internet.
 Es empfiehlt sich vor der Asset Creation zu neuen AdLer-Themes oder Charakter Accessoires ein Moodboard zum jeweiligen Themen-Bereich
 zu konsultieren oder anzufertigen.
 
-Das Moodboard soll ihnen dann beim anschließenden Modellieren als kreative Stütze dienen und bietet ihnen die Möglichkeit ihre
-Ideen und Konzepte auf einem Blick einzusehen. Dies soll ihren Workflow außerdem beschleunigen.
+Das Moodboard soll dann beim anschließenden Modellieren als kreative Stütze dienen und bietet die Möglichkeit 
+Ideen und Konzepte auf einem Blick einzusehen. Dies soll den Workflow außerdem beschleunigen.
 
 |         ![](ImageAssetworkflowMoodboard.PNG)         |
 |------------------------------------------------------|
@@ -26,19 +26,20 @@ Form des gewünschten Assets schnell und einfach zu erreichen.
 
 ### Shortcuts Cheatsheet (Blender)
 
-| **Shortcut**      |      **Funktion**       |
-|-------------------|:-----------------------:|
-| G + Achse (X,Y,Z) |          Move           |
-| R + Achse (X,Y,Z) |         Rotate          |
-| S + Achse (X,Y,Z) |          Scale          |
-| A                 |       Select All        |
-| L                 |    Select Connected     |
-| Alt + Left Click  | Select Edge/Face - Loop |
-| E                 |         Extrude         |
-| I                 |       Insert Face       |
-| Strg + R          |     Insert Edgeloop     |
-| M                 |     Merge Vertices      |
-| Strg + B          |   Bevel Edge/Vertices   |
+| **Shortcut**      |              **Funktion**              |
+|-------------------|:--------------------------------------:|
+| G + Achse (X,Y,Z) |                  Move                  |
+| R + Achse (X,Y,Z) |                 Rotate                 |
+| S + Achse (X,Y,Z) |                 Scale                  |
+| A                 |               Select All               |
+| L                 |            Select Connected            |
+| Alt + Left Click  |        Select Edge/Face - Loop         |
+| E                 |                Extrude                 |
+| I                 |              Insert Face               |
+| Strg + R          |            Insert Edgeloop             |
+| M                 |             Merge Vertices             |
+| Strg + B          |          Bevel Edge/Vertices           |
+| TAB               | Wechseln zwischen Object und Edit Mode |
 
 
 ## Texturing
@@ -49,9 +50,9 @@ sich hierfür hervorragend, da sie ein breites Spektrum anbieten. Beispiele find
 ### Image Texture
 _(Blender spezifisch)_
 
-Um eine Farbpalletten-Textur für ein 3D-Objekt anzulegen, fügen sie dem Objekt zuerst ein neues Material hinzu.
-Die Eigenschaften dieses Materials können sie unter dem Reiter "Shading" am besten bearbeiten. Hier ist es auch möglich unter "Add" einen "Image Texture"-Node hinzuzufügen
-und ihn mit der Farbkomponente des Standard BSDF-Shader-Nodes zu verbinden um das Bild der gewünschten Farbpallette als Textur für das Material einzubinden.
+Um eine Farbpalletten-Textur für ein 3D-Objekt anzulegen, fügen Sie dem Objekt zuerst ein neues Material hinzu.
+Die Eigenschaften dieses Materials können Sie unter dem Reiter "Shading" am besten bearbeiten. Hier ist es auch möglich unter "Add" einen "Image Texture"-Node hinzuzufügen
+und ihn mit der Farbkomponente des Standard BSDF-Shader-Nodes zu verbinden, um das Bild der gewünschten Farbpallette als Textur für das Material einzubinden.
 
 Das letztendliche Setup sollte ungefähr wie folgt aussehen:
 
@@ -90,13 +91,18 @@ Folgende Kameraeinstellungen wurden bei den bisher erstellten Icons verwendet:
 - Orthografische Kamera
 - Ortografische Skalierung variiert je nach Größe des Objektes
 - Rotation: (X: 55° / Y: 0° / Z: 45°)
-- Seitenverhältnis 1:1, also quadratisches Bild
-- Achten sie darauf das das Objekt mittig platziert ist und nichts verdeckt ist
+- Seitenverhältnis 1:1, also quadratisches Bild (Standardmäßig 2000 px * 2000 px, falls nicht anders benötigt)
+- Achten sie darauf, dass das Objekt mittig platziert ist und nichts verdeckt ist
 
 ### Licht
 
 Beim Erstellen der Renders ist außerdem auf eine gute Auslichtung des Objektes zu achten.
 Es sollte gut erkennbar sein und keine allzu harten Schlagschatten besitzen.
-Hierfür eignen sich in Blender zb ein Sun-Light in Kombination mit einer Drei-Punkt-Belichtung bestehend aus drei Area Lights aus drei verschiedenen Winkeln.
-Da die Thumbnails und Icons aber ohnehin in Eevee gerendert werden sollten, fällt die Ausleuchtung des Objektes nicht allzu sehr ins Gewicht und es sollte vorrangig auf die Erkennbarkeit geachtet werden.
+Hierfür eignen sich in Blender zB. ein Sun-Light in Kombination mit einer Drei-Punkt-Belichtung bestehend aus drei Area Lights aus drei verschiedenen Winkeln:
+
+- Direkt von vorn, Mitte des Area Lights, etwas höher, als die Oberkante des Objekts
+- Schräg von hinten
+- Schräg von vorne mit Tendenz zu 90° von rechts
+
+Da die Thumbnails und Icons aber ohnehin in der Render Engine "Eevee" gerendert werden sollten, fällt die Ausleuchtung des Objektes nicht allzu sehr ins Gewicht und es sollte vorrangig auf die Erkennbarkeit geachtet werden.
 
