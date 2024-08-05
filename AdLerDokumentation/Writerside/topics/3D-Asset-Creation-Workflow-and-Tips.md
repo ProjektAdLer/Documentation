@@ -5,8 +5,8 @@ Dieser Artikel beschreibt den Workflow zur 3D Asset Erstellung und soll als Leit
 ![](ImageAssetworkflowHead.png)
 
 ## Modelling
-In diesem Abschnitt soll es weniger um die konkrete Umsetzung sondern mehr um nützliche Hilfestellungen zum Vorgang des 
-3D Modellierens gehen. Es wird sich hierbei vorrangig auf das 3D Modelling-Tool "Blender" bezogen. Für einen Einstieg oder
+In diesem Abschnitt soll es weniger um die konkrete Umsetzung sondern mehr um die Abbildung des Vorgangs des 
+3D Modellierens gehen. Es wird sich hierbei vorrangig auf das 3D Modelling-Tool "Blender" und den Workflow mit Vorbereitung, Erstellung und Export bezogen. Für einen Einstieg oder
 genauere Tutorials konsultieren sie am besten Video-Tutorials aus dem Internet.
 
 ### Moodboards
