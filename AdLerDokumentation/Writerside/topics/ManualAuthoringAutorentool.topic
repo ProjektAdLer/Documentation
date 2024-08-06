@@ -8,5 +8,6 @@
     <p>Dies ist die Benutzerdokumentation des AdLer-Autorentools.</p>
     <p>Im Kapitel <a href="ManualAuthoringFeatures-auf-einen-Blick.topic"><control>Features auf einen Blick</control></a> werden die zentralen Funktionen des AdLer-Autorentools vorgestellt. Das Kapitel <a href="ManualAuthoringSoftwarekomponenten.topic"><control>Softwarekomponenten</control></a> umfasst die Beschreibung aller Komponenten, aus denen das AdLer-Autorentool besteht. Im Kapitel <a href="ManualAuthoringBedienung.topic"><control>Bedienung</control></a> werden die einzelnen Bedienschritte aufgeführt, die innerhalb des AdLer-Autorentools möglich sind.</p>
     <img src="ManualAuthoringAdLerSystemAutorentoolPreview.png" alt="AdLer-Autorentool" width="700"/>
-
+    <!-- JE: Konsistenz: Hier wird jetzt von Kapiteln gesprochen - oben in Benutzerdokumentation von Bereich und in Lehrende werden die Abscnhitte garnicht benannt. Vorschlag: Benennung Kapitel, Bereich etc. weglassen oder konsistent mit einem Begriff umsetzen. -->
+<!-- JE: Das Bild ist eigentlich nicht notwendig? Oder mit Überschrift bzw. Unterschrift versehen?-->
 </topic>

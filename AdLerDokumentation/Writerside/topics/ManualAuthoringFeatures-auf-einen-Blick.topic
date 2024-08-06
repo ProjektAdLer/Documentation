@@ -8,7 +8,8 @@
     <p>Lehrende können mit dem AdLer-Autorentool in einfacher und strukturierter Weise
         Lernwelten erstellen, gestalten, in 2D einsehen, bearbeiten und auf den AdLer-Server hochladen.
         Diese Lernwelten können anschließend auf dem dedizierten AdLer-Moodle oder in der AdLer <a href="ManualEngine-Leistungsbeschreibung.topic">3D-Lernumgebung</a> eingesehen werden.</p>
-    <p>Kernfunktionalitäten des Produkts:</p>
+    <!-- JE für wen? Vorschlag: Lehrende können mit dem AdLer-Autorentool in einfacher und strukturierter Weise Lernwelten erstellen, gestalten, in 2D einsehen, bearbeiten und auf den AdLer-Server hochladen. Diese Lernwelten können anschließend auf dem dedizierten AdLer-Moodle oder in der AdLer 3D-Lernumgebung für die Lernenden bereitgestellt werden. -->
+        <p>Kernfunktionalitäten des Produkts:</p> <!-- JE: Überschrift bold -->
     <list>
         <li>Eigenständiges Erstellen von dreidimensionalen Lernwelten.</li>
         <li>Auswahl an unterschiedlichen Lernräumen mit verschiedenen Themes und Grundrissen.</li>
@@ -21,6 +22,19 @@
         <li>Löschen von AdLer-Moodle-Kursen in den Kontoeinstellungen.</li>
         <li>Archivieren von Lernwelten zum Austausch der Daten zwischen Lehrenden.</li>
         <li>Unterstützung mehrerer Programmsprachen: Deutsch, Englisch.</li>
+        <!--JE: Die Liste ist uneinheitlich formuliert (Satzbau und Verwendung von Artikeln) Hier ein Vorschlag:
+        Kernfunktionalitäten des Produkts:
+Eigenständiges Erstellen dreidimensionaler Lernwelten
+Auswahl unterschiedlicher Lernräume mit verschiedenen Themes und Grundrissen
+Erzählen von Geschichten innerhalb der Lernwelt mithilfe von Storyelementen
+Einbetten multimedialer Inhalte in Form von Lernelementen
+Ermöglichen individuellen Lernens durch Adaptivitätselemente
+Gestaltung individueller Lernpfade durch komplexe Verbindungen zwischen Lernräumen mithilfe von Und-/Oder-Bedingungen
+Präzises Formulieren von Lernzielen zu Lernräumen mithilfe integrierter Eingabeunterstützung
+Gebündelte Darstellung aller erstellten und importierten Lernwelten auf der Startseite
+Löschen von AdLer-Moodle-Kursen in den Kontoeinstellungen
+Archivieren von Lernwelten zum Datenaustausch zwischen Lehrenden
+Unterstützung mehrerer Sprachen: Deutsch, Englisch.-->
     </list>
     </chapter>
 </topic>
