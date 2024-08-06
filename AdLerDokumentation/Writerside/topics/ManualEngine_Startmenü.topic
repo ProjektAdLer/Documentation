@@ -5,9 +5,9 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Startmenü" id="ManualEngine_Startmenü">
 
-    <chapter title="Produktbeschreibung" id="bezeichnung_produktteil">
+    <chapter title="Produktbeschreibung" id="bezeichnung_produktteil"> <!-- JE: Überschrift Produktbeschreibung? bei Lernraum ist es dann Lernraum?-->
         <p>
-            Das Startmenü ist die Startseite der 3D-Lernumgebung.
+            Das Startmenü ist die Startseite der 3D-Lernumgebung. <!-- JE: Doppelung im Satz -->
             Es enthält Eingabefelder für die Anmeldedaten, einen Login-Button sowie einen Button, um das Hilfe-Menü aufzurufen.
         </p>
         <p>Ansicht des Startmenüs für nicht angemeldete Nutzende:</p>

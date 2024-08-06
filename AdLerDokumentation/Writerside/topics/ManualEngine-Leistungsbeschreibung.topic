@@ -5,9 +5,11 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Features auf einen Blick" id="ManualEngine-Leistungsbeschreibung">
     <chapter title="Produktbezeichnung" id="produktbezeichnung">
+        <!-- JE: Überschrift nicht notwendig? -->
     <!--img src="" alt="Logo des Produkts"/-->
     <p>Lernende können in einer ansprechenden, interaktiven 3D-Lernumgebung spielerisch Lernmaterialien bearbeiten, die durch Lehrende bereitgestellt wurden.
     So soll der Lernwille und die Motivation maßgeblich gesteigert werden.</p>
+        <!-- JE: Sollte hier nicht auch Moodle genannt werden? Vorschlag: Lernende können je nach ihren Präferenzen die ansprechende 3D-Lernumgebung oder die dezidierte Moodle-Ansicht verwenden, um interaktiv durch Lehrende bereitgestellte Lernmaterialien spielerisch zu bearbeiten. So soll der Lernwille und die Motivation maßgeblich gesteigert werden.-->
     <p>Kernfunktionalitäten des Produkts:</p>
     <list>
         <li>Lernende werden durch immersive Lernwelten aktiviert, motiviert und erleben einen "Flow"</li>
@@ -18,6 +20,18 @@
         <li>Nutzung verschiedenster Lernelemente und Medien</li>
         <li>Klar definierte Lernziele</li>
         <li>Lernfortschritt jederzeit sichtbar</li>
+
+ <!-- JE: Liste ist nicht einheitlich formuliert (Satzbau und Adjektive) Vorschlag Verbalisierung:
+        Kernfunktionalitäten des Produkts:
+Aktivierung, Motivation und Erleben eines Flows durch immersive Lernwelten.
+Ermöglichen individuellen und flexiblen Lernens.
+Anwenden von Prinzipien des Game-based Learning.
+Aufteilen des Lernerlebnisses in Lernwelten, Lernräume und Lernelemente mit individuellem Lernpfad.
+Nutzen der 3D-Lernwelt oder alternativ einer Moodle-Darstellung.
+Verwenden verschiedenster Lernelemente und Medien.
+Definieren klarer Lernziele.
+Sichtbarmachen des Lernfortschritts jederzeit.
+-->
     </list>
     </chapter>
 </topic>
