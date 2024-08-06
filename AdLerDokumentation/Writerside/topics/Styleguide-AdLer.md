@@ -3,7 +3,7 @@
 ## AdLer Styleguide
 
 Dieser **Styleguide** beschreibt die in der Kommunikation und Umsetzung des AdLer-Projekts zu verwendenden Farben, Typografie, textliche Ansprache von Rezipienten und der Verwendung des Logos.
-
+<!-- JE Satzbau-Vorschlag: Dieser Styleguide beschreibt die für die Kommunikation und Umsetzung des AdLer-Projekts zu verwendenden Farben, die Typografie, die textliche Ansprache der Rezipienten und die Verwendung des Logos.-->
 ### Farben
 
 Wir verwenden Farben in einem begrenzten Sättigungs- und Helligkeitsbereich. Die Beschränkung lautet, wie folgt:
@@ -23,7 +23,7 @@ Die Hauptfarben für den AdLer sind:
 - adlergold: #e9d6b3 ![#e9d6b3](https://readme-swatches.vercel.app/e9d6b3)
 
 ***Weiß (#FFFFFF), rgb (255, 255, 255) und Schwarz (#000000), rgb (0, 0, 0) können immer verwendet werden.***
-
+<!-- JE Kosistenz: Farbe wird oben reines weiß genannt und mit kleinen fffs - Vorschlag: Einheigliche Benennung und Codewerte für die Farbebn verwenden -->
 Schlagschatten: #707070 - Abstände: x = 0, y = 3 Breite: 6px
 
 ### Typografie
@@ -46,6 +46,8 @@ Das AdLer-Projekt steht für ein inklusives Miteinander aller Menschen ein. Aus 
 
 #### Art zu Schreiben
 Wir stellen den Nutzer in den Mittelpunkt der Entwicklung unserer Anwendung. Auch das geschriebene Wort soll nutzerzentriert sein. Wir verwenden Sprache, die so einfach wie möglich und gleichzeitig so detailliert wie nötig ist. Kurze prägnante Sätze, optische Hervorhebungen zur Leitung der Aufmerksamkeit des Nutzers, Verwendung von Aufzählungen mit Bulletpoints oder nummerierten Aufzählungen, wo möglich.
+<!-- JE: Schlangensatz:-) Formulierungsvorschlag: Wir stellen den Nutzer in den Mittelpunkt der Entwicklung unserer Anwendung. Auch das geschriebene Wort soll nutzerzentriert sein. Wir verwenden eine Sprache, die so einfach wie möglich und gleichzeitig so detailliert wie nötig ist. Wir setzen kurze, prägnante Sätze und optische Hervorhebungen ein, um die Aufmerksamkeit des Nutzers zu lenken. Wo möglich, verwenden wir Bulletpoints oder nummerierte Aufzählungen.-->
+
 
 #### Verwendung des/der Logos
 Das Logo ist in seinen verschiedenen Ausführungen auf der [AdLer Cloud (Interner Link)](https://cloud.projekt-adler.eu/f/4344) zu finden. Nach Möglichkeit sollten zur Bildschirmdarstellung die Vektorgrafiken (.svg) bevorzugt genutzt werden, da diese unendlich skalierbar sind. Ist dies nicht möglich werden die Pixeldateien (.png) verwendet.
@@ -56,7 +58,7 @@ Das Logo ist in seinen verschiedenen Ausführungen auf der [AdLer Cloud (Interne
 4. AdLer Logo long ist zur Verwendung an Stellen, an denen das AdLer Logo durch die quadratische Form zu klein und schlecht erkennbar werden würde
 
 ## Linksammlung Inspiration UI Guidelines
-
+<!-- JE DSGVO: Vielleicht einen Satz einfügen? Vorschlag: "Bitte beachten Sie, dass Sie auf externe Links klicken und unsere Doku verlassen" -->
 -   [2D UI | Decentraland](https://docs.decentraland.org/development-guide/onscreen-ui/)
 -   [CORPORATE PROFILE - XTOPIA\_UI\_Guideline.pdf](https://developers.xtopia.io/clients/XTOPIA_Developers_0DA0F184-BC10-43F1-9346-83655F63F9B8/contentms/img/doc/XTOPIA_UI_Guideline.pdf)
 -   [Designing a User Interface - Win32 apps | Microsoft Docs](https://docs.microsoft.com/en-us/windows/win32/appuistart/designing-a-user-interface)
