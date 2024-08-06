@@ -8,6 +8,7 @@
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
         <p>In der Arbeitsfläche findet die Ausgestaltung einer geöffneten Lernwelt statt. In dieser Ansicht können Lernräume und Elemente (Storyelemente, Lernelemente und Adaptivitätselemente) erstellt werden und die erstellten Elemente in den Grundrissen der Räume platziert werden. Die Ausgestaltung ist über drei zentrale Bereiche möglich.</p>
+        <!-- JE: Konsistenz: Im Abschnitt Features auf einen Blick wird von 2D einsehen, bearbeiten usw. gesprochen... hier nicht mehr? -->
         <img src="imageManualAuthoringArbeitsflaecheCallout.png" alt="ArbeitsflaecheCallout"/>
         <table>
             <tr>
