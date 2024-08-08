@@ -24,7 +24,7 @@
         <td>Definition</td>
         <td id="summary" >
             Die Wartungsdokumentation ist
-            die <a href="Dokumentation-GE.md"></a>, die zum Betreiben 
+            die <a href="Dokumentation-GE.md">Dokumentation</a>, die zum Betreiben 
             des <a href="AdLer-System.md">Adler-Systems</a> erforderlich ist.
         </td>
     </tr>  

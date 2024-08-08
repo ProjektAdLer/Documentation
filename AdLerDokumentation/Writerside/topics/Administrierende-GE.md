@@ -21,7 +21,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary">Administrierende sind die Benutzenden ,
-            die das <a href="AdLer-System.md"></a>
+            die das <a href="AdLer-System.md">AdLer-System</a>
             in Betrieb nehmen und verwalten.</td>
     </tr>  
     <tr>

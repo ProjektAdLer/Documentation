@@ -21,7 +21,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >Eine Adaptivitätsfrage ist eine Single- oder Multiple-Choice Frage. Sie ist immer einer von drei Schwierigkeitsstufen (leicht, mittel, schwer) zugeordnet.
-        Einer Adaptivitätsfrage kann ein <a href="Adaptivitätshinweis-GE.md"></a> zugeordnet sein.</td>
+        Einer Adaptivitätsfrage kann ein <a href="Adaptivitätshinweis-GE.md">Adaptivitätshinweis</a> zugeordnet sein.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>

@@ -21,7 +21,7 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Ein Lernelement ist ein Element eines <a href="Lernraum-GE.md">Lernraums</a>, welches einen <a href="Lernmaterial-GE.md"></a>
+            Ein Lernelement ist ein Element eines <a href="Lernraum-GE.md">Lernraums</a>, welches einen <a href="Lernmaterial-GE.md">Lernmaterial</a>
             und Metadaten wie Punkte, Arbeitsaufwand, Schwierigkeitsgrad, 3D-Darstellung, Lernziele und Beschreibung 
             beinhaltet.
         </td>

@@ -22,7 +22,7 @@
         <td>Definition</td>
         <td id="summary" >
             Ein Lerninhalt ist der eigentliche Inhalt eines <a href="Lernelement-GE.md">Lernelements</a>, welcher einem
-            <a href="Lernende-GE.md">Lernenden</a> in der <a href="Engine-GE.md"></a> angezeigt wird. Es kann sich dabei
+            <a href="Lernende-GE.md">Lernenden</a> in der <a href="Engine-GE.md">Engine</a> angezeigt wird. Es kann sich dabei
             sowohl um rein belehrende Inhalte (Bilder, Videos), Wissen abfragende Inhalte (Quizzes), spielerische Inhalte
             (Schiebepuzzle, Word-Search) oder um Kombinationen all dieser Kategorien von Inhalten handeln.<br/>
         </td>

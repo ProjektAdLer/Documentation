@@ -22,14 +22,14 @@
     <tr>
         <td>Definition</td>
         <td id="summary" >
-            Die technische Dokumentation ist die <a href="Dokumentation-GE.md"></a>,
-            welche genutzt werden kann, um das <a href="AdLer-System.md"></a> zu entwickeln, 
+            Die technische Dokumentation ist die <a href="Dokumentation-GE.md">Dokumentation</a>,
+            welche genutzt werden kann, um das <a href="AdLer-System.md">AdLer-System</a> zu entwickeln, 
             in Betrieb zu nehmen und zu betreiben. 
             Beispiele: 
             Installationsanleitung, 
-            <a href="Wartungsdokumentation-GE.md"></a> , 
-            <a href="Testdokumentation-GE.md"></a> , 
-            <a href="Spezifikation-GE.md"></a> , 
+            <a href="Wartungsdokumentation-GE.md">Wartungsdokumentation</a> , 
+            <a href="Testdokumentation-GE.md">Testdokumentation</a> , 
+            <a href="Spezifikation-GE.md">Spezifikation</a> , 
         </td>
     </tr>  
     <tr>

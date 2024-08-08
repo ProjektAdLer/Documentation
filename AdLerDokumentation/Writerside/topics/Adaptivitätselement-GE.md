@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Ein Adaptivitätselement ist ein <a href="Lernelement-GE.md"></a>, welches <a href="Adaptivitätsaufgabe-GE.md">Adaptivitätsaufgaben</a>, <a href="Adaptivitätsfrage-GE.md">Adaptivitätsfragen</a> und <a href="Adaptivitätshinweis-GE.md">Adaptivitätshinweise</a> beinhaltet. </td>
+        <td id="summary" >Ein Adaptivitätselement ist ein <a href="Lernelement-GE.md">Lernelement</a>, welches <a href="Adaptivitätsaufgabe-GE.md">Adaptivitätsaufgaben</a>, <a href="Adaptivitätsfrage-GE.md">Adaptivitätsfragen</a> und <a href="Adaptivitätshinweis-GE.md">Adaptivitätshinweise</a> beinhaltet. </td>
     </tr>  
     <tr>
         <td>Siehe auch</td>

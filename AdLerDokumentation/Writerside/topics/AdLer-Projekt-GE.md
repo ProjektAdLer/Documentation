@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary">Das AdLer-Projekt ist das Projekt, in dem das <a href="AdLer-System.md"></a> entwickelt wird.</td>
+        <td id="summary">Das AdLer-Projekt ist das Projekt, in dem das <a href="AdLer-System.md">AdLer-System</a> entwickelt wird.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>
