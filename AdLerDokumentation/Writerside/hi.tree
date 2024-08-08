@@ -140,6 +140,11 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Lernelement-Autorentool.md">
+                    <toc-element topic="H5p-Video-Autorentool.md">
+                        <toc-element topic="ASE8.md"/>
+                        <toc-element topic="ASE9.md"/>
+                        <toc-element topic="H5p-Video-Zustände-Autorentool.md"/>
+                    </toc-element>
                     <toc-element topic="Lernelement-Eigenschaften-Autorentool.md">
                         <toc-element topic="AWA9006.md">
                             <toc-element topic="ASN0009.md"/>
@@ -259,6 +264,24 @@
             <toc-element topic="Schnittstellen-Autorentool.md"/>
             <toc-element topic="Software-Architektur-Autorentool.md"/>
             <toc-element topic="Software-Design-Autorentool.md"/>
+            <toc-element topic="H5p-Player.md">
+                <toc-element topic="Auflistung-der-Anforderungen-H5p-Player.md"/>
+                <toc-element topic="Funktionale-Anforderungen-H5p-Player.md">
+                    <toc-element topic="HSE2.md">
+                    </toc-element>
+                    <toc-element topic="HSE1.md">
+                        <toc-element topic="HSE3.md"/>
+                        <toc-element topic="HSE4.md"/>
+                        <toc-element topic="HSE6.md"/>
+                    </toc-element>
+                    <toc-element topic="H5p-Video-Zustände.md"/>
+                </toc-element>
+                <toc-element topic="Nicht-funktionale-Anforderungen-H5p-Player.md"/>
+                <toc-element topic="SBOM-H5p-Player.md"/>
+                <toc-element topic="Schnittstellen-H5p-Player.md"/>
+                <toc-element topic="Software-Architektur-H5p-Player.md"/>
+                <toc-element topic="Software-Design-H5p-Player.md"/>
+            </toc-element>
         </toc-element>
         <toc-element topic="Generator-BG.md">
             <toc-element topic="Auflistung-der-Anforderungen-Generator.md"/>
