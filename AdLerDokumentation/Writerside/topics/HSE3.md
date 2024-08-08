@@ -8,7 +8,7 @@ muss der H5p-Player dem Benutzenden die Möglichkeit bieten,
 das H5p-Video zu validieren.
 
 Anmerkung: 
-Aktuell ist das Wechseln vom anzeigen zum Validieren nicht umgesetzt. 
+Aktuell ist das Wechseln vom Anzeigen zum Validieren nicht umgesetzt. 
 Vielmehr kommt es darauf an mit welcher Absicht (nur anzeigen oder validieren) der Player gestartet wird.
 
 ## Akzeptanzkriterien:
