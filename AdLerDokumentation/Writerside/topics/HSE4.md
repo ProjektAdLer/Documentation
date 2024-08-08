@@ -1,8 +1,8 @@
-# H5p-Video validieren aktiv
+# H5P validieren aktiv
 
 ## Definition:
 
-Solange das Validieren aktiv ist, muss der H5p-Player dem Benutzenden die Informationen:
+Solange das Validieren aktiv ist, muss der H5P-Player dem Benutzenden die Informationen:
 (
 - Was er jetzt machen muss
     - Wenns geht: Player gibt Daumen hoch und intern als funktionierendes h5p markieren

@@ -1,11 +1,11 @@
-# H5p-Video anzeigen
+# H5P anzeigen
 
 ## Definition:
 
-Das Autorentool muss dem Lehrenden die Möglichkeit bieten, H5p-Videos anzusehen.
+Das Autorentool muss dem Lehrenden die Möglichkeit bieten, ein H5P anzusehen.
 
-Sobald der Lehrende das Icon (Auge) des H5p-Video-GUI-Elements selektiert,
-muss das Autorentool den H5p-Player starten.
+Sobald der Lehrende das Icon (Auge) des H5P-GUI-Elements selektiert,
+muss das Autorentool den H5P-Player starten.
 
 ## Akzeptanzkriterien:
 

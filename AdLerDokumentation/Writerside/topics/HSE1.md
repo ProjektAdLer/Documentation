@@ -1,10 +1,10 @@
-# H5p-Video validieren
+# H5P validieren
 
 
 ## Definition:
 
-Der H5p-Player muss dem Benutzenden die Möglichkeit bieten,
-H5p-Videos zu validieren.
+Der H5P-Player muss dem Benutzenden die Möglichkeit bieten,
+H5P zu validieren.
 
 ## Akzeptanzkriterien:
 
