@@ -5,7 +5,7 @@
 Das Autorentool muss dem Lehrenden die Möglichkeit bieten, ein H5P anzusehen.
 
 Sobald der Lehrende das Icon (Auge) des H5P-GUI-Elements selektiert,
-muss das Autorentool den H5P-Player starten.
+muss das Autorentool den H5P-Player zum Anzeigen starten.
 
 ## Akzeptanzkriterien:
 
