@@ -53,6 +53,7 @@
                         <step><p>Tragen Sie den Link zum entsprechenden Video ein.
                             <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkURL.png" alt="Link hinzufügen: Link Textfeld" width="200" thumbnail="true"/></p>
                             <warning>Achten Sie darauf, vor dem Link das Protokoll <control>http://</control> oder <control>https://</control> anzugeben.</warning>
+                            [//]: # (TODO: RR: Ist dadurch klar, wie man mit YouTube-Videos oder Videos von einem Streamingserver umgeht?)
                         </step>
                         <step>
                             <p>Bestätigen Sie Ihre Angaben zum Link mit einem Klick auf den Button <b>OK</b>.

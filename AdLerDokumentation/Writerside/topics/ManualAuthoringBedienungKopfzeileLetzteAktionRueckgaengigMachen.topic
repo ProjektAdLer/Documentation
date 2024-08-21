@@ -60,6 +60,7 @@
                         </p>
                     </step>
                 </procedure>
+                [//]: # (TODO: RR: Wieso ist das Menüband noch auf EN?)
             </tab>
             <tab id="undo-shortcut" title="Tastenkombination">
                 <procedure title="Tastenkombination">
@@ -70,6 +71,7 @@
                             <control>Z</control>
                             .
                         </p>
+                        [//]: # (TODO: RR: Mac: Command + Z)
                     </step>
                 </procedure>
             </tab>

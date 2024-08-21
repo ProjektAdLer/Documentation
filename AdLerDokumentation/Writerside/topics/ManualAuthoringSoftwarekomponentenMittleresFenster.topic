@@ -31,6 +31,7 @@
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        [//]: # (TODO: RR: Links unten noch nicht verknüpft!)
         <list>
             <li>Handlung 1</li>
             <li>Handlung 2</li>

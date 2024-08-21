@@ -19,67 +19,67 @@
             <tr>
                 <td>1</td>
                 <td>Rückgängig-Button</td>
-                <td>Macht eine letzte Aktion rückgängig (erst aktiv, wenn mindestens eine Aktion ausgeführt wurde).</td>
+                <td>Macht die letzte Aktion rückgängig (Befehl "Undo" - erst aktiv, wenn mindestens eine Aktion ausgeführt wurde)</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Wiederholen-Button</td>
-                <td>Wiederholt eine Aktion (erst aktiv, wenn der Befehl "Undo" zuvor mindestens einmal verwendet wurde).</td>
+                <td>Wiederholt eine Aktion (erst aktiv, wenn der Befehl "Undo" zuvor mindestens einmal verwendet wurde)</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Version des AdLer-Autorentools</td>
-                <td>Zeigt die aktuelle Version des Autorentools an.</td>
+                <td>Zeigt die aktuelle Version des Autorentools an</td>
                 <td>Startseite</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Tester-Feedback zur Startseite-Button</td>
-                <td>Öffnet ein Fenster zu einer Umfrage, um Rückmeldung zur Bedienung der Startseite geben zu können.</td>
+                <td>Tester-Feedback-zur-Startseite-Button</td>
+                <td>Öffnet ein Fenster zu einer Umfrage, um Rückmeldung zur Bedienung der Startseite geben zu können</td>
                 <td>Startseite</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>Sprache-Button</td>
-                <td>Stellt die Sprache für die Benutzungsoberfläche des Autorentools auf Deutsch oder Englisch ein. Standardmäßig ist die deutsche Sprache ausgewählt.</td>
+                <td>Stellt die Sprache für die Benutzungsoberfläche des Autorentools auf Deutsch oder Englisch ein; Standardmäßig ist die deutsche Sprache ausgewählt.</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>Hilfe-Button</td>
-                <td>Öffnet das Hilfe-Menü.</td>
+                <td>Öffnet das Hilfe-Menü</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Einloggen auf den AdLer-Server-Button</td>
-                <td>Öffnet ein Fenster zum Einloggen auf den AdLer-Server.</td>
+                <td>Einloggen-auf-den-AdLer-Server-Button</td>
+                <td>Öffnet ein Fenster zum Einloggen auf dem AdLer-Server</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>8</td>
-                <td>Autorentool schließen-Button</td>
-                <td>Schließt das Autorentool.</td>
+                <td>Autorentool-schließen-Button</td>
+                <td>Schließt das Autorentool</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>9</td>
-                <td>Feedback geben-Button</td>
-                <td>Öffnet ein Fenster zu einer Umfrage, um Rückmeldung zur Bedienung des gesamten Autorentools zu geben.</td>
+                <td>Feedback-geben-Button</td>
+                <td>Öffnet ein Fenster zu einer Umfrage, um Rückmeldung zur Bedienung des gesamten Autorentools zu geben</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>10</td>
-                <td>Technischen Fehler melden-Button</td>
-                <td>Öffnet ein Fenster zu einer Umfrage, um einen aufgetretenen technischen Fehler zu melden.</td>
+                <td>Technischen-Fehler-melden-Button</td>
+                <td>Öffnet ein Fenster zu einer Umfrage, um einen aufgetretenen technischen Fehler ("Bug") zu melden</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>11</td>
-                <td>Über AdLer-Button</td>
-                <td>Öffnet die AdLer-Projektseite.</td>
+                <td>Über-AdLer-Button</td>
+                <td>Öffnet die AdLer-Projektseite</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
         </table>

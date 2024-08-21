@@ -16,32 +16,32 @@
             <tr>
                 <td>1</td>
                 <td>Schließen-Button</td>
-                <td>Schließt das Fenster zum Formulieren von Lernzielen zu einem bestimmten Lernraum.</td>
+                <td>Schließt das Fenster zum Formulieren von Lernzielen zu einem bestimmten Lernraum</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Eingabeunterstützung-Button</td>
-                <td>Öffnet ein Fenster zum Formulieren eines Lernziels mithilfe der Eingabeunterstützung.</td>
+                <td>Öffnet ein Fenster zum Formulieren eines Lernziels mithilfe der Eingabeunterstützung</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Selbst formulieren-Button</td>
+                <td>Selbst-formulieren-Button</td>
                 <td>Öffnet ein Fenster zum selbstständigen Formulieren eines Lernziels ohne zusätzliche Hilfe durch die Eingabeunterstützung.</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Bearbeiten-Button</td>
-                <td>Öffnet ein Fenster zum Bearbeiten des formulierten Lernziels. Je nachdem, ob man das Lernziel mit oder ohne zusätzliche Hilfe der Eingabeunterstützung formuliert hat, öffnet sich das entsprechende Fenster.</td>
+                <td>Öffnet ein Fenster zum Bearbeiten des formulierten Lernziels; Je nachdem, ob man das Lernziel mit oder ohne zusätzliche Hilfe der Eingabeunterstützung formuliert hat, öffnet sich das entsprechende Fenster.</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>Löschen-Button</td>
-                <td>Löscht das formulierte Lernziel.</td>
+                <td>Löscht das formulierte Lernziel</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>Lernziel</td>
-                <td>Zeigt das für einen bestimmten Lernraum formulierte Lernziel an.</td>
+                <td>Zeigt das für einen bestimmten Lernraum formulierte Lernziel an</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

@@ -18,27 +18,27 @@
             <tr>
                 <td>1</td>
                 <td>Element-Filter</td>
-                <td>Filtert die Elemente nach ihrer Art des Elements Typ (Alle, Lernelement, Adaptivitätselement, Storyelement).</td>
+                <td>Filtert die Elemente nach der Art des Elements (Alle, Lernelement, Adaptivitätselement, Storyelement)</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Typ-Filter</td>
-                <td>Filtert die Elemente nach ihrem Typ (Alle, Text, Bild, Video, H5P, Adaptivitätselement, Storyelement).</td>
+                <td>Filtert die Elemente nach ihrem Typ (Alle, Text, Bild, Video, H5P, Adaptivitätselement, Storyelement)</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Schwierigkeits-Filter</td>
-                <td>Filtert die Elemente nach ihrem Schwierigkeitsgrad (Alle, Keine Angabe, Leicht, Mittelschwer, Schwer).</td>
+                <td>Filtert die Elemente nach ihrem Schwierigkeitsgrad (Alle, Keine Angabe, Leicht, Mittelschwer, Schwer)</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Elemente</td>
-                <td>Darstellung der bereits erstellten, aber noch nicht im Grundriss platzierten Elemente.</td>
+                <td>Darstellung der bereits erstellten, aber noch nicht im Grundriss platzierten Elemente</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>Suchen-Funktion</td>
-                <td>Ermöglicht das Suchen eines bestimmten Elements.</td>
+                <td>Ermöglicht die Suche nach einem bestimmten Element</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

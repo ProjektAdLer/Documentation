@@ -29,6 +29,7 @@
                 <procedure id="kontextmenu" title="Kontextmenü">
                     <step>
                         <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf die Bedingung.
+                            [//]: # (TODO: RR: Doppelt? s.o.)
                             <img src="imageManualAuthoringRechteSidebarBedingungLoeschen.png"
                                  alt="Bedingung loeschen" width="200" thumbnail="true" style="block"/></p>
                         <note>
@@ -39,6 +40,7 @@
                     </step>
                     <step>
                         <p>Klicken Sie den ersten Eintrag <control>Delete</control>.</p>
+                        [//]: # (TODO: RR: EN? s.o.)
                     </step>
                 </procedure>
             </tab>

@@ -24,10 +24,10 @@
         <tip>Voraussetzung:
             <list>
                 <li>
-                    <p>Entweder wird eine neue Lernwelt erstellt (dann öffnet sich die Lernwelt nach Erstellung automatisch).</p>
+                    <p>Entweder wird eine neue Lernwelt erstellt (dann öffnet sich die Lernwelt nach Erstellung automatisch),</p>
                 </li>
                 <li>
-                    <p>Oder es existiert mindestens eine Lernwelt im Autorentool und wird in der Übersicht der Startseite angezeigt.</p>
+                    <p>oder es existiert mindestens eine Lernwelt im Autorentool und wird in der Übersicht der Startseite angezeigt.</p>
                 </li>
             </list>
         </tip>

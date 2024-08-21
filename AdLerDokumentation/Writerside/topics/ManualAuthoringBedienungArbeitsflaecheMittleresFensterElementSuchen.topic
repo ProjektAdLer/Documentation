@@ -11,7 +11,8 @@
     <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Unplatzierte Elemente über die Suchfunktion suchen.</control>
+                <control>Ziel der Handlung</control>
+                <p>Unplatzierte Elemente über die Suchfunktion suchen.</p>
             </def>
         </deflist>
 
@@ -24,7 +25,7 @@
             </list>
         </tip>
 
-        <step><p>Geben Sie Suchparameter in die Suchleiste im Abschnitt Hinzugefügtes Lernmaterial ein.
+        <step><p>Geben Sie Suchparameter in die Suchleiste im Bereich der unplatzierten Elemente ein.
             <img src="imageManualAuthoringUnplatzierteElementeSuchen.png" alt="UnplatzierteElementeSuchen" width="200"
                  thumbnail="true" style="block"/></p>
             <tip>

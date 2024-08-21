@@ -30,7 +30,7 @@
             <tab title="Kontextmenü">
                 <procedure id="kontextmenu" title="Kontextmenü">
                     <step>
-                        <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf einen Lernraum.
+                        <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf einen Lernraum. [//]: # (TODO: RR: einfacher Klick?)
                             <img src="imageManualAuthoringRechteSidebarLernraumCallout.png"
                                  alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
                         <note>
@@ -41,6 +41,7 @@
                     </step>
                     <step>
                         <p>Klicken Sie auf den dritten Menüeintrag <control>Delete</control>.</p>
+                        [//]: # (TODO: RR: EN? s.o.)
                     </step>
                 </procedure>
             </tab>
@@ -48,6 +49,7 @@
                 <procedure type="steps" id="button" title="Button">
                     <step>
                         <p>Klicken Sie mit der linken Maustaste doppelt auf den Button <control>X</control> eines Lernraums.
+                            [//]: # (TODO: RR: Einfacher Klick reicht bei mir.)
                             <img src="imageManualAuthoringRechteSidebarLernraumLoeschenXButtonCallout.png"
                                  alt="Rechtsklickmenü Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
                     </step>

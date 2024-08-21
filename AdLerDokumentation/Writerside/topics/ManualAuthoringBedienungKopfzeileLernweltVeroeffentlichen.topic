@@ -32,7 +32,8 @@
 
         <step>
             <p>Drücken Sie auf den Button
-                <control>Lernwelt als Moodle Lernwelt-Datei (.mbz) veröffentlichen</control>.
+                <control>Lernwelt als Moodle-Lernwelt-Datei (.mbz) veröffentlichen</control>.
+                [//]: # (TODO: RR: den Bindestrich auch im Tooltip ergänzen!)
                 <img src="imageManualAuthoringKopfzeileAktionHochladen.png"
                      alt="Veröffentlichen Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
                      style="block"/>
@@ -94,6 +95,7 @@
                 <img src="imageManualAuthoringKopfzeileVeroeffentlichenBestaetigungFortschritt.png"
                      alt="Bestätigungsdialog Fortschrittsanzeige als Balken" width="200" thumbnail="true"
                      style="block"/>
+                [//]: # (TODO: RR: Wieso „Uploading World“ auf EN und vorher „Lade Lernwelt hoch“ auf DE?)
             </note>
         </step>
         <step><p>Warten Sie bis das Hochladen abgeschlossen ist. Den aktuellen Fortschritt entnehmen Sie dem angezeigten

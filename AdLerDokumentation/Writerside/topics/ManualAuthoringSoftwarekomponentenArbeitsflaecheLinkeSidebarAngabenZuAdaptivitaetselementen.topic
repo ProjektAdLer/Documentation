@@ -8,7 +8,7 @@
 
     <show-structure for="chapter" depth="2"/>
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Der Tab für das Angeben von Metadaten und Informationen zu Adaptivitätselementen enthält insgesamt fünf Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
+        <p>Der Tab für die Eingabe von Metadaten und Informationen zu Adaptivitätselementen enthält insgesamt fünf Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
         <list>
             <li>Kategorie 1 (ausgeklappt): Allgemein</li>
             <li>Kategorie 2 (ausgeklappt): Aufgaben</li>
@@ -27,37 +27,37 @@
             <tr>
                 <td>1</td>
                 <td>Erforderliche Angabe</td>
-                <td>Enthält die Information, dass  mit einem Stern markierte Angaben zum Adaptivitätselement erforderlich sind.</td>
+                <td>Enthält die Information, dass mit einem Stern markierte Angaben zum Adaptivitätselement erforderlich sind</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Überschrift des Tabs</td>
-                <td>Zeigt an, welcher Modus aktuell aktiv ist. Möglich sind "Adaptivitätselement erstellen" und "Adaptivitätselement bearbeiten".</td>
+                <td>Zeigt an, welcher Modus aktuell aktiv ist; Möglich sind "Adaptivitätselement erstellen" und "Adaptivitätselement bearbeiten"</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Name des Adaptivitätselements-Textfeld</td>
-                <td>Textfeld zur Angabe vom Namen des Adaptivitätselements (Erforderliche Angabe).</td>
+                <td>Name-des-Adaptivitätselements-Textfeld</td>
+                <td>Textfeld zur Angabe des Namens des Adaptivitätselements (Erforderliche Angabe)</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Informationssymbol</td>
-                <td>Enthält zusätzliche Informationen zu den Elementen.</td>
+                <td>Enthält zusätzliche Informationen zu den Elementen</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>Arbeitsaufwand (min)</td>
-                <td>Ermöglicht das Angeben des Arbeitsaufwands in Minuten für das Abschließen des Adaptivitätselements.</td>
+                <td>Ermöglicht das Angeben des Arbeitsaufwands in Minuten für das Abschließen des Adaptivitätselements</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>Aufgaben-Button</td>
-                <td>Öffnet ein Fenster zum Hinzufügen einer Aufgabe zum Adaptivitätselement.</td>
+                <td>Öffnet ein Fenster zum Hinzufügen einer Aufgabe zum Adaptivitätselement</td>
             </tr>
             <tr>
                 <td>7</td>
                 <td>Punkte</td>
-                <td>Ermöglicht das Angeben von Punkten für das Abschließen des Adaptivitätselements.</td>
+                <td>Ermöglicht das Angeben von Punkten für das Abschließen des Adaptivitätselements</td>
             </tr>
         </table>
     </chapter>
@@ -72,22 +72,22 @@
                 <tr>
                     <td>8</td>
                     <td>Lernziel-Textfeld</td>
-                    <td>Textfeld zur Angabe eines oder mehrerer Lernziele für das Adaptivitätselement.</td>
+                    <td>Textfeld zur Angabe eines oder mehrerer Lernziele für das Adaptivitätselement</td>
                 </tr>
                 <tr>
                     <td>9</td>
                     <td>Beschreibungs-Textfeld</td>
-                    <td>Textfeld zur Angabe einer Beschreibung des Adaptivitätselements.</td>
+                    <td>Textfeld zur Angabe einer Beschreibung des Adaptivitätselements</td>
                 </tr>
                 <tr>
                     <td>10</td>
                     <td>OK-Button</td>
-                    <td>Bestätigt die Angaben zum Adaptivitätselement.</td>
+                    <td>Bestätigt die Angaben zum Adaptivitätselement</td>
                 </tr>
                 <tr>
                     <td>11</td>
                     <td>3D-Darstellung</td>
-                    <td>Roboter als 3D-Darstellung für das Adaptivitätselement.</td>
+                    <td>Roboter als 3D-Darstellung für das Adaptivitätselement</td>
                 </tr>
             </table>
         </chapter>

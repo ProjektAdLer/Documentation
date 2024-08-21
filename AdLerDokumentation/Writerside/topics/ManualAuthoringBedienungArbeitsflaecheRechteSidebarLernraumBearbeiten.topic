@@ -47,7 +47,7 @@
                     <tab id="verbindungsansicht_rechtsklick" title="Kontextmenü">
                         <procedure id="kontextmenu" title="Kontextmenü">
                             <step>
-                                <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf einen Lernraum.
+                                <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf einen Lernraum. [//]: # (TODO: RR: Reicht hier nicht ein einfacher Klick?)
                                     <img src="imageManualAuthoringRechteSidebarLernraumCallout.png"
                                          alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
                                 <note>
@@ -58,6 +58,7 @@
                             </step>
                             <step>
                                 <p>Klicken Sie auf den zweiten Menüeintrag <control>Edit</control>.</p>
+                                [//]: # (TODO: RR: Wieso hier englische Begriffe? siehe oben...)
                             </step>
                         </procedure>
                     </tab>

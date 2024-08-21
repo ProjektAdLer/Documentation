@@ -56,7 +56,9 @@
                 unwiderruflich zu löschen. Sie können alternativ den Dialog durch Klicken des Buttons
                 <control>Abbrechen</control> ohne Löschung beenden.
             </p>
+            [//]: # (TODO: RR: Ein roter Warnhinweis, wie unter „Lernwelt speichern“-Überschreiben wäre auch hier sinnvoll?)
         </step>
+
 
         <note>
             <control>&#10004; Der ausgewählte Moodle-Kurs wurde unwiderruflich vom AdLer-Server gelöscht.</control>

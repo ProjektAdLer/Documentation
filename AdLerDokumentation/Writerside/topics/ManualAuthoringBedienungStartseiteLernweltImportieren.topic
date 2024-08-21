@@ -17,7 +17,7 @@
         </deflist>
 
         <tip>Voraussetzung:
-            <p>Die zu importierende Lernwelt liegt als ZIP-Datei ab --> siehe <a href="">Lernwelt archivieren</a>.</p>
+            <p>Die zu importierende Lernwelt liegt als ZIP-Datei vor --> siehe <a href="">Lernwelt archivieren</a>.</p> [//]: # (TODO: RR: Link zu Archivieren fehlt noch)
         </tip>
 
         <step><p>Klicken Sie auf den Button <b>Importieren.</b>

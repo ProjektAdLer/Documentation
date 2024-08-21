@@ -21,8 +21,8 @@
 
         <warning>
             Das Autorentool lässt sich nicht über die Titelleiste des Fensters schließen.
+            [//]: # (TODO: RR: Wieso funktioniert das eigentlich nicht? Auch nicht über das „Menüband“, wo die Funktion „quit“ ja angezeigt wird… wirkt irgendwie nicht professionell...)
         </warning>
-
 
         <step>
             <p>Drücken Sie den Button

@@ -6,7 +6,7 @@
        title="Angaben zu Kommentaren" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuKommentaren">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Bei erfolglosem Abschließen einer Frage durch die Studierenden kann ein zusätzlicher Kommentar hinzugefügt werden. In diesem können Hinweise ergänzt werden.</p>
+        <p>Im Fall, dass Studierende eine Frage falsch beantworten, kann ein zusätzlicher Kommentar angezeigt werden. In diesem können Hinweise zur richtigen Lösung ergänzt werden.</p>
     <img src="imageManualAuthoringAngabenZumAdaptivitaetselementKommentarCallout.png" alt="AngabenZumAdaptivitaetselementKommentarCallout"/>
         <table>
             <tr>
@@ -17,17 +17,17 @@
             <tr>
                 <td>1</td>
                 <td>Kommentar-Textfeld</td>
-                <td>Textfeld zur Angabe eines Kommentars.</td>
+                <td>Textfeld zur Eingabe eines Kommentars</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Löschen-Button</td>
-                <td>Schließt das Fenster zum Hinzufügen und Bearbeiten von Kommentaren zu einem Adaptivitätselement.</td>
+                <td>Schließt das Fenster zum Hinzufügen und Bearbeiten von Kommentaren zu einem Adaptivitätselement</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>OK-Button</td>
-                <td>Bestätigt die Angaben zum Kommentar.</td>
+                <td>Bestätigt die Angaben zum Kommentar</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

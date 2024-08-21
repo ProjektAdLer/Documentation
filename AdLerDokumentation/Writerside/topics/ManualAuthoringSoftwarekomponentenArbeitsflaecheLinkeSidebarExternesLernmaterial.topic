@@ -12,9 +12,9 @@
         <list>
             <li>1. Bereich: Im oberen Bereich werden Dateien als externes Lernmaterial hinzugefügt.</li>
             <li>2. Bereich: Im mittleren Teil werden Videos als Links hinzugefügt. Dieser Teil wird als eingeklappte Kategorie "Link hinzufügen" dargestellt.</li>
-            <li>3. Bereich: Im dritten und untersten Bereich werden die gesamten - dem Autorentool hinzugefügten - Dateien und Links in einer Auflistung angezeigt.</li>
+            <li>3. Bereich: Im dritten und untersten Bereich werden die gesamten dem Autorentool hinzugefügten Dateien und Links in einer Auflistung angezeigt.</li>
         </list>
-    <chapter title="Bereich ''1'' und ''2''" id="Bereich1Und2">
+    <chapter title="Bereiche ''1'' und ''2''" id="Bereich1Und2">
     <img src="imageManualAuthoringExternesLernmaterial1Callout.png" alt="ExternesLernmaterial1Callout"/>
         <table>
             <tr>
@@ -25,32 +25,32 @@
             <tr>
                 <td>1</td>
                 <td>Dropzone</td>
-                <td>Öffnet ein Dateimanager, in dem die hinzuzufügenden Dateien gesucht werden können. Zudem können Dateien auch per Drag and Drop hinzugefügt werden.</td>
+                <td>Öffnet ein Dateimanager, in dem die hinzuzufügenden Dateien gesucht werden können; Zudem können Dateien auch per Drag-and-Drop hinzugefügt werden.</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Überschrift des Tabs</td>
-                <td>Zeigt den Modus "Externes Lernmaterial hinzufügen" an.</td>
+                <td>Zeigt den Modus "Externes Lernmaterial hinzufügen" an</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Informationssymbol</td>
-                <td>Enthält zusätzliche Informationen zu den externen Lernmaterialien.</td>
+                <td>Enthält zusätzliche Informationen zu den externen Lernmaterialien</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Name des Links-Textfeld</td>
-                <td>Textfeld zur Angabe vom Namen des Links.</td>
+                <td>Name-des-Links-Textfeld</td>
+                <td>Textfeld zur Eingabe des Link-Namens</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>URL-Textfeld</td>
-                <td>Textfeld zur Angabe der URL des Links.</td>
+                <td>Textfeld zur Eingabe der URL des Links</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>OK-Button</td>
-                <td>Bestätigt die Angaben zum Link.</td>
+                <td>Bestätigt die Angaben zum Link</td>
             </tr>
         </table>
     </chapter>
@@ -66,77 +66,77 @@
             <tr>
                 <td>7</td>
                 <td>Auswahl-Liste</td>
-                <td>Ermöglicht das Auswählen von externem Lernmaterial.</td>
+                <td>Ermöglicht das Auswählen von externem Lernmaterial</td>
             </tr>
             <tr>
                 <td>8</td>
                 <td>Auswahl-Anzeige</td>
-                <td>Zeigt die Anzahl des ausgewählten externen Lernmaterials an.</td>
+                <td>Zeigt die Anzahl der ausgewählten externen Lernmaterialien an</td>
             </tr>
             <tr>
                 <td>9</td>
                 <td>Löschen-Button</td>
-                <td>Löscht alle ausgewählten externen Lernmaterialien.</td>
+                <td>Löscht alle ausgewählten externen Lernmaterialien</td>
             </tr>
             <tr>
                 <td>10</td>
                 <td>Name des externen Lernmaterials</td>
-                <td>Zeigt den Namen des hinzugefügten Lernmaterials an.</td>
+                <td>Zeigt den Namen des hinzugefügten Lernmaterials an</td>
             </tr>
             <tr>
                 <td>11</td>
                 <td>Suchen-Funktion</td>
-                <td>Ermöglicht das Suchen eines bestimmten externen Lernmaterials.</td>
+                <td>Ermöglicht das Suchen eines bestimmten externen Lernmaterials</td>
             </tr>
             <tr>
                 <td>12</td>
                 <td>Typ des externen Lernmaterials</td>
-                <td>Zeigt den Typ des hinzugefügten Lernmaterials an.</td>
+                <td>Zeigt den Typ des hinzugefügten Lernmaterials an</td>
             </tr>
             <tr>
                 <td>13</td>
                 <td>Dateipfad-Umschalter</td>
-                <td>Zeigt im aktiven Zustand den Dateipfad des externen Lernmaterials an.</td>
+                <td>Zeigt im aktiven Zustand den Dateipfad des externen Lernmaterials an</td>
             </tr>
             <tr>
                 <td>14</td>
                 <td>Lernelement-Einsatz-Anzeige</td>
-                <td>Zeigt an, wie häufig ein externes Lernmaterial als Lernelement im Autorentool im Einsatz ist.</td>
+                <td>Zeigt an, wie häufig ein externes Lernmaterial als Lernelement im Autorentool im Einsatz ist</td>
             </tr>
             <tr>
                 <td>15</td>
-                <td>Nächste Seite-Button</td>
-                <td>Zeigt die nächste Seite mit hinzugefügtem externen Lernmaterial an.</td>
+                <td>Nächste-Seite-Button</td>
+                <td>Zeigt die nächste Seite mit hinzugefügtem externen Lernmaterial an</td>
             </tr>
             <tr>
                 <td>16</td>
-                <td>Letzte Seite-Button</td>
-                <td>Zeigt die letzte Seite mit hinzugefügtem externen Lernmaterial an.</td>
+                <td>Letzte-Seite-Button</td>
+                <td>Zeigt die letzte Seite mit hinzugefügtem externem Lernmaterial an</td>
             </tr>
             <tr>
                 <td>17</td>
-                <td>Dateipfad öffnen-Button</td>
-                <td>Öffnet den Dateimanager mit dem Ordner, in dem das hinzugefügte externe Lernmaterial abliegt.</td>
+                <td>Dateipfad-öffnen-Button</td>
+                <td>Öffnet den Dateimanager mit dem Ordner, in dem das hinzugefügte externe Lernmaterial liegt</td>
             </tr>
             <tr>
                 <td>18</td>
                 <td>Vorschau-Funktion</td>
-                <td>Öffnet ein Fenster mit einer Vorschau-Ansicht des externen Lernmaterials.</td>
+                <td>Öffnet ein Fenster mit einer Vorschau-Ansicht des externen Lernmaterials</td>
             </tr>
             <tr>
                 <td>19</td>
-                <td>Neues Lernelement-Button</td>
-                <td>Öffnet den Dialog "Angaben zum Lernelement" zur Erstellung eines neuen Lernelements.</td>
+                <td>Neues-Lernelement-Button</td>
+                <td>Öffnet den Dialog "Angaben zum Lernelement" zur Erstellung eines neuen Lernelements</td>
             </tr>
             <tr>
                 <td>20</td>
                 <td>Löschen-Button</td>
-                <td>Löscht das ausgewählte externe Lernmaterial.</td>
+                <td>Löscht das ausgewählte externe Lernmaterial</td>
             </tr>
             <tr>
                 <td>21</td>
                 <td>Hover-Text</td>
-                <td>Zeigt die vollständige Bezeichnung des externen Lernmaterials an.</td>
+                <td>Zeigt die vollständige Bezeichnung des externen Lernmaterials an</td>
             </tr>
         </table>
     </chapter>

@@ -7,7 +7,7 @@
        help-id="ManualAuthoringSoftwarekomponentenArbeitsflächeMittleresFensterLernraumEditor">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Im Lernraum-Editor wird der für einen Lernraum gewählte Grundriss mit seinen Slots angezeigt. Mit der Platzierung der verschiedenen Elemente in den Slots des Grundrisses, findet in ihm die eigentliche Ausgestaltung eines Lernraums statt.</p>
+        <p>Im Lernraum-Editor wird der für einen Lernraum gewählte Grundriss mit seinen Slots angezeigt. Mit der Platzierung der verschiedenen Elemente in den Slots des Grundrisses findet in ihm die eigentliche Ausgestaltung eines Lernraums statt.</p>
     <img src="imageManualAuthoringLernraumEditorCallout.png" alt="LernraumEditorCallout"/>
         <table>
             <tr>
@@ -18,97 +18,97 @@
             <tr>
                 <td>1</td>
                 <td>Name des Lernraums</td>
-                <td>Zeigt den Namen vom im Lernraum-Editor geöffneten Lernraum an.</td>
+                <td>Zeigt den Namen des im Lernraum-Editor geöffneten Lernraums an</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Tür</td>
-                <td>Darstellung einer Tür im Grundriss.</td>
+                <td>Darstellung einer Türe im Grundriss</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Thema-Anzeige</td>
-                <td>Zeigt das für den Lernraum gewählte Thema an.</td>
+                <td>Zeigt das für den Lernraum gewählte Thema an</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Arbeitsaufwand-Anzeige</td>
-                <td>Zeigt den Arbeitsaufwand für den Lernraum an, summiert aus dem Arbeitsaufwand für die einzelnen Elemente.</td>
+                <td>Zeigt den Arbeitsaufwand für den Lernraum an, summiert aus dem Arbeitsaufwand für die einzelnen Elemente</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Benötigte Punkte-Anzeige</td>
-                <td>Zeigt an, wie viele Punkte innerhalb des Lernraums mindestens zu erreichen sind, um den Lernraum abzuschließen.</td>
+                <td>Benötigte-Punkte-Anzeige</td>
+                <td>Zeigt an, wie viele Punkte innerhalb des Lernraums mindestens zu erreichen sind, um den Lernraum abzuschließen</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>Gesamtpunkte-Anzeige</td>
-                <td>Zeigt an, wie viele Punkte innerhalb des Lernraums maximal zu erreichen sind.</td>
+                <td>Zeigt an, wie viele Punkte innerhalb des Lernraums maximal zu erreichen sind</td>
             </tr>
             <tr>
                 <td>7</td>
                 <td>Lernziel-Button</td>
-                <td>Öffnet ein Fenster, in dem alle für den Lernraum formulierten Lernziele angezeigt werden.</td>
+                <td>Öffnet ein Fenster, in dem alle für den Lernraum formulierten Lernziele angezeigt werden</td>
             </tr>
             <tr>
                 <td>8</td>
                 <td>Storyelement-Anzeige</td>
-                <td>Darstellung eines platzierten Storyelements in einem Grundriss im Lernraum-Editor.</td>
+                <td>Darstellung eines platzierten Storyelements in einem Grundriss im Lernraum-Editor</td>
             </tr>
             <tr>
                 <td>9</td>
                 <td>Lernelement-Anzeige</td>
-                <td>Darstellung eines platzierten Lernelements in einem Grundriss im Lernraum-Editor.</td>
+                <td>Darstellung eines platzierten Lernelements in einem Grundriss im Lernraum-Editor</td>
             </tr>
             <tr>
                 <td>10</td>
                 <td>Schwierigkeits-Anzeige</td>
-                <td>Darstellung des vergebenen Schwierigkeitsgrads für ein Lern- oder Adaptivitätselement.</td>
+                <td>Darstellung des vergebenen Schwierigkeitsgrads für ein Lern- oder Adaptivitätselement</td>
             </tr>
             <tr>
                 <td>11</td>
                 <td>Punkte-Anzeige</td>
-                <td>Darstellung der vergebenen Punktzahl für ein Lern- oder Adaptivitätselement.</td>
+                <td>Darstellung der vergebenen Punktzahl für ein Lern- oder Adaptivitätselement</td>
             </tr>
             <tr>
                 <td>12</td>
-                <td>Name des Elements-Anzeige</td>
-                <td>Darstellung des vergebenen Namens für ein Story-, Lern- oder Adaptivitätselement.</td>
+                <td>Name-des-Elements-Anzeige</td>
+                <td>Darstellung des vergebenen Namens für ein Story-, Lern- oder Adaptivitätselement</td>
             </tr>
             <tr>
                 <td>13</td>
                 <td>Elementtyp-Symbol</td>
-                <td>Darstellung des Typs für ein Element. Für Storyelemente und Adaptivitätselemente existiert je ein Symbol. Für Lernelemente wird zwischen den Typen "Bild", "Video", "H5P" und "Text" unterschieden, sodass die Darstellung des Symbols zwischen vier verschiedene Symbole variieren kann.</td>
+                <td>Darstellung des Typs für ein Element; Für Storyelemente und Adaptivitätselemente existiert je ein Symbol. Für Lernelemente wird zwischen den Typen "Bild", "Video", "H5P" und "Text" unterschieden, sodass die Darstellung des Symbols zwischen vier verschiedenen Symbolen variieren kann.</td>
             </tr>
             <tr>
                 <td>14</td>
                 <td>Adaptivitätselement-Anzeige</td>
-                <td>Darstellung eines platzierten Adaptivitätselements in einem Grundriss im Lernraum-Editor.</td>
+                <td>Darstellung eines platzierten Adaptivitätselements in einem Grundriss im Lernraum-Editor</td>
             </tr>
             <tr>
                 <td>15</td>
                 <td>Slot</td>
-                <td>Darstellung eines Slots im Grundriss des Lernraums zum Platzieren von Elementen. Für das Storyelement stehen in jedem Lernraum-Grundriss zwei Slots zur Verfügung. In die restlichen Slots können Lern- und Adaptivitätselemente platziert werden.</td>
+                <td>Darstellung eines Slots im Grundriss des Lernraums zum Platzieren von Elementen; Für das Storyelement stehen in jedem Lernraum-Grundriss zwei Slots zur Verfügung. In die restlichen Slots können Lern- und Adaptivitätselemente platziert werden.</td>
             </tr>
             <tr>
                 <td>16</td>
                 <td>Grundriss</td>
-                <td>Darstellung des gewählten Grundrisses für den Lernraum.</td>
+                <td>Darstellung des gewählten Grundrisses für den Lernraum</td>
             </tr>
             <tr>
                 <td>17</td>
                 <td>Scrollbar</td>
-                <td>Zeigt den gesamten Grundriss des Lernraums an.</td>
+                <td>Zeigt den gesamten Grundriss des Lernraums an</td>
             </tr>
             <tr>
                 <td>18</td>
                 <td>Lernziele eines bestimmten Lernraums</td>
-                <td>Zeigt alle für einen bestimmten Lernraum formulierten Lernziele in einer Auflistung an.</td>
+                <td>Zeigt alle für einen bestimmten Lernraum formulierten Lernziele in einer Auflistung an</td>
             </tr>
             <tr>
                 <td>19</td>
                 <td>Schließen-Button</td>
-                <td>Schließt das Fenster, in dem alle für den Lernraum formulierten Lernziele angezeigt werden.</td>
+                <td>Schließt das Fenster, in dem alle für den Lernraum formulierten Lernziele angezeigt werden</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

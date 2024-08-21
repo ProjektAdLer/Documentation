@@ -12,8 +12,9 @@
     <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Ein Lernelement im Grundriss eines konkreten Lernraums erstellen.</control>
-                <control>Über diesen Weg wird direkt eine bestimmte Position für das Lernelement festgelegt.</control>
+                <control>Ziel der Handlung</control>
+                <p>Ein Lernelement im Grundriss eines konkreten Lernraums erstellen.</p>
+                <p>Über diesen Weg wird direkt eine bestimmte Position für das Lernelement festgelegt.</p>
             </def>
         </deflist>
         <warning>Adaptivitätselemente können nicht über den Grundriss erstellt werden. Diese werden ausschließlich über den Tab <control>Angaben zu Adaptivitätselementen</control> erstellt. Siehe: <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic"/>.</warning>
