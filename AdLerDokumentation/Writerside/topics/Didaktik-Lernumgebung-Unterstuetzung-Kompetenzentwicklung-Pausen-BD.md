@@ -7,8 +7,8 @@
             Neben dem bereits beschriebenen Adaptivitätselement (Schwerpunkt: Performance on test) 
             <a href="Didaktik-Autorentool-Adaptivitaetselement-BD.md">in Kapitel 4.3 (Autorentool - Adaptivitätselement)</a>, 
             soll in AdLer das Thema „Adaptivität“ auf einer zweiten Datengrundlage adressiert werden. 
-            Durch eine Pausenempfehlung seitens der AdLer-Software (Schwerpunkt: Time spent) 
-            soll die individuelle Kompetenzentwicklung der Studierenden zusätzlich unterstützt werden.
+            Durch eine Pausenempfehlung seitens der AdLer-Software (Schwerpunkt: Time Spent) 
+            soll die individuelle Kompetenzentwicklung der Lernenden zusätzlich unterstützt werden.
         </p>
         <p>
             In Zusammenhang mit der verbrachten Zeit (Time Spent) wird der Bereich der Learning Analytics relevant:
@@ -17,7 +17,7 @@
             <p><i>“Learning analytics have been defined as the use of static and dynamic information about learners and learning environments, 
             assessing, eliciting and analysing it, for real-time modelling, prediction and optimisation of learning processes, 
             learning environments, as well as educational decision-making (Ifenthaler 2015).”</i><br/> 
-            <a href="Didaktik-Literaturverzeichnis-BD.md#21-Ifenthaler-2020">(Ifenthaler, 2020, S. 2)</a>
+            <a href="Didaktik-Literaturverzeichnis-BD.md#21-Ifenthaler-2020">(Ifenthaler, 2020, S. 2)</a>.
             </p>
         </tip>
         <p>
@@ -47,7 +47,7 @@
             <br/>Wenn man sich bewusst mit dem Lernstoff auseinandergesetzt hat, arbeitet das Gehirn auch in der Pause im Hintergrund daran. 
             Informationen werden also auch unbewusst weiterverarbeitet, wenn man sich nicht aktiv damit beschäftigt. 
             Manchmal führt das dazu, dass Lernende plötzlich eine neue Erkenntnis haben, ohne bewusst darüber nachgedacht zu haben. 
-            Das liegt daran, dass das Gehirn während der Pause Informationen aus dem Gedächtnis hervorholt, ohne dass die Lernenden steuern. 
+            Das liegt daran, dass das Gehirn während der Pause Informationen aus dem Gedächtnis hervorholt, ohne dass dies die Lernenden steuern. 
             Es sortiert auch Informationen aus, die vielleicht nicht richtig waren. 
             Das hilft den Lernenden besser zu verstehen, was sie lernen. Pausen sind also gut, um das Gehirn dabei zu unterstützen, 
             das Gelernte zu verarbeiten und neue Erkenntnisse zu gewinnen 
@@ -88,20 +88,20 @@
         </table>
         <p>
             Die entsprechenden Zeitwerte und inhaltlichen Hinweise werden vom AdLer-System festgelegt und 
-            können nicht durch den/die Autor:in beeinflusst werden. 
+            können nicht durch die Autorin/den Autor beeinflusst werden. 
         </p>
         <p>
             Im Lernraum erhalten die Lernenden nach Ablauf der entsprechenden Zeit in der linken unteren Ecke des Bildschirms 
             einen Hinweis mit einer Pausenempfehlung. 
             Diesen können die Lernenden öffnen und sich die Inhalte anschauen oder auch ignorieren und „wegklicken“.<br/>
-            Ignorieren die Lernenden die Pausenempfehlung oder klicken diesen weg, dann passiert gar nichts und 
+            Ignorieren die Lernenden die Pausenempfehlung oder klicken diese weg, dann passiert gar nichts und 
             die Personen können wie bisher auch im Lernraum agieren. <br/>
             Öffnen die Lernenden jedoch die Pausenempfehlung, dann erhalten die Personen …
         </p>
         <list type="decimal">
             <li>
                 <p>
-                    … zum einen je nach vergangener Zeit eine Empfehlung den entsprechenden Pausentyp mit der dazugehörigen Pausendauer durchzuführen. 
+                    … zum einen je nach vergangener Zeit eine Empfehlung, den entsprechenden Pausentyp mit der dazugehörigen Pausendauer durchzuführen. 
                 </p>
             </li>
             <li>
@@ -109,10 +109,10 @@
                     … zum anderen eine inhaltliche Information zu Pausen aus einer der folgenden vier Kategorien: 
                 </p>
                 <list>
-                    <li><p>Informationen zu Lernpausen allgemein</p></li>
-                    <li><p>Ernährung</p></li>
-                    <li><p>Bewegung</p></li>
-                    <li><p>Lernumgebung</p></li>
+                    <li><p>Informationen zu Lernpausen allgemein,</p></li>
+                    <li><p>Ernährung,</p></li>
+                    <li><p>Bewegung,</p></li>
+                    <li><p>Lernumgebung.</p></li>
                 </list>
                 <p>Diese werden in Form von Abbildungen mit Text präsentiert.</p>
             </li>
@@ -122,7 +122,7 @@
             Damit Lernende beim Neustart der Lernwelt nicht immer wieder dieselben Pausenhinweise zuerst angezeigt bekommen, 
             soll mit einem <i>„Pool“</i> gearbeitet werden, aus dem <i>zufällig</i> für jede Pause ein Pausenhinweis 
             den Lernenden angezeigt wird. Mit diesem Verfahren ist zumindest die Wahrscheinlichkeit geringer, 
-            dass die Lernenden zum wiederholten Male dieselben Pausenhinweise angezeigt bekommen.<br/>
+            dass die Lernenden zum wiederholten Mal dieselben Pausenhinweise angezeigt bekommen.<br/>
             Der <i>„Zufallspool“</i> startet bei jedem Betreten der Lernwelt neu, wird also nach dem Schließen von der AdLer-Software zurückgesetzt.
             <br/>Die Beschreibung gilt ebenfalls für Entspannungs- und Erholungspausen.
         </p>
@@ -130,8 +130,8 @@
     <chapter title="Praktisches Beispiel" id="header-praktisches-Beispiel" collapsible="true" default-state="expanded">
         <procedure title="Praktisches Beispiel zur Empfehlung einer Lernpause (3D-Lernumgebung)" id="praktisches-Beispiel">
             <p>In folgenden Abbildungen ist ein praktisches Beispiel für die Empfehlung einer Lernpause in der 3D-Lernumgebung abgebildet. </p>
-            <img src="imageManualDidaktik_Abbildung_Lernpause-1_3D-Lernumgebung.JPG" alt="Beispiel einer Lernpausen-Benachrichtigung in der Lernumgebung" width="675"/>
-            <img src="imageManualDidaktik_Abbildung_Lernpause-2_3D-Lernumgebung.JPG" alt="Beispiel eines geöffneten Pausenhinweises in der Lernumgebung" width="675"/>
+            <img src="imageManualDidaktik_Abbildung_Lernpause-1_3D-Lernumgebung.JPG" alt="Beispiel einer Lernpausen-Benachrichtigung in der Lernumgebung" width="675" thumbnail="true"/>
+            <img src="imageManualDidaktik_Abbildung_Lernpause-2_3D-Lernumgebung.JPG" alt="Beispiel eines geöffneten Pausenhinweises in der Lernumgebung" width="675" thumbnail="true"/>
             <br/>
             <p>In folgendem Video ist ein praktisches Beispiel für die Empfehlung einer Lernpause in der 3D-Lernumgebung zu sehen. </p>
             <video src="videoManualDidaktik_Lernpause_3D-Lernumgebung.mp4" alt="Beispiel-Video einer Lernpause in der Lernumgebung" preview-src="videoManualDidaktik_Lernpause_3D-Lernumgebung.png" width="675"/>
