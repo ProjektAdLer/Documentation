@@ -19,7 +19,7 @@
         in welchem der jeweilige Begriff dann genauer ausgeführt wird.
     </p>
     <p>
-        Auch Bestand der didaktischen Handreichung sind „praktische Beispiele“ für den jeweiligen didaktischen Schwerpunkt. 
-        Diese werden an entsprechender Stelle kenntlich mit Hilfe von Abbildungen oder Videos dargestellt. 
+        Auch Bestandteil der didaktischen Handreichung sind „praktische Beispiele“ für den jeweiligen didaktischen Schwerpunkt. 
+        Diese werden an entsprechender Stelle mit Hilfe von Abbildungen oder Videos dargestellt. 
     </p>
 </chapter>

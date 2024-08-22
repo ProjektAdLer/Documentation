@@ -29,6 +29,7 @@ Bloom, B. S. (1971). Mastery learning. In J. H. Block (Ed.), <i>Mastery learning
 <chapter title="Bloom, 1984" id="7-Bloom-1984">
 Bloom, B. S. (1984). <i>Taxonomy of educational objectives: The classification of educational objectives</i>. Handbook 1: Cognitive Domain (2nd ed.). New York: Longmans.
 </chapter>
+[//]: # (TODO: RR:  zweimal Bloom 1984? Wird nicht nur die erste referenziert? Ansonsten eher 1984a und 1984b, um eindeutig zuzuordnen?)
 <chapter title="Bloom, 1984" id="12-Bloom-1984">
 Bloom, B. S. (1984). The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. <i>Educational Researcher, 13</i>(6), 4-16.
 </chapter>

@@ -47,3 +47,4 @@
     <p>In folgendem Video ist ein praktisches Beispiel für das Storyelement in der 3D-Lernumgebung zu sehen. </p>
     <video src="videoManualDidaktik_Storyelement_3D-Lernumgebung.mp4" alt="Beispiel-Video eines Storyelements in der Lernumgebung" preview-src="videoManualDidaktik_Storyelement_3D-Lernumgebung.png" width="675"/>
 </procedure>
+[//]: # (TODO: RR: Video inhaltlich gut! Bei Sekunde 10 ist ein Leerzeichen in den Caption zu viel vor „wird das“..? )

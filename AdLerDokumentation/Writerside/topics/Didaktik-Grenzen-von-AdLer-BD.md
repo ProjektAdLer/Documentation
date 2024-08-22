@@ -24,7 +24,7 @@
             <li>
                 <p>
                     So können beispielsweise <a href="H5P-GE.md">H5P-Elemente</a> mit der Software 
-                    <a href="https://lumi.education/de/">„Lumi-Education“</a> 
+                    <a href="https://lumi.education/de/" target="_blank">„Lumi-Education“</a> 
                     (eine kostenlose Version „Lumi-Free“ ist verfügbar) erstellt werden und dann in das AdLer-Autorentool hochgeladen und verwendet werden.
                 </p>
             </li>

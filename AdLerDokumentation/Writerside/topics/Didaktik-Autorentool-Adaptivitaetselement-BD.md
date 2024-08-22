@@ -17,7 +17,7 @@
             <a href="Didaktik-Literaturverzeichnis-BD.md#15-New-Media-Consortium-2018">(New Media Consortium, 2018)</a>. 
             <a href="Didaktik-Literaturverzeichnis-BD.md#14-Martin-2020">Martin et al. (2020)</a> sprechen dem adaptiven Lernen auch mehrere 
             bildungsbezogene Nutzen zu, die <a href="Didaktik-Literaturverzeichnis-BD.md#13-Hattie-2008">Hattie (2008)</a> 
-            herauskristallisiert hat wie z.B. Akzeleration, Förderunterricht und sofortige Rückmeldungen.
+            herauskristallisiert hat, wie z.B. Akzeleration, Förderunterricht und sofortige Rückmeldungen.
         </p>
     </chapter>
     <chapter title="Adaptivität in AdLer" id="Didaktik-Adaptivitaet-in-AdLer" collapsible="true" default-state="expanded">
@@ -29,11 +29,11 @@
             individuellen Bedürfnisse angepasst werden.
         </p>
         <p>
-            Die Umsetzung von Adaptivität in AdLer soll deswegen u.a. anhand von der Datenerhebungsmöglichkeit 
+            Die Umsetzung von Adaptivität in AdLer soll deswegen u.a. anhand der Datenerhebungsmöglichkeit 
             <i>„Modellierung von Wissensstand auf Basis von Testperformanz“</i> erfolgen. 
         </p>
         <p>
-            Im folgenden Abschnitt wird sich auf den Aspekt der Testperformanz und dessen Umsetzung in AdLer konzentriert.
+            Der folgende Abschnitt konzentriert sich auf den Aspekt der Testperformanz und dessen Umsetzung in AdLer.
         </p>
     </chapter>
 </chapter>

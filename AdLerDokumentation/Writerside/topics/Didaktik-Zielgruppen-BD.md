@@ -6,13 +6,13 @@
     Das AdLer-Projekt (<b>A</b>daptive <b>d</b>igitale <b>Ler</b>nräume) stellt mit dem <a href="ManualAuthoringFeatures-auf-einen-Blick.topic">AdLer-Autorentool</a> ein Tool zur Verfügung, mit welchem 
     <a href="Lehrende-GE.md">Lehrende</a> virtuelle 3D-Lernwelten erstellen und über die <a href="ManualAuthoringFeatures-auf-einen-Blick.topic">AdLer-3D-Lernumgebung</a> für Lernende bereitstellen.
     Diese Lernwelten können in der Lehre 
-    in unterschiedlichen Formen (in der Pr&auml;senzlehre, rein digitale Lehre oder als Blended Learning) eingesetzt und somit für verschiedene didaktische Settings genutzt werden. 
+    in unterschiedlichen Formen (in der Pr&auml;senzlehre, rein digitalen Lehre oder als Blended Learning) eingesetzt und somit für verschiedene didaktische Settings genutzt werden. 
     Beispielsweise kann nur eine kleine Lernwelt mit einem Lernraum als kleines Lernangebot zur punktuellen Ergänzung der Präsenzlehre 
     eingesetzt werden oder eine komplexe Lernwelt aus verschiedenen Lernräumen die Grundlage für ein rein digitales Lehrkonzept sein. 
     Besonders eignet sich AdLer als Teil eines abgestimmten Blended-Learning-Konzepts, 
     indem beispielsweise in einem <a href="Flipped-Teaching-GE.md">Flipped-Teaching-Format</a> die Wissensaneignung über AdLer erfolgt, 
     die Vertiefung und Interaktion in einer gemeinsamen Präsenzphase geschieht und auf diese Weise 
-    die unterschiedlichen Vorteile von Präsenz- und digitaler Lehre kombiniert nutzbar gemacht werden können. 
+    die unterschiedlichen Vorteile von Präsenzlehre und digitaler Lehre kombiniert nutzbar gemacht werden können. 
     Ebenso ist eine kontextübergreifende Nutzung möglich, 
     sodass AdLer hochschul-, institutions-, studiengangs- und fächer&uuml;bergreifend eingesetzt werden kann.
 </p>
@@ -47,12 +47,12 @@
     <a href="Serious-Games-GE.md">Serious Games</a> stellen ein vielversprechendes Beispiel von 
     <a href="Game-based-Learning-GE.md">Game-based Learning</a> dar, um die <a href="Lernmotivation-GE.md">Lernmotivation</a> 
     der Lernenden zu adressieren. Anknüpfend daran haben <a href="Immersionseffekte-GE.md">Immersionseffekte</a> das 
-    Potential in Kombination mit durchdachten didaktischen Settings digitale Lehre für Lernende ansprechend und 
+    Potential, in Kombination mit durchdachten didaktischen Settings digitale Lehre für Lernende ansprechend und 
     abwechslungsreich zu gestalten sowie deren Motivation und <a href="Flow-erleben-GE.md">Flow-Erleben</a> zu erhöhen 
     <a href="Didaktik-Literaturverzeichnis-BD.md#3-Hoentzsch-2013">(Höntzsch et al., 2013).</a><br/>
     AdLer versucht dies zu adressieren, indem Lernende mittels eines <a href="Avatar-GE.md">Avatars</a> 
     die Lernwelten in der AdLer-3D-Lernumgebung betreten und verschiedene Handlungsmöglichkeiten wahrnehmen können. 
     Sie können sich frei in diesen Lernwelten bewegen und unterschiedliche Lernangebote 
-    (die Bearbeitung von Lernelementen, wie H5P, Text und Video) durchführen.
+    (die Bearbeitung von Lernelementen, wie H5P, Text und Video) durchführen. [//]: # (TODO: RR: eher „wahrnehmen“ als „durchführen“?)
 </p>
 </chapter>
