@@ -114,3 +114,24 @@ Je nach Theme kann es sinnvoll sein mehrere Darstellungen eines Objekts innerhal
 
 Zu guter Letzt ist es wichtig, dass die Objekte von mehreren Winkeln aus erkennbar sind, da nicht klar ist in welcher Ausrichtung sie später in der Lernwelt platziert werden.
 Oben sehen sie ein negatives Beispiel für diese Regel in Form des Objektes "Verkaufs-Automat".
+
+## 4. Themes
+Im Projekt gibt es unterschiedliche Themes, welche eine optische Repräsentation verschiedener realer Umgebungen darstellen. Aktuell implementiert sind:
+
+| Campus Kempten | ![](image3DStyleguideThemeCampusTheme.png)|
+| Campus Aschaffenburg | Noch keine Grafik vorhanden|
+| Vorstadt | ![](image3DStyleguideThemeSuburbTheme.png)|
+| Spielhalle | ![](image3DStyleguideThemeArcadeTheme.png)|
+|---|---|
+
+## 5. Grundrisse
+Die Lernräume in der 3D-Lernumgebung basieren auf festen Grundrissen, in welchen Lernelemente durch die Lehrenden platziert werden und Dekoelemente automatisch vom Programm platziert werden.
+
+Folgende Grundrisse sind vorhanden:
+
+| 6-Elemente | ![](image3DStyleguideR6Example.png)|
+| 8-Elemente | ![](image3DStyleguideR8Example.png)|
+| 10-Elemente | ![](image3DStyleguideLExample.png)|
+| 13-Elemente | ![](image3DStyleguideTExample.png)|
+| 15-Elemente | ![](image3DStyleguideDExample.png)|
+|---|---|
