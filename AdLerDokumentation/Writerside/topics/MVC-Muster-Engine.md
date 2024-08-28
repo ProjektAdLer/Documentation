@@ -6,7 +6,7 @@ Die Adapter Schicht umfasst unter anderem die komplette MVC Struktur, die für d
 
 Die Erstellung der Klassen des MVC Patterns und ihre Verknüpfung untereinander, wird in der AdLer Engine vom [PresentationBuilder](Presentation-Builder-Engine.md) übernommen.
 
-Alle Klassen des MVC Patterns, außer der View (da keine Abhängigkeiten von ihr), werden nach Interface Segregation Prinzip immer durch ein Interface abstrahiert.
+Alle Klassen des MVC Patterns, außer der View (da keine Abhängigkeiten von ihr), werden immer durch ein Interface abstrahiert.
 
 ## View
 Die View ist für die Darstellung zuständig. Dazu ließt sie Daten aus dem View Model zur Anzeige aus. Im Fall, dass der User mit einem von der View verwalteten Element interagiert, gibt sie dies an den Controller weiter.
