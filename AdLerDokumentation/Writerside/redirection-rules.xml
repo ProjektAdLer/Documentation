@@ -172,4 +172,8 @@
         <description>Created after removal of "Storyelement" from AdLerDokumentation</description>
         <accepts>Storyelement-Didaktik-GE.html</accepts>
     </rule>
+    <rule id="1eda15bf">
+        <description>Created after removal of "Software Design" from AdLerDokumentation</description>
+        <accepts>Software-Design-Backend.html</accepts>
+    </rule>
 </rules>

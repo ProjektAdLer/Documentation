@@ -8,3 +8,24 @@ Das **Backend** fungiert als zentrale Schnittstelle, die die Kommunikation zwisc
 **Moodle** dient als Plattform für die Verwaltung und Bereitstellung der Kursinhalte. Mit speziell entwickelten Plugins wird die Integration und Verwaltung der im .mbz-Format vorliegenden Kurse erleichtert.
 
 ![Überblick Adler.png](Überblick_Adler.png)
+
+```plantuml
+@startuml
+|User|
+start :Start Node;
+if (PathWayView opened?) then (No)
+  :Open PathWayView;
+endif
+:Click on toggle switch button of PathWayCondition to edit;
+
+|AuthoringTool|
+if (current condition) then (AND)
+  :Change condition of object to OR;
+else (OR)
+  :Change condition of object to AND;
+endif
+
+|User|
+stop
+@enduml
+```
