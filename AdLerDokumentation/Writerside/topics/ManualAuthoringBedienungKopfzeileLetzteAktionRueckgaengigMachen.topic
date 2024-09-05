@@ -63,14 +63,24 @@
             </tab>
             <tab id="undo-shortcut" title="Tastenkombination">
                 <procedure title="Tastenkombination">
-                    <step>
-                        <p>Drücken Sie die Tastenkombination
-                            <control>Strg</control>
-                            +
-                            <control>Z</control>
-                            .
-                        </p>
-                    </step>
+                    <tabs>
+                        <tab title="Windows">
+                            <p>Drücken Sie die Tastenkombination
+                                <control>Strg</control>
+                                +
+                                <control>Z</control>
+                                .
+                            </p>
+                        </tab>
+                        <tab title="Mac OS">
+                            <p>Drücken Sie die Tastenkombination
+                                <control>Command</control>
+                                +
+                                <control>Z</control>
+                                .
+                            </p>
+                        </tab>
+                    </tabs>
                 </procedure>
             </tab>
         </tabs>

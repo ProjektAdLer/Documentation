@@ -30,7 +30,7 @@
             <tab title="Kontextmenü">
                 <procedure id="kontextmenu" title="Kontextmenü">
                     <step>
-                        <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf einen Lernraum.
+                        <p>Klicken Sie mit der rechten Maustaste auf einen Lernraum.
                             <img src="imageManualAuthoringRechteSidebarLernraumCallout.png"
                                  alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
                         <note>
@@ -47,7 +47,7 @@
             <tab title="Button">
                 <procedure type="steps" id="button" title="Button">
                     <step>
-                        <p>Klicken Sie mit der linken Maustaste doppelt auf den Button <control>X</control> eines Lernraums.
+                        <p>Klicken Sie mit der linken Maustaste auf den Button <control>X</control> eines Lernraums.
                             <img src="imageManualAuthoringRechteSidebarLernraumLoeschenXButtonCallout.png"
                                  alt="Rechtsklickmenü Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
                     </step>

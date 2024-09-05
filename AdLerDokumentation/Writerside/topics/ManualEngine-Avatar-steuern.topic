@@ -7,14 +7,14 @@
 
     <procedure title="Avatar und Kamera steuern" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
-            <def title="&#127937;">
+            <def title="&#127937; Ziel der Handlung">
                 <p>Den Avatar im 3D-Lernraum bewegen.</p>
             </def>
         </deflist>
 
-        <p>Sie können Ihren Avatar im 3D-Lernraum bewegen, indem Sie auf mit der linken Maustaste oder per Touch-Eingabe
-            auf die gewünschte Zielstelle klicken. Alternativ können Sie auf ein Lernelement klicken, der Avatar bewegt
-            sich automatisch dorthin.</p>
+        <p>Sie können Ihren Avatar im 3D-Lernraum bewegen, indem Sie mit der linken Maustaste oder per Touch-Eingabe
+            auf die gewünschte Zielstelle klicken. Alternativ können Sie auch direkt auf ein Lernelement klicken, der Avatar bewegt
+            sich dann automatisch dorthin.</p>
         <img src="imageManualEngine_walking.png" alt="Avatar läuft zum Ziel" width="500"/>
 
         <deflist type="compact" sorted="desc">
@@ -26,7 +26,7 @@
         <p>Sie können die Kamera heran- und herauszoomen. Dazu nutzen Sie das Mausrad oder bei Toucheingabe die für das
             Zoomen gängige Geste.</p>
         <p>Sie können die Kamera bewegen. Dazu Halten Sie die rechte Maustaste gedrückt und bewegen dann die Kamera
-            durch Positionsänderung der Maus.</p>
+            durch Positionsänderung der Maus. Bei Touchbedienung ist dies derzeit nicht möglich.</p>
         <img src="imageManualEngine_zoom1.png" alt="Kamera herausgezoomt" width="500"/>
         <img src="imageManualEngine_zoom2.png" alt="Kamera herangezoomt" width="500"/>
 

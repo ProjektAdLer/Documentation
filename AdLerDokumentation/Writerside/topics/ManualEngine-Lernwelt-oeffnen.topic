@@ -25,10 +25,10 @@
             <note>Eine bereits abgeschlossene Lernwelt wird durch einen grünen Haken gekennzeichnet.
                 <img src="imageManualEngine_LernweltAbgeschlossen.png" alt="Image Manual Engine Lernwelt Abgeschlossen" width="50"/>
             </note>
-            <note>Die Detailinformationen zu der ausgewählten Lernwelt erscheinen im Bereich rechts.</note>
+            <note>Die Detailinformationen zur ausgewählten Lernwelt erscheinen im Bereich rechts.</note>
         </step>
         <step>
-            <p>Öffnen Sie die Lernwelt über den <control>Lernwelt öffnen</control>-Button</p>
+            <p>Öffnen Sie die Lernwelt über den <control>Lernwelt-öffnen</control>-Button</p>
             <img alt="imageManualEngine_LernweltOeffnen.png" src="imageManualEngine_LernweltOeffnen.png" />
         </step>
         <note>

@@ -7,7 +7,7 @@
 
     <procedure title="Story-Lernelement bedienen" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
-            <def title="&#127937;">
+            <def title="&#127937; Ziel der Handlung">
                 <p>Ein <a href="ManualEngine-Lernraum-Story-Elemente.topic">Story-Element</a> öffnen und vollständig
                     abschließen.</p>
             </def>
@@ -26,17 +26,17 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Schließen Button</td>
-                <td>Schließt bei Klick die NPC Textbox</td>
+                <td><control>Schließen</control>-Button</td>
+                <td>Schließt bei Klick die NPC-Textbox</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Zurück Button</td>
+                <td><control>Zurück</control>-Button</td>
                 <td>Zeigt den vorherigen Text-Abschnitt an</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Weiter Button</td>
+                <td><control>Weiter</control>-Button</td>
                 <td>Zeigt den nächsten Text-Abschnitt an</td>
             </tr>
         </table>
@@ -48,9 +48,9 @@
         <step><p>
             Öffnen des Storyelements:
             Beim erstmaligen Betreten eines <a href="ManualEngine-Lernraum-allgemein.topic">Lernraums</a> können
-            standardmäßig Intro- und Outro-Dialoge zur Themen-Einführung erscheinen; Diese sind als Story-Elemente zu
+            standardmäßig Intro- und Outro-Dialoge zur Themen-Einführung erscheinen. Diese sind als Story-Elemente zu
             betrachten.
-            Sollten Sie manuell ein Story-Element aufrufen wollen, so klicken Sie mit der linken Maustaste auf den
+            Sollten Sie manuell ein Story-Element aufrufen wollen, so klicken oder tippen Sie auf den
             entsprechenden Story-NPC im 3D-Lernraum. Laufen Sie zuvor in dessen Nähe um mit diesem interagieren zu
             können.</p>
             <img src="imageManualEngine_Storyelement_bedienen01.png" alt="Story_Element_NPC"/>
@@ -68,9 +68,9 @@
 
         <note>
             <format style="bold">&#10004;
-                <p>Ein Story-Element wurde geöffnet, alle Textabschnitte durchgelesen und das Dialogfeld geschlossen und
-                    somit das Element erfolgreich abgeschlossen. </p>
-                <p>Die entsprechende Punktezahl wurde dem Lernfortschritt hinzugefügt. </p></format>
+                <p>Ein Story-Element wurde geöffnet, alle Textabschnitte durchgelesen, das Dialogfeld geschlossen und
+                    somit das Element erfolgreich abgeschlossen.</p>
+                <p>Die entsprechende Punktezahl wurde dem Lernfortschritt hinzugefügt.</p></format>
         </note>
     </procedure>
 </topic>

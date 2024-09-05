@@ -4,20 +4,20 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Features auf einen Blick" id="ManualEngine-Leistungsbeschreibung">
-    <chapter title="Produktbezeichnung" id="produktbezeichnung">
     <!--img src="" alt="Logo des Produkts"/-->
-    <p>Lernende können in einer ansprechenden 3D-Lernumgebung interaktiv durch Lehrende bereitgestellte Lernmaterialien spielerisch bearbeiten.
-    So soll der Lernwille und die Motivation maßgeblich gesteigert werden.</p>
+    <p>Lernende können in einer ansprechenden, interaktiven 3D-Lernumgebung spielerisch Lernmaterialien bearbeiten, die durch Lehrende bereitgestellt wurden.
+        Lernende können je nach ihren Präferenzen die ansprechende 3D-Lernumgebung oder die dezidierte Moodle-Ansicht verwenden,
+        um interaktiv durch Lehrende bereitgestellte Lernmaterialien spielerisch zu bearbeiten.
+        So soll der Lernwille und die Motivation maßgeblich gesteigert werden.</p>
     <p>Kernfunktionalitäten des Produkts:</p>
     <list>
-        <li>Lernende werden durch immersive Lernwelten aktiviert, motiviert und erleben einen Flow</li>
-        <li>Lernende lernen individuell und flexibel</li>
-        <li>Prinzipien des Game-based Learning</li>
-        <li>Aufteilung des Lernerlebnisses in Lernwelten, Lernräume und Lernelemente mit individuellem Lernpfad</li>
-        <li>Nutzung der 3D-Lernwelt oder alternativ einer Moodle-Darstellung</li>
-        <li>Nutzung verschiedenster Lernelemente und Medien</li>
-        <li>Klar definierte Lernziele</li>
-        <li>Lernfortschritt jederzeit sichtbar</li>
+        <li>Aktivierung, Motivation und Erleben eines Flows durch immersive Lernwelten.</li>
+        <li>Ermöglichen individuellen und flexiblen Lernens.</li>
+        <li>Anwenden von Prinzipien des Game-based Learning.</li>
+        <li>Aufteilen des Lernerlebnisses in Lernwelten, Lernräume und Lernelemente mit individuellem Lernpfad.</li>
+        <li>Nutzen der 3D-Lernwelt oder alternativ einer Moodle-Darstellung.</li>
+        <li>Verwenden verschiedenster Lernelemente und Medien.</li>
+        <li>Definieren klarer Lernziele.</li>
+        <li>Sichtbarmachen des Lernfortschritts jederzeit.</li>
     </list>
-    </chapter>
 </topic>

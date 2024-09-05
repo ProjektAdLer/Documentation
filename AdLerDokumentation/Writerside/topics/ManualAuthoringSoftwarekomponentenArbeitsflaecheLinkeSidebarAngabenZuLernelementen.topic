@@ -6,7 +6,7 @@
        title="Angaben zu Lernelementen" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernelementen">
     <show-structure for="chapter" depth="2"/>
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Der Tab für das Angeben von Metadaten und Informationen zu Lernelementen enthält insgesamt fünf Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
+        <p>Der Tab für die Eingabe von Metadaten und Informationen zu Lernelementen enthält insgesamt fünf Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
         <list>
             <li>Kategorie 1 (ausgeklappt): Allgemein</li>
             <li>Kategorie 2 (ausgeklappt): Externes Lernmaterial</li>
@@ -25,62 +25,62 @@
                 <tr>
                     <td>1</td>
                     <td>Erforderliche Angabe</td>
-                    <td>Enthält die Information, dass  mit einem Stern markierte Angaben zum Lernelement erforderlich sind.</td>
+                    <td>Enthält die Information, dass mit einem Stern markierte Angaben zum Lernelement erforderlich sind</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Überschrift des Tabs</td>
-                    <td>Zeigt an, welcher Modus aktuell aktiv ist. Möglich sind "Lernelement erstellen" und "Lernelement bearbeiten".</td>
+                    <td>Zeigt an, welcher Modus aktuell aktiv ist. Möglich sind "Lernelement erstellen" und "Lernelement bearbeiten"</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>Name des Lernelements-Textfeld</td>
-                    <td>Textfeld zur Angabe vom Namen des Lernelements (Erforderliche Angabe).</td>
+                    <td>Name-des-Lernelements-Textfeld</td>
+                    <td>Textfeld zur Angabe vom Namen des Lernelements (Erforderliche Angabe)</td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>Informationssymbol</td>
-                    <td>Enthält zusätzliche Informationen zu den Elementen.</td>
+                    <td>Enthält zusätzliche Informationen zu den Elementen</td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>Scrollbar</td>
-                    <td>Zeigt alle Informationen zum Lernelement an.</td>
+                    <td>Zeigt alle Informationen zum Lernelement an</td>
                 </tr>
                 <tr>
                     <td>6</td>
                     <td>Punkte</td>
-                    <td>Ermöglicht das Angeben von Punkten für das Abschließen des Lernelements.</td>
+                    <td>Ermöglicht das Angeben von Punkten für das Abschließen des Lernelements</td>
                 </tr>
                 <tr>
                     <td>7</td>
                     <td>Arbeitsaufwand (min)</td>
-                    <td>Ermöglicht das Angeben des Arbeitsaufwands in Minuten für das Abschließen des Lernelements.</td>
+                    <td>Ermöglicht das Angeben des Arbeitsaufwands in Minuten für das Abschließen des Lernelements</td>
                 </tr>
                 <tr>
                     <td>8</td>
                     <td>Vorschau-Funktion</td>
-                    <td>Öffnet ein Fenster mit einer Vorschau-Ansicht des externen Lernmaterials.</td>
+                    <td>Öffnet ein Fenster mit einer Vorschau-Ansicht des externen Lernmaterials</td>
                 </tr>
                 <tr>
                     <td>9</td>
                     <td>Suchen-Funktion</td>
-                    <td>Ermöglicht das Suchen eines bestimmten externen Lernmaterials.</td>
+                    <td>Ermöglicht das Suchen eines bestimmten externen Lernmaterials</td>
                 </tr>
                 <tr>
                     <td>10</td>
                     <td>Externes Lernmaterial</td>
-                    <td>Auflistung des gesamten, dem Autorentool hinzugefügten, Lernmaterials (Erforderliche Angabe).</td>
+                    <td>Auflistung des gesamten, dem Autorentool hinzugefügten, Lernmaterials (Erforderliche Angabe)</td>
                 </tr>
                 <tr>
                     <td>11</td>
                     <td>Schwierigkeitsgrad</td>
-                    <td>Öffnet eine Dropdown-Liste zur Auswahl der Schwierigkeit des Lernelements.</td>
+                    <td>Öffnet eine Dropdown-Liste zur Auswahl der Schwierigkeit des Lernelements</td>
                 </tr>
                 <tr>
                     <td>12</td>
                     <td>Auswahlfenster zur Schwierigkeit</td>
-                    <td>Auswahl aus drei verschiedenen Schwierigkeitsgraden "Leicht", "Mittelschwer", "Schwer" sowie "Keine Angabe" für das Lernelement.</td>
+                    <td>Auswahl aus drei verschiedenen Schwierigkeitsgraden "Leicht", "Mittelschwer", "Schwer" sowie "Keine Angabe" für das Lernelement</td>
                 </tr>
             </table>
         </chapter>
@@ -95,12 +95,12 @@
                 <tr>
                     <td>13</td>
                     <td>Zufallsauswahl</td>
-                    <td>Ermöglicht eine zufällige Auswahl einer 3D-Darstellung für das Lernelement (aktuell aktive Auswahl).</td>
+                    <td>Ermöglicht eine zufällige Auswahl einer 3D-Darstellung für das Lernelement (aktuell aktive Auswahl)</td>
                 </tr>
                 <tr>
                     <td>14</td>
                     <td>3D-Darstellung</td>
-                    <td>Unterschiedliche Auswahl an Mobiliar als 3D-Darstellung für das Lernelement.</td>
+                    <td>Unterschiedliche Auswahl an Mobiliar als 3D-Darstellung für das Lernelement</td>
                 </tr>
             </table>
         </chapter>
@@ -115,17 +115,17 @@
                 <tr>
                     <td>15</td>
                     <td>Lernziel-Textfeld</td>
-                    <td>Textfeld zur Angabe eines oder mehrerer Lernziele für das Lernelement.</td>
+                    <td>Textfeld zur Angabe eines oder mehrerer Lernziele für das Lernelement</td>
                 </tr>
                 <tr>
                     <td>16</td>
                     <td>Beschreibungs-Textfeld</td>
-                    <td>Textfeld zur Angabe einer Beschreibung des Lernelements.</td>
+                    <td>Textfeld zur Angabe einer Beschreibung des Lernelements</td>
                 </tr>
                 <tr>
                     <td>17</td>
                     <td>OK-Button</td>
-                    <td>Bestätigt die Angaben zum Lernelement.</td>
+                    <td>Bestätigt die Angaben zum Lernelement</td>
                 </tr>
             </table>
         </chapter>

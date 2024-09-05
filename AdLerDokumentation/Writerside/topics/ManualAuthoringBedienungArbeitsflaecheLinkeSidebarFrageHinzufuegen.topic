@@ -47,7 +47,7 @@
                 <img src="imageManualAuthoringLinkeSidebarAdaptivitaetselementAufgabeFrageHinzugefuegtVorschau.png" alt="Aufgabenübersicht mit Fragenvorschau bei hovern auf Augensymbol" width="200" thumbnail="true"/>
             </tip>
             <p>Optional: Entfernen Sie das Häkchen bei <control>Pflichtaufgabe</control>, wenn die Lernenden diese Aufgabe <control>nicht</control> verpflichtend bearbeiten sollen.</p>
-            <tip>Das Kästchen ist standardmäßig bei erstellter Frage angewählt und kann bei Bedarf abgewählt werden.</tip>
+            <tip>Das Kästchen ist standardmäßig bei neu erstellten Fragen angewählt und kann bei Bedarf abgewählt werden.</tip>
         </step>
         <step><p>Erstellen Sie im nächsten Schritt einen Kommentar oder einen Verweis zu Ihrer Frage --> näheres dazu erfahren Sie unter <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarKommentarHinzufuegen.topic">Kommentar hinzufügen</a> und <a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarVerweisHinzufuegen.topic">Verweis hinzufügen</a>.</p>
         </step>

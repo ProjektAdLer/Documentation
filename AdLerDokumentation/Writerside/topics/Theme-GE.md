@@ -20,9 +20,9 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Ein Theme im Kontext eines <a href="Lernraum-GE.md">Lernraums</a> in AdLer ist eine Zusammenstellung grafischer Eigenschaften eines Lernraums.
-        Ein Theme bildet eine geschlossene Einheit von thematische und stilistische passenden 3D-Modellen und Texturen, die zur Darstellung des Lernraums verwendet wird.<br/>
-        Themes sind frei austauschbar und beeinflussen die Funktionsweise von AdLer nicht.
+        <td id="summary" >Ein Thema im Kontext eines <a href="Lernraum-GE.md">Lernraums</a> in AdLer ist eine Zusammenstellung grafischer Eigenschaften eines Lernraums.
+        Ein Thema bildet eine geschlossene Einheit von thematische und stilistische passenden 3D-Modellen und Texturen, die zur Darstellung des Lernraums verwendet wird.<br/>
+        Themen sind frei austauschbar und beeinflussen die Funktionsweise von AdLer nicht.
         </td>
     </tr>  
     <tr>

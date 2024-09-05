@@ -5,18 +5,17 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Startmenü" id="ManualEngine_Startmenü">
 
-    <chapter title="Produktbeschreibung" id="bezeichnung_produktteil">
+    <chapter title="Startmenü" id="bezeichnung_produktteil">
         <p>
-            Das Startmenü ist die Startseite der 3D-Lernumgebung.
-            Es enthält Eingabefelder für die Anmeldedaten, einen Login Button sowie einen Button um das Hilfe-Menü aufzurufen.
+            Das Startmenü enthält Eingabefelder für die Anmeldedaten, einen Login-Button sowie einen Button, um das Hilfe-Menü aufzurufen.
         </p>
-        <p>Ansicht Startmenü Nutzer nicht angemeldet:</p>
+        <p>Ansicht des Startmenüs für nicht angemeldete Nutzende:</p>
         <img src="imageManualEngine_CalloutsStartmenuNologin.png" alt="240507_Callouts_Startmenü_abgemeldet.png"/>
-        <p>Ansicht Startmenü Nutzer angemeldet:</p>
+        <p>Ansicht des Startmenüs für angemeldete Nutzende:</p>
         <img src="imageManualEngine_CalloutsStartmenuLogin.png" alt="240507_Callouts_Startmenü_angemeldet.png"/>
         <tip>
-            Nach erfolgreichem Login werden die Login-Eingabefelder durch den Text <control>Login erfolgreich!</control> ersetzt und
-            ein <control>Ausloggen</control> Button in der rechten unteren Ecke hinzugefügt.
+            Nach erfolgreichem Login werden die Login-Eingabefelder durch den Text <control>"Login erfolgreich!"</control> ersetzt und
+            ein <control>Ausloggen</control>-Button in der rechten unteren Ecke hinzugefügt.
         </tip>
         <table>
             <tr>
@@ -41,12 +40,12 @@
             </tr>
             <tr>
                 <td>4</td>
-                <td>Hilfe-Menü-Button</td>
+                <td><control>Hilfe-Menü</control>-Button</td>
                 <td>Öffnet bei Klick das <a href="ManualEngine-Hilfe-Menü.topic">Hilfe-Menü</a></td>
             </tr>
             <tr>
                 <td>5</td>
-                <td><control>zum Lernwelt-Menü</control>-Button</td>
+                <td><control>Zum-Lernwelt-Menü</control>-Button</td>
                 <td>Öffnet bei Klick das <a href="ManualEngine-Lernweltmenue.topic">Lernweltmenü</a></td>
             </tr>
             <tr>
@@ -55,10 +54,10 @@
                 <td>Meldet den Nutzer bei Klick ab</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen:</p>
         <list>
-            <li><a href="ManualEngine-In-3D-Lernumgebung-anmelden.topic">In 3D Lernumgebung anmelden</a></li>
-            <li><a href="ManualEngine-Von-3D-Lernumgebung-abmelden.topic">Von 3D Lernumgebung abmelden</a></li>
+            <li><a href="ManualEngine-In-3D-Lernumgebung-anmelden.topic">In 3D-Lernumgebung anmelden</a></li>
+            <li><a href="ManualEngine-Von-3D-Lernumgebung-abmelden.topic">Von 3D-Lernumgebung abmelden</a></li>
         </list>
     </chapter>
 </topic>

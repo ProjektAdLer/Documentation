@@ -17,43 +17,43 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Lernwelt bearbeiten-Tab</td>
-                <td>Öffnet den Tab zum Bearbeiten der geöffneten Lernwelt.</td>
+                <td>Lernwelt-bearbeiten-Tab</td>
+                <td>Öffnet den Tab zum Bearbeiten der geöffneten Lernwelt</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Lernraum erstellen / bearbeiten-Tab</td>
-                <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Lernraums.</td>
+                <td>Lernraum-erstellen- / -bearbeiten-Tab</td>
+                <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Lernraums</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Storyelement erstellen / bearbeiten-Tab</td>
-                <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Storyelements.</td>
+                <td>Storyelement-erstellen- / -bearbeiten-Tab</td>
+                <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Storyelements</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Lernelement erstellen / bearbeiten-Tab</td>
-                <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Lernelements.</td>
+                <td>Lernelement-erstellen / -bearbeiten-Tab</td>
+                <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Lernelements</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Adaptivitätselement erstellen / bearbeiten-Tab</td>
-                <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Adaptivitätselements.</td>
+                <td>Adaptivitätselement-erstellen / -bearbeiten-Tab</td>
+                <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Adaptivitätselements</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Externes Lernmaterial hinzufügen-Tab</td>
-                <td>Öffnet den Tab zum Hinzufügen von externem Lernmaterial.</td>
+                <td>Externes-Lernmaterial-hinzufügen-Tab</td>
+                <td>Öffnet den Tab zum Hinzufügen von externem Lernmaterial</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
-            <li>Lernwelt bearbeiten</li>
-            <li>Lernraum erstellen und bearbeiten</li>
-            <li>Storyelement erstellen und bearbeiten</li>
-            <li>Lernelement erstellen und bearbeiten</li>
-            <li>Adaptivitätselement erstellen und bearbeiten</li>
-            <li>Externes Lernmaterial hinzufügen</li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernweltBearbeiten.topic">Lernwelt bearbeiten</a></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernraumErstellen.topic">Lernraum erstellen und bearbeiten</a></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic">Storyelement erstellen und bearbeiten</a></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic">Lernelement erstellen und bearbeiten</a></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic">Adaptivitätselement erstellen und bearbeiten</a></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic">Externes Lernmaterial hinzufügen</a></li>
         </list>
     </chapter>
 </topic>

@@ -10,15 +10,15 @@ In diesem Abschnitt soll es weniger um die konkrete Umsetzung sondern mehr um di
 genauere Tutorials konsultieren sie am besten Video-Tutorials aus dem Internet.
 
 ### Moodboards
-Es empfiehlt sich vor der Asset Creation zu neuen AdLer-Themes oder Charakter Accessoires ein Moodboard zum jeweiligen Themen-Bereich
+Es empfiehlt sich vor der Asset Creation zu neuen AdLer-Themen oder Charakter Accessoires ein Moodboard zum jeweiligen Themen-Bereich
 zu konsultieren oder anzufertigen.
 
 Das Moodboard soll dann beim anschließenden Modellieren als kreative Stütze dienen und bietet die Möglichkeit 
 Ideen und Konzepte auf einem Blick einzusehen. Dies soll den Workflow außerdem beschleunigen.
 
-|         ![](ImageAssetworkflowMoodboard.PNG)         |
-|------------------------------------------------------|
-| _Beispiel für ein mögliches Moodboard zum Theme Labor_ |
+| ![](ImageAssetworkflowMoodboard.PNG)                    |
+|---------------------------------------------------------|
+| _Beispiel für ein mögliches Moodboard zum Themen Labor_ |
 
 ### References
 Neben der Verwendung von Moodboards empfiehlt es sich außerdem, References direkt im Programm hinzuzuziehen um die ungefähre

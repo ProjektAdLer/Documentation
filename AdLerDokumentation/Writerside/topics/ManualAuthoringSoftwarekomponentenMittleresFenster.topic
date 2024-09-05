@@ -30,11 +30,10 @@
                 <td>Im diesem Bereich werden alle erstellten Elemente aufgeführt, die keinem Lernraum zugewiesen sind.</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen:</p>
         <list>
-            <li>Handlung 1</li>
-            <li>Handlung 2</li>
-            <li>Handlung 3</li>
+            <li>Handlungen zu <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterLernraumEditor.topic"/></li>
+            <li>Handlungen zu <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"/></li>
         </list>
     </chapter>
 </topic>

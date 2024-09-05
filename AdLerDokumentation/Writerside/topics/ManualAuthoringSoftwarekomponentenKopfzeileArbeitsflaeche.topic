@@ -19,79 +19,79 @@
             <tr>
                 <td>1</td>
                 <td>Home-Button</td>
-                <td>Wechselt zur Startseite-Button.</td>
+                <td>Wechselt zur Startseite</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Lernwelt speichern-Button</td>
-                <td>Speichert die geöffnete Lernwelt.</td>
+                <td>Lernwelt-speichern-Button</td>
+                <td>Speichert die geöffnete Lernwelt</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Lernwelt aktualisieren</td>
-                <td>Zeigt an, dass ungespeicherte Änderungen in der geöffneten Lernwelt vorliegen.</td>
+                <td>Zeigt an, dass ungespeicherte Änderungen in der geöffneten Lernwelt vorliegen</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Lernwelt archivieren-Button</td>
-                <td>Archiviert die Lernwelt als ZIP-Datei.</td>
+                <td>Lernwelt-archivieren-Button</td>
+                <td>Archiviert die Lernwelt als ZIP-Datei</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Lernwelt veröffentlichen-Button</td>
-                <td>Veröffentlicht die Lernwelt als Moodle Lernwelt-Datei (.mbz).</td>
+                <td>Lernwelt-veröffentlichen-Button</td>
+                <td>Veröffentlicht die Lernwelt als Moodle-Lernwelt-Datei (.mbz)</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>Name der geöffneten Lernwelt</td>
-                <td>Zeigt den Namen der geöffneten Lernwelt an.</td>
+                <td>Zeigt den Namen der geöffneten Lernwelt an</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Tester-Feedback zur Arbeitsfläche-Button</td>
-                <td>Öffnet ein Fenster zu einer Umfrage, um Rückmeldung zur Bedienung der Arbeitsfläche geben zu können.</td>
+                <td>Tester-Feedback-zur-Arbeitsfläche-Button</td>
+                <td>Öffnet ein Fenster zu einer Umfrage, um Rückmeldung zur Bedienung der Arbeitsfläche geben zu können</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>8</td>
-                <td>Übersicht über Lernziele-Button</td>
-                <td>Öffnet ein Fenster und zeigt alle innerhalb von Lernräumen erstellten Lernziele der geöffneten Lernwelt.</td>
+                <td>Übersicht-über-Lernziele-Button</td>
+                <td>Öffnet ein Fenster und zeigt alle innerhalb von Lernräumen erstellten Lernziele der geöffneten Lernwelt</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>9</td>
                 <td>Name der Lernwelt</td>
-                <td>Zeigt den Namen der geöffneten Lernwelt an.</td>
+                <td>Zeigt den Namen der geöffneten Lernwelt an</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>10</td>
                 <td>Eingeklappter/Ausgeklappter Baumknoten</td>
-                <td>Zeigt im ausgeklappten Zustand die formulierten Lernziele des jeweiligen Lernraums an. In der Übersicht sind stets diejenigen Lernräume ausgeklappt, für die mindestens ein Lernziel formuliert wurde und eingeklappt, solange kein Lernziel für den jeweiligen Lernraum formuliert wurde.</td>
+                <td>Zeigt im ausgeklappten Zustand die formulierten Lernziele des jeweiligen Lernraums an; In der Übersicht sind stets diejenigen Lernräume ausgeklappt, für die mindestens ein Lernziel formuliert wurde und eingeklappt, solange kein Lernziel für den jeweiligen Lernraum formuliert wurde.</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>11</td>
                 <td>Name der Lernräume</td>
-                <td>Zeigt den Namen der in der geöffneten Lernwelt erstellten Lernräume an.</td>
+                <td>Zeigt den Namen der in der geöffneten Lernwelt erstellten Lernräume an</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>12</td>
                 <td>Lernziele aller Lernräume dieser Lernwelt</td>
-                <td>Zeigt alle für Lernräume formulierten Lernziele in einer Auflistung an.</td>
+                <td>Zeigt alle für Lernräume formulierten Lernziele in einer Auflistung an</td>
                 <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>13</td>
                 <td>Schließen-Button</td>
-                <td>Schließt das Fenster, in dem alle für Lernräume formulierten Lernziele angezeigt werden.</td>
+                <td>Schließt das Fenster, in dem alle für die Lernräume formulierten Lernziele angezeigt werden</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
         </table>

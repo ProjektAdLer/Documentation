@@ -28,17 +28,17 @@
                 <tr>
                     <td>1</td>
                     <td>Erforderliche Angabe</td>
-                    <td>Enthält die Information, dass  mit einem Stern markierte Angaben zum Lernraum erforderlich sind.</td>
+                    <td>Enthält die Information, dass  mit einem Stern markierte Angaben zum Lernraum erforderlich sind</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Überschrift des Tabs</td>
-                    <td>Zeigt an, welcher Modus aktuell aktiv ist. Möglich sind "Lernraum erstellen" und "Lernraum bearbeiten".</td>
+                    <td>Zeigt an, welcher Modus aktuell aktiv ist. Möglich sind "Lernraum erstellen" und "Lernraum bearbeiten"</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>Name des Lernraums-Textfeld</td>
-                    <td>Textfeld zur Angabe vom Namen des Lernraums (Erforderliche Angabe).</td>
+                    <td>Name-des-Lernraums-Textfeld</td>
+                    <td>Textfeld zur Angabe vom Namen des Lernraums (Erforderliche Angabe)</td>
                 </tr>
             </table>
         </chapter>
@@ -53,42 +53,42 @@
                 <tr>
                     <td>4</td>
                     <td>Abschlussbedingung</td>
-                    <td>Ermöglicht das Angeben einer Mindestpunktzahl für das erfolgreiche Abschließen des Lernraums.</td>
+                    <td>Ermöglicht die Angabe einer Mindestpunktzahl für das erfolgreiche Abschließen des Lernraums</td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>Grundriss</td>
-                    <td>Auswahl verschiedener Grundrisse mit numerischer Angabe der möglichen Elementplatzierungen. Diese Kategorie wird nur im Modus "Lernraum bearbeiten" angezeigt.</td>
+                    <td>Auswahl verschiedener Grundrisse mit numerischer Angabe der möglichen Elementplatzierungen (Diese Kategorie wird nur im Modus "Lernraum bearbeiten" angezeigt.)</td>
                 </tr>
                 <tr>
                     <td>6</td>
                     <td>Beschreibungs-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung des Lernraums.</td>
+                    <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung des Lernraums</td>
                 </tr>
                 <tr>
                     <td>7</td>
                     <td>Lernziele</td>
-                    <td>Öffnet ein Fenster zur Formulierung eines oder mehrerer Lernziele für den Lernraum ohne oder mit Eingabeunterstützung.</td>
+                    <td>Öffnet ein Fenster zur Formulierung eines oder mehrerer Lernziele für den Lernraum - ohne oder mit Eingabeunterstützung</td>
                 </tr>
                 <tr>
                     <td>8</td>
                     <td>OK-Button</td>
-                    <td>Bestätigt die Angaben zum Lernraum.</td>
+                    <td>Bestätigt die Angaben zum Lernraum</td>
                 </tr>
                 <tr>
                     <td>9</td>
                     <td>Reset-Button</td>
-                    <td>Löscht die Angaben zum Lernraum.</td>
+                    <td>Löscht die Angaben zum Lernraum</td>
                 </tr>
                 <tr>
                     <td>10</td>
                     <td>Thema</td>
-                    <td>Ermöglicht das Angeben eines bestimmten Themas für den Lernraums. Je nach ausgewähltem Thema verändert sich die Gestaltung der Umgebung des Lernraums.</td>
+                    <td>Ermöglicht die Angabe eines bestimmten Themas für den Lernraum; Je nach ausgewähltem Thema verändert sich die Gestaltung der Umgebung des Lernraums.</td>
                 </tr>
                 <tr>
                     <td>11</td>
                     <td>Auswahlfenster zum Thema</td>
-                    <td>Auswahl aus vier verschiedenen Themen "Campus Aschaffenburg", "Campus Kempten", "Vorstadt" und "Spielhalle" für den Lernraum.</td>
+                    <td>Auswahl aus vier verschiedenen Themen für den Lernraum: "Campus Aschaffenburg", "Campus Kempten", "Vorstadt" und "Spielhalle"</td>
                 </tr>
             </table>
             <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

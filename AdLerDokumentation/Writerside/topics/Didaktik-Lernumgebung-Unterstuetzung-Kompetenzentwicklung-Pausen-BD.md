@@ -25,20 +25,24 @@
             auf die Typen von Interventionen zu richten, die den Lernprozess verbessern können. 
             <br/>Es ist aber klar: Eine Voraussetzung für LA ist, dass diese erhoben und analysiert werden k&ouml;nnen. 
             Aufgrund der Tatsache, dass in AdLer nur sehr bedingt Verhaltensdaten für die individuellen Lernenden 
-            erhoben und gespeichert werden, wurde sich auf den Parameter der verbrachten Zeit (Time Spent) fokussiert.
+            erhoben und gespeichert werden, konzentrieren wir uns auf den Parameter der verbrachten Zeit (Time Spent).
         </p>
     </chapter>
     <chapter title="Lernzeit und Lernpausen" id="Didaktik-Lernzeit-Lernpausen" collapsible="true" default-state="expanded">
         <p>
             Die verbrachte Zeit im Lernprozess ist deswegen von Bedeutung und ein relevanter Messwert, 
-            da die Konzentration der meisten Menschen nur für ca. 30 Minuten effiziente Lernzeit reicht. 
-            Einige Zeit kann sie dann noch durch Willensanstrengung hochgehalten werden, 
-            dann aber nur noch durch Pausen wiederhergestellt werden. <br/>
+            da die Konzentration der meisten Menschen nur für ca. 30 Minuten effiziente Lernzeit reicht 
+            <a href="Didaktik-Literaturverzeichnis-BD.md#18-Hofmann-2012">(Hofmann & Löhle, 2012)</a>. 
+            Einige Zeit kann sie darüber hinaus noch durch Willensanstrengung hochgehalten werden, 
+            dann aber nur noch durch Pausen wiederhergestellt werden.<br/>
             Eine <a href="Lernpausen-GE.md">Lernpause</a> wirkt damit der Ermüdung entgegen. 
             Es ist sinnvoll mehrere kleine Pausen nach kürzeren Lernphasen einzulegen. 
             Ein Schema zur optimalen Gestaltung der Pausen kann wie folgt aussehen:
         </p>
-        <img src="imageManualDidaktik_Abbildung_Pausengestaltung.jpg" alt="Bessere und ineffizientere Pausengestaltung veranschaulicht" width="675"/>
+        <p>
+            <img src="imageManualDidaktik_Abbildung_Pausengestaltung.jpg" alt="Bessere und ineffizientere Pausengestaltung veranschaulicht" width="675" style="block"/>
+            <i>Abbildung: Optimale Pausengestaltung <a href="Didaktik-Literaturverzeichnis-BD.md#18-Hofmann-2012">(Hofmann & Löhle, 2012)</a></i>
+        </p>
         <p>
             Manche Tätigkeiten sind so interessant, dass man sie stundenlang mit hoher Konzentration ausf&uuml;hren kann. 
             Bei anderen Tätigkeiten dagegen schweift man schnell gedanklich ab und denkt an alle anderen Dinge, 
@@ -120,7 +124,7 @@
         <p>
             Es wurden 10 Pausenhinweise für Minipausen formuliert.
             Damit Lernende beim Neustart der Lernwelt nicht immer wieder dieselben Pausenhinweise zuerst angezeigt bekommen, 
-            soll mit einem <i>„Pool“</i> gearbeitet werden, aus dem <i>zufällig</i> für jede Pause ein Pausenhinweis 
+            wird mit einem <i>„Pool“</i> gearbeitet, aus dem <i>zufällig</i> für jede Pause ein Pausenhinweis 
             den Lernenden angezeigt wird. Mit diesem Verfahren ist zumindest die Wahrscheinlichkeit geringer, 
             dass die Lernenden zum wiederholten Mal dieselben Pausenhinweise angezeigt bekommen.<br/>
             Der <i>„Zufallspool“</i> startet bei jedem Betreten der Lernwelt neu, wird also nach dem Schließen von der AdLer-Software zurückgesetzt.

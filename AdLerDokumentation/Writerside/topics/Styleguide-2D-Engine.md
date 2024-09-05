@@ -7,11 +7,11 @@ Dieser **Styleguide** beschreibt die in der Umsetzung der AdLer-Engine zu verwen
 
 ### Farben
 
-#### Zuordnung der Farben 3D-Lernumgebung
+#### Zuordnung der Farben in der 3D-Lernumgebung
 
 | Name                 | HEX / RGB Code        | Beschreibung                                                           |
 |----------------------|-----------------------|------------------------------------------------------------------------|
-| babylonbg:           | #33334d               | Babylon Default Hintergrundfarbe                                       |
+| babylonbg            | #33334d               | Babylon Default Hintergrundfarbe                                       |
 | blacktrans           | rgba(0,0,0,0.5)       | Schwarz mit 50% Transparenz zur Abdunklung der Hintergründe von Modals |
 | whitetrans           | rgba(255,255,255,0.3) | Weiß mit 30% Transparenz                                               |
 | adlerblue            | #a1c8e5               | Blau                                                                   |
@@ -33,10 +33,10 @@ Dieser **Styleguide** beschreibt die in der Umsetzung der AdLer-Engine zu verwen
 Das AdLer-Projekt steht für ein inklusives Miteinander aller Menschen ein. Aus diesem Grund verwenden wir in der textlichen Ansprache von Personen, eine neutrale Sprache. Aus Lehrern wird Lehrende, aus Studenten wird Studierende. Ist die Bildung eines Worts mit der Endung „-ende“ nicht möglich, so wird im zweiten Schritt geprüft, ob sich eine Ansprache mit dem Anhang „-person/en“ realisieren lässt (Bsp.: **Lehrpersonen**).
 
 #### Art zu Schreiben
-Wir stellen den Nutzer in den Mittelpunkt der Entwicklung unserer Anwendung. Auch das geschriebene Wort soll nutzerzentriert sein. Wir verwenden Sprache, die so einfach wie möglich und gleichzeitig so detailliert wie nötig ist. Kurze prägnante Sätze, optische Hervorhebungen zur Leitung der Aufmerksamkeit des Nutzers, Verwendung von Aufzählungen mit Bulletpoints oder nummerierten Aufzählungen, wo möglich.
+Wir stellen die Nutzenden in den Mittelpunkt der Entwicklung unserer Anwendung. Auch das geschriebene Wort soll nutzerzentriert sein. Wir verwenden Sprache, die so einfach wie möglich und gleichzeitig so detailliert wie nötig ist. Kurze prägnante Sätze, optische Hervorhebungen zur Leitung der Aufmerksamkeit der Nutzenden, Verwendung von Aufzählungen mit Bulletpoints oder nummerierten Aufzählungen, wo möglich.
 
 #### Verwendung des/der Logos
-Das Logo ist in seinen verschiedenen Ausführungen auf der Cloud zu finden. Nach Möglichkeit sollten zur Bildschirmdarstellung die Vektorgrafiken (.svg) bevorzugt genutzt werden, da diese unendlich skalierbar sind. Ist dies nicht möglich werden die Pixeldateien (.png) verwendet.
+Das Logo ist in seinen verschiedenen Ausführungen auf der AdLer-Cloud zu finden. Nach Möglichkeit sollten zur Bildschirmdarstellung die Vektorgrafiken (.svg) bevorzugt genutzt werden, da diese beliebig skalierbar sind. Ist dies nicht möglich werden die Pixeldateien (.png) verwendet.
 
 ### Erstellung und Design von Icons
 

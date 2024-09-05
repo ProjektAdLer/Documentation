@@ -9,8 +9,8 @@
 
     <procedure title="Logout" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
-            <def title="&#127937;">
-                <p>Als Nutzer von der 3D-Lernumgebung abmelden.</p>
+            <def title="&#127937; Ziel der Handlung">
+                <p>Als Nutzer aus der 3D-Lernumgebung abmelden.</p>
             </def>
         </deflist>
 
@@ -24,7 +24,7 @@
 
         <step>
             <p>Klicken Sie auf den
-                <control>Ausloggen-Button</control>
+                <control>Ausloggen</control>-Button
                 in der rechten unteren Ecke des Startmenüs
             </p>
             <img src="imageManualEngine_StartmenueLogout.png" alt="240507__Startmenü_Ausloggen.png" width="300"/>

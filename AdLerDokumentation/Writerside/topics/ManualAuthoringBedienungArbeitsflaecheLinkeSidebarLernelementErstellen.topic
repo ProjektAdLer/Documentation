@@ -130,7 +130,7 @@
             <p>Bestätigen Sie Ihre Angaben zum Lernelement mit einem Klick auf den Button <b>OK</b>.
             <img src="imageManualAuthoringLernelementErstellenOKButton.png" alt="LernelementOKButton" width="200" thumbnail="true"/></p>
             <tip>
-                <p>Mit Bestätigen der Angaben zum neuen Lernelement wird nachfolgend automatisch das erstellte Lernelement im mittleren Fenster im Bereich der <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>Unplatzierten Elemente</control></a> angezeigt (siehe Screenshot). Darüber hinaus wird das erstellte Lernelement zusätzlich in der rechten Sidebar in dem  Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> aufgeführt.</p>
+                <p>Mit Bestätigen der Angaben zum neuen Lernelement wird nachfolgend automatisch das erstellte Lernelement im mittleren Fenster im Bereich der <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheMittleresFensterUnplatzierteElemente.topic"><control>unplatzierten Elemente</control></a> angezeigt (siehe Screenshot). Darüber hinaus wird das erstellte Lernelement zusätzlich in der rechten Sidebar in dem  Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarHierarchischerAufbau.topic"><control>Hierarchischer Aufbau der Lernwelt</control></a> aufgeführt.</p>
                 <img src="imageManualAuthoringLernelementErstellenErfolgreich.png"
                      alt="LernelementErstellenErfolgreich" width="200" thumbnail="true" style="block"/>
             </tip>

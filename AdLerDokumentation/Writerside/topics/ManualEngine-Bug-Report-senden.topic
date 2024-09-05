@@ -7,13 +7,13 @@
 
     <procedure title="Bug-Report senden" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
-            <def title="&#127937;">
+            <def title="&#127937; Ziel der Handlung">
                 <p>Einen Bug-Report über Fehler in der AdLer 3D-Umgebung, dem Autorentool oder Moodle erstellen und senden.</p>
             </def>
         </deflist>
 
         <step>
-            <p>Öffnen Sie das <control>AdLer - Bug Report</control> Formular</p>
+            <p>Öffnen Sie das <control>AdLer-Bug-Report</control>-Formular.</p>
             <tip>
                 <p>Das Bug-Report-Formular kann durch folgende Möglichkeiten erreicht werden:</p>
                 <list>
@@ -23,7 +23,7 @@
             </tip>
         </step>
         <step>
-            <p>Optional: Falls Sie bereit sind Rückfragen zu erhalten und so der Fehlerbehebung beizutragen, geben Sie Ihre E-Mail-Adresse an.</p>
+            <p>Optional: Falls Sie bereit sind Rückfragen zu erhalten und so zur Fehlerbehebung beizutragen, geben Sie Ihre E-Mail-Adresse an.</p>
         </step>
         <step>
             <p>Erforderlich: Wählen Sie das betroffene System (AdLer 3D-Umgebung, Autorentool, Moodle) aus.</p>
@@ -59,12 +59,12 @@
             </tip>
         </step>
         <step>
-            <p>Optional: Geben Sie Informationen zur Umgebung an, auf dem der Fehler aufgetreten ist.</p>
+            <p>Optional: Geben Sie Informationen zur Umgebung an, in der der Fehler aufgetreten ist.</p>
             <tip>
                 <list>
                     <li>Gerätetyp (z.B. Laptop, Tablet)</li>
                     <li>Betriebssystem und Systemversion</li>
-                    <li>Browser und Browserversion, sowie installierte Addons (insbesondere Blocker aller Art)</li>
+                    <li>Browser und Browserversion, sowie installierte Addons (insbesondere "Blocker" aller Art)</li>
                     <li>angeschlossene/verwendete (Eingabe-)Geräte</li>
                 </list>
             </tip>

@@ -32,7 +32,7 @@
 
         <step>
             <p>Drücken Sie auf den Button
-                <control>Lernwelt als Moodle Lernwelt-Datei (.mbz) veröffentlichen</control>.
+                <control>Lernwelt als Moodle-Lernwelt-Datei (.mbz) veröffentlichen</control>.
                 <img src="imageManualAuthoringKopfzeileAktionHochladen.png"
                      alt="Veröffentlichen Button in der Kopfzeile des Autorentools" width="200" thumbnail="true"
                      style="block"/>

@@ -24,14 +24,14 @@
         </tip>
         <p>In der rechten Sidebar können über den Tab <a href="ManualAuthoringSoftwarekomponentenArbeitsflaecheRechteSidebarVerbindungenZwischenLernraeumen.topic"><control>Verbindungen zwischen Lernräumen</control></a> Verbindungen zwischen Lernräumen entfernt werden.</p>
         <step>
-            <p>Klicken Sie doppelt mit der linken Maustaste auf den blauen Kreis mit dem Minus-Symbol, um die Verbindung zu entfernen.
+            <p>Klicken Sie mit der linken Maustaste auf den blauen Kreis mit dem Minus-Symbol, um die Verbindung zu entfernen.
                 <img src="imageManualAuthoringRechteSidebarLernraumPfadLoeschenCallout.png"
                      alt="markierter Minus Button" width="200" thumbnail="true" style="block"/></p>
         <tip>Mit Entfernen der Verbindung wird auch der zuvor am Lernraum dargestellte blaue Kreis mit Minus-Symbol nicht mehr angezeigt. <img src="imageManualAuthoringRechteSidebarLernraumKeinPfad.png"
                   alt="gelöschter Lernpfad" width="200" thumbnail="true" style="block"/></tip>
         </step>
         <warning>
-            <p>Existieren zwei parallele Verbindungen und nur eine der beiden soll gelöscht werden soll, muss zunächst diejenige Verbindung mit einem Klick der linken Maustaste ausgewählt werden, die entfernt werden soll.</p>
+            <p>Existieren zwei parallele Verbindungen und nur eine der beiden soll gelöscht werden, muss zunächst diejenige Verbindung mit einem Klick der linken Maustaste ausgewählt werden, die entfernt werden soll.</p>
                 <img src="imageManualAuthoringRechteSidebarLernraumPfadAuswahl.png" alt="Ausgewählter Pfeil des Lernpfads fett hervorgehoben" width="200" thumbnail="true" style="block"/>
             <p>Sobald der Lernpfad ausgewählt wird, wird dieser als breitere Linie angezeigt.</p>
         </warning>

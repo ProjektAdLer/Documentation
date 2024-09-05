@@ -28,7 +28,7 @@
             <tab title="Kontextmenü">
                 <procedure id="kontextmenu" title="Kontextmenü">
                     <step>
-                        <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf die Bedingung.
+                        <p>Klicken Sie mit der rechten Maustaste auf die Bedingung.
                             <img src="imageManualAuthoringRechteSidebarBedingungLoeschen.png"
                                  alt="Bedingung loeschen" width="200" thumbnail="true" style="block"/></p>
                         <note>

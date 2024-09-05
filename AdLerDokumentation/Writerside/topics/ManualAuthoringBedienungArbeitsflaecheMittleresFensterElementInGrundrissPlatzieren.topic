@@ -11,7 +11,8 @@
     <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Unplatzierte Elemente in Grundriss platzieren.</control>
+                <control>Ziel der Handlung</control>
+                <p>Unplatzierte Elemente in Grundriss platzieren.</p>
             </def>
         </deflist>
 
@@ -41,7 +42,7 @@
                             <p>Sobald Sie das Element in den Slot ziehen, wird dieser Slot vergrößert und mit einem grünen Hintergrund dargestellt.</p>
                             <img src="imageManualAuthoringUnplatzierteElementeSlotZiehenGruen.png"
                                  alt="Lernelement im Lernraum platzieren_gruener Slot" width="200" thumbnail="true" style="block"/>
-                            <p>Ein Element kann auch in einen Slot gezogen werden, in dem bereits ein anderes Element platziert ist. Das zuvor platzierte Element wird dann automatisch im Bereich <control>Unplatzierte Elemente</control> abgelegt.</p>
+                            <p>Ein Element kann auch in einen Slot gezogen werden, in dem bereits ein anderes Element platziert ist. Das zuvor platzierte Element wird dann automatisch im Bereich <control>Alle unplatzierten Elemente</control> abgelegt.</p>
                         </tip>
                         <warning>Wenn Sie ein Adaptivitäts- oder Lernelement in einen Slot außerhalb des Grundrisses ziehen, welcher für Storyelemente vorgesehen ist, wird dieser Slot vergrößert und mit rotem Hintergrund dargestellt.
                             <img src="imageManualAuthoringUnplatzierteElementeSlotZiehenRot.png"
@@ -63,7 +64,7 @@
                             <p>Sobald Sie das Element in den Slot ziehen, wird dieser Slot vergrößert und mit einem grünen Hintergrund dargestellt.</p>
                             <img src="imageManualAuthoringUnplatzierteStoryelementeSlotZiehenGruen.png"
                                  alt="Storyelement im Lernraum_gruener Slot" width="200" thumbnail="true" style="block"/>
-                            <p>Ein Element kann auch in einen Slot gezogen werden, in dem bereits ein anderes Element platziert ist. Das zuvor platzierte Element wird dann automatisch im Bereich <control>Unplatzierte Elemente</control> abgelegt.</p>
+                            <p>Ein Element kann auch in einen Slot gezogen werden, in dem bereits ein anderes Element platziert ist. Das zuvor platzierte Element wird dann automatisch im Bereich <control>Alle unplatzierten Elemente</control> abgelegt.</p>
                         </tip>
                         <warning>Wenn Sie ein Storyelement in einen Slot innerhalb des Grundrisses ziehen, welcher für Adaptivitäts- oder Lernelemente vorgesehen ist, wird dieser Slot vergrößert und mit rotem Hintergrund dargestellt.
                             <img src="imageManualAuthoringUnplatzierteStoryelementeSlotZiehenRot.png"

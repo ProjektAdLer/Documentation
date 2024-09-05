@@ -5,5 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Softwarekomponenten" id="ManualAuthoringSoftwarekomponenten">
 
-    <p>Nachfolgend werden die einzelnen Komponenten des AdLer-Autorentools vorgestellt.</p>
+    <p>Nachfolgend werden die einzelnen Komponenten - <a href="ManualAuthoringSoftwarekomponentenStartseite.topic">Startseite</a>,
+        <a href="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">Arbeitsfläche</a> und
+        <a href="ManualAuthoringSoftwarekomponentenKopfzeilen.topic">Kopfzeile</a> - des AdLer-Autorentools vorgestellt.</p>
 </topic>

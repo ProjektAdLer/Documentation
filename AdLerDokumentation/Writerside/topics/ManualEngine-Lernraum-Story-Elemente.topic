@@ -11,7 +11,7 @@
             Die NPCs bewegen sich im Raum und kommen bei Betreten und Abschließen von Lernräumen auf Sie zu, um einen Teil der Geschichte zu erzählen.
         </p>
         <tip>
-            Ein immersives Lernerlebnis zu schaffen, ist ein grundlegendes Ziel von AdLer.
+            Ein immersives Lernerlebnis zu schaffen ist ein grundlegendes Ziel von AdLer.
             Sich bewegende 3D-Charaktere im Lernraum sind ein wesentlicher Teil davon.
         </tip>
         <img src="imageManualEngine_StoryElementNPC.png" alt="Story_Element_NPC" width="200"/>
@@ -21,7 +21,7 @@
         </p>
         <tip>
             Die Story-Texte der Lehrenden werden Ihnen in einer speziellen 2D-Ansicht präsentiert.
-            Dieses bewährte Prinzip aus Computerspielen erzeugt ein immersives Story-Erlebnis.
+            Dieses bewährte Prinzip aus Computerspielen soll ein immersives Story-Erlebnis erzeugen.
         </tip>
         <img src="imageManualEngine_StoryElementNPCText.png" alt="Story_Element_NPC"/>
         <table>
@@ -32,21 +32,21 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Schließen Button</td>
-                <td>Schließt bei Klick die NPC Textbox</td>
+                <td><control>Schließen</control>-Button</td>
+                <td>Schließt bei Klick die NPC-Textbox</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Zurück Button</td>
+                <td><control>Zurück</control>-Button</td>
                 <td>Zeigt den vorherigen Text-Abschnitt an</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Weiter Button</td>
+                <td><control>Weiter</control>-Button</td>
                 <td>Zeigt den nächsten Text-Abschnitt an</td>
             </tr>
         </table>
-        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
+        <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen:</p>
         <list>
             <li><a href="ManualEngine-Story-Elemente-bedienen.topic"/></li>
         </list>

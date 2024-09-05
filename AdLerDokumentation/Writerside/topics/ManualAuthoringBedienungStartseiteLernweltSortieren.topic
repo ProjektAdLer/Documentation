@@ -37,7 +37,7 @@
                     </li>
                 </list>
                 <tip>
-                    <p>Die Sortierung orientiert sich an dem Datum, an dem die Lernwelten je zuletzt geändert wurden und passt dementsprechend die Reihenfolge an.</p>
+                    <p>Die Sortierung orientiert sich an dem Datum, an dem die Lernwelten zuletzt geändert wurden und passt dementsprechend die Reihenfolge an.</p>
                     <img src="imageManualAuthoringStartseiteLernweltSortierenAenderungsdatumCallout.png" alt="AenderungsdatumCallout" width="200" thumbnail="true"/>
                 </tip>
                 </procedure>

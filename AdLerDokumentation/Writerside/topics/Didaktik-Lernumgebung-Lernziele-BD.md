@@ -2,7 +2,7 @@
 
 <show-structure/>
 <p>
-    Eine Erklärung zu dem Thema Lernziele erfolgt im 
+    Eine Erklärung zum Thema Lernziele erfolgt im 
     <a href="Didaktik-Autorentool-Lernziele.md">Abschnitt 3.2 Eingabeunterstützung für Lernziele von Lernräumen</a>. 
 </p>
 <p>
@@ -19,6 +19,6 @@
     <p>In folgender Abbildung ist ein praktisches Beispiel für die Darstellung der Lernziele in der 3D-Lernumgebung abgebildet. </p>
     <img src="imageManualDidaktik_Abbildung_Lernziele_3D-Lernumgebung.JPG" alt="Beispiel eines Lernziels in der Lernumgebung" width="675" thumbnail="true"/>
     <br/>
-    <p>In folgendem Video ist ein praktisches Beispiel für die Eingabeunterstützung für Lernziele in der 3D-Lernumgebung zu sehen. </p>
+    <p>In folgendem Video ist ein praktisches Beispiel für die Darstellung der Lernziele in der 3D-Lernumgebung zu sehen. </p>
     <video src="videoManualDidaktik_Lernziele_3D-Lernumgebung.mp4" alt="Beispiel-Video eines Lernziels in der Lernumgebung" preview-src="videoManualDidaktik_Lernziele_3D-Lernumgebung.png" width="675"/>
 </procedure>

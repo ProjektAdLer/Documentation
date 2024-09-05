@@ -47,7 +47,7 @@
                     <tab id="verbindungsansicht_rechtsklick" title="Kontextmenü">
                         <procedure id="kontextmenu" title="Kontextmenü">
                             <step>
-                                <p>Klicken Sie mit einem Doppelklick mit der rechten Maustaste auf einen Lernraum.
+                                <p>Klicken Sie mit der rechten Maustaste auf einen Lernraum.
                                     <img src="imageManualAuthoringRechteSidebarLernraumCallout.png"
                                          alt="Lernraum in der Verbindungsansicht" width="200" thumbnail="true" style="block"/></p>
                                 <note>

@@ -89,7 +89,7 @@
                 </step>
                 <step>
                     <p>Kopieren Sie den untenstehenden Namen.</p>
-                    <code-block>Grundrisse Themes Avatar und 3D</code-block>
+                    <code-block>Grundrisse Themen Avatar und 3D</code-block>
                 </step>
                 <step>
                     <p>Fügen Sie diesen nun in das Textfeld <control>Name für den Link</control> ein.</p>
@@ -134,7 +134,7 @@
                 </step>
                 <step>
                     <p>Im linken Bereich öffnet sich der Tab <control>Lernelement erstellen</control>. Tragen Sie nun die Metadaten <control>Name, Punkte, Arbeitsaufwand und Schwierigkeitsgrad</control> ein.</p>
-                    <p>Name:</p><code-block>Grundrisse Themes Avatar und 3D</code-block>
+                    <p>Name:</p><code-block>Grundrisse Themen Avatar und 3D</code-block>
                     <p>Punkte:</p><code-block>1</code-block>
                     <p>Arbeitsaufwand:</p><code-block>1</code-block>
                     <p>Schwierigkeitsgrad:</p><code-block>Keine Angabe</code-block>
@@ -142,7 +142,7 @@
                 </step>
                 <step>
                     <p>Klicken Sie nun in der Kategorie <control>Externes Lernmaterial</control> in die Suchzeile und geben den untenstehenden Dateinamen des Lernmaterials an.</p>
-                    <p>Dateiname:</p><code-block>Grundrisse Themes Avatar und 3D</code-block>
+                    <p>Dateiname:</p><code-block>Grundrisse Themen Avatar und 3D</code-block>
                     <img src="imageManualWorkshopSearchLearningContent.png" alt="Lernelement erstellen Dialog mit Daten in Suchzeile für Externes Lernmaterial" width="200" thumbnail="true" />
                 </step>
                 <step>
@@ -157,7 +157,7 @@
                 </step>
                 <step>
                     <p>Klicken Sie auf die Kategorie <control>Beschreibung</control> und kopieren Sie den untenstehenden Beschreibungstext in das Textfeld.</p>
-                    <p>Beschreibung:</p><code-block>Videopräsentation mit einer Auflistung der verschiedenen Grundrisse der AdLer-Anwendung. Außerdem werden verschiedene Themes und der Avatar gezeigt.</code-block>
+                    <p>Beschreibung:</p><code-block>Videopräsentation mit einer Auflistung der verschiedenen Grundrisse der AdLer-Anwendung. Außerdem werden verschiedene Themen und der Avatar gezeigt.</code-block>
                     <img src="imageManualWorkshopCreateLearningElementTypeDescription.png" alt="Geöffneter Reiter Beschreibung mit eingefügtem Text" width="200" thumbnail="true" />
                 </step>
                 <step>

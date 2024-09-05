@@ -6,7 +6,7 @@
        title="Login auf AdLer-Server" id="ManualAuthoringSoftwarekomponentenKopfzeileLoginAufAdLerServer">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Über die Kopfzeile findet zusätzlich das Einloggen auf den AdLer-Server statt. Erst durch ein Anmelden auf diesen Server ist es möglich, Lernwelten zu veröffentlichen und über Moodle und die 3D-Lernumgebung bereitzustellen.</p>
+        <p>Über die Kopfzeile findet zusätzlich das Einloggen auf dem AdLer-Server statt. Erst durch ein Anmelden auf diesen Server ist es möglich, Lernwelten zu veröffentlichen und über Moodle und die 3D-Lernumgebung bereitzustellen.</p>
     <img src="imageManualAuthoringStartseiteKopfzeileLoginCallout.png" alt="KopfzeileLoginCallout"/>
         <table>
             <tr>
@@ -17,77 +17,77 @@
             <tr>
                 <td>1</td>
                 <td>Anmelden-Button</td>
-                <td>Leitet die Anmeldung auf den AdLer-Server ein.</td>
+                <td>Leitet die Anmeldung auf den AdLer-Server ein</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Passwort vergessen-Link</td>
-                <td>Öffnet ein Fenster zum Ändern des Passwortes.</td>
+                <td>Passwort-vergessen-Link</td>
+                <td>Öffnet ein Fenster zum Ändern des Passwortes</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Passwort-Textfeld</td>
-                <td>Textfeld zum Eingeben des Passwortes.</td>
+                <td>Textfeld zum Eingeben des Passwortes</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Benutzername-Textfeld</td>
-                <td>Textfeld zum Eingeben des Benutzernamens.</td>
+                <td>Textfeld zum Eingeben des Benutzernamens</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>URL-Textfeld</td>
-                <td>Textfeld zum Eingeben der AdLer API URL.</td>
+                <td>Textfeld zum Eingeben der AdLer-API-URL</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Sichtbarkeit umschalten-Button</td>
-                <td>Zeigt bei Sichtbarkeit das eingegebene Passwort an.</td>
+                <td>Sichtbarkeit-umschalten-Button</td>
+                <td>Zeigt bei Sichtbarkeit das eingegebene Passwort an</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>AdLer Server-Tab</td>
-                <td>Öffnet den Tab zum Anmelden oder Abmelden auf dem AdLer-Server.</td>
+                <td>AdLer-Server-Tab</td>
+                <td>Öffnet den Tab zum Anmelden oder Abmelden auf dem AdLer-Server</td>
             </tr>
             <tr>
                 <td>8</td>
                 <td>Abmelden-Button</td>
-                <td>Leitet die Abmeldung vom AdLer-Server ein.</td>
+                <td>Leitet die Abmeldung vom AdLer-Server ein</td>
             </tr>
             <tr>
                 <td>9</td>
                 <td>Moodle-Kurs</td>
-                <td>Zeigt einen mit dem Autorentool erstellten Moodle-Kurs an.</td>
+                <td>Zeigt einen mit dem Autorentool erstellten Moodle-Kurs an</td>
             </tr>
             <tr>
                 <td>10</td>
                 <td>Informationssymbol</td>
-                <td>Enthält zusätzliche Informationen zum Löschen von Moodle-Kursen.</td>
+                <td>Enthält zusätzliche Informationen zum Löschen von Moodle-Kursen</td>
             </tr>
             <tr>
                 <td>11</td>
                 <td>Löschen-Button</td>
-                <td>Löscht einen mit dem Autorentool erzeugten Moodle-Kurs.</td>
+                <td>Löscht einen mit dem Autorentool erzeugten Moodle-Kurs</td>
             </tr>
             <tr>
                 <td>12</td>
                 <td>Scrollbar</td>
-                <td>Zeigt alle mit dem Autorentool erzeugten Moodle-Kurse an.</td>
+                <td>Zeigt alle mit dem Autorentool erzeugten Moodle-Kurse an</td>
             </tr>
             <tr>
                 <td>13</td>
                 <td>Benutzername</td>
-                <td>Zeigt den Benutzernamen an.</td>
+                <td>Zeigt den Benutzernamen an</td>
             </tr>
             <tr>
                 <td>14</td>
                 <td>Informationssymbol</td>
-                <td>Enthält zusätzliche Informationen zum Anmeldeprozess.</td>
+                <td>Enthält zusätzliche Informationen zum Anmeldeprozess</td>
             </tr>
             <tr>
                 <td>15</td>
                 <td>Schließen-Button</td>
-                <td>Schließt das Fenster, in dem die Anmeldung auf den AdLer-Server erfolgt.</td>
+                <td>Schließt das Fenster, in dem die Anmeldung auf dem AdLer-Server erfolgt</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>

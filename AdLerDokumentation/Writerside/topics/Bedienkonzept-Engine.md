@@ -31,12 +31,12 @@
 ### Allgemeines
 
 - Die Bedienung der Engine in 3D soll möglichst intuitiv, einfach zu erlernen und nutzerfreundlich sein. 
-- Die Nutzenden erhalten die Kontrolle über den Charakter und können mit Objekten in der 3D-Szene interagieren.
+- Die Nutzenden erhalten die Kontrolle über den Charakter bzw. Avatar und können mit Objekten in der 3D-Szene interagieren.
 
 ### Steuerung
 
-- Die Bedienung kann über Maus und/oder Tastatur erfolgen.
-- Der Charakter lässt sich über die "Click to Move" Steuerung bewegen. 
+- Die Bedienung kann über Maus und/oder Tastatur oder über Touch erfolgen.
+- Der Charakter bzw. Avatar lässt sich über die "Click to Move"-Steuerung bewegen.
 - Interaktive Objekte innerhalb der 3D-Szene lassen sich über Klicks starten.
 - Das Starten von interaktiven Objekten ist nur in einer bestimmten Distanz zum Avatar möglich
 
@@ -44,10 +44,10 @@
 
 - Die Kamera ermöglicht einen guten Überblick über die gesamte 3D-Szene 
 - Die Kamera ist möglichst einfach zu steuern, idealerweise bewegt sie sich automatisch
-- Zur detaillierten Betrachtung der 3D Objekte ist die Kamera zoombar
+- Zur detaillierten Betrachtung der 3D-Objekte ist die Kamera zoombar
 
 ### Benutzeroberfläche (UI)
 
-- Wichtige Informationen wie Lernraumname, Lernraumfortschritt und Lernziele sind direkt am Bildschirmrand ersichtlich 
+- Wichtige Informationen, wie Lernraumname, Lernraumfortschritt und Lernziele sind direkt am Bildschirmrand ersichtlich
 - Die Navigation zu anderen Programmbereichen erfolgt schnell und intuitiv über ein übersichtliches Menü
 

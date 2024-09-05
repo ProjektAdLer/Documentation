@@ -10,16 +10,16 @@
     <procedure title="" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist sorted="desc">
             <def title="&#127937; Ziel der Handlung">
-                <p>Einen Lernraum aus der Lernwelt auswählen und in der 3D-Ansicht öffnen</p>
+                <p>Einen Lernraum aus der Lernwelt auswählen und in der 3D-Ansicht öffnen.</p>
             </def>
         </deflist>
 
         <tip>Voraussetzungen:
             <list>
-                <li>Das Lernraummenü der gewünschten Lernwelt ist geöffnet. Siehe: <a href="ManualEngine-Lernwelt-oeffnen.topic">Lernwelt öffnen</a></li>
+                <li>Das Lernraummenü der gewünschten Lernwelt ist geöffnet (Siehe: <a href="ManualEngine-Lernwelt-oeffnen.topic">Lernwelt öffnen</a>).</li>
             </list>
         </tip>
-        <warning><img alt="imageManualEngine-lock-icon-closed-nobg.svg" src="imageManualEngine-lock-icon-closed-nobg.svg"/> Gesperrte Lernräume sind nicht betretbar. Sie müssen durch Abschluss vorheriger Lernräume freigeschaltet werden. Siehe <a href="ManualEngine-Lernraum-abschließen.topic">Lernräume abschließen</a>
+        <warning><img alt="imageManualEngine-lock-icon-closed-nobg.svg" src="imageManualEngine-lock-icon-closed-nobg.svg"/> Gesperrte Lernräume sind nicht betretbar. Sie müssen durch Abschluss vorheriger Lernräume freigeschaltet werden (Siehe <a href="ManualEngine-Lernraum-abschließen.topic">Lernräume abschließen).</a>
         </warning>
         <step><p>Wählen Sie den gewünschten Lernraum-Button aus der Graphen- oder Listenansicht aus.</p>
             <img alt="imageManualEngine_LearningSpaceMenue.png" src="imageManualEngine_LearningSpaceMenue.png" />
@@ -28,7 +28,7 @@
             </note>
             <note>Die Detailinformationen zum Lernraum erscheinen im Bereich rechts</note>
         </step>
-        <step><p>Öffnen Sie den Lernraum über den <control>Lernraum betreten</control>-Button</p>
+        <step><p>Öffnen Sie den Lernraum über den <control>Lernraum-betreten</control>-Button</p>
             <img alt="imageManualEngine-Lernraum-betreten.png" src="imageManualEngine-Lernraum-betreten.png" width="200"/>
         </step>
         <note><format style="bold">&#10004; Der ausgewählte Lernraum startet in der 3D-Ansicht</format>

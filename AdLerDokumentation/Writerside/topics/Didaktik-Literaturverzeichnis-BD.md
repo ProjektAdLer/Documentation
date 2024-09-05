@@ -29,9 +29,6 @@ Bloom, B. S. (1971). Mastery learning. In J. H. Block (Ed.), <i>Mastery learning
 <chapter title="Bloom, 1984" id="7-Bloom-1984">
 Bloom, B. S. (1984). <i>Taxonomy of educational objectives: The classification of educational objectives</i>. Handbook 1: Cognitive Domain (2nd ed.). New York: Longmans.
 </chapter>
-<chapter title="Bloom, 1984" id="12-Bloom-1984">
-Bloom, B. S. (1984). The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. <i>Educational Researcher, 13</i>(6), 4-16.
-</chapter>
 <chapter title="De-Bra, 2008" id="17-De-Bra-2008">
 De-Bra, P. (2008). Adaptive hypermedia. In H. H. Adelsberger, Kinshuk, J. M. Pawlowski, &amp; D. G. Sampson (Eds.), <i>Handbook on information technologies for education and training</i> (2nd ed., pp. 29-ndash;46). Berlin, Heidelberg: Springer. <a href="https://doi.org/10.1007/978-3-540-74155-8_2"/>
 </chapter>

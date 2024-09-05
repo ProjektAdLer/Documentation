@@ -26,37 +26,37 @@
                 <tr>
                     <td>1</td>
                     <td>Erforderliche Angabe</td>
-                    <td>Enthält die Information, dass mit einem Stern markierte Angaben zur Lernwelt erforderlich sind.</td>
+                    <td>Enthält die Information, dass mit einem Stern markierte Angaben zur Lernwelt erforderlich sind</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Überschrift des Tabs</td>
-                    <td>Zeigt den Modus "Lernwelt bearbeiten" an.</td>
+                    <td>Zeigt den Modus "Lernwelt bearbeiten" an</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>Name der Lernwelt-Textfeld</td>
-                    <td>Textfeld zur Angabe vom Namen der Lernwelt (Erforderliche Angabe).</td>
+                    <td>Name-der-Lernwelt-Textfeld</td>
+                    <td>Textfeld zur Angabe des Namens der Lernwelt (Erforderliche Angabe)</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>Kurzname der Lernwelt-Textfeld</td>
-                    <td>Textfeld zur Angabe vom Kurznamen der Lernwelt.</td>
+                    <td>Kurzname-der-Lernwelt-Textfeld</td>
+                    <td>Textfeld zur Angabe des Kurznamens der Lernwelt</td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>Autorinnen und Autoren-Textfeld</td>
-                    <td>Textfeld zur Angabe von Autorinnen und Autoren der Lernwelt.</td>
+                    <td>Autorinnen-und-Autoren-Textfeld</td>
+                    <td>Textfeld zur Angabe von Autorinnen und Autoren der Lernwelt</td>
                 </tr>
                 <tr>
                     <td>6</td>
                     <td>Sprache-Textfeld</td>
-                    <td>Textfeld zur Angabe der Sprache der Lernwelt.</td>
+                    <td>Textfeld zur Angabe der Sprache der Lernwelt</td>
                 </tr>
                 <tr>
                     <td>7</td>
                     <td>Evaluationslink-Textfeld</td>
-                    <td>Textfeld zur Angabe eines Evaluationslinks zur Lernwelt.</td>
+                    <td>Textfeld zur Angabe eines Evaluationslinks zur Lernwelt</td>
                 </tr>
             </table>
         </chapter>
@@ -71,32 +71,32 @@
                 <tr>
                     <td>8</td>
                     <td>Einschreibeschlüssel-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe eines Einschreibeschlüssels.</td>
+                    <td>Mehrzeiliges Textfeld zur Angabe eines Einschreibeschlüssels</td>
                 </tr>
                 <tr>
                     <td>9</td>
                     <td>Informationssymbol</td>
-                    <td>Enthält zusätzliche Informationen zur Einschreibemethode.</td>
+                    <td>Enthält zusätzliche Informationen zur Einschreibemethode</td>
                 </tr>
                 <tr>
                     <td>10</td>
                     <td>Lernziel-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe eines oder mehrerer Lernziele für die Lernwelt.</td>
+                    <td>Mehrzeiliges Textfeld zur Angabe eines oder mehrerer Lernziele für die Lernwelt</td>
                 </tr>
                 <tr>
                     <td>11</td>
                     <td>Beschreibungs-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung der Lernwelt.</td>
+                    <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung der Lernwelt</td>
                 </tr>
                 <tr>
                     <td>12</td>
                     <td>OK-Button</td>
-                    <td>Bestätigt die Angaben zur Lernwelt.</td>
+                    <td>Bestätigt die Angaben zur Lernwelt</td>
                 </tr>
                 <tr>
                     <td>13</td>
                     <td>Reset-Button</td>
-                    <td>Löscht die Angaben zur Lernwelt.</td>
+                    <td>Löscht die Angaben zur Lernwelt</td>
                 </tr>
             </table>
             <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

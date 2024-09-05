@@ -11,7 +11,8 @@
     <procedure title="Übersicht" id="hier_steht_die_bezeichung_der_handlungsanweisung">
         <deflist type="compact" sorted="desc">
             <def title="&#127937;">
-                <control>Unplatzierte Elemente nach verschiedenen Kriterien filtern.</control>
+                <control>Ziel der Handlung</control>
+                <p>Unplatzierte Elemente nach verschiedenen Kriterien filtern.</p>
             </def>
         </deflist>
 
@@ -20,7 +21,7 @@
             <list>
                 <li><p>Ein Lernraum ist im mittleren Fenster geöffnet. Siehe: <a
                         href="ManualAuthoringBedienungArbeitsflaecheRechteSidebarLernraumBearbeiten.topic"/>.</p></li>
-                <li><p>Es sind mindestens zwei unterschiedliche Elemente (Adaptivitätselement, Lernelement oder Storyelement) erstellt.</p></li>
+                <li><p>Es sind mindestens zwei unterschiedliche Elemente (Adaptivitätselement, Lernelement oder Storyelement) erstellt worden.</p></li>
                 <li><p>Die Elemente sind noch keinem Grundriss zugeordnet und liegen noch im Bereich der unplatzierten Elemente.</p></li>
             </list>
         </tip>
@@ -52,7 +53,7 @@
                                  alt="UnplatzierteElementeFilternArtOptionen" width="200" thumbnail="true" style="block"/></p>
                     </step>
                     <tip>
-                        <p>Es werden lediglich die Elemente angezeigt, die entsprechend der Filteroption.</p>
+                        <p>Es werden lediglich die Elemente angezeigt, die der Filteroption entsprechen.</p>
                         <img src="imageManualAuthoringUnplatzierteElementeFilternArtErgebnis.png"
                              alt="UnplatzierteElementeFilternArtErgebnis" width="200" thumbnail="true" style="block"/>
                         <p><i>In diesem Beispiel: Nur die Elemente der Art <control>Adaptivitätselement</control></i>.</p>
@@ -83,7 +84,7 @@
                                  alt="UnplatzierteElementeFilternTypOptionen" width="200" thumbnail="true" style="block"/></p>
                     </step>
                     <tip>
-                        <p>Es werden lediglich die Elemente angezeigt, die entsprechend der Filteroption.</p>
+                        <p>Es werden lediglich die Elemente angezeigt, die der Filteroption entsprechen.</p>
                         <img src="imageManualAuthoringUnplatzierteElementeFilternTypErgebnis.png"
                              alt="UnplatzierteElementeFilternTypErgebnis" width="200" thumbnail="true" style="block"/>
                         <p><i>In diesem Beispiel: Nur die Elemente des Typs <control>Text</control></i>.</p>
@@ -112,7 +113,7 @@
                                  alt="UnplatzierteElementeFilternSchwierigkeitOptionen" width="200" thumbnail="true" style="block"/></p>
                     </step>
                     <tip>
-                        <p>Es werden lediglich die Elemente angezeigt, die entsprechend der Filteroption.</p>
+                        <p>Es werden lediglich die Elemente angezeigt, die der Filteroption entsprechen.</p>
                         <img src="imageManualAuthoringUnplatzierteElementeFilternSchwierigkeitErgebnis.png"
                              alt="UnplatzierteElementeFilternSchwierigkeitErgebnis" width="200" thumbnail="true" style="block"/>
                         <p><i>In diesem Beispiel: Nur die Elemente der Schwierigkeit <control>schwer</control></i>.</p>

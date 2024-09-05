@@ -17,46 +17,46 @@
             <tr>
                 <td>1</td>
                 <td>Aufklappen-Button</td>
-                <td>Zeigt im aktiven Zustand bereits erstellte Fragen zur Aufgabe an.</td>
+                <td>Zeigt im aktiven Zustand bereits erstellte Fragen zur Aufgabe an</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Single-/Multiple-Choice-Umschalter</td>
-                <td>Zeigt an, ob die Frage eine Single-Choice oder Multiple-Choice-Frage ist.</td>
+                <td>Zeigt an, ob die Frage eine Single-Choice- oder Multiple-Choice-Frage ist</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Fragetext-Textfeld</td>
-                <td>Textfeld zur Angabe eines Fragetextes.</td>
+                <td>Textfeld zur Angabe eines Fragetextes</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Schließen-Button</td>
-                <td>Schließt das Fenster zum Hinzufügen und Bearbeiten von Fragen zu einem Adaptivitätselement.</td>
+                <td>Schließt das Fenster zum Hinzufügen und Bearbeiten von Fragen zu einem Adaptivitätselement</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Richtig/Falsch-Checkbox</td>
-                <td>Legt fest, welche der Antwortmöglichkeiten richtig sind.</td>
+                <td>Richtig-/Falsch-Checkbox</td>
+                <td>Legt fest, welche der Antwortmöglichkeiten richtig sind</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Bezeichnung der Antwortmöglichkeit-Textfeld</td>
-                <td>Textfeld zur Angabe einer Antwort.</td>
+                <td>Bezeichnung-der-Antwortmöglichkeit-Textfeld</td>
+                <td>Textfeld zur Angabe einer Antwort</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Frage erstellen-Button</td>
-                <td>Erstellt eine Frage zu einer Aufgabe.</td>
+                <td>Frage-erstellen-Button</td>
+                <td>Erstellt eine Frage zu einer Aufgabe</td>
             </tr>
             <tr>
                 <td>8</td>
-                <td>Antworten hinzufügen-Button</td>
-                <td>Fügt eine Antwortmöglichkeit hinzu.</td>
+                <td>Antworten-hinzufügen-Button</td>
+                <td>Fügt eine Antwortmöglichkeit hinzu</td>
             </tr>
             <tr>
                 <td>9</td>
-                <td>Antwortmöglichkeiten löschen-Button</td>
+                <td>Antwortmöglichkeiten-löschen-Button</td>
                 <td>Löscht hinzugefügte Antwortmöglichkeiten</td>
             </tr>
         </table>
