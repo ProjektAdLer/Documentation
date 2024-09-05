@@ -86,12 +86,20 @@ Folgende Informationen werden zum Erstellen eines 3D Grundrisses im Code benöti
   orientation: { rotation: 0 },
 }
 ```
-- IntroStoryElementIdlePoint: Objekt mit der Start-und-Idle Position und Rotation des Intro Storyelements.\
+- IntroStoryElementIdlePoint: Objekt mit der Idle Position und Rotation des Intro Storyelements. Dies ist ebenfalls die Startposition, falls der Lernraum nicht direkt in eine Intro-Cutscene startet.\
   ***Beispiel:***
 ```yaml
 {
   position: { x: 1.4, y: -3.4 },
   orientation: { rotation: 315 },
+}
+```
+- IntroCutsceneSpawnPoint: Objekt mit der Start Position des Intro Storyelements, falls der Lernraum in einer Intro-Cutscene startet.
+-   ***Beispiel:***
+```yaml
+{
+  position: { x: 0, y: -0.2 },
+  orientation: { rotation: 180 },
 }
 ```
 - OutroStoryElementIdlePoint: Objekt mit der Start-und-Idle Position und Rotation des Outro Storyelements.\
