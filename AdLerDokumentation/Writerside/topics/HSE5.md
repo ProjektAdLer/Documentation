@@ -2,7 +2,7 @@
 
 ## Definition:
 
-Der H5P-Player muss dem Benutzenden die Möglichkeit bieten,
+Der H5P-Player muss dem Benutzenden die Möglichkeit bieten, ein
 H5P anzuzeigen.
 
 ## Akzeptanzkriterien:
