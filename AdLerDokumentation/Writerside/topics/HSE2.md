@@ -24,3 +24,4 @@ führen wir hier diesbezüglich keine weiteren Anforderungen an den H5P-Player a
 
 ## Aktivitätsdiagramm:
 
+![imageH5pPlayerDisplayH5p.png](imageH5pPlayerDisplayH5p.png)
