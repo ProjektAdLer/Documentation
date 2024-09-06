@@ -3,7 +3,7 @@
 ## Definition:
 
 Der H5P-Player muss dem Benutzenden die Möglichkeit bieten,
-H5P zu validieren.
+H5P anzuzeigen.
 
 ## Akzeptanzkriterien:
 
