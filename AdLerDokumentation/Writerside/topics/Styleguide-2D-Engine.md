@@ -57,7 +57,7 @@ Um Icons einheitlich gestalten zu können, soll sich an folgende Konventionen ge
 - Bevorzugte Highlight Farben
   - adleroceanblue: #45a0e5
   - nodehandlecolor: #e9d6b3
-- Icon Kontur-Stärke: 30 pt
+- Icon Kontur-Stärke: 60 pt
 - Bei Schriften immer ***Roboto Black*** verwenden
 - Die ***Form*** des Icons soll den ***verfügbaren Raum***, so gut wie möglich ***ausnutzen***
 - Das Icon ***muss*** für die Verwendung in der AdLer-Engine und im Autorentool auch in ***sehr kleiner Größe*** erkennbar sein, sprich der Detailgrad sollte im Rahmen bleiben und sich auf eine einfache Erkennbarkeit konzentriert werden.
@@ -112,3 +112,7 @@ Anmerkung: Es kann sein, dass beim Importieren des Logos mittels `import` die In
 Überblick über die Navigation zwischen den einzelnen Teilen der 3D-Lernumgebung und den Menüs der Anwendung.
 
 ![Beispiel Icon "Bild"](imageStyleguide2DSoftwareSchnittstellenLernumgebung.png){width="300" thumbnail="true"}
+
+### Buttons
+#### Call-to-Action
+Mit Call-to-Action sind Buttons gemeint, die zu einer anderen Seite innerhalb oder außerhalb der Anwendung führen. Diese sind zur schnelleren Erkennbarkeit mit fetter Schrift ausgezeichnet (Tailwind Klasse: ``font-bold``).
