@@ -1,3 +1,3 @@
 # Aufgabe Eigenschaften
 
-Start typing here...
+Im Folgenden werden die erforderlichen und optionalen Eigenschaften der Adaptivitätsaufgabe spezifiziert.

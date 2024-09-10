@@ -1,3 +1,3 @@
 # Lernwelt Prozesse
 
-Start typing here...
+Im Folgenden werden die mit der Lernwelt zu verbindenden Prozesse aufgelistet und erklärt.

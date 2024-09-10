@@ -1,3 +1,6 @@
 # Plugin
 
-Start typing here...
+Dieses Kapitel der
+[Spezifikation](Spezifikation-GE.md)
+spezifiziert das
+[Plugin]().

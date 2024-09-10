@@ -1,3 +1,3 @@
 # Lernziel erstellen
 
-Start typing here...
+Sammlung aller funktionalen Anforderungen an das Autorentool, welche das Erstellen von Lernzielen betreffen.

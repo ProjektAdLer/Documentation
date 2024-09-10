@@ -1,3 +1,5 @@
 # G
 
-Start typing here...
+Glossar: **G**
+
+Bitte wählen Sie das gewünschte Stichwort in der linken Seitenleiste aus, um weitere Details anzuzeigen.

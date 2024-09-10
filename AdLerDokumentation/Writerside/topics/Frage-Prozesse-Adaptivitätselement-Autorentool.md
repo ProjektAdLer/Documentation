@@ -1,3 +1,3 @@
 # Frage Prozesse
 
-Start typing here...
+Im Folgenden werden die mit der Adaptivitätsfrage zu verbindenden Prozesse aufgelistet und erklärt.

@@ -1,3 +1,3 @@
 # Sonstige-Lieferbestandteile-Engine
 
-Start typing here...
+Im Folgenden werden die mit der Engine auszuliefernden zusätzlichen Bestandteile aufgelistet und erklärt.

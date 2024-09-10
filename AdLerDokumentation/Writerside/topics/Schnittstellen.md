@@ -1,3 +1,3 @@
 # Schnittstellen
 
-Start typing here...
+Im Folgenden werden die von AdLer verwendeten Schnittstellen aufgelistet und erklärt. Dies umfasst insbesondere das [AdLer Transfer File](ATF-GE.md).

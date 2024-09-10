@@ -1,3 +1,3 @@
 # Nicht funktionale Anforderungen
 
-In diesem Kapitel werden alle Anforderungen hinsichtlich der Benutzungsoberfläche des AdLer-Autorentools aufgeführt.
+Im Folgenden werden alle [nicht funktionalen Anforderungen](Nicht-Funktionale-Anforderungen-GE.md) hinsichtlich der Benutzungsoberfläche des AdLer-Autorentools aufgeführt.

@@ -1,3 +1,3 @@
 # Externes Lernmaterial Prozesse
 
-Start typing here...
+Im Folgenden werden die mit externem Lernmaterial zu verbindenden Prozesse aufgelistet und erklärt.

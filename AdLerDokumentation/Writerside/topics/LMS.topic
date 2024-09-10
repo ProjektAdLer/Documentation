@@ -5,5 +5,5 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="LMS" id="LMS">
 
-    <p>Start typing here...</p>
+    <p>Sammlung der Anforderungen an das Backend betreffend der Verbindung zum <a href="Learning-Management-System-GE.md">LMS</a>.</p>
 </topic>

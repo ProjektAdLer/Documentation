@@ -1,3 +1,3 @@
 # Lernelement Prozesse
 
-Start typing here...
+Im Folgenden werden die mit dem Lernelement zu verbindenden Prozesse aufgelistet und erklärt.

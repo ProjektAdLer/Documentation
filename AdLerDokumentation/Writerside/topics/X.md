@@ -1,3 +1,5 @@
 # X
 
-Start typing here...
+Glossar: **X**
+
+Bitte wählen Sie das gewünschte Stichwort in der linken Seitenleiste aus, um weitere Details anzuzeigen.

@@ -1,3 +1,3 @@
 # Lernraum Eigenschaften
 
-Start typing here...
+Im Folgenden werden die mit dem Lernraum zu verbindenden erforderlichen und optionalen Eigenschaften aufgelistet und erklärt.

@@ -1,3 +1,3 @@
 # Externes Lernmaterial Eigenschaften
 
-Start typing here...
+Im Folgenden werden die mit dem externen Lernmaterial zu verbindenden erforderlichen und optionalen Eigenschaften aufgelistet und erklärt.

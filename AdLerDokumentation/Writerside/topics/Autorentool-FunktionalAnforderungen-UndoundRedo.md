@@ -1,3 +1,3 @@
 # Undo und Redo
 
-S$(ls -1 "$folder" | grep "^$shorthand[0-9]*\.md$" | sort -r | head -n 1)tart typing here...
+Sammlung aller funktionalen Anforderungen an das Autorentool, welche die Aktionen Rückgängig machen und Wiederholen betreffen.

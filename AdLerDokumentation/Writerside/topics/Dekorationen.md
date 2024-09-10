@@ -1,3 +1,3 @@
 # Dekorationen
 
-Start typing here...
+Im Folgenden werden die Anforderungen und Kriterien für Dekorationen im Lernraum aufgelistet und erklärt.

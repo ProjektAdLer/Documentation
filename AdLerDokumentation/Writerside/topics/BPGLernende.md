@@ -1,3 +1,3 @@
 # Lernende
 
-Start typing here...
+Sammlung der Anforderungen an das Backend betreffend den [Lernenden](Lernende-GE.md).
