@@ -22,7 +22,7 @@
         <td>Definition</td>
         <td id="summary">
             Der Avatar ist die 3D-Repräsentation des <a href="Lernende-GE.md">Lernenden</a> 
-            in den begehbaren <a href="Lernraum-GE.md">Lernräumen</a> der <a href="Engine-GE.md"></a>.
+            in den begehbaren <a href="Lernraum-GE.md">Lernräumen</a> der <a href="Engine-GE.md">Engine</a>.
         </td>
     </tr>  
     <tr>

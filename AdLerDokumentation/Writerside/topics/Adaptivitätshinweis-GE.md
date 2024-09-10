@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >Ein Adaptivitätshinweis ist ein kurzer optionaler Hinweistext mit einem optionalen Verweis auf ein anderes <a href="Lernelement-GE.md"></a>, der dem Lernenden bei der weiteren Bearbeitung einer falsch beantworteten <a href="Adaptivitätsfrage-GE.md"></a> helfen soll.</td>
+        <td id="summary" >Ein Adaptivitätshinweis ist ein kurzer optionaler Hinweistext mit einem optionalen Verweis auf ein anderes <a href="Lernelement-GE.md">Lernelement</a>, der dem Lernenden bei der weiteren Bearbeitung einer falsch beantworteten <a href="Adaptivitätsfrage-GE.md">Adaptivitätsfrage</a> helfen soll.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>

@@ -28,8 +28,8 @@
             In verschiedenen Medien wie Literatur, Film und Videospielen sind Storyelemente entscheidend, 
             um das Interesse und die emotionale Bindung des Publikums zu fördern. 
             Ein gut durchdachtes Storyelement kann die Tiefe und Komplexität einer Geschichte erheblich bereichern.<br/>
-            Im AdLer System handelt es sich bei einem Storyelement um ein spezielles <a href="Lernelement-GE.md"></a>, welches kein
-            <a href="Lernmaterial-GE.md"></a> beinhaltet, sondern stattdessen Texte enthält, die den 
+            Im AdLer System handelt es sich bei einem Storyelement um ein spezielles <a href="Lernelement-GE.md">Lernelement</a>, welches kein
+            <a href="Lernmaterial-GE.md">Lernmaterial</a> beinhaltet, sondern stattdessen Texte enthält, die den 
             <a href="Lernende-GE.md">Lernenden</a> entweder bei Betreten oder Verlassen eines 
             <a href="Lernraum-GE.md">Lernraums</a> angezeigt werden. Mittels dieser Elemente soll 
             <a href="Lehrende-GE.md">Lehrenden</a> ermöglicht werden, spielerisch eine Story zu erzählen.<br/>
