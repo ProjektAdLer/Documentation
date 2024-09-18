@@ -1,6 +1,6 @@
 # Marktanforderungen
 
-In dem Projektantrag für AdLer sind  Markanforderungen beschrieben. Diese werden im Folgenden dargestellt.
+In dem Projektantrag für AdLer sind Markanforderungen beschrieben. Diese werden im Folgenden dargestellt.
 
 1. **Ziele und Schwerpunktsetzung**:
     - Förderung der Motivation der Studierenden durch interaktive und ansprechende Lernumgebungen.

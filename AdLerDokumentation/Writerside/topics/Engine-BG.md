@@ -2,7 +2,7 @@
 
 Dieses Kapitel der
 [Spezifikation](Spezifikation-GE.md)
-spezifiziert die
+spezifiziert die AdLer
 [Engine](Engine-GE.md).
 
 
