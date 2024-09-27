@@ -1,4 +1,4 @@
-# H5P-Player Modi
+# H5P-Player Anzeigemodi
 
 Der H5P-Player unterstützt die folgenden Modi:
 
