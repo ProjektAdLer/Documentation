@@ -8,6 +8,8 @@ function generateMarkdownTable(requirementsWithTests: OutputStructure): string {
 
   const tableRows = Object.values(requirementsWithTests)
     // Sort requirements alphabetically by title
+    // Remove any "\r"
+    .map((req) => ({ ...req, requirementInfo: { ...req.requirementInfo, title: req.requirementInfo.title.replace(/\r/g, '') } }))
     .sort((a, b) => a.requirementInfo.title.localeCompare(b.requirementInfo.title))
     .map(({ requirementInfo: { id, title }, unitTests }) => {
       const testCount = unitTests.length;

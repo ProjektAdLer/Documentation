@@ -40,6 +40,8 @@ function generateMarkdownTable(requirementsWithTests) {
     const tableHeader = ['| Requirement | Anzahl an Tests | Dateien |', '| --- | --- | --- |'];
     const tableRows = Object.values(requirementsWithTests)
         // Sort requirements alphabetically by title
+        // Remove any "\r"
+        .map((req) => (Object.assign(Object.assign({}, req), { requirementInfo: Object.assign(Object.assign({}, req.requirementInfo), { title: req.requirementInfo.title.replace(/\r/g, '') }) })))
         .sort((a, b) => a.requirementInfo.title.localeCompare(b.requirementInfo.title))
         .map(({ requirementInfo: { id, title }, unitTests }) => {
         const testCount = unitTests.length;
