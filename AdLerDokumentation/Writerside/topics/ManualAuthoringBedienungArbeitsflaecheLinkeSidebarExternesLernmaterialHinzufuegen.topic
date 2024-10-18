@@ -43,6 +43,7 @@
                 <tab id="externes_lernmaterial_link" title="Link hinzufügen">
                     <procedure type="choices" id="link_externes_lernmaterial" title="Link hinzufügen">
                         <tip>Video-Dateiformate wie .mp4 werden nicht unterstützt, stattdessen können Videos über Links hinzugefügt werden.</tip>
+                        <warning>Falls Sie keinen Account für den Videoserver haben, von welchem aus Ihr Video abgerufen wird, achten Sie bitte darauf, dass Ihr Video auf "öffentlich" gestellt wird. Ansonsten können diese Videos nicht in der 3D-Lernumgebung angezeigt werden.</warning>
                         <step><p>Klicken Sie auf die Kategorie <control>Link hinzufügen</control>.
                             <img src="imageManualAuthoringLinkeSidebarExterneLernelementeLinkHinzufuegenButton.png" alt="Link hinzufügen: Ausklappen Button" width="200" thumbnail="true"/></p>
                         </step>
