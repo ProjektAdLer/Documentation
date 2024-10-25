@@ -1,4 +1,4 @@
-#    3D Asset Creation Workflow und Tipps
+#    3D Asset Creation Workflow Charakter & Animation
 
 Dieser Artikel beschreibt den Workflow zur 3D Asset Erstellung und soll als Leitfaden und Cheatsheet für 3D Modellierer dienen.
 
