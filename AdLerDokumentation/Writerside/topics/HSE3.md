@@ -13,8 +13,10 @@ Vielmehr kommt es darauf an mit welcher Absicht (nur anzeigen oder validieren) d
 
 ## Akzeptanzkriterien:
 
-Sobald das Validieren gestartet wird, muss der H5P-Player dem Benutzenden die Information:
-(Erklärung warum man die Validierung erledigen muss) anzeigen.
+- Sobald das Validieren gestartet wird, 
+ muss der H5P-Player dem Benutzenden die folgenden Information anzeigen:
+  - _Zweck der Validierung_ (Linkeinfügen)
+  - _Schließen Sie während der Validierung des H5Ps das Fenster nicht_. (Linkeinfügen)
 - Der H5P-Player muss dem Benutzenden die Möglichkeit bieten, die Meldung zu deaktivieren.
 - Reaktivierung?
 
