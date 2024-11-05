@@ -122,6 +122,11 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Externes-Lernmaterial-Autorentool.md">
+                    <toc-element topic="H5P-Autorentool.md">
+                        <toc-element topic="ASE8.md"/>
+                        <toc-element topic="ASE9.md"/>
+                        <toc-element topic="H5P-Zustände-Autorentool.md"/>
+                    </toc-element>
                     <toc-element topic="Externes-Lernmaterial-Eigenschaften-Autorentool.md">
                         <toc-element topic="AWA9018.md"/>
                     </toc-element>
@@ -140,11 +145,6 @@
                     </toc-element>
                 </toc-element>
                 <toc-element topic="Lernelement-Autorentool.md">
-                    <toc-element topic="H5P-Autorentool.md">
-                        <toc-element topic="ASE8.md"/>
-                        <toc-element topic="ASE9.md"/>
-                        <toc-element topic="H5P-Zustände-Autorentool.md"/>
-                    </toc-element>
                     <toc-element topic="Lernelement-Eigenschaften-Autorentool.md">
                         <toc-element topic="AWA9006.md">
                             <toc-element topic="ASN0009.md"/>
