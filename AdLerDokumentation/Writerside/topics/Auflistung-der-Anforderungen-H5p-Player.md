@@ -13,4 +13,4 @@ Beim H5p-Player handelt es sich um eine Subkomponente des Autorentools.
 | [H5P validieren starten (HSE3)](HSE3.md) | **0** | - |
 | [H5P-Player beenden (HSE8)](HSE8.md) | **0** | - |
 | [H5P-Player starten (HSE7)](HSE7.md) | **0** | - |
-| [temporäre Archive löschen (HSE9)](HSE9.md) | **0** | - |
+| [temporäre H5P-Archive löschen (HSE9)](HSE9.md) | **0** | - |
