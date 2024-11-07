@@ -13,4 +13,3 @@ erstellten Archive löschen.
 ## Aktivitätsdiagramm:
 
 
-![imageH5PPlayerValidateH5P.png](imageH5PPl
