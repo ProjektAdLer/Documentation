@@ -271,6 +271,9 @@
                     <toc-element topic="H5P-Player-Modi.md"/>
                     <toc-element topic="HSE7.md"/>
                     <toc-element topic="HSE8.md"/>
+                    <toc-element topic="H5P-Archiv-Verwaltung.md">
+                        <toc-element topic="HSE9.md"/>
+                    </toc-element>
                     <toc-element topic="HSE2.md">
                         <toc-element topic="HSE5.md"/>
                     </toc-element>
@@ -280,9 +283,6 @@
                         <toc-element topic="HSE6.md"/>
                     </toc-element>
                     <toc-element topic="H5P-Zustände.md"/>
-                    <toc-element topic="H5P-Archiv-Verwaltung.md">
-                        <toc-element topic="HSE9.md"/>
-                    </toc-element>
                 </toc-element>
                 <toc-element topic="Nicht-funktionale-Anforderungen-H5p-Player.md"/>
                 <toc-element topic="SBOM-H5p-Player.md"/>
