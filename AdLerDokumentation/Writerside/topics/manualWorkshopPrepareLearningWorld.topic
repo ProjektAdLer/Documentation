@@ -15,7 +15,7 @@
         <procedure title="Importieren der Lernwelt" id="ImportierenDerZurVerfuegungGestelltenLernweltInDasAutorentool">
 
             <tip>
-                <p>Sie sollten das Autorentool in der aktuellsten Version auf Ihrem Rechner gestartet haben. Die Versionsnummer finden Sie in der Kopfzeile der Anwendung. Bei Start des Autorentools sehen Sie folgende Anzeige.</p>
+                <p>Sie sollten das Autorentool in der aktuellsten Version auf Ihrem Rechner gestartet haben. Die Versionsnummer finden Sie in der Kopfzeile der Anwendung. Bei Start des Autorentools sehen Sie folgende Anzeige. Die aktuellste Version ist momentan <control>Autorentool 2.2.0</control></p>
                 <img src="imageManualWorkshopDefaultScreenAuthoringTool.png" alt="Standardansicht des Autorentools nach dem Öffnen der Anwendung" width="200" thumbnail="true" />
             </tip>
             <step>

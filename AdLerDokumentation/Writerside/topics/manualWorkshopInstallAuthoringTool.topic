@@ -12,6 +12,9 @@
     </deflist>
     <procedure title="Herunterladen des Autorentools">
         <step>
+            <p>Sollten sie das Autorentool bereits heruntergeladen haben, können Sie diesen Schritt überspringen.</p>
+        </step>
+        <step>
             <p>Öffnen Sie Ihren bevorzugten Browser.</p>
             <warning>
                 <p>Nutzen Sie <control>nicht</control> den Browser <control>Safari</control> für das Herunterladen des Autorentools. Die von Safari heruntergeladene Datei ist nicht nutzbar.</p>

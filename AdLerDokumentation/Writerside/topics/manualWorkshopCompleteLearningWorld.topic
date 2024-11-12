@@ -15,12 +15,13 @@
             <deflist type="compact" sorted="desc">
                 <def title="&#127937;">
                     <control>
+                        Was machen wir hier?
                         <list type="alpha-lower">
                             <li>Sie öffnen den Lernraum und ändern dessen Metadaten.</li>
                             <li>Danach fügen Sie externes Lernmaterial in das Autorentool hinzu.</li>
                             <li>Anschließend erstellen Sie drei Lernelemente, versehen diese mit Metadaten und weisen diesen das passende Lernmaterial zu.</li>
                             <li>Abschließend erzeugen Sie Abhängigkeiten zwischen den Lernräumen.</li>
-                            </list>
+                        </list>
                     </control>
                 </def>
             </deflist>
@@ -129,7 +130,7 @@
             </procedure>
             <procedure title="c. Erstellen von drei Lernelementen" id="erstellenVonDreiLernelementen">
                 <step>
-                    <p>Klicken Sie den auf der Abbildung markierten Lernelement-Slot an.</p>
+                    <p>Klicken Sie den auf der Abbildung einen der freien Lernelement-Slots an.</p>
                     <img src="imageManualWorkshopFirstLearningElementSlotHighlighted.png" alt="Markierter Lernelement Slot des ersten hinzuzufügenden Lernelements" width="200" thumbnail="true" />
                 </step>
                 <step>
@@ -177,14 +178,14 @@
                         <p>Punkte:</p><code-block>1</code-block>
                         <p>Arbeitsaufwand:</p><code-block>1</code-block>
                         <p>Schwierigkeitsgrad:</p><code-block>Keine Angabe</code-block>
-                        <p>Dateiname:</p><code-block>3D_LE_Lernelemente.pdf</code-block>
+                        <p>Dateiname (Externes Lernmaterial):</p><code-block>3D_LE_Lernelemente.pdf</code-block>
                         <p>Beschreibung:</p><code-block>Informationsfolie zur Darstellung von Lernelementen in der 3D-Lernumgebung.</code-block>
                         <p><b>Drittes Lernelement:</b></p>
                         <p>Name:</p><code-block>3D-Lernumgebung</code-block>
                         <p>Punkte:</p><code-block>3</code-block>
                         <p>Arbeitsaufwand:</p><code-block>2</code-block>
                         <p>Schwierigkeitsgrad:</p><code-block>Mittelschwer</code-block>
-                        <p>Dateiname:</p><code-block>3D_Fragen_zur_3D_Lernumgebung.h5p</code-block>
+                        <p>Dateiname (Externes Lernmaterial):</p><code-block>3D_Fragen_zur_3D_Lernumgebung.h5p</code-block>
                         <p>Beschreibung:</p><code-block>Prüfen Sie Ihr Wissen zur 3D-Lernumgebung in diesem interaktiven Quiz.</code-block>
                     </tip>
                 </step>
@@ -203,7 +204,7 @@
             <procedure title="d. Verbinden von Lernräumen (Lernpfad)" id="verbindenVonLernraeumenLernpfad">
                 <tip>Sie befinden sich noch in der Ansicht des geöffneten Lernraums <control>Moodle und 3D-Lernumgebung</control>. Sollten Sie sich dort nicht mehr befinden, klicken Sie im linken Bereich auf den Tab <control>Angaben zu Lernräumen</control>.</tip>
                 <step>
-                    <p>Klicken Sie im rechten Tab <b>Verbindungen zwischen Lernräumen</b> auf den Button <control>Und-/Oder-Verbindung erstellen</control>.</p>
+                    <p>Klicken Sie im rechten Tab <b>Verbindungen zwischen Lernräumen</b> auf den Button <control>Bedingung erstellen</control>.</p>
                     <img src="imageManualWorkshopHiglightedAddConnection.png" alt="Hervorgehobener Button Und-/Oder-Verbindung erstellen" width="200" thumbnail="true" />
                     <note>
                         <p>Die Und-/Oder-Verbindung erscheint mit der Standardeinstellung <control>Oder</control>.</p>
@@ -351,6 +352,7 @@
                     <p>Arbeitsaufwand:</p><code-block>1</code-block>
                     <p>Schwierigkeitsgrad:</p><code-block>Keine Angabe</code-block>
                     <p>Beschreibung:</p><code-block>Es ist Mittwoch. Das Jour fixe steht an. Die AdLer-Projektbeteiligten vom Standort Aschaffenburg sind zusammen gekommen, um Lukas bei dessen Präsentation zu lauschen.</code-block>
+                    <p>Dateiname (Externes Lernmaterial):</p><code-block>Vielen Dank</code-block>
                     <tip>Gehen Sie bei der Erstellung des Lernelements wie in Kapitel <a href="#erstellenVonDreiLernelementen">"Erstellen von drei Lernelementen"</a> vor.</tip>
                 </step>
                 <step>

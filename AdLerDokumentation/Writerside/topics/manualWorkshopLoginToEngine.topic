@@ -14,9 +14,6 @@
     <chapter title="Anmelden in die 3D-Lernumgebung">
         <procedure>
             <step>
-                <p>Öffnen Sie Ihren bevorzugten Browser.</p>
-            </step>
-            <step>
                 <p>Tippen Sie folgende Adresse in die Browserzeile ein, klicken Sie auf diesen Link: <a href="https://engine.projekt-adler.eu" target="_blank">https://engine.projekt-adler.eu</a> oder nutzen Sie den Button <control>In Moodle Öffnen</control> im Autorentool.</p>
                 <img src="imageManualWorkshopUploadLearningWorldSuceeded.png" alt="Hochladen erfolgreich Pop-Up Fenster" width="200" thumbnail="true" />
                 <note>Sie befinden sich nun auf der Anmeldeseite der AdLer 3D-Lernumgebung.</note>
