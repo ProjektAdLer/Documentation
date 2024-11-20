@@ -176,4 +176,8 @@
         <description>Created after removal of "Software Design" from AdLerDokumentation</description>
         <accepts>Software-Design-Backend.html</accepts>
     </rule>
+    <rule id="146440e6">
+        <description>Created after removal of "H5P anzeigen starten" from AdLerDokumentation</description>
+        <accepts>HSE5.html</accepts>
+    </rule>
 </rules>

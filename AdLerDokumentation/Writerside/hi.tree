@@ -275,7 +275,6 @@
                         <toc-element topic="HSE9.md"/>
                     </toc-element>
                     <toc-element topic="HSE2.md">
-                        <toc-element topic="HSE5.md"/>
                     </toc-element>
                     <toc-element topic="HSE1.md">
                         <toc-element topic="HSE3.md"/>

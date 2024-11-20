@@ -2,9 +2,8 @@
 
 ## Definition:
 
-Der H5P-Player muss ein H5P anzeigen.
-
-Sobald der H5P-Player gestartet wird,
+Sobald der H5P-Player gestartet wird UND 
+falls das H5P angezeigt werdeen muss,
 muss der H5P-Player das H5P anzeigen.
 
 
