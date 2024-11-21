@@ -539,24 +539,23 @@
             <toc-element topic="SBOM-Engine.md"/>
         </toc-element>
         <toc-element topic="Backend-BG.md">
-            <toc-element topic="API_Reference.topic">
-                <toc-element topic="Gets_the_Status_of_all_Elements_in_a_World.topic"/>
-                <toc-element
-                        topic="Uploads_a_World_to_the_Backend_Beware_The_World_also_has_to_be_imported_into_the_LMS_manually_for_now_.topic"/>
-                <toc-element topic="Gets_All_Worlds_a_User_is_enrolled_in.topic"/>
-                <toc-element topic="Deletes_a_World_by_its_Id.topic"/>
-                <toc-element topic="Gets_the_ATF_File_of_a_World.topic"/>
-                <toc-element topic="Gets_all_Worlds_that_a_Author_has_created.topic"/>
-                <toc-element topic="Update_player_data.topic"/>
-                <toc-element topic="Delete_player_data.topic"/>
-                <toc-element topic="Get_player_data.topic"/>
-                <toc-element topic="api_Users_Login_GET.topic"/>
-                <toc-element topic="api_Users_UserData_GET.topic"/>
-                <toc-element topic="Gets_the_Source_of_a_Learning_Element_which_is_needed_to_display_it.topic"/>
-                <toc-element topic="Gets_a_Score_for_the_Learning_Element.topic"/>
-                <toc-element topic="Get_the_Details_of_an_Adaptivity_Element.topic"/>
-                <toc-element topic="Answer_a_Question_in_a_an_Adaptivity_Learning_Element.topic"/>
-                <toc-element topic="Try_to_Score_a_Learning_Element.topic"/>
+            <toc-element topic="API_Reference2.topic">
+                <toc-element topic="Gets_the_Status_of_all_Elements_in_a_World2.topic"/>
+                <toc-element topic="Uploads_a_World_to_the_Backend.topic"/>
+                <toc-element topic="Gets_All_Worlds_a_User_is_enrolled_in2.topic"/>
+                <toc-element topic="Deletes_a_World_by_its_Id2.topic"/>
+                <toc-element topic="Gets_the_ATF_File_of_a_World2.topic"/>
+                <toc-element topic="Gets_all_Worlds_that_a_Author_has_created2.topic"/>
+                <toc-element topic="Update_player_data2.topic"/>
+                <toc-element topic="Delete_player_data2.topic"/>
+                <toc-element topic="Get_player_data2.topic"/>
+                <toc-element topic="api_Users_Login_GET2.topic"/>
+                <toc-element topic="api_Users_UserData_GET2.topic"/>
+                <toc-element topic="Gets_the_Source_of_a_Learning_Element_which_is_needed_to_display_it2.topic"/>
+                <toc-element topic="Gets_a_Score_for_the_Learning_Element2.topic"/>
+                <toc-element topic="Try_to_Score_a_Learning_Element2.topic"/>
+                <toc-element topic="Get_the_Details_of_an_Adaptivity_Element2.topic"/>
+                <toc-element topic="Answer_a_Question_in_an_Adaptivity_Learning_Element.topic"/>
             </toc-element>
             <toc-element topic="Auflistung-der-Anforderungen-Backend.md"/>
             <toc-element topic="Funktionale-Anforderungen-Backend.md">

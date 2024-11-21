@@ -180,4 +180,85 @@
         <description>Created after removal of "H5P anzeigen starten" from AdLerDokumentation</description>
         <accepts>HSE5.html</accepts>
     </rule>
+    <rule id="31f74691">
+        <description>Created after removal of "Gets the Status of all Elements in a World" from AdLerDokumentation
+        </description>
+        <accepts>Gets_the_Status_of_all_Elements_in_a_World.html</accepts>
+    </rule>
+    <rule id="5be2e564">
+        <description>Created after removal of "Uploads a World to the Backend
+            Beware: The World also has to be imported into the LMS manually (for now)" from AdLerDokumentation
+        </description>
+        <accepts>
+            Uploads_a_World_to_the_Backend_Beware_The_World_also_has_to_be_imported_into_the_LMS_manually_for_now_.html
+        </accepts>
+    </rule>
+    <rule id="20c38564">
+        <description>Created after removal of "Gets All Worlds a User is enrolled in" from AdLerDokumentation
+        </description>
+        <accepts>Gets_All_Worlds_a_User_is_enrolled_in.html</accepts>
+    </rule>
+    <rule id="434799ca">
+        <description>Created after removal of "Deletes a World by its Id" from AdLerDokumentation</description>
+        <accepts>Deletes_a_World_by_its_Id.html</accepts>
+    </rule>
+    <rule id="458ceec2">
+        <description>Created after removal of "Gets the ATF File of a World" from AdLerDokumentation</description>
+        <accepts>Gets_the_ATF_File_of_a_World.html</accepts>
+    </rule>
+    <rule id="501b5006">
+        <description>Created after removal of "Gets all Worlds that a Author has created" from AdLerDokumentation
+        </description>
+        <accepts>Gets_all_Worlds_that_a_Author_has_created.html</accepts>
+    </rule>
+    <rule id="4126b1fc">
+        <description>Created after removal of "Update player data" from AdLerDokumentation</description>
+        <accepts>Update_player_data.html</accepts>
+    </rule>
+    <rule id="42011ea6">
+        <description>Created after removal of "Delete player data" from AdLerDokumentation</description>
+        <accepts>Delete_player_data.html</accepts>
+    </rule>
+    <rule id="54fd9bf2">
+        <description>Created after removal of "Get player data" from AdLerDokumentation</description>
+        <accepts>Get_player_data.html</accepts>
+    </rule>
+    <rule id="1b2e4d51">
+        <description>Created after removal of "/api/Users/Login GET" from AdLerDokumentation</description>
+        <accepts>api_Users_Login_GET.html</accepts>
+    </rule>
+    <rule id="50e09583">
+        <description>Created after removal of "/api/Users/UserData GET" from AdLerDokumentation</description>
+        <accepts>api_Users_UserData_GET.html</accepts>
+    </rule>
+    <rule id="feeeb5b">
+        <description>Created after removal of "Gets the Source of a Learning Element, which is needed to display it"
+            from AdLerDokumentation
+        </description>
+        <accepts>Gets_the_Source_of_a_Learning_Element_which_is_needed_to_display_it.html</accepts>
+    </rule>
+    <rule id="1f8dc6f4">
+        <description>Created after removal of "Gets a Score for the Learning Element" from AdLerDokumentation
+        </description>
+        <accepts>Gets_a_Score_for_the_Learning_Element.html</accepts>
+    </rule>
+    <rule id="2221e058">
+        <description>Created after removal of "Get the Details of an Adaptivity Element" from AdLerDokumentation
+        </description>
+        <accepts>Get_the_Details_of_an_Adaptivity_Element.html</accepts>
+    </rule>
+    <rule id="48a77197">
+        <description>Created after removal of "Answer a Question in a an Adaptivity Learning Element" from
+            AdLerDokumentation
+        </description>
+        <accepts>Answer_a_Question_in_a_an_Adaptivity_Learning_Element.html</accepts>
+    </rule>
+    <rule id="3b57419e">
+        <description>Created after removal of "Try to Score a Learning Element" from AdLerDokumentation</description>
+        <accepts>Try_to_Score_a_Learning_Element.html</accepts>
+    </rule>
+    <rule id="1e336942">
+        <description>Created after removal of "API Reference" from AdLerDokumentation</description>
+        <accepts>API_Reference.html</accepts>
+    </rule>
 </rules>
