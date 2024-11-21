@@ -4,5 +4,5 @@ Zum Abspielen der H5Ps müssen die Dateien der H5Ps temporär in einem Verzeichn
 
 ## Wichtige Verzeichnisse:
 
-- [](Verzeichnis-der-Content-Files.md)
+- [](Quellverzeichnis-der-einzulesenden-H5Ps)
 - [](Verzeichnis-zum-Abspielen-der-H5Ps.md)
