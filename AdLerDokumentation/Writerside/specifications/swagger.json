@@ -1,0 +1,1465 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AdLerBackend.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Elements/World/{worldId}/Element/{elementId}/Question/{questionId}": {
+      "patch": {
+        "tags": [
+          "AdaptivityElement"
+        ],
+        "summary": "Answer a Question in an Adaptivity Learning Element",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "worldId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "elementId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "questionId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnswerAdaptivityQuestionResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnswerAdaptivityQuestionResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnswerAdaptivityQuestionResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Elements/World/{worldId}/Element/{elementId}/Adaptivity": {
+      "get": {
+        "tags": [
+          "AdaptivityElement"
+        ],
+        "summary": "Get the Details of an Adaptivity Element",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "worldId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "elementId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetAdaptivityElementDetailsResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetAdaptivityElementDetailsResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetAdaptivityElementDetailsResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Elements/World/{worldId}/Element/{elementId}": {
+      "patch": {
+        "tags": [
+          "Elements"
+        ],
+        "summary": "Try to Score a Learning Element",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "LMS User Token",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "elementId",
+            "in": "path",
+            "description": "Id of the Element in the World",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "worldId",
+            "in": "path",
+            "description": "Id of the World",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Params needed for scoring uf h5p Elements",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScoreElementParams"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScoreElementParams"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScoreElementParams"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScoreElementResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScoreElementResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScoreElementResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Elements/World/{worldId}/Element/{elementId}/Score": {
+      "get": {
+        "tags": [
+          "Elements"
+        ],
+        "summary": "Gets a Score for the Learning Element",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "Lms Webservice Token",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "elementId",
+            "in": "path",
+            "description": "Id of a Element",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "worldId",
+            "in": "path",
+            "description": "Id of the World the Element is located in",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ElementScoreResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ElementScoreResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ElementScoreResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Elements/FilePath/World/{worldId}/Element/{elementId}": {
+      "get": {
+        "tags": [
+          "Elements"
+        ],
+        "summary": "Gets the Source of a Learning Element, which is needed to display it",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "Lms Webservice Token",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "elementId",
+            "in": "path",
+            "description": "Id of a Element",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "worldId",
+            "in": "path",
+            "description": "Id of the World the Element is located in",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetElementSourceResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetElementSourceResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetElementSourceResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users/UserData": {
+      "get": {
+        "tags": [
+          "LmsLogin"
+        ],
+        "parameters": [
+          {
+            "name": "WebServiceToken",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LMSUserDataResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LMSUserDataResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LMSUserDataResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Users/Login": {
+      "get": {
+        "tags": [
+          "LmsLogin"
+        ],
+        "parameters": [
+          {
+            "name": "UserName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Password",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LMSUserTokenResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LMSUserTokenResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LMSUserTokenResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/PlayerData": {
+      "get": {
+        "tags": [
+          "Player"
+        ],
+        "summary": "Get player data",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "LMS Token",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlayerDataResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlayerDataResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlayerDataResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Player"
+        ],
+        "summary": "Update player data",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "LMS Token",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "The Value to update in JsonPatch Notation",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlayerDataJsonPatchDocument"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlayerDataJsonPatchDocument"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlayerDataJsonPatchDocument"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlayerDataResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlayerDataResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlayerDataResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Player"
+        ],
+        "summary": "Delete player data",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "LMS Token",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Worlds/author/{authorId}": {
+      "get": {
+        "tags": [
+          "Worlds"
+        ],
+        "summary": "Gets all Worlds that a Author has created",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "authorId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetWorldOverviewResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetWorldOverviewResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetWorldOverviewResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Worlds/{worldId}": {
+      "get": {
+        "tags": [
+          "Worlds"
+        ],
+        "summary": "Gets the ATF File of a World",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "worldId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorldAtfResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorldAtfResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorldAtfResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Worlds"
+        ],
+        "summary": "Deletes a World by its Id",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "worldId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Worlds": {
+      "get": {
+        "tags": [
+          "Worlds"
+        ],
+        "summary": "Gets All Worlds a User is enrolled in",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "The Users WebService Token",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetWorldOverviewResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetWorldOverviewResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetWorldOverviewResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Worlds"
+        ],
+        "summary": "Uploads a World to the Backend",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "backupFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "atfFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "backupFile": {
+                  "style": "form"
+                },
+                "atfFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CreateWorldResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CreateWorldResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CreateWorldResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Worlds/{worldId}/Status": {
+      "get": {
+        "tags": [
+          "Worlds"
+        ],
+        "summary": "Gets the Status of all Elements in a World",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "worldId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorldStatusResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorldStatusResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorldStatusResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AnswerAdaptivityQuestionResponse": {
+        "required": [
+          "elementScore",
+          "gradedQuestion",
+          "gradedTask"
+        ],
+        "type": "object",
+        "properties": {
+          "elementScore": {
+            "$ref": "#/components/schemas/ElementScoreResponse"
+          },
+          "gradedTask": {
+            "$ref": "#/components/schemas/GradedTask"
+          },
+          "gradedQuestion": {
+            "$ref": "#/components/schemas/GradedQuestion"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BaseElement": {
+        "required": [
+          "elementCategory",
+          "elementFileType",
+          "elementId",
+          "elementName",
+          "elementUuid"
+        ],
+        "type": "object",
+        "properties": {
+          "elementId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "elementUuid": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "elementName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "elementCategory": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "elementFileType": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateWorldResponse": {
+        "type": "object",
+        "properties": {
+          "worldId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "worldNameInLms": {
+            "type": "string",
+            "nullable": true
+          },
+          "worldLmsUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "world3DUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ElementScoreResponse": {
+        "type": "object",
+        "properties": {
+          "elementId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "success": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetAdaptivityElementDetailsResponse": {
+        "type": "object",
+        "properties": {
+          "element": {
+            "$ref": "#/components/schemas/ElementScoreResponse"
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GradedQuestion"
+            },
+            "nullable": true
+          },
+          "tasks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GradedTask"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetElementSourceResponse": {
+        "type": "object",
+        "properties": {
+          "filePath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetWorldOverviewResponse": {
+        "type": "object",
+        "properties": {
+          "worlds": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/WorldResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GradedAnswer": {
+        "type": "object",
+        "properties": {
+          "checked": {
+            "type": "boolean"
+          },
+          "correct": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GradedQuestion": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "answers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GradedAnswer"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GradedTask": {
+        "type": "object",
+        "properties": {
+          "taskId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taskStatus": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LMSUserDataResponse": {
+        "type": "object",
+        "properties": {
+          "lmsUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userEmail": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LMSUserTokenResponse": {
+        "type": "object",
+        "properties": {
+          "lmsToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlayerAvatarGender": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "PlayerDataJsonPatchDocument": {
+        "type": "object",
+        "properties": {
+          "operations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlayerDataOperation"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlayerDataOperation": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "nullable": true
+          },
+          "path": {
+            "type": "string",
+            "nullable": true
+          },
+          "op": {
+            "type": "string",
+            "nullable": true
+          },
+          "from": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlayerDataResponse": {
+        "type": "object",
+        "properties": {
+          "playerGender": {
+            "$ref": "#/components/schemas/PlayerAvatarGender"
+          },
+          "playerWorldColor": {
+            "$ref": "#/components/schemas/PlayerWorldColor"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlayerWorldColor": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "ScoreElementParams": {
+        "type": "object",
+        "properties": {
+          "serializedXapiEvent": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ScoreElementResponse": {
+        "type": "object",
+        "properties": {
+          "isSuccess": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Space": {
+        "required": [
+          "requiredSpacesToEnter",
+          "spaceId",
+          "spaceName",
+          "spaceSlotContents",
+          "spaceTemplate",
+          "spaceTemplateStyle",
+          "spaceUuid"
+        ],
+        "type": "object",
+        "properties": {
+          "spaceId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "spaceUuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "spaceName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "spaceDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "spaceGoals": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "spaceSlotContents": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          "requiredPointsToComplete": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "requiredSpacesToEnter": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "spaceTemplate": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "spaceTemplateStyle": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "spaceStory": {
+            "$ref": "#/components/schemas/SpaceStory"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SpaceStory": {
+        "type": "object",
+        "properties": {
+          "introStory": {
+            "$ref": "#/components/schemas/StoryElement"
+          },
+          "outroStory": {
+            "$ref": "#/components/schemas/StoryElement"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StoryElement": {
+        "required": [
+          "elementModel",
+          "storyTexts"
+        ],
+        "type": "object",
+        "properties": {
+          "storyTexts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "elementModel": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Topic": {
+        "required": [
+          "topicContents",
+          "topicId",
+          "topicName"
+        ],
+        "type": "object",
+        "properties": {
+          "topicId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "topicName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "topicContents": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "World": {
+        "required": [
+          "elements",
+          "spaces",
+          "worldName",
+          "worldUuid"
+        ],
+        "type": "object",
+        "properties": {
+          "worldName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "worldUuid": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "worldDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "worldGoals": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Topic"
+            },
+            "nullable": true
+          },
+          "spaces": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Space"
+            }
+          },
+          "elements": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BaseElement"
+            }
+          },
+          "evaluationLink": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorldAtfResponse": {
+        "required": [
+          "amgVersion",
+          "fileVersion",
+          "language",
+          "world"
+        ],
+        "type": "object",
+        "properties": {
+          "fileVersion": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "amgVersion": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "author": {
+            "type": "string",
+            "nullable": true
+          },
+          "language": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "world": {
+            "$ref": "#/components/schemas/World"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorldResponse": {
+        "type": "object",
+        "properties": {
+          "worldName": {
+            "type": "string",
+            "nullable": true
+          },
+          "worldId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorldStatusResponse": {
+        "type": "object",
+        "properties": {
+          "worldId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "elements": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ElementScoreResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
