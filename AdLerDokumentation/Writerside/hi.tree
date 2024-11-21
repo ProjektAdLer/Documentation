@@ -272,6 +272,8 @@
                     <toc-element topic="HSE7.md"/>
                     <toc-element topic="HSE8.md"/>
                     <toc-element topic="temporäre-H5Ps-verwalten.md">
+                        <toc-element topic="Verzeichnis-zum-Abspielen-der-H5Ps.md"/>
+                        <toc-element topic="Verzeichnis-der-Content-Files.md"/>
                         <toc-element topic="HSE9.md"/>
                     </toc-element>
                     <toc-element topic="HSE2.md">

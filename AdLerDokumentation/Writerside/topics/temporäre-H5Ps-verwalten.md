@@ -1,6 +1,6 @@
 # temporäre H5Ps verwalten
 
 
-Wichtige Pfade:
+Wichtige Verzeichnisse:
 
-- 
+- C:\Users\%USERPROFILE%\AppData\Roaming\AdLerAuthoring\ContentFiles\

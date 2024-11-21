@@ -10,7 +10,7 @@ muss der H5P-Player das H5P anzeigen.
 
 ## Akzeptanzkriterien:
 
-
+- Das anzuzeigende H5P muss 
 
 - Anzeigen Bedeutung:
     - Der H5P-Player bindet eine Library 
