@@ -9,7 +9,8 @@ den H5P-Player zu starten.
 
 ## Akzeptanzkriterien:
 
-
+- Der Nutzende kann das Quellverzeichnis der einzulesenden H5Ps angeben.
+- Der Nutzende kann die URI angeben die zum [](Verzeichnis-zum-Abspielen-der-H5Ps.md) führt.
 
 
 ## Aktivitätsdiagramm:
