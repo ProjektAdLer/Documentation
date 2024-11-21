@@ -1,3 +1,6 @@
 # Verzeichnis zum Abspielen der H5Ps
 
-Start typing here...
+Die H5Ps werden zum Abspielen relativ zur Anwendung des externen Nutzers, 
+hier das Autorentool, wie folgt abgelegt. 
+
+Verzeichnis: \AuthoringTool\wwwroot\H5pStandalone\h5p-folder
