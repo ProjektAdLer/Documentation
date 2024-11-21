@@ -1,5 +1,5 @@
-# Verzeichnis der Content Files
+# Quellverzeichnis der einzulesenden H5Ps
 
-Hier speichert das [Autorentool](Autorentool-GE.md) alle Content Files
+Aus diesem Verzeichnis werden die H5Ps zum [](HSE2.md) oder [](HSE1.md) eingelesen.
 
-Pfad: "C:\Users\%USERPROFILE%\AppData\Roaming\AdLerAuthoring\ContentFiles"
+
