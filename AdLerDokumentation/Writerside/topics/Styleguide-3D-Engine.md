@@ -134,7 +134,7 @@ Folgende Grundrisse sind vorhanden:
 | 13-Elemente | ![](image3DStyleguideTExample.png)|
 | 15-Elemente | ![](image3DStyleguideDExample.png)|
 |---|---|
-## Naming in Blender
+## 6. Naming in Blender
 ### Benennung von Modellen
 - Es wird nur das "ParentModel" benannt. Die einzelnen Meshes, aus denen das Modell möglicherweise aufgebaut ist, müssen nicht benannt werden
 - Benennungen sollen deskriptiv sein, bzw. nach dem nachempfundenen Pendant aus der realen Welt benannt werden
