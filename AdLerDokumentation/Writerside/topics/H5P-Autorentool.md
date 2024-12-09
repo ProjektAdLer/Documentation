@@ -2,6 +2,6 @@
 
 Der Gesamtprozess des Startens eines H5Ps:
 
-![imageAuthoringToolH5pSartProcess.png](imageAuthoringToolH5pSartProcess.png)
+![imageAuthoringToolH5PStartProcess.png](imageAuthoringToolH5PStartProcess.png)
 
 Bezüglich display H5P: [](HSE2.md)
