@@ -15,4 +15,4 @@ den H5P-Player zu starten.
 
 ## Aktivitätsdiagramm:
 
-![imageH5pPlayerStartH5pPlayer2.png](imageH5pPlayerStartH5pPlayer2.png)
+![imageH5pPlayerStartH5pPlayer3.png](imageH5pPlayerStartH5pPlayer3.png)
