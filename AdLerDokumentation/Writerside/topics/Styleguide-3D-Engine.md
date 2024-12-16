@@ -136,6 +136,8 @@ Folgende Grundrisse sind vorhanden:
 |---|---|
 ## 6. Naming in Blender
 ### Benennung von Modellen
+Es wird zwischen verschiedenen Namings unterschieden. Naming in Blender ist nicht gleich, wie das Naming von Exporten. Dies ist so aufgrund der Übersichtlichkeit in den Programmen. Das Naming in Blender, macht die Modelle einfacher aufzubauen. Weitere Naming Konventionen werden in den folgenden Kapiteln festgelegt.
+
 - Es wird nur das "ParentModel" benannt. Die einzelnen Meshes, aus denen das Modell möglicherweise aufgebaut ist, müssen nicht benannt werden
 - Benennungen sollen deskriptiv sein, bzw. nach dem nachempfundenen Pendant aus der realen Welt benannt werden
 - Benennung der Modelle in ``camelCase`` -> ``bookShelf``
@@ -157,3 +159,24 @@ Folgende Grundrisse sind vorhanden:
 - 1:1 Kopien von Modellen, erhalten das Blender Standard Suffix ``.001`` (als fortlaufende Nummerierung bei Mehreren Variationen). Dies kann sinnvoll sein, wenn ein und das selbe Element in mehreren Themes Anwendung findet
 - Arrangements verschiedener Objekte zu einem gemeinsamen Objekt bekommen den Namen des titelgebenden Objekts (zentrales Objekt) mit dem Suffix ``Setup`` und den Namen bzw. Überbegriffen der sonstigen verwendeten Modelle -> Bsp.: ``tvLowboardSetupPlantsLamp``
 - Sehr ähnliche (aber nicht gleiche) Elemente werden mit einer fortlaufenden Nummerierung versehen, sofern sie keine sichtbaren und dadurch benennbaren, signifikanten Unterschiede aufweisen -> Bsp.: ``palmTree``, ``plamTree1``, ``palmTree2``. Die Nummerierung erfolgt Nullindiziert, wobei die Null um initialen Modell nicht angehängt wird.
+## 7. Naming von Exporten
+### 3D-Modelle
+Alle Exporte haben ein einheitliches Naming, um sie in den Repos besser finden und referenzieren zu können.
+
+Namings von exportierten 3D-Modellen...
+- sind in ``kebab-case`` (Kleingeschrieben mit Bindestrichen)
+- haben einen Buchstaben zur Kategoriebeschreibung zu Beginn
+  - ``d`` - Decoration
+  - ``l`` - Lernelement
+  - ``env`` - Environment / Umgebung
+  - ``a`` - Avatar (Generell für alle Avatar/NPC Modelle)
+- haben eine genauere Kategorie ausgeschrieben an zweiter Stelle (Beispiele)
+  - dcomp (Dekokomposition)
+  - roomcomp (Raumkomposition)
+  - icons (3D-Icons)
+  - npc
+  - image
+  - text
+  - plant
+  - ...
+- haben an dritter Stelle einen deskriptiven Namen, der die Repräsentation der Wirklichkeit beschreibt
