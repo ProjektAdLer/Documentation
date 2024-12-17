@@ -75,9 +75,9 @@
                     </tip>
                 </step>
                 <step>
-                    <p>Ziehen Sie die Datei mit der Dateiendung <control>.h5p</control> und die Datei mit der Dateiendung <control>.pdf</control> in den hellblauen Bereich, um Sie dem Autorentool hinzuzufügen.</p>
+                    <p>Ziehen Sie die Datei mit der Dateiendung <control>.h5p</control> in den hellblauen Bereich, um Sie dem Autorentool hinzuzufügen.</p>
                     <img src="imageManualWorkshopAddExternalLearningMaterialDragDrop.png" alt="Externes Lernmaterial Dropzone" width="200" thumbnail="true"/>
-                    <note>Sie haben erfolgreich Dateien als externes Lernmaterial dem Autorentool hinzugefügt.</note>
+                    <note>Sie haben erfolgreich eine Datei als externes Lernmaterial dem Autorentool hinzugefügt.</note>
                 </step>
                 <step>
                     <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
@@ -128,9 +128,9 @@
                     </control>
                 </note>
             </procedure>
-            <procedure title="c. Erstellen von drei Lernelementen" id="erstellenVonDreiLernelementen">
+            <procedure title="c. Erstellen von zwei Lernelementen" id="erstellenVonDreiLernelementen">
                 <step>
-                    <p>Klicken Sie den auf der Abbildung einen der freien Lernelement-Slots an.</p>
+                    <p>Klicken Sie, wie auf der Abbildung gezeigt, einen der freien Lernelement-Slots an.</p>
                     <img src="imageManualWorkshopFirstLearningElementSlotHighlighted.png" alt="Markierter Lernelement Slot des ersten hinzuzufügenden Lernelements" width="200" thumbnail="true" />
                 </step>
                 <step>
@@ -138,7 +138,7 @@
                     <p>Name:</p><code-block>Grundrisse Themen Avatar und 3D</code-block>
                     <p>Punkte:</p><code-block>1</code-block>
                     <p>Arbeitsaufwand:</p><code-block>1</code-block>
-                    <p>Schwierigkeitsgrad:</p><code-block>Keine Angabe</code-block>
+                    <p>Schwierigkeitsgrad:</p><code-block>Leicht</code-block>
                     <img src="imageManualWorkshopCreateLearningElementDialogEmpty.png" alt="Geöffneter Dialog Lernelement erstellen" width="200" thumbnail="true" />
                 </step>
                 <step>
@@ -147,7 +147,7 @@
                     <img src="imageManualWorkshopSearchLearningContent.png" alt="Lernelement erstellen Dialog mit Daten in Suchzeile für Externes Lernmaterial" width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <p>Weisen Sie das gefundene externe Lernmaterial mit einem Klick dem Lernelement zu.</p>
+                    <p>Weisen Sie das gefundene externe Lernmaterial mit einem Klick, auf den Listeneintrag, dem Lernelement zu.</p>
                     <tip>Sobald das externe Lernmaterial ausgewählt und dem Lernelement zugewiesen ist, ändert sich die Hintergrundfarbe des Listeneintrags in ein dunkleres Grau.
                     </tip>
                 </step>
@@ -171,16 +171,9 @@
                     </warning>
                     <img src="imageManualWorkshopElementInUnplacedElements.png" alt="Lernelemente per Drag and Drop in den Lernraum ziehen" width="200" thumbnail="true" />
                     <img src="imageManualWorkshopDragAndDropFromUnplacedElements.png" alt="Lernelemente per Drag and Drop in den Lernraum ziehen" width="200" thumbnail="true" />
-                    <p>Wiederholen Sie nun Schritt 2-7 dieses Kapitels <control>Erstellen von drei Lernelementen</control> und fügen Sie den restlichen freien Lernelement-Slots die zwei weiteren Lernelemente zu.</p>
-                    <tip>Entnehmen Sie untenstehend die Informationen zu den Metadaten der beiden Lernelemente.
+                    <p>Wiederholen Sie nun Schritt 2-7 dieses Kapitels <control>Erstellen von zwei Lernelementen</control> und fügen Sie in einem freien Lernelement-Slot das fehlende Lernelement ein.</p>
+                    <tip>Entnehmen Sie untenstehend die Informationen zu den Metadaten des Lernelements.
                         <p><b>Zweites Lernelement:</b></p>
-                        <p>Name:</p><code-block>Lernelemente</code-block>
-                        <p>Punkte:</p><code-block>1</code-block>
-                        <p>Arbeitsaufwand:</p><code-block>1</code-block>
-                        <p>Schwierigkeitsgrad:</p><code-block>Keine Angabe</code-block>
-                        <p>Dateiname (Externes Lernmaterial):</p><code-block>3D_LE_Lernelemente.pdf</code-block>
-                        <p>Beschreibung:</p><code-block>Informationsfolie zur Darstellung von Lernelementen in der 3D-Lernumgebung.</code-block>
-                        <p><b>Drittes Lernelement:</b></p>
                         <p>Name:</p><code-block>3D-Lernumgebung</code-block>
                         <p>Punkte:</p><code-block>3</code-block>
                         <p>Arbeitsaufwand:</p><code-block>2</code-block>
@@ -319,13 +312,14 @@
                     <p>Klicken Sie auf den Button <control>Plus</control> in der Kategorie <control>Story</control> und tragen Sie in den erscheinenden Textblock (Slide) den untenstehenden Story-Text ein.</p>
                     <p>Story-Text - Slide 1:</p><code-block>Es war mir eine Freude, Ihnen das Projekt AdLer vorzustellen.</code-block>
                     <img src="imageManualWorkshopAddStoryHighlightedButton.png" alt="Hervorgehobener Plus-Button zum Erstellen eines Story-Textes" width="200" thumbnail="true" />
-                    <note>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock (Slide) mit max. 550 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button <b>Plus</b> weitere Textblöcke (Slides) hinzugefügt werden.</note>
+                    <note>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock (Slide) mit max. 400 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button <b>Plus</b> weitere Textblöcke (Slides) hinzugefügt werden.</note>
                 </step>
                 <step>
-                    <p>Wiederholen Sie den vorherigen Schritt 3 für die beiden restlichen Story-Texte.</p>
-                    <p>Story-Text - Slide 2:</p><code-block>Ich glaube, ich deute Ihre Blicke richtig und sehe entzückte Gesichter. Wie schön! Glückliche Gäste - glücklicher Gastgeber.</code-block>
-                    <p>Story-Text - Slide 3:</p><code-block>Gehaben Sie sich wohl und herzlichsten Dank für Ihren Besuch!</code-block>
-                    <tip>Insgesamt handelt es sich um drei Story-Texte, die jeweils in einen Story-Textblock eingefügt werden. Kopieren Sie pro Slide also nur den jeweiligen Teil des Zellentexts.</tip>
+                    <p>Wiederholen Sie den vorherigen Schritt 3 für die restlichen Story-Texte.</p>
+                    <p>Story-Text - Slide 2:</p><code-block>Ich glaube, ich deute ihre Blicke richtig und sehe entzückte Gesichter. Wie schön! Glückliche Gäste - glücklicher Gastgeber.</code-block>
+                    <p>Story-Text - Slide 3:</p><code-block>Ich hoffe Sie konnten vieles aus dieser kleinen Vorstellung unseres Projekts mitnehmen. Wir sind sehr stolz auf das was wir geschaffen haben und freuen uns darauf, dass der AdLer in Zukunft in der Lehre eingesetzt wird.</code-block>
+                    <p>Story-Text - Slide 4:</p><code-block>Gehaben Sie sich wohl und herzlichsten Dank für Ihren Besuch!</code-block>
+                    <tip>Insgesamt handelt es sich um vier Story-Texte, die jeweils in einen Story-Textblock eingefügt werden. Kopieren Sie pro Slide also nur den jeweiligen Teil des Zellentexts.</tip>
                 </step>
                 <step>
                     <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den Button <control>OK</control> im unteren Bereich des geöffneten Tabs <control>Storyelement erstellen</control>.</p>
@@ -351,7 +345,7 @@
                     <p>Punkte:</p><code-block>1</code-block>
                     <p>Arbeitsaufwand:</p><code-block>1</code-block>
                     <p>Schwierigkeitsgrad:</p><code-block>Keine Angabe</code-block>
-                    <p>Beschreibung:</p><code-block>Es ist Mittwoch. Das Jour fixe steht an. Die AdLer-Projektbeteiligten vom Standort Aschaffenburg sind zusammen gekommen, um Lukas bei dessen Präsentation zu lauschen.</code-block>
+                    <p>Beschreibung:</p><code-block>Es ist Mittwoch. Das Jour fixe steht an. Die AdLer-Projektbeteiligten vom Standort Aschaffenburg sind zusammengekommen, um Lukas bei dessen Präsentation zu lauschen.</code-block>
                     <p>Dateiname (Externes Lernmaterial):</p><code-block>Vielen Dank</code-block>
                     <tip>Gehen Sie bei der Erstellung des Lernelements wie in Kapitel <a href="#erstellenVonDreiLernelementen">"Erstellen von drei Lernelementen"</a> vor.</tip>
                 </step>
