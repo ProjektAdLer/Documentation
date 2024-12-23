@@ -227,7 +227,7 @@
                     </tip>
                 </step>
                 <step>
-                    <p>Wiederholen Sie Schritt 4 für den Lernraum <control>Moodle und 3D-Lernumgebung</control> und verbinden Sie diesen ebenfalls mit der zuvor erstellten <control>Und-Verbindung</control>.</p>
+                    <p>Wiederholen Sie Schritt 4 für den Lernraum <control>Moodle</control> und verbinden Sie diesen ebenfalls mit der zuvor erstellten <control>Und-Verbindung</control>.</p>
                     <warning>
                         <p>Erstellen Sie keine zweite <control>Und-Verbindung</control></p>
                     </warning>
@@ -309,17 +309,17 @@
                     <img src="imageManualWorkshopCreateStoryElementFormHighlighted.png" alt="Hervorgehobener Bereich Storyelement erstellen" width="200" thumbnail="true" />
                 </step>
                 <step>
-                    <p>Klicken Sie auf den Button <control>Plus</control> in der Kategorie <control>Story</control> und tragen Sie in den erscheinenden Textblock (Slide) den untenstehenden Story-Text ein.</p>
-                    <p>Story-Text - Slide 1:</p><code-block>Es war mir eine Freude, Ihnen das Projekt AdLer vorzustellen.</code-block>
+                    <p>Klicken Sie auf den Button <control>Plus</control> in der Kategorie <control>Story</control> und tragen Sie in den erscheinenden Textblock den untenstehenden Story-Text ein.</p>
+                    <p>Story-Text - Textblock 1:</p><code-block>Es war mir eine Freude, Ihnen das Projekt AdLer vorzustellen.</code-block>
                     <img src="imageManualWorkshopAddStoryHighlightedButton.png" alt="Hervorgehobener Plus-Button zum Erstellen eines Story-Textes" width="200" thumbnail="true" />
-                    <note>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock (Slide) mit max. 400 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button <b>Plus</b> weitere Textblöcke (Slides) hinzugefügt werden.</note>
+                    <note>Mit Klick auf den Button <control>Plus</control> erscheint ein zusätzlicher Textblock mit max. 400 Zeichen, in den der Story-Text eingetragen wird. Für längere Story-Texte können über den Button <b>Plus</b> weitere Textblöcke hinzugefügt werden.</note>
                 </step>
                 <step>
                     <p>Wiederholen Sie den vorherigen Schritt 3 für die restlichen Story-Texte.</p>
-                    <p>Story-Text - Slide 2:</p><code-block>Ich glaube, ich deute ihre Blicke richtig und sehe entzückte Gesichter. Wie schön! Glückliche Gäste - glücklicher Gastgeber.</code-block>
-                    <p>Story-Text - Slide 3:</p><code-block>Ich hoffe Sie konnten vieles aus dieser kleinen Vorstellung unseres Projekts mitnehmen. Wir sind sehr stolz auf das was wir geschaffen haben und freuen uns darauf, dass der AdLer in Zukunft in der Lehre eingesetzt wird.</code-block>
-                    <p>Story-Text - Slide 4:</p><code-block>Gehaben Sie sich wohl und herzlichsten Dank für Ihren Besuch!</code-block>
-                    <tip>Insgesamt handelt es sich um vier Story-Texte, die jeweils in einen Story-Textblock eingefügt werden. Kopieren Sie pro Slide also nur den jeweiligen Teil des Zellentexts.</tip>
+                    <p>Story-Text - Textblock 2:</p><code-block>Ich glaube, ich deute ihre Blicke richtig und sehe entzückte Gesichter. Wie schön! Glückliche Gäste - glücklicher Gastgeber.</code-block>
+                    <p>Story-Text - Textblock 3:</p><code-block>Ich hoffe Sie konnten vieles aus dieser kleinen Vorstellung unseres Projekts mitnehmen. Wir sind sehr stolz auf das was wir geschaffen haben und freuen uns darauf, dass der AdLer in Zukunft in der Lehre eingesetzt wird.</code-block>
+                    <p>Story-Text - Textblock 4:</p><code-block>Gehaben Sie sich wohl und herzlichsten Dank für Ihren Besuch!</code-block>
+                    <tip>Insgesamt handelt es sich um vier Story-Texte, die jeweils in einen Story-Textblock eingefügt werden. Kopieren Sie pro Textblock also nur den jeweiligen Teil des Zellentexts.</tip>
                 </step>
                 <step>
                     <p>Bestätigen Sie Ihre Eingaben durch einen Klick auf den Button <control>OK</control> im unteren Bereich des geöffneten Tabs <control>Storyelement erstellen</control>.</p>
