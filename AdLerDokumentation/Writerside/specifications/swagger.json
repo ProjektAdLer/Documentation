@@ -156,6 +156,117 @@
         }
       }
     },
+    "/api/Users/{playerId}/Avatar": {
+      "get": {
+        "tags": [
+          "Avatar"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "playerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Avatar"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "playerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AvatarApiDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AvatarApiDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AvatarApiDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Elements/World/{worldId}/Element/{elementId}": {
       "patch": {
         "tags": [
@@ -363,8 +474,8 @@
         ],
         "parameters": [
           {
-            "name": "WebServiceToken",
-            "in": "query",
+            "name": "token",
+            "in": "header",
             "schema": {
               "type": "string"
             }
@@ -455,142 +566,6 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/LMSUserTokenResponse"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/PlayerData": {
-      "get": {
-        "tags": [
-          "Player"
-        ],
-        "summary": "Get player data",
-        "parameters": [
-          {
-            "name": "token",
-            "in": "header",
-            "description": "LMS Token",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              }
-            }
-          }
-        }
-      },
-      "patch": {
-        "tags": [
-          "Player"
-        ],
-        "summary": "Update player data",
-        "parameters": [
-          {
-            "name": "token",
-            "in": "header",
-            "description": "LMS Token",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "description": "The Value to update in JsonPatch Notation",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PlayerDataJsonPatchDocument"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PlayerDataJsonPatchDocument"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/PlayerDataJsonPatchDocument"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              }
-            }
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Player"
-        ],
-        "summary": "Delete player data",
-        "parameters": [
-          {
-            "name": "token",
-            "in": "header",
-            "description": "LMS Token",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
                 }
               }
             }
@@ -922,6 +897,84 @@
         },
         "additionalProperties": false
       },
+      "AvatarApiDto": {
+        "type": "object",
+        "properties": {
+          "eyebrows": {
+            "type": "string",
+            "nullable": true
+          },
+          "eyes": {
+            "type": "string",
+            "nullable": true
+          },
+          "nose": {
+            "type": "string",
+            "nullable": true
+          },
+          "mouth": {
+            "type": "string",
+            "nullable": true
+          },
+          "hair": {
+            "type": "string",
+            "nullable": true
+          },
+          "beard": {
+            "type": "string",
+            "nullable": true
+          },
+          "hairColor": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "headgear": {
+            "type": "string",
+            "nullable": true
+          },
+          "glasses": {
+            "type": "string",
+            "nullable": true
+          },
+          "shirt": {
+            "type": "string",
+            "nullable": true
+          },
+          "shirtColor": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "pants": {
+            "type": "string",
+            "nullable": true
+          },
+          "pantsColor": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "shoes": {
+            "type": "string",
+            "nullable": true
+          },
+          "shoesColor": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "skinColor": {
+            "type": "string",
+            "nullable": true
+          },
+          "roundness": {
+            "type": "number",
+            "format": "float"
+          }
+        },
+        "additionalProperties": false
+      },
       "BaseElement": {
         "required": [
           "elementCategory",
@@ -1110,70 +1163,6 @@
           }
         },
         "additionalProperties": false
-      },
-      "PlayerAvatarGender": {
-        "enum": [
-          0,
-          1
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "PlayerDataJsonPatchDocument": {
-        "type": "object",
-        "properties": {
-          "operations": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/PlayerDataOperation"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PlayerDataOperation": {
-        "type": "object",
-        "properties": {
-          "value": {
-            "nullable": true
-          },
-          "path": {
-            "type": "string",
-            "nullable": true
-          },
-          "op": {
-            "type": "string",
-            "nullable": true
-          },
-          "from": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PlayerDataResponse": {
-        "type": "object",
-        "properties": {
-          "playerGender": {
-            "$ref": "#/components/schemas/PlayerAvatarGender"
-          },
-          "playerWorldColor": {
-            "$ref": "#/components/schemas/PlayerWorldColor"
-          }
-        },
-        "additionalProperties": false
-      },
-      "PlayerWorldColor": {
-        "enum": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "type": "integer",
-        "format": "int32"
       },
       "ProblemDetails": {
         "type": "object",

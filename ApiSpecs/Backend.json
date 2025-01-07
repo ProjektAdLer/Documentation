@@ -5,92 +5,12 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Elements/World/{worldId}/Element/{elementId}": {
-      "patch": {
-        "tags": [
-          "Elements"
-        ],
-        "summary": "Try to Score a Learning Element",
-        "parameters": [
-          {
-            "name": "token",
-            "in": "header",
-            "description": "LMS User Token",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "elementId",
-            "in": "path",
-            "description": "Id of the Element in the World",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "worldId",
-            "in": "path",
-            "description": "Id of the World",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "description": "Params needed for scoring uf h5p Elements",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ScoreElementParams"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ScoreElementParams"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ScoreElementParams"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ScoreElementResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ScoreElementResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ScoreElementResponse"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/Elements/World/{worldId}/Element/{elementId}/Question/{questionId}": {
       "patch": {
         "tags": [
-          "Elements"
+          "AdaptivityElement"
         ],
-        "summary": "Answer a Question in a an Adaptivity Learning Element",
+        "summary": "Answer a Question in an Adaptivity Learning Element",
         "parameters": [
           {
             "name": "token",
@@ -157,7 +77,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -182,7 +102,7 @@
     "/api/Elements/World/{worldId}/Element/{elementId}/Adaptivity": {
       "get": {
         "tags": [
-          "Elements"
+          "AdaptivityElement"
         ],
         "summary": "Get the Details of an Adaptivity Element",
         "parameters": [
@@ -214,7 +134,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -229,6 +149,197 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/GetAdaptivityElementDetailsResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users/{playerId}/Avatar": {
+      "get": {
+        "tags": [
+          "Avatar"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "playerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Avatar"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "playerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AvatarApiDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AvatarApiDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AvatarApiDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvatarApiDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Elements/World/{worldId}/Element/{elementId}": {
+      "patch": {
+        "tags": [
+          "Elements"
+        ],
+        "summary": "Try to Score a Learning Element",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "description": "LMS User Token",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "elementId",
+            "in": "path",
+            "description": "Id of the Element in the World",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "worldId",
+            "in": "path",
+            "description": "Id of the World",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Params needed for scoring uf h5p Elements",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScoreElementParams"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScoreElementParams"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScoreElementParams"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScoreElementResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScoreElementResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScoreElementResponse"
                 }
               }
             }
@@ -274,7 +385,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -334,7 +445,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -363,8 +474,8 @@
         ],
         "parameters": [
           {
-            "name": "WebServiceToken",
-            "in": "query",
+            "name": "token",
+            "in": "header",
             "schema": {
               "type": "string"
             }
@@ -372,7 +483,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -412,7 +523,7 @@
             }
           },
           "500": {
-            "description": "Server Error"
+            "description": "Internal Server Error"
           }
         }
       }
@@ -440,7 +551,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -455,142 +566,6 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/LMSUserTokenResponse"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/PlayerData": {
-      "get": {
-        "tags": [
-          "Player"
-        ],
-        "summary": "Get player data",
-        "parameters": [
-          {
-            "name": "token",
-            "in": "header",
-            "description": "LMS Token",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              }
-            }
-          }
-        }
-      },
-      "patch": {
-        "tags": [
-          "Player"
-        ],
-        "summary": "Update player data",
-        "parameters": [
-          {
-            "name": "token",
-            "in": "header",
-            "description": "LMS Token",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "description": "The Value to update in JsonPatch Notation",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PlayerDataJsonPatchDocument"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PlayerDataJsonPatchDocument"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/PlayerDataJsonPatchDocument"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PlayerDataResponse"
-                }
-              }
-            }
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Player"
-        ],
-        "summary": "Delete player data",
-        "parameters": [
-          {
-            "name": "token",
-            "in": "header",
-            "description": "LMS Token",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
                 }
               }
             }
@@ -626,7 +601,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -674,7 +649,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -722,7 +697,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -762,7 +737,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -787,7 +762,7 @@
         "tags": [
           "Worlds"
         ],
-        "summary": "Uploads a World to the Backend\r\nBeware: The World also has to be imported into the LMS manually (for now)",
+        "summary": "Uploads a World to the Backend",
         "parameters": [
           {
             "name": "token",
@@ -827,7 +802,7 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -877,7 +852,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -903,6 +878,11 @@
   "components": {
     "schemas": {
       "AnswerAdaptivityQuestionResponse": {
+        "required": [
+          "elementScore",
+          "gradedQuestion",
+          "gradedTask"
+        ],
         "type": "object",
         "properties": {
           "elementScore": {
@@ -913,6 +893,84 @@
           },
           "gradedQuestion": {
             "$ref": "#/components/schemas/GradedQuestion"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AvatarApiDto": {
+        "type": "object",
+        "properties": {
+          "eyebrows": {
+            "type": "string",
+            "nullable": true
+          },
+          "eyes": {
+            "type": "string",
+            "nullable": true
+          },
+          "nose": {
+            "type": "string",
+            "nullable": true
+          },
+          "mouth": {
+            "type": "string",
+            "nullable": true
+          },
+          "hair": {
+            "type": "string",
+            "nullable": true
+          },
+          "beard": {
+            "type": "string",
+            "nullable": true
+          },
+          "hairColor": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "headgear": {
+            "type": "string",
+            "nullable": true
+          },
+          "glasses": {
+            "type": "string",
+            "nullable": true
+          },
+          "shirt": {
+            "type": "string",
+            "nullable": true
+          },
+          "shirtColor": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "pants": {
+            "type": "string",
+            "nullable": true
+          },
+          "pantsColor": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "shoes": {
+            "type": "string",
+            "nullable": true
+          },
+          "shoesColor": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "skinColor": {
+            "type": "string",
+            "nullable": true
+          },
+          "roundness": {
+            "type": "number",
+            "format": "float"
           }
         },
         "additionalProperties": false
@@ -932,8 +990,8 @@
             "format": "int32"
           },
           "elementUuid": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "format": "uuid"
           },
           "elementName": {
             "minLength": 1,
@@ -953,6 +1011,10 @@
       "CreateWorldResponse": {
         "type": "object",
         "properties": {
+          "worldId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "worldNameInLms": {
             "type": "string",
             "nullable": true
@@ -1102,70 +1164,6 @@
         },
         "additionalProperties": false
       },
-      "PlayerAvatarGender": {
-        "enum": [
-          0,
-          1
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "PlayerDataJsonPatchDocument": {
-        "type": "object",
-        "properties": {
-          "operations": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/PlayerDataOperation"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PlayerDataOperation": {
-        "type": "object",
-        "properties": {
-          "value": {
-            "nullable": true
-          },
-          "path": {
-            "type": "string",
-            "nullable": true
-          },
-          "op": {
-            "type": "string",
-            "nullable": true
-          },
-          "from": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PlayerDataResponse": {
-        "type": "object",
-        "properties": {
-          "playerGender": {
-            "$ref": "#/components/schemas/PlayerAvatarGender"
-          },
-          "playerWorldColor": {
-            "$ref": "#/components/schemas/PlayerWorldColor"
-          }
-        },
-        "additionalProperties": false
-      },
-      "PlayerWorldColor": {
-        "enum": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
       "ProblemDetails": {
         "type": "object",
         "properties": {
@@ -1268,6 +1266,41 @@
             "type": "string"
           },
           "spaceTemplateStyle": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "spaceStory": {
+            "$ref": "#/components/schemas/SpaceStory"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SpaceStory": {
+        "type": "object",
+        "properties": {
+          "introStory": {
+            "$ref": "#/components/schemas/StoryElement"
+          },
+          "outroStory": {
+            "$ref": "#/components/schemas/StoryElement"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StoryElement": {
+        "required": [
+          "elementModel",
+          "storyTexts"
+        ],
+        "type": "object",
+        "properties": {
+          "storyTexts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "elementModel": {
             "minLength": 1,
             "type": "string"
           }
