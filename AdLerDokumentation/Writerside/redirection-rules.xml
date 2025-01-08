@@ -338,4 +338,77 @@
         <description>Created after removal of "API Reference" from AdLerDokumentation</description>
         <accepts>API_Reference2.html</accepts>
     </rule>
+    <rule id="69ec51f5">
+        <description>Created after removal of "Gets the Status of all Elements in a World" from AdLerDokumentation
+        </description>
+        <accepts>Gets_the_Status_of_all_Elements_in_a_World3.html</accepts>
+    </rule>
+    <rule id="2f65dac7">
+        <description>Created after removal of "Uploads a World to the Backend" from AdLerDokumentation</description>
+        <accepts>Uploads_a_World_to_the_Backend2.html</accepts>
+    </rule>
+    <rule id="6660e813">
+        <description>Created after removal of "Gets All Worlds a User is enrolled in" from AdLerDokumentation
+        </description>
+        <accepts>Gets_All_Worlds_a_User_is_enrolled_in3.html</accepts>
+    </rule>
+    <rule id="41ee2001">
+        <description>Created after removal of "Deletes a World by its Id" from AdLerDokumentation</description>
+        <accepts>Deletes_a_World_by_its_Id3.html</accepts>
+    </rule>
+    <rule id="205ec971">
+        <description>Created after removal of "Gets the ATF File of a World" from AdLerDokumentation</description>
+        <accepts>Gets_the_ATF_File_of_a_World3.html</accepts>
+    </rule>
+    <rule id="4895aaa5">
+        <description>Created after removal of "Gets all Worlds that a Author has created" from AdLerDokumentation
+        </description>
+        <accepts>Gets_all_Worlds_that_a_Author_has_created3.html</accepts>
+    </rule>
+    <rule id="15846427">
+        <description>Created after removal of "/api/Users/Login GET" from AdLerDokumentation</description>
+        <accepts>api_Users_Login_GET3.html</accepts>
+    </rule>
+    <rule id="4ba45970">
+        <description>Created after removal of "/api/Users/UserData GET" from AdLerDokumentation</description>
+        <accepts>api_Users_UserData_GET3.html</accepts>
+    </rule>
+    <rule id="46f4c8bc">
+        <description>Created after removal of "Gets the Source of a Learning Element, which is needed to display it"
+            from AdLerDokumentation
+        </description>
+        <accepts>Gets_the_Source_of_a_Learning_Element_which_is_needed_to_display_it3.html</accepts>
+    </rule>
+    <rule id="2086eb64">
+        <description>Created after removal of "Gets a Score for the Learning Element" from AdLerDokumentation
+        </description>
+        <accepts>Gets_a_Score_for_the_Learning_Element3.html</accepts>
+    </rule>
+    <rule id="72be64ed">
+        <description>Created after removal of "Try to Score a Learning Element" from AdLerDokumentation</description>
+        <accepts>Try_to_Score_a_Learning_Element3.html</accepts>
+    </rule>
+    <rule id="1ff00634">
+        <description>Created after removal of "/api/Users/{playerId}/Avatar POST" from AdLerDokumentation</description>
+        <accepts>api_Users_playerId_Avatar_POST.html</accepts>
+    </rule>
+    <rule id="3c737615">
+        <description>Created after removal of "/api/Users/{playerId}/Avatar GET" from AdLerDokumentation</description>
+        <accepts>api_Users_playerId_Avatar_GET.html</accepts>
+    </rule>
+    <rule id="4a8d2408">
+        <description>Created after removal of "Get the Details of an Adaptivity Element" from AdLerDokumentation
+        </description>
+        <accepts>Get_the_Details_of_an_Adaptivity_Element3.html</accepts>
+    </rule>
+    <rule id="f7f0fea">
+        <description>Created after removal of "Answer a Question in an Adaptivity Learning Element" from
+            AdLerDokumentation
+        </description>
+        <accepts>Answer_a_Question_in_an_Adaptivity_Learning_Element2.html</accepts>
+    </rule>
+    <rule id="23d4aa03">
+        <description>Created after removal of "API Reference" from AdLerDokumentation</description>
+        <accepts>API_Reference3.html</accepts>
+    </rule>
 </rules>
