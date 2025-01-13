@@ -182,7 +182,9 @@ Namings von exportierten 3D-Modellen und Grafiken...
   - text
   - plant
   - ...
-- haben an dritter Stelle einen deskriptiven Namen, der die Repräsentation der Wirklichkeit beschreibt
+- haben ab dritter Stelle einen deskriptiven Namen, der die Repräsentation der Wirklichkeit beschreibt
+-> Ab dritter Stelle aus dem Grund, da es auch hier nötig sein kann noch weitere Unterategorien anzugeben
+Bsp.: ``aa-beard-mustache-wise``
 
 ### Ausnahme: Avatar-Editor Assets (Modelle) und dazugehörige Thumbnails
 Aus Entwickelndensicht ist es wichtig, dass die Thumbnails und die 3D-Modelle denselben Dateinamen tragen. Daher entfällt bei diesen Dateien, die eineindeutige Benennung durch bspw. die Kategorie an zweiter Stelle.
