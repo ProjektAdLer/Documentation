@@ -170,6 +170,7 @@ Namings von exportierten 3D-Modellen und Grafiken...
   - ``l`` - Lernelement
   - ``env`` - Environment / Umgebung
   - ``a`` - Avatar (Generell für alle Avatar/NPC Modelle)
+  - ``aa`` - Avatar Asset
 - haben eine genauere Kategorie ausgeschrieben an zweiter Stelle (Beispiele)
   - dcomp (Dekokomposition)
   - roomcomp (Raumkomposition)
