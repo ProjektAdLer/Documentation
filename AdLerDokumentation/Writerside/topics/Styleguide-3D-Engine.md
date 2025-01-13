@@ -163,7 +163,7 @@ Es wird zwischen verschiedenen Namings unterschieden. Naming in Blender ist nich
 ### 3D-Modelle
 Alle Exporte haben ein einheitliches Naming, um sie in den Repos besser finden und referenzieren zu können.
 
-Namings von exportierten 3D-Modellen...
+Namings von exportierten 3D-Modellen und Grafiken...
 - sind in ``kebab-case`` (Kleingeschrieben mit Bindestrichen)
 - haben einen Buchstaben zur Kategoriebeschreibung zu Beginn
   - ``d`` - Decoration
@@ -173,10 +173,15 @@ Namings von exportierten 3D-Modellen...
 - haben eine genauere Kategorie ausgeschrieben an zweiter Stelle (Beispiele)
   - dcomp (Dekokomposition)
   - roomcomp (Raumkomposition)
-  - icons (3D-Icons)
+  - 3dicon (3D-Icons)
+  - icon (2D-Icons)
+  - avatar
   - npc
   - image
   - text
   - plant
   - ...
 - haben an dritter Stelle einen deskriptiven Namen, der die Repräsentation der Wirklichkeit beschreibt
+
+### Ausnahme: Avatar-Editor Assets (Modelle) und dazugehörige Thumbnails
+Aus Entwickelndensicht ist es wichtig, dass die Thumbnails und die 3D-Modelle denselben Dateinamen tragen. Daher entfällt bei diesen Dateien, die eineindeutige Benennung durch bspw. die Kategorie an zweiter Stelle.
