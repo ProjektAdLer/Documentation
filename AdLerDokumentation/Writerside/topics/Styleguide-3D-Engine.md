@@ -134,8 +134,8 @@ Folgende Grundrisse sind vorhanden:
 | 13-Elemente | ![](image3DStyleguideTExample.png)|
 | 15-Elemente | ![](image3DStyleguideDExample.png)|
 |---|---|
-## 6. Naming in Blender
-### Benennung von Modellen
+## 6. Naming
+### Benennung von 3D-Modellen in Blender
 Es wird zwischen verschiedenen Namings unterschieden. Naming in Blender ist nicht gleich, wie das Naming von Exporten. Dies ist so aufgrund der Übersichtlichkeit in den Programmen. Das Naming in Blender, macht die Modelle einfacher aufzubauen. Weitere Naming Konventionen werden in den folgenden Kapiteln festgelegt.
 
 - Es wird nur das "ParentModel" benannt. Die einzelnen Meshes, aus denen das Modell möglicherweise aufgebaut ist, müssen nicht benannt werden
@@ -159,13 +159,13 @@ Es wird zwischen verschiedenen Namings unterschieden. Naming in Blender ist nich
 - 1:1 Kopien von Modellen, erhalten das Blender Standard Suffix ``.001`` (als fortlaufende Nummerierung bei Mehreren Variationen). Dies kann sinnvoll sein, wenn ein und das selbe Element in mehreren Themes Anwendung findet
 - Arrangements verschiedener Objekte zu einem gemeinsamen Objekt bekommen den Namen des titelgebenden Objekts (zentrales Objekt) mit dem Suffix ``Setup`` und den Namen bzw. Überbegriffen der sonstigen verwendeten Modelle -> Bsp.: ``tvLowboardSetupPlantsLamp``
 - Sehr ähnliche (aber nicht gleiche) Elemente werden mit einer fortlaufenden Nummerierung versehen, sofern sie keine sichtbaren und dadurch benennbaren, signifikanten Unterschiede aufweisen -> Bsp.: ``palmTree``, ``plamTree1``, ``palmTree2``. Die Nummerierung erfolgt Nullindiziert, wobei die Null um initialen Modell nicht angehängt wird.
-## 7. Naming von Exporten
-### 3D-Modelle
+## 7. Naming von Assets im Repo
+### Allgemein
 Alle Exporte haben ein einheitliches Naming, um sie in den Repos besser finden und referenzieren zu können.
 
-Namings von exportierten 3D-Modellen und Grafiken...
+Namings von exportierten Assets...
 - sind in ``kebab-case`` (Kleingeschrieben mit Bindestrichen)
-- haben einen Buchstaben zur Kategoriebeschreibung zu Beginn
+- haben einen Buchstaben zur Kategoriebeschreibung zu Beginn (alle nachfolgend aufgeführt)
 
 | Kürzel | Bezeichnung |
 | d | Decoration |
@@ -173,7 +173,7 @@ Namings von exportierten 3D-Modellen und Grafiken...
 | env | Environment / Umgebung |
 | a | Avatar |
 | aa | Avatar Asset |
-| ps | Pausenslide |
+| g | Grafik |
 |---|---|
 
 - haben eine genauere Kategorie ausgeschrieben an zweiter Stelle (Beispiele)
@@ -193,3 +193,9 @@ Bsp.: ``aa-beard-mustache-wise``
 
 ### Ausnahme: Avatar-Editor Assets (Modelle) und dazugehörige Thumbnails
 Aus Entwickelndensicht ist es wichtig, dass die Thumbnails und die 3D-Modelle denselben Dateinamen tragen. Daher entfällt bei diesen Dateien, die eineindeutige Benennung durch bspw. die Kategorie an zweiter Stelle.
+
+### Spezifiertes Naming einzelner Kategorien
+#### Naming von Pausenhinweisgrafiken
+Die Namen setzen sich zusammen aus:
+
+- Kürzel + "break" + Nummerierung der Grafik (bspw. "B3") + slide[Nummer]
