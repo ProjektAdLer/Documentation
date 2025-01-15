@@ -166,11 +166,16 @@ Alle Exporte haben ein einheitliches Naming, um sie in den Repos besser finden u
 Namings von exportierten 3D-Modellen und Grafiken...
 - sind in ``kebab-case`` (Kleingeschrieben mit Bindestrichen)
 - haben einen Buchstaben zur Kategoriebeschreibung zu Beginn
-  - ``d`` - Decoration
-  - ``l`` - Lernelement
-  - ``env`` - Environment / Umgebung
-  - ``a`` - Avatar (Generell für alle Avatar/NPC Modelle)
-  - ``aa`` - Avatar Asset
+
+| Kürzel | Bezeichnung |
+| d | Decoration |
+| l | Lernelement |
+| env | Environment / Umgebung |
+| a | Avatar |
+| aa | Avatar Asset |
+| ps | Pausenslide |
+|---|---|
+
 - haben eine genauere Kategorie ausgeschrieben an zweiter Stelle (Beispiele)
   - dcomp (Dekokomposition)
   - roomcomp (Raumkomposition)
