@@ -36,10 +36,10 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: docs
+          name: ${{ vars.WRITERSIDE_WORKFLOW_ARTIFACT }}
 
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq ${{ vars.WRITERSIDE_WORKFLOW_ARTIFACT }} -d dir
+        run: unzip -O UTF-8 -qq docs -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
