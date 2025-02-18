@@ -889,6 +889,7 @@
             <toc-element topic="3D-Asset-Creation-Workflow-Character-Animation.md"/>
             <toc-element topic="3D-Asset-Creation-Workflow-Code-Einbindung.md"/>
         </toc-element>
+        <toc-element topic="3D-Asset-Creation-Avatar-Editor.md"/>
     </toc-element>
     <toc-element topic="Beispielanwendungen.md">
         <toc-element topic="manualWorkshop.md">
