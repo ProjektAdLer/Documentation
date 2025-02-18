@@ -220,7 +220,7 @@
                     </control>
                 </note>
                 <warning>
-                    <p>Alle Daten werden am Ende des Tages wieder vom PC gelöscht. Sollten Sie Ihre im Autorentool erstellte Lernwelt im Nachgang nochmals weiterbearbeiten bzw. darauf zugreifen wollen, müssen Sie den Zwischenstand Ihrer Lernwelt zwingend <a href="ManualAuthoringBedienungKopfzeileLernweltArchivieren.topic">archivieren</a> und die als ZIP-Datei gespeicherte Lernwelt auf einem externen Dateiträger sichern.</p>
+                    <p>Alle Daten werden am Ende des Tages wieder von Pool PC's gelöscht. Sollten Sie Ihre im Autorentool erstellte Lernwelt im Nachgang nochmals weiterbearbeiten bzw. darauf zugreifen wollen, müssen Sie den Zwischenstand Ihrer Lernwelt zwingend <a href="ManualAuthoringBedienungKopfzeileLernweltArchivieren.topic">archivieren</a> und die als ZIP-Datei gespeicherte Lernwelt auf einem externen Dateiträger sichern.</p>
                 </warning>
             </procedure>
         </tab>
