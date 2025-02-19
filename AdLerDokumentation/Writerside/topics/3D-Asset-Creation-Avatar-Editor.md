@@ -1,4 +1,4 @@
-# 3D Asset Creation Avatar Editor
+# 3D Avatar Asset Implementation
 
 Die Dokumentation, zu Erzeugung und Export von Assets, ist hier beschrieben: <br>
 [Link zu AdLer Wiki Artikel](https://wiki.projekt-adler.eu/de/AdLerEngine/Entwicklung/AdLerEngine)
