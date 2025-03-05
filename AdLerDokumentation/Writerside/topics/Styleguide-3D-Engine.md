@@ -169,6 +169,7 @@ Namings von exportierten Assets...
 
 | Kürzel | Bezeichnung |
 | d | Decoration |
+| id | Interactive Decoration |
 | l | Lernelement |
 | env | Environment / Umgebung |
 | a | Avatar |
