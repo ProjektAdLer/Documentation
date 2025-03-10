@@ -871,6 +871,7 @@
             <toc-element topic="Adler-installieren-VP.md"/>
         </toc-element>
         <toc-element topic="Entwickelnde-BD.md">
+            <toc-element topic="Integration-und-E2E-Testing.md"/>
             <toc-element
                     topic="Technischer-Leitfaden-Branch-Erstellung-und-Bearbeitung-in-der-ProjektAdLer-Dokumentation.md"/>
             <toc-element topic="ManualAuthoringEinrichtenUndKompilieren.md"/>
