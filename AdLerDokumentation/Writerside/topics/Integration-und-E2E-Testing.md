@@ -125,3 +125,37 @@ Auch andere Daten, wie z.B. die Login-Daten, sind in der ".env" Datei zu finden.
 ![PlaywrightCodegen.png](PlaywrightCodegen.png)
 
 Auf dem Bild ist der Codegenerator zu sehen. Rechts wird der Test-Code automatisch generiert. Diesen Code können wir dann in unseren Test einfügen.
+
+#### 5.3 Test-Code anpassen
+
+Den Code, den wir vom Generator bekommen haben bringt uns sehr weit. Allerdings müssen wir ihn von Hand noch ein wenig aufräumen oder erweitern.
+Hier wurde beispielsweise Doppelte Klicks, welche oben entstanden sind, entfernt.
+
+Das auch das öffnen des Lernelements über die Accessibility-Funktion wurde manuell hinzugefügt.
+
+```typescript
+test('Student can Acces first Learning Element in the Room', async ({page}) => {
+// So kommt man zu dem "BaseUrl", welche in den Projekteinstellungen gesetzt wurde. In unserem Fall die AdLer
+// Engine
+await page.goto('/');
+// All das wurde von dem Codegenerator erstellt
+await page.setViewportSize({width: 1920, height: 1080});
+await page.getByTestId('userName').fill('integration_test_student');
+await page.getByTestId('password').fill('Student1234!1234');
+await page.getByTestId('loginButton').click();
+await page.getByRole('button').filter({hasText: /^$/}).nth(1).click();
+await page.getByRole('button', {name: 'testwelt'}).click();
+await page.getByRole('button', {name: 'Lernwelt öffnen!'}).click();
+await page.getByTestId('rf__node-1').getByRole('button', {name: 'testraum'}).click();
+await page.getByRole('button', {name: 'Lernraum betreten!'}).click();
+await page.getByRole('button', {name: 'Weiter zum Lernraum'}).click();
+
+  // Das Lernelement über die Accessibility-Funktion öffnen
+  await page.locator('#accessibility-host > button:nth-child(1)').dispatchEvent('click');
+
+  // Ein Assert. Dieser ist ebenfalls mit dem Generator erstellt worden
+  await expect(page.getByRole('paragraph')).toContainText('test');
+});
+```
+Der Assert allerdings kann wieder über den Code Generator gemacht werden. Dafür einfach über die oberer Toolleiste im Generator den Knopf
+"Assert Test" drücken und den Text ausfwähen, den man haben will. 
