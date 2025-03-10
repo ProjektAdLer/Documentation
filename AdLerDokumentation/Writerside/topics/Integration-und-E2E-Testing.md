@@ -68,3 +68,60 @@ Dort können wir dann den "Node Interpreter" auf "WSL" umstellen. Dazu einfach a
 ![UbuntuAsNodeInterpreter.png](UbuntuAsNodeInterpreter.png)
 
 Jetzt können wir den Test nochmal starten. Jetzt wird er ungefähr 30 Sekunden laufen (während dieser Zeit wird die Umgebung aufgesetzt) und dann erfolgreich abschließen.
+
+Ist das getan, dann können wir auch den Default Node interpreter auf unsere WSL Umgebung stellen. Dafür 2x schnell hintereinander die "Shift"-Taste drücken. In dem Suchfeld, was dann erscheint
+"Node Interpreter" eingeben. In dem Menü, welches man dann öffnen kann, kann man standartmäßig WSL als seinen Node interpreter setzen. 
+
+### 5. Einen neuen Test schreiben
+>Bevor ein neuer Test geschrieben wird bitte unbedingt das ReadMe des AdLer Stacks durchlesen. Vor allem der "writing_tests" Part ist sehr wichtig und hat ein paar grundlegende Infos.
+>Vieles weitere kann auch auf der Doku von Playwright, welche sehr ausführlich ist, nachgelesen werden.
+
+Wir konzentrieren uns hier auf UI-Tests. Es sind allerdings auch alle anderen Testarten mit Playwright zu realisieren. 
+
+Beispielhaft wollen wir einen Test implementieren, welcher eine echte Lernwelt in der AdLer Engine öffnet, einen Raum betritt und in der 3D Umgebung ein Element öffnet und checkt, ob es erreichbar ist.
+Dazu muss natürlich zunächst einmal eine Welt auf das Backend hochgeladen werden und der Studentenaccount eingeschrieben werden.
+#### 5.1 Testfile erstellen und mit grundlegenden Daten füllen.
+
+
+```typescript
+import {expect} from '@playwright/test';
+import {enrollInMoodleCourse} from "./libs/moodle_helpers";
+import {test} from "./libs/enhanced_test";
+
+test.describe.serial("Acces a Learning Element in 3D", () => {
+
+    test.beforeAll(async ({request, resetEnvironment, uploadWorld}) => {
+        // request: Objekt von Playwright, das HTTP-Anfragen senden kann
+
+        // resetEnvironment: Funktion, die die Testumgebung zurücksetzt. Dazu haben wir WSL aufgesetzt
+
+        // uploadWorld: Funktion, die eine Welt hochlädt und Informationen darüber zurückgibt
+        await resetEnvironment();
+
+        const uploadedWorld = await uploadWorld('testwelt');
+
+        // Enroll student
+        await enrollInMoodleCourse(
+            request,
+            process.env._PLAYWRIGHT_USER_STUDENT_USERNAME!,
+            process.env._USER_STUDENT_PW!,
+            uploadedWorld.worldNameInLms
+        );
+    });
+})
+```
+
+Wenn wir das gemacht haben, dann haben wir einen Testaufbau, der schon mal autmatisch eine Welt hochläd und den StudentnUser einschreibt.
+
+#### 5.2 Test-Code mittels Playwright generieren
+Mit dem Command `npx playwright codegen <adresse der Engine>` können wir den Code für die Interaktion mit der Website generieren lassen. Dazu einfach den Command in der Konsole ausführen und die Schritte auf der Website durchführen, die sich öffnet.
+Hier ist es auch egal, in welcher Konsole das gemacht wird. 
+Die Adresse der Engine kann in den ".env" File im Root des Projekts gefunden werden. Stand jetzt ist es immer localhost:26877.
+
+Auch andere Daten, wie z.B. die Login-Daten, sind in der ".env" Datei zu finden.
+
+> Der Code-Generator kann auch durchaus mit dem echten AdLer genutzt werden. Dazu einfach die Adresse des AdLer eingeben.
+
+![PlaywrightCodegen.png](PlaywrightCodegen.png)
+
+Auf dem Bild ist der Codegenerator zu sehen. Rechts wird der Test-Code automatisch generiert. Diesen Code können wir dann in unseren Test einfügen.
