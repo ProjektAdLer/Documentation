@@ -69,26 +69,26 @@ Dort können wir dann den "Node Interpreter" auf "WSL" umstellen. Dazu einfach a
 
 Jetzt können wir den Test nochmal starten. Jetzt wird er ungefähr 30 Sekunden laufen (während dieser Zeit wird die Umgebung aufgesetzt) und dann erfolgreich abschließen.
 
-Ist das getan, dann können wir auch den Default Node interpreter auf unsere WSL Umgebung stellen. Dafür 2x schnell hintereinander die "Shift"-Taste drücken. In dem Suchfeld, was dann erscheint
-"Node Interpreter" eingeben. In dem Menü, welches man dann öffnen kann, kann man standartmäßig WSL als seinen Node interpreter setzen. 
+Ist das getan, dann können wir auch den Default Node Interpreter auf unsere WSL Umgebung stellen. Dafür 2x schnell hintereinander die "Shift"-Taste drücken. In dem Suchfeld, das dann erscheint,
+"Node Interpreter" eingeben. In dem Menü, welches man dann öffnen kann, kann man standardmäßig WSL als seinen Node Interpreter setzen.
 
 ### 5. Einen neuen Test schreiben
->Bevor ein neuer Test geschrieben wird bitte unbedingt das ReadMe des AdLer Stacks durchlesen. Vor allem der "writing_tests" Part ist sehr wichtig und hat ein paar grundlegende Infos.
->Vieles weitere kann auch auf der Doku von Playwright, welche sehr ausführlich ist, nachgelesen werden.
+> **Hinweis:** Bevor ein neuer Test geschrieben wird, bitte unbedingt das ReadMe des AdLer Stacks durchlesen. Vor allem der "writing_tests" Part ist sehr wichtig und hat ein paar grundlegende Infos.
+> Vieles weitere kann auch in der Dokumentation von Playwright, welche sehr ausführlich ist, nachgelesen werden.
 
-Wir konzentrieren uns hier auf UI-Tests. Es sind allerdings auch alle anderen Testarten mit Playwright zu realisieren. 
+Wir konzentrieren uns hier auf UI-Tests. Es sind allerdings auch alle anderen Testarten mit Playwright zu realisieren.
 
-Beispielhaft wollen wir einen Test implementieren, welcher eine echte Lernwelt in der AdLer Engine öffnet, einen Raum betritt und in der 3D Umgebung ein Element öffnet und checkt, ob es erreichbar ist.
+Beispielhaft wollen wir einen Test implementieren, welcher eine echte Lernwelt in der AdLer Engine öffnet, einen Raum betritt und in der 3D-Umgebung ein Element öffnet und prüft, ob es erreichbar ist.
 Dazu muss natürlich zunächst einmal eine Welt auf das Backend hochgeladen werden und der Studentenaccount eingeschrieben werden.
-#### 5.1 Testfile erstellen und mit grundlegenden Daten füllen.
 
+#### 5.1 Testfile erstellen und mit grundlegenden Daten füllen
 
 ```typescript
 import {expect} from '@playwright/test';
 import {enrollInMoodleCourse} from "./libs/moodle_helpers";
 import {test} from "./libs/enhanced_test";
 
-test.describe.serial("Acces a Learning Element in 3D", () => {
+test.describe.serial("Access a Learning Element in 3D", () => {
 
     test.beforeAll(async ({request, resetEnvironment, uploadWorld}) => {
         // request: Objekt von Playwright, das HTTP-Anfragen senden kann
@@ -111,16 +111,16 @@ test.describe.serial("Acces a Learning Element in 3D", () => {
 })
 ```
 
-Wenn wir das gemacht haben, dann haben wir einen Testaufbau, der schon mal autmatisch eine Welt hochläd und den StudentnUser einschreibt.
+Wenn wir das gemacht haben, dann haben wir einen Testaufbau, der schon mal automatisch eine Welt hochlädt und den Student-User einschreibt.
 
 #### 5.2 Test-Code mittels Playwright generieren
 Mit dem Command `npx playwright codegen <adresse der Engine>` können wir den Code für die Interaktion mit der Website generieren lassen. Dazu einfach den Command in der Konsole ausführen und die Schritte auf der Website durchführen, die sich öffnet.
-Hier ist es auch egal, in welcher Konsole das gemacht wird. 
-Die Adresse der Engine kann in den ".env" File im Root des Projekts gefunden werden. Stand jetzt ist es immer localhost:26877.
+Hier ist es auch egal, in welcher Konsole das gemacht wird.
+Die Adresse der Engine kann in der ".env"-Datei im Root des Projekts gefunden werden. Stand jetzt ist es immer localhost:26877.
 
-Auch andere Daten, wie z.B. die Login-Daten, sind in der ".env" Datei zu finden.
+Auch andere Daten, wie z.B. die Login-Daten, sind in der ".env"-Datei zu finden.
 
-> Der Code-Generator kann auch durchaus mit dem echten AdLer genutzt werden. Dazu einfach die Adresse des AdLer eingeben.
+> **Hinweis:** Der Code-Generator kann auch durchaus mit dem echten AdLer genutzt werden. Dazu einfach die Adresse des AdLer eingeben.
 
 ![PlaywrightCodegen.png](PlaywrightCodegen.png)
 
@@ -128,14 +128,14 @@ Auf dem Bild ist der Codegenerator zu sehen. Rechts wird der Test-Code automatis
 
 #### 5.3 Test-Code anpassen
 
-Den Code, den wir vom Generator bekommen haben bringt uns sehr weit. Allerdings müssen wir ihn von Hand noch ein wenig aufräumen oder erweitern.
-Hier wurde beispielsweise Doppelte Klicks, welche oben entstanden sind, entfernt.
+Der Code, den wir vom Generator bekommen haben, bringt uns sehr weit. Allerdings müssen wir ihn von Hand noch ein wenig aufräumen oder erweitern.
+Hier wurden beispielsweise doppelte Klicks, welche oben entstanden sind, entfernt.
 
-Das auch das öffnen des Lernelements über die Accessibility-Funktion wurde manuell hinzugefügt.
+Auch das Öffnen des Lernelements über die Accessibility-Funktion wurde manuell hinzugefügt.
 
 ```typescript
-test('Student can Acces first Learning Element in the Room', async ({page}) => {
-// So kommt man zu dem "BaseUrl", welche in den Projekteinstellungen gesetzt wurde. In unserem Fall die AdLer
+test('Student can Access first Learning Element in the Room', async ({page}) => {
+// So kommt man zu der "BaseUrl", welche in den Projekteinstellungen gesetzt wurde. In unserem Fall die AdLer
 // Engine
 await page.goto('/');
 // All das wurde von dem Codegenerator erstellt
@@ -157,5 +157,6 @@ await page.getByRole('button', {name: 'Weiter zum Lernraum'}).click();
   await expect(page.getByRole('paragraph')).toContainText('test');
 });
 ```
-Der Assert allerdings kann wieder über den Code Generator gemacht werden. Dafür einfach über die oberer Toolleiste im Generator den Knopf
-"Assert Test" drücken und den Text ausfwähen, den man haben will. 
+
+Der Assert allerdings kann wieder über den Code-Generator gemacht werden. Dafür einfach über die obere Toolleiste im Generator den Knopf
+"Assert Test" drücken und den Text auswählen, den man haben will.
