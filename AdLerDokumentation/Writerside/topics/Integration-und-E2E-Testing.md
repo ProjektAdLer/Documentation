@@ -58,7 +58,7 @@ Sollte das nicht der Fall sein, muss in der Konsole in den Ordner "Game" navigie
 
 > **Hinweis:** Das Repo hat insgesamt 4 Projekte, in denen Komponenten getestet werden. Deshalb ist es wichtig, dass man sich im Ordner "Game" befindet.
 
-Um nun die Tests über WSL starten zu können, muss WebStorm erstmal eine "Default-Config" anlegen. Deshalb starten wir einen beliebigen Test einfach über das UI von WebStorm (siehe Screenshot). Die Tests befinden sich in
+Nun testen wir zunächst, ob die Tests funktionieren. Deshalb starten wir einen beliebigen Test einfach über das UI von WebStorm (siehe Screenshot). Die Tests befinden sich in
 `Game/test/`. Dort den Test `login.spec.ts` auswählen und den Test über das UI starten. Dieser Test wird zwar fehlschlagen, aber WebStorm wird eine Konfiguration anlegen.
 
 ![FailingTest.png](FailingTest.png)
