@@ -114,6 +114,13 @@ test.describe.serial("Access a Learning Element in 3D", () => {
 Wenn wir das gemacht haben, dann haben wir einen Testaufbau, der schon mal automatisch eine Welt hochlädt und den Student-User einschreibt.
 
 #### 5.2 Test-Code mittels Playwright generieren
+Bevor wir den Test generieren können, fürhen wir kurz einen leeren Test aus, damit sich die Testumgebung einmalig aufbaut:
+
+```typescript
+test('Empty Test to trigger beforeAll', async ({page}) => {
+    await page.goto('/');
+});
+```
 Mit dem Command `npx playwright codegen <adresse der Engine>` können wir den Code für die Interaktion mit der Website generieren lassen. Dazu einfach den Command in der Konsole ausführen und die Schritte auf der Website durchführen, die sich öffnet.
 Hier ist es auch egal, in welcher Konsole das gemacht wird.
 Die Adresse der Engine kann in der ".env"-Datei im Root des Projekts gefunden werden. Stand jetzt ist es immer localhost:26877.
