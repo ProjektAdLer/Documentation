@@ -22,6 +22,9 @@ Nun kann ein Nutzer für die WSL-Shell erstellt werden. Dazu einfach dem Install
 
 Nun den Befehl `sudo apt install nodejs npm` ausführen, um Node.js und npm zu installieren. Dies wird benötigt, um die Tests auszuführen.
 
+Nun Clonen wir das Repo `https://github.com/ProjektAdLer/AdLerStack`. Von nun an arbeiten wir mit allen Befehlen in diesem Projekt.
+Vorher unbedingt darauf achten, dass die line endings in git wie in den Voraussetzungen beschrieben auf "input" gesetzt sind.
+
 Danach die Befehle `npx playwright install` und `sudo npx playwright install-deps` ausführen. Damit installieren wir Browser, mit denen wir Tests ausführen können.
 
 Der Befehl `npx playwright install` muss auch nochmal in einer Windows-Konsole ausgeführt werden.
