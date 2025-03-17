@@ -18,8 +18,8 @@ Vielmehr kommt es darauf an mit welcher Absicht (nur anzeigen oder validieren) d
   - _Zweck der Validierung_ (Linkeinfügen)
   
 - Der H5P-Player muss dem Benutzenden die Möglichkeit bieten, 
-die Meldung _Zweck der Validierung_ zu deaktivieren.
-- Reaktivierung?
+die Meldung _Zweck der Validierung_ zu aktivieren und deaktivieren.
+
 
 
 
