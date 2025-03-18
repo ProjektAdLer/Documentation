@@ -13,6 +13,11 @@ den H5P-Player zu starten.
 - Der Nutzende kann die URI angeben die zum [](Verzeichnis-zum-Abspielen-der-H5Ps.md) führt.
 - Falls das [](Verzeichnis-zum-Abspielen-der-H5Ps.md) h5p-folder in wwwroot/H5pStandalone noch nicht erstellt ist, 
 muss der H5P-Player das Verzeichnis erstellen.
+- Der Nutzende kann den [Anzeigemodus](H5P-Player-Modi.md) angeben.
+
+
+
+
 
 ## Aktivitätsdiagramm:
 
