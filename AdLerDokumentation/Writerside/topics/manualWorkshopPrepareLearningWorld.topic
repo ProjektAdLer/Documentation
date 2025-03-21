@@ -15,14 +15,14 @@
         <procedure title="Importieren der Lernwelt" id="ImportierenDerZurVerfuegungGestelltenLernweltInDasAutorentool">
 
             <tip>
-                <p>Sie sollten das Autorentool in der aktuellsten Version auf Ihrem Rechner gestartet haben. Die Versionsnummer finden Sie in der Kopfzeile der Anwendung. Bei Start des Autorentools sehen Sie folgende Anzeige. Die aktuellste Version ist momentan <control>Autorentool 2.2.1</control></p>
+                <p>Sie sollten das Autorentool in der aktuellsten Version auf Ihrem Rechner gestartet haben. Die Versionsnummer finden Sie in der Kopfzeile der Anwendung. Bei Start des Autorentools sehen Sie folgende Anzeige. Die aktuellste Version ist momentan <control>Autorentool 2.2.2</control></p>
                 <img src="imageManualWorkshopDefaultScreenAuthoringTool.png" alt="Standardansicht des Autorentools nach dem Öffnen der Anwendung" width="200" thumbnail="true" />
             </tip>
             <step>
                 <p>Klicken Sie auf den Button <control>Importieren</control>.</p>
             </step>
             <step>
-                <p>Suchen Sie im erscheinenden Systemdialog Ihres Betriebssystems die für den Workshop bereitgestellte Datei <control>Workshop25_teilfertig.zip</control>.</p>
+                <p>Suchen Sie im erscheinenden Systemdialog Ihres Betriebssystems die für den Workshop bereitgestellte Datei <control><a href="https://projekt-adler.eu/wp-content/uploads/Workshop25_teilfertig.zip" target="_blank">Workshop25_teilfertig.zip</a></control>.</p>
                 <img src="imageManualWorkshopExplorerArchiveImport.png" alt="Import-Betriebssystemdialog am Beispiel von Windows 11" width="200" thumbnail="true" />
             </step>
             <step>

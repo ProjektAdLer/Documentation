@@ -61,8 +61,8 @@
                     <img src="imageManualWorkshopClickExternalLearningMaterial.png" alt="Klick auf Tab Externes Lernmaterial" width="200" thumbnail="true"/>
                 </step>
                 <step>
-                    <p>Laden Sie sich von der Landingpage des Workshops das "Externes Lernmaterial zum Erstellen der fehlenden Lernelemente" herunter.</p>
-                    <tip>Den Link zur Landingpage wurde Ihnen während des Workshops zur Verfügung gestellt.</tip>
+                    <p>Klicken Sie <a href="https://projekt-adler.eu/wp-content/uploads/Downloadcontent-Lernelemente.zip" target="_blank">hier</a>, sich das benötigte Externe Lernmaterial herunterzuladen oder laden Sie sich von der Landingpage des Workshops das "Externes Lernmaterial zum Erstellen der fehlenden Lernelemente" herunter.</p>
+                    <tip>Downloadlink zum Externen Lernmaterial: <a href="https://projekt-adler.eu/wp-content/uploads/Downloadcontent-Lernelemente.zip" target="_blank">https://projekt-adler.eu/wp-content/uploads/Downloadcontent-Lernelemente.zip</a></tip>
                 </step>
                 <step>
                     <p>Entpacken Sie die heruntergeladene .ZIP-Datei.</p>
@@ -73,11 +73,15 @@
                             <li>In macOS öffnen Sie eine .ZIP-Datei einfach per Doppelklick.</li>
                         </list>
                     </tip>
+                    <tip>Sie können in die folgenden Schritte auch verkürzen, indem Sie die .zip Datei direkt in den hellblauen Bereich ziehen. Das Autorentool entpackt die Dateien automatisch und fügt sie dem Externen Lernmaterial hinzu. Die folgenden Schritte sind der Vollständigkeit halber trotzdem Teil dieser Anleitung.
+                    </tip>
                 </step>
                 <step>
                     <p>Ziehen Sie die Datei mit der Dateiendung <control>.h5p</control> in den hellblauen Bereich, um Sie dem Autorentool hinzuzufügen.</p>
                     <img src="imageManualWorkshopAddExternalLearningMaterialDragDrop.png" alt="Externes Lernmaterial Dropzone" width="200" thumbnail="true"/>
                     <note>Sie haben erfolgreich eine Datei als externes Lernmaterial dem Autorentool hinzugefügt.</note>
+                    <warning>Wundern Sie sich nicht, falls ihr hinzugefügtes externes Lernmaterial nicht sofort sichtbar ist. Die Auflistung des "Externen Lernmaterials", im unteren Bereich, der linken Sidebar hat mehrere Seiten, die mit den Pfeilen unter der Liste geblättert werden können. </warning>
+                    <warning>Auf großen Bildschirmen, erscheint die Liste bereits zu Ende zu sein, da ein großer Weißraum unterhalb dieser entsteht. Blättern Sie mit den Pfeilen am unteren Rand, um das restliche Externe Lernmaterial angezeigt zu bekommen.</warning>
                 </step>
                 <step>
                     <note>Der rote Punkt am <control>Speichersymbol (Diskette)</control> zeigt an, dass es ungesicherte Änderungen an Ihrer Lernwelt gibt.</note>
