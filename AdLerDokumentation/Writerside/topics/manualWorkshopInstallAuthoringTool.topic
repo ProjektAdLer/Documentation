@@ -29,7 +29,7 @@
         </step>
         <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
         <tip>
-            <p>Im folgenden sehen Sie eine Auflistung, welche Datei Sie für welches Betriebssystem herunterladen müssen, um das Autorentool installieren zu können.</p>
+            <p>Im Folgenden sehen Sie eine Auflistung, welche Datei Sie für welches Betriebssystem herunterladen müssen, um das Autorentool installieren zu können.</p>
         </tip>
         <tabs>
             <tab id="windows" title="Windows">
