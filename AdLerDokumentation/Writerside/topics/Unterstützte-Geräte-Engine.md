@@ -1,4 +1,4 @@
-# Unterstützte Geräte 
+# Unterstützte Geräte
 
 Die Engine wurden mit folgenden Geräten regelmäßig auf Usability und Performance getestet:
 
@@ -11,7 +11,7 @@ Die Engine wurden mit folgenden Geräten regelmäßig auf Usability und Performa
 | iPhone 12 Pro             | iOS            | Safari           | 2532 x 1170     |
 | Samsung Galaxy Tab S6     | Android        | Samsung Internet | 1600 x 2560     |
 
-Die AdLer-Engine ist auf Viewports optimiert, welche in betracht ziehen, dass der verfügbare sichtbare Bereich kleiner, als die native Bildschirmauflösung ist (durch Browseradressleiste und/oder z.B. Taskleiste des Betriebssystems). Es wird pauschal von einer Verkleinerung der nutzbaren Viewport-Höhe von ca. 15% ausgegangen. Abgesehen von diesen Bildschirmauflösungen, ist die Benutzung auch auf Geräten mit anderen Bildschirmauflösungen möglich.
+Die AdLer-Engine ist auf [Unterstützte Geräte](UnterstützteGeräte.md) optimiert, welche in betracht ziehen, dass der verfügbare sichtbare Bereich kleiner, als die native Bildschirmauflösung ist (durch Browseradressleiste und/oder z.B. Taskleiste des Betriebssystems). Es wird pauschal von einer Verkleinerung der nutzbaren Viewport-Höhe von ca. 15% ausgegangen. Abgesehen von diesen Bildschirmauflösungen, ist die Benutzung auch auf Geräten mit anderen Bildschirmauflösungen möglich.
 
 Die Engine ist auf folgende Auflösungen optimiert:
 
