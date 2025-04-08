@@ -19,6 +19,9 @@
                 <img src="imageManualWorkshopDefaultScreenAuthoringTool.png" alt="Standardansicht des Autorentools nach dem Öffnen der Anwendung" width="200" thumbnail="true" />
             </tip>
             <tip>Downloadlink Workshop Lernwelt, zum Importieren im Autorentool: <a href="https://projekt-adler.eu/wp-content/uploads/Workshop25_teilfertig.zip" target="_blank">Workshop25_teilfertig.zip</a></tip>
+            <warning>
+                <p>Nutzen Sie <control>nicht</control> den Browser <control>Safari</control> für das Herunterladen der Lernwelt. Die von Safari heruntergeladene Datei ist nicht nutzbar.</p>
+            </warning>
             <step>
                 <p>Klicken Sie auf den Button <control>Importieren</control>.</p>
             </step>
