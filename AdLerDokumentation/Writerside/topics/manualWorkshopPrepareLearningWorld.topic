@@ -18,6 +18,7 @@
                 <p>Sie sollten das Autorentool in der aktuellsten Version auf Ihrem Rechner gestartet haben. Die Versionsnummer finden Sie in der Kopfzeile der Anwendung. Bei Start des Autorentools sehen Sie folgende Anzeige. Die aktuellste Version ist momentan <control>Autorentool 2.2.2</control></p>
                 <img src="imageManualWorkshopDefaultScreenAuthoringTool.png" alt="Standardansicht des Autorentools nach dem Öffnen der Anwendung" width="200" thumbnail="true" />
             </tip>
+            <tip>Downloadlink Workshop Lernwelt, zum Importieren im Autorentool: <a href="https://projekt-adler.eu/wp-content/uploads/Workshop25_teilfertig.zip" target="_blank">Workshop25_teilfertig.zip</a></tip>
             <step>
                 <p>Klicken Sie auf den Button <control>Importieren</control>.</p>
             </step>
