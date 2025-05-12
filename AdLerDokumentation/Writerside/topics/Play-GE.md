@@ -1,4 +1,4 @@
-# Engine
+# play
 
 <link-summary rel="summary"/>
 <card-summary rel="summary"/>
@@ -12,35 +12,31 @@
     </tr>
     <tr>
         <td>Begriff</td>
-        <td>Engine</td>
+        <td>play</td>
     </tr>
     <tr>
         <td>Englischer Begriff</td>
-        <td>Engine</td>
+        <td>Play</td>
     </tr>
     <tr>
         <td>Definition</td>
-        <td id="summary" >
-            Die <a href="Engine-BG.md">Engine</a> ist der 
-            <a href="Betrachtungsgegenstand-GE.md">Betrachtungsgegenstand</a>, der für die Lernenden 
-            eine immersive spielbare 3D-Lernumgebung bereitstellt.
-        </td>
+        <td id="summary" >play ist die vom Projekt AdLer verwendete Subdomain für die 3D-Lernumgebung.</td>
     </tr>  
     <tr>
         <td>Siehe auch</td>
-        <td><a href="Play-GE.md">Betrachtungsgegenstand</a></td>
+        <td><a href="Engine-GE.md"></a></td>
     </tr>
     <tr>
         <td>Akronym</td>
-        <td>E</td>
+        <td></td>
     </tr>
    <tr>
         <td>Erlaubte Alternativbenennung</td>
-        <td>3D-Lernumgebung</td>
+        <td></td>
     </tr>
    <tr>
         <td>Verbotene Terminologie</td>
-        <td>2D3D, 23D</td>
+        <td></td>
     </tr>
    <tr>
         <td>Quelle</td>

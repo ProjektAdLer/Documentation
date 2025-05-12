@@ -994,6 +994,7 @@
         <toc-element topic="O.md"/>
         <toc-element topic="P.md">
             <toc-element topic="Primitives-Lernelement-GE.md"/>
+            <toc-element topic="Play-GE.md"/>
             <toc-element topic="Pausenhinweis-GE.md"/>
             <toc-element topic="Pausenempfehlung-GE.md"/>
         </toc-element>
