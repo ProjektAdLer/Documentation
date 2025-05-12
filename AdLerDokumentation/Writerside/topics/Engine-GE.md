@@ -16,7 +16,7 @@
     </tr>
     <tr>
         <td>Englischer Begriff</td>
-        <td>Engine</td>
+        <td>Engine, 3D-Learning-Platform</td>
     </tr>
     <tr>
         <td>Definition</td>
