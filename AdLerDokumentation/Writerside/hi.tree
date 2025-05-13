@@ -906,14 +906,6 @@
             <toc-element topic="manualWorkshopSubscribeToLearningWorld.topic"/>
             <toc-element topic="manualWorkshopLoginToEngine.topic"/>
         </toc-element>
-        <toc-element topic="manualWorkshopEnglish.md">
-            <toc-element topic="manualWorkshopInstallAuthoringToolEnglish.topic"/>
-            <toc-element topic="manualWorkshopPrepareLearningWorldEnglish.topic"/>
-            <toc-element topic="manualWorkshopCompleteLearningWorldEnglish.topic"/>
-            <toc-element topic="manualWorkshopUploadLearningWorldEnglish.topic"/>
-            <toc-element topic="manualWorkshopSubscribeToLearningWorldEnglish.topic"/>
-            <toc-element topic="manualWorkshopLoginToEngineEnglish.topic"/>
-        </toc-element>
     </toc-element>
     <toc-element topic="Glossar.md">
         <toc-element topic="A.md">
