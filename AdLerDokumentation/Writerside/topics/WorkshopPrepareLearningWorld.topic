@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Preparing the Learning World" id="WorkshopPrepareLearningWorld"
+       help-id="WorkshopCreateAdLerLearningWorldAuthoringTool">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>With this step-by-step guide, you import the prefabricated learning world into the AdLer authoring tool and change its metadata to begin completing the learning world.</control>
+        </def>
+    </deflist>
+
+    <procedure title="Importing the Learning World" id="ImportingTheProvidedLearningWorldIntoTheAuthoringTool">
+
+        <tip>
+            <p>You should have the latest version of the authoring tool running on your computer. You can find the version number in the application's header. When you start the authoring tool, you will see the following display. The latest version is currently <control>Authoring Tool 2.2.2</control></p>
+            <img src="imageManualWorkshopDefaultScreenAuthoringTool.png" alt="Default view of the authoring tool after opening the application" width="200" thumbnail="true" />
+        </tip>
+        <tip>Download link Workshop Learning World, for import into the authoring tool: <a href="https://projekt-adler.eu/wp-content/uploads/Workshop25_teilfertig.zip" target="_blank">Workshop25_partially_completed.zip</a></tip>
+        <warning>
+            <p>Do <control>not</control> use the <control>Safari</control> browser to download the learning world. The file downloaded by Safari is not usable.</p>
+        </warning>
+        <step>
+            <p>Click the <control>Import</control> button.</p>
+        </step>
+        <step>
+            <p>In your operating system's dialog, search for the file <control><a href="https://projekt-adler.eu/wp-content/uploads/Workshop25_teilfertig.zip" target="_blank">Workshop25_partially_completed.zip</a></control> provided for the workshop.</p>
+            <img src="imageManualWorkshopExplorerArchiveImport.png" alt="Import operating system dialog example on Windows 11" width="200" thumbnail="true" />
+        </step>
+        <step>
+            <p>Confirm your selection by clicking the <control>Open</control> button.</p>
+            <tip>After clicking the <control>Open</control> button in the system dialog, the following view appears.</tip>
+            <img src="imageManualWorkshopOpenedLearningWorldDefault.png" alt="Default view of the authoring tool after opening the learning world" width="200" thumbnail="true" />
+        </step>
+        <note>
+            <control>
+                <p>You have successfully imported the learning world into the authoring tool.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+
+    <procedure title="Preparing the Learning World" id="ChangingTheLearningWorldDesignations">
+
+        <tip>
+            <p>Make sure that the <control>Learning World Details</control> tab is selected in the left area of the authoring tool.</p>
+            <img src="imageManualWorkshopOpenedLearningWorldDefaultHiglightedLearningWorldSection.png" alt="Highlight of the Learning World Details tab" width="200" thumbnail="true" />
+        </tip>
+        <step>
+            <p>On the left side, click in the <control>Name</control> field in the <control>Edit Learning World</control> tab.</p>
+        </step>
+        <step>
+            <p>Change the name as follows:</p>
+            <list type="none">
+                <li>Workshop25_*YourInitials*_*YourFavoriteDishOrAnimal*</li>
+                <li><emphasis>Example: Workshop25_XY_Coyote</emphasis></li>
+            </list>
+        </step>
+        <step>
+            <p>On the left side, click in the <control>Short Name</control> field in the <control>Edit Learning World</control> tab.</p>
+        </step>
+        <step>
+            <p>Change the short name as follows:</p>
+            <list type="none">
+                <li>Work25_*YourInitials*_*YourFavoriteDishOrAnimal*</li>
+                <li><emphasis>Example: Work25_XY_Coyote</emphasis></li>
+            </list>
+            <img src="imageManualWorkshopChangedNames.png" alt="Changed names of the learning world" width="200" thumbnail="true" />
+        </step>
+        <step>
+            <note>The red dot on the <control>Save icon (floppy disk)</control> indicates that there are unsaved changes to your learning world.</note>
+            <p>Click the save icon in the upper left corner of the window to save your unsaved changes.</p>
+        </step>
+        <tip>Your changes to the learning world have now been saved.</tip>
+        <note>
+            <control>
+                <p>You have made all necessary changes to the learning world.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+
+    <tip>
+        <p>Now continue with <a href="WorkshopCompleteLearningWorld.topic">Completing the Learning World</a>.</p>
+    </tip>
+</topic>
