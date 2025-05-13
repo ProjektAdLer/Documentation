@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Preparing the Learning World" id="manualWorkshopPrepareLearningWorldEnglish"
+       help-id="manualWorkshopCreateAdLerLearningWorldAuthoringToolEnglish">
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>With this step-by-step guide, you will import the pre-made learning world into the AdLer Authoring Tool and change its metadata to begin finalizing the learning world.</control>
+        </def>
+    </deflist>
+    <show-structure for="chapter, procedure" depth="2"/>
+    
+    <chapter title="Importing the Learning World" default-state="expanded">
+        <procedure id="ImportingTheProvidedLearningWorldIntoTheAuthoringTool">
+            <step>
+                <p>Ensure you have installed the Authoring Tool as described in the previous guide <a href="manualWorkshopInstallAuthoringToolEnglish.topic">"Installing the Authoring Tool"</a>.</p>
+            </step>
+            <tip>
+                <p>You should have the latest version of the Authoring Tool running on your computer. You can find the version number in the header of the application. When starting the Authoring Tool, you will see the following display. The current latest version is <control>Authoring Tool 2.2.2</control></p>
+                <img src="imageManualWorkshopDefaultScreenAuthoringTool.png" alt="Default view of the Authoring Tool after opening the application" width="200" thumbnail="true" />
+            </tip>
+            <step>
+                <p>Download the workshop learning world by clicking this link: <a href="https://projekt-adler.eu/wp-content/uploads/Workshop25_teilfertig.zip" target="_blank">Workshop25_teilfertig.zip</a>.</p>
+            </step>
+            <step>
+                <p>In the Authoring Tool, click on the <control>Import</control> button.</p>
+            </step>
+            <step>
+                <p>Navigate to the location where you saved the downloaded .zip file and select it.</p>
+            </step>
+            <step>
+                <p>Click <control>Open</control> to import the learning world.</p>
+            </step>
+            <step>
+                <p>After the import is complete, click on the learning world to open it.</p>
+            </step>
+            <note>
+                <control>
+                    <p>You have successfully imported the learning world.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+        <tip>
+            <p>Now continue with the guide <a href="manualWorkshopCompleteLearningWorldEnglish.topic">"Completing the Learning World"</a>.</p>
+        </tip>
+    </chapter>
+</topic>

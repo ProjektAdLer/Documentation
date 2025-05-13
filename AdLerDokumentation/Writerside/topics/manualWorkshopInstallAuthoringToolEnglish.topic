@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Installing the Authoring Tool" id="manualWorkshopInstallAuthoringToolEnglish">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>With this step-by-step guide, you will download and install the Authoring Tool.</control>
+        </def>
+    </deflist>
+    <procedure title="Downloading the Authoring Tool">
+        <step>
+            <p>If you have already downloaded the Authoring Tool, you can skip this step.</p>
+        </step>
+        <step>
+            <p>Open your preferred browser.</p>
+            <warning>
+                <p>Do <control>not</control> use <control>Safari</control> browser for downloading the Authoring Tool. The file downloaded by Safari is not usable.</p>
+            </warning>
+        </step>
+        <step>
+            <p>Type the following address in your browser's address bar or click on this link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a>.</p>
+            <tip>You are now on the GitHub "Releases" page, where all versions of the AdLer Authoring Tool are listed. The latest version is displayed at the top.</tip>
+        </step>
+        <step>
+            <p>Under <control>Assets</control>, select the file appropriate for your system and download it.</p>
+        </step>
+        <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Example list of Authoring Tool downloads" width="200" thumbnail="true"/>
+        <tip>
+            <p>Below is a list showing which file you need to download for each operating system to install the Authoring Tool.</p>
+        </tip>
+        <tabs>
+            <tab id="windows" title="Windows">
+                <p>Click on the file with the <control>.exe</control> extension.</p>
+                <img src="imageManualWorkshopDownloadAuthoringToolWin.png" alt="List of Authoring Tool downloads" width="200" thumbnail="true"/>
+                <procedure title="Downloading the Authoring Tool with Microsoft Edge" collapsible="true">
+                    <tip>If you're not using Microsoft Edge as your browser, skip to <a href="manualWorkshopInstallAuthoringToolEnglish.topic#installation-windows1011"><control>Installing the Authoring Tool on Windows 10/11</control></a></tip>
+                    <warning>
+                        <p>When using Microsoft Edge browser, the downloaded file is not saved as an .exe file because Microsoft classifies the file as untrustworthy. Follow these steps to make the file usable</p>
+                    </warning>
+                    <img src="imageManualWorkshopDownloadProblemEdge-1.png" alt="Download display in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>Click on the <control>button with three dots arranged side by side</control></p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-2.png" alt="Download display in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>
+                            Click on <control>Keep</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-3.png" alt="Download display in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>
+                            Click on <control>Show more</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-4.png" alt="Download display in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>
+                            Click on <control>Keep anyway</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-5.png" alt="Download display in Edge" width="200" thumbnail="true"/>
+                    <note>
+                        The file is now usable. You can continue with the guide.
+                    </note>
+                </procedure>
+            </tab>
+            <tab id="macOS" title="macOS">
+                <p>Click on the file with the <control>.dmg</control> extension.</p>
+                <img src="imageManualWorkshopDownloadAuthoringToolMac.png" alt="List of Authoring Tool downloads" width="200" thumbnail="true"/>
+            </tab>
+            <tab id="linux" title="Linux">
+                <p>Click on the appropriate file for your Linux distribution. For example, <control>.snap</control> or <control>.AppImage</control>.</p>
+                <img src="imageManualWorkshopDownloadAuthoringToolLinux.png" alt="List of Authoring Tool downloads" width="200" thumbnail="true"/>
+            </tab>
+        </tabs>
+        <tip>
+            <p>The file you selected will now be downloaded.</p>
+            <img src="imagesManualWorkshopExeDownload.png" alt="Example download in Firefox on Windows" width="200" thumbnail="true"/>
+        </tip>
+        <note>
+            <control>
+                <p>You have successfully downloaded the Authoring Tool.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+    <tabs>
+        <tab title="Installation on Windows 10/11" id="installation-windows1011">
+            <procedure title="Installing the Authoring Tool on Windows 10/11">
+                <step>
+                    <p>Open the folder where you downloaded the installation file.</p>
+                </step>
+                <tip>
+                    <p>By default, Windows downloads files to the folder <control>C:\Users\YourPCName\Downloads</control>.</p>
+                </tip>
+                <step>
+                    <p>Open the downloaded Authoring Tool installation file with a double-click.</p>
+                </step>
+                <step>
+                    <p>Follow the installation wizard's instructions to complete the installation.</p>
+                </step>
+                <step>
+                    <p>After installation, launch the Authoring Tool from your desktop or start menu.</p>
+                </step>
+                <note>
+                    <control>
+                        <p>You have successfully installed the Authoring Tool.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </tab>
+    </tabs>
+    <tip>
+        <p>Now continue with the guide <a href="manualWorkshopPrepareLearningWorldEnglish.topic">"Preparing the Learning World"</a>.</p>
+    </tip>
+</topic>

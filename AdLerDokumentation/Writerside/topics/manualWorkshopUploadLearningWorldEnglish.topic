@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Uploading the Learning World" id="manualWorkshopUploadLearningWorldEnglish">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>With this step-by-step guide, you will upload your completed learning world to the AdLer server.</control>
+        </def>
+    </deflist>
+
+    <chapter title="Uploading to the AdLer Server" default-state="expanded">
+        <procedure id="uploading_learning_world_procedure">
+            <step>
+                <p>Ensure your learning world is properly completed and saved as described in the previous guide <a href="manualWorkshopCompleteLearningWorldEnglish.topic">"Completing the Learning World"</a>.</p>
+            </step>
+            <step>
+                <p>In the header of the Authoring Tool, click on the <control>Log in to AdLer server</control> button.</p>
+            </step>
+            <step>
+                <p>Enter your author credentials in the login window that appears.</p>
+                <tip>You received these credentials during the workshop.</tip>
+            </step>
+            <step>
+                <p>After logging in, click on the <control>Publish</control> button in the header of the Authoring Tool.</p>
+            </step>
+            <step>
+                <p>Confirm the upload when prompted.</p>
+            </step>
+            <note>
+                <control>
+                    <p>You have successfully uploaded your learning world to the AdLer server.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+        <tip>
+            <p>Now continue with the guide <a href="manualWorkshopSubscribeToLearningWorldEnglish.topic">"Subscribing to the Learning World"</a>.</p>
+        </tip>
+    </chapter>
+</topic>
