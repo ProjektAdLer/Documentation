@@ -1,11 +1,13 @@
 # Integration und E2E Testing
 
+> **Hinweis** Dieser Guide tendiert dazu veraltet zu sein. Im Zweifel [die Dokumentation im AdLerStack zu rate ziehen](https://github.com/ProjektAdLer/AdLerStack/blob/main/README.md)
+
 [//]: # (asdad)
 ## Voraussetzungen, um Integration und E2E Tests zu schreiben und auszuführen
 - WSL (Windows Subsystem for Linux) installiert
 
   Dazu den Command `wsl --install` in der PowerShell ausführen.
-- Eine JetBrains-IDE (am besten WebStorm) installiert
+- Webstorm oder PHPStorm installiert
 - Docker installiert (und bereits getestet, ob es läuft)
 - Line-Endings in Git auf "input" gesetzt (Das ist sehr wichtig!)
 
@@ -29,15 +31,13 @@ Danach die Befehle `npx playwright install` und `sudo npx playwright install-dep
 
 Der Befehl `npx playwright install` muss auch nochmal in einer Windows-Konsole ausgeführt werden.
 
-> **Hinweis:** Wenn ihr Genaueres wissen wollt, warum wir WSL nutzen müssen, gerne Philipp oder Markus darauf ansprechen. :) Momentan ist das leider ein notwendiges Übel.
+> **Hinweis:** Wenn ihr Genaueres wissen wollt, warum wir WSL nutzen müssen, gerne Philipp oder Markus darauf ansprechen.
 
 ### 2. Die AdLer-Umgebung starten
 
-**Schritt 1:** Docker-Compose generieren
-
-Es muss mittels dem Befehl `docker compose -f docker-compose.base.yml -f docker-compose.test-adjustments.yml config > docker-compose.yml` zunächst eine `docker-compose.yml` Datei generiert werden.
-
 **Schritt 2:** Docker-Compose starten
+
+Bestehende Daten löschen: `docker compose down -v`
 
 Das Kommando `docker compose up -d --build --force-recreate --wait` startet die Umgebung. Das kann einige Zeit dauern, da die Images erst gebaut und eingerichtet werden müssen.
 
