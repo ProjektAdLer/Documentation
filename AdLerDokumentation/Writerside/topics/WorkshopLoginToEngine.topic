@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Viewing the Learning World in the 3D Learning Environment" id="WorkshopLoginToEngine">
+
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>With this step-by-step guide, you will log into the AdLer 3D learning environment to view the created learning world as a 3D world.</control>
+        </def>
+    </deflist>
+
+    <chapter title="Logging into the 3D Learning Environment">
+        <procedure id="ProcedureLoginTo3DLearningEnvironment">
+            <step>
+                <p>Type the following address into the browser bar, click this link: <a href="https://engine.projekt-adler.eu" target="_blank">https://engine.projekt-adler.eu</a>, or use the <control>Open in Moodle</control> button in the authoring tool.</p>
+                <img src="imageManualWorkshopUploadLearningWorldSuceeded.png" alt="Upload successful pop-up window" width="200" thumbnail="true" />
+                <note>You are now on the login page of the AdLer 3D learning environment.</note>
+            </step>
+            <step>
+                <p>In the browser window that now opens, click the <control>Username</control> input field and enter your username.</p>
+                <tip>Your login credentials were provided to you during the workshop. You can also find the schema for the login credentials on the workshop website of the Project AdLer homepage.</tip>
+                <img src="imageManualWorkshopAdlerEngineWelcomePageLoginFormWithArrow.png" alt="Home screen of AdLer Moodle without login" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Now click the <control>Password</control> input field and enter your password.</p>
+                <note>Use the same login credentials that you used for logging in and enrolling in AdLer-Moodle.</note>
+                <img src="imageManualWorkshopAdlerEngineWelcomePageLoginFormWithArrow.png" alt="Home screen of AdLer Moodle without login" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Now click the <control>Login</control> button to log in.</p>
+                <img src="imageManualWorkshopAdlerEngineWelcomePageLoginButtonWithArrow.png" alt="AdLer Engine login form with focus on the login button" width="200" thumbnail="true"/>
+            </step>
+            <note>
+                <control>
+                    <p>You are now successfully logged into the AdLer 3D learning environment.</p>
+                    <p>&#10004;</p>
+                    <img src="imageManualMoodleWorkshopAdlerEngineWelcomePageLoggedInWithArrows.png" alt="AdLer Engine welcome page view after logging in" width="200" thumbnail="true"/>
+                </control>
+            </note>
+
+        </procedure>
+    </chapter>
+    <chapter title="Entering the Learning World Menu">
+        <procedure id="ProcedureEnterLearningWorldMenu">
+            <step>
+                <p>Click the <control>to the Learning World Menu</control> button.</p>
+                <img src="imageManualMoodleWorkshopAdlerEngineWelcomePageToLearningWorldMenuButtonWithArrows.png" alt="AdLer Engine welcome page with focus on to the Learning World Menu button" width="200" thumbnail="true"/>
+                <tip>After a short loading time, all learning worlds you are enrolled in with your account will be displayed in an overview.</tip>
+                <note>
+                    <control>
+                        <p>You have successfully entered the learning world menu.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </step>
+            <step>
+                <p>Click on the learning world you created.</p>
+                <img src="imageManualWorkshopLearningWorldMenuWithoutDetail.png" alt="AdLer Engine welcome page view after logging in" width="200" thumbnail="true"/>
+            </step>
+            <note>
+                <control>
+                    <p>You can now view the created learning world as a 3D learning world.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+    </chapter>
+</topic>

@@ -1,4 +1,10 @@
 # Adler aktualisieren
+
+> Diese Dokumentation ist veraltet. Siehe [AdLerStack für AdLer Updates](https://github.com/ProjektAdLer/AdLerStack/blob/main/docs/deploying_adler.md#updating)
+> und [AdLerLMS für Moodle Updates](https://github.com/ProjektAdLer/MoodleAdlerLMS?tab=readme-ov-file#updating-moodle).
+> Für allgemeinen Kontext ist die unten stehende Dokumentation dennoch lesenswert.
+> {style='warning'}
+
 Im ersten Abschnitt [AdLer aktualisieren](#adler-aktualisieren) wird beschrieben, wie alle Komponenten von AdLer außer 
 Moodle und die Moodle-Plugins aktualisiert werden. Das Update von Moodle / den Moodle-Plugins wird im zweiten Abschnitt 
 [Moodle aktualisieren](#moodle-aktualisieren) beschrieben.

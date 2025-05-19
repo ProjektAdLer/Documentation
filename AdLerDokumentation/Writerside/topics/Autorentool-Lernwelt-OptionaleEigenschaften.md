@@ -7,3 +7,6 @@
 - Einschreibeschlüssel
 - Lernziele
 - Beschreibung
+- Einleitung der Rahmenhandlung
+- Schluss der Rahmenhandlung
+

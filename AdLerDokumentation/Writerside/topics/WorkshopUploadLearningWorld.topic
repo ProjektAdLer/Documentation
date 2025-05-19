@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Uploading the Learning World" id="WorkshopUploadLearningWorld">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>With this step-by-step guide, you will upload your completed learning world from the authoring tool to the AdLer server as a Moodle course.</control>
+        </def>
+    </deflist>
+    <chapter title="Logging into the AdLer Server in the Authoring Tool" id="LoggingIntoTheAdLerServerInTheAuthoringTool">
+        <procedure>
+            <tip>
+                <p>You are in the view of your completed learning world as shown in the following image.</p>
+                <img src="imageManualWorkshopLoginToAdLerServerStartingPoint.png" alt="Highlighted Login to AdLer Server button in the header of the authoring tool" width="200" thumbnail="true" />
+            </tip>
+            <step>
+                <p>Click the <control>Login to AdLer Server</control> button.</p>
+                <img src="imageManualWorkshopHighlightedAdministrationButton.png" alt="Highlighted Login to AdLer Server button in the header of the authoring tool" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Enter the login data in the login form that now opens.</p>
+                <tip>Your login data was provided to you during the workshop. You can also find the login data schema on the workshop website of the Project AdLer homepage.</tip>
+                <img src="imageManualWorkshopLoginToAdLerServerAuthoringTool.png" alt="Login form for logging into the AdLer server in the authoring tool" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Click the <control>Login</control> button.</p>
+                <img src="imageManualWorkshopLoginToAdLerServerAuthoringToolHighlightedAnmeldenButton.png" alt="Highlighted Login button in the login form" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>You can now close the displayed window by clicking the <control>X</control> button in the upper right corner of the pop-up window.</p>
+                <img src="imageManualWorkshopLoginToAdLerServerSuccessful.png" alt="Successful login to the AdLer server" width="200" thumbnail="true" />
+            </step>
+            <note>
+                <control>
+                    <p>You have successfully logged into the AdLer server.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+    </chapter>
+    <chapter title="Publishing the Learning World" id="PublishingTheLearningWorld">
+        <procedure>
+            <tip>
+                <p>You are in the view of your completed learning world as shown in the following image.</p>
+                <img src="imageManualWorkshopLoginToAdLerServerStartingPoint.png" alt="Highlighted Login to AdLer Server button in the header of the authoring tool" width="200" thumbnail="true" />
+            </tip>
+            <step>
+                <p>Click the <control>Publish learning world as Moodle learning world file (.mbz)</control> button.</p>
+                <img src="imageManualWorkshopUploadCourseButtonHighlighted.png" alt="Highlighted Publish learning world as Moodle learning world file (.mbz) button" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>In the pop-up window that now appears, click <control>Upload</control>.</p>
+                <img src="imageManualWorkshopConfirmUploadDialog.png" alt="Upload learning world pop-up window" width="200" thumbnail="true" />
+                <tip>
+                    <p>Wait until the learning world is uploaded to the server.</p>
+                    <img src="imageManualWorkshopLoadingScreen.png" alt="Loading screen during the upload of a learning world" width="200" thumbnail="true" />
+                </tip>
+                <note>
+                    <p>You have successfully published your learning world and uploaded it to the AdLer server as a Moodle course.</p>
+                    <img src="imageManualWorkshopUploadLearningWorldSuceeded.png" alt="Upload successful pop-up window" width="200" thumbnail="true" />
+                </note>
+            </step>
+            <step>
+                <p>Now click <control>Open in Moodle</control>.</p>
+            </step>
+            <tip>
+                <p>Moodle will open in a browser window of your default browser. This may happen in the background. Check your browser window to see if Moodle has opened.</p>
+            </tip>
+            <note>
+                <control>
+                    <p>You have successfully published your learning world on the AdLer server.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+        <tip>
+            <p>Continue with the <a href="WorkshopSubscribeToLearningWorld.topic">"Viewing the Learning World in Moodle"</a> guide.</p>
+        </tip>
+    </chapter>
+</topic>

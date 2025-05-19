@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Viewing the Learning World in Moodle" id="WorkshopSubscribeToLearningWorld">
+
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>With this step-by-step guide, you will log into AdLer-Moodle to view the created learning world as a Moodle course.</control>
+        </def>
+    </deflist>
+    <show-structure for="chapter, procedure" depth="2"/>
+    <chapter title="Logging into AdLer-Moodle" default-state="expanded">
+        <procedure id="ProcedureLoginToAdLerMoodle">
+            <step>
+                <p>Open your preferred browser.</p>
+                <tip>If a browser window was already opened by the preceding steps in the <a href="WorkshopUploadLearningWorld.topic">"Uploading a Learning World"</a> guide, you can skip the first step.</tip>
+            </step>
+            <step>
+                <p>Type the following address into the browser bar or click this link: <a href="https://moodle.projekt-adler.eu" target="_blank">https://moodle.projekt-adler.eu</a>. Alternatively, open Moodle via the <control>Open in Moodle</control> button in the previously appeared pop-up in the authoring tool.</p>
+                <img src="imageManualWorkshopUploadLearningWorldSuceeded.png" alt="Upload successful pop-up window" width="200" thumbnail="true" />
+                <note>You are now on the AdLer-Moodle login page.</note>
+            </step>
+            <step>
+                <p>In the browser window that now opens, click the <control>Log in</control> button in the upper right area.</p>
+                <img src="imageManualWorkshopSubscribeToLearningWorldMoodleHomescreenNotLoggedInWithArrow.png" alt="Home screen of AdLer Moodle without login" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Enter your login credentials in the window that now appears.</p>
+                <tip>Your login credentials were provided to you during the workshop. You can also find the schema for the login credentials on the workshop website of the Project AdLer homepage.</tip>
+                <warning>Your login credentials are not the same as those you used in the authoring tool to log in for uploading the learning world!</warning>
+                <img src="imageManualWorkshopMoodleLoginFormWithData.png" alt="Moodle login form" width="200" thumbnail="true"/>
+                <tip>The login credentials in the image are for illustration purposes only. Please enter your own login credentials.</tip>
+            </step>
+            <step>
+                <p>Now click the <control>Log in</control> button.</p>
+                <img src="imageManualWorkshopMoodleLoginFormWithDataFocusLoginButton.png" alt="Moodle login form with focus on the login button" width="200" thumbnail="true"/>
+            </step>
+            <note>
+                <control>
+                    <p>You are now successfully logged into AdLer-Moodle.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+    </chapter>
+    <chapter title="Enrolling in the 3D Learning World" id="EnrollingInA3DLearningWorld">
+        <procedure id="ProcedureEnrollIn3DLearningWorld">
+            <tip>After logging into Moodle, you will be in the default view. If you are directly in the Moodle course window, which has an <control>Enroll me</control> button, start at step 3.</tip>
+            <img src="imageManualWorkshopLoggedInToMoodleDefaultPage.png" alt="Default view after logging into Moodle" width="200" thumbnail="true"/>
+            <step>
+                <p>Click the <control>Home</control> option in the upper left area.</p>
+                <img src="imageManualWorkshopLoggedInToMoodleDefaultPageWithArrow.png" alt="Arrow pointing to the Home entry in the default view" width="200" thumbnail="true"/>
+                <note>All available Moodle courses will now be displayed.</note>
+            </step>
+            <step>
+                <p>Now select the Moodle course for your created learning world with a click.</p>
+                <img src="imageManualWorkshopAvailableCoursesWithArrow.png" alt="Arrow pointing to an example course to be selected" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <tip>If the course you want to enroll in does not have an enrollment key, please proceed to step 4.</tip>
+                <p>Click in the input field and enter the enrollment key for the selected learning world.</p>
+                <img src="imageManualWorkshopEnrollInputSelfEnrolmentKeyWithArrow.png" alt="Highlight of the enrollment key input field." width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Now click the <control>Enrol me</control> button.</p>
+                <img src="imageManualWorkshopEnrollIEnrollMeButtonWithArrow.png" alt="Highlight of the Enroll me button" width="200" thumbnail="true"/>
+                <tip>The selected Moodle course will now be displayed in AdLer-Moodle.
+                    <img src="imageManualWorkshopMoodleCourseDefaultPage.png" alt="Display of the Moodle course" width="200" thumbnail="true"/>
+                </tip>
+            </step>
+            <note>
+                <control>
+                    <p>You have successfully enrolled in the learning world in AdLer-Moodle.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+        <tip>
+            <p>Now continue with the <a href="WorkshopLoginToEngine.topic">"Viewing the Learning World in the 3D Learning Environment"</a> guide.</p>
+        </tip>
+    </chapter>
+</topic>

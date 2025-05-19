@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Installing the Authoring Tool" id="WorkshopInstallAuthoringTool">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>With this step-by-step guide, you can download and install the authoring tool.</control>
+        </def>
+    </deflist>
+    <procedure title="Downloading the Authoring Tool">
+        <step>
+            <p>If you have already downloaded the authoring tool, you can skip this step.</p>
+        </step>
+        <step>
+            <p>Open your preferred browser.</p>
+            <warning>
+                <p>Do <control>not</control> use the <control>Safari</control> browser to download the authoring tool. The file downloaded by Safari is not usable.</p>
+            </warning>
+        </step>
+        <step>
+            <p>Enter the following address in the browser bar or click this link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a>.</p>
+            <tip>You are now on the GitHub "Releases" page, where all versions of the AdLer authoring tool are listed. The latest version is displayed at the top.</tip>
+        </step>
+        <step>
+            <p>Under <control>Assets</control>, select the file that is suitable for your system and download it.</p>
+        </step>
+        <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Example list of authoring tool downloads" width="200" thumbnail="true"/>
+        <tip>
+            <p>Below is a list of which file you need to download for which operating system to install the authoring tool.</p>
+        </tip>
+        <tabs>
+            <tab id="windows" title="Windows">
+                <p>Click on the file with the <control>.exe</control> extension.</p>
+                <img src="imageManualWorkshopDownloadAuthoringToolWin.png" alt="List of authoring tool downloads" width="200" thumbnail="true"/>
+                <procedure title="Downloading the Authoring Tool with Microsoft Edge" collapsible="true">
+                    <tip>If you are not using Microsoft Edge as your browser, skip to <a href="WorkshopInstallAuthoringTool.topic#installation-windows1011"><control>Installing the Authoring Tool on Windows 10/11</control></a></tip>
+                    <warning>
+                        <p>When using the Microsoft Edge browser, the downloaded file is not saved as an .exe file because Microsoft considers the file untrustworthy. Follow these steps to make the file usable.</p>
+                    </warning>
+                    <img src="imageManualWorkshopDownloadProblemEdge-1.png" alt="Download indicator in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>Click the <control>button with the three dots arranged next to each other</control>.</p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-2.png" alt="Download indicator in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>
+                            Click <control>Keep</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-3.png" alt="Download indicator in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>
+                            Click <control>Show more</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-4.png" alt="Download indicator in Edge" width="200" thumbnail="true"/>
+                    <step>
+                        <p>
+                            Click <control>Keep anyway</control>.
+                        </p>
+                    </step>
+                    <img src="imageManualWorkshopDownloadProblemEdge-5.png" alt="Download indicator in Edge" width="200" thumbnail="true"/>
+                    <note>
+                        The file is now usable. You can continue with the instructions.
+                    </note>
+                </procedure>
+            </tab>
+            <tab id="macOS" title="macOS">
+                <p>Click on the file with the <control>.dmg</control> extension.</p>
+                <img src="imageManualWorkshopDownloadAuthoringToolMac.png" alt="List of authoring tool downloads" width="200" thumbnail="true"/>
+            </tab>
+            <tab id="linux" title="Linux">
+                <p>Depending on your installed Linux distribution, click on the appropriate file. For example <control>.snap</control> or <control>.AppImage</control>.</p>
+                <img src="imageManualWorkshopDownloadAuthoringToolLinux.png" alt="List of authoring tool downloads" width="200" thumbnail="true"/>
+            </tab>
+        </tabs>
+        <tip>
+            <p>The file you selected will now be downloaded.</p>
+            <img src="imagesManualWorkshopExeDownload.png" alt="Example download in Firefox on Windows" width="200" thumbnail="true"/>
+        </tip>
+        <note>
+            <control>
+                <p>You have successfully downloaded the authoring tool.</p>
+                <p>&#10004;</p>
+            </control>
+        </note>
+    </procedure>
+    <tabs>
+        <tab title="Installation Windows 10/11" id="installation-windows1011">
+            <procedure title="Installing the Authoring Tool on Windows 10/11">
+                <step>
+                    <p>Open the folder where you downloaded the installation file.</p>
+                </step>
+                <tip>
+                    <p>By default, Windows downloads files to the <control>C:\\Users\\YourPCName\\Downloads</control> folder.</p>
+                </tip>
+                <step>
+                    <p>Double-click the downloaded authoring tool installation file to open it.</p>
+                </step>
+                <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Example download in Firefox on Windows" width="200" thumbnail="true"/>
+                <tip>The warning shown in the following screenshot appears. This is because the AdLer authoring tool does not yet have a certificate from Microsoft.</tip>
+                <img src="imageManualWorkshopAlertWindow.png" alt="Warning window in Windows" width="200" thumbnail="true"/>
+                <step>
+                    <p>In the warning window, click <control>More info</control>.</p>
+                </step>
+                <step>
+                    <p>Now click <control>Run anyway</control>.</p>
+                </step>
+                <img src="imageManualWorkshopInstallNevertheless.png" alt="Warning window in Windows with Run anyway" width="200" thumbnail="true"/>
+                <tip>
+                    <p>The installation now runs automatically. After installation, you will see the default view of the AdLer authoring tool.</p>
+                    <img src="imageManualWorkshopAuthoringToolDefaultAfterInstallWindows.png" alt="Default view of the authoring tool after opening on Windows" width="200" thumbnail="true"/>
+                </tip>
+                <note>
+                    <control>
+                        <p>You have successfully installed the authoring tool on your Windows computer.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </tab>
+        <tab title="Installation macOS">
+            <procedure title="Installing the Authoring Tool on macOS">
+                <step>
+                    <p>Open the folder where you downloaded the installation file.</p>
+                </step>
+                <tip>
+                    <p>By default, macOS downloads files to the <control>/Users/YourUserName/Downloads</control> folder.</p>
+                </tip>
+                <step>
+                    <p>Double-click the downloaded file to open it.</p>
+                </step>
+                <img src="imageManualWorkshopDownloadsFolderMacOs.png" alt="Downloads folder macOS" width="200" thumbnail="true"/>
+                <step>
+                    <p>Click the authoring tool logo and drag it with the left mouse button held down to the <control>Applications</control> folder. Release it there.</p>
+                    <tip>The <control>.app</control> file extension may not appear on your Mac.</tip>
+                </step>
+                <img src="imageManualWorkshopDragAuthoringToolToInstall.png" alt="Installation dialog macOS" width="200" thumbnail="true"/>
+                <step>
+                    <p>Now open your Finder and go to the <control>Applications</control> folder. Look for the <control>AuthoringTool</control> application, which has the corresponding AdLer logo.</p>
+                </step>
+                <img src="imageManualWorkshopFinderPrograms.png" alt="Applications folder in Finder" width="200" thumbnail="true"/>
+                <step>
+                    <p>Now right-click the authoring tool or hold down the <control>CTRL</control> key and click with the left mouse button.</p>
+                    <note>The right-click context menu appears.</note>
+                </step>
+                <step>
+                    <p>Now click the <control>Open</control> option.</p>
+                </step>
+                <img src="imageManualWorkshopRightClickAuthoringTool.png" alt="Right-click context menu" width="200" thumbnail="true"/>
+                <step>
+                    <p>In the warning window that now opens, click the <control>Open</control> button.</p>
+                </step>
+                <img src="imageManualWorkshopPromptClickOpen.png" alt="Warning window" width="200" thumbnail="true"/>
+                <tip>The warning window appears because the AdLer authoring tool does not yet have a certificate from Apple. You only need to perform this opening process the first time you open it.</tip>
+                <note>
+                    <p>You will now see the opened authoring tool.</p>
+                    <img src="imageManualWorkshopAuthoringToolDefaultMacOs.png" alt="Default view of the authoring tool macOS" width="200" thumbnail="true"/>
+                </note>
+
+                <note>
+                    <control>
+                        <p>You have successfully installed the authoring tool on your Mac.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </tab>
+        <tab title="Installation Linux">
+            <procedure title="Installing the Authoring Tool on Linux">
+                <step>
+                    <p>This step-by-step guide has not yet been created.</p>
+                </step>
+                <note>
+                    <control>
+                        <p>You have successfully installed the authoring tool on your Linux computer.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+            </procedure>
+        </tab>
+        <tab title="Installation THAB Domain Computers">
+            <procedure title="Installing the Authoring Tool on TH Aschaffenburg Domain Computers">
+                <step>
+                    <p>Open the folder where you downloaded the installation file.</p>
+                    <tip>
+                        <p>By default, Windows downloads files to the <control>C:\\Users\\YourPCName\\Downloads</control> folder.</p>
+                    </tip>
+                </step>
+                <step>
+                    <p><b>Right-click</b> the downloaded authoring tool installation file.</p>
+                </step>
+                <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Example download in Firefox on Windows" width="200" thumbnail="true"/>
+                <step>
+                    <p>In the window that now appears, click the <b>Properties</b> option.</p>
+                </step>
+                <img src="imageManualWorkshopDomaenenrechnerEigenschaften.png" alt="PropertiesWindow" width="200" thumbnail="true"/>
+                <step>
+                    <p>In the window that now opens, check the <b>Allow</b> box in the <b>General</b> tab at the bottom right.</p>
+                </step>
+                <img src="imageManualWorkshopDomaenenrechnerZulassen.png" alt="AllowInPropertiesWindow" width="200" thumbnail="true"/>
+                <step>
+                    <p>Confirm your entry by clicking the <b>OK</b> button.</p>
+                </step>
+                <img src="imageManualWorkshopDomaenenrechnerOKButton.png" alt="OKButtonInPropertiesWindow" width="200" thumbnail="true"/>
+                <step>
+                    <p>Double-click the downloaded authoring tool installation file to open it.</p>
+                </step>
+                <img src="imageManualWorkshopExecuteAuthoringToolExe.png" alt="Example download in Firefox on Windows" width="200" thumbnail="true"/>
+                <tip>
+                    <p>The authoring tool should now be installed and open automatically after installation.</p>
+                </tip>
+                <note>
+                    <control>
+                        <p>You have successfully installed the authoring tool on your Windows domain computer at TH Aschaffenburg.</p>
+                        <p>&#10004;</p>
+                    </control>
+                </note>
+                <warning>
+                    <p>All data will be deleted from pool PCs at the end of the day. If you want to continue working on or access your learning world created in the authoring tool later, you must <a href="ManualAuthoringBedienungKopfzeileLernweltArchivieren.topic">archive</a> the current state of your learning world and save the learning world stored as a ZIP file on an external storage medium.</p>
+                </warning>
+            </procedure>
+        </tab>
+    </tabs>
+    <tip>
+        <p>Now continue with <a href="WorkshopPrepareLearningWorld.topic">Preparing the Learning World</a>.</p>
+    </tip>
+</topic>
