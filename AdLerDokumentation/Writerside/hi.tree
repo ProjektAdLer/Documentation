@@ -897,6 +897,8 @@
             <toc-element topic="3D-Asset-Creation-Workflow-Character-Animation.md"/>
             <toc-element topic="3D-Asset-Creation-Workflow-Code-Einbindung.md"/>
             <toc-element topic="3D-Asset-Creation-Avatar-Editor.md"/>
+            <toc-element topic="3D Asset Subthemes in AdLerEngine einfügen.topic"/>
+            <toc-element topic="3D_Asset_Subthemes_in_MockBackend_integrieren.topic"/>
         </toc-element>
     </toc-element>
     <toc-element topic="Beispielanwendungen.md">

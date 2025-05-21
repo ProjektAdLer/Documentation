@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="3D Subthemes in AdLer Engine einbauen" id="3D Asset Subthemes in AdLerEngine einfügen"
+       help-id="Writerside-Benutzerdoku-Template-Handlungsanweisung">
+
+    <procedure title="Subthemes in AdLerEngine einbauen" id="hier_steht_die_bezeichung_der_handlungsanweisung">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>Ein neues Subtheme ist in AdLerEngine integriert</control>
+            </def>
+        </deflist>
+
+
+        <step><p>Legen Sie einen neuen Type mit dem Titel des Subthemes in <control>src\Components\Core\Domain\Types\LearningSpaceThemeTypes.ts</control> an </p>
+            <img alt="NeuenSubthemeTypeAnlegen.png" src="NeuenSubthemeTypeAnlegen.png"/>
+            <warning>Achten Sie auf eine aussagekräftige, eindeutige Benennung in englischer Sprache</warning>
+        </step>
+
+        <step><p>Öffnen Sie das übergeordnete LearningSpaceTheme File </p>
+        <p>Sie finden die zugehörigen Theme Files unter <control>src\Components\Core\Domain\LearningSpaceThemes</control> <br></br> z.B. LearningSpaceTheme_Campus.ts</p>
+        </step>
+
+        <step><p>Legen Sie eine neue Variable für das Subtheme an</p>
+        <img alt="LearningSpaceSubThemeTitle.png" src="LearningSpaceSubThemeTitle.png"/>
+        </step>
+
+        <step>Weisen Sie das Umgebungsmodell zu
+        <img alt="LearningSpaceSubThemeAmbiance.png" src="LearningSpaceSubThemeAmbiance.png"/>
+        </step>
+
+        <step>Weisen Sie die Innendeko je Grundriss zu
+        <img alt="LearningSpaceSubthemeInsideDeko.png" src="LearningSpaceSubthemeInsideDeko.png"/>
+        </step>
+
+        <step><p>Öffnen Sie die Datei <control>src\Components\Core\Domain\LearningSpaceThemes\LearningSpaceThemeLookup.ts</control></p></step>
+
+        <step>Importieren Sie das neue Subtheme in die ThemeLookup
+        <img alt="ImportSubthemeInLearningSpaceThemeLookup.png" src="ImportSubthemeInLearningSpaceThemeLookup.png"/>
+        </step>
+
+        <step>Weißen Sie den Switch-Case für das neue Subtheme zu  <img alt="LearningSpaceThemeLookupSwitchCase.png" src="LearningSpaceThemeLookupSwitchCase.png"/></step>
+
+        <br></br>
+        <note><control>Das neue Subtheme wurde erfolgreich hinzugefügt</control></note>
+
+    </procedure>
+</topic>
