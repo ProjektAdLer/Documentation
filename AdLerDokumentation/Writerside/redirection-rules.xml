@@ -414,5 +414,5 @@
     <rule id="218ac07e">
         <description>Created after removal of "3D Asset Creation Avatar Editor" from AdLerDokumentation</description>
         <accepts>Writerside-Benutzerdoku-Template-Handlungsanweisung.html</accepts>
-    </rule>
+    </rule><rule></rule><rule></rule><rule></rule>
 </rules>
