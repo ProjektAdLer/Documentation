@@ -21,8 +21,8 @@
             </warning>
         </step>
         <step>
-            <p>Enter the following address in the browser bar or click this link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a>.</p>
-            <tip>You are now on the GitHub "Releases" page, where all versions of the AdLer authoring tool are listed. The latest version is displayed at the top.</tip>
+            <p>Enter the following address in the browser bar or click this link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/tag/2.2.2" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/tag/2.2.2</a>.</p>
+<!--            <tip>You are now on the GitHub "Releases" page, where all versions of the AdLer authoring tool are listed. The latest version is displayed at the top.</tip>-->
         </step>
         <step>
             <p>Under <control>Assets</control>, select the file that is suitable for your system and download it.</p>

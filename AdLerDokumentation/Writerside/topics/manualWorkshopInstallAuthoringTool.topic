@@ -21,8 +21,8 @@
             </warning>
         </step>
         <step>
-            <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a>.</p>
-            <tip>Sie befinden sich nun auf der GitHub-Seite "Releases", auf der alle Versionen des AdLer-Autorentools aufgeführt werden. Die aktuellste Version wird ganz oben angezeigt.</tip>
+            <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/tag/2.2.2" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/tag/2.2.2</a>.</p>
+<!--            <tip>Sie befinden sich nun auf der GitHub-Seite "Releases", auf der alle Versionen des AdLer-Autorentools aufgeführt werden. Die aktuellste Version wird ganz oben angezeigt.</tip>-->
         </step>
         <step>
             <p>Wählen Sie nun unter dem Punkt <control>Assets</control>, die Datei aus, welche für Ihr System passend ist und laden Sie diese herunter.</p>
