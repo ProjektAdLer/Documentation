@@ -5,13 +5,13 @@
 ![](image-AuthoringTool-Buildprozess.png)
 
 ## Dependencies
-Um unsere Applikation als Electron-App zu bauen, verwenden wir das [ElectronNET.CLI](https://www.nuget.org/packages/ElectronNET.CLI/)
+Um unsere Applikation als Electron-App zu bauen, verwenden wir das [ElectronSharp.CLI](https://www.nuget.org/packages/ElectronSharp.CLI/)
 Paket, welches mittels
 ```Shell
-dotnet tool install --global ElectronNET.CLI --version 23.6.2
+dotnet tool install ElectronSharp.CLI --g
 ```
 installiert werden kann. Zusätzlich muss [node installiert werden](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm),
-da die electronize Applikation `npm` und `npx` benötigt um die Electron-App zu bauen.
+da die electron-sharp Applikation `npm` und `npx` benötigt um die Electron-App zu bauen.
 
 Bevor das Autorentool gebaut werden kann, muss zusätzlich einmalig die Node.js Abhängigkeiten installiert werden.
 Hierfür muss im `AuthoringTool` Ordner folgendes Kommando ausgeführt werden:
@@ -36,15 +36,15 @@ Nach dem Build sind die Artefakte im Ordner `AuthoringTool/bin/Desktop_Publish` 
 Ausführung im `AuthoringTool` Ordner:
 ### Windows
 ```Shell
-dotnet electronize build /target win
+dotnet electron-sharp build /target win
 ```
 ### Linux
 ```Shell
-dotnet electronize build /target linux
+dotnet electron-sharp build /target linux
 ```
 ### MacOS (Universal)
 ```Shell
-dotnet electronize build /target osx
+dotnet electron-sharp build /target osx
 ```
 > Dieses Kommando baut die Applikation standardmäßig für die Intel-Prozessorarchitektur, d.h. die Applikation läuft
 > sowohl auf Intel Macs als auch auf Apple Silicon Geräten (M1, M2, M3, ...),
@@ -52,7 +52,7 @@ dotnet electronize build /target osx
 {style='note'}
 ### MacOS (Apple Silicon)
 ```Shell
-dotnet electronize build /target custom "osx-arm64;macos" /electron-arch arm64
+dotnet electron-sharp build /target osx-arm64
 ```
 > Dieses Kommando baut die Applikation spezifisch für die Apple Silicon Architektur (arm64). Das erzeugte Binary ist daher
 > **nur** auf Apple Silicon Macs ausführbar.
