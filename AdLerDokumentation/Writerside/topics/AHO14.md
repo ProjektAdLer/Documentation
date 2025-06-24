@@ -9,4 +9,6 @@ Lernpfad persistieren.
 
 ## Aktivitätsdiagramm:
 
+## Dokumentation:
 
+Persistierung wird in [](Persisitierung-im-Autorentool.md) erklärt.
