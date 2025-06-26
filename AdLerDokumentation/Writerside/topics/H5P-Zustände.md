@@ -17,3 +17,13 @@ Biespiele hierfür sind H5P's die nur aus Text oder Bildern bestehen.
 
 
 Anmerkung: Vorerst nicht testbar, keine ID vergeben in Writerside Topic
+
+## State-Pattern in der Implementierung
+
+Auf das State-Pattern wurde explizit verzichtet:
+
+- Die Zustände repräsentieren Zustandsdaten, kein kompliziertes Verhalten
+- Darum Brauchen wir in einem Zustand keine Logik
+- Statt Logik brauchen wir Statusverwaltung
+- Zustandsänderungen passieren durch einfache Regeln 
+-> Nutzer setzt den Zustand aktiv um
