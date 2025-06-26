@@ -23,7 +23,7 @@ Anmerkung: Vorerst nicht testbar, keine ID vergeben in Writerside Topic
 Auf das State-Pattern wurde explizit verzichtet:
 
 - Die Zustände repräsentieren Zustandsdaten, kein kompliziertes Verhalten
-- Darum Brauchen wir in einem Zustand keine Logik
+- Darum brauchen wir in einem Zustand keine Logik
 - Statt Logik brauchen wir Statusverwaltung
 - Zustandsänderungen passieren durch einfache Regeln 
 -> Nutzer setzt den Zustand aktiv um
