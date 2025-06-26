@@ -19,7 +19,7 @@ Wichtiges Aktivitästdiagramm zum Persisitierungsprozess im Autorentool: [](ASE6
 ## Wichtige Methoden:
 
 Eine Wichtige Methode des Autorentool
-um die Persisiterung auf Code-Ebene zu verstehen ist: 
+um die Persisterung auf Code-Ebene zu verstehen ist: 
 DataAccess.SaveLearningWorldToFile
 
 
