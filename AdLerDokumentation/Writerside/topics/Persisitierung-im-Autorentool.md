@@ -4,9 +4,9 @@
 
 ## Beschreibung
 
-Für jede Lernwelt im Autorentool wird eine XML Datei im Verzeichnis SavedWorlds angelegt.
+Für jede Lernwelt im Autorentool wird eine XML-Datei im Verzeichnis SavedWorlds angelegt.
 Das Format der Datei ist das AdLer World Format (AWF). 
-Das AWF entspricht der Struktur der Persisitentities des Autorentools.
+Das AWF entspricht der Struktur der Persist-Entities des Autorentools.
 Kurz zusammengefasst enthält jede Lernwelt ihre Lernräume, diese wiederum 
 enthalten die Lernelemente usw.
 Einzige Ausnahme sind die Content-Dateien der Lernelemente selbst
@@ -14,12 +14,12 @@ Einzige Ausnahme sind die Content-Dateien der Lernelemente selbst
 liegen und in den AWF-Lernweltdateien über Dateipfade referenziert werden.
 
 
-Wichtiges Aktivitästdiagramm zum Persisitierungsprozess im Autorentool: [](ASE6.md) 
+Wichtiges Aktivitätsdiagramm zum Persistierungsprozess im Autorentool: [](ASE6.md) 
 
 ## Wichtige Methoden:
 
-Eine Wichtige Methode des Autorentool
-um die Persisterung auf Code-Ebene zu verstehen ist: 
+Eine wichtige Methode des Autorentools
+um die Persistierung auf Code-Ebene zu verstehen ist: 
 DataAccess.SaveLearningWorldToFile
 
 
