@@ -57,12 +57,13 @@ Beachte auch: [H5P-Zustände Autorentool](H5P-Zustände-Autorentool.md)
 
 
 ## 3D-Lernumgebung:
+
 H5P content:
-    - Das sind H5P's die ein XAPI-Event feuern, wenn sie abgeschlossen sind
+- Das sind H5P's die ein XAPI-Event feuern, wenn sie abgeschlossen sind
 
 H5P primitiv:
-    - Diese H5P's können kein XAPI-Event feuern, sind demnach nicht abschließbar.
-        - Beispiele hierfür sind H5P's die nur aus Text oder Bildern bestehen.
+- Diese H5P's können kein XAPI-Event feuern, sind demnach nicht abschließbar.
+- Beispiele hierfür sind H5P's die nur aus Text oder Bildern bestehen.
 
 
 ## State-Pattern in der Implementierung
