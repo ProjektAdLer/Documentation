@@ -53,8 +53,9 @@ Beachte auch: [H5P-Zustände Autorentool](H5P-Zustände-Autorentool.md)
   </tbody>
 </table>
 
+## Zustandsdiagramm
 
-
+![H5pStateMachine-H5pPlayer.png](H5pStateMachine-H5pPlayer.png)
 
 ## 3D-Lernumgebung:
 
