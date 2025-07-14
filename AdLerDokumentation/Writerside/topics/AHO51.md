@@ -1,4 +1,4 @@
-# Externes Lernmaterial hochladen (erstellen)
+# Externes Lernmaterial hochladen
 
 
 
