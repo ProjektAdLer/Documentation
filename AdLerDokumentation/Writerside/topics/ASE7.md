@@ -1,11 +1,12 @@
-# Externes Lernmaterial updaten
+# Externes Lernmaterial bearbeiten
 
 ## Definition
 
-Das Autorentool muss Externes Lernmaterial updaten.
+Das Autorentool muss Externes Lernmaterial bearbeiten.
 
 ## Akzeptanzkriterien
 
+- 
 
 ## Aktivitätsdiagramm
 
