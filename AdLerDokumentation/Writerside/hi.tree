@@ -319,8 +319,9 @@
                 <toc-element topic="Lernwelt-Entities-FunktionaleAnforderungen-Engine.md">
                     <toc-element topic="EWE0028.md"/>
                     <toc-element topic="EWE0024.md"/>
-                    <toc-element topic="EWE0027.md"/>
-                    <toc-element topic="ELG0008.md"/>
+                    <toc-element topic="EWE0027.md">
+                        <toc-element topic="ELG0008.md"/>
+                    </toc-element>
                     <toc-element topic="ELG0005.md"/>
                     <toc-element topic="ELG0006.md"/>
                     <toc-element topic="ELG0007.md"/>
@@ -440,6 +441,10 @@
                     <toc-element topic="EZZ0002.md"/>
                 </toc-element>
                 <toc-element topic="Applikationsspezifische-Anforderungen-Engine.md">
+                    <toc-element topic="Narratives-Framework-Engine.md">
+                        <toc-element topic="ELG0037.md"/>
+                        <toc-element topic="ELG0038.md"/>
+                    </toc-element>
                     <toc-element topic="Avatar-Editor-Engine.md">
                         <toc-element topic="EZZ0055.md"/>
                         <toc-element topic="Haare.md">
