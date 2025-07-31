@@ -441,6 +441,11 @@
                     <toc-element topic="EZZ0002.md"/>
                 </toc-element>
                 <toc-element topic="Applikationsspezifische-Anforderungen-Engine.md">
+                    <toc-element topic="Erfahrungspunkte-Engine.md">
+                        <toc-element topic="ELG0039.md"/>
+                        <toc-element topic="ELG0041.md"/>
+                        <toc-element topic="ELG0040.md"/>
+                    </toc-element>
                     <toc-element topic="Narratives-Framework-Engine.md">
                         <toc-element topic="ELG0037.md"/>
                         <toc-element topic="ELG0038.md"/>
