@@ -452,6 +452,7 @@
                     </toc-element>
                     <toc-element topic="Avatar-Editor-Engine.md">
                         <toc-element topic="EZZ0055.md"/>
+                        <toc-element topic="ELG0042.md"/>
                         <toc-element topic="Haare.md">
                             <toc-element topic="EZZ0035.md"/>
                             <toc-element topic="EZZ0036.md"/>
