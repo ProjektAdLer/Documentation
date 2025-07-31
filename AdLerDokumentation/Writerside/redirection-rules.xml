@@ -415,4 +415,8 @@
         <description>Created after removal of "3D Asset Creation Avatar Editor" from AdLerDokumentation</description>
         <accepts>Writerside-Benutzerdoku-Template-Handlungsanweisung.html</accepts>
     </rule><rule></rule><rule></rule><rule></rule>
+    <rule id="332c97ba">
+        <description>Created after removal of "Türen" from AdLerDokumentation</description>
+        <accepts>Türen-FunktionaleAnforderungen-Engine.html</accepts>
+    </rule>
 </rules>
