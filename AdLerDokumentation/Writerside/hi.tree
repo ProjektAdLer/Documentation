@@ -243,6 +243,9 @@
                         <toc-element topic="Autorentool-Lernwelt-OptionaleEigenschaften.md">
                             <toc-element topic="Lernwelt-Theme.md"/>
                         </toc-element>
+                        <toc-element topic="Autorentool-Lernwelt-OptionaleEigenschaften.md">
+                            <toc-element topic="AWA0050.md"/>
+                        </toc-element>
                         <toc-element topic="Autorentool-Lernwelt-ErforderlicheEigenschaften.md">
                             <toc-element topic="ASN0023.md"/>
                         </toc-element>
