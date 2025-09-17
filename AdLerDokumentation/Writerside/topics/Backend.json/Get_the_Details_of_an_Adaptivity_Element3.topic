@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Get the Details of an Adaptivity Element" id="Get_the_Details_of_an_Adaptivity_Element3">
+
+    <api-endpoint openapi-path="../../../../ApiSpecs/Backend.json" method="GET" endpoint="/api/Elements/World/{worldId}/Element/{elementId}/Adaptivity"/>
+</topic>

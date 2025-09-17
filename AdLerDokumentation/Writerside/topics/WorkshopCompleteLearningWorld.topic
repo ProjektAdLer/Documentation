@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Completing the Learning World" id="WorkshopCompleteLearningWorld"
+       help-id="WorkshopCreateAdLerLearningWorldAuthoringTool">
+    <show-structure for="chapter, procedure" depth="2"/>
+    <deflist type="compact" sorted="desc">
+        <def title="&#127937;">
+            <control>With this step-by-step guide, you will complete an existing learning space. You will also design a new learning space and create connections between the learning spaces.</control>
+        </def>
+    </deflist>
+    <chapter title="Completing the Learning Space 3D Learning Environment and Moodle" id="CompletingTheLearningSpace3DLearningEnvironmentAndMoodle">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>
+                    What are we doing here?
+                    <list type="alpha-lower">
+                        <li>You open the learning space and change its metadata.</li>
+                        <li>Then you add external learning material to the authoring tool.</li>
+                        <li>Afterwards, you create three learning elements, provide them with metadata, and assign the appropriate learning material to them.</li>
+                        <li>Finally, you create dependencies between the learning spaces.</li>
+                    </list>
+                </control>
+            </def>
+        </deflist>
+        <procedure title="a. Adjusting the Learning Space Metadata" id="AdjustingTheLearningSpaceMetadata">
+            <step>
+                <p>In the right area of the window, double-click on the image of the learning space <control>Moodle and 3D Learning Environment</control>.</p>
+                <img src="imageManualWorkshopHighlightMoodle3DRoomPathwayView.png" alt="Highlight of the learning space to be clicked in the learning path view" width="200" thumbnail="true" />
+                <tip>Learning spaces are displayed as squares in the right area. If you hover over the learning spaces with your mouse, the full name will be displayed.</tip>
+            </step>
+            <step>
+                <p>Now, in the <control>Edit Learning Space</control> tab, click on the <control>Completion Condition</control> category to expand it.</p>
+                <img src="imageManualWorkshopOpened3DRoom.png" alt="Opened learning space 3D Learning Environment and Moodle" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Now increase the number of points to <control>8</control>.</p>
+                <tip>You can do this step by clicking the arrows within the field or by typing the number on your keyboard.</tip>
+            </step>
+            <step>
+                <note>The red dot on the <control>Save icon (floppy disk)</control> indicates that there are unsaved changes to your learning world.</note>
+                <p>Click the save icon in the upper left corner of the window to save your unsaved changes.</p>
+            </step>
+            <tip>Your changes to the learning world have now been saved.</tip>
+            <note>
+                <control>
+                    <p>You have successfully made all necessary changes to the learning space metadata.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+
+        <procedure title="b. Adding External Learning Material" id="AddingExternalLearningMaterial">
+            <tip>You are still in the view of the opened learning space <control>Moodle and 3D Learning Environment</control>.
+                <img src="imageManualWorkshopLearningSpaceMoodleOpened.png" alt="View of the authoring tool with the Moodle and 3D Learning Environment space open" width="200" thumbnail="true"/>
+            </tip>
+            <step>
+                <p>Click on the <control>External Learning Material</control> tab in the left area of the authoring tool.</p>
+                <img src="imageManualWorkshopClickExternalLearningMaterial.png" alt="Click on External Learning Material tab" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Click <a href="https://projekt-adler.eu/wp-content/uploads/Downloadcontent-Lernelemente.zip" target="_blank">here</a> to download the required External Learning Material or download the "External Learning Material for creating the missing learning elements" from the workshop landing page.</p>
+                <tip>Download link for External Learning Material: <a href="https://projekt-adler.eu/wp-content/uploads/Downloadcontent-Lernelemente.zip" target="_blank">https://projekt-adler.eu/wp-content/uploads/Downloadcontent-Lernelemente.zip</a></tip>
+            </step>
+            <step>
+                <p>Unzip the downloaded .ZIP file.</p>
+                <tip>
+                    <list>
+                        <li>In Windows 11, you can unzip .ZIP files by right-clicking the .ZIP file and clicking <control>Extract All...</control>.</li>
+                        <li>Windows 10 requires additional software such as 7zip or WinRar.</li>
+                        <li>In macOS, simply double-click a .ZIP file to open it.</li>
+                    </list>
+                </tip>
+                <tip>You can also shorten the following steps by dragging the .zip file directly into the light blue area. The authoring tool will automatically unzip the files and add them to the External Learning Material. The following steps are included in this guide for completeness.
+                </tip>
+            </step>
+            <step>
+                <p>Drag the file with the <control>.h5p</control> extension into the light blue area to add it to the authoring tool.</p>
+                <img src="imageManualWorkshopAddExternalLearningMaterialDragDrop.png" alt="External Learning Material drop zone" width="200" thumbnail="true"/>
+                <note>You have successfully added a file as external learning material to the authoring tool.</note>
+                <warning>Don\'t be surprised if your added external learning material is not immediately visible. The "External Learning Material" list in the lower section of the left sidebar has multiple pages that can be navigated using the arrows below the list.</warning>
+                <warning>On large screens, the list may appear to end because a large white space appears below it. Use the arrows at the bottom to display the remaining External Learning Material.</warning>
+            </step>
+            <step>
+                <note>The red dot on the <control>Save icon (floppy disk)</control> indicates that there are unsaved changes to your learning world.</note>
+                <p>Click the save icon in the upper left corner of the window to save your unsaved changes.</p>
+                <tip>Your changes to the learning world have now been saved.</tip>
+            </step>
+            <step>
+                <p>Click on the <control>Add Link</control> category to expand it.</p>
+                <img src="imageManualWorkshopClickAddLink.png" alt="Expand Add Link" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Copy the name below.</p>
+                <code-block>Floor Plans Themes Avatar and 3D</code-block>
+            </step>
+            <step>
+                <p>Now paste it into the <control>Name for the link</control> text field.</p>
+                <img src="imageManualWorkshopClickNameLink.png" alt="Enter link name" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Copy the link below.</p>
+                <code-block>https://www.youtube.com/watch?v=8bcZdUicYeY</code-block>
+            </step>
+
+            <step>
+                <p>Now paste it into the <control>Link</control> text field.</p>
+                <img src="imageManualWorkshopClickLinkURL.png" alt="Enter URL" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <p>Confirm your entry with the <control>OK</control> button.</p>
+                <img src="imageManualWorkshopClickLinkOK.png" alt="Confirm with OK" width="200" thumbnail="true"/>
+            </step>
+            <step>
+                <note>The red dot on the <control>Save icon (floppy disk)</control> indicates that there are unsaved changes to your learning world.</note>
+                <p>Click the save icon in the upper left corner of the window to save your unsaved changes.</p>
+                <tip>Your changes to the learning world have now been saved.</tip>
+            </step>
+            <step>
+                <p>Now repeat steps 7-12 to create the second required link as external learning material. You will find the necessary information below.</p>
+                <tip>
+                    <p>Name for the link:</p><code-block>Thank You</code-block>
+                    <p>Link:</p><code-block>https://www.youtube.com/watch?v=gG0RuXkE7ps</code-block>
+                </tip>
+            </step>
+            <note>
+                <control>
+                    <p>You have successfully added external learning material to the authoring tool.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+        <procedure title="c. Creating Two Learning Elements" id="CreatingTwoLearningElements">
+            <step>
+                <p>As shown in the illustration, click on one of the free learning element slots.</p>
+                <img src="imageManualWorkshopFirstLearningElementSlotHighlighted.png" alt="Highlighted learning element slot of the first learning element to be added" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>The <control>Create Learning Element</control> tab opens in the left area. Now enter the metadata <control>Name, Points, Workload, and Difficulty</control>.</p>
+                <p>Name:</p><code-block>Floor Plans Themes Avatar and 3D</code-block>
+                <p>Points:</p><code-block>1</code-block>
+                <p>Workload:</p><code-block>1</code-block>
+                <p>Difficulty:</p><code-block>Easy</code-block>
+                <img src="imageManualWorkshopCreateLearningElementDialogEmpty.png" alt="Opened Create Learning Element dialog" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Now click in the search bar in the <control>External Learning Material</control> category and enter the file name of the learning material below.</p>
+                <p>File name:</p><code-block>Floor Plans Themes Avatar and 3D</code-block>
+                <img src="imageManualWorkshopSearchLearningContent.png" alt="Create Learning Element dialog with data in search bar for External Learning Material" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Assign the found external learning material to the learning element by clicking on the list entry.</p>
+                <tip>Once the external learning material is selected and assigned to the learning element, the background color of the list entry changes to a darker gray.
+                </tip>
+            </step>
+            <step>
+                <p>Next, click on the <control>3D Representation</control> category and select a 3D representation of your choice by clicking on it.</p>
+                <img src="imageManualWorkshopCreateLearningElementChoose3D.png" alt="Opened 3D Representation sub-item" width="200" thumbnail="true" />
+                <tip>The enlarged 3D representation, as shown in the image, is displayed when you hover over the respective 3D representation in the list.</tip>
+            </step>
+            <step>
+                <p>Click on the <control>Description</control> category and copy the description text below into the text field.</p>
+                <p>Description:</p><code-block>Video presentation with a list of the different floor plans of the AdLer application. Various themes and the avatar are also shown.</code-block>
+                <img src="imageManualWorkshopCreateLearningElementTypeDescription.png" alt="Opened Description tab with inserted text" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Now click the <control>OK</control> button to confirm the learning element details and create the learning element.</p>
+                <note>The learning element appears in the floor plan in the learning element slot you selected at the beginning.</note>
+            </step>
+            <step>
+                <warning>
+                    <p>For the following step, select another free learning element slot in the floor plan. If you do not select a slot and create a new learning element, your created learning element will appear below the floor plan in the <control>All Unplaced Elements</control> area. From there, you can place the created learning element in a free learning element slot.</p>
+                </warning>
+                <img src="imageManualWorkshopElementInUnplacedElements.png" alt="Drag and drop learning elements into the learning space" width="200" thumbnail="true" />
+                <img src="imageManualWorkshopDragAndDropFromUnplacedElements.png" alt="Drag and drop learning elements into the learning space" width="200" thumbnail="true" />
+                <p>Now repeat steps 2-7 of this chapter <control>Creating Two Learning Elements</control> and insert the missing learning element into a free learning element slot.</p>
+                <tip>Refer to the information below for the learning element metadata.
+                    <p><b>Second Learning Element:</b></p>
+                    <p>Name:</p><code-block>3D Learning Environment</code-block>
+                    <p>Points:</p><code-block>3</code-block>
+                    <p>Workload:</p><code-block>2</code-block>
+                    <p>Difficulty:</p><code-block>Medium</code-block>
+                    <p>File name (External Learning Material):</p><code-block>3D_Questions_about_the_3D_Learning_Environment.h5p</code-block>
+                    <p>Description:</p><code-block>Test your knowledge of the 3D learning environment in this interactive quiz.</code-block>
+                </tip>
+            </step>
+            <step>
+                <note>The red dot on the <control>Save icon (floppy disk)</control> indicates that there are unsaved changes to your learning world.</note>
+                <p>Click the save icon in the upper left corner of the window to save your unsaved changes.</p>
+            </step>
+            <tip>Your changes to the learning world have now been saved.</tip>
+            <note>
+                <control>
+                    <p>You have successfully completed the learning space.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+        <procedure title="d. Connecting Learning Spaces (Learning Path)" id="ConnectingLearningSpacesLearningPath">
+            <tip>You are still in the view of the opened learning space <control>Moodle and 3D Learning Environment</control>. If you are no longer there, click on the <control>Learning Space Details</control> tab in the left area.</tip>
+            <step>
+                <p>In the right tab <b>Connections between Learning Spaces</b>, click the <control>Create Condition</control> button.</p>
+                <img src="imageManualWorkshopHiglightedAddConnection.png" alt="Highlighted Create And/Or Connection button" width="200" thumbnail="true" />
+                <note>
+                    <p>The And/Or connection appears with the default setting <control>Or</control>.</p>
+                    <img src="imageManualWorkshopAddedAndOrConnectionHighlighted.png" alt="Highlighted And/Or connection in the learning path view" width="200" thumbnail="true" />
+                </note>
+            </step>
+            <step>
+                <p>Click the <control>toggle switch</control> of the <control>And/Or connection</control>. The <control>toggle switch</control> now changes to <control>And</control>.</p>
+                <img src="imageManualWorkshopAndConnection.png" alt="Connection element switched to And" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Hover your mouse over the gray background area of the <control>And connection</control> and drag the <control>And connection</control> below the learning spaces <control>Authoring Tool</control> and <control>Moodle and 3D Learning Environment</control>.</p>
+                <img src="imagesManualWorkshopCorrectLocationAndConnection.png" alt="Position of the And connection" width="200" thumbnail="true" />
+                <warning>
+                    <p>The And connection cannot be moved by clicking and dragging the <control>toggle switch</control>.</p>
+                </warning>
+                <warning>
+                    <p>The <control>And connection</control> must be placed below the spaces to be connected. Otherwise, the structure of the learning path would no longer work.</p>
+                </warning>
+            </step>
+            <step>
+                <p>Now click the orange <control>Plus</control> button on the <control>Authoring Tool</control> learning space, hold down the left mouse button, and drag the arrow that now appears to the <control>And connection</control>.</p>
+                <img src="imageManualWorkshopLearningRoomFocused.png" alt="Learning space with orange Plus button" width="200" thumbnail="true" />
+                <tip>
+                    <p>You can release the left mouse button when the <control>And connection</control> is highlighted with an orange box.</p>
+                    <img src="imageManualWorkshopPullConnectionArrow.png" alt="Highlighted And connection" width="200" thumbnail="true" />
+                </tip>
+            </step>
+            <step>
+                <p>Repeat step 4 for the <control>Moodle</control> learning space and also connect it to the previously created <control>And connection</control>.</p>
+                <warning>
+                    <p>Do not create a second <control>And connection</control>.</p>
+                </warning>
+                <img src="imageManualWorkshopLearningPathwayCreated.png" alt="Completed connections for the logical linking of learning spaces" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <note>The red dot on the <control>Save icon (floppy disk)</control> indicates that there are unsaved changes to your learning world.</note>
+                <p>Click the save icon in the upper left corner of the window to save your unsaved changes.</p>
+            </step>
+            <tip>Your changes to the learning world have now been saved.</tip>
+            <note>
+                <control>
+                    <p>You have successfully created a learning path between learning spaces.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+    </chapter>
+
+    <chapter title="Designing a New Learning Space" id="DesigningANewLearningSpace">
+        <deflist type="compact" sorted="desc">
+            <def title="&#127937;">
+                <control>
+                    <list type="alpha-lower">
+                        <li>You create a new learning space and assign metadata to it.</li>
+                        <li>Then you create a story element and add story texts to it.</li>
+                        <li>Finally, you create a learning element with the corresponding metadata.</li>
+                    </list>
+                </control>
+            </def>
+        </deflist>
+        <procedure title="a. Creating a New Learning Space" id="CreatingANewLearningSpaceProcedure">
+            <step>
+                <p>Click the <control>New</control> button in the left <control>Edit Learning Space</control> area.</p>
+                <img src="imageManualWorkshopNewLearningSpaceHighlighted.png" alt="Highlighted New button in the Edit Learning Space area" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Now fill in the missing metadata below in the <control>General, Completion Condition</control>, and <control>Description</control> categories.</p>
+                <p>Name:</p><code-block>Conclusion</code-block>
+                <p>Completion Condition:</p><code-block>1</code-block>
+                <p>Description:</p><code-block>The AdLer team meets for the Jour Fixe and Lukas presents the content of the workshop.</code-block>
+                <img src="imageManualWorkshopFillInLearningSpaceMetadataHighlighted.png" alt="Highlighted Create Learning Space area" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Confirm your entries by clicking the <control>OK</control> button in the lower area of the opened left <control>Edit Learning Space</control> tab.</p>
+                <img src="imageManualWorkshopOKButtonHighlighted.png" alt="Highlighted OK button in the Create Learning Space area" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Now go to the <b>Connections between Learning Spaces</b> tab in the right area and drag the newly created learning space <b>Conclusion</b> to the position shown in the image below.</p>
+                <img src="imageManualWorkshopDraggedLearningSpaceInPathwayView.png" alt="Correctly placed learning space in the learning path." width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Connect the <control>And connection</control> to the <control>Conclusion</control> learning space using the orange <control>Plus</control> button on the <control>And connection</control>.</p>
+                <tip>You have already connected learning spaces and And/Or connections in step 4 of the <a href="#ConnectingLearningSpacesLearningPath">Connecting Learning Spaces (Learning Path)</a> chapter.</tip>
+                <img src="imageManualWorkshopDraggedLearningPathToRoomAbschluss.png" alt="Correctly placed learning space in the learning path with learning path connection." width="200" thumbnail="true" />
+            </step>
+            <step>
+                <note>The red dot on the <control>Save icon (floppy disk)</control> indicates that there are unsaved changes to your learning world.</note>
+                <p>Click the save icon in the upper left corner of the window to save your unsaved changes.</p>
+                <img src="imageManualWorkshopOpenedLearningSpaceAbschluss.png" alt="Empty, newly created learning space" width="200" thumbnail="true" />
+            </step>
+            <tip>Your changes to the learning world have now been saved.</tip>
+            <note>
+                <control>
+                    <p>You have successfully created a new learning space and connected it to the other learning spaces.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+        <procedure title="b. Creating a Story Element" id="CreatingAStoryElement">
+            <step>
+                <p>Click on the slot located on the left side in the <control>Learning Space Editor</control>.</p>
+                <img src="imageManualWorkshopAddStoryElementHighlightedButton.png" alt="Highlighted story element slot in the Learning Space Editor" width="200" thumbnail="true" />
+                <tip>The position of the slot to be clicked is shown in the image accompanying this step.</tip>
+            </step>
+            <step>
+                <p>Copy the name below and enter it in the <b>Name</b> field in the opened <control>Create Story Element</control> tab.</p>
+                <p>Name:</p><code-block>It was a pleasure</code-block>
+                <img src="imageManualWorkshopCreateStoryElementFormHighlighted.png" alt="Highlighted Create Story Element area" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <p>Click the <control>Plus</control> button in the <control>Story</control> category and enter the story text below into the text block that appears.</p>
+                <p>Story Text - Text Block 1:</p><code-block>It was a pleasure to introduce you to the AdLer project.</code-block>
+                <img src="imageManualWorkshopAddStoryHighlightedButton.png" alt="Highlighted Plus button for creating a story text" width="200" thumbnail="true" />
+                <note>Clicking the <control>Plus</control> button displays an additional text block with a maximum of 400 characters, into which the story text is entered. For longer story texts, additional text blocks can be added using the <b>Plus</b> button.</note>
+            </step>
+            <step>
+                <p>Repeat the previous step 3 for the remaining story texts.</p>
+                <p>Story Text - Text Block 2:</p><code-block>I believe I interpret your expressions correctly and see delighted faces. How wonderful! Happy guests - happy host.</code-block>
+                <p>Story Text - Text Block 3:</p><code-block>I hope you were able to take away a lot from this small presentation of our project. We are very proud of what we have created and look forward to AdLer being used in teaching in the future.</code-block>
+                <p>Story Text - Text Block 4:</p><code-block>Farewell and thank you very much for your visit!</code-block>
+                <tip>In total, there are four story texts, each inserted into a story text block. So, copy only the respective part of the cell text per text block.</tip>
+            </step>
+            <step>
+                <p>Confirm your entries by clicking the <control>OK</control> button in the lower area of the opened <control>Create Story Element</control> tab.</p>
+                <img src="imageManualWorkshopCreateStoryElementOkButtonHighlighted.png" alt="Highlighted OK button in the Create Story Element area" width="200" thumbnail="true" />
+            </step>
+            <step>
+                <note>The red dot on the <control>Save icon (floppy disk)</control> indicates that there are unsaved changes to your learning world.</note>
+                <p>Click the save icon in the upper left corner of the window to save your unsaved changes.</p>
+                <img src="imageManualWorkshopStoryElementAdded.png" alt="Unsaved changes after creating a story element" width="200" thumbnail="true" />
+            </step>
+            <tip>Your changes to the learning world have now been saved.</tip>
+            <note>
+                <control>
+                    <p>You have successfully inserted a story element into the newly created learning space.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+        <procedure title="c. Creating Another Learning Element" id="CreatingAnotherLearningElement">
+            <step>
+                <p>Create a final learning element in the <control>Conclusion</control> learning space and enter the metadata below.</p>
+                <p>Name:</p><code-block>Thank You</code-block>
+                <p>Points:</p><code-block>1</code-block>
+                <p>Workload:</p><code-block>1</code-block>
+                <p>Difficulty:</p><code-block>Not specified</code-block>
+                <p>Description:</p><code-block>It\'s Wednesday. The Jour Fixe is scheduled. The AdLer project participants from the Aschaffenburg site have gathered to listen to Lukas\'s presentation.</code-block>
+                <p>File name (External Learning Material):</p><code-block>Thank You</code-block>
+                <tip>Proceed with the creation of the learning element as described in the <a href="#CreatingTwoLearningElements">"Creating Two Learning Elements"</a> chapter.</tip>
+            </step>
+            <step>
+                <note>The red dot on the <control>Save icon (floppy disk)</control> indicates that there are unsaved changes to your learning world.</note>
+                <p>Click the save icon in the upper left corner of the window to save your unsaved changes.</p>
+                <img src="imageManualWorkshopLearningWorldFinished.png" alt="Saved changes after creating the last learning element" width="200" thumbnail="true" />
+            </step>
+            <tip>Your changes to the learning world have now been saved.</tip>
+            <note>
+                <control>
+                    <p>You have successfully inserted a learning element into the newly created learning space.</p>
+                    <p>&#10004;</p>
+                </control>
+            </note>
+        </procedure>
+    </chapter>
+    <note>
+        <control>
+            <p>You have successfully completed the learning world.</p>
+            <p>&#10004;</p>
+        </control>
+    </note>
+    <tip>
+        <p>Now continue with <a href="WorkshopUploadLearningWorld.topic">Uploading the Learning World</a>.</p>
+    </tip>
+</topic>

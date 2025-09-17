@@ -1,17 +1,21 @@
-# Lernwelt speichern
+# Lernwelt persistieren
 
 
 
-# Definition:
+## Definition:
 
 Das Autorentool muss Lehrenden die Möglichkeit bieten, eine Lernwelt zu persistieren.
 
 
-# Akzeptanzkriterien: 
+## Akzeptanzkriterien: 
 - Das Dateiformat der Lernwelten muss, soweit technisch möglich, rückwärts kompatibel sein. Eine in beispielsweise
   Version 2.0.0 erstellte und gespeicherte Welt muss in Version 2.1.0 und weiter auch ladbar sein.
 
 
-# Aktivitätsdiagramm:
+## Aktivitätsdiagramm:
 
 ![imageASE6.png](imageASE6.png)
+
+## Dokumentation
+
+Persistierung wird in [](Persisitierung-im-Autorentool.md) erklärt.

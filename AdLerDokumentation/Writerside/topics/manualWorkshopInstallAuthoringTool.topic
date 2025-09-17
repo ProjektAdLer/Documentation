@@ -12,21 +12,24 @@
     </deflist>
     <procedure title="Herunterladen des Autorentools">
         <step>
+            <p>Sollten sie das Autorentool bereits heruntergeladen haben, können Sie diesen Schritt überspringen.</p>
+        </step>
+        <step>
             <p>Öffnen Sie Ihren bevorzugten Browser.</p>
             <warning>
                 <p>Nutzen Sie <control>nicht</control> den Browser <control>Safari</control> für das Herunterladen des Autorentools. Die von Safari heruntergeladene Datei ist nicht nutzbar.</p>
             </warning>
         </step>
         <step>
-            <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/</a>.</p>
-            <tip>Sie befinden sich nun auf der GitHub-Seite "Releases", auf der alle Versionen des AdLer-Autorentools aufgeführt werden. Die aktuellste Version wird ganz oben angezeigt.</tip>
+            <p>Tippen Sie folgende Adresse in die Browserzeile ein oder klicken Sie auf diesen Link: <a href="https://github.com/ProjektAdLer/Autorentool/releases/tag/2.2.2" target="_blank">https://github.com/ProjektAdLer/Autorentool/releases/tag/2.2.2</a>.</p>
+<!--            <tip>Sie befinden sich nun auf der GitHub-Seite "Releases", auf der alle Versionen des AdLer-Autorentools aufgeführt werden. Die aktuellste Version wird ganz oben angezeigt.</tip>-->
         </step>
         <step>
             <p>Wählen Sie nun unter dem Punkt <control>Assets</control>, die Datei aus, welche für Ihr System passend ist und laden Sie diese herunter.</p>
         </step>
-        <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
+        <img src="imageManualWorkshopDownloadAuthoringTool.png" alt="Beispielhafte Liste der Downloads des Autorentools" width="200" thumbnail="true"/>
         <tip>
-            <p>Im folgenden sehen Sie eine Auflistung, welche Datei Sie für welches Betriebssystem herunterladen müssen, um das Autorentool installieren zu können.</p>
+            <p>Im Folgenden sehen Sie eine Auflistung, welche Datei Sie für welches Betriebssystem herunterladen müssen, um das Autorentool installieren zu können.</p>
         </tip>
         <tabs>
             <tab id="windows" title="Windows">
@@ -179,7 +182,7 @@
                 </note>
             </procedure>
         </tab>
-        <tab title="Installation Domänenrechner THAB">
+        <tab title="Installation Domaenenrechner THAB">
             <procedure title="Installieren des Autorentools auf Domänenrechnern der TH Aschaffenburg">
                 <step>
                     <p>Öffnen Sie den Ordner, in den Sie die Installationsdatei heruntergeladen haben.</p>
@@ -217,7 +220,7 @@
                     </control>
                 </note>
                 <warning>
-                    <p>Alle Daten werden am Ende des Tages wieder vom PC gelöscht. Sollten Sie Ihre im Autorentool erstellte Lernwelt im Nachgang nochmals weiterbearbeiten bzw. darauf zugreifen wollen, müssen Sie den Zwischenstand Ihrer Lernwelt zwingend <a href="ManualAuthoringBedienungKopfzeileLernweltArchivieren.topic">archivieren</a> und die als ZIP-Datei gespeicherte Lernwelt auf einem externen Dateiträger sichern.</p>
+                    <p>Alle Daten werden am Ende des Tages wieder von Pool PC's gelöscht. Sollten Sie Ihre im Autorentool erstellte Lernwelt im Nachgang nochmals weiterbearbeiten bzw. darauf zugreifen wollen, müssen Sie den Zwischenstand Ihrer Lernwelt zwingend <a href="ManualAuthoringBedienungKopfzeileLernweltArchivieren.topic">archivieren</a> und die als ZIP-Datei gespeicherte Lernwelt auf einem externen Dateiträger sichern.</p>
                 </warning>
             </procedure>
         </tab>

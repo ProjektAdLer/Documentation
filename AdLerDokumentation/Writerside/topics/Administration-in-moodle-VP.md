@@ -29,7 +29,7 @@ Zum vereinfachten Anlegen (vieler) Nutzer gibt es ein Kommandozeilen-Script, wel
 **Wichtig**: Das Script muss als der User ausgeführt werden, als welcher auch der Webserver läuft. 
 Bei Nutzung unseres Docker-Setups ist dies der User `daemon`.
 
-Das Script `local/adler/cli/create_course_cat_and_assign_user_role.php` bietet folgende Parameter:
+Das Script `local/declarativesetup/cli/create_course_cat_and_assign_user_role.php` bietet folgende Parameter:
 - `--username` (erforderlich) - Der Nutzername des Nutzers, welcher die Rolle zugewiesen bekommen soll.
 - `--role` (erforderlich) - Die Rolle, welche zugewiesen werden soll. Zum Anlegen von Adler-Managern 
 (Lehrenden-Accounts) ist dies `adler_manager`.

@@ -3,7 +3,10 @@
 - Kurzname
 - Autor:innen
 - Sprache
-- Link zur Evaluation
+- [Link, Linktitel und Hinweistext zur Evaluation](AWA0050.md)
 - Einschreibeschlüssel
 - Lernziele
 - Beschreibung
+- Einleitung der Rahmenhandlung
+- Schluss der Rahmenhandlung
+

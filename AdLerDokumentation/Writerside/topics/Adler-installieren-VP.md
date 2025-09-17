@@ -7,11 +7,11 @@ Dieser Leitfaden beschreibt die Installation und das Setup von AdLer auf einem L
 > [Entwicklerumgebung](https://github.com/ProjektAdLer/AdlerDevelopmentEnvironment/tree/main/non-moodle).
 
 
-> Eine Nutzung im LAN ist mit diesem Guide nicht ohne korrekte Konfiguration von Traefik möglich. 
-> Falls Sie eine lokale Testumgebung aufsetzen möchten (nur lokalen
-> Zugriff über interne IP und Ports), dann verwenden Sie unsere
-> [Entwicklerumgebung](https://github.com/ProjektAdLer/AdlerDevelopmentEnvironment/tree/main/non-moodle).
+> Eine Nutzung im LAN ohne Domain (nur über IP und Ports) wird von uns nicht unterstützt.
+> Unsere lokale Entwicklungsumgebung kann mit Anpassungen aber eingeschränkt für dieses Scenario verwendet werden.
+> Siehe hierzu die Notizen zum [Thema Hostname im Repo der Entwicklungsumgebung](https://github.com/ProjektAdLer/AdlerDevelopmentEnvironment/tree/main/non-moodle#hostname).
 {style="warning"}
+
 ## Voraussetzungen
 
 - root-Zugriff auf einen Linux Server. In diesem Guide wird ein Debian 12 Server verwendet. Die Installation auf anderen Linux-Distributionen wird in gewissen Punkten abweichen und hier nicht behandelt.
@@ -38,7 +38,7 @@ Das gesamte Setup besteht aus zwei Docker Compose Projekten:
 - Festlegen der Domains für die drei sub-Anwendungen von AdLer und erstellen der DNS Einträge. Diese müssen Subdomains einer gemeinsamen Domain sein.
   - [API/Backend](Backend-GE.md) (hier: `api.projekt-adler.eu`)
   - Moodle (hier: `moodle.projekt-adler.eu`)
-  - [Frontend](Engine-BG.md) (hier: `engine.projekt-adler.eu`)
+  - [Frontend](Engine-BG.md) (hier: `play.projekt-adler.eu`)
 
 ## Traefik
 Traefik übernimmt die Funktion unseres Reverse-Proxy und ermöglicht es uns, dass alle AdLer-Services auf dem gleichen Server
@@ -50,7 +50,7 @@ auf Port 80 auf unterschiedlichen Domains erreichbar sind:
 ![Deploymentdiagramm für Traefik](https://www.plantuml.com/plantuml/png/VOynJyKm38Jt_0ehUzkX6mEgK1S6DYH651AtH4riv3f8_7jQeY1uUdgRp_hETvvsTQ8b9-CJbm2Ff2Y4QeW3mhCuNE9MnHDpI5Zd1-Stf535EB--uDkEyea2RWSxpjtlmfg4Yu8oI5pV5K8Kz1gPJ8k2hhjlIN07-ITcS1znG5eZOV_5HG9d5wdtd4r3JrljTBXijLsmzY_SIf_qSVqc-k-bWx_Qn1ep8OMIqpS0)
 - Wir verwenden Traefik in einem eigenen Docker-Compose Projekt um den Reverse-Proxy und die Services, welche an diesen angeschlossen sind,
   unabhängig voneinander verwalten zu können.
-- Die eigentliche Konfiguration der (Sub-)Domains ist in [.env](#env) gegeben.
+- Die eigentliche Konfiguration der (Sub-)Domains ist in [.env Datei des AdLer Stacks](#adler) gegeben.
 
 In einem Ordner `/traefik` müssen die folgenden beiden Dateien erstellt werden:
 
@@ -147,227 +147,7 @@ docker network create -d bridge traefik_gateway
 Traefik kann nun mit `docker-compose up -d` gestartet werden.
 
 ## AdLer
-In einem Ordner separat des Traefik Ordners müssen die folgenden Dateien `.env`, `stack.env` und `docker-compose.yml` 
-erstellt werden. Danach kann AdLer mit `docker-compose up -d` gestartet werden.
-
-### Dateien
-#### .env
-In dieser Datei werden die Umgebungsvariablen gesetzt, die zur Konfiguration von AdLer benötigt werden.
-
-```Shell
-# moodle admin user
-_MOODLE_USER=administrator
-_MOODLE_PW=<a unique secret password>
-
-# db passwords
-_DB_ROOT_PW=<a unique secret password>
-_DB_BACKEND_PW=<a unique secret password>
-_DB_MOODLE_PW=<a unique secret password>
-
-# url stuff
-_DOMAIN=projekt-adler.eu # URL-Basis, muss angepasst werden
-
-# deployment name
-_DEPLOYMENT_NAME=prod   # Interner Name, kann so belassen werden
-
-######################################################################
-
-# Die nachfolgenden Werte können so belassen oder angepasst werden
-## urls
-_URL_MOODLE=moodle.${_DOMAIN}
-_URL_BACKEND=api.${_DOMAIN}
-_URL_3D=engine.${_DOMAIN}
-
-## db
-_DB_BACKEND_USER=adler_backend
-_DB_BACKEND_NAME=adler_backend
-_DB_MOODLE_USER=bitnami_moodle
-_DB_MOODLE_NAME=bitnami_moodle
-```
-{collapsible="true" collapsed-title=".env"}
-<deflist collapsible="true">
-  <def title="Erklärung der Variablen" default-state="collapsed">
-    <list>
-      <li>
-        <code>_MOODLE_USER</code> und <code>_MOODLE_PW</code> sind die Anmeldedaten für den Moodle-Administrator. Für <code>_MOODLE_PW</code> muss ein sicheres Passwort gewählt werden.
-      </li>
-      <li>
-        <code>_DB_BACKEND_PW</code> und <code>_DB_MOODLE_PW</code> sind die Passwörter für die Datenbanken, die von den Backend- und Moodle-Containern verwendet werden.
-        Hier müssen ebenfalls sichere Passwörter gewählt werden.
-      </li>
-      <li>
-        <code>_DB_ROOT_PW</code> ist das Passwort für den Datenbank-Root-Benutzer. Dieser Nutzer wird nur für den administrativen Zugriff des Server-Administrators genutzt.
-        Hier muss ebenfalls ein sicheres Passwort gewählt werden. 
-      </li>
-      <li>
-        <code>_DOMAIN</code> ist der gemeinsame Teil der URLs für die drei Subdomains. Hier wird die Domain eingetragen, für die die Subdomains erstellt wurden.
-      </li>
-      <li>
-        <code>_DEPLOYMENT_NAME</code> ist der Name des Deployments. Er muss für jedes AdLer-Deployment eindeutig sein und wird für interne Zwecke verwendet.
-      </li>
-      <li>
-        <code>_URL_MOODLE</code>, <code>_URL_BACKEND</code> und <code>_URL_3D</code> sind die URLs für die drei Subdomains. Die Einträge müssen mit <code>.${_DOMAIN}</code> enden.
-        Dies müssen die Subdomains sein, für die die DNS-Einträge erstellt wurden.
-      </li>
-      <li>
-        <code>_DB_BACKEND_USER</code>, <code>_DB_BACKEND_NAME</code>, <code>_DB_MOODLE_USER</code> und <code>_DB_MOODLE_NAME</code> sind die Benutzer- und Datenbanknamen für die Backend- und Moodle-Datenbanken.
-        In der Regel ist es nicht notwendig diese Werte anzupassen.
-      </li>
-    </list>
-  </def>
-</deflist>
-
-#### docker-compose.yml (AdLer Stack)
-Diese Datei steuert das Deployment der AdLer Instanz:
-```yaml
-version: '3'
-services:
-  moodle:
-    build:
-      context: https://github.com/ProjektAdLer/moodle-docker.git
-      args:
-        PLUGIN_VERSION: 3.2.0
-        MOODLE_VERSION: 4.3
-    environment:
-      BITNAMI_DEBUG: true
-      MOODLE_DATABASE_HOST: db_moodle
-      MOODLE_DATABASE_PORT_NUMBER: 3306
-      MOODLE_DATABASE_USER: ${_DB_MOODLE_USER}
-      MOODLE_DATABASE_PASSWORD: ${_DB_MOODLE_PW}
-      MOODLE_DATABASE_NAME: ${_DB_MOODLE_NAME}
-      MOODLE_USERNAME: ${_MOODLE_USER}
-      MOODLE_PASSWORD: ${_MOODLE_PW}
-      MOODLE_HOST: ${_URL_MOODLE}
-      PHP_POST_MAX_SIZE: 2048M
-      PHP_UPLOAD_MAX_FILESIZE: 2048M
-      USER_NAME: ${_MOODLE_USER_NAME}
-      USER_PASSWORD: ${_MOODLE_USER_PASSWORD}
-      USER_ROLE: ${_MOODLE_USER_ROLE}
-    volumes:
-      - moodle_moodle:/bitnami/moodle
-      - moodle_moodledata:/bitnami/moodledata
-    networks:
-      - traefik_gateway
-      - internal
-    depends_on:
-      - db_moodle
-    restart: unless-stopped
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.moodle_${_DEPLOYMENT_NAME}.rule=Host(`${_URL_MOODLE}`)"
-      - "traefik.http.routers.moodle_${_DEPLOYMENT_NAME}.tls=true"
-      - "traefik.http.routers.moodle_${_DEPLOYMENT_NAME}.tls.certresolver=le"
-      - "traefik.http.routers.moodle_${_DEPLOYMENT_NAME}.entrypoints=websecure"
-
-  db_moodle:
-    image: docker.io/bitnami/mariadb:10.11
-    environment:
-      MARIADB_USER: ${_DB_MOODLE_USER}
-      MARIADB_PASSWORD: ${_DB_MOODLE_PW}
-      MARIADB_ROOT_PASSWORD: ${_DB_ROOT_PW}
-      MARIADB_DATABASE: ${_DB_MOODLE_NAME}
-      MARIADB_CHARACTER_SET: utf8mb4
-      MARIADB_COLLATE: utf8mb4_unicode_ci
-    volumes:
-      - db_moodle_data:/bitnami/mariadb
-    networks:
-      - internal
-    restart: unless-stopped
-
-  db_backend:
-    image: docker.io/bitnami/mariadb:10.11
-    environment:
-      MARIADB_USER: ${_DB_BACKEND_USER}
-      MARIADB_PASSWORD: ${_DB_BACKEND_PW}
-      MARIADB_ROOT_PASSWORD: ${_DB_ROOT_PW}
-      MARIADB_DATABASE: ${_DB_BACKEND_NAME}
-      MARIADB_CHARACTER_SET: utf8mb4
-      MARIADB_COLLATE: utf8mb4_unicode_ci
-    volumes:
-      - db_backend_data:/bitnami/mariadb
-    networks:
-      - internal
-    restart: unless-stopped
-
-  backend:
-    image: ghcr.io/projektadler/adlerbackend:2.2.2
-    environment:
-      ASPNETCORE_ENVIRONMENT: "Production"
-      ASPNETCORE_DBUSER: ${_DB_BACKEND_USER}
-      ASPNETCORE_DBPASSWORD: ${_DB_BACKEND_PW}
-      ASPNETCORE_DBNAME: ${_DB_BACKEND_NAME}
-      ASPNETCORE_DBHOST: db_backend
-      ASPNETCORE_DBPORT: 3306
-      ASPNETCORE_ADLER_MOODLEURL: https://${_URL_MOODLE}
-      ASPNETCORE_ADLER_HTTPPORT: 80
-      ASPNETCORE_ADLER_USEHTTPS: false
-      ASPNETCORE_ADLER_ADLERENGINEURL: https://${_URL_3D}
-    volumes:
-      - backend_wwwroot:/app/wwwroot
-    networks:
-      - traefik_gateway
-      - internal
-    depends_on:
-      - db_backend
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.api_${_DEPLOYMENT_NAME}.rule=Host(`${_URL_BACKEND}`)"
-      - "traefik.http.routers.api_${_DEPLOYMENT_NAME}.tls=true"
-      - "traefik.http.routers.api_${_DEPLOYMENT_NAME}.tls.certresolver=le"
-      - "traefik.http.routers.api_${_DEPLOYMENT_NAME}.entrypoints=websecure"
-      - "traefik.http.services.api_${_DEPLOYMENT_NAME}.loadbalancer.server.port=80"
-    restart: unless-stopped
-
-  frontend:
-    image: ghcr.io/projektadler/2d_3d_adler:2.2.0
-    networks:
-      - traefik_gateway
-    environment:
-      API_URL: "https://${_URL_BACKEND}/api"
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.3d_${_DEPLOYMENT_NAME}.rule=Host(`${_URL_3D}`)"
-      - "traefik.http.routers.3d_${_DEPLOYMENT_NAME}.tls=true"
-      - "traefik.http.routers.3d_${_DEPLOYMENT_NAME}.tls.certresolver=le"
-      - "traefik.http.routers.3d_${_DEPLOYMENT_NAME}.entrypoints=websecure"
-      - "traefik.http.services.3d_${_DEPLOYMENT_NAME}.loadbalancer.server.port=80"
-    restart: unless-stopped
-
-volumes:
-  moodle_moodle:
-    driver: local
-  moodle_moodledata:
-    driver: local
-  db_moodle_data:
-    driver: local
-  db_backend_data:
-    driver: local
-  backend_wwwroot:
-    driver: local
-
-
-networks:
-  traefik_gateway:
-    external: true
-  internal:
-```
-{collapsible="true" collapsed-title="docker-compose.yaml"}
-
-> Die aktuelle Version der docker-compose.yaml Datei, welche für das Deployment der 
-> [Beispielinstanz](https://engine.projekt-adler.eu/) verwendet wird, finden Sie 
-> [hier](https://github.com/ProjektAdLer/deployment-adler-prod/blob/main/docker-compose.yml).
-> Bitte beachten Sie, dass diese Datei aufgrund von Unterschieden im Deployment etwas von der oben gezeigten Version abweicht.
-{style="note"}
-
-Es werden die folgenden Anwendungen definiert:
-- Moodle mit den AdLer-Plugins 
-  - Beim ersten Start wird Moodle automatisch für die Nutzung von AdLer konfiguriert
-- AdLer-Backend
-- AdLer-Frontend
-- Datenbanken für Moodle und das Backend
-
-Abgesehen von den Versionen der Images (siehe Abschnitt [Updates](AdLer-aktualisieren-VP.md#adler-aktualisieren)) müssen 
-in der Regel keine Änderungen an der `docker-compose.yml` vorgenommen werden.
+Die Anleitung zum Setup des AdLer-Stacks findet sich [hier](https://github.com/ProjektAdLer/AdLerStack/blob/main/docs/deploying_adler.md#production-deployment).
 
 ## Backup
 Um ein Backup der AdLer Instanz zu erstellen, kann wie folgt vorgegangen werden:

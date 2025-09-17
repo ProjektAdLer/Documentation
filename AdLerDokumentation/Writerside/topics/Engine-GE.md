@@ -16,7 +16,7 @@
     </tr>
     <tr>
         <td>Englischer Begriff</td>
-        <td>Engine</td>
+        <td>Engine, 3D-Learning-Platform</td>
     </tr>
     <tr>
         <td>Definition</td>
@@ -28,7 +28,7 @@
     </tr>  
     <tr>
         <td>Siehe auch</td>
-        <td></td>
+        <td><a href="Play-GE.md">Betrachtungsgegenstand</a></td>
     </tr>
     <tr>
         <td>Akronym</td>
@@ -36,7 +36,7 @@
     </tr>
    <tr>
         <td>Erlaubte Alternativbenennung</td>
-        <td></td>
+        <td>3D-Lernumgebung</td>
     </tr>
    <tr>
         <td>Verbotene Terminologie</td>

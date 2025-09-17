@@ -2,16 +2,13 @@
 
 ## Definition:
 
-Der H5P-Player muss ein H5P anzeigen.
-
-Sobald der H5P-Player gestartet wird,
+Sobald der H5P-Player gestartet wird UND 
+falls das H5P angezeigt werdeen muss,
 muss der H5P-Player das H5P anzeigen.
 
 
 
 ## Akzeptanzkriterien:
-
-
 
 - Anzeigen Bedeutung:
     - Der H5P-Player bindet eine Library 
@@ -25,4 +22,3 @@ führen wir hier diesbezüglich keine weiteren Anforderungen an den H5P-Player a
 ## Aktivitätsdiagramm:
 
 ![imageH5pPlayerDisplayH5p.png](imageH5pPlayerDisplayH5p.png)
-

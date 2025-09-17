@@ -134,3 +134,69 @@ Folgende Grundrisse sind vorhanden:
 | 13-Elemente | ![](image3DStyleguideTExample.png)|
 | 15-Elemente | ![](image3DStyleguideDExample.png)|
 |---|---|
+## 6. Naming
+### Benennung von 3D-Modellen in Blender
+Es wird zwischen verschiedenen Namings unterschieden. Naming in Blender ist nicht gleich, wie das Naming von Exporten. Dies ist so aufgrund der Übersichtlichkeit in den Programmen. Das Naming in Blender, macht die Modelle einfacher aufzubauen. Weitere Naming Konventionen werden in den folgenden Kapiteln festgelegt.
+
+- Es wird nur das "ParentModel" benannt. Die einzelnen Meshes, aus denen das Modell möglicherweise aufgebaut ist, müssen nicht benannt werden
+- Benennungen sollen deskriptiv sein, bzw. nach dem nachempfundenen Pendant aus der realen Welt benannt werden
+- Benennung der Modelle in ``camelCase`` -> ``bookShelf``
+- Ausnahme: Icons werden ihrem abstrakten Sinn/Bedeutung/Verwendung nach benannt
+    - Bsp.: Controller = ``iconInteractiveElement``
+    - Bsp.: Papyrusrolle = ``iconTextElement``
+- Modelle, die nur geringe Variationen eines ursprünglichen Modells sind, sollten ebenfalls deskriptiv benannt werden -> Bsp.: ``bookShelf`` -> ``bookShelfWithBooksOnTop``
+- 1:1 Kopien von Modellen, erhalten das Blender Standard Suffix ``.001`` (als fortlaufende Nummerierung bei Mehreren Variationen). Dies kann sinnvoll sein, wenn ein und das selbe Element in mehreren Themes Anwendung findet
+- Arrangements verschiedener Objekte zu einem gemeinsamen Objekt bekommen den Namen des titelgebenden Objekts (zentrales Objekt) mit dem Suffix ``Setup`` und den Namen bzw. Überbegriffen der sonstigen verwendeten Modelle -> Bsp.: ``tvLowboardSetupPlantsLamp``
+- Sehr ähnliche (aber nicht gleiche) Elemente werden mit einer fortlaufenden Nummerierung versehen, sofern sie keine sichtbaren und dadurch benennbaren, signifikanten Unterschiede aufweisen -> Bsp.: ``palmTree``, ``plamTree1``, ``palmTree2``. Die Nummerierung erfolgt Nullindiziert, wobei die Null um initialen Modell nicht angehängt wird
+### Sorting Tiles (Modelle zur optischen Gruppierung in der 3D Ansicht)
+- Benennung der semantischen Kategorie (dargestellt durch farbige Plane) -> ``00_themenameKategorienameSortingTile`` (``00_`` um das Modell in der Collection oben anzuzeigen)
+- Beschriftung der semantischen Kategorie -> ``00_themenameKategoriename`` (``00_`` um das Modell in der Collection oben anzuzeigen)
+- Objekte innerhalb einer semantischen Kategorie (auf einer farbigen Plane) werden in eine Collection gruppiert
+- Innerhalb dieser Collections kann es weitere Collections geben, die weitere Objekte in Sinneinheiten gliedern
+### Benennung von Collections
+- Benennung der Collections in ``PascalCase`` -> Bsp.: ``GeneralModels``
+- Modelle, die nur geringe Variationen eines ursprünglichen Modells sind, sollten ebenfalls deskriptiv benannt werden -> Bsp.: ``bookShelf`` -> ``bookShelfWithBooksOnTop``
+- 1:1 Kopien von Modellen, erhalten das Blender Standard Suffix ``.001`` (als fortlaufende Nummerierung bei Mehreren Variationen). Dies kann sinnvoll sein, wenn ein und das selbe Element in mehreren Themes Anwendung findet
+- Arrangements verschiedener Objekte zu einem gemeinsamen Objekt bekommen den Namen des titelgebenden Objekts (zentrales Objekt) mit dem Suffix ``Setup`` und den Namen bzw. Überbegriffen der sonstigen verwendeten Modelle -> Bsp.: ``tvLowboardSetupPlantsLamp``
+- Sehr ähnliche (aber nicht gleiche) Elemente werden mit einer fortlaufenden Nummerierung versehen, sofern sie keine sichtbaren und dadurch benennbaren, signifikanten Unterschiede aufweisen -> Bsp.: ``palmTree``, ``plamTree1``, ``palmTree2``. Die Nummerierung erfolgt Nullindiziert, wobei die Null um initialen Modell nicht angehängt wird.
+## 7. Naming von Assets im Repo
+### Allgemein
+Alle Exporte haben ein einheitliches Naming, um sie in den Repos besser finden und referenzieren zu können.
+
+Namings von exportierten Assets...
+- sind in ``kebab-case`` (Kleingeschrieben mit Bindestrichen)
+- haben einen Buchstaben zur Kategoriebeschreibung zu Beginn (alle nachfolgend aufgeführt)
+
+| Kürzel | Bezeichnung |
+| d | Decoration |
+| id | Interactive Decoration |
+| l | Lernelement |
+| env | Environment / Umgebung |
+| a | Avatar |
+| aa | Avatar Asset |
+| g | Grafik |
+|---|---|
+
+- haben eine genauere Kategorie ausgeschrieben an zweiter Stelle (Beispiele)
+  - dcomp (Dekokomposition)
+  - roomcomp (Raumkomposition)
+  - 3dicon (3D-Icons)
+  - icon (2D-Icons)
+  - avatar
+  - npc
+  - image
+  - text
+  - plant
+  - ...
+- haben ab dritter Stelle einen deskriptiven Namen, der die Repräsentation der Wirklichkeit beschreibt
+-> Ab dritter Stelle aus dem Grund, da es auch hier nötig sein kann noch weitere Unterategorien anzugeben
+Bsp.: ``aa-beard-mustache-wise``
+
+### Ausnahme: Avatar-Editor Assets (Modelle) und dazugehörige Thumbnails
+Aus Entwickelndensicht ist es wichtig, dass die Thumbnails und die 3D-Modelle denselben Dateinamen tragen. Daher entfällt bei diesen Dateien, die eineindeutige Benennung durch bspw. die Kategorie an zweiter Stelle.
+
+### Spezifiertes Naming einzelner Kategorien
+#### Naming von Pausenhinweisgrafiken
+Die Namen setzen sich zusammen aus:
+
+- Kürzel + "break" + Nummerierung der Grafik (bspw. "B3") + slide[Nummer]

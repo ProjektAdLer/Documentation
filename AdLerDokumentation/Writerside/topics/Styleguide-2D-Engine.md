@@ -28,6 +28,20 @@ Dieser **Styleguide** beschreibt die in der Umsetzung der AdLer-Engine zu verwen
 | adleroceanblue       | #45a0e5               | Farbe zur Hervorhebung von Links                                       |
 | iconfillcolor        | #cfd8e5               | Icon Füllfarbe                                                         |
 
+### Typographie
+In der gesamten AdLer Anwendung wird die Schriftart [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) verwendet. 
+
+Für Überschriften und Texthervorherbungen wird der Schriftschnitt **Black/900** verwendet. Als Standardtext/Fließtext wird der Schriftschnitt *Regular/400** verwendet.
+Schriftfarben sollten immer in passendem Kontrastverhältnis zum Hintergrund verwendet werden, um für alle gut lesbar zu bleiben.
+Standardschriftfarbe ist ``adlerdarkblue`` (#172d4d).
+### Darstellung Allgemein
+Zu beachtende Richtlinien für das Design von Teilen der AdLer 3D-Lernumgebung:
+
+- Keine harten (90°) Ecken. Ecken müssen immer abgerundet sein. 
+  - TailwindCSS Klasse für Container: ``rounded-lg`` (``border-radius: 0,5rem; ~ 8px``)
+  - Allgemein: Der Bereich von 8-10px für die Rundung ist i.O.
+- Soweit möglich ist die anzustrebende Kombination immer heller Hintergrund (``buttonbgblue - #e9f2fa``) mit dunkler Schriftfarbe (``adlerdarblue - #172d4d``). Abweichungen nur mit Usability Begründung.
+- Container oder Sinneinheiten sollten immer ausreichend Whitespace eingeräumt bekommen.
 ### Texte
 #### Ansprache der Rezipienten
 Das AdLer-Projekt steht für ein inklusives Miteinander aller Menschen ein. Aus diesem Grund verwenden wir in der textlichen Ansprache von Personen, eine neutrale Sprache. Aus Lehrern wird Lehrende, aus Studenten wird Studierende. Ist die Bildung eines Worts mit der Endung „-ende“ nicht möglich, so wird im zweiten Schritt geprüft, ob sich eine Ansprache mit dem Anhang „-person/en“ realisieren lässt (Bsp.: **Lehrpersonen**).
