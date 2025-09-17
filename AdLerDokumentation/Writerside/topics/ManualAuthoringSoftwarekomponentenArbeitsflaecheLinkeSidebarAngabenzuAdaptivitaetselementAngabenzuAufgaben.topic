@@ -21,13 +21,13 @@
             </tr>
             <tr>
                 <td>2</td>
-                <td>Entfernen-Button</td>
+                <td>Löschen-Button</td>
                 <td>Entfernt eine hinzugefügte Aufgabe</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Pflichtaufgabe-Checkbox</td>
-                <td>Legt fest, dass die Aufgabe eine Pflichtaufgabe ist und zu bearbeiten ist; Diese Festlegung ist nur möglich, wenn es mindestens eine verpflichtende Frage gibt.</td>
+                <td>Legt fest, dass die Aufgabe eine Pflichtaufgabe ist und zu bearbeiten ist; Diese Festlegung ist nur möglich, wenn es mindestens eine verpflichtende Frage gibt</td>
             </tr>
             <tr>
                 <td>4</td>
@@ -37,7 +37,7 @@
             <tr>
                 <td>5</td>
                 <td>Frage-erstellen-Button</td>
-                <td>Öffnet ein Fenster, in dem eine Frage erstellt werden kann; Insgesamt können für eine Aufgabe drei Fragen mit unterschiedlichem Schwierigkeitsgrad (einfach, mittelschwer, schwer) erstellt werden.</td>
+                <td>Öffnet ein Fenster, in dem eine Frage erstellt werden kann; Insgesamt können für eine Aufgabe drei Fragen mit unterschiedlichem Schwierigkeitsgrad (einfach, mittelschwer, schwer) erstellt werden</td>
             </tr>
             <tr>
                 <td>6</td>
@@ -72,7 +72,7 @@
             <tr>
                 <td>12</td>
                 <td>Zu-lösende-Frage-Button</td>
-                <td>Mit jeder erstellten Frage steht ein Schlüssel zur Verfügung. Dieser legt fest, welche der drei möglichen Fragen zu einer Aufgabe die zu lösende Frage ist. Ein durchgestrichener Schlüssel bedeutet, dass die Frage nicht zwingend zu beantworten ist. Der nicht durchgestrichene Schlüssel zeigt an, dass diese Frage verpflichtend zu beantworten ist.</td>
+                <td>Mit jeder erstellten Frage steht ein Schlüssel zur Verfügung. Dieser legt fest, welche der drei möglichen Fragen zu einer Aufgabe die zu lösende Frage ist. Ein durchgestrichener Schlüssel bedeutet, dass die Frage nicht zwingend zu beantworten ist. Der nicht durchgestrichene Schlüssel zeigt an, dass diese Frage verpflichtend zu beantworten ist</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

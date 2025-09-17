@@ -7,7 +7,15 @@
        help-id="ManualAuthoringSoftwarekomponentenLinke-Sidebar">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Die linke Sidebar umfasst ingesamt sechs Tabs. Standardmäßig wird ein Tab der linken Sidebar permanent angezeigt. Bei Bedarf kann der geöffnete Tab auch geschlossen werden, sodass nur noch die Symbole der einzelnen Tabs in der linken Sidebar zu sehen sind.</p>
+        <p>Die linke Sidebar umfasst ingesamt fünf Tabs. Standardmäßig wird ein Tab der linken Sidebar permanent angezeigt. Bei Bedarf kann der geöffnete Tab auch geschlossen werden, sodass nur noch die Symbole der einzelnen Tabs in der linken Sidebar zu sehen sind.</p>
+
+        <p>Der Aufbau der einzelnen Tabs folgt einer logischen Struktur nach dem Prinzip ‚von grob nach fein‘: Zuerst geht es um die Grundlagen und Inhalte (was gebaut werden soll). Danach folgt die Gestaltung (wie es aussehen soll). Abschließend geht es um die Steuerung (wie es funktionieren soll).</p>
+        <list>
+            <li>Allgemein = Basisinformationen</li>
+            <li>Inhalt &amp; Orientierung = Fachlich-didaktische Ebene</li>
+            <li>Gestaltung &amp; Darstellung = visuell-atmosphärische Ebene</li>
+            <li>Interaktion &amp; Ablauf = Regeln, Aufgaben, Bedingungen</li>
+        </list>
         <img src="imageManualAuthoringLinkeSidebarCallout.png" alt="LinkeSidebarCallout"/>
         <table>
             <tr>
@@ -40,11 +48,6 @@
                 <td>Adaptivitätselement-erstellen / -bearbeiten-Tab</td>
                 <td>Öffnet den Tab zum Erstellen oder Bearbeiten eines Adaptivitätselements</td>
             </tr>
-            <tr>
-                <td>6</td>
-                <td>Externes-Lernmaterial-hinzufügen-Tab</td>
-                <td>Öffnet den Tab zum Hinzufügen von externem Lernmaterial</td>
-            </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
         <list>
@@ -53,7 +56,6 @@
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarStoryelementErstellen.topic">Storyelement erstellen und bearbeiten</a></li>
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic">Lernelement erstellen und bearbeiten</a></li>
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarAdaptivitaetselementErstellen.topic">Adaptivitätselement erstellen und bearbeiten</a></li>
-            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic">Externes Lernmaterial hinzufügen</a></li>
         </list>
     </chapter>
 </topic>

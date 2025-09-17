@@ -10,7 +10,7 @@
         <p>Das mittlere Fenster ist in zwei Bereiche aufgeteilt:</p>
         <list>
             <li>1. Bereich: "Lernraum-Editor"</li>
-            <li>2. Bereich: "Alle unplatzierten Elemente"</li>
+            <li>2. Bereich: "Unplatzierte Elemente"</li>
         </list>
     <img src="imageManualAuthoringMittleresFensterCallout.png" alt="MittleresFensterCallout"/>
         <table>
@@ -26,7 +26,7 @@
             </tr>
             <tr>
                 <td>2</td>
-                <td>Alle unplatzierten Elemente</td>
+                <td>Unplatzierte Elemente</td>
                 <td>Im diesem Bereich werden alle erstellten Elemente aufgeführt, die keinem Lernraum zugewiesen sind.</td>
             </tr>
         </table>

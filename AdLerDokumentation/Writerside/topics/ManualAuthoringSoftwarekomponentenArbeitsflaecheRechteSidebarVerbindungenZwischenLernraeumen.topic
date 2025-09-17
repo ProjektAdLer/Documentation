@@ -17,8 +17,8 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Lernraum-erstellen-Button</td>
-                <td>Öffnet in der linken Sidebar den Tab "Angaben zum Lernraum" zum Erstellen eines neuen Lernraums; Ist dieser erstellt, erscheint dieser auch in der rechten Sidebar als neuer Lernraum.</td>
+                <td>Lernziel-Button</td>
+                <td>Öffnet ein Fenster, in dem alle für die Lernwelt formulierten Lernziele angezeigt werden</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -27,63 +27,73 @@
             </tr>
             <tr>
                 <td>3</td>
-                <td>Arbeitsaufwand-Anzeige</td>
-                <td>Zeigt den gesamten Arbeitsaufwand für die Lernwelt an; Der gesamte Arbeitsaufwand ergibt sich aus der Summe des Arbeitsaufwands für alle in der Lernwelt enthaltenen Elemente.</td>
+                <td>Lernwelt-Theme-Anzeige</td>
+                <td>Zeigt das für die Lernwelt gewählte Theme an</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Gesamtpunkte-Anzeige</td>
-                <td>Zeigt die Gesamtpunkte für die Lernwelt an; Die Gesamtpunkte ergeben sich aus der Summe der Punkte für alle in der Lernwelt enthaltenen Elemente.</td>
+                <td>Dauer-Anzeige</td>
+                <td>Zeigt den gesamten Arbeitsaufwand für die Lernwelt an; Der gesamte Arbeitsaufwand ergibt sich aus der Summe des Arbeitsaufwands für alle in der Lernwelt enthaltenen Lern- und Adaptivitätselement</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Lernraum-importieren-Button</td>
-                <td>Öffnet den Dateimanager zum Importieren einer bereits existierenden Lernraum-Datei</td>
+                <td>Abschlussbedingung-Pflichtelement-Anzeige</td>
+                <td>Zeigt die Anzahl aller verpflichtend zu absolvierenden Lern- und Adaptivitätselemente für die Lernwelt an; Die Anzahl ergibt sich aus der Summe aller in der Lernwelt enthaltenen verpflichtenden Elemente</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Bedingung-hinzufügen-Button</td>
-                <td>Fügt einen Umschalter hinzu, mit dem eine Und- oder Oder-Bedingung erzeugt werden kann</td>
+                <td>Abschlussbedingung-Anzeige</td>
+                <td>Zeigt die Anzahl aller Lern- und Adaptivitätselemente für die Lernwelt an; Die Anzahl ergibt sich aus der Summe aller in der Lernwelt enthaltenen Elemente</td>
             </tr>
             <tr>
                 <td>7</td>
+                <td>Lernraum-erstellen-Button</td>
+                <td>Öffnet in der linken Sidebar den Tab "Angaben zum Lernraum" zum Erstellen eines neuen Lernraums; Ist dieser erstellt, erscheint dieser auch in der rechten Sidebar als neuer Lernraum</td>
+            </tr>
+            <tr>
+                <td>8</td>
                 <td>Lernpfad</td>
                 <td>Darstellung eines Lernpfads zwischen zwei Lernräumen</td>
             </tr>
             <tr>
-                <td>8</td>
+                <td>9</td>
                 <td>Lernpfad-entfernen-Button</td>
                 <td>Löscht den Lernpfad, der zuletzt mit diesem Lernraum verbunden wurde</td>
             </tr>
             <tr>
-                <td>9</td>
+                <td>10</td>
                 <td>Name des Lernraums</td>
                 <td>Zeigt den Namen des Lernraums an</td>
             </tr>
             <tr>
-                <td>10</td>
+                <td>11</td>
                 <td>Lernpfad-hinzufügen-Button</td>
                 <td>Erzeugt einen Lernpfad, der das Verbinden von diesem Lernraum mit einem anderen Lernraum oder einer Bedingung ermöglicht</td>
             </tr>
             <tr>
-                <td>11</td>
+                <td>12</td>
                 <td>Löschen-Button</td>
                 <td>Löscht den Lernraum</td>
             </tr>
             <tr>
-                <td>12</td>
+                <td>13</td>
                 <td>Und-/Oder-Bedingung-Umschalter</td>
                 <td>Zeigt an, ob die Bedingung eine Und-Bedingung oder eine Oder-Bedingung ist</td>
             </tr>
             <tr>
-                <td>13</td>
+                <td>14</td>
                 <td>Und-/Oder-Bedingung-Anzeige</td>
                 <td>Darstellung der Und-/Oder-Bedingung</td>
             </tr>
             <tr>
-                <td>14</td>
+                <td>15</td>
                 <td>Lernraum-Anzeige</td>
                 <td>Darstellung eines Lernraums; Im aktiven Zustand weist dieser einen blauen Hintergrund auf.</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Bedingung-hinzufügen-Button</td>
+                <td>Fügt einen Umschalter hinzu, mit dem eine Und- oder Oder-Bedingung erzeugt werden kann</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

@@ -32,11 +32,21 @@
             </tr>
             <tr>
                 <td>4</td>
-                <td>Elemente</td>
-                <td>Darstellung der bereits erstellten, aber noch nicht im Grundriss platzierten Elemente</td>
+                <td>PflichtElement-Filter</td>
+                <td>Filtert die Elemente danach, ob diese verpflichtend oder optional sind</td>
             </tr>
             <tr>
                 <td>5</td>
+                <td>Lern- und Adaptivitätselemente</td>
+                <td>Darstellung der bereits erstellten, aber noch nicht im Grundriss platzierten Lern- und Adaptivitätselemente</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Storyelemente</td>
+                <td>Darstellung der bereits erstellten, aber noch nicht im Grundriss platzierten Storyelemente</td>
+            </tr>
+            <tr>
+                <td>7</td>
                 <td>Suchen-Funktion</td>
                 <td>Ermöglicht die Suche nach einem bestimmten Element</td>
             </tr>

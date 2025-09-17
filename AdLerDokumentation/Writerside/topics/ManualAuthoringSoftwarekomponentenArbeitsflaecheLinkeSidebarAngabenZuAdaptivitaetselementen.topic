@@ -11,12 +11,11 @@
         <p>Der Tab für die Eingabe von Metadaten und Informationen zu Adaptivitätselementen enthält insgesamt fünf Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
         <list>
             <li>Kategorie 1 (ausgeklappt): Allgemein</li>
-            <li>Kategorie 2 (ausgeklappt): Aufgaben</li>
-            <li>Kategorie 3 (eingeklappt): 3D-Darstellung</li>
-            <li>Kategorie 4 (eingeklappt): Lernziele</li>
-            <li>Kategorie 5 (eingeklappt): Beschreibung</li>
+            <li>Kategorie 2 (eingeklappt): Inhalt &amp; Orientierung</li>
+            <li>Kategorie 3 (eingeklappt): Gestaltung &amp; Darstellung</li>
+            <li>Kategorie 4 (ausgeklappt): Interaktion &amp; Ablauf</li>
         </list>
-    <chapter title="Kategorien ''Allgemein'' und ''Aufgaben''" id="KategorienAllgemeinUndAufgaben">
+    <chapter title="Kategorien ''Allgemein'' und ''Inhalt &amp; Orientierung''" id="KategorienAllgemeinUndInhalt">
         <img src="imageManualAuthoringAngabenZumAdaptivitaetselement1Callout.png" alt="AngabenZumAdaptivitaetselement1Callout"/>
         <table>
             <tr>
@@ -41,27 +40,22 @@
             </tr>
             <tr>
                 <td>4</td>
-                <td>Informationssymbol</td>
-                <td>Enthält zusätzliche Informationen zu den Elementen</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Arbeitsaufwand (min)</td>
+                <td>Dauer (min)</td>
                 <td>Ermöglicht das Angeben des Arbeitsaufwands in Minuten für das Abschließen des Adaptivitätselements</td>
             </tr>
             <tr>
-                <td>6</td>
-                <td>Aufgaben-Button</td>
-                <td>Öffnet ein Fenster zum Hinzufügen einer Aufgabe zum Adaptivitätselement</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Punkte</td>
-                <td>Ermöglicht das Angeben von Punkten für das Abschließen des Adaptivitätselements</td>
-            </tr>
-        </table>
-    </chapter>
-        <chapter title="Kategorien ''3D-Darstellung'', ''Lernziele'' und ''Beschreibung''" id="Kategorien3DDarstellungLernzieleUndBeschreibung">
+                    <td>5</td>
+                    <td>Lernziel-Textfeld</td>
+                    <td>Mehrzeiliges Textfeld zur Angabe eines oder mehrerer Lernziele für das Adaptivitätselement</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Beschreibungs-Textfeld</td>
+                    <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung des Adaptivitätselements</td>
+                </tr>
+            </table>
+        </chapter>
+        <chapter title="Kategorien ''Gestaltung &amp; Darstellung'' und ''Interaktion &amp; Ablauf''" id="KategorienGestaltungUndInteraktionAdaptivitaet">
             <img src="imageManualAuthoringAngabenZumAdaptivitaetselement2Callout.png" alt="AngabenZumAdaptivitaetselement1Callout2"/>
             <table>
                 <tr>
@@ -70,24 +64,34 @@
                     <td>Beschreibung</td>
                 </tr>
                 <tr>
+                    <td>7</td>
+                    <td>Numerische Anzeige aller Elemente</td>
+                    <td>Anzeige der Anzahl aller im Lernraum enthaltenen Lern- und Adaptivitätselemente</td>
+                </tr>
+                <tr>
                     <td>8</td>
-                    <td>Lernziel-Textfeld</td>
-                    <td>Textfeld zur Angabe eines oder mehrerer Lernziele für das Adaptivitätselement</td>
+                    <td>Anzeige aller Elemente</td>
+                    <td>Anzeige aller verpflichtend abzuschließenden Lern- und Adaptivitätselemente im Lernraum</td>
                 </tr>
                 <tr>
                     <td>9</td>
-                    <td>Beschreibungs-Textfeld</td>
-                    <td>Textfeld zur Angabe einer Beschreibung des Adaptivitätselements</td>
+                    <td>Numerische Anzahl aller verpflichtenden Elemente</td>
+                    <td>Anzeige der Anzahl aller verpflichtend abzuschließenden Lern- und Adaptivitätselemente im Lernraum</td>
                 </tr>
                 <tr>
                     <td>10</td>
+                    <td>Aufgaben-Button</td>
+                    <td>Öffnet ein Fenster zum Hinzufügen einer Aufgabe zum Adaptivitätselement</td>
+                </tr>
+                <tr>
+                    <td>11</td>
                     <td>OK-Button</td>
                     <td>Bestätigt die Angaben zum Adaptivitätselement</td>
                 </tr>
                 <tr>
-                    <td>11</td>
-                    <td>3D-Darstellung</td>
-                    <td>Roboter als 3D-Darstellung für das Adaptivitätselement</td>
+                    <td>12</td>
+                    <td>NPC-Auswahl</td>
+                    <td>Festgelegter Roboter als 3D-Darstellung für das Adaptivitätselement</td>
                 </tr>
             </table>
         </chapter>

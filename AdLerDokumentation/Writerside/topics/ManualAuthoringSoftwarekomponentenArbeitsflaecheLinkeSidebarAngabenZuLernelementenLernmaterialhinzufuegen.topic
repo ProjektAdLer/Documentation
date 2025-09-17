@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Lernmaterial hinzufügen" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernelementenLernmaterialhinzufuegen">
+    <show-structure for="chapter" depth="2"/>
+    <chapter title="Übersicht" id="bezeichnung_produktteil">
+                    <img src="imageManualAuthoringAngabenZumLernelement1Callout.png" alt="AngabenZumLernelement1Callout"/>
+            <table>
+                <tr>
+                    <td>ID</td>
+                    <td>Bezeichnung</td>
+                    <td>Beschreibung</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Überschrift des Pop-Up-Fensters</td>
+                    <td>Zeigt an, welcher Modus aktuell aktiv ist. Möglich sind "Lernelement erstellen" und "Lernelement bearbeiten"</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Scrollbar</td>
+                    <td>Zeigt alle Informationen zum Lernelement an</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Suchen-Funktion</td>
+                    <td>Ermöglicht das Suchen eines bestimmten externen Lernmaterials</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Typ des Lernmaterials</td>
+                    <td>Auflistung des jeweiligen Dateiformats des externen Lernmaterials</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Externes Lernmaterial</td>
+                    <td>Auflistung des gesamten, dem Autorentool hinzugefügten, Lernmaterials</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Vorschau-Funktion</td>
+                    <td>Öffnet ein Fenster mit einer Vorschau-Ansicht des externen Lernmaterials</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Zustand des Lernmaterials</td>
+                    <td>Auflistung des jeweiligen Zustands des externen Lernmaterials. Unterschieden wird zwischen: "nutzbar", "nicht nutzbar" und "ungeprüft"</td>
+                </tr>
+            </table>
+        </chapter>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
+        <list>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernelementErstellen.topic">Lernelement erstellen</a></li>
+        </list>
+
+
+</topic>

@@ -631,7 +631,15 @@
                     <toc-element topic="ManualAuthoringSoftwarekomponentenArbeitsflaeche.topic">
                         <toc-element topic="ManualAuthoringSoftwarekomponentenLinkeSidebar.topic">
                             <toc-element
-                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZurLernwelt.topic"/>
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZurLernwelt.topic">
+                                <toc-element
+                                        topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzurLernweltLernzielFormulierung.topic">
+                                    <toc-element
+                                            topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzurLernweltLernzielFormulierungMitEingabeunterstuetzung.topic"/>
+                                    <toc-element
+                                            topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZurLernweltLernzielFormulierungOhneEingabeunterstuetzung.topic"/>
+                                </toc-element>
+                            </toc-element>
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernraeumen.topic">
                                 <toc-element
@@ -645,7 +653,10 @@
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuStoryelementen.topic"/>
                             <toc-element
-                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernelementen.topic"/>
+                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernelementen.topic">
+                                <toc-element
+                                        topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuLernelementenLernmaterialhinzufuegen.topic"/>
+                            </toc-element>
                             <toc-element
                                     topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZuAdaptivitaetselementen.topic">
                                 <toc-element
@@ -658,8 +669,6 @@
                                             topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuAdaptivitaetselementAngabenzuAufgabenAngabenZuVerweisen.topic"/>
                                 </toc-element>
                             </toc-element>
-                            <toc-element
-                                    topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic"/>
                         </toc-element>
                         <toc-element topic="ManualAuthoringSoftwarekomponentenMittleresFenster.topic">
                             <toc-element
@@ -677,6 +686,8 @@
                     <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeilen.topic">
                         <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeileStartseite.topic"/>
                         <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeileArbeitsflaeche.topic"/>
+                        <toc-element
+                                topic="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarExternesLernmaterial.topic"/>
                         <toc-element topic="ManualAuthoringSoftwarekomponentenKopfzeileLoginAufAdLerServer.topic"/>
                     </toc-element>
                 </toc-element>

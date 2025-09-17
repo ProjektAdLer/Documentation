@@ -3,10 +3,10 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Lernziel-Formulierung" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuLernraeumenLernzielFormulierung">
+       title="Lernziel-Formulierung" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzurLernweltLernzielFormulierung">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-    <img src="imageManualAuthoringLernzielFormulierungCallout.png" alt="LernzielFormulierungCallout"/>
+    <img src="imageManualAuthoringLernweltLernzielCallout.png" alt="LernweltLernzielFormulierungCallout"/>
         <table>
             <tr>
                 <td>ID</td>
@@ -16,7 +16,7 @@
             <tr>
                 <td>1</td>
                 <td>Schließen-Button</td>
-                <td>Schließt das Fenster zum Formulieren von Lernzielen zu einem bestimmten Lernraum</td>
+                <td>Schließt das Fenster zum Formulieren von Lernzielen zur Lernwelt</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -41,7 +41,7 @@
             <tr>
                 <td>6</td>
                 <td>Lernziel</td>
-                <td>Zeigt das für einen bestimmten Lernraum formulierte Lernziel an</td>
+                <td>Zeigt das für eine Lernwelt formulierte Lernziel an</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

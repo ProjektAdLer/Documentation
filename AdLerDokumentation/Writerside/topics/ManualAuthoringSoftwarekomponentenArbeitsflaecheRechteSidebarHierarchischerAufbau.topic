@@ -17,13 +17,13 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Eingeklappter/Ausgeklappter Baumknoten</td>
-                <td>Zeigt im ausgeklappten Zustand die sich in dem jeweiligen Lernraum befindlichen Elemente an; In dieser hierarchischen Übersicht sind zunächst alle Lernräume eingeklappt.</td>
+                <td>Dauer-Anzeige</td>
+                <td>Zeigt den gesamten Arbeitsaufwand für die Lernwelt an; Der gesamte Arbeitsaufwand ergibt sich aus der Summe des Arbeitsaufwands für alle in der Lernwelt enthaltenen Lern- und Adaptivitätselemente</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Lernraum-Symbol</td>
-                <td>Darstellung des Symbols für Lernräume</td>
+                <td>Lernziel-Button</td>
+                <td>Öffnet ein Fenster, in dem alle für die Lernwelt formulierten Lernziele angezeigt werden</td>
             </tr>
             <tr>
                 <td>3</td>
@@ -32,28 +32,33 @@
             </tr>
             <tr>
                 <td>4</td>
-                <td>Arbeitsaufwand-Anzeige</td>
-                <td>Zeigt den gesamten Arbeitsaufwand für die Lernwelt an; Der gesamte Arbeitsaufwand ergibt sich aus der Summe des Arbeitsaufwands für alle in der Lernwelt enthaltenen Elemente.</td>
+                <td>Lernwelt-Theme-Anzeige</td>
+                <td>Zeigt das für die Lernwelt gewählte Theme an</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Gesamtpunkte-Anzeige</td>
-                <td>Zeigt die Gesamtpunkte für die Lernwelt an; Die Gesamtpunkte ergeben sich aus der Summe der Punkte für alle in der Lernwelt enthaltenen Elemente.</td>
+                <td>Abschlussbedingung-Pflichtelement-Anzeige</td>
+                <td>Zeigt die Anzahl aller verpflichtend zu absolvierenden Lern- und Adaptivitätselemente für die Lernwelt an; Die Anzahl ergibt sich aus der Summe aller in der Lernwelt enthaltenen verpflichtenden Elemente</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Name des Lernraums</td>
-                <td>Zeigt den Namen eines Lernraumes an; Im aktiven Zustand wird der Lernraum in blauer Schriftfarbe angezeigt.</td>
+                <td>Abschlussbedingung-Anzeige</td>
+                <td>Zeigt die Anzahl aller Lern- und Adaptivitätselemente für die Lernwelt an; Die Anzahl ergibt sich aus der Summe aller in der Lernwelt enthaltenen Elemente</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Eingeklappter/Ausgeklappter Baumknoten mit Bezeichnung des Lernraums</td>
+                <td>Zeigt im ausgeklappten Zustand die sich in dem jeweiligen Lernraum befindlichen Elemente an; In dieser hierarchischen Übersicht sind zunächst alle Lernräume eingeklappt</td>
             </tr>
             <tr>
                 <td>7</td>
                 <td>Elementtyp-Symbol</td>
-                <td>Darstellung des Typs für ein Element; Für Storyelemente und Adaptivitätselemente existiert je ein Symbol. Für Lernelemente wird zwischen den Typen "Bild", "Video", "H5P" und "Text" unterschieden, sodass die Darstellung des Symbols zwischen vier verschiedenen Symbole variieren kann.</td>
+                <td>Darstellung des Typs für ein Element; Für Storyelemente und Adaptivitätselemente existiert je ein Symbol. Für Lernelemente wird zwischen den Typen "Bild", "Video", "H5P" und "Text" unterschieden, sodass die Darstellung des Symbols zwischen vier verschiedenen Symbole variieren kann</td>
             </tr>
             <tr>
                 <td>8</td>
                 <td>Auflistung der Elemente</td>
-                <td>Listet die in einem Lernraum platzierten Elemente auf; Für das Storyelement stehen in jedem Lernraum-Grundriss zwei Slots zur Verfügung. Das Eingangs-Storyelement wird in der hierarchischen Ansicht stets als erstes aufgeführt. Das Ausgangs-Storyelement ist in der hierarchischen Ansicht immer an letzter Stelle.</td>
+                <td>Listet die in einem Lernraum platzierten Elemente auf; Für das Storyelement stehen in jedem Lernraum-Grundriss zwei Slots zur Verfügung. Das Eingangs-Storyelement wird in der hierarchischen Ansicht stets als erstes aufgeführt. Das Ausgangs-Storyelement ist in der hierarchischen Ansicht immer an letzter Stelle</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

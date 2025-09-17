@@ -17,7 +17,7 @@
             <tr>
                 <td>1</td>
                 <td>Verweis-auf-Lernelement- / -externes-Lernmaterial-Tab</td>
-                <td>Ermöglicht einen Verweis auf ein Lernelement oder ein externes Lernmaterial; Zunächst ist immer der Tab "Lernelement" geöffnet.</td>
+                <td>Ermöglicht einen Verweis auf ein Lernelement oder ein externes Lernmaterial; Zunächst ist immer der Tab "Lernelement" geöffnet</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -26,31 +26,36 @@
             </tr>
             <tr>
                 <td>3</td>
+                <td>Auswahlfenster</td>
+                <td>Zeigt an, welches Lernelement für den Verweis ausgewählt wurde</td>
+            </tr>
+            <tr>
+                <td>4</td>
                 <td>Schließen-Button</td>
                 <td>Schließt das Fenster zum Hinzufügen und Bearbeiten von Verweisen zu einem Adaptivitätselement</td>
             </tr>
             <tr>
-                <td>4</td>
+                <td>5</td>
                 <td>Suchen-Funktion</td>
                 <td>Ermöglicht die Suche nach einem bestimmten Lernelement</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td>6</td>
                 <td>Informationssymbol</td>
                 <td>Enthält zusätzliche Informationen zum Verweis auf ein Lernelement</td>
             </tr>
             <tr>
-                <td>6</td>
+                <td>7</td>
                 <td>Lernelement-Name</td>
                 <td>Zeigt den Namen des Lernelements an</td>
             </tr>
             <tr>
-                <td>7</td>
-                <td>Erstellte oder importierte Lernelemente</td>
-                <td>Darstellung von Lernelementen in einer Übersicht; Wurde ein Lernelement ausgewählt, wird dieses blau dargestellt.</td>
+                <td>8</td>
+                <td>Erstellte Lernelemente</td>
+                <td>Darstellung von Lernelementen in einer Übersicht</td>
             </tr>
             <tr>
-                <td>8</td>
+                <td>9</td>
                 <td>OK-Button</td>
                 <td>Bestätigt die Angaben zum Verweis</td>
             </tr>

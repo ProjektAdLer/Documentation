@@ -8,16 +8,14 @@
 
     <show-structure for="chapter" depth="2"/>
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-        <p>Der Tab für das Angeben von Metadaten und Informationen zu Lernräumen enthält insgesamt sechs Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
+        <p>Der Tab für das Angeben von Metadaten und Informationen zu Lernräumen enthält insgesamt vier Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
         <list>
             <li>Kategorie 1 (ausgeklappt): Allgemein</li>
-            <li>Kategorie 2 (eingeklappt): Abschlussbedingung</li>
-            <li>Kategorie 3 (eingeklappt): Grundrisse</li>
-            <li>Kategorie 4 (eingeklappt): Thema</li>
-            <li>Kategorie 5 (eingeklappt): Lernziele</li>
-            <li>Kategorie 6 (eingeklappt): Beschreibung</li>
+            <li>Kategorie 2 (eingeklappt): Inhalt &amp; Orientierung</li>
+            <li>Kategorie 3 (eingeklappt): Gestaltung &amp; Darstellung</li>
+            <li>Kategorie 4 (eingeklappt): Interaktion &amp; Ablauf</li>
         </list>
-        <chapter title="Kategorie ''Allgemein''" id="KategorieAllgemeinLernraum">
+        <chapter title="Kategorien ''Allgemein'' und ''Inhalt &amp; Orientierung" id="KategorieAllgemeinStorym">
             <img src="imageManualAuthoringAngabenZumLernraum1Callout.png" alt="AngabenZumLernraum1Callout"/>
             <table>
                 <tr>
@@ -40,9 +38,19 @@
                     <td>Name-des-Lernraums-Textfeld</td>
                     <td>Textfeld zur Angabe vom Namen des Lernraums (Erforderliche Angabe)</td>
                 </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Beschreibungs-Textfeld</td>
+                    <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung des Lernraums</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Lernziel-Button</td>
+                    <td>Öffnet ein Fenster zur Formulierung eines oder mehrerer Lernziele für den Lernraum - ohne oder mit Eingabeunterstützung</td>
+                </tr>
             </table>
         </chapter>
-        <chapter title="Kategorien ''Abschlussbedingung'', ''Thema'', ''Lernziele'' und ''Beschreibung''" id="KategorieAbschlussbedingungThemaLernzieleBeschreibung">
+        <chapter title="Kategorien ''Gestaltung &amp; Darstellung'' und ''Interaktion &amp; Ablauf''" id="KategorieGestaltungUndInteraktionStory">
             <img src="imageManualAuthoringAngabenZumLernraum2Callout.png" alt="AngabenZumLernraum2Callout"/>
             <table>
                 <tr>
@@ -51,44 +59,44 @@
                     <td>Beschreibung</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>Abschlussbedingung</td>
-                    <td>Ermöglicht die Angabe einer Mindestpunktzahl für das erfolgreiche Abschließen des Lernraums</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Grundriss</td>
-                    <td>Auswahl verschiedener Grundrisse mit numerischer Angabe der möglichen Elementplatzierungen (Diese Kategorie wird nur im Modus "Lernraum bearbeiten" angezeigt.)</td>
-                </tr>
-                <tr>
                     <td>6</td>
-                    <td>Beschreibungs-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung des Lernraums</td>
+                    <td>Theme</td>
+                    <td>Ermöglicht die Angabe eines bestimmten Themes für den Lernraum; Je nach ausgewähltem Theme verändert sich die Gestaltung des Lernraums</td>
                 </tr>
                 <tr>
                     <td>7</td>
-                    <td>Lernziele</td>
-                    <td>Öffnet ein Fenster zur Formulierung eines oder mehrerer Lernziele für den Lernraum - ohne oder mit Eingabeunterstützung</td>
+                    <td>Auswahlfenster zum Lernraum-Theme</td>
+                    <td>Auswahl aus sechs verschiedenen Themes für den Lernraum. Je nach gewähltem Lernwelt-Theme passt sich die Bezeichnung der einzelnen Lernraum-Themes an</td>
                 </tr>
                 <tr>
                     <td>8</td>
+                    <td>Numerische Anzahl aller verpflichtenden Elemente</td>
+                    <td>Anzeige der Anzahl aller verpflichtend abzuschließenden Lern- und Adaptivitätselemente im Lernraum</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Numerische Anzeige aller Elemente</td>
+                    <td>Anzeige der Anzahl aller im Lernraum enthaltenen Lern- und Adaptivitätselemente</td>
+                </tr>
+                <tr>
+                    <td>10</td>
                     <td>OK-Button</td>
                     <td>Bestätigt die Angaben zum Lernraum</td>
                 </tr>
                 <tr>
-                    <td>9</td>
+                    <td>11</td>
                     <td>Reset-Button</td>
                     <td>Löscht die Angaben zum Lernraum</td>
                 </tr>
                 <tr>
-                    <td>10</td>
-                    <td>Thema</td>
-                    <td>Ermöglicht die Angabe eines bestimmten Themas für den Lernraum; Je nach ausgewähltem Thema verändert sich die Gestaltung der Umgebung des Lernraums.</td>
+                    <td>12</td>
+                    <td>Anzeige aller Elemente</td>
+                    <td>Anzeige aller verpflichtend abzuschließenden Lern- und Adaptivitätselemente im Lernraum</td>
                 </tr>
                 <tr>
-                    <td>11</td>
-                    <td>Auswahlfenster zum Thema</td>
-                    <td>Auswahl aus vier verschiedenen Themen für den Lernraum: "Campus Aschaffenburg", "Campus Kempten", "Vorstadt" und "Spielhalle"</td>
+                    <td>13</td>
+                    <td>Grundriss</td>
+                    <td>Auswahl verschiedener Grundrisse mit numerischer Angabe der möglichen Elementplatzierungen (Diese Kategorie wird nur im Modus "Lernraum bearbeiten" angezeigt)</td>
                 </tr>
             </table>
             <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>

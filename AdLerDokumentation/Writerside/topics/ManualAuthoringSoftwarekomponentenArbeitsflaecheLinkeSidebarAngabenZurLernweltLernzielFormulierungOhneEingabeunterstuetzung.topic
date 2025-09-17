@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Ohne Eingabeunterstützung" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenZurLernweltLernzielFormulierungOhneEingabeunterstuetzung">
+
+    <chapter title="Übersicht" id="bezeichnung_produktteil">
+    <img src="imageManualAuthoringLernweltLernzielOhneCallout.png" alt="LernweltLernzielFormulierungOhneEingabeunterstuetzungCallout"/>
+        <table>
+            <tr>
+                <td>ID</td>
+                <td>Bezeichnung</td>
+                <td>Beschreibung</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Lernziel-Textfeld</td>
+                <td>Textfeld zum selbstständigen Formulieren eines Lernziels für eine Lernwelt</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Erstellen-Button</td>
+                <td>Bestätigt die Angaben zum selbstständig formulierten Lernziel</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Schließen-Button</td>
+                <td>Schließt das Fenster zum selbstständigen Formulieren eines Lernziels für eine Lernwelt</td>
+            </tr>
+        </table>
+        <p>Auflistung/Verlinkung der zugehörigen Schritte der Bedienung:</p>
+        <list>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarLernzielOhneEingabeunterstuetzungFormulieren.topic">Lernziel ohne Eingabeunterstützung formulieren</a></li>
+        </list>
+    </chapter>
+</topic>

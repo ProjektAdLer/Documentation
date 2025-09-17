@@ -3,10 +3,10 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Mit Eingabeunterstützung" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzuLernraeumenLernzielFormulierungMitEingabeunterstuetzung">
+       title="Mit Eingabeunterstützung" id="ManualAuthoringSoftwarekomponentenArbeitsflaecheLinkeSidebarAngabenzurLernweltLernzielFormulierungMitEingabeunterstuetzung">
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
-    <img src="imageManualAuthoringLernzielMitCallout.png" alt="LernzielFormulierungMitEingabeunterstuetzungCallout"/>
+    <img src="imageManualAuthoringLernweltLernzielMitCallout.png" alt="LernweltLernzielFormulierungMitEingabeunterstuetzungCallout"/>
         <table>
             <tr>
                 <td>ID</td>
@@ -26,7 +26,7 @@
             <tr>
                 <td>3</td>
                 <td>Schließen-Button</td>
-                <td>Schließt das Fenster zum Formulieren eines Lernziels für einen bestimmten Lernraum mithilfe der Eingabeunterstützung</td>
+                <td>Schließt das Fenster zum Formulieren eines Lernziels für eine Lernwelt mithilfe der Eingabeunterstützung</td>
             </tr>
             <tr>
                 <td>4</td>

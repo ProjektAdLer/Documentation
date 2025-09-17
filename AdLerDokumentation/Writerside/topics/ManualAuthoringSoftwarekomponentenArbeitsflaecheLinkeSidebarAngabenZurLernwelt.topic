@@ -11,9 +11,9 @@
     <p>Der Tab für das Angeben von Metadaten und Informationen zur Lernwelt enthält insgesamt vier Kategorien. Eine Kategorie ist dann ausgeklappt, wenn sie erforderliche Angaben enthält, ansonsten sind diese eingeklappt:</p>
     <list>
         <li>Kategorie 1 (ausgeklappt): Allgemein</li>
-        <li>Kategorie 2 (eingeklappt): Einschreibemethode</li>
-        <li>Kategorie 3 (eingeklappt): Lernziele</li>
-        <li>Kategorie 4 (eingeklappt): Beschreibung</li>
+        <li>Kategorie 2 (eingeklappt): Inhalt &amp; Orientierung</li>
+        <li>Kategorie 3 (eingeklappt): Gestaltung &amp; Darstellung</li>
+        <li>Kategorie 4 (eingeklappt): Interaktion &amp; Ablauf</li>
     </list>
         <chapter title="Kategorie ''Allgemein''" id="KategorieAllgemeinLernwelt">
         <img src="imageManualAuthoringAngabenZurLernwelt1Callout.png" alt="AngabenZurLernwelt1Callout"/>
@@ -50,17 +50,32 @@
                 </tr>
                 <tr>
                     <td>6</td>
-                    <td>Sprache-Textfeld</td>
-                    <td>Textfeld zur Angabe der Sprache der Lernwelt</td>
+                    <td>URL-Textfeld</td>
+                    <td>Textfeld zur Angabe einer URL</td>
                 </tr>
                 <tr>
                     <td>7</td>
-                    <td>Evaluationslink-Textfeld</td>
-                    <td>Textfeld zur Angabe eines Evaluationslinks zur Lernwelt</td>
+                    <td>Art-des-Links-Textfeld</td>
+                    <td>Textfeld zur Angabe der Art des Evaluationslinks</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Informationssymbol</td>
+                    <td>Enthält zusätzliche Informationen zum Link zum Lernweltabschluss</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Evaluationslink-Hinweistextfeld</td>
+                    <td>Textfeld zur Angabe eines Hinweises zum Evaluationslinks</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Sprache-Textfeld</td>
+                    <td>Textfeld zur Angabe der Sprache der Lernwelt</td>
                 </tr>
             </table>
         </chapter>
-        <chapter title="Kategorien ''Einschreibemethode'', ''Lernziele'' und ''Beschreibung''" id="KategorieEinschreibemethodeLernzieleBeschreibung">
+        <chapter title="Kategorie ''Inhalt &amp; Orientierung''" id="KategorieInhaltUndOrientierung">
             <img src="imageManualAuthoringAngabenZurLernwelt2Callout.png" alt="AngabenZurLernwelt2Callout"/>
             <table>
                 <tr>
@@ -69,32 +84,58 @@
                     <td>Beschreibung</td>
                 </tr>
                 <tr>
-                    <td>8</td>
-                    <td>Einschreibeschlüssel-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe eines Einschreibeschlüssels</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Informationssymbol</td>
-                    <td>Enthält zusätzliche Informationen zur Einschreibemethode</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Lernziel-Textfeld</td>
-                    <td>Mehrzeiliges Textfeld zur Angabe eines oder mehrerer Lernziele für die Lernwelt</td>
-                </tr>
-                <tr>
                     <td>11</td>
                     <td>Beschreibungs-Textfeld</td>
                     <td>Mehrzeiliges Textfeld zur Angabe einer Beschreibung der Lernwelt</td>
                 </tr>
                 <tr>
                     <td>12</td>
+                    <td>Lernziel-Button</td>
+                    <td>Öffnet ein Fenster zur Formulierung eines oder mehrerer Lernziele für die Lernwelt - ohne oder mit Eingabeunterstützung</td>
+                </tr>
+            </table>
+        </chapter>
+        <chapter title="Kategorien ''Gestaltung &amp; Darstellung'' und ''Interaktion &amp; Darstellung''" id="KategorieGestaltungUndInteraktion">
+            <img src="imageManualAuthoringAngabenZurLernwelt3Callout.png" alt="AngabenZurLernwelt3Callout"/>
+            <table>
+                <tr>
+                    <td>ID</td>
+                    <td>Bezeichnung</td>
+                    <td>Beschreibung</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Lernwelt-Theme</td>
+                    <td>Ermöglicht die Angabe eines bestimmten Themes für die Lernwelt; Je nach ausgewähltem Theme verändert sich die Gestaltung der Umgebung der Lernwelt. Auswahl aus vier verschiedenen Themen für den Lernraum: "Campus Aschaffenburg", "Campus Kempten", "Vorstadt" und "Spielhalle"</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Einleitungstextfeld zur Rahmenhandlung</td>
+                    <td>Ermöglicht die Eingabe eines Einleitungstextes, der die Story der Lernwelt einleitet.</td>
+                </tr>
+
+                <tr>
+                    <td>15</td>
+                    <td>Schlusstextfeld zur Rahmenhandlung</td>
+                    <td>Ermöglicht die Eingabe eines Schlusstextes, der die Story der Lernwelt abschließt.</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Einschreibeschlüssel-Textfeld</td>
+                    <td>Einzeiliges Textfeld zur Angabe eines Einschreibeschlüssels</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Informationssymbol</td>
+                    <td>Enthält zusätzliche Informationen zur Einschreibemethode</td>
+                </tr>
+                <tr>
+                    <td>18</td>
                     <td>OK-Button</td>
                     <td>Bestätigt die Angaben zur Lernwelt</td>
                 </tr>
                 <tr>
-                    <td>13</td>
+                    <td>19</td>
                     <td>Reset-Button</td>
                     <td>Löscht die Angaben zur Lernwelt</td>
                 </tr>

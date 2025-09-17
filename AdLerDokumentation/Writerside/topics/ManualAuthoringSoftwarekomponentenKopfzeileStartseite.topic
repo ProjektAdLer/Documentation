@@ -82,6 +82,11 @@
                 <td>Öffnet die AdLer-Projektseite</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
+            <tr>
+                <td>6</td>
+                <td>Externes-Lernmaterial-hinzufügen-Tab</td>
+                <td>Öffnet den Tab zum Hinzufügen von externem Lernmaterial</td>
+            </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
@@ -95,6 +100,7 @@
             <li><a href="ManualAuthoringBedienungKopfzeileZurAdLerProjektseiteGehen.topic">Zur AdLer-Projektseite gehen</a></li>
             <li><a href="ManualAuthoringBedienungKopfzeileAutorentoolSchließen.topic">Autorentool schließen</a></li>
             <li><a href="ManualAuthoringSoftwarekomponentenKopfzeileLoginAufAdLerServer.topic"/></li>
+            <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic">Externes Lernmaterial hinzufügen</a></li>
         </list>
     </chapter>
 </topic>
