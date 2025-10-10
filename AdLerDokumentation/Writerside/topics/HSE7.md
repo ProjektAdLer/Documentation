@@ -18,7 +18,12 @@ muss der H5P-Player das Verzeichnis erstellen.
 
 
 
+00
 
+,
 ## Aktivitätsdiagramm:
+
+Veraltet: achtung Entzipp H5P and save entzipped files in wwwroot/... ist veraltet die dateien werden
+nun temporär im [](Verzeichnis-zum-Abspielen-der-H5Ps.md) gespeichert
 
 ![imageH5pPlayerStartH5pPlayer3.png](imageH5pPlayerStartH5pPlayer3.png)
