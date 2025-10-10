@@ -40,6 +40,9 @@ Verzeichnisstruktur:
       - Zu jedem Lernelement gibt es:
           - Lernelement-Datei
           - Hash zu Lernelement-Datei
+  - h5p-folder
+    - Hier werden die H5P-Dateien während des abspielens temporär gehalten.
+    - Nach dem Abspielen werden sie wieder gelöscht.
   - Logs
   - SavedWorlds
       - Die Welten mit Endung awf (Adler World File)
