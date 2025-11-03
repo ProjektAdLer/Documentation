@@ -34,7 +34,7 @@
     </tr>
    <tr>
         <td>Erlaubte Alternativbenennung</td>
-        <td>A-LMS, LMS, </td>
+        <td>A-LMS, LMS,AdLerLMS </td>
     </tr>
    <tr>
         <td>Verbotene Terminologie</td>
