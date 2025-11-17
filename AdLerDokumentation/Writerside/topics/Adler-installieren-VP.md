@@ -1,56 +1,42 @@
 # AdLer installieren
 
-Dieser Leitfaden beschreibt die Installation und das Setup von AdLer auf einem Linux-Server.
-
-> Da in diesem Leitfaden technische Aspekte genauer erläutert werden, ist dieser sehr ausführlich. Für einen Quick Start
-> des AdLer Systems verwenden Sie unsere
-> [Entwicklerumgebung](https://github.com/ProjektAdLer/AdlerDevelopmentEnvironment/tree/main/non-moodle).
+Dieser Leitfaden beschreibt unsere Installation von AdLer. 
 
 
 > Eine Nutzung im LAN ohne Domain (nur über IP und Ports) wird von uns nicht unterstützt.
 > Unsere lokale Entwicklungsumgebung kann mit Anpassungen aber eingeschränkt für dieses Scenario verwendet werden.
 > Siehe hierzu die Notizen zum [Thema Hostname im Repo der Entwicklungsumgebung](https://github.com/ProjektAdLer/AdlerDevelopmentEnvironment/tree/main/non-moodle#hostname).
-{style="warning"}
+{style="info"}
 
 ## Voraussetzungen
 
-- root-Zugriff auf einen Linux Server. In diesem Guide wird ein Debian 12 Server verwendet. Die Installation auf anderen Linux-Distributionen wird in gewissen Punkten abweichen und hier nicht behandelt.
-- Der Server hat eine öffentliche statische IP-Adresse.
-- Docker (**nicht Docker-Desktop**) ist installiert (siehe [Docker-Installationsanleitung](https://docs.docker.com/engine/install/)).
-- Es besteht Zugriff auf eine Domain, für die Subdomains erstellt werden können.
-
-### Kenntnisse
-- Grundlegende Administration eines Linux-Servers
-- Docker und Docker Compose
-- Grundverständnis von Netzwerkkonfiguration
-
-> Für die Installation und den sicheren/stabilen Betrieb von AdLer sind diese Kenntnisse zwingend erforderlich.
-> Diese werden im folgenden als bekannt vorausgesetzt.
+> Es wird davon ausgegangen, dass umfassende Kenntnisse im Umgang mit Linux Servern und Docker vorhanden sind, welche
+> dem Betrieb einer produktiven, im Internet erreichbaren Anwendung mit sensiblen Daten gerecht werden.
 {style="warning"}
+
+- root-Zugriff auf einen Linux Server. Wir nutzen Debian 13, auf anderen Distributionen kann es zu Abweichungen kommen.
+- Der Server hat eine öffentliche statische IP-Adresse.
+- Docker ist installiert (siehe [Docker-Installationsanleitung](https://docs.docker.com/engine/install/)).
+- Es besteht Zugriff auf eine Domain, für die Subdomains erstellt werden können.
 
 ## Überblick
 Das gesamte Setup besteht aus zwei Docker Compose Projekten:
 - [Traefik](https://traefik.io/traefik/) als [reverse-Proxy](https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/)
 - Die AdLer Umgebung
 
-## Setup
-### Vorbereitungen
+### Domains
 - Festlegen der Domains für die drei sub-Anwendungen von AdLer und erstellen der DNS Einträge. Diese müssen Subdomains einer gemeinsamen Domain sein.
   - [API/Backend](Backend-GE.md) (hier: `api.projekt-adler.eu`)
   - Moodle (hier: `moodle.projekt-adler.eu`)
   - [Frontend](Engine-BG.md) (hier: `play.projekt-adler.eu`)
 
 ## Traefik
-Traefik übernimmt die Funktion unseres Reverse-Proxy und ermöglicht es uns, dass alle AdLer-Services auf dem gleichen Server
-auf Port 80 auf unterschiedlichen Domains erreichbar sind:
+Die Aufgabe von Traefik als Reverse-Proxy ist es den eingehenden HTTP(S)-Verkehr auf die verschiedenen Services weiterzuleiten.
+Außerdem übernimmt Traefik die automatische Ausstellung und Erneuerung von SSL-Zertifikaten über [Let's Encrypt](https://letsencrypt.org/).
 
-> Sofern Sie bereits einen anderen Reverse-Proxy eingerichtet haben können Sie diesen Konfigurationsschritt überspringen
-> und Ihren Reverse Proxy separat für AdLer konfigurieren.
+Wird bereits Traefik oder ein anderer Reverse-Proxy verwendet, muss dieser genutzt werden. 
 
 ![Deploymentdiagramm für Traefik](https://www.plantuml.com/plantuml/png/VOynJyKm38Jt_0ehUzkX6mEgK1S6DYH651AtH4riv3f8_7jQeY1uUdgRp_hETvvsTQ8b9-CJbm2Ff2Y4QeW3mhCuNE9MnHDpI5Zd1-Stf535EB--uDkEyea2RWSxpjtlmfg4Yu8oI5pV5K8Kz1gPJ8k2hhjlIN07-ITcS1znG5eZOV_5HG9d5wdtd4r3JrljTBXijLsmzY_SIf_qSVqc-k-bWx_Qn1ep8OMIqpS0)
-- Wir verwenden Traefik in einem eigenen Docker-Compose Projekt um den Reverse-Proxy und die Services, welche an diesen angeschlossen sind,
-  unabhängig voneinander verwalten zu können.
-- Die eigentliche Konfiguration der (Sub-)Domains ist in [.env Datei des AdLer Stacks](#adler) gegeben.
 
 In einem Ordner `/traefik` müssen die folgenden beiden Dateien erstellt werden:
 
@@ -73,6 +59,10 @@ entrypoints:
           scheme: https
           permanent: true
   websecure:
+    transport:
+      respondingTimeouts:
+        writeTimeout: 0s
+        readTimeout: 0s
     address: :443
 
 #diese Section regelt automatische Zertifikatvergabe 
@@ -119,7 +109,6 @@ services:
     ports:
      - "80:80"
      - "443:443"
-     - "24550:24550"
     volumes:
      - "/var/run/docker.sock:/var/run/docker.sock"
      - "./traefik.yml:/etc/traefik/traefik.yml"
@@ -148,6 +137,8 @@ Traefik kann nun mit `docker-compose up -d` gestartet werden.
 
 ## AdLer
 Die Anleitung zum Setup des AdLer-Stacks findet sich [hier](https://github.com/ProjektAdLer/AdLerStack/blob/main/docs/deploying_adler.md#production-deployment).
+
+Bei der Installation von AdLer sind die oben definierten Domains zu verwenden.
 
 ## Backup
 Um ein Backup der AdLer Instanz zu erstellen, kann wie folgt vorgegangen werden:
