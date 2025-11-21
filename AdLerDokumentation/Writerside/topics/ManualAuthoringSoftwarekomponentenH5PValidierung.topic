@@ -7,7 +7,9 @@
 
     <chapter title="Übersicht" id="bezeichnung_produktteil">
         <p>Beim Einfügen von externem Lernmaterial, speziell beim Hinzufügen von H5P-Dateien, wird in der Liste des Externen Lernmaterials der Prüfungszustand der Dateien angezeigt. Die Validierung ist nötig, da die große, heterogene H5P-Bibliothek mit ihren unterschiedlichen Möglichkeiten, zu Problemen bei der Anzeige und Wertung der Punkte in der 3D-Lernumgebung führen kann. Um diese Probleme schon vor dem Upload in eine Lernwelt zu minimieren, wurde die H5P-Validierung ins Autorentool implementiert.</p>
+        <p>Der H5P-Validator wird durch einen Klick auf das Wort "ungeprüft" geöffnet.</p>
         <img src="imageManualAuthoringH5pValidatorExtLearningmaterial.png" alt="imageManualAuthoringH5pValidatorExtLearningmaterial"/>
+        Geöffneter H5P-Validator
         <img src="imageManualAuthoringH5pValidatorOpenedValidatorInitial.png" alt="imageManualAuthoringH5pValidatorOpenedValidatorInitial"/>
         <p>Funktionen</p>
         <table>
