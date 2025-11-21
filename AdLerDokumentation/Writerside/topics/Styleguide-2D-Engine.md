@@ -27,6 +27,9 @@ Dieser **Styleguide** beschreibt die in der Umsetzung der AdLer-Engine zu verwen
 | nodehandlecolor      | #e9d6b3               | Farbe der einzelnen Nodes in der Graphen Ansicht des Lernweltmenüs     |
 | adleroceanblue       | #45a0e5               | Farbe zur Hervorhebung von Links                                       |
 | iconfillcolor        | #cfd8e5               | Icon Füllfarbe                                                         |
+| diffhard             | #ff5858               | Schwierigkeit Hard                                                     |
+| diffmedium           | #f0d642               | Schwierigkeit Mittel                                                   |
+| diffeasy             | #59b347               | Schwierigkeit Einfach                                                  |
 
 ### Typographie
 In der gesamten AdLer Anwendung wird die Schriftart [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) verwendet. 
