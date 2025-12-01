@@ -18,88 +18,66 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>Rückgängig-Button</td>
-                <td>Macht die letzte Aktion rückgängig (Befehl "Undo" - erst aktiv, wenn mindestens eine Aktion ausgeführt wurde)</td>
-                <td>Startseite und Arbeitsfläche</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Wiederholen-Button</td>
-                <td>Wiederholt eine Aktion (erst aktiv, wenn der Befehl "Undo" zuvor mindestens einmal verwendet wurde)</td>
-                <td>Startseite und Arbeitsfläche</td>
-            </tr>
-            <tr>
-                <td>3</td>
                 <td>Version des AdLer-Autorentools</td>
                 <td>Zeigt die aktuelle Version des Autorentools an</td>
                 <td>Startseite</td>
             </tr>
             <tr>
+                <td>2</td>
+                <td>Home-Button</td>
+                <td>Führt zurück zur Startseite des Autorentools.</td>
+                <td>Arbeitsfläche</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Speichern-Button</td>
+                <td>Speichert den aktuellen Zustand der Lernwelt.</td>
+                <td>Startseite und Arbeitsfläche</td>
+            </tr>
+            <tr>
                 <td>4</td>
-                <td>Tester-Feedback-zur-Startseite-Button</td>
-                <td>Öffnet ein Fenster zu einer Umfrage, um Rückmeldung zur Bedienung der Startseite geben zu können</td>
-                <td>Startseite</td>
+                <td>Rückgängig-Button</td>
+                <td>Macht die letzte Aktion rückgängig (Befehl "Undo" - erst aktiv, wenn mindestens eine Aktion ausgeführt wurde)</td>
+                <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Sprache-Button</td>
-                <td>Stellt die Sprache für die Benutzungsoberfläche des Autorentools auf Deutsch oder Englisch ein; Standardmäßig ist die deutsche Sprache ausgewählt.</td>
+                <td>Wiederholen-Button</td>
+                <td>Wiederholt eine Aktion (erst aktiv, wenn der Befehl "Undo" zuvor mindestens einmal verwendet wurde)</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Hilfe-Button</td>
-                <td>Öffnet das Hilfe-Menü</td>
+                <td>Externes Lernmaterial</td>
+                <td>Öffnet das Fenster zum Hinzufügen zum Externen Lernmaterial.</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Einloggen-auf-den-AdLer-Server-Button</td>
-                <td>Öffnet ein Fenster zum Einloggen auf dem AdLer-Server</td>
-                <td>Startseite und Arbeitsfläche</td>
+                <td>Lernwelt-hochladen-Button</td>
+                <td>Lädt die Lernwelt auf den angegebenen Server hoch.</td>
+                <td>Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>8</td>
-                <td>Autorentool-schließen-Button</td>
-                <td>Schließt das Autorentool</td>
+                <td>Einstellungen-Button</td>
+                <td>Öffnet das Einstellungsmenü.</td>
                 <td>Startseite und Arbeitsfläche</td>
             </tr>
             <tr>
                 <td>9</td>
-                <td>Feedback-geben-Button</td>
-                <td>Öffnet ein Fenster zu einer Umfrage, um Rückmeldung zur Bedienung des gesamten Autorentools zu geben</td>
+                <td>Schließen-Button</td>
+                <td>Schließt das Autorentool.</td>
                 <td>Startseite und Arbeitsfläche</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>Technischen-Fehler-melden-Button</td>
-                <td>Öffnet ein Fenster zu einer Umfrage, um einen aufgetretenen technischen Fehler ("Bug") zu melden</td>
-                <td>Startseite und Arbeitsfläche</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>Über-AdLer-Button</td>
-                <td>Öffnet die AdLer-Projektseite</td>
-                <td>Startseite und Arbeitsfläche</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Externes-Lernmaterial-hinzufügen-Tab</td>
-                <td>Öffnet den Tab zum Hinzufügen von externem Lernmaterial</td>
             </tr>
         </table>
         <p>Auflistung/Verlinkung der zugehörigen Handlungsanweisungen</p>
         <list>
             <li><a href="ManualAuthoringBedienungKopfzeileLetzteAktionRueckgaengigMachen.topic">Letzte Aktion rückgängig machen</a></li>
             <li><a href="ManualAuthoringBedienungKopfzeileAktionWiederholen.topic">Aktion wiederholen</a></li>
-            <li><a href="ManualAuthoringBedienungKopfzeileFeedbackZurBenutzungsoberflaecheGeben.topic">Feedback zur Benutzungsoberfläche geben</a></li>
-            <li><a href="ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern.topic">Sprache des Autorentools ändern</a></li>
-            <li><a href="ManualAuthoringBedienungKopfzeileFeedbackZumAutorentoolGeben.topic">Feedback zum Autorentool geben</a></li>
             <li><a href="ManualAuthoringBedienungKopfzeileSpracheDesAutorentoolsAendern.topic"/></li>
             <li><a href="ManualAuthoringBedienungKopfzeileTechnischenFehlerMelden.topic">Technischen Fehler melden</a></li>
-            <li><a href="ManualAuthoringBedienungKopfzeileZurAdLerProjektseiteGehen.topic">Zur AdLer-Projektseite gehen</a></li>
             <li><a href="ManualAuthoringBedienungKopfzeileAutorentoolSchließen.topic">Autorentool schließen</a></li>
-            <li><a href="ManualAuthoringSoftwarekomponentenKopfzeileLoginAufAdLerServer.topic"/></li>
             <li><a href="ManualAuthoringBedienungArbeitsflaecheLinkeSidebarExternesLernmaterialHinzufuegen.topic">Externes Lernmaterial hinzufügen</a></li>
         </list>
     </chapter>
