@@ -7,3 +7,5 @@ Zur lokalen Verwendung wird zusätzliche Open-Source-Software verwendet. Zur Onl
 Um diese Version, auf diese Art und Weise bereitstellen zu können, mussten wir uns von Moodle, als Learning-Management-System und dessen Funktionalitäten trennen. Wir glauben, dass die AdLer-Webserver-Edition die Möglichkeit bietet die Kernfunktionen von AdLer in einem erleichterten Setup nutzen zu können.
 
 Im Folgenden finden Sie eine Installationsanleitung, um die Adler-Webserver-Edition nutzen zu können.
+
+![Startbildschirm der AdLer-Webserver-Edition](imageAdLerWebServerWelcomePage.png)
