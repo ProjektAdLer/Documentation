@@ -1072,6 +1072,7 @@
     </toc-element>
     <toc-element topic="AdLer-Webserver-Edition.md">
         <toc-element topic="AdLer-Webserver-Edition-–-Installationsanleitung.md"/>
+        <toc-element topic="Weltenverwaltung-Benutzungsanleitung.md"/>
     </toc-element>
     <toc-element topic="Templates.md">
         <toc-element topic="Templates-Benutzerdoku.topic">
@@ -1100,5 +1101,4 @@
             </toc-element>
         </toc-element>
     </toc-element>
-    <toc-element topic="Weltenverwaltung-Benutzungsanleitung.md"/>
 </instance-profile>

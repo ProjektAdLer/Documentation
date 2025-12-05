@@ -7,13 +7,13 @@
 
 Beim Erstellen von 3D-Assets für die AdLer-Engine sollten Sie folgende Punkte beachten:
 
-| Guidelines                      | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                           |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Low-Poly**                    | AdLer-Assets sollten eine simplifizierte Darstellung ihrer realen Counterparts sein.<br/>Ihre Geometrie sollte einfach, ladetechnisch unaufwendig und ohne minutiöse Details funktionieren.                                                                                                                                                                                                            |
-| **Vereinfachte Erkennbarkeit**  | AdLer-Assets sollten auf den ersten Blick verständlich sein. Es ist also wichtig, sich auf die wesentliche Formsprache des jeweiligen Objektes zu konzentrieren.<br/>Erkennbarkeit kann aber genauso durch gezielte Farbgebung erreicht werden.                                                                                                                                                        |
-| **Bevel**                       | AdLer-Assets sollten möglichst wenig harte Ecken und Kanten haben, benutzen Sie hierfür die Bevel-Option oder den zugehörigen Modifier in Blender.                                                                                                                                                                                                                                                     |
-| **Locker**                      | AdLer-Assets sollten **stilisiert**, **humorös** aber **seriös** sein.<br/> Beispiel: _"Eine Badewanne ist ein weißes, einfarbiges Objekt mit einer hellblauen Fläche darin. Die Erkennbarkeit leidet hier durch zu wenig Details. Ein Glas Wein und eine übergroße Gummiente können hier helfen. Werden sie aber zu verspielt gestaltet, gefährden Sie die Ausrichtung auf ihre Zielgruppe"_.         |
-| **Schwebend**                   | AdLer-Assets sollten wo möglich auf verbindende Elemente verzichten. <br/>Beispiel: Lampe/Lampenhalterung, Blume/Blätter, Hände/Torso, etc.<br/>Dies lässt die Objekte schwebend erscheinen und bricht die Seriosität des Lernspiels auf. Es unterstützt also mehr den Spiel- als den Lernaspekt.                                                                                                      |
+| Guidelines                      | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                          |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Low-Poly**                    | AdLer-Assets sollten eine simplifizierte Darstellung ihrer realen Counterparts sein.<br/>Ihre Geometrie sollte einfach, lade technisch unaufwendig und ohne minutiöse Details funktionieren.                                                                                                                                                                                                          |
+| **Vereinfachte Erkennbarkeit**  | AdLer-Assets sollten auf den ersten Blick verständlich sein. Es ist also wichtig, sich auf die wesentliche Formsprache des jeweiligen Objektes zu konzentrieren.<br/>Erkennbarkeit kann aber genauso durch gezielte Farbgebung erreicht werden.                                                                                                                                                       |
+| **Bevel**                       | AdLer-Assets sollten möglichst wenig harte Ecken und Kanten haben, benutzen Sie hierfür die Bevel-Option oder den zugehörigen Modifier in Blender.                                                                                                                                                                                                                                                    |
+| **Locker**                      | AdLer-Assets sollten **stilisiert**, **humorös** aber **seriös** sein.<br/> Beispiel: _"Eine Badewanne ist ein weißes, einfarbiges Objekt mit einer hellblauen Fläche darin. Die Erkennbarkeit leidet hier durch zu wenig Details. Ein Glas Wein und eine übergroße Gummiente können hier helfen. Werden sie aber zu verspielt gestaltet, gefährden Sie die Ausrichtung auf ihre Zielgruppe"_.        |
+| **Schwebend**                   | AdLer-Assets sollten wo möglich auf verbindende Elemente verzichten. <br/>Beispiel: Lampe/Lampenhalterung, Blume/Blätter, Hände/Torso, etc.<br/>Dies lässt die Objekte schwebend erscheinen und bricht die Seriosität des Lernspiels auf. Es unterstützt also mehr den Spiel- als den Lernaspekt.                                                                                                     |
 | **Einfache Farbe statt Textur** | AdLer-Assets sollten mit einfachen Farben anstatt von Texturen funktionieren. Benutzen sie eine einfache Farbpalette (wie weiter unten angegeben).<br/>Farben können hierbei benutzt werden um **Materialien** (Holz/hellbraun, Metall/Grau, Glas/hellblau, etc.) sowie die **Form des Objektes** durch Shading (dunklere Farbabstufungen, vgl. Falten in Stoff mit dunklerer Farbe) zu verdeutlichen. |
 
 Beachten sie, dass diese Punkte sich manchmal auch gegenseitig ausschließen.
@@ -134,7 +134,23 @@ Folgende Grundrisse sind vorhanden:
 | 13-Elemente | ![](image3DStyleguideTExample.png)|
 | 15-Elemente | ![](image3DStyleguideDExample.png)|
 |---|---|
-## 6. Naming
+## 6. NPCs
+
+Alle NPC's haben standardisierte Emotionsrenderings, die in den Storyelementen als zusätzlichs immersionsförderndes Element, angezeigt werden.
+
+### Auflistung der möglichen Emotionen
+
+| Angry | ![](imageNpcEmotionAngry.png)|
+| Default | ![](imageNpcEmotionDefault.png)|
+| Disappointed | ![](imageNpcEmotionDisappointed.png)|
+| Happy | ![](imageNpcEmotionHappy.png)|
+| Shocked | ![](imageNpcEmotionShocked.png)|
+| Thumbs Up | ![](imageNpcEmotionThumbsup.png)|
+| Tired | ![](imageNpcEmotionTired.png)|
+| Welcome | ![](imageNpcEmotionWelcome.png)|
+|---|---|
+
+## 7. Naming
 ### Benennung von 3D-Modellen in Blender
 Es wird zwischen verschiedenen Namings unterschieden. Naming in Blender ist nicht gleich, wie das Naming von Exporten. Dies ist so aufgrund der Übersichtlichkeit in den Programmen. Das Naming in Blender, macht die Modelle einfacher aufzubauen. Weitere Naming Konventionen werden in den folgenden Kapiteln festgelegt.
 
@@ -159,7 +175,7 @@ Es wird zwischen verschiedenen Namings unterschieden. Naming in Blender ist nich
 - 1:1 Kopien von Modellen, erhalten das Blender Standard Suffix ``.001`` (als fortlaufende Nummerierung bei Mehreren Variationen). Dies kann sinnvoll sein, wenn ein und das selbe Element in mehreren Themes Anwendung findet
 - Arrangements verschiedener Objekte zu einem gemeinsamen Objekt bekommen den Namen des titelgebenden Objekts (zentrales Objekt) mit dem Suffix ``Setup`` und den Namen bzw. Überbegriffen der sonstigen verwendeten Modelle -> Bsp.: ``tvLowboardSetupPlantsLamp``
 - Sehr ähnliche (aber nicht gleiche) Elemente werden mit einer fortlaufenden Nummerierung versehen, sofern sie keine sichtbaren und dadurch benennbaren, signifikanten Unterschiede aufweisen -> Bsp.: ``palmTree``, ``plamTree1``, ``palmTree2``. Die Nummerierung erfolgt Nullindiziert, wobei die Null um initialen Modell nicht angehängt wird.
-## 7. Naming von Assets im Repo
+## 8. Naming von Assets im Repo
 ### Allgemein
 Alle Exporte haben ein einheitliches Naming, um sie in den Repos besser finden und referenzieren zu können.
 
